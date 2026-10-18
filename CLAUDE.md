@@ -17,15 +17,14 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 
 ## Status (update at each phase close)
 
-- Phase 1 (foundations) done. Phase 2 (Core) approved, split into batches 2a, 2b and 2c. Batch 2a (engine, sample content, trainers, progress tools) is committed. Its plan is `docs/superpowers/plans/2026-10-18-phase-2a-core-engine.md`.
-- Still to check for 2a, in the browser and without screenshots (use `read_page`): Enter advances questions, the Vocabulary trainer, results and "review mistakes", Settings export/import/delete, an unknown lesson slug returning 404, and 375px plus dark mode on the new pages.
-- Next, batch 2b: about 30 B1–B2 grammar lessons and about 150 questions per Core part. Batch 2c: A2 review and C1 lessons (about 57 lessons in total), vocabulary for the 11 topics plus C1 sets, about 120 functional phrases, can-do statements B1–C1, and 300 grammar plus 300 vocabulary questions. The book unit lists are the coverage checklist. Write a plan for each batch and get approval before starting it.
+- Phase 1 (foundations) done. Phase 2 (Core) is split into batches 2a, 2b and 2c. 2a (engine, trainers, progress tools) and 2b (28 B1–B2 lessons, 31 in total; 166 grammar questions at 5+ per lesson; 175 vocabulary items across all 11 topics) are committed and browser-checked. Plans: `docs/superpowers/plans/2026-10-18-phase-2{a,b}-*.md`.
+- Next, batch 2c: A2 review and C1 lessons (about 57 lessons in total), raise each lesson to 9 questions (about 300 grammar), vocabulary entries for the 11 topics plus C1 sets, about 120 functional phrases, can-do statements B1–C1, and about 300 vocabulary items. egu coverage is 76/145. Write the plan and get approval before starting.
 - Phases 3–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
 
 - `npm run check`: typegen + tsc, eslint, vitest, content validator. Run before every commit.
-- `npm run validate:content`: Zod + cross-file checks on `content/`, prints book coverage.
+- `npm run validate:content`: Zod + cross-file checks on `content/`, prints book coverage and the Core bank size (warns below 5 questions per lesson).
 - `npx vitest run <path>`: a single test file.
 - Dev server: `.claude/launch.json` (`sello-dev`, port 3000).
 
@@ -43,6 +42,8 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 - `cacheComponents: true`: every dynamic route needs `generateStaticParams`. `dynamicParams` is unsupported, so read params inside `<Suspense>` and call `notFound()` for unknown ones.
 - Server data uses `"use cache"` + `cacheLife("max")` (content only changes on deploy).
 - `proxy.ts` replaces middleware. next-intl uses localized `pathnames`, `localeCookie: false`.
+- `notFound()` inside `<Suspense>` returns status 200 with the not-found UI and `noindex` (documented streaming behaviour), not a 404.
+- Browser checks: the in-app browser pane pauses `requestAnimationFrame` while hidden, so Suspense content never reveals there. Use the Playwright tools (snapshots or `run_code`, no screenshots) and delete `.playwright-mcp/` afterwards.
 - The next-themes "script tag" warning in dev comes from instant validation; it doesn't appear in production.
 - Tailwind 4: tokens in `src/app/globals.css` (`@theme inline`, dark mode via `data-theme`). The contrast test parses that file.
 
