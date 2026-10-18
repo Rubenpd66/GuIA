@@ -1,0 +1,130 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-formal-informal-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "vocabType": "synonym",
+      "instructions": "Each word on the left is neutral or informal. Choose the more formal word with the same meaning.",
+      "options": [
+        "purchase",
+        "obtain",
+        "require",
+        "commence",
+        "sufficient",
+        "reside",
+        "terminate",
+        "enquire",
+        "attempt",
+        "additional"
+      ],
+      "items": [
+        {
+          "id": "cv-formal-informal-synonyms-01-a",
+          "prompt": "buy",
+          "answer": 0,
+          "explanation": {
+            "en": "Purchase is the formal word for buy, common in contracts and official notices."
+          }
+        },
+        {
+          "id": "cv-formal-informal-synonyms-01-b",
+          "prompt": "get",
+          "answer": 1,
+          "explanation": {
+            "en": "Obtain is the formal equivalent of get, for example obtain a visa or permission."
+          }
+        },
+        {
+          "id": "cv-formal-informal-synonyms-01-c",
+          "prompt": "need",
+          "answer": 2,
+          "explanation": {
+            "en": "Require is a formal way to say need, often used in rules and job adverts."
+          }
+        },
+        {
+          "id": "cv-formal-informal-synonyms-01-d",
+          "prompt": "start",
+          "answer": 3,
+          "explanation": {
+            "en": "Commence is the formal word for start or begin, mostly used in writing and announcements."
+          }
+        },
+        {
+          "id": "cv-formal-informal-synonyms-01-e",
+          "prompt": "enough",
+          "answer": 4,
+          "explanation": {
+            "en": "Sufficient is the formal equivalent of enough. It is an adjective: sufficient time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-formal-informal-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "general",
+      "difficulty": 4,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence from a formal letter or notice with the best word.",
+      "options": [
+        "enquire",
+        "reside",
+        "terminate",
+        "attempt",
+        "additional",
+        "purchase",
+        "obtain",
+        "require",
+        "sufficient"
+      ],
+      "items": [
+        {
+          "id": "cv-formal-informal-usages-01-a",
+          "prompt": "I am writing to ___ about the availability of rooms during the conference.",
+          "answer": 0,
+          "explanation": {
+            "en": "Enquire (about) is the formal way to ask for information in a letter or email."
+          }
+        },
+        {
+          "id": "cv-formal-informal-usages-01-b",
+          "prompt": "Applicants must ___ in the European Union for at least five years.",
+          "answer": 1,
+          "explanation": {
+            "en": "Reside is the formal verb for live in a place, typical of legal and official texts."
+          }
+        },
+        {
+          "id": "cv-formal-informal-usages-01-c",
+          "prompt": "The agreement may be ___ by either party with thirty days' written notice.",
+          "answer": 2,
+          "explanation": {
+            "en": "Terminate is the formal verb for end, especially a contract."
+          }
+        },
+        {
+          "id": "cv-formal-informal-usages-01-d",
+          "prompt": "Please do not ___ to remove the protective cover yourself.",
+          "answer": 3,
+          "explanation": {
+            "en": "Attempt is the formal word for try, followed by to + infinitive."
+          }
+        },
+        {
+          "id": "cv-formal-informal-usages-01-e",
+          "prompt": "An ___ fee will be charged for any bag over twenty kilos.",
+          "answer": 4,
+          "explanation": {
+            "en": "Additional is the formal word for extra. The article an shows the next word starts with a vowel sound."
+          }
+        }
+      ]
+    }
+  ]
+}

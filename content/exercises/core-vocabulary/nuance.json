@@ -1,0 +1,132 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-nuance-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "general",
+      "difficulty": 4,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "reluctant",
+        "frugal",
+        "tedious",
+        "obsolete",
+        "vital",
+        "meticulous",
+        "fragile",
+        "hostile",
+        "lenient",
+        "ambiguous"
+      ],
+      "items": [
+        {
+          "id": "cv-nuance-synonyms-01-a",
+          "prompt": "unwilling",
+          "answer": 0,
+          "explanation": {
+            "en": "Reluctant means not wanting to do something, often followed by to + infinitive."
+          }
+        },
+        {
+          "id": "cv-nuance-synonyms-01-b",
+          "prompt": "thrifty",
+          "answer": 1,
+          "explanation": {
+            "en": "Frugal means careful with money and not wasteful. It is a positive or neutral word, unlike mean."
+          }
+        },
+        {
+          "id": "cv-nuance-synonyms-01-c",
+          "prompt": "monotonous",
+          "answer": 2,
+          "explanation": {
+            "en": "Tedious describes something boring because it is long or repetitive."
+          }
+        },
+        {
+          "id": "cv-nuance-synonyms-01-d",
+          "prompt": "outdated",
+          "answer": 3,
+          "explanation": {
+            "en": "Obsolete means no longer used because something newer has replaced it."
+          }
+        },
+        {
+          "id": "cv-nuance-synonyms-01-e",
+          "prompt": "crucial",
+          "answer": 4,
+          "explanation": {
+            "en": "Vital means extremely important or necessary, close to crucial."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-nuance-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "general",
+      "difficulty": 4,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "economic",
+        "economical",
+        "historical",
+        "historic",
+        "imply",
+        "infer",
+        "borrow",
+        "lend",
+        "effect",
+        "affect"
+      ],
+      "items": [
+        {
+          "id": "cv-nuance-usages-01-a",
+          "prompt": "The minister blamed the weak ___ climate for the fall in sales.",
+          "answer": 0,
+          "explanation": {
+            "en": "Economic relates to the economy. Economical means cheap to use or careful with money."
+          }
+        },
+        {
+          "id": "cv-nuance-usages-01-b",
+          "prompt": "She prefers ___ novels set in the Tudor period.",
+          "answer": 2,
+          "explanation": {
+            "en": "Historical means connected with the past. Historic means important in history, as in a historic victory."
+          }
+        },
+        {
+          "id": "cv-nuance-usages-01-c",
+          "prompt": "His tone seemed to ___ that he was unhappy with our work.",
+          "answer": 4,
+          "explanation": {
+            "en": "The speaker or the tone implies something. The listener infers it from what was said."
+          }
+        },
+        {
+          "id": "cv-nuance-usages-01-d",
+          "prompt": "Could I ___ your pen for a moment? I'll give it straight back.",
+          "answer": 6,
+          "explanation": {
+            "en": "You borrow something from someone. The other person lends it to you."
+          }
+        },
+        {
+          "id": "cv-nuance-usages-01-e",
+          "prompt": "The new medicine had no side ___ on most patients.",
+          "answer": 8,
+          "explanation": {
+            "en": "Effect is the noun (a side effect). Affect is the verb, as in it did not affect them.",
+            "es": "Effect es el sustantivo y affect el verbo."
+          }
+        }
+      ]
+    }
+  ]
+}

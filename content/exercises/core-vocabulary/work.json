@@ -302,6 +302,68 @@
           }
         }
       ]
+    },
+    {
+      "id": "cv-work-collocations-02",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 4,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "bonus",
+        "notice",
+        "ladder",
+        "pension",
+        "balance",
+        "curve",
+        "vacancy",
+        "priorities",
+        "tribunal"
+      ],
+      "items": [
+        {
+          "id": "cv-work-collocations-02-a",
+          "prompt": "climb the corporate …",
+          "answer": 2,
+          "explanation": {
+            "en": "Climb the corporate ladder means to move up through the levels of a company."
+          }
+        },
+        {
+          "id": "cv-work-collocations-02-b",
+          "prompt": "hand in your …",
+          "answer": 1,
+          "explanation": {
+            "en": "You hand in your notice when you formally tell your employer that you are leaving."
+          }
+        },
+        {
+          "id": "cv-work-collocations-02-c",
+          "prompt": "juggle competing …",
+          "answer": 7,
+          "explanation": {
+            "en": "Juggle competing priorities means to manage several important demands at the same time."
+          }
+        },
+        {
+          "id": "cv-work-collocations-02-d",
+          "prompt": "a steep learning …",
+          "answer": 5,
+          "explanation": {
+            "en": "A steep learning curve is a situation in which you have to learn a lot very quickly."
+          }
+        },
+        {
+          "id": "cv-work-collocations-02-e",
+          "prompt": "strike a work-life …",
+          "answer": 4,
+          "explanation": {
+            "en": "Strike a balance means to find a fair mix between two things, here work and private life."
+          }
+        }
+      ]
     }
   ]
 }

@@ -194,6 +194,68 @@
           }
         }
       ]
+    },
+    {
+      "id": "cv-health-sport-synonyms-02",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "contagious",
+        "chronic",
+        "recuperate",
+        "sedentary",
+        "endurance",
+        "detrimental",
+        "remission",
+        "deteriorate",
+        "acute"
+      ],
+      "items": [
+        {
+          "id": "cv-health-sport-synonyms-02-a",
+          "prompt": "worsen",
+          "answer": 7,
+          "explanation": {
+            "en": "Deteriorate is a more formal word for get worse, often used for health or conditions."
+          }
+        },
+        {
+          "id": "cv-health-sport-synonyms-02-b",
+          "prompt": "recover",
+          "answer": 2,
+          "explanation": {
+            "en": "To recuperate is to get better after an illness or an operation."
+          }
+        },
+        {
+          "id": "cv-health-sport-synonyms-02-c",
+          "prompt": "long-term",
+          "answer": 1,
+          "explanation": {
+            "en": "A chronic condition lasts a long time. Acute is its opposite: severe but short."
+          }
+        },
+        {
+          "id": "cv-health-sport-synonyms-02-d",
+          "prompt": "harmful",
+          "answer": 5,
+          "explanation": {
+            "en": "Detrimental means causing damage, and it is followed by to: detrimental to your health."
+          }
+        },
+        {
+          "id": "cv-health-sport-synonyms-02-e",
+          "prompt": "stamina",
+          "answer": 4,
+          "explanation": {
+            "en": "Endurance is the ability to keep going for a long time, as stamina is."
+          }
+        }
+      ]
     }
   ]
 }

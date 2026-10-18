@@ -1,0 +1,133 @@
+{
+  "kind": "functional-language",
+  "items": [
+    {
+      "id": "fl-opinion-01",
+      "function": "opinion",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "In my opinion, …",
+      "example": "In my opinion, the town centre needs more cycle lanes.",
+      "note": {
+        "en": "Safe in speaking and writing. Do not say 'in my opinion' and 'I think' together.",
+        "es": "Sirve para hablar y escribir. No lo mezcles con «I think» en la misma frase."
+      }
+    },
+    {
+      "id": "fl-opinion-02",
+      "function": "opinion",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "I'd say that …",
+      "example": "I'd say that working from home suits most people better than commuting.",
+      "note": {
+        "en": "A relaxed way to give a view in conversation.",
+        "es": "Forma relajada de dar tu opinión al hablar."
+      }
+    },
+    {
+      "id": "fl-opinion-03",
+      "function": "opinion",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Personally, I think …",
+      "example": "Personally, I think online lessons are less tiring than evening classes."
+    },
+    {
+      "id": "fl-opinion-04",
+      "function": "opinion",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "I really feel that …",
+      "example": "I really feel that our flat is too small for three people."
+    },
+    {
+      "id": "fl-opinion-05",
+      "function": "opinion",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "If you ask me, …",
+      "example": "If you ask me, the bus service has got worse since the new timetable.",
+      "note": {
+        "en": "Chatty and a little blunt. Avoid it in a formal email.",
+        "es": "Coloquial y algo directo. Evítalo en un email formal."
+      }
+    },
+    {
+      "id": "fl-opinion-06",
+      "function": "opinion",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "As far as I'm concerned, …",
+      "example": "As far as I'm concerned, a four-day week would improve everyone's health.",
+      "note": {
+        "en": "Firm opinion about your own position, not a fact.",
+        "es": "Expresa tu postura personal con firmeza, no un hecho."
+      }
+    },
+    {
+      "id": "fl-opinion-07",
+      "function": "opinion",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "From my point of view, …",
+      "example": "From my point of view, the museum should stay free for students."
+    },
+    {
+      "id": "fl-opinion-08",
+      "function": "opinion",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "I'm convinced that …",
+      "example": "I'm convinced that recycling schemes work best when they are simple."
+    },
+    {
+      "id": "fl-opinion-09",
+      "function": "opinion",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "It strikes me that …",
+      "example": "It strikes me that the proposal ignores the needs of older residents.",
+      "note": {
+        "en": "Introduces an impression you have reached after thinking.",
+        "es": "Introduce una impresión a la que has llegado tras reflexionar."
+      }
+    },
+    {
+      "id": "fl-opinion-10",
+      "function": "opinion",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "To my mind, …",
+      "example": "To my mind, the greatest risk of social media is the loss of attention.",
+      "note": {
+        "en": "Slightly literary. Not 'in my mind'.",
+        "es": "Algo literario. Es «to my mind», no «in my mind»."
+      }
+    },
+    {
+      "id": "fl-opinion-11",
+      "function": "opinion",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "I am inclined to believe that …",
+      "example": "I am inclined to believe that the survey results were affected by the wording of the questions.",
+      "note": {
+        "en": "Gives an opinion while sounding open to other views.",
+        "es": "Da tu opinión dejando margen a otras posturas."
+      }
+    },
+    {
+      "id": "fl-opinion-12",
+      "function": "opinion",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "I'd go so far as to say that …",
+      "example": "I'd go so far as to say that this app has changed how we organise the office.",
+      "note": {
+        "en": "Makes a strong claim stronger.",
+        "es": "Refuerza una afirmación ya fuerte."
+      }
+    }
+  ]
+}

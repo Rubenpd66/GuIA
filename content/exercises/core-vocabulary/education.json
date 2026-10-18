@@ -192,6 +192,68 @@
           }
         }
       ]
+    },
+    {
+      "id": "cv-education-collocations-02",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "education",
+      "difficulty": 4,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "curriculum",
+        "review",
+        "requirements",
+        "attendance",
+        "fees",
+        "grant",
+        "thinking",
+        "ceremony",
+        "seminar"
+      ],
+      "items": [
+        {
+          "id": "cv-education-collocations-02-a",
+          "prompt": "meet the entry …",
+          "answer": 2,
+          "explanation": {
+            "en": "Entry requirements are the conditions you must meet to be accepted on a course."
+          }
+        },
+        {
+          "id": "cv-education-collocations-02-b",
+          "prompt": "foster critical …",
+          "answer": 6,
+          "explanation": {
+            "en": "Critical thinking is the ability to analyse and question ideas carefully."
+          }
+        },
+        {
+          "id": "cv-education-collocations-02-c",
+          "prompt": "apply for a research …",
+          "answer": 5,
+          "explanation": {
+            "en": "A research grant is money given to fund a particular study."
+          }
+        },
+        {
+          "id": "cv-education-collocations-02-d",
+          "prompt": "raise tuition …",
+          "answer": 4,
+          "explanation": {
+            "en": "Tuition fees are the money students pay for teaching."
+          }
+        },
+        {
+          "id": "cv-education-collocations-02-e",
+          "prompt": "a rigorous peer …",
+          "answer": 1,
+          "explanation": {
+            "en": "Peer review is the checking of academic work by other experts before it is published."
+          }
+        }
+      ]
     }
   ]
 }

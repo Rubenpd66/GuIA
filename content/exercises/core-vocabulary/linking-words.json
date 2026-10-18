@@ -1,0 +1,130 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-linking-words-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "therefore",
+        "unless",
+        "whereas",
+        "so that",
+        "otherwise",
+        "nevertheless",
+        "owing to",
+        "in case",
+        "as soon as",
+        "provided that"
+      ],
+      "items": [
+        {
+          "id": "cv-linking-words-synonyms-01-a",
+          "prompt": "however",
+          "answer": 5,
+          "explanation": {
+            "en": "Nevertheless is a more formal word for however: it introduces a contrast with what was just said."
+          }
+        },
+        {
+          "id": "cv-linking-words-synonyms-01-b",
+          "prompt": "consequently",
+          "answer": 0,
+          "explanation": {
+            "en": "Therefore and consequently both introduce a result of what was just said."
+          }
+        },
+        {
+          "id": "cv-linking-words-synonyms-01-c",
+          "prompt": "because of",
+          "answer": 6,
+          "explanation": {
+            "en": "Owing to is a formal way to say because of. It is followed by a noun phrase."
+          }
+        },
+        {
+          "id": "cv-linking-words-synonyms-01-d",
+          "prompt": "as long as",
+          "answer": 9,
+          "explanation": {
+            "en": "Provided that and as long as both introduce a condition that must be true."
+          }
+        },
+        {
+          "id": "cv-linking-words-synonyms-01-e",
+          "prompt": "while (showing a contrast)",
+          "answer": 2,
+          "explanation": {
+            "en": "Whereas compares two different things in one sentence, like while in its contrast meaning."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-linking-words-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "general",
+      "difficulty": 4,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "despite",
+        "owing to",
+        "in case",
+        "unless",
+        "so as to",
+        "whereas",
+        "even though",
+        "provided that",
+        "as soon as"
+      ],
+      "items": [
+        {
+          "id": "cv-linking-words-usages-01-a",
+          "prompt": "The match went ahead as planned ___ the heavy rain.",
+          "answer": 0,
+          "explanation": {
+            "en": "Despite introduces a contrast and is followed by a noun phrase: it went ahead even though it rained."
+          }
+        },
+        {
+          "id": "cv-linking-words-usages-01-b",
+          "prompt": "Her train was cancelled ___ a signal failure.",
+          "answer": 1,
+          "explanation": {
+            "en": "Owing to gives a reason and is followed by a noun phrase."
+          }
+        },
+        {
+          "id": "cv-linking-words-usages-01-c",
+          "prompt": "I always carry a spare key ___ I get locked out.",
+          "answer": 2,
+          "explanation": {
+            "en": "In case is for a precaution against something that might happen. It is not the same as if."
+          }
+        },
+        {
+          "id": "cv-linking-words-usages-01-d",
+          "prompt": "Visitors may not enter the laboratory ___ they are wearing protective glasses.",
+          "answer": 3,
+          "explanation": {
+            "en": "Unless means if not: entry is allowed only when they wear the glasses."
+          }
+        },
+        {
+          "id": "cv-linking-words-usages-01-e",
+          "prompt": "He spoke slowly ___ be understood by everyone in the room.",
+          "answer": 4,
+          "explanation": {
+            "en": "So as to + infinitive expresses purpose. Even though and whereas must be followed by a clause."
+          }
+        }
+      ]
+    }
+  ]
+}

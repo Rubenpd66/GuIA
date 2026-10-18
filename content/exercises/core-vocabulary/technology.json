@@ -192,6 +192,68 @@
           }
         }
       ]
+    },
+    {
+      "id": "cv-technology-collocations-02",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "technology",
+      "difficulty": 4,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "firewall",
+        "innovation",
+        "glitch",
+        "malware",
+        "storage",
+        "bandwidth",
+        "encryption",
+        "hacker",
+        "interface"
+      ],
+      "items": [
+        {
+          "id": "cv-technology-collocations-02-a",
+          "prompt": "end-to-end …",
+          "answer": 6,
+          "explanation": {
+            "en": "End-to-end encryption means that only the sender and the receiver can read a message."
+          }
+        },
+        {
+          "id": "cv-technology-collocations-02-b",
+          "prompt": "a technical …",
+          "answer": 2,
+          "explanation": {
+            "en": "A technical glitch is a small fault that stops a system working properly."
+          }
+        },
+        {
+          "id": "cv-technology-collocations-02-c",
+          "prompt": "cloud …",
+          "answer": 4,
+          "explanation": {
+            "en": "Cloud storage keeps your files on remote servers instead of on your own device."
+          }
+        },
+        {
+          "id": "cv-technology-collocations-02-d",
+          "prompt": "a user-friendly …",
+          "answer": 8,
+          "explanation": {
+            "en": "The interface is what the user sees and uses, so it can be user-friendly."
+          }
+        },
+        {
+          "id": "cv-technology-collocations-02-e",
+          "prompt": "a disruptive …",
+          "answer": 1,
+          "explanation": {
+            "en": "A disruptive innovation changes a market or an industry in a major way."
+          }
+        }
+      ]
     }
   ]
 }

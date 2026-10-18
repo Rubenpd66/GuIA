@@ -190,6 +190,68 @@
           }
         }
       ]
+    },
+    {
+      "id": "cv-environment-collocations-02",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "environment",
+      "difficulty": 4,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "shortage",
+        "targets",
+        "landscape",
+        "extinction",
+        "quality",
+        "awareness",
+        "deforestation",
+        "temperature",
+        "resources"
+      ],
+      "items": [
+        {
+          "id": "cv-environment-collocations-02-a",
+          "prompt": "a mass …",
+          "answer": 3,
+          "explanation": {
+            "en": "A mass extinction is an event in which a very large number of species die out."
+          }
+        },
+        {
+          "id": "cv-environment-collocations-02-b",
+          "prompt": "meet emissions …",
+          "answer": 1,
+          "explanation": {
+            "en": "Governments and companies meet or miss targets for reducing emissions."
+          }
+        },
+        {
+          "id": "cv-environment-collocations-02-c",
+          "prompt": "deplete natural …",
+          "answer": 8,
+          "explanation": {
+            "en": "To deplete natural resources is to use them up until little is left."
+          }
+        },
+        {
+          "id": "cv-environment-collocations-02-d",
+          "prompt": "combat widespread …",
+          "answer": 6,
+          "explanation": {
+            "en": "To combat deforestation is to fight the large-scale cutting down of forests."
+          }
+        },
+        {
+          "id": "cv-environment-collocations-02-e",
+          "prompt": "improve air …",
+          "answer": 4,
+          "explanation": {
+            "en": "Air quality describes how clean or polluted the air is."
+          }
+        }
+      ]
     }
   ]
 }

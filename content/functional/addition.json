@@ -1,0 +1,129 @@
+{
+  "kind": "functional-language",
+  "items": [
+    {
+      "id": "fl-addition-01",
+      "function": "addition",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Also, …",
+      "example": "I love the new gym. Also, it opens until midnight.",
+      "note": {
+        "en": "Fine in speaking; in formal writing prefer 'In addition'.",
+        "es": "Vale al hablar; en escritos formales mejor «In addition»."
+      }
+    },
+    {
+      "id": "fl-addition-02",
+      "function": "addition",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "In addition, …",
+      "example": "The course is cheap. In addition, the teachers are very friendly."
+    },
+    {
+      "id": "fl-addition-03",
+      "function": "addition",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "… as well as …",
+      "example": "The flat has a balcony as well as a small garden.",
+      "note": {
+        "en": "Followed by a noun or an -ing form.",
+        "es": "Va seguido de un sustantivo o de una forma en -ing."
+      }
+    },
+    {
+      "id": "fl-addition-04",
+      "function": "addition",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "What's more, …",
+      "example": "The tickets are cheap, and what's more, they include breakfast."
+    },
+    {
+      "id": "fl-addition-05",
+      "function": "addition",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "On top of that, …",
+      "example": "The train was late. On top of that, it started to rain.",
+      "note": {
+        "en": "Often adds one more problem.",
+        "es": "Suele añadir un problema más."
+      }
+    },
+    {
+      "id": "fl-addition-06",
+      "function": "addition",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Besides, …",
+      "example": "I don't want to drive into town. Besides, parking costs a fortune.",
+      "note": {
+        "en": "Adds a further reason. Not the same as 'beside' (next to).",
+        "es": "Añade otra razón. No es «beside» (al lado de)."
+      }
+    },
+    {
+      "id": "fl-addition-07",
+      "function": "addition",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Not only …, but also …",
+      "example": "Not only is the app free, but it also works without an internet connection.",
+      "note": {
+        "en": "After 'Not only' at the start, invert the verb.",
+        "es": "Si empieza la frase con «Not only», invierte el verbo."
+      }
+    },
+    {
+      "id": "fl-addition-08",
+      "function": "addition",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "Furthermore, …",
+      "example": "The office is easy to reach. Furthermore, it has free parking for staff."
+    },
+    {
+      "id": "fl-addition-09",
+      "function": "addition",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "Moreover, …",
+      "example": "The scheme reduces traffic. Moreover, it improves air quality in the centre."
+    },
+    {
+      "id": "fl-addition-10",
+      "function": "addition",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "In addition to this, …",
+      "example": "In addition to this, I would be grateful if you could send me the full programme.",
+      "note": {
+        "en": "Handy in the formal email to add a second request.",
+        "es": "Útil en el email formal para añadir una segunda petición."
+      }
+    },
+    {
+      "id": "fl-addition-11",
+      "function": "addition",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "…, not to mention …",
+      "example": "The festival attracts thousands of tourists, not to mention hundreds of volunteers.",
+      "note": {
+        "en": "Adds something even bigger or more surprising.",
+        "es": "Añade algo aún más grande o sorprendente."
+      }
+    },
+    {
+      "id": "fl-addition-12",
+      "function": "addition",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "Equally important, …",
+      "example": "Equally important, staff should be given time to learn the new system."
+    }
+  ]
+}

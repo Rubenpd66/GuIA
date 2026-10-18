@@ -1,0 +1,117 @@
+{
+  "kind": "functional-language",
+  "items": [
+    {
+      "id": "fl-buying-time-01",
+      "function": "buying-time",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Let me think …",
+      "example": "Let me think … I'd probably choose the quieter café.",
+      "note": {
+        "en": "Better than a long silence in Speaking.",
+        "es": "Mejor que un silencio largo en Speaking."
+      }
+    },
+    {
+      "id": "fl-buying-time-02",
+      "function": "buying-time",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Well, …",
+      "example": "Well, I usually go to the gym after work, but it depends on the day."
+    },
+    {
+      "id": "fl-buying-time-03",
+      "function": "buying-time",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "That's a good question.",
+      "example": "That's a good question. I haven't decided where to go on holiday yet."
+    },
+    {
+      "id": "fl-buying-time-04",
+      "function": "buying-time",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Let me see …",
+      "example": "Let me see … I think I last visited my cousins in March."
+    },
+    {
+      "id": "fl-buying-time-05",
+      "function": "buying-time",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Give me a moment to think about that.",
+      "example": "Give me a moment to think about that. I'd like to give you a proper answer."
+    },
+    {
+      "id": "fl-buying-time-06",
+      "function": "buying-time",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "How can I put it? …",
+      "example": "How can I put it? The job is interesting, but the pay isn't great.",
+      "note": {
+        "en": "Use when you are searching for the right words.",
+        "es": "Úsalo cuando buscas las palabras adecuadas."
+      }
+    },
+    {
+      "id": "fl-buying-time-07",
+      "function": "buying-time",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "I haven't really thought about that, but …",
+      "example": "I haven't really thought about that, but I suppose public transport would be cheaper."
+    },
+    {
+      "id": "fl-buying-time-08",
+      "function": "buying-time",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "What I mean is, …",
+      "example": "What I mean is, people don't have time to cook every day."
+    },
+    {
+      "id": "fl-buying-time-09",
+      "function": "buying-time",
+      "level": "C1",
+      "register": "informal",
+      "phrase": "That's a tricky one, …",
+      "example": "That's a tricky one, but I'd lean towards working from home.",
+      "note": {
+        "en": "Shows you are weighing the answer before you give it.",
+        "es": "Muestra que estás sopesando la respuesta antes de darla."
+      }
+    },
+    {
+      "id": "fl-buying-time-10",
+      "function": "buying-time",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "It's not easy to put into words, but …",
+      "example": "It's not easy to put into words, but the city felt both exciting and calm."
+    },
+    {
+      "id": "fl-buying-time-11",
+      "function": "buying-time",
+      "level": "C1",
+      "register": "informal",
+      "phrase": "Off the top of my head, …",
+      "example": "Off the top of my head, I'd say about two hundred people came.",
+      "note": {
+        "en": "You give a quick answer without checking.",
+        "es": "Das una respuesta rápida sin comprobarla."
+      }
+    },
+    {
+      "id": "fl-buying-time-12",
+      "function": "buying-time",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "If I could just consider that for a moment, …",
+      "example": "If I could just consider that for a moment, I believe the second option is more realistic."
+    }
+  ]
+}

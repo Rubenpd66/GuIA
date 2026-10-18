@@ -1,0 +1,248 @@
+{
+  "kind": "can-do",
+  "items": [
+    {
+      "id": "cd-b1-spoken-interaction-1",
+      "level": "B1",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can answer personal questions about my routine, studies, work and free time with two or three connected sentences instead of one-word replies.",
+        "es": "Puedo responder a preguntas personales sobre mi rutina, estudios, trabajo y tiempo libre con dos o tres frases enlazadas, en lugar de respuestas de una palabra."
+      },
+      "links": {
+        "lessons": [
+          "present-simple-vs-continuous",
+          "present-perfect-vs-past-simple"
+        ],
+        "parts": ["speaking-1"]
+      }
+    },
+    {
+      "id": "cd-b1-spoken-interaction-2",
+      "level": "B1",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can ask politely for information or ask someone to repeat or explain something I did not catch.",
+        "es": "Puedo pedir información con educación o pedir que me repitan o me aclaren algo que no he entendido."
+      },
+      "links": {
+        "lessons": ["indirect-questions"],
+        "parts": []
+      }
+    },
+    {
+      "id": "cd-b1-spoken-interaction-3",
+      "level": "B1",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can agree, disagree or make a simple suggestion and give one clear reason when we talk about a plan or an everyday choice.",
+        "es": "Puedo mostrar acuerdo o desacuerdo, o hacer una sugerencia sencilla, y dar un motivo claro cuando hablamos de un plan o de una decisión cotidiana."
+      },
+      "links": {
+        "lessons": ["advice-should-had-better"],
+        "parts": ["speaking-3"]
+      }
+    },
+    {
+      "id": "cd-b1-spoken-production-1",
+      "level": "B1",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can describe a photo by saying who and what I can see, where it is and what the people are doing.",
+        "es": "Puedo describir una foto diciendo quién y qué se ve, dónde está y qué está haciendo la gente."
+      },
+      "links": {
+        "lessons": [
+          "present-simple-vs-continuous",
+          "prepositions-of-place-and-movement"
+        ],
+        "parts": ["speaking-2"]
+      }
+    },
+    {
+      "id": "cd-b1-spoken-production-2",
+      "level": "B1",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can tell a short story about something that happened to me, putting the events in order and saying how I felt.",
+        "es": "Puedo contar una historia breve de algo que me pasó, poniendo los hechos en orden y diciendo cómo me sentí."
+      },
+      "links": {
+        "lessons": ["past-simple-vs-continuous", "used-to-and-get-used-to"],
+        "parts": ["speaking-1", "speaking-2"]
+      }
+    },
+    {
+      "id": "cd-b1-spoken-production-3",
+      "level": "B1",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can speak for about a minute on a familiar topic, giving my opinion with one or two simple reasons.",
+        "es": "Puedo hablar durante aproximadamente un minuto sobre un tema conocido, dando mi opinión con uno o dos motivos sencillos."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["speaking-3", "speaking-4"]
+      }
+    },
+    {
+      "id": "cd-b1-listening-1",
+      "level": "B1",
+      "skill": "listening",
+      "text": {
+        "en": "I can pick out times, places, prices and numbers in short announcements and phone messages spoken at a normal speed.",
+        "es": "Puedo captar horas, lugares, precios y números en anuncios breves y mensajes de teléfono dichos a velocidad normal."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["listening-1"]
+      }
+    },
+    {
+      "id": "cd-b1-listening-2",
+      "level": "B1",
+      "skill": "listening",
+      "text": {
+        "en": "I can match short monologues by different speakers to the information each one gives about plans, problems or everyday news.",
+        "es": "Puedo relacionar monólogos breves de distintas personas con la información que da cada una sobre planes, problemas o noticias cotidianas."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["listening-2"]
+      }
+    },
+    {
+      "id": "cd-b1-listening-3",
+      "level": "B1",
+      "skill": "listening",
+      "text": {
+        "en": "I can tell whether a speaker likes or dislikes something when the opinion is stated clearly in a short talk.",
+        "es": "Puedo saber si a un hablante le gusta o no algo cuando su opinión se dice con claridad en una charla breve."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["listening-3"]
+      }
+    },
+    {
+      "id": "cd-b1-reading-1",
+      "level": "B1",
+      "skill": "reading",
+      "text": {
+        "en": "I can understand short notices, messages and emails about everyday matters and choose the sentence that fits the gap or the meaning.",
+        "es": "Puedo entender avisos, mensajes y correos breves sobre asuntos cotidianos y elegir la frase que encaja con el hueco o con el significado."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["reading-1"]
+      }
+    },
+    {
+      "id": "cd-b1-reading-2",
+      "level": "B1",
+      "skill": "reading",
+      "text": {
+        "en": "I can put the sentences of a simple text in a logical order by following time words, linkers and pronouns.",
+        "es": "Puedo ordenar lógicamente las frases de un texto sencillo siguiendo las expresiones de tiempo, los conectores y los pronombres."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["reading-2"]
+      }
+    },
+    {
+      "id": "cd-b1-reading-3",
+      "level": "B1",
+      "skill": "reading",
+      "text": {
+        "en": "I can read short texts by four people and decide which person expresses each opinion.",
+        "es": "Puedo leer textos breves de cuatro personas y decidir quién expresa cada opinión."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["reading-3"]
+      }
+    },
+    {
+      "id": "cd-b1-writing-1",
+      "level": "B1",
+      "skill": "writing",
+      "text": {
+        "en": "I can fill in a form with correct personal details and write a few short, clear sentences about myself.",
+        "es": "Puedo rellenar un formulario con mis datos personales correctos y escribir unas frases cortas y claras sobre mí."
+      },
+      "links": {
+        "lessons": ["be-and-have-got"],
+        "parts": ["writing-1", "writing-2"]
+      }
+    },
+    {
+      "id": "cd-b1-writing-2",
+      "level": "B1",
+      "skill": "writing",
+      "text": {
+        "en": "I can answer a question in an online chat in two or three sentences, giving my view and one reason with because or so.",
+        "es": "Puedo contestar una pregunta en un chat en dos o tres frases, dando mi opinión y un motivo con because o so."
+      },
+      "links": {
+        "lessons": ["condition-and-purpose-linkers"],
+        "parts": ["writing-3"]
+      }
+    },
+    {
+      "id": "cd-b1-writing-3",
+      "level": "B1",
+      "skill": "writing",
+      "text": {
+        "en": "I can write an informal email of about 40 words to a friend, saying what I did and inviting them to join me.",
+        "es": "Puedo escribir un correo informal de unas 40 palabras a un amigo, contando qué hice e invitándole a venir conmigo."
+      },
+      "links": {
+        "lessons": [
+          "past-simple-vs-continuous",
+          "present-perfect-vs-past-simple"
+        ],
+        "parts": ["writing-4"]
+      }
+    },
+    {
+      "id": "cd-b1-strategies-1",
+      "level": "B1",
+      "skill": "strategies",
+      "text": {
+        "en": "I can read the instructions and the questions first and underline key words so that I know what to listen or look for.",
+        "es": "Puedo leer primero las instrucciones y las preguntas y subrayar las palabras clave para saber qué debo escuchar o buscar."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["reading-1", "listening-1"]
+      }
+    },
+    {
+      "id": "cd-b1-strategies-2",
+      "level": "B1",
+      "skill": "strategies",
+      "text": {
+        "en": "I can leave a difficult Core question, move on and come back to it, so I never run out of time on easy items.",
+        "es": "Puedo dejar una pregunta difícil del Core, seguir adelante y volver a ella, para no quedarme sin tiempo en las preguntas fáciles."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["core-grammar", "core-vocabulary"]
+      }
+    },
+    {
+      "id": "cd-b1-strategies-3",
+      "level": "B1",
+      "skill": "strategies",
+      "text": {
+        "en": "I can keep talking when I do not know a word by explaining it with simpler words, such as it is a kind of or it is used for.",
+        "es": "Puedo seguir hablando cuando no sé una palabra, explicándola con otras más sencillas, como it is a kind of o it is used for."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["speaking-2", "speaking-3"]
+      }
+    }
+  ]
+}

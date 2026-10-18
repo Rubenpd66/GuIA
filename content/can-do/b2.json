@@ -1,0 +1,239 @@
+{
+  "kind": "can-do",
+  "items": [
+    {
+      "id": "cd-b2-spoken-interaction-1",
+      "level": "B2",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can keep a conversation going by reacting to what I hear and asking follow-up questions, without long silences.",
+        "es": "Puedo mantener una conversación reaccionando a lo que oigo y haciendo preguntas de seguimiento, sin silencios largos."
+      },
+      "links": {
+        "lessons": ["question-tags-and-short-answers"],
+        "parts": []
+      }
+    },
+    {
+      "id": "cd-b2-spoken-interaction-2",
+      "level": "B2",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can disagree politely, accept a fair point from the other person and still explain why I hold my view.",
+        "es": "Puedo discrepar con educación, admitir un punto razonable del otro y aun así explicar por qué mantengo mi opinión."
+      },
+      "links": {
+        "lessons": ["contrast-and-concession"],
+        "parts": ["speaking-3", "speaking-4"]
+      }
+    },
+    {
+      "id": "cd-b2-spoken-interaction-3",
+      "level": "B2",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can speculate about why something happened or what might happen next, and justify my guess.",
+        "es": "Puedo hacer conjeturas sobre por qué ha pasado algo o qué puede pasar después, y justificarlas."
+      },
+      "links": {
+        "lessons": ["modals-of-deduction", "past-modals"],
+        "parts": ["speaking-3"]
+      }
+    },
+    {
+      "id": "cd-b2-spoken-production-1",
+      "level": "B2",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can describe a photo in detail, including the atmosphere, and guess what is happening outside the frame.",
+        "es": "Puedo describir una foto con detalle, incluido el ambiente, y suponer lo que ocurre fuera del encuadre."
+      },
+      "links": {
+        "lessons": ["modals-of-deduction"],
+        "parts": ["speaking-2"]
+      }
+    },
+    {
+      "id": "cd-b2-spoken-production-2",
+      "level": "B2",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can compare two photos or situations, say which I prefer and support my choice with clear reasons.",
+        "es": "Puedo comparar dos fotos o situaciones, decir cuál prefiero y apoyar mi elección con razones claras."
+      },
+      "links": {
+        "lessons": ["comparatives-superlatives"],
+        "parts": ["speaking-3"]
+      }
+    },
+    {
+      "id": "cd-b2-spoken-production-3",
+      "level": "B2",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can speak for two minutes on an abstract topic with an introduction, two developed arguments and a conclusion.",
+        "es": "Puedo hablar dos minutos sobre un tema abstracto con una introducción, dos argumentos desarrollados y una conclusión."
+      },
+      "links": {
+        "lessons": ["formal-discourse-markers"],
+        "parts": ["speaking-4"]
+      }
+    },
+    {
+      "id": "cd-b2-listening-1",
+      "level": "B2",
+      "skill": "listening",
+      "text": {
+        "en": "I can understand informal speech with contractions and linked words, and still catch the key detail in a short message.",
+        "es": "Puedo entender el habla informal con contracciones y palabras unidas, y aun así captar el dato clave de un mensaje breve."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["listening-1", "listening-2"]
+      }
+    },
+    {
+      "id": "cd-b2-listening-2",
+      "level": "B2",
+      "skill": "listening",
+      "text": {
+        "en": "I can recognise a speaker's attitude, such as doubt, enthusiasm or disappointment, from the words and the tone of voice.",
+        "es": "Puedo reconocer la actitud de un hablante, como duda, entusiasmo o decepción, por las palabras y el tono de voz."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["listening-3"]
+      }
+    },
+    {
+      "id": "cd-b2-listening-3",
+      "level": "B2",
+      "skill": "listening",
+      "text": {
+        "en": "I can follow a talk of about two minutes and note the speaker's main arguments for and against.",
+        "es": "Puedo seguir una charla de unos dos minutos y anotar los principales argumentos a favor y en contra."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["listening-4"]
+      }
+    },
+    {
+      "id": "cd-b2-reading-1",
+      "level": "B2",
+      "skill": "reading",
+      "text": {
+        "en": "I can use reference words and linkers, such as this, however and as a result, to rebuild the order of a text.",
+        "es": "Puedo usar palabras de referencia y conectores, como this, however y as a result, para reconstruir el orden de un texto."
+      },
+      "links": {
+        "lessons": ["contrast-and-concession"],
+        "parts": ["reading-2"]
+      }
+    },
+    {
+      "id": "cd-b2-reading-2",
+      "level": "B2",
+      "skill": "reading",
+      "text": {
+        "en": "I can tell the difference between a writer's opinion and the facts that support it in several short opinion texts.",
+        "es": "Puedo distinguir entre la opinión de un autor y los hechos que la respaldan en varios textos breves de opinión."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["reading-3"]
+      }
+    },
+    {
+      "id": "cd-b2-reading-3",
+      "level": "B2",
+      "skill": "reading",
+      "text": {
+        "en": "I can match headings to the paragraphs of a long article, separating the main idea from examples and side details.",
+        "es": "Puedo emparejar títulos con los párrafos de un artículo largo, separando la idea principal de los ejemplos y los detalles secundarios."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["reading-4"]
+      }
+    },
+    {
+      "id": "cd-b2-writing-1",
+      "level": "B2",
+      "skill": "writing",
+      "text": {
+        "en": "I can answer chat questions with a clear opinion and a contrast, using although or whereas, in about 40 words each.",
+        "es": "Puedo responder a preguntas de un chat con una opinión clara y un contraste, usando although o whereas, en unas 40 palabras cada una."
+      },
+      "links": {
+        "lessons": ["contrast-and-concession"],
+        "parts": ["writing-3"]
+      }
+    },
+    {
+      "id": "cd-b2-writing-2",
+      "level": "B2",
+      "skill": "writing",
+      "text": {
+        "en": "I can write an informal email of about 50 words that tells news, reports what someone said and gives friendly advice.",
+        "es": "Puedo escribir un correo informal de unas 50 palabras que cuente novedades, transmita lo que alguien dijo y dé un consejo amistoso."
+      },
+      "links": {
+        "lessons": ["reported-speech", "advice-should-had-better"],
+        "parts": ["writing-4"]
+      }
+    },
+    {
+      "id": "cd-b2-writing-3",
+      "level": "B2",
+      "skill": "writing",
+      "text": {
+        "en": "I can write a formal email of 120 to 150 words, such as a complaint or a request, in clear paragraphs and a suitable tone.",
+        "es": "Puedo escribir un correo formal de 120 a 150 palabras, como una queja o una petición, en párrafos claros y con un tono adecuado."
+      },
+      "links": {
+        "lessons": ["formal-discourse-markers", "indirect-questions"],
+        "parts": ["writing-4"]
+      }
+    },
+    {
+      "id": "cd-b2-strategies-1",
+      "level": "B2",
+      "skill": "strategies",
+      "text": {
+        "en": "I can use the question stems to predict what I will hear before the recording starts and listen for those ideas.",
+        "es": "Puedo usar el enunciado de las preguntas para anticipar lo que voy a oír antes de que empiece la grabación y escuchar buscando esas ideas."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["listening-3", "listening-4"]
+      }
+    },
+    {
+      "id": "cd-b2-strategies-2",
+      "level": "B2",
+      "skill": "strategies",
+      "text": {
+        "en": "I can choose between similar words by checking collocations and the rest of the sentence instead of translating.",
+        "es": "Puedo elegir entre palabras parecidas fijándome en las colocaciones y en el resto de la frase, en lugar de traducir."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["core-vocabulary"]
+      }
+    },
+    {
+      "id": "cd-b2-strategies-3",
+      "level": "B2",
+      "skill": "strategies",
+      "text": {
+        "en": "I can use the last minute of a writing task to check my articles, verb tenses and prepositions against the mistakes I usually make.",
+        "es": "Puedo usar el último minuto de una tarea de escritura para revisar artículos, tiempos verbales y preposiciones, según mis errores habituales."
+      },
+      "links": {
+        "lessons": ["articles", "verb-prepositions"],
+        "parts": ["writing-3", "writing-4"]
+      }
+    }
+  ]
+}

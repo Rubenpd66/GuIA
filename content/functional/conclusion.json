@@ -1,0 +1,121 @@
+{
+  "kind": "functional-language",
+  "items": [
+    {
+      "id": "fl-conclusion-01",
+      "function": "conclusion",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "In conclusion, …",
+      "example": "In conclusion, I believe the new rules will help local shops.",
+      "note": {
+        "en": "Opens the last paragraph of an essay or letter.",
+        "es": "Abre el último párrafo de un texto."
+      }
+    },
+    {
+      "id": "fl-conclusion-02",
+      "function": "conclusion",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "To sum up, …",
+      "example": "To sum up, the trip was tiring but well organised."
+    },
+    {
+      "id": "fl-conclusion-03",
+      "function": "conclusion",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "So, …",
+      "example": "So, we'll meet at the station at ten and go from there.",
+      "note": {
+        "en": "Wraps up a conversation. Too casual to end a formal email.",
+        "es": "Cierra una conversación. Demasiado informal para un email formal."
+      }
+    },
+    {
+      "id": "fl-conclusion-04",
+      "function": "conclusion",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "All in all, …",
+      "example": "All in all, it was a useful course and I would recommend it."
+    },
+    {
+      "id": "fl-conclusion-05",
+      "function": "conclusion",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "To conclude, …",
+      "example": "To conclude, I would be very grateful if the committee could reconsider the dates."
+    },
+    {
+      "id": "fl-conclusion-06",
+      "function": "conclusion",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "In short, …",
+      "example": "In short, the new system is faster but harder to learn."
+    },
+    {
+      "id": "fl-conclusion-07",
+      "function": "conclusion",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "At the end of the day, …",
+      "example": "At the end of the day, you have to choose the flat you can afford.",
+      "note": {
+        "en": "Means 'when everything is considered'. Common in speech, avoid in formal writing.",
+        "es": "Equivale a «a fin de cuentas». Común al hablar, evítalo en escritos formales."
+      }
+    },
+    {
+      "id": "fl-conclusion-08",
+      "function": "conclusion",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Overall, …",
+      "example": "Overall, the service was reliable and the staff were helpful."
+    },
+    {
+      "id": "fl-conclusion-09",
+      "function": "conclusion",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "To summarise, …",
+      "example": "To summarise, the proposal offers clear benefits at a reasonable cost.",
+      "note": {
+        "en": "British spelling: summarise.",
+        "es": "Ortografía británica: «summarise» con s."
+      }
+    },
+    {
+      "id": "fl-conclusion-10",
+      "function": "conclusion",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "Taking everything into account, …",
+      "example": "Taking everything into account, I would suggest postponing the event until spring."
+    },
+    {
+      "id": "fl-conclusion-11",
+      "function": "conclusion",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "On balance, …",
+      "example": "On balance, the advantages of the scheme outweigh the drawbacks.",
+      "note": {
+        "en": "You have weighed both sides and now give a final view.",
+        "es": "Has sopesado ambos lados y das un juicio final."
+      }
+    },
+    {
+      "id": "fl-conclusion-12",
+      "function": "conclusion",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "In the final analysis, …",
+      "example": "In the final analysis, the decision rests with the residents themselves."
+    }
+  ]
+}

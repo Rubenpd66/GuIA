@@ -191,6 +191,68 @@
           }
         }
       ]
+    },
+    {
+      "id": "cv-media-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "media",
+      "difficulty": 4,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "objective",
+        "fabricated",
+        "bulletin",
+        "credible",
+        "circulation",
+        "partisan",
+        "disseminate",
+        "sensational",
+        "censor"
+      ],
+      "items": [
+        {
+          "id": "cv-media-synonyms-01-a",
+          "prompt": "one-sided",
+          "answer": 5,
+          "explanation": {
+            "en": "Partisan means strongly supporting one side. Objective has the opposite meaning."
+          }
+        },
+        {
+          "id": "cv-media-synonyms-01-b",
+          "prompt": "invented",
+          "answer": 1,
+          "explanation": {
+            "en": "A fabricated story has been made up in order to deceive."
+          }
+        },
+        {
+          "id": "cv-media-synonyms-01-c",
+          "prompt": "attention-grabbing",
+          "answer": 7,
+          "explanation": {
+            "en": "Sensational reporting is designed to shock or excite readers."
+          }
+        },
+        {
+          "id": "cv-media-synonyms-01-d",
+          "prompt": "trustworthy",
+          "answer": 3,
+          "explanation": {
+            "en": "A credible source is one that can be believed."
+          }
+        },
+        {
+          "id": "cv-media-synonyms-01-e",
+          "prompt": "to spread (information) widely",
+          "answer": 6,
+          "explanation": {
+            "en": "To disseminate information is to send it out to many people."
+          }
+        }
+      ]
     }
   ]
 }

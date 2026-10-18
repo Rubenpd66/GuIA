@@ -1,0 +1,131 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-idioms-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the idiom that matches each definition.",
+      "options": [
+        "call it a day",
+        "bite the bullet",
+        "spill the beans",
+        "hit the nail on the head",
+        "under the weather",
+        "once in a blue moon",
+        "break the ice",
+        "the last straw",
+        "back to square one",
+        "a blessing in disguise"
+      ],
+      "items": [
+        {
+          "id": "cv-idioms-definitions-01-a",
+          "prompt": "to stop working because you have done enough for now",
+          "answer": 0,
+          "explanation": {
+            "en": "Call it a day means to stop an activity, usually work, for the time being."
+          }
+        },
+        {
+          "id": "cv-idioms-definitions-01-b",
+          "prompt": "to do something unpleasant that you have been putting off",
+          "answer": 1,
+          "explanation": {
+            "en": "Bite the bullet means to accept that you must do something difficult and just do it."
+          }
+        },
+        {
+          "id": "cv-idioms-definitions-01-c",
+          "prompt": "to reveal a secret by accident or too soon",
+          "answer": 2,
+          "explanation": {
+            "en": "Spill the beans means to let a secret out. It is informal and often playful."
+          }
+        },
+        {
+          "id": "cv-idioms-definitions-01-d",
+          "prompt": "to describe a situation or problem in exactly the right way",
+          "answer": 3,
+          "explanation": {
+            "en": "Hit the nail on the head means to say something that is exactly right."
+          }
+        },
+        {
+          "id": "cv-idioms-definitions-01-e",
+          "prompt": "feeling slightly ill",
+          "answer": 4,
+          "explanation": {
+            "en": "Under the weather means a little unwell. It is milder than saying you are ill."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-idioms-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "general",
+      "difficulty": 4,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best idiom.",
+      "options": [
+        "a storm in a teacup",
+        "not my cup of tea",
+        "get the hang of",
+        "on the ball",
+        "once in a blue moon",
+        "under the weather",
+        "break the ice",
+        "back to square one",
+        "the last straw",
+        "spill the beans"
+      ],
+      "items": [
+        {
+          "id": "cv-idioms-usages-01-a",
+          "prompt": "The row over who ate the last biscuit was ___ and was forgotten by lunchtime.",
+          "answer": 0,
+          "explanation": {
+            "en": "A storm in a teacup is a lot of fuss about something unimportant."
+          }
+        },
+        {
+          "id": "cv-idioms-usages-01-b",
+          "prompt": "Heavy metal is ___, I'm afraid; I much prefer jazz.",
+          "answer": 1,
+          "explanation": {
+            "en": "Not my cup of tea is a polite way to say you do not like something."
+          }
+        },
+        {
+          "id": "cv-idioms-usages-01-c",
+          "prompt": "It took her a month to ___ the new accounting system.",
+          "answer": 2,
+          "explanation": {
+            "en": "Get the hang of means to learn how to do something. It is followed directly by the thing you learn."
+          }
+        },
+        {
+          "id": "cv-idioms-usages-01-d",
+          "prompt": "Our new receptionist is always ___, so nothing is ever forgotten.",
+          "answer": 3,
+          "explanation": {
+            "en": "On the ball means alert and quick to notice and deal with things."
+          }
+        },
+        {
+          "id": "cv-idioms-usages-01-e",
+          "prompt": "We hear from our cousins in Australia only ___.",
+          "answer": 4,
+          "explanation": {
+            "en": "Once in a blue moon means very rarely."
+          }
+        }
+      ]
+    }
+  ]
+}

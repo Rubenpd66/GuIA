@@ -1,0 +1,113 @@
+{
+  "kind": "functional-language",
+  "items": [
+    {
+      "id": "fl-interrupting-01",
+      "function": "interrupting",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Sorry to interrupt, but …",
+      "example": "Sorry to interrupt, but could you repeat the date of the meeting?"
+    },
+    {
+      "id": "fl-interrupting-02",
+      "function": "interrupting",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Excuse me, …",
+      "example": "Excuse me, I don't think I understood the last part."
+    },
+    {
+      "id": "fl-interrupting-03",
+      "function": "interrupting",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Can I just say something?",
+      "example": "Can I just say something? I've been to that restaurant and it's very good."
+    },
+    {
+      "id": "fl-interrupting-04",
+      "function": "interrupting",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Hold on a moment, …",
+      "example": "Hold on a moment, I think we're talking about different days.",
+      "note": {
+        "en": "Direct; fine between friends or colleagues.",
+        "es": "Directo; vale entre amigos o compañeros."
+      }
+    },
+    {
+      "id": "fl-interrupting-05",
+      "function": "interrupting",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Sorry, may I just add something?",
+      "example": "Sorry, may I just add something? The price includes the guided tour."
+    },
+    {
+      "id": "fl-interrupting-06",
+      "function": "interrupting",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "Can I come in here?",
+      "example": "Can I come in here? I had exactly the same problem with that app.",
+      "note": {
+        "en": "Common in group discussions.",
+        "es": "Frecuente en debates de grupo."
+      }
+    },
+    {
+      "id": "fl-interrupting-07",
+      "function": "interrupting",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Sorry, could I just stop you there?",
+      "example": "Sorry, could I just stop you there? I'm not sure that figure is correct."
+    },
+    {
+      "id": "fl-interrupting-08",
+      "function": "interrupting",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Before you go on, …",
+      "example": "Before you go on, can I ask how long the course lasts?"
+    },
+    {
+      "id": "fl-interrupting-09",
+      "function": "interrupting",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "If I might just interject, …",
+      "example": "If I might just interject, the committee has already approved that budget.",
+      "note": {
+        "en": "Very polite; suits meetings and presentations.",
+        "es": "Muy educado; adecuado para reuniones y presentaciones."
+      }
+    },
+    {
+      "id": "fl-interrupting-10",
+      "function": "interrupting",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "Pardon the interruption, but …",
+      "example": "Pardon the interruption, but the next speaker is waiting outside."
+    },
+    {
+      "id": "fl-interrupting-11",
+      "function": "interrupting",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "I hate to cut in, but …",
+      "example": "I hate to cut in, but we're running out of time."
+    },
+    {
+      "id": "fl-interrupting-12",
+      "function": "interrupting",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "May I raise a point here?",
+      "example": "May I raise a point here? The survey only covers people under thirty."
+    }
+  ]
+}

@@ -192,6 +192,69 @@
           }
         }
       ]
+    },
+    {
+      "id": "cv-relationships-definitions-02",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "relationships",
+      "difficulty": 4,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "acquaintance",
+        "mentor",
+        "platonic",
+        "confidant",
+        "reconcile",
+        "bereaved",
+        "estranged",
+        "in-laws",
+        "rapport"
+      ],
+      "items": [
+        {
+          "id": "cv-relationships-definitions-02-a",
+          "prompt": "no longer on friendly terms with someone you were once close to",
+          "answer": 6,
+          "explanation": {
+            "en": "Estranged is used for relatives, partners or friends who have grown apart."
+          }
+        },
+        {
+          "id": "cv-relationships-definitions-02-b",
+          "prompt": "a feeling of understanding and easy communication between people",
+          "answer": 8,
+          "explanation": {
+            "en": "Rapport is the good connection that lets people talk comfortably.",
+            "es": "Rapport no tiene que ver con report: significa buena relación o sintonía."
+          }
+        },
+        {
+          "id": "cv-relationships-definitions-02-c",
+          "prompt": "to become friends again after an argument",
+          "answer": 4,
+          "explanation": {
+            "en": "To reconcile is to end a disagreement and restore a friendly relationship."
+          }
+        },
+        {
+          "id": "cv-relationships-definitions-02-d",
+          "prompt": "an experienced person who advises and supports someone younger",
+          "answer": 1,
+          "explanation": {
+            "en": "A mentor guides someone in their career or studies over time."
+          }
+        },
+        {
+          "id": "cv-relationships-definitions-02-e",
+          "prompt": "a person you trust enough to tell your private feelings and secrets to",
+          "answer": 3,
+          "explanation": {
+            "en": "A confidant is someone you confide in. A woman can be called a confidante."
+          }
+        }
+      ]
     }
   ]
 }

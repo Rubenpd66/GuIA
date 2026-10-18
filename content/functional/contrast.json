@@ -1,0 +1,129 @@
+{
+  "kind": "functional-language",
+  "items": [
+    {
+      "id": "fl-contrast-01",
+      "function": "contrast",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "However, …",
+      "example": "The hotel was clean. However, the rooms were very noisy.",
+      "note": {
+        "en": "Starts a new sentence. Put a comma after it.",
+        "es": "Empieza una frase nueva. Lleva coma detrás."
+      }
+    },
+    {
+      "id": "fl-contrast-02",
+      "function": "contrast",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "On the other hand, …",
+      "example": "Living near the station is convenient. On the other hand, it can be noisy at night.",
+      "note": {
+        "en": "Needs an 'on the one hand' idea, or at least a first idea, before it.",
+        "es": "Necesita una primera idea antes («on the one hand» o similar)."
+      }
+    },
+    {
+      "id": "fl-contrast-03",
+      "function": "contrast",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Although …, …",
+      "example": "Although the course is expensive, it is worth the money.",
+      "note": {
+        "en": "Do not add 'but' in the second part.",
+        "es": "No añadas «but» en la segunda parte."
+      }
+    },
+    {
+      "id": "fl-contrast-04",
+      "function": "contrast",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Still, …",
+      "example": "The film was too long. Still, I enjoyed it."
+    },
+    {
+      "id": "fl-contrast-05",
+      "function": "contrast",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Even so, …",
+      "example": "The train was delayed. Even so, we arrived before the meeting started."
+    },
+    {
+      "id": "fl-contrast-06",
+      "function": "contrast",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Despite this, …",
+      "example": "Prices have risen sharply. Despite this, the shop is as busy as ever.",
+      "note": {
+        "en": "'Despite' is followed by a noun or -ing form, never by a clause.",
+        "es": "«Despite» va con sustantivo o -ing, no con una oración."
+      }
+    },
+    {
+      "id": "fl-contrast-07",
+      "function": "contrast",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "…, whereas …",
+      "example": "Most city dwellers rely on buses, whereas people in the countryside need a car.",
+      "note": {
+        "en": "Compares two different groups or situations.",
+        "es": "Compara dos grupos o situaciones distintas."
+      }
+    },
+    {
+      "id": "fl-contrast-08",
+      "function": "contrast",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "That said, …",
+      "example": "I don't enjoy early starts. That said, the quiet mornings in the office are useful."
+    },
+    {
+      "id": "fl-contrast-09",
+      "function": "contrast",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "Nevertheless, …",
+      "example": "The results were disappointing. Nevertheless, the team decided to continue the project."
+    },
+    {
+      "id": "fl-contrast-10",
+      "function": "contrast",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "Notwithstanding …",
+      "example": "Notwithstanding the budget cuts, the library has extended its opening hours.",
+      "note": {
+        "en": "Very formal; followed by a noun phrase.",
+        "es": "Muy formal; va seguido de un sintagma nominal."
+      }
+    },
+    {
+      "id": "fl-contrast-11",
+      "function": "contrast",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "Having said that, …",
+      "example": "Having said that, I would not turn down a job offer from a competitor."
+    },
+    {
+      "id": "fl-contrast-12",
+      "function": "contrast",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "By contrast, …",
+      "example": "Online sales grew steadily. By contrast, in-store sales fell for the third year.",
+      "note": {
+        "en": "Compares two clear opposites, often with figures.",
+        "es": "Compara dos opuestos claros, a menudo con datos."
+      }
+    }
+  ]
+}

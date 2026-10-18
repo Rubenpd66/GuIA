@@ -1,0 +1,121 @@
+{
+  "kind": "functional-language",
+  "items": [
+    {
+      "id": "fl-comparison-01",
+      "function": "comparison",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "… is more … than …",
+      "example": "Travelling by train is more relaxing than driving.",
+      "note": {
+        "en": "Use '-er than' with short adjectives: cheaper than, not 'more cheap than'.",
+        "es": "Con adjetivos cortos usa «-er than»: «cheaper than», no «more cheap than»."
+      }
+    },
+    {
+      "id": "fl-comparison-02",
+      "function": "comparison",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "… is not as … as …",
+      "example": "The new office is not as bright as the old one."
+    },
+    {
+      "id": "fl-comparison-03",
+      "function": "comparison",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "… is similar to …",
+      "example": "My brother's job is similar to mine, but he works shorter hours."
+    },
+    {
+      "id": "fl-comparison-04",
+      "function": "comparison",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "… is different from …",
+      "example": "Life in the city is very different from life in the country.",
+      "note": {
+        "en": "'Different from' is the safest choice in British English.",
+        "es": "«Different from» es lo más seguro en inglés británico."
+      }
+    },
+    {
+      "id": "fl-comparison-05",
+      "function": "comparison",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Compared with …, …",
+      "example": "Compared with last year, the number of visitors has doubled."
+    },
+    {
+      "id": "fl-comparison-06",
+      "function": "comparison",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "… is much the same as …",
+      "example": "Working here is much the same as working in my last company."
+    },
+    {
+      "id": "fl-comparison-07",
+      "function": "comparison",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "The more …, the more …",
+      "example": "The more you practise listening, the easier it becomes.",
+      "note": {
+        "en": "Keep both parts parallel and do not add 'then'.",
+        "es": "Mantén las dos partes paralelas y no añadas «then»."
+      }
+    },
+    {
+      "id": "fl-comparison-08",
+      "function": "comparison",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "There's no comparison between … and …",
+      "example": "There's no comparison between a paper map and a good phone app."
+    },
+    {
+      "id": "fl-comparison-09",
+      "function": "comparison",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "… pales in comparison with …",
+      "example": "The cost of the course pales in comparison with the benefits it brings."
+    },
+    {
+      "id": "fl-comparison-10",
+      "function": "comparison",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "… bears little resemblance to …",
+      "example": "The modern high street bears little resemblance to the one my parents knew."
+    },
+    {
+      "id": "fl-comparison-11",
+      "function": "comparison",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "… is on a par with …",
+      "example": "The standard of the local clinic is on a par with that of the city hospital.",
+      "note": {
+        "en": "Means of equal quality or level.",
+        "es": "Significa «al mismo nivel que»."
+      }
+    },
+    {
+      "id": "fl-comparison-12",
+      "function": "comparison",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "… is far superior to …",
+      "example": "The second proposal is far superior to the first in terms of cost.",
+      "note": {
+        "en": "'Superior' takes 'to', not 'than'.",
+        "es": "«Superior» lleva «to», no «than»."
+      }
+    }
+  ]
+}

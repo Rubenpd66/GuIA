@@ -1,0 +1,121 @@
+{
+  "kind": "functional-language",
+  "items": [
+    {
+      "id": "fl-speculation-01",
+      "function": "speculation",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "It might be …",
+      "example": "It might be a photo of a street market in a big city."
+    },
+    {
+      "id": "fl-speculation-02",
+      "function": "speculation",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Maybe …",
+      "example": "Maybe they are waiting for a delayed train.",
+      "note": {
+        "en": "Goes at the start of the clause; 'perhaps' is slightly more neutral.",
+        "es": "Va al principio de la oración; «perhaps» es algo más neutro."
+      }
+    },
+    {
+      "id": "fl-speculation-03",
+      "function": "speculation",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "I guess …",
+      "example": "I guess the woman is a teacher, because she is standing in front of a class."
+    },
+    {
+      "id": "fl-speculation-04",
+      "function": "speculation",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "It's possible that …",
+      "example": "It's possible that the two men are colleagues.",
+      "note": {
+        "en": "Useful in Speaking part 2 to describe a photo you are unsure about.",
+        "es": "Útil en Speaking 2 para describir una foto de la que no estás seguro."
+      }
+    },
+    {
+      "id": "fl-speculation-05",
+      "function": "speculation",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "They must be …",
+      "example": "They must be on holiday, because they are carrying large suitcases.",
+      "note": {
+        "en": "Use 'must' only when the evidence is strong.",
+        "es": "Usa «must» solo si las pruebas son sólidas."
+      }
+    },
+    {
+      "id": "fl-speculation-06",
+      "function": "speculation",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "There's a good chance that …",
+      "example": "There's a good chance that the shop will be closed on Monday."
+    },
+    {
+      "id": "fl-speculation-07",
+      "function": "speculation",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "I wouldn't be surprised if …",
+      "example": "I wouldn't be surprised if the match was moved indoors.",
+      "note": {
+        "en": "Followed by a past tense, even when talking about the future.",
+        "es": "Va con pasado aunque hables del futuro."
+      }
+    },
+    {
+      "id": "fl-speculation-08",
+      "function": "speculation",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "It could well be that …",
+      "example": "It could well be that the building is a library rather than a school."
+    },
+    {
+      "id": "fl-speculation-09",
+      "function": "speculation",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "It is conceivable that …",
+      "example": "It is conceivable that fewer people will own cars within twenty years."
+    },
+    {
+      "id": "fl-speculation-10",
+      "function": "speculation",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "One can only speculate as to whether …",
+      "example": "One can only speculate as to whether the delay was caused by staff shortages."
+    },
+    {
+      "id": "fl-speculation-11",
+      "function": "speculation",
+      "level": "C1",
+      "register": "informal",
+      "phrase": "Chances are …",
+      "example": "Chances are the cafe will be full by the time we get there.",
+      "note": {
+        "en": "Short and chatty; no 'that' needed.",
+        "es": "Breve y coloquial; no necesita «that»."
+      }
+    },
+    {
+      "id": "fl-speculation-12",
+      "function": "speculation",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "It is highly likely that …",
+      "example": "It is highly likely that demand for remote learning will continue to grow."
+    }
+  ]
+}

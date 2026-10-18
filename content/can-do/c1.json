@@ -1,0 +1,246 @@
+{
+  "kind": "can-do",
+  "items": [
+    {
+      "id": "cd-c1-spoken-interaction-1",
+      "level": "C1",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can buy thinking time with natural fillers, and return smoothly to my main point after a digression.",
+        "es": "Puedo ganar tiempo para pensar con muletillas naturales y volver con fluidez a mi idea principal tras una digresión."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["speaking-3", "speaking-4"]
+      }
+    },
+    {
+      "id": "cd-c1-spoken-interaction-2",
+      "level": "C1",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can challenge a viewpoint tactfully, softening my criticism with hedging language while keeping my position clear.",
+        "es": "Puedo cuestionar un punto de vista con tacto, suavizando la crítica con lenguaje atenuante sin perder claridad en mi postura."
+      },
+      "links": {
+        "lessons": ["degree-modifiers"],
+        "parts": ["speaking-3", "speaking-4"]
+      }
+    },
+    {
+      "id": "cd-c1-spoken-interaction-3",
+      "level": "C1",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can answer an unexpected follow-up question on the spot and rephrase my idea when my first attempt is not clear.",
+        "es": "Puedo responder sobre la marcha a una pregunta inesperada y reformular mi idea si el primer intento no queda claro."
+      },
+      "links": {
+        "lessons": ["ellipsis-and-substitution"],
+        "parts": ["speaking-1", "speaking-4"]
+      }
+    },
+    {
+      "id": "cd-c1-spoken-production-1",
+      "level": "C1",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can describe a photo with precise vocabulary, interpret the mood and draw conclusions from small details, without hesitation.",
+        "es": "Puedo describir una foto con vocabulario preciso, interpretar el ambiente y sacar conclusiones de pequeños detalles, sin titubear."
+      },
+      "links": {
+        "lessons": [
+          "participle-clauses",
+          "adjective-patterns-and-perception-verbs"
+        ],
+        "parts": ["speaking-2"]
+      }
+    },
+    {
+      "id": "cd-c1-spoken-production-2",
+      "level": "C1",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can weigh the advantages and drawbacks of two situations and stress my main point with structures such as What matters most is…",
+        "es": "Puedo sopesar las ventajas e inconvenientes de dos situaciones y destacar mi idea principal con estructuras como What matters most is…"
+      },
+      "links": {
+        "lessons": ["cleft-sentences", "comparatives-superlatives"],
+        "parts": ["speaking-3"]
+      }
+    },
+    {
+      "id": "cd-c1-spoken-production-3",
+      "level": "C1",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can sustain a well-organised two-minute talk on an abstract topic, using hypothetical situations to develop and qualify my argument.",
+        "es": "Puedo mantener una exposición bien organizada de dos minutos sobre un tema abstracto, usando situaciones hipotéticas para desarrollar y matizar mi argumento."
+      },
+      "links": {
+        "lessons": ["mixed-conditionals", "inverted-conditionals"],
+        "parts": ["speaking-4"]
+      }
+    },
+    {
+      "id": "cd-c1-listening-1",
+      "level": "C1",
+      "skill": "listening",
+      "text": {
+        "en": "I can follow fast, informal speech full of idioms, understatement and phrasal verbs without losing the thread.",
+        "es": "Puedo seguir un habla rápida e informal llena de modismos, eufemismos y verbos compuestos sin perder el hilo."
+      },
+      "links": {
+        "lessons": ["phrasal-verbs-advanced"],
+        "parts": ["listening-1", "listening-2"]
+      }
+    },
+    {
+      "id": "cd-c1-listening-2",
+      "level": "C1",
+      "skill": "listening",
+      "text": {
+        "en": "I can pick up implied meaning, irony and a speaker's real purpose when it is not stated directly.",
+        "es": "Puedo captar el significado implícito, la ironía y la verdadera intención de un hablante cuando no se dicen directamente."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["listening-3"]
+      }
+    },
+    {
+      "id": "cd-c1-listening-3",
+      "level": "C1",
+      "skill": "listening",
+      "text": {
+        "en": "I can follow a long, loosely structured talk with digressions and sum up its main line of argument.",
+        "es": "Puedo seguir una charla larga y poco estructurada con digresiones y resumir su línea principal de argumentación."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["listening-4"]
+      }
+    },
+    {
+      "id": "cd-c1-reading-1",
+      "level": "C1",
+      "skill": "reading",
+      "text": {
+        "en": "I can reorder dense sentences by tracking substitution, ellipsis and subtle linking devices rather than obvious time words.",
+        "es": "Puedo reordenar frases densas siguiendo sustituciones, elipsis y conectores sutiles, y no solo las palabras de tiempo evidentes."
+      },
+      "links": {
+        "lessons": ["ellipsis-and-substitution"],
+        "parts": ["reading-2"]
+      }
+    },
+    {
+      "id": "cd-c1-reading-2",
+      "level": "C1",
+      "skill": "reading",
+      "text": {
+        "en": "I can spot small differences between viewpoints that sound alike and match each writer to the right shade of opinion.",
+        "es": "Puedo detectar pequeñas diferencias entre puntos de vista que suenan parecidos y asignar a cada autor el matiz de opinión correcto."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["reading-3"]
+      }
+    },
+    {
+      "id": "cd-c1-reading-3",
+      "level": "C1",
+      "skill": "reading",
+      "text": {
+        "en": "I can infer a writer's purpose and unstated assumptions in a long article and choose the heading that captures them.",
+        "es": "Puedo deducir la intención de un autor y sus supuestos no expresados en un artículo largo, y elegir el título que los recoge."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["reading-4"]
+      }
+    },
+    {
+      "id": "cd-c1-writing-1",
+      "level": "C1",
+      "skill": "writing",
+      "text": {
+        "en": "I can answer chat questions concisely and in a natural voice, adjusting register and using phrasal verbs or idiomatic phrases accurately.",
+        "es": "Puedo responder a preguntas de un chat de forma concisa y natural, adaptando el registro y usando con acierto verbos compuestos o expresiones idiomáticas."
+      },
+      "links": {
+        "lessons": ["phrasal-verbs-advanced"],
+        "parts": ["writing-3"]
+      }
+    },
+    {
+      "id": "cd-c1-writing-2",
+      "level": "C1",
+      "skill": "writing",
+      "text": {
+        "en": "I can write a formal email of 120–150 words that keeps a consistent formal register and uses structures such as inversion for emphasis.",
+        "es": "Puedo escribir un correo formal de 120–150 palabras que mantenga un registro formal constante y use estructuras como la inversión para dar énfasis."
+      },
+      "links": {
+        "lessons": [
+          "inversion",
+          "formal-discourse-markers",
+          "subjunctive-and-formal-structures"
+        ],
+        "parts": ["writing-4"]
+      }
+    },
+    {
+      "id": "cd-c1-writing-3",
+      "level": "C1",
+      "skill": "writing",
+      "text": {
+        "en": "I can write a persuasive email that makes a firm complaint or proposal in a controlled tone, using the passive to sound objective.",
+        "es": "Puedo escribir un correo persuasivo con una queja o propuesta firme en un tono controlado, usando la pasiva para sonar objetivo."
+      },
+      "links": {
+        "lessons": ["advanced-passive", "passive-reporting-and-causative"],
+        "parts": ["writing-4"]
+      }
+    },
+    {
+      "id": "cd-c1-strategies-1",
+      "level": "C1",
+      "skill": "strategies",
+      "text": {
+        "en": "I can plan my time across the Reading parts so that the hardest task, the long article, gets enough attention.",
+        "es": "Puedo repartir mi tiempo entre las partes de Reading para que la tarea más difícil, el artículo largo, reciba la atención necesaria."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["reading-3", "reading-4"]
+      }
+    },
+    {
+      "id": "cd-c1-strategies-2",
+      "level": "C1",
+      "skill": "strategies",
+      "text": {
+        "en": "I can paraphrase around a missing word so smoothly that the listener hardly notices the gap.",
+        "es": "Puedo parafrasear en torno a una palabra que me falta con tanta soltura que el oyente apenas nota el vacío."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["speaking-2", "speaking-3", "speaking-4"]
+      }
+    },
+    {
+      "id": "cd-c1-strategies-3",
+      "level": "C1",
+      "skill": "strategies",
+      "text": {
+        "en": "I can rule out Core options by testing each one in the whole sentence, checking fixed phrases, register and collocation.",
+        "es": "Puedo descartar opciones del Core probando cada una en la frase completa y comprobando expresiones fijas, registro y colocaciones."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["core-grammar", "core-vocabulary"]
+      }
+    }
+  ]
+}

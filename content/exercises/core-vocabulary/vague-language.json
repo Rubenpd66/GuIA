@@ -1,0 +1,129 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-vague-language-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "roughly",
+        "exactly",
+        "and so on",
+        "thingy",
+        "definitely",
+        "a bit of",
+        "loads of",
+        "stuff",
+        "sort of"
+      ],
+      "items": [
+        {
+          "id": "cv-vague-language-synonyms-01-a",
+          "prompt": "and so forth",
+          "answer": 2,
+          "explanation": {
+            "en": "At the end of a list, and so on shows that there are more items that you have not named."
+          }
+        },
+        {
+          "id": "cv-vague-language-synonyms-01-b",
+          "prompt": "a great many",
+          "answer": 6,
+          "explanation": {
+            "en": "Loads of is an informal way to say a great many or a large amount of."
+          }
+        },
+        {
+          "id": "cv-vague-language-synonyms-01-c",
+          "prompt": "approximately",
+          "answer": 0,
+          "explanation": {
+            "en": "Roughly is a vague way to give a number that is not exact: roughly forty people."
+          }
+        },
+        {
+          "id": "cv-vague-language-synonyms-01-d",
+          "prompt": "somewhat",
+          "answer": 8,
+          "explanation": {
+            "en": "Sort of softens a statement, as somewhat does: It was sort of annoying."
+          }
+        },
+        {
+          "id": "cv-vague-language-synonyms-01-e",
+          "prompt": "a small amount of",
+          "answer": 5,
+          "explanation": {
+            "en": "A bit of is informal for a small amount of: a bit of luck."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-vague-language-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "general",
+      "difficulty": 4,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "and so on",
+        "kind of",
+        "thingy",
+        "to be honest",
+        "-ish",
+        "so to speak",
+        "at any rate",
+        "mind you",
+        "or something"
+      ],
+      "items": [
+        {
+          "id": "cv-vague-language-definitions-01-a",
+          "prompt": "an informal word for an object whose name you cannot remember",
+          "answer": 2,
+          "explanation": {
+            "en": "Thingy replaces the name of something you cannot remember: Pass me that thingy."
+          }
+        },
+        {
+          "id": "cv-vague-language-definitions-01-b",
+          "prompt": "used to show that a word is not meant completely literally",
+          "answer": 5,
+          "explanation": {
+            "en": "So to speak warns the listener that the word is being used figuratively."
+          }
+        },
+        {
+          "id": "cv-vague-language-definitions-01-c",
+          "prompt": "used at the end of a list to show there are more items you have not mentioned",
+          "answer": 0,
+          "explanation": {
+            "en": "And so on suggests that the list could continue in the same way."
+          }
+        },
+        {
+          "id": "cv-vague-language-definitions-01-d",
+          "prompt": "used after a guess to show you are not sure it is correct",
+          "answer": 8,
+          "explanation": {
+            "en": "In She works in banking or something, the speaker is not sure about the detail."
+          }
+        },
+        {
+          "id": "cv-vague-language-definitions-01-e",
+          "prompt": "added informally to a time or an adjective to mean approximately",
+          "answer": 4,
+          "explanation": {
+            "en": "-ish gives an approximate meaning: seven-ish means about seven o'clock; greenish means a little green."
+          }
+        }
+      ]
+    }
+  ]
+}

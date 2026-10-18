@@ -1,0 +1,109 @@
+{
+  "kind": "functional-language",
+  "items": [
+    {
+      "id": "fl-returning-01",
+      "function": "returning",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Anyway, …",
+      "example": "Anyway, let's decide where to meet on Saturday.",
+      "note": {
+        "en": "Closes a small digression and returns to the main subject.",
+        "es": "Cierra una digresión y vuelve al tema principal."
+      }
+    },
+    {
+      "id": "fl-returning-02",
+      "function": "returning",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Going back to …",
+      "example": "Going back to the timetable, can we start at nine instead?"
+    },
+    {
+      "id": "fl-returning-03",
+      "function": "returning",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "As I was saying, …",
+      "example": "As I was saying, the course starts in the first week of October."
+    },
+    {
+      "id": "fl-returning-04",
+      "function": "returning",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Where was I?",
+      "example": "Where was I? Oh yes, the second reason for moving."
+    },
+    {
+      "id": "fl-returning-05",
+      "function": "returning",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "To get back to the point, …",
+      "example": "To get back to the point, we still need to agree on a budget."
+    },
+    {
+      "id": "fl-returning-06",
+      "function": "returning",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Coming back to what you said about …",
+      "example": "Coming back to what you said about parking, I think we should ask the council."
+    },
+    {
+      "id": "fl-returning-07",
+      "function": "returning",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "As I mentioned earlier, …",
+      "example": "As I mentioned earlier, the offer is only valid until Friday.",
+      "note": {
+        "en": "Also works in writing to refer back to an earlier paragraph.",
+        "es": "También sirve al escribir para remitir a un párrafo anterior."
+      }
+    },
+    {
+      "id": "fl-returning-08",
+      "function": "returning",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "Let's get back to …",
+      "example": "Let's get back to the plan for the weekend."
+    },
+    {
+      "id": "fl-returning-09",
+      "function": "returning",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "To return to the question of …",
+      "example": "To return to the question of funding, we need clearer figures from the department."
+    },
+    {
+      "id": "fl-returning-10",
+      "function": "returning",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "Reverting to my earlier point, …",
+      "example": "Reverting to my earlier point, the project cannot continue without extra staff."
+    },
+    {
+      "id": "fl-returning-11",
+      "function": "returning",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "To pick up where we left off, …",
+      "example": "To pick up where we left off, we were discussing the opening hours."
+    },
+    {
+      "id": "fl-returning-12",
+      "function": "returning",
+      "level": "C1",
+      "register": "informal",
+      "phrase": "Getting back on track, …",
+      "example": "Getting back on track, who is going to book the room?"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-phrasal-verbs-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "carry out",
+        "turn down",
+        "give up",
+        "put up with",
+        "call off",
+        "look into",
+        "put off",
+        "come up with",
+        "bring up",
+        "set up"
+      ],
+      "items": [
+        {
+          "id": "cv-phrasal-verbs-synonyms-01-a",
+          "prompt": "postpone",
+          "answer": 6,
+          "explanation": {
+            "en": "To put off a meeting is to postpone it. Call off would mean to cancel it."
+          }
+        },
+        {
+          "id": "cv-phrasal-verbs-synonyms-01-b",
+          "prompt": "refuse (an offer)",
+          "answer": 1,
+          "explanation": {
+            "en": "To turn down an offer or an invitation is to refuse it."
+          }
+        },
+        {
+          "id": "cv-phrasal-verbs-synonyms-01-c",
+          "prompt": "devise (a plan)",
+          "answer": 7,
+          "explanation": {
+            "en": "To come up with a plan or an idea is to think of it and suggest it."
+          }
+        },
+        {
+          "id": "cv-phrasal-verbs-synonyms-01-d",
+          "prompt": "investigate",
+          "answer": 5,
+          "explanation": {
+            "en": "To look into a problem is to investigate it and try to find out the facts."
+          }
+        },
+        {
+          "id": "cv-phrasal-verbs-synonyms-01-e",
+          "prompt": "tolerate",
+          "answer": 3,
+          "explanation": {
+            "en": "To put up with something is to accept it without complaining, even though it is unpleasant."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-phrasal-verbs-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "general",
+      "difficulty": 4,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "back up",
+        "run into",
+        "wind up",
+        "fall through",
+        "phase out",
+        "play down",
+        "step down",
+        "drag on",
+        "pull off"
+      ],
+      "items": [
+        {
+          "id": "cv-phrasal-verbs-definitions-01-a",
+          "prompt": "to fail to happen, usually because of a problem",
+          "answer": 3,
+          "explanation": {
+            "en": "A plan or a deal that falls through does not go ahead."
+          }
+        },
+        {
+          "id": "cv-phrasal-verbs-definitions-01-b",
+          "prompt": "to succeed in doing something difficult or unlikely",
+          "answer": 8,
+          "explanation": {
+            "en": "To pull off something means to manage it against the odds, as in pull off a surprise win."
+          }
+        },
+        {
+          "id": "cv-phrasal-verbs-definitions-01-c",
+          "prompt": "to make something seem less important or serious than it is",
+          "answer": 5,
+          "explanation": {
+            "en": "To play down a risk is to make it sound smaller than it really is."
+          }
+        },
+        {
+          "id": "cv-phrasal-verbs-definitions-01-d",
+          "prompt": "to leave an important position, usually by choice",
+          "answer": 6,
+          "explanation": {
+            "en": "A chairperson or a leader who steps down gives up the post."
+          }
+        },
+        {
+          "id": "cv-phrasal-verbs-definitions-01-e",
+          "prompt": "to meet someone by chance",
+          "answer": 1,
+          "explanation": {
+            "en": "To run into someone is to meet them unexpectedly. It can also mean to hit something with a vehicle.",
+            "es": "Run into también significa encontrarse con alguien por casualidad, no solo chocar."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-word-formation-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "employer",
+        "reliable",
+        "enlarge",
+        "powerful",
+        "affordable",
+        "employee",
+        "unreliable",
+        "affordability",
+        "empower",
+        "enlargement"
+      ],
+      "items": [
+        {
+          "id": "cv-word-formation-definitions-01-a",
+          "prompt": "a person who works for a company or another person",
+          "answer": 5,
+          "explanation": {
+            "en": "The suffix -ee often marks the person who receives an action: an employee is employed by an employer."
+          }
+        },
+        {
+          "id": "cv-word-formation-definitions-01-b",
+          "prompt": "not able to be trusted to do what is expected",
+          "answer": 6,
+          "explanation": {
+            "en": "The prefix un- reverses the meaning of reliable."
+          }
+        },
+        {
+          "id": "cv-word-formation-definitions-01-c",
+          "prompt": "the act of making something bigger",
+          "answer": 9,
+          "explanation": {
+            "en": "The suffix -ment turns the verb enlarge into a noun for the action or its result."
+          }
+        },
+        {
+          "id": "cv-word-formation-definitions-01-d",
+          "prompt": "the quality of costing little enough for most people to buy",
+          "answer": 7,
+          "explanation": {
+            "en": "The suffix -ity turns the adjective affordable into a noun for the quality."
+          }
+        },
+        {
+          "id": "cv-word-formation-definitions-01-e",
+          "prompt": "to give someone more control, confidence or authority",
+          "answer": 8,
+          "explanation": {
+            "en": "The prefix em- turns the noun power into a verb: to give power to someone."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-word-formation-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 4,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "decision",
+        "decisive",
+        "indecisive",
+        "decide",
+        "construction",
+        "constructive",
+        "construct",
+        "harmful",
+        "harmless"
+      ],
+      "items": [
+        {
+          "id": "cv-word-formation-usages-01-a",
+          "prompt": "After weeks of doubt, the board finally made a ___ to close the factory.",
+          "answer": 0,
+          "explanation": {
+            "en": "After the article a, we need a noun. The noun from decide is decision."
+          }
+        },
+        {
+          "id": "cv-word-formation-usages-01-b",
+          "prompt": "Her ___ answer, given without a moment's hesitation, ended the argument.",
+          "answer": 1,
+          "explanation": {
+            "en": "Decisive describes someone who acts clearly and quickly. Indecisive means the opposite."
+          }
+        },
+        {
+          "id": "cv-word-formation-usages-01-c",
+          "prompt": "Don't worry, the spider is completely ___ to humans.",
+          "answer": 8,
+          "explanation": {
+            "en": "Harmless means not able to cause harm. Harmful has the opposite meaning."
+          }
+        },
+        {
+          "id": "cv-word-formation-usages-01-d",
+          "prompt": "The ___ of the old bridge took almost two years.",
+          "answer": 4,
+          "explanation": {
+            "en": "After the, we need a noun for the process of building. The noun from construct is construction."
+          }
+        },
+        {
+          "id": "cv-word-formation-usages-01-e",
+          "prompt": "Good teachers offer ___ criticism: it points out weaknesses and suggests how to improve.",
+          "answer": 5,
+          "explanation": {
+            "en": "Constructive criticism is helpful and aims to improve things. Constructive is the adjective from construct."
+          }
+        }
+      ]
+    }
+  ]
+}

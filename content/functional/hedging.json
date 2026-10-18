@@ -1,0 +1,129 @@
+{
+  "kind": "functional-language",
+  "items": [
+    {
+      "id": "fl-hedging-01",
+      "function": "hedging",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "It seems that …",
+      "example": "It seems that the shop closes earlier on Saturdays.",
+      "note": {
+        "en": "Softens a statement you are not completely sure about.",
+        "es": "Suaviza algo de lo que no estás del todo seguro."
+      }
+    },
+    {
+      "id": "fl-hedging-02",
+      "function": "hedging",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Perhaps …",
+      "example": "Perhaps we could meet after the lecture instead of before it."
+    },
+    {
+      "id": "fl-hedging-03",
+      "function": "hedging",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "It's a bit …",
+      "example": "It's a bit expensive for a student, isn't it?",
+      "note": {
+        "en": "Politely understates a complaint. 'A bit' is stronger than it sounds.",
+        "es": "Rebaja una queja con educación. «A bit» suena a más de lo que dice."
+      }
+    },
+    {
+      "id": "fl-hedging-04",
+      "function": "hedging",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "In some ways, …",
+      "example": "In some ways, living in a small village is easier than living in a city."
+    },
+    {
+      "id": "fl-hedging-05",
+      "function": "hedging",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "… tends to be …",
+      "example": "Public transport tends to be crowded in the early evening."
+    },
+    {
+      "id": "fl-hedging-06",
+      "function": "hedging",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "To some extent, …",
+      "example": "To some extent, the weather decides how many people visit the park.",
+      "note": {
+        "en": "Means partly true, not completely.",
+        "es": "Significa «en parte», no del todo."
+      }
+    },
+    {
+      "id": "fl-hedging-07",
+      "function": "hedging",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "I suppose …",
+      "example": "I suppose most people would rather pay online than queue at the bank."
+    },
+    {
+      "id": "fl-hedging-08",
+      "function": "hedging",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "As far as I know, …",
+      "example": "As far as I know, the library opens at nine on weekdays.",
+      "note": {
+        "en": "Shows your information may be incomplete.",
+        "es": "Indica que tu información puede estar incompleta."
+      }
+    },
+    {
+      "id": "fl-hedging-09",
+      "function": "hedging",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "It could be argued that …",
+      "example": "It could be argued that remote work has made teams more productive.",
+      "note": {
+        "en": "Presents a view without saying it is yours. Very useful in Writing part 4.",
+        "es": "Presenta una idea sin decir que es tuya. Muy útil en Writing 4."
+      }
+    },
+    {
+      "id": "fl-hedging-10",
+      "function": "hedging",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "This would appear to suggest that …",
+      "example": "This would appear to suggest that customers value speed above price.",
+      "note": {
+        "en": "Cautious wording for conclusions from evidence.",
+        "es": "Fórmula cauta para sacar conclusiones de datos."
+      }
+    },
+    {
+      "id": "fl-hedging-11",
+      "function": "hedging",
+      "level": "C1",
+      "register": "formal",
+      "phrase": "It is somewhat …",
+      "example": "It is somewhat surprising that the scheme attracted so few applicants."
+    },
+    {
+      "id": "fl-hedging-12",
+      "function": "hedging",
+      "level": "C1",
+      "register": "neutral",
+      "phrase": "By and large, …",
+      "example": "By and large, residents are happy with the new recycling centre.",
+      "note": {
+        "en": "Means in most cases, with a few exceptions.",
+        "es": "Significa «en general», con alguna excepción."
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-false-friends-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "attend",
+        "eventually",
+        "sensible",
+        "embarrassed",
+        "library",
+        "actually",
+        "assist",
+        "realise",
+        "carpet",
+        "support"
+      ],
+      "items": [
+        {
+          "id": "cv-false-friends-definitions-01-a",
+          "prompt": "to be present at an event, a class or a meeting",
+          "answer": 0,
+          "explanation": {
+            "en": "To attend is to be present at something. To assist means to help.",
+            "es": "Attend equivale a asistir a un acto; assist significa ayudar, no asistir."
+          }
+        },
+        {
+          "id": "cv-false-friends-definitions-01-b",
+          "prompt": "in the end, after a long time or a series of delays",
+          "answer": 1,
+          "explanation": {
+            "en": "Eventually means finally, after some time. It does not mean possibly.",
+            "es": "Eventually significa finalmente, no eventualmente (que sería possibly)."
+          }
+        },
+        {
+          "id": "cv-false-friends-definitions-01-c",
+          "prompt": "showing good judgement; practical and reasonable",
+          "answer": 2,
+          "explanation": {
+            "en": "A sensible person makes good, practical choices. Sensitive is the word for easily hurt or upset.",
+            "es": "Sensible en inglés es sensato; para sensible di sensitive."
+          }
+        },
+        {
+          "id": "cv-false-friends-definitions-01-d",
+          "prompt": "feeling ashamed or awkward in front of other people",
+          "answer": 3,
+          "explanation": {
+            "en": "Embarrassed describes the awkward feeling you have after a social mistake.",
+            "es": "Embarrassed es avergonzado, no embarazada (pregnant)."
+          }
+        },
+        {
+          "id": "cv-false-friends-definitions-01-e",
+          "prompt": "a building or room where you can borrow books",
+          "answer": 4,
+          "explanation": {
+            "en": "A library lends books. A shop that sells books is a bookshop.",
+            "es": "Library es biblioteca; librería se dice bookshop."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-false-friends-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 4,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "support",
+        "exit",
+        "success",
+        "compromise",
+        "realise",
+        "argument",
+        "discuss",
+        "actually",
+        "carpet",
+        "eventually"
+      ],
+      "items": [
+        {
+          "id": "cv-false-friends-usages-01-a",
+          "prompt": "She worked two jobs to ___ her younger brother while he was at university.",
+          "answer": 0,
+          "explanation": {
+            "en": "To support someone is to help them, especially with money. To put up with something is to bear it.",
+            "es": "Support es apoyar o mantener a alguien; soportar se dice put up with o stand."
+          }
+        },
+        {
+          "id": "cv-false-friends-usages-01-b",
+          "prompt": "The fire ___ is at the end of the corridor, next to the lift.",
+          "answer": 1,
+          "explanation": {
+            "en": "An exit is a way out of a building. The word for a good result is success.",
+            "es": "Exit es salida, no éxito (que es success)."
+          }
+        },
+        {
+          "id": "cv-false-friends-usages-01-c",
+          "prompt": "The new café was an instant ___, with queues out of the door every day.",
+          "answer": 2,
+          "explanation": {
+            "en": "A success is a good result. An event that happens is an incident or an event.",
+            "es": "Success es éxito, no suceso (que sería event o incident)."
+          }
+        },
+        {
+          "id": "cv-false-friends-usages-01-d",
+          "prompt": "After weeks of disagreement, the two parties finally reached a ___ over the funding.",
+          "answer": 3,
+          "explanation": {
+            "en": "A compromise is an agreement in which each side gives something up. A commitment is a promise or duty.",
+            "es": "Compromise es un acuerdo con cesiones; compromiso (obligación) es commitment."
+          }
+        },
+        {
+          "id": "cv-false-friends-usages-01-e",
+          "prompt": "I didn't ___ that I had the wrong file until I opened it in the meeting.",
+          "answer": 4,
+          "explanation": {
+            "en": "To realise is to become aware of a fact. To carry out a plan is to do it.",
+            "es": "Realise es darse cuenta; realizar un proyecto se dice carry out."
+          }
+        }
+      ]
+    }
+  ]
+}

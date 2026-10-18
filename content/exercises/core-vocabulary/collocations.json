@@ -1,0 +1,131 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-collocations-collocations-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "risk",
+        "decision",
+        "progress",
+        "profit",
+        "traffic",
+        "attention",
+        "research",
+        "effort",
+        "appointment",
+        "mistake"
+      ],
+      "items": [
+        {
+          "id": "cv-collocations-collocations-01-a",
+          "prompt": "pose a serious …",
+          "answer": 0,
+          "explanation": {
+            "en": "Pose a risk (or a threat) is the usual collocation. Something that could cause harm poses a risk."
+          }
+        },
+        {
+          "id": "cv-collocations-collocations-01-b",
+          "prompt": "reach a …",
+          "answer": 1,
+          "explanation": {
+            "en": "We reach a decision after discussion. Reach is more formal than make, and suggests a group process."
+          }
+        },
+        {
+          "id": "cv-collocations-collocations-01-c",
+          "prompt": "make steady …",
+          "answer": 2,
+          "explanation": {
+            "en": "Make progress is uncountable, so there is no article: make steady progress.",
+            "es": "Progress es incontable: no se dice a progress ni progresses."
+          }
+        },
+        {
+          "id": "cv-collocations-collocations-01-d",
+          "prompt": "turn a …",
+          "answer": 3,
+          "explanation": {
+            "en": "Turn a profit means to start making money after a period of making none."
+          }
+        },
+        {
+          "id": "cv-collocations-collocations-01-e",
+          "prompt": "rush-hour …",
+          "answer": 4,
+          "explanation": {
+            "en": "Rush-hour traffic is the heavy traffic at the busiest times of the day."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-collocations-collocations-02",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "C1",
+      "topic": "general",
+      "difficulty": 4,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "stakes",
+        "verdict",
+        "scrutiny",
+        "grudge",
+        "momentum",
+        "concession",
+        "breach",
+        "rapport",
+        "loophole"
+      ],
+      "items": [
+        {
+          "id": "cv-collocations-collocations-02-a",
+          "prompt": "play for high …",
+          "answer": 0,
+          "explanation": {
+            "en": "High stakes means there is a lot to win or lose. The noun is plural in this phrase."
+          }
+        },
+        {
+          "id": "cv-collocations-collocations-02-b",
+          "prompt": "reach a unanimous …",
+          "answer": 1,
+          "explanation": {
+            "en": "A jury reaches a verdict, and unanimous means everyone agrees."
+          }
+        },
+        {
+          "id": "cv-collocations-collocations-02-c",
+          "prompt": "come under close …",
+          "answer": 2,
+          "explanation": {
+            "en": "Come under scrutiny means to be examined very carefully, often by the public or the press."
+          }
+        },
+        {
+          "id": "cv-collocations-collocations-02-d",
+          "prompt": "bear a …",
+          "answer": 3,
+          "explanation": {
+            "en": "Bear a grudge means to keep feeling angry about something that happened in the past."
+          }
+        },
+        {
+          "id": "cv-collocations-collocations-02-e",
+          "prompt": "gather …",
+          "answer": 4,
+          "explanation": {
+            "en": "Gather momentum means to move or develop faster as time goes on, for example a campaign."
+          }
+        }
+      ]
+    }
+  ]
+}
