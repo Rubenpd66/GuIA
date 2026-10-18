@@ -1,0 +1,25 @@
+import { getTranslations } from "next-intl/server";
+import { LocaleSwitcher } from "@/components/i18n/LocaleSwitcher";
+import { Wordmark } from "@/components/passport/Wordmark";
+import { ThemeToggle } from "@/components/theme/ThemeToggle";
+import { Link } from "@/i18n/navigation";
+
+/** Mobile header: brand, language and theme. */
+export async function TopBar() {
+  const t = await getTranslations("Nav");
+  return (
+    <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-hairline bg-paper px-2 sm:px-4 lg:hidden">
+      <Link
+        href="/"
+        aria-label={t("home")}
+        className="inline-flex rounded-control px-2 text-cover dark:text-foil"
+      >
+        <Wordmark />
+      </Link>
+      <div className="flex items-center">
+        <LocaleSwitcher />
+        <ThemeToggle />
+      </div>
+    </header>
+  );
+}

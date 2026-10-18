@@ -1,0 +1,30 @@
+import { SITE } from "@/config/site";
+import { cx } from "@/lib/cx";
+import { Guilloche } from "./Guilloche";
+
+/**
+ * The closed passport: burgundy like the Spanish one, with gold foil lettering.
+ * Decorative, so the page heading carries the real text.
+ */
+export function PassportCover({ className }: { className?: string }) {
+  return (
+    <div
+      aria-hidden="true"
+      className={cx(
+        "relative isolate flex aspect-[5/7] w-56 flex-col items-center justify-between overflow-hidden rounded-[14px] bg-cover px-6 py-8 text-foil sm:w-64",
+        "shadow-[inset_12px_0_0_-8px_color-mix(in_srgb,var(--cover)_60%,black)]",
+        className,
+      )}
+    >
+      <p className="text-center text-xs leading-relaxed font-semibold tracking-[0.18em]">
+        PASAPORTE DE IDIOMAS
+        <br />
+        LANGUAGE PASSPORT
+      </p>
+      <Guilloche variant="rosette" className="w-36 opacity-75 sm:w-40" />
+      <p className="text-2xl font-black tracking-[0.14em] font-expanded">
+        {SITE.name.toUpperCase()}
+      </p>
+    </div>
+  );
+}

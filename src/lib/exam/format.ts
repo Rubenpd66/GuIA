@@ -65,6 +65,12 @@ export function isExamPart(value: string): value is ExamPart {
   return EXAM_PART_SET.has(value);
 }
 
+/** "Part N" number as the exam shows it; the two Core parts have none. */
+export function partNumber(part: ExamPart): number | null {
+  const number = Number(part.split("-")[1]);
+  return Number.isInteger(number) ? number : null;
+}
+
 export const EXAM_FORMAT = {
   core: {
     minutes: 25,

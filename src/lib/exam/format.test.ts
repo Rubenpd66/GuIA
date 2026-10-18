@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { EXAM_FORMAT, EXAM_PARTS, SKILL_OF_PART, isExamPart } from "./format";
+import {
+  EXAM_FORMAT,
+  EXAM_PARTS,
+  SKILL_OF_PART,
+  isExamPart,
+  partNumber,
+} from "./format";
 
 describe("exam format", () => {
   it("lists the 18 exam parts", () => {
@@ -69,5 +75,12 @@ describe("exam format", () => {
     expect(isExamPart("core-grammar")).toBe(true);
     expect(isExamPart("reading-9")).toBe(false);
     expect(isExamPart("")).toBe(false);
+  });
+
+  it("numbers parts 1 to 4 and leaves the two Core parts unnumbered", () => {
+    expect(partNumber("reading-1")).toBe(1);
+    expect(partNumber("speaking-4")).toBe(4);
+    expect(partNumber("core-grammar")).toBeNull();
+    expect(partNumber("core-vocabulary")).toBeNull();
   });
 });

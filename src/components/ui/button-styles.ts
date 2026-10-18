@@ -1,0 +1,27 @@
+export type ButtonVariant = "primary" | "secondary" | "ghost";
+export type ButtonSize = "md" | "lg";
+
+const BASE =
+  "inline-flex items-center justify-center gap-2 rounded-control font-semibold leading-tight transition-colors duration-150 select-none disabled:cursor-not-allowed disabled:opacity-60";
+
+const SIZES: Record<ButtonSize, string> = {
+  md: "min-h-12 px-5 text-base",
+  lg: "min-h-14 px-6 text-lg",
+};
+
+/* Hover mixes the colour towards the ink, so it darkens in light mode and lightens in dark mode. */
+const VARIANTS: Record<ButtonVariant, string> = {
+  primary:
+    "bg-cover text-on-cover hover:bg-[color-mix(in_srgb,var(--cover)_82%,var(--ink))]",
+  secondary:
+    "border-[1.5px] border-line text-ink hover:bg-[color-mix(in_srgb,var(--paper)_88%,var(--ink))]",
+  ghost:
+    "text-ink underline decoration-1 underline-offset-4 hover:decoration-2 hover:bg-[color-mix(in_srgb,var(--paper)_92%,var(--ink))]",
+};
+
+export function buttonClasses(
+  variant: ButtonVariant = "secondary",
+  size: ButtonSize = "md",
+) {
+  return `${BASE} ${SIZES[size]} ${VARIANTS[variant]}`;
+}
