@@ -15,6 +15,13 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 - The user wants no narration or screenshots: work quietly, verify with tests and the validator, report briefly.
 - At the end of every phase or batch, add one line recommending the effort level for the next one (high: planning, hard debugging, phase 9 auth/keys; medium: routine code or content; low: mechanical edits).
 
+## Status (update at each phase close)
+
+- Phase 1 (foundations) done. Phase 2 (Core) approved, split into batches 2a, 2b and 2c. Batch 2a (engine, sample content, trainers, progress tools) is committed. Its plan is `docs/superpowers/plans/2026-10-18-phase-2a-core-engine.md`.
+- Still to check for 2a, in the browser and without screenshots (use `read_page`): Enter advances questions, the Vocabulary trainer, results and "review mistakes", Settings export/import/delete, an unknown lesson slug returning 404, and 375px plus dark mode on the new pages.
+- Next, batch 2b: about 30 B1–B2 grammar lessons and about 150 questions per Core part. Batch 2c: A2 review and C1 lessons (about 57 lessons in total), vocabulary for the 11 topics plus C1 sets, about 120 functional phrases, can-do statements B1–C1, and 300 grammar plus 300 vocabulary questions. The book unit lists are the coverage checklist. Write a plan for each batch and get approval before starting it.
+- Phases 3–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
+
 ## Commands
 
 - `npm run check`: typegen + tsc, eslint, vitest, content validator. Run before every commit.
