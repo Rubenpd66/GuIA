@@ -55,28 +55,28 @@ content/exercises/reading-{1,2,3,4}/*.json   banco inicial
 - `buildReadingSession({ tasks, part, mode, rng, levels?, onlyKeys? }): ReadingExercise[]` — estudio: 1 tarea; examen: `READING_PART_EXAM[part].tasks` distintas o las que haya; `onlyKeys` devuelve las tareas que contienen alguno de esos ítems.
 - Respuestas de la parte 2: `answers[id#p]` = índice de la frase que el alumno tiene en la posición p; se puntúa con `scoreItems` sin cambios.
 
-- [ ] **Step 1: tests que fallan** en `text.test.ts` y `reading.test.ts`: «splits sentences but not after Mr. or 3.5», «initialOrder keeps the first sentence and never returns the solved order» (1000 semillas), «moveItem refuses position 0», «readingItems builds one key per gap, position, statement and paragraph», «a repeated heading scores only where it is right», «exam session for part 2 takes two different tasks», «a bank with one part-2 task gives a one-task session», «onlyKeys returns the tasks of those items».
-- [ ] **Step 2:** `npx vitest run src/lib` → FAIL.
-- [ ] **Step 3:** implementar.
-- [ ] **Step 4:** `npm run check` limpio.
-- [ ] **Step 5:** commit `feat(trainer): reading sessions, items and ordering logic`.
+- [x] **Step 1: tests que fallan** en `text.test.ts` y `reading.test.ts`: «splits sentences but not after Mr. or 3.5», «initialOrder keeps the first sentence and never returns the solved order» (1000 semillas), «moveItem refuses position 0», «readingItems builds one key per gap, position, statement and paragraph», «a repeated heading scores only where it is right», «exam session for part 2 takes two different tasks», «a bank with one part-2 task gives a one-task session», «onlyKeys returns the tasks of those items».
+- [x] **Step 2:** `npx vitest run src/lib` → FAIL.
+- [x] **Step 3:** implementar.
+- [x] **Step 4:** `npm run check` limpio.
+- [x] **Step 5:** commit `feat(trainer): reading sessions, items and ordering logic`.
 
 ### Task 2: `SortableList`
 
 **Interfaces:** `SortableList({ items: { id: string; content: ReactNode }[]; order: number[]; fixed: number; onMove(from, to): void; disabled?: boolean; labels })` — `fixed` es el número de elementos iniciales que no se mueven (1 en la parte 2).
 
-- [ ] **Step 1:** puntero: asa de arrastre por fila con Pointer Events y `setPointerCapture`; `touch-action: none` solo en el asa, para que el resto de la fila deje hacer scroll; posición de destino por el punto medio de las filas; la fila que se arrastra se ve levantada y el hueco de destino marcado con una línea (no solo color).
-- [ ] **Step 2:** teclado: el asa es un botón; Espacio/Intro coge la frase, flechas la mueven, Espacio/Intro la suelta, Escape cancela y la devuelve. Botones «subir» y «bajar» de 44 px en cada fila, deshabilitados en los extremos.
-- [ ] **Step 3:** región `aria-live="polite"` con «Frase cogida: posición 3 de 6», «Movida a la posición 2», «Soltada en la posición 2» (claves en `Reading.sortable.*`).
-- [ ] **Step 4:** página `/design` muestra una lista de ejemplo (como el resto de piezas del sistema de diseño) para probarla a mano; `npm run check` limpio; commit `feat(reading): accessible sortable list`.
+- [x] **Step 1:** puntero: asa de arrastre por fila con Pointer Events y `setPointerCapture`; `touch-action: none` solo en el asa, para que el resto de la fila deje hacer scroll; posición de destino por el punto medio de las filas; la fila que se arrastra se ve levantada y el hueco de destino marcado con una línea (no solo color).
+- [x] **Step 2:** teclado: el asa es un botón; Espacio/Intro coge la frase, flechas la mueven, Espacio/Intro la suelta, Escape cancela y la devuelve. Botones «subir» y «bajar» de 44 px en cada fila, deshabilitados en los extremos.
+- [x] **Step 3:** región `aria-live="polite"` con «Frase cogida: posición 3 de 6», «Movida a la posición 2», «Soltada en la posición 2» (claves en `Reading.sortable.*`).
+- [x] **Step 4:** página `/design` muestra una lista de ejemplo (como el resto de piezas del sistema de diseño) para probarla a mano; `npm run check` limpio; commit `feat(reading): accessible sortable list`.
 
 ### Task 3: `HighlightableText`
 
 **Interfaces:** `HighlightableText({ paragraphs: string[]; highlighted: Set<string>; onToggle(key: string): void; active: boolean })` — clave `p:s` (párrafo, frase) a partir de `splitSentences`.
 
-- [ ] **Step 1:** con el resaltador apagado el texto se lee normal; encendido, cada frase es un botón (`aria-pressed`) que se marca con `==mark==`-style (fondo + subrayado, no solo color). Un interruptor «Resaltar» encima del texto y «Borrar resaltados».
-- [ ] **Step 2:** los resaltados viven solo en la sesión (estado del entrenador); no se guardan en el progreso.
-- [ ] **Step 3:** `npm run check` limpio; commit `feat(reading): sentence highlighter`.
+- [x] **Step 1:** con el resaltador apagado el texto se lee normal; encendido, cada frase es un botón (`aria-pressed`) que se marca con `==mark==`-style (fondo + subrayado, no solo color). Un interruptor «Resaltar» encima del texto y «Borrar resaltados».
+- [x] **Step 2:** los resaltados viven solo en la sesión (estado del entrenador); no se guardan en el progreso.
+- [x] **Step 3:** `npm run check` limpio; commit `feat(reading): sentence highlighter`.
 
 ### Task 4: Entrenador de Reading
 

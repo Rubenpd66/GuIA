@@ -19,7 +19,15 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 
 - Phases 1 and 2 are done, committed and browser-checked. Phase 2 (Core) ran in batches 2a–2d: engine, trainers and progress tools; 65 grammar lessons with 336 questions (egu 143/145); 20 vocabulary groups with 276 entries and 300 Vocabulary items (75 per type); 120 functional phrases at `/functional-language`; 54 can-do statements B1–C1 shown in the syllabus and on linked lessons. Plans: `docs/superpowers/plans/2026-10-18-phase-2{a,b,c,d}-*.md`.
 - Open: egu units 35 (probably "would", could go on `used-to-and-get-used-to`) and 41 (unassigned), and evu references for the vocabulary groups (the user chose none for now; evu coverage 2/101). Ask the user before adding references.
-- Next, phase 3 (Reading): 4 parts with their interactions (accessible drag and drop, highlighting) and strategies. Write the plan and get approval before starting.
+- Phase 3 (Reading) is in progress. The plan is approved: `docs/superpowers/plans/2026-10-18-phase-3-reading.md`.
+  - Tasks 1–3 are done and committed: `src/lib/trainer/reading.ts`, `src/components/reading/SortableList.tsx` (browser-checked on `/design`) and `HighlightableText.tsx` with `HighlighterControls` (not browser-checked yet).
+  - **Resume at Task 4:** the `ReadingTrainer` and the Reading1–4Task components, wired into `/practice/[part]`.
+  - The Task 5 content is drafted and validates, but is NOT committed or reviewed: `content/exercises/reading-{1,2,3,4}/`, with 12/16/8/6 tasks. Review it key by key before committing.
+  - Items the agents flagged for review:
+    - r2: the order may not be unique in `environment-01` and `education-01`. In the B1 stories (`work-01`, `health-sport-01`, `travel-01`, `relationships-01`) the order rests on time sequence.
+    - r1: `media-01` item 4, `work-02` items 4–5, `travel-01` item 3.
+    - r3: possible second person in `technology-teen-social-media` (age limits), `environment-air-travel-tax` (two statements), `work-four-day-week` (errors; two stiff statements), `media-paywalls` (the statement says "she", a gender clue), `shopping-consumption` (short-term use).
+    - r4: two headings could fit in `rewilding` p4, `old-phones` p6, `adult-learners` p1/p2 and `local-news` p5/p7.
 - Phases 3–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
@@ -53,4 +61,10 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 
 - Windows. This folder (`~/dev/sello-aptis`) is the working copy. `C:\Users\RUBEN\Documents\sello-aptis` is a mirror protected by Controlled Folder Access: sync it at phase close with PowerShell `git -C "C:\Users\RUBEN\Documents\sello-aptis" pull -q "C:\Users\RUBEN\dev\sello-aptis" main`.
 - For bulk content drafting use the `content-writer` agent (Sonnet), then review and validate.
+- Personal skills the user wants used (in `~/.claude/skills`):
+  - `ponytail`: activate it at session start.
+  - `tdd`, `diagnosing-bugs`, `ponytail-review` and `mp-code-review`.
+  - `security-audit`: for phase 9.
+  - `impeccable` and Emil Kowalski's skills (`emil-design-eng`, `review-animations`…): for UI polish. Impeccable's launcher downloads a binary on first run, so ask before running it.
+  - These rules win over any skill.
 - Code graph: `graphify update .` (local, no API cost) → `graphify-out/`; query with `graphify query "<question>"`.
