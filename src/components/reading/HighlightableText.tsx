@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { useState } from "react";
 import { Icon } from "@/components/icons/Icon";
 import { Button } from "@/components/ui/Button";
 import { splitSentences } from "@/lib/content/text";
@@ -57,6 +58,34 @@ export function HighlightableText({
       ))}
     </div>
   );
+}
+
+/**
+ * Highlight state for every text in a task, kept only for the session. `of(text)` gives the
+ * `paragraph:sentence` keys of one text.
+ */
+export function useHighlights() {
+  const [active, setActive] = useState(false);
+  const [keys, setKeys] = useState<ReadonlySet<string>>(new Set());
+  return {
+    active,
+    setActive,
+    count: keys.size,
+    clear: () => setKeys(new Set()),
+    of: (text: string) =>
+      new Set(
+        [...keys]
+          .filter((key) => key.startsWith(`${text}|`))
+          .map((key) => key.slice(text.length + 1)),
+      ),
+    toggle: (text: string) => (key: string) =>
+      setKeys((current) => {
+        const next = new Set(current);
+        const full = `${text}|${key}`;
+        if (!next.delete(full)) next.add(full);
+        return next;
+      }),
+  };
 }
 
 /** The highlighter switch and the clear button, shared by every text in a task. */

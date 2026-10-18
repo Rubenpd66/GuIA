@@ -9,6 +9,8 @@ type ResultsViewProps = {
   total: number;
   timeUp: boolean;
   wrongCount: number;
+  /** What the score means; defaults to the Core note. */
+  note?: string;
   /** The list of mistakes, already rendered by the trainer. */
   children: ReactNode;
   onNewSession: () => void;
@@ -37,7 +39,7 @@ export function ResultsView(props: ResultsViewProps) {
           {t("score", { correct: props.correct, total: props.total })}
         </p>
         <p className="mt-2 text-sm text-ink-soft">{t("estimate")}</p>
-        <p className="mt-3 text-ink-soft">{t("coreNote")}</p>
+        <p className="mt-3 text-ink-soft">{props.note ?? t("coreNote")}</p>
       </div>
 
       <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">

@@ -14,6 +14,9 @@ type TrainerSetupProps = {
   levels: readonly CefrLevel[];
   examCount: number;
   examMinutes: number;
+  /** Overrides the exam card hint and the bank size line (Reading counts tasks, not questions). */
+  examHint?: string;
+  bankText?: string;
   poolSize: number;
   focusName?: string;
   onClearFocus?: () => void;
@@ -32,10 +35,12 @@ export function TrainerSetup(props: TrainerSetupProps) {
     {
       value: "exam" as const,
       title: t("exam"),
-      hint: t("examHint", {
-        count: props.examCount,
-        minutes: props.examMinutes,
-      }),
+      hint:
+        props.examHint ??
+        t("examHint", {
+          count: props.examCount,
+          minutes: props.examMinutes,
+        }),
     },
   ];
 
@@ -117,7 +122,7 @@ export function TrainerSetup(props: TrainerSetupProps) {
         </p>
       ) : (
         <p className="text-sm text-ink-soft">
-          {t("bankSize", { count: props.poolSize })}
+          {props.bankText ?? t("bankSize", { count: props.poolSize })}
         </p>
       )}
 

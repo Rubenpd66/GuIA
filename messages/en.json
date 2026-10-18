@@ -403,6 +403,29 @@
       "toggle": "Highlight",
       "clear": "Clear highlights",
       "hint": "Tap a sentence to mark or unmark it."
+    },
+    "trainer": {
+      "instructions": {
+        "reading-1": "Choose the word that completes each sentence.",
+        "reading-2": "Put the sentences in order to make a text. The first one is already in place.",
+        "reading-3": "Read what each person says and choose who expresses each idea. You can choose the same person more than once.",
+        "reading-4": "Choose the heading for each paragraph. There is one heading you do not need."
+      },
+      "chooseOption": "Choose an option",
+      "choosePerson": "Choose a person",
+      "chooseHeading": "Choose a heading",
+      "headingsTitle": "Headings",
+      "alreadyChosen": "(already chosen)",
+      "paragraph": "Paragraph {number}",
+      "position": "Position {number}",
+      "belongsAt": "This sentence belongs in position {position}",
+      "correctOrder": "Correct order",
+      "cohesionTitle": "Cohesion clues",
+      "hint": "(sentence {sentence}) refers back to sentence {target}:",
+      "examHint": "{count, plural, one {# task} other {# tasks}} in {minutes, number} minutes (time set by the app), no help. Your score at the end.",
+      "bankSize": "{count, plural, one {# task available} other {# tasks available}}. The bank grows in the next batches.",
+      "shortBank": "The exam has {total} tasks, but the bank only has {count} for this filter, so the session is shorter.",
+      "scoreNote": "One point per gap, sentence in the right place, statement and paragraph (app decision). This is not the exam's scale."
     }
   }
 }

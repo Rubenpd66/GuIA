@@ -80,12 +80,12 @@ content/exercises/reading-{1,2,3,4}/*.json   banco inicial
 
 ### Task 4: Entrenador de Reading
 
-- [ ] **Step 1:** `Reading1Task`: contexto opcional y 5 frases con un `<select>` nativo por hueco (como la parte real); en estudio, «Comprobar» marca cada frase y muestra su explicación.
-- [ ] **Step 2:** `Reading2Task`: título opcional, frase 1 fija y `SortableList` con las demás; en estudio, «Comprobar» marca cada posición y muestra las `cohesionHints` (la frase o palabra que remite, resaltada, y a qué frase apunta) y la explicación.
-- [ ] **Step 3:** `Reading3Task`: pregunta, las 4 personas con `HighlightableText` y 7 afirmaciones con un `<select>` de persona (A–D); en pantalla ancha, textos y afirmaciones en dos columnas; en móvil, textos plegables por persona encima de las afirmaciones.
-- [ ] **Step 4:** `Reading4Task`: título, lista de los 8 encabezados y los 7 párrafos con `HighlightableText`, cada uno con su `<select>` de encabezado justo encima; un encabezado ya usado se marca «(ya elegido)» en las demás listas, sin bloquearlo.
-- [ ] **Step 5:** `ReadingTrainer({ part, tasks })`: reutiliza `TrainerSetup`, `SessionHeader`, `ResultsView`, `trainerReducer`, `useCountdown` y `recordSession`; un paso por tarea; resultados con la explicación de cada fallo y «Repasar estos fallos» con `onlyKeys`. Aviso si el banco da menos tareas que el examen.
-- [ ] **Step 6:** `/practice/[part]` monta el entrenador para `reading-1…4`; claves `Reading.*`; `npm run check` limpio; commit `feat(reading): trainer for the four reading parts`.
+- [x] **Step 1:** `Reading1Task`: contexto opcional y 5 frases con un `<select>` nativo por hueco (como la parte real); en estudio, «Comprobar» marca cada frase y muestra su explicación.
+- [x] **Step 2:** `Reading2Task`: título opcional, frase 1 fija y `SortableList` con las demás; en estudio, «Comprobar» marca cada posición y muestra las `cohesionHints` (la frase o palabra que remite, resaltada, y a qué frase apunta) y la explicación.
+- [x] **Step 3:** `Reading3Task`: pregunta, las 4 personas con `HighlightableText` y 7 afirmaciones con un `<select>` de persona (A–D); en pantalla ancha, textos y afirmaciones en dos columnas; en móvil, textos plegables por persona encima de las afirmaciones.
+- [x] **Step 4:** `Reading4Task`: título, lista de los 8 encabezados y los 7 párrafos con `HighlightableText`, cada uno con su `<select>` de encabezado justo encima; un encabezado ya usado se marca «(ya elegido)» en las demás listas, sin bloquearlo.
+- [x] **Step 5:** `ReadingTrainer({ part, tasks })`: reutiliza `TrainerSetup`, `SessionHeader`, `ResultsView`, `trainerReducer`, `useCountdown` y `recordSession`; un paso por tarea; resultados con la explicación de cada fallo y «Repasar estos fallos» con `onlyKeys`. Aviso si el banco da menos tareas que el examen.
+- [x] **Step 6:** `/practice/[part]` monta el entrenador para `reading-1…4`; claves `Reading.*`; `npm run check` limpio; commit `feat(reading): trainer for the four reading parts`.
 
 ### Task 5: Contenido (en paralelo con las Tasks 2–4)
 

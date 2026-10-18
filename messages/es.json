@@ -403,6 +403,29 @@
       "toggle": "Resaltar",
       "clear": "Borrar resaltados",
       "hint": "Toca una frase para marcarla o desmarcarla."
+    },
+    "trainer": {
+      "instructions": {
+        "reading-1": "Elige la palabra que completa cada frase.",
+        "reading-2": "Ordena las frases para formar un texto. La primera ya está en su sitio.",
+        "reading-3": "Lee lo que dice cada persona y elige quién expresa cada idea. Puedes elegir a la misma persona más de una vez.",
+        "reading-4": "Elige el encabezado de cada párrafo. Sobra un encabezado."
+      },
+      "chooseOption": "Elige una opción",
+      "choosePerson": "Elige una persona",
+      "chooseHeading": "Elige un encabezado",
+      "headingsTitle": "Encabezados",
+      "alreadyChosen": "(ya elegido)",
+      "paragraph": "Párrafo {number}",
+      "position": "Posición {number}",
+      "belongsAt": "Esta frase va en la posición {position}",
+      "correctOrder": "Orden correcto",
+      "cohesionTitle": "Pistas de cohesión",
+      "hint": "(frase {sentence}) remite a la frase {target}:",
+      "examHint": "{count, plural, one {# tarea} other {# tareas}} en {minutes, number} minutos (tiempo decidido por la app), sin ayudas. La nota, al final.",
+      "bankSize": "{count, plural, one {# tarea disponible} other {# tareas disponibles}}. El banco crece en los próximos lotes.",
+      "shortBank": "El examen tiene {total} tareas, pero el banco solo da {count} con este filtro: la sesión es más corta.",
+      "scoreNote": "Un punto por hueco, por frase bien colocada, por afirmación y por párrafo (decisión de la app). No es la escala del examen."
     }
   }
 }

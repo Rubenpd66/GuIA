@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import { ReadingTrainer } from "@/components/reading/ReadingTrainer";
 import { GrammarTrainer } from "@/components/trainer/GrammarTrainer";
 import { VocabularyTrainer } from "@/components/trainer/VocabularyTrainer";
 import { ButtonLink } from "@/components/ui/ButtonLink";
@@ -88,6 +89,21 @@ async function PracticePart({ params }: { params: Params }) {
             tasks={exercisesOfPart(content, "core-vocabulary")}
           />
         )}
+      </>
+    );
+  }
+
+  if (
+    part === "reading-1" ||
+    part === "reading-2" ||
+    part === "reading-3" ||
+    part === "reading-4"
+  ) {
+    const content = await getContent();
+    return (
+      <>
+        <PageHeader title={await titleOf(part)} />
+        <ReadingTrainer part={part} tasks={exercisesOfPart(content, part)} />
       </>
     );
   }
