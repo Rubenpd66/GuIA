@@ -20,8 +20,8 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 - Phases 1 and 2 are done, committed and browser-checked. Phase 2 (Core) ran in batches 2a–2d: engine, trainers and progress tools; 65 grammar lessons with 336 questions (egu 143/145); 20 vocabulary groups with 276 entries and 300 Vocabulary items (75 per type); 120 functional phrases at `/functional-language`; 54 can-do statements B1–C1 shown in the syllabus and on linked lessons. Plans: `docs/superpowers/plans/2026-10-18-phase-2{a,b,c,d}-*.md`.
 - Open: egu units 35 (probably "would", could go on `used-to-and-get-used-to`) and 41 (unassigned), and evu references for the vocabulary groups (the user chose none for now; evu coverage 2/101). Ask the user before adding references.
 - Phase 3 (Reading) is in progress. The plan is approved: `docs/superpowers/plans/2026-10-18-phase-3-reading.md`.
-  - Tasks 1–3 are done and committed: `src/lib/trainer/reading.ts`, `src/components/reading/SortableList.tsx` (browser-checked on `/design`) and `HighlightableText.tsx` with `HighlighterControls` (not browser-checked yet).
-  - **Resume at Task 4:** the `ReadingTrainer` and the Reading1–4Task components, wired into `/practice/[part]`.
+  - Tasks 1–4 are done and committed: `src/lib/trainer/reading.ts`, `SortableList`, `HighlightableText` (+ `useHighlights`), and `ReadingTrainer` with `Reading1–4Task` wired into `/practice/[part]` (smoke-tested at 375 px in study mode for all four parts; the full Task 7 browser pass is still due).
+  - **Resume at Task 5 review** (content below), then Task 6 (`/reading` strategies page).
   - The Task 5 content is drafted and validates, but is NOT committed or reviewed: `content/exercises/reading-{1,2,3,4}/`, with 12/16/8/6 tasks. Review it key by key before committing.
   - Items the agents flagged for review:
     - r2: the order may not be unique in `environment-01` and `education-01`. In the B1 stories (`work-01`, `health-sport-01`, `travel-01`, `relationships-01`) the order rests on time sequence.
