@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { countGaps, countWords, findAmericanSpellings, stripBom } from "./text";
+import {
+  countGaps,
+  countWords,
+  findAmericanSpellings,
+  splitSentences,
+  stripBom,
+} from "./text";
 
 const BOM = String.fromCharCode(0xfeff);
 
@@ -44,5 +50,36 @@ describe("findAmericanSpellings", () => {
   it("accepts British spellings and longer words", () => {
     expect(findAmericanSpellings("A colourful neighbourhood")).toEqual([]);
     expect(findAmericanSpellings("Colorado is a place name")).toEqual([]);
+  });
+});
+
+describe("splitSentences", () => {
+  it("splits after full stops, question marks and exclamation marks", () => {
+    expect(
+      splitSentences("It rained. Did we care? No! We went out anyway."),
+    ).toEqual(["It rained.", "Did we care?", "No!", "We went out anyway."]);
+  });
+
+  it("keeps closing quotes with their sentence", () => {
+    expect(splitSentences('She said, "Never again." Then she left.')).toEqual([
+      'She said, "Never again."',
+      "Then she left.",
+    ]);
+  });
+
+  it("does not split after titles, common abbreviations or in decimals", () => {
+    expect(
+      splitSentences(
+        "Mr. Hughes paid 3.5 times more, e.g. For rent. Dr. Patel agreed.",
+      ),
+    ).toEqual([
+      "Mr. Hughes paid 3.5 times more, e.g. For rent.",
+      "Dr. Patel agreed.",
+    ]);
+  });
+
+  it("returns one sentence for text without a final stop and none for blank text", () => {
+    expect(splitSentences("  Just one line ")).toEqual(["Just one line"]);
+    expect(splitSentences("   ")).toEqual([]);
   });
 });

@@ -15,6 +15,17 @@ export const CORE_PART_EXAM = {
   },
 } as const;
 
+/**
+ * Exam mode for a single Reading part: the real number of tasks, and a share of the
+ * 35 minutes of the Reading paper (app decision; the exam does not time parts).
+ */
+export const READING_PART_EXAM = {
+  "reading-1": { tasks: 1, seconds: 4 * 60 },
+  "reading-2": { tasks: EXAM_FORMAT.reading.part2.tasks, seconds: 8 * 60 },
+  "reading-3": { tasks: 1, seconds: 8 * 60 },
+  "reading-4": { tasks: 1, seconds: 15 * 60 },
+} as const;
+
 /** Study sessions are shorter so they fit in a break. */
 export const STUDY_SESSION_SIZE = 10;
 

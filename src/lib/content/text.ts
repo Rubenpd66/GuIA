@@ -11,6 +11,39 @@ export function countGaps(text: string): number {
   return text.match(GAP)?.length ?? 0;
 }
 
+const ABBREVIATIONS = new Set([
+  "mr",
+  "mrs",
+  "ms",
+  "dr",
+  "prof",
+  "st",
+  "e.g",
+  "i.e",
+  "vs",
+  "approx",
+]);
+// End of sentence (with an optional closing quote or bracket), space, then a capital or digit.
+const SENTENCE_END = /([.?!]["'”’)]?)\s+(?=["'“‘(]?[A-Z0-9])/g;
+
+/** Splits prose into sentences, without breaking after titles, common abbreviations or in decimals. */
+export function splitSentences(text: string): string[] {
+  const sentences: string[] = [];
+  let start = 0;
+  for (const match of text.matchAll(SENTENCE_END)) {
+    const end = match.index + match[1]!.length;
+    const sentence = text.slice(start, end);
+    const lastWord = sentence.match(/(\S+)[.?!]["'”’)]?$/)?.[1]?.toLowerCase();
+    if (match[1]!.startsWith(".") && lastWord && ABBREVIATIONS.has(lastWord))
+      continue;
+    sentences.push(sentence.trim());
+    start = match.index + match[0].length;
+  }
+  const rest = text.slice(start).trim();
+  if (rest) sentences.push(rest);
+  return sentences;
+}
+
 /** Removes the UTF-8 byte order mark that some Windows editors add. */
 export function stripBom(text: string): string {
   return text.charCodeAt(0) === 0xfeff ? text.slice(1) : text;
