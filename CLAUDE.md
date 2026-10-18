@@ -17,9 +17,9 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 
 ## Status (update at each phase close)
 
-- Phase 1 (foundations) done. Phase 2 (Core) runs in batches 2a–2d. 2a (engine, trainers, progress tools), 2b (B1–B2 lessons, 175 vocabulary items) and 2c (A2 review, remaining egu units, C1 structures) are committed and browser-checked: 65 grammar lessons, 336 grammar questions (5+ per lesson), egu 143/145. Plans: `docs/superpowers/plans/2026-10-18-phase-2{a,b,c}-*.md`.
-- Open egu units: 35 (probably "would"; could go on `used-to-and-get-used-to`) and 41 (unassigned). Ask the user before adding references.
-- Next, batch 2d: vocabulary groups for the 10 remaining topics and the C1 sets (the user supplies evu units), about 240 vocabulary entries, 25 more Vocabulary tasks (300 items), about 120 functional phrases, about 54 can-do statements B1–C1, and the UI that shows them (functional language page, objectives in syllabus and lessons). Write the plan and get approval before starting.
+- Phases 1 and 2 are done, committed and browser-checked. Phase 2 (Core) ran in batches 2a–2d: engine, trainers and progress tools; 65 grammar lessons with 336 questions (egu 143/145); 20 vocabulary groups with 276 entries and 300 Vocabulary items (75 per type); 120 functional phrases at `/functional-language`; 54 can-do statements B1–C1 shown in the syllabus and on linked lessons. Plans: `docs/superpowers/plans/2026-10-18-phase-2{a,b,c,d}-*.md`.
+- Open: egu units 35 (probably "would", could go on `used-to-and-get-used-to`) and 41 (unassigned), and evu references for the vocabulary groups (the user chose none for now; evu coverage 2/101). Ask the user before adding references.
+- Next, phase 3 (Reading): 4 parts with their interactions (accessible drag and drop, highlighting) and strategies. Write the plan and get approval before starting.
 - Phases 3–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
