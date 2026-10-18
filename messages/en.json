@@ -398,6 +398,11 @@
       "dropped": "Sentence dropped at position {position} of {total}.",
       "cancelled": "Move cancelled: the sentence is back at position {position} of {total}.",
       "fixed": "Fixed"
+    },
+    "highlight": {
+      "toggle": "Highlight",
+      "clear": "Clear highlights",
+      "hint": "Tap a sentence to mark or unmark it."
     }
   }
 }

@@ -398,6 +398,11 @@
       "dropped": "Frase soltada en la posición {position} de {total}.",
       "cancelled": "Movimiento cancelado: la frase vuelve a la posición {position} de {total}.",
       "fixed": "Fija"
+    },
+    "highlight": {
+      "toggle": "Resaltar",
+      "clear": "Borrar resaltados",
+      "hint": "Toca una frase para marcarla o desmarcarla."
     }
   }
 }
