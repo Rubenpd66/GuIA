@@ -5,11 +5,12 @@ import { Suspense } from "react";
 import { LevelBadge } from "@/components/content/LevelBadge";
 import { RichText } from "@/components/content/RichText";
 import { Icon } from "@/components/icons/Icon";
+import { CanDoList } from "@/components/lessons/CanDoList";
 import { FurtherStudy } from "@/components/lessons/FurtherStudy";
 import { LessonPractice } from "@/components/lessons/LessonPractice";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Link } from "@/i18n/navigation";
-import { lessonBySlug, questionsForLesson } from "@/lib/content";
+import { canDoOfLesson, lessonBySlug, questionsForLesson } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
 import { localized } from "@/lib/content/localize";
 
@@ -63,6 +64,7 @@ async function Lesson({ params }: { params: Params }) {
   const lesson = lessonBySlug(content, slug);
   if (!lesson) notFound();
   const questions = questionsForLesson(content, slug).length;
+  const objectives = canDoOfLesson(content, slug);
 
   return (
     <article className="space-y-12">
@@ -193,6 +195,17 @@ async function Lesson({ params }: { params: Params }) {
           <LessonPractice items={lesson.practice} />
         </div>
       </section>
+
+      {objectives.length > 0 ? (
+        <section aria-labelledby="can-do" className="max-w-[68ch]">
+          <h2 id="can-do" className={H2}>
+            {t("Lesson.canDo")}
+          </h2>
+          <div className="mt-4">
+            <CanDoList items={objectives} />
+          </div>
+        </section>
+      ) : null}
 
       <div className="grid max-w-[68ch] gap-6">
         <aside aria-labelledby="trainer" className="rounded-page bg-sheet p-5">

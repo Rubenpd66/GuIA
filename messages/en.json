@@ -248,7 +248,12 @@
     "skillsLead": "Strategies and practice for each part of the exam.",
     "lessons": "{count, plural, =0 {No lessons yet} one {# lesson} other {# lessons}}",
     "entries": "{count, plural, =0 {No words yet} one {# word} other {# words}}",
-    "phase": "Phase {phase}"
+    "phase": "Phase {phase}",
+    "functionalTitle": "Functional language",
+    "functionalLead": "Phrases to give opinions, hedge, contrast or buy time, by level and register.",
+    "canDoTitle": "Objectives by level",
+    "canDoLead": "What you should be able to do at each level. It shows what you still need for a C.",
+    "canDoCount": "{count, plural, =0 {No objectives yet} one {# objective} other {# objectives}}"
   },
   "Lesson": {
     "explanation": "Explanation",
@@ -268,7 +273,8 @@
     "trainerLink": "Practise this point in Core Grammar",
     "questions": "{count, plural, =0 {No questions on this point yet} one {# exam-style question} other {# exam-style questions}}",
     "allLessons": "All grammar lessons",
-    "gap": "blank"
+    "gap": "blank",
+    "canDo": "Objectives this lesson works on"
   },
   "Vocab": {
     "falseFriend": "False friend",
@@ -353,5 +359,30 @@
     "coreTitle": "Why Core can save a C",
     "coreBody": "Grammar and Vocabulary are reported as a number from 0 to 50, with no level. But when a skill falls just below the threshold for a level, the Core score decides whether you get the higher level. Raising your Core score is the cheapest way to secure a C.",
     "estimateNote": "Sello shows levels and scores estimated by the app. They are not official results."
+  },
+  "Functional": {
+    "title": "Functional language",
+    "lead": "Phrases for Writing parts 3 and 4 and for Speaking: how to give an opinion, hedge, contrast, conclude or buy time, with their level and register.",
+    "contents": "Functions",
+    "empty": "No phrases yet",
+    "emptyBody": "Functional phrases arrive with this phase's content.",
+    "opinion": "Giving your opinion",
+    "hedging": "Hedging and softening",
+    "contrast": "Contrasting",
+    "addition": "Adding ideas",
+    "conclusion": "Concluding",
+    "speculation": "Speculating",
+    "comparison": "Comparing",
+    "buying-time": "Buying time",
+    "interrupting": "Interrupting politely",
+    "returning": "Getting back to the point"
+  },
+  "CanDo": {
+    "spoken-interaction": "Spoken interaction",
+    "spoken-production": "Spoken production",
+    "listening": "Listening",
+    "reading": "Reading",
+    "writing": "Writing",
+    "strategies": "Strategies"
   }
 }

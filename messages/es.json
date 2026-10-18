@@ -248,7 +248,12 @@
     "skillsLead": "Estrategias y práctica de cada parte del examen.",
     "lessons": "{count, plural, =0 {Sin lecciones todavía} one {# lección} other {# lecciones}}",
     "entries": "{count, plural, =0 {Sin palabras todavía} one {# palabra} other {# palabras}}",
-    "phase": "Fase {phase}"
+    "phase": "Fase {phase}",
+    "functionalTitle": "Lenguaje funcional",
+    "functionalLead": "Frases para opinar, matizar, contrastar o ganar tiempo, por nivel y registro.",
+    "canDoTitle": "Objetivos por nivel",
+    "canDoLead": "Lo que deberías poder hacer en cada nivel. Te ayuda a ver qué te falta para el C.",
+    "canDoCount": "{count, plural, =0 {Sin objetivos todavía} one {# objetivo} other {# objetivos}}"
   },
   "Lesson": {
     "explanation": "Explicación",
@@ -268,7 +273,8 @@
     "trainerLink": "Practicar este punto en Core Grammar",
     "questions": "{count, plural, =0 {Aún no hay preguntas de este punto} one {# pregunta tipo examen} other {# preguntas tipo examen}}",
     "allLessons": "Todas las lecciones de gramática",
-    "gap": "hueco"
+    "gap": "hueco",
+    "canDo": "Objetivos que trabaja esta lección"
   },
   "Vocab": {
     "falseFriend": "Falso amigo",
@@ -353,5 +359,30 @@
     "coreTitle": "Por qué el Core puede salvar un C",
     "coreBody": "Grammar y Vocabulary se informan como un número de 0 a 50, sin nivel. Pero cuando una destreza se queda justo por debajo del umbral de un nivel, la nota del Core decide si te dan el nivel superior. Subir el Core es la forma más barata de asegurar un C.",
     "estimateNote": "Sello muestra niveles y puntuaciones estimados por la app. No son resultados oficiales."
+  },
+  "Functional": {
+    "title": "Lenguaje funcional",
+    "lead": "Frases para Writing 3 y 4 y para Speaking: cómo opinar, matizar, contrastar, concluir o ganar tiempo, con su nivel y su registro.",
+    "contents": "Funciones",
+    "empty": "Todavía no hay frases",
+    "emptyBody": "Las frases funcionales llegan con el contenido de esta fase.",
+    "opinion": "Dar tu opinión",
+    "hedging": "Matizar y suavizar",
+    "contrast": "Contrastar",
+    "addition": "Añadir ideas",
+    "conclusion": "Concluir",
+    "speculation": "Especular",
+    "comparison": "Comparar",
+    "buying-time": "Ganar tiempo",
+    "interrupting": "Interrumpir con educación",
+    "returning": "Retomar el tema"
+  },
+  "CanDo": {
+    "spoken-interaction": "Conversación",
+    "spoken-production": "Expresión oral",
+    "listening": "Comprensión auditiva",
+    "reading": "Comprensión lectora",
+    "writing": "Expresión escrita",
+    "strategies": "Estrategias"
   }
 }

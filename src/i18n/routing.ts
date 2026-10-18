@@ -26,6 +26,10 @@ export const routing = defineRouting({
     "/listening": { es: "/comprension-auditiva", en: "/listening" },
     "/writing": { es: "/expresion-escrita", en: "/writing" },
     "/speaking": { es: "/expresion-oral", en: "/speaking" },
+    "/functional-language": {
+      es: "/lenguaje-funcional",
+      en: "/functional-language",
+    },
     "/practice": { es: "/practica", en: "/practice" },
     "/practice/[part]": { es: "/practica/[part]", en: "/practice/[part]" },
     "/mock-exam": { es: "/simulacro", en: "/mock-exam" },
