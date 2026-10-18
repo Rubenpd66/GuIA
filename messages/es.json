@@ -427,5 +427,43 @@
       "shortBank": "El examen tiene {total} tareas, pero el banco solo da {count} con este filtro: la sesión es más corta.",
       "scoreNote": "Un punto por hueco, por frase bien colocada, por afirmación y por párrafo (decisión de la app). No es la escala del examen."
     }
+  },
+  "ReadingPage": {
+    "intro": "El examen de Reading dura {minutes} minutos para las cuatro partes, y tú decides cómo repartirlos. Aquí tienes qué pide cada parte, estrategias para hacerla bien y un entrenador con textos originales.",
+    "partTitle": "Parte {number}: {name}",
+    "examTime": "Modo examen de la app: {minutes} minutos para esta parte. El reparto es una decisión de la app; el examen solo fija el total.",
+    "strategies": "Estrategias",
+    "lessons": "Lecciones de gramática que ayudan",
+    "practise": "Practicar la parte {number}"
+  },
+  "ReadingStrategies": {
+    "reading-1": {
+      "task": "Un texto corto (una nota, un email, un aviso) con {sentences} frases. En cada una falta una palabra y eliges entre {options} opciones.",
+      "s1": "Lee la frase entera antes de mirar las opciones: lo que va después del hueco suele decidir la respuesta.",
+      "s2": "Fíjate en qué tipo de palabra falta (verbo, preposición, sustantivo…) y descarta las opciones que no lo son.",
+      "s3": "Cuidado con las parejas que en español se parecen, como «make» y «do», o «for» y «since».",
+      "s4": "Es la parte más rápida: no te quedes atascado y guarda tiempo para la parte 4."
+    },
+    "reading-2": {
+      "task": "{tasks} textos de {sentences} frases desordenadas. La primera ya está en su sitio y tienes que ordenar las demás.",
+      "s1": "Busca las palabras que remiten a algo anterior: pronombres (it, they, this), «the» delante de algo ya mencionado, «such», «these».",
+      "s2": "Los conectores marcan la relación: «however» introduce un contraste, «as a result» una consecuencia, «finally» un cierre.",
+      "s3": "Encuentra parejas seguras primero y luego encaja el resto alrededor de ellas.",
+      "s4": "Al terminar, lee el texto de corrido: si alguna frase «salta», revisa su posición."
+    },
+    "reading-3": {
+      "task": "{people} personas opinan sobre un mismo tema. Tienes que decidir quién dice cada una de las {statements} afirmaciones; alguna persona sirve para más de una.",
+      "s1": "Lee primero las afirmaciones para saber qué ideas buscas.",
+      "s2": "Las afirmaciones parafrasean el texto: no busques las mismas palabras, busca la misma idea.",
+      "s3": "Atención a los matices: «at first», «I used to think», «but» o «however» cambian lo que la persona piensa de verdad.",
+      "s4": "Usa el resaltador para marcar la frase que justifica cada respuesta."
+    },
+    "reading-4": {
+      "task": "Un texto de unas {words} palabras con {paragraphs} párrafos. Eliges el encabezado de cada uno entre {headings}: sobra uno.",
+      "s1": "Lee todos los encabezados antes de empezar y piensa qué idea resume cada uno.",
+      "s2": "La idea principal suele estar en la primera o la última frase del párrafo; los ejemplos del medio son detalles.",
+      "s3": "Desconfía del encabezado que repite una palabra del párrafo: el correcto suele resumir la idea con otras palabras.",
+      "s4": "Empieza por los párrafos que tengas claros; con menos opciones, los difíciles son más fáciles."
+    }
   }
 }

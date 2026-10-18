@@ -105,9 +105,9 @@ Temas repartidos entre los 11 del examen. Parte 1: textos cortos reales (nota, e
 
 ### Task 6: Página de Reading y estrategias
 
-- [ ] **Step 1:** `/reading`: cabecera, las 4 partes desde `EXAM_FORMAT` (qué hay que hacer, cuántos ítems, tiempo de la app en examen marcado como decisión), 3–4 estrategias por parte (`ReadingStrategies.part1…4`, ES/EN, propias) y botón «Practicar» a cada entrenador; enlace a las lecciones de gramática útiles (linkers, referencias) desde la parte 2.
-- [ ] **Step 2:** `SECTIONS.reading` y `PHASE_OF_SKILL.reading` siguen en 3; la lista de partes de `/practice` muestra Reading disponible.
-- [ ] **Step 3:** `npm run check` limpio; commit `feat(reading): reading section with strategies`.
+- [x] **Step 1:** `/reading`: cabecera, las 4 partes desde `EXAM_FORMAT` (qué hay que hacer, cuántos ítems, tiempo de la app en examen marcado como decisión), 3–4 estrategias por parte (`ReadingStrategies.part1…4`, ES/EN, propias) y botón «Practicar» a cada entrenador; enlace a las lecciones de gramática útiles (linkers, referencias) desde la parte 2.
+- [x] **Step 2:** `SECTIONS.reading` y `PHASE_OF_SKILL.reading` siguen en 3; la lista de partes de `/practice` muestra Reading disponible.
+- [x] **Step 3:** `npm run check` limpio; commit `feat(reading): reading section with strategies`.
 
 ### Task 7: Comprobación y cierre
 

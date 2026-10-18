@@ -427,5 +427,43 @@
       "shortBank": "The exam has {total} tasks, but the bank only has {count} for this filter, so the session is shorter.",
       "scoreNote": "One point per gap, sentence in the right place, statement and paragraph (app decision). This is not the exam's scale."
     }
+  },
+  "ReadingPage": {
+    "intro": "The Reading paper lasts {minutes} minutes for all four parts, and you decide how to share them out. Here is what each part asks for, strategies to do it well and a trainer with original texts.",
+    "partTitle": "Part {number}: {name}",
+    "examTime": "App exam mode: {minutes} minutes for this part. The split is an app decision; the exam only sets the total.",
+    "strategies": "Strategies",
+    "lessons": "Grammar lessons that help",
+    "practise": "Practise part {number}"
+  },
+  "ReadingStrategies": {
+    "reading-1": {
+      "task": "A short text (a note, an email, a notice) with {sentences} sentences. Each one has a missing word and you choose from {options} options.",
+      "s1": "Read the whole sentence before looking at the options: what comes after the gap often decides the answer.",
+      "s2": "Work out what kind of word is missing (verb, preposition, noun…) and rule out the options that are not.",
+      "s3": "Watch out for pairs that look alike in Spanish, such as make and do, or for and since.",
+      "s4": "This is the quickest part: do not get stuck, and save time for part 4."
+    },
+    "reading-2": {
+      "task": "{tasks} texts of {sentences} sentences in the wrong order. The first one is already in place and you put the rest in order.",
+      "s1": "Look for words that point back to something earlier: pronouns (it, they, this), the before something already mentioned, such, these.",
+      "s2": "Linkers show the relationship: however introduces a contrast, as a result a consequence, finally an ending.",
+      "s3": "Find the pairs you are sure of first, then fit the rest around them.",
+      "s4": "When you finish, read the whole text through: if a sentence jumps out, check its position."
+    },
+    "reading-3": {
+      "task": "{people} people give their opinion on the same topic. You decide who says each of the {statements} statements; some people match more than one.",
+      "s1": "Read the statements first so that you know which ideas you are looking for.",
+      "s2": "The statements paraphrase the texts: do not hunt for the same words, look for the same idea.",
+      "s3": "Notice the nuances: at first, I used to think, but or however change what the person really believes.",
+      "s4": "Use the highlighter to mark the sentence that supports each answer."
+    },
+    "reading-4": {
+      "task": "A text of about {words} words in {paragraphs} paragraphs. You choose a heading for each one from {headings}: one is spare.",
+      "s1": "Read all the headings before you start and think about which idea each one sums up.",
+      "s2": "The main idea is usually in the first or last sentence of a paragraph; the examples in the middle are details.",
+      "s3": "Be suspicious of a heading that repeats a word from the paragraph: the right one usually sums up the idea in other words.",
+      "s4": "Start with the paragraphs you are sure of; with fewer options left, the hard ones get easier."
+    }
   }
 }

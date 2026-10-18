@@ -22,7 +22,8 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 - Phase 3 (Reading) is in progress. The plan is approved: `docs/superpowers/plans/2026-10-18-phase-3-reading.md`.
   - Tasks 1–4 are done and committed: `src/lib/trainer/reading.ts`, `SortableList`, `HighlightableText` (+ `useHighlights`), and `ReadingTrainer` with `Reading1–4Task` wired into `/practice/[part]` (smoke-tested at 375 px in study mode for all four parts; the full Task 7 browser pass is still due).
   - Task 5 is done: 12/16/8/6 tasks in `content/exercises/reading-{1,2,3,4}/`, reviewed key by key and committed.
-  - **Resume at Task 6:** the `/reading` page with format and strategies, then Task 7 (full browser pass and close).
+  - Task 6 is done: `/reading` shows the format, app exam times and strategies per part, with cohesion lessons linked from part 2.
+  - **Resume at Task 7:** `format:check`, `build`, the full Playwright pass (375/1280, light/dark, ES/EN, keyboard and touch drag in part 2) and the phase close.
 - Phases 3–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
