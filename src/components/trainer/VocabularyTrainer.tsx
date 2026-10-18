@@ -1,7 +1,7 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { useMemo, useReducer, useState } from "react";
+import { useEffect, useMemo, useReducer, useRef, useState } from "react";
 import { Explanation } from "@/components/content/Explanation";
 import { GapSentence } from "@/components/content/GapSentence";
 import { Icon } from "@/components/icons/Icon";
@@ -188,6 +188,16 @@ function VocabularySession({ session, onFinish }: VocabularySessionProps) {
   const task = tasks[state.index]!;
   const last = state.index === tasks.length - 1;
   const checked = task.items.every((item) => state.revealed[item.key]);
+  const firstSelectRef = useRef<HTMLSelectElement>(null);
+  const nextRef = useRef<HTMLButtonElement>(null);
+
+  // Move focus to the first answer of each new task, and to Next once it is checked.
+  useEffect(() => {
+    firstSelectRef.current?.focus();
+  }, [state.index]);
+  useEffect(() => {
+    if (checked) nextRef.current?.focus();
+  }, [checked]);
 
   const finish = (timeUp = false) => {
     const at = Date.now();
@@ -280,6 +290,7 @@ function VocabularySession({ session, onFinish }: VocabularySessionProps) {
               </label>
               <div className="flex items-center gap-3">
                 <select
+                  ref={i === 0 ? firstSelectRef : undefined}
                   id={selectId}
                   value={chosen ?? ""}
                   disabled={revealed}
@@ -344,7 +355,7 @@ function VocabularySession({ session, onFinish }: VocabularySessionProps) {
       <div className="flex flex-wrap gap-3">
         {mode === "study" ? (
           checked ? (
-            <Button variant="primary" autoFocus onClick={advance}>
+            <Button ref={nextRef} variant="primary" onClick={advance}>
               {last ? t("finish") : t("next")}
             </Button>
           ) : (

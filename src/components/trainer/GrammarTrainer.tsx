@@ -192,6 +192,16 @@ function GrammarSession({ session, onFinish }: GrammarSessionProps) {
   const chosen = state.answers[question.key];
   const revealed = Boolean(state.revealed[question.key]);
   const last = state.index === questions.length - 1;
+  const promptRef = useRef<HTMLParagraphElement>(null);
+  const nextRef = useRef<HTMLButtonElement>(null);
+
+  // Move focus to each new question, and to Next once the explanation shows.
+  useEffect(() => {
+    promptRef.current?.focus();
+  }, [state.index]);
+  useEffect(() => {
+    if (revealed) nextRef.current?.focus();
+  }, [revealed]);
 
   const finish = (timeUp = false) => {
     const at = Date.now();
@@ -276,7 +286,12 @@ function GrammarSession({ session, onFinish }: GrammarSessionProps) {
             {t("spoken")}
           </p>
         ) : null}
-        <p lang="en" className="prose-reading text-xl sm:text-2xl">
+        <p
+          ref={promptRef}
+          tabIndex={-1}
+          lang="en"
+          className="prose-reading text-xl outline-none sm:text-2xl"
+        >
           <GapSentence
             text={question.prompt}
             fill={
@@ -356,7 +371,7 @@ function GrammarSession({ session, onFinish }: GrammarSessionProps) {
                 ))}
               </ul>
             </details>
-            <Button variant="primary" autoFocus onClick={advance}>
+            <Button ref={nextRef} variant="primary" onClick={advance}>
               {last ? t("finish") : t("next")}
             </Button>
           </div>
