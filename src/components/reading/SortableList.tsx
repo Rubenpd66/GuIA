@@ -43,7 +43,13 @@ export function SortableList({
   renderAfter,
 }: SortableListProps) {
   const t = useTranslations("Reading.sortable");
-  const [picked, setPicked] = useState<Picked | null>(null);
+  const [picked, setPickedState] = useState<Picked | null>(null);
+  // Pointer moves can arrive faster than React re-renders, so they read the ref, not the state.
+  const pickedRef = useRef<Picked | null>(null);
+  const setPicked = (next: Picked | null) => {
+    pickedRef.current = next;
+    setPickedState(next);
+  };
   const [announcement, setAnnouncement] = useState("");
   const rows = useRef(new Map<number, HTMLLIElement>());
   const instructionsId = useId();
@@ -89,12 +95,27 @@ export function SortableList({
 
   const onPointerDown = (event: PointerEvent, position: number) => {
     if (disabled || event.button !== 0) return;
-    event.currentTarget.setPointerCapture(event.pointerId);
     setPicked({ from: position, current: position, via: "pointer" });
     announce("picked", position);
+    // Listen on window: once the row moves in the DOM, touch events stop reaching the handle.
+    const id = event.pointerId;
+    const onWindowMove = (e: globalThis.PointerEvent) => {
+      if (e.pointerId === id) onPointerMove(e);
+    };
+    const onWindowEnd = (e: globalThis.PointerEvent) => {
+      if (e.pointerId !== id) return;
+      window.removeEventListener("pointermove", onWindowMove);
+      window.removeEventListener("pointerup", onWindowEnd);
+      window.removeEventListener("pointercancel", onWindowEnd);
+      onPointerEnd();
+    };
+    window.addEventListener("pointermove", onWindowMove);
+    window.addEventListener("pointerup", onWindowEnd);
+    window.addEventListener("pointercancel", onWindowEnd);
   };
 
-  const onPointerMove = (event: PointerEvent) => {
+  const onPointerMove = (event: { clientY: number }) => {
+    const picked = pickedRef.current;
     if (!picked || picked.via !== "pointer") return;
     // The target is the row whose vertical middle the pointer has passed.
     let target = picked.current;
@@ -115,6 +136,7 @@ export function SortableList({
   };
 
   const onPointerEnd = () => {
+    const picked = pickedRef.current;
     if (!picked || picked.via !== "pointer") return;
     announce("dropped", picked.current);
     setPicked(null);
@@ -168,9 +190,6 @@ export function SortableList({
                     aria-pressed={isPicked && picked?.via === "keyboard"}
                     onKeyDown={(event) => onHandleKeyDown(event, position)}
                     onPointerDown={(event) => onPointerDown(event, position)}
-                    onPointerMove={onPointerMove}
-                    onPointerUp={onPointerEnd}
-                    onPointerCancel={onPointerEnd}
                     onBlur={() => {
                       if (picked?.via === "keyboard") {
                         setPicked(null);
