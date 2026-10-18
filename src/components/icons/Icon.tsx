@@ -75,6 +75,14 @@ const ICONS = {
   ),
   moon: <path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" />,
   close: <path d="M6 6l12 12M18 6 6 18" />,
+  check: <path d="m5 12.5 4.5 4.5L19 7.5" />,
+  cross: <path d="M7 7l10 10M17 7 7 17" />,
+  clock: (
+    <>
+      <circle cx="12" cy="12" r="8.5" />
+      <path d="M12 7.5V12l3 2" />
+    </>
+  ),
 } satisfies Record<string, ReactNode>;
 
 export type IconName = keyof typeof ICONS;

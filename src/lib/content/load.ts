@@ -1,4 +1,5 @@
 import { join } from "node:path";
+import { cacheLife } from "next/cache";
 import { readContentDir } from "./fs";
 import { buildContentIndex, type ContentIndex } from "./index";
 import { ContentFile } from "./schemas/content-file";
@@ -11,6 +12,8 @@ import { formatReport, validateContentSet } from "./validate";
  */
 export async function getContent(): Promise<ContentIndex> {
   "use cache";
+  // Content only changes with a new deployment.
+  cacheLife("max");
   const sources = await readContentDir(join(process.cwd(), "content"));
   const report = validateContentSet(sources);
   if (report.errors.length > 0) {

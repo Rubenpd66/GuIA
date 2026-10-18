@@ -1,6 +1,135 @@
-import { comingSoonPage } from "@/components/sections/coming-soon-page";
+import type { Metadata } from "next";
+import { getLocale, getTranslations } from "next-intl/server";
+import { LevelBadge } from "@/components/content/LevelBadge";
+import { SkillMark } from "@/components/passport/SkillMark";
+import { PageHeader } from "@/components/ui/PageHeader";
+import { SECTIONS } from "@/config/sections";
+import { Link } from "@/i18n/navigation";
+import { entriesOfGroup } from "@/lib/content";
+import { getContent } from "@/lib/content/load";
+import { localized } from "@/lib/content/localize";
+import { CEFR_LEVELS } from "@/lib/content/schemas/common";
 
-const { generateMetadata, Page } = comingSoonPage("syllabus");
+const SKILL_SECTIONS = [
+  { skill: "reading", section: "reading" },
+  { skill: "listening", section: "listening" },
+  { skill: "writing", section: "writing" },
+  { skill: "speaking", section: "speaking" },
+] as const;
 
-export { generateMetadata };
-export default Page;
+const H2 = "font-semi-expanded text-xl font-bold";
+const ROW =
+  "flex min-h-14 items-center justify-between gap-6 py-3 transition-colors duration-150 hover:text-cover dark:hover:text-foil";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Sections.syllabus");
+  return { title: t("title"), description: t("lead") };
+}
+
+export default async function SyllabusPage() {
+  const [t, locale, content] = await Promise.all([
+    getTranslations(),
+    getLocale(),
+    getContent(),
+  ]);
+
+  return (
+    <>
+      <PageHeader
+        title={t("Sections.syllabus.title")}
+        lead={t("Sections.syllabus.lead")}
+      />
+      <div className="grid gap-12 lg:grid-cols-2">
+        <section aria-labelledby="syllabus-grammar">
+          <h2 id="syllabus-grammar" className={H2}>
+            <Link
+              href="/grammar"
+              className="hover:text-cover dark:hover:text-foil"
+            >
+              {t("Syllabus.grammarTitle")}
+            </Link>
+          </h2>
+          <p className="mt-1 text-ink-soft">{t("Syllabus.grammarLead")}</p>
+          <ul className="mt-3 border-t border-hairline">
+            {CEFR_LEVELS.map((level) => (
+              <li key={level} className="border-b border-hairline">
+                <Link href="/grammar" className={ROW}>
+                  <span className="flex items-center gap-3">
+                    <LevelBadge level={level} />
+                    {t(`Levels.${level}`)}
+                  </span>
+                  <span className="text-sm text-ink-soft">
+                    {t("Syllabus.lessons", {
+                      count: content.grammarLessons.filter(
+                        (lesson) => lesson.level === level,
+                      ).length,
+                    })}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section aria-labelledby="syllabus-vocabulary">
+          <h2 id="syllabus-vocabulary" className={H2}>
+            <Link
+              href="/vocabulary"
+              className="hover:text-cover dark:hover:text-foil"
+            >
+              {t("Syllabus.vocabularyTitle")}
+            </Link>
+          </h2>
+          <p className="mt-1 text-ink-soft">{t("Syllabus.vocabularyLead")}</p>
+          <ul className="mt-3 border-t border-hairline">
+            {content.vocabularyGroups.map((group) => (
+              <li key={group.slug} className="border-b border-hairline">
+                <Link
+                  href={{
+                    pathname: "/vocabulary/[slug]",
+                    params: { slug: group.slug },
+                  }}
+                  className={ROW}
+                >
+                  <span className="font-medium">
+                    {localized(group.title, locale)}
+                  </span>
+                  <span className="text-sm text-ink-soft">
+                    {t("Syllabus.entries", {
+                      count: entriesOfGroup(content, group.slug).length,
+                    })}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section aria-labelledby="syllabus-skills" className="lg:col-span-2">
+          <h2 id="syllabus-skills" className={H2}>
+            {t("Syllabus.skillsTitle")}
+          </h2>
+          <p className="mt-1 text-ink-soft">{t("Syllabus.skillsLead")}</p>
+          <ul className="mt-3 grid border-t border-hairline sm:grid-cols-2 sm:gap-x-10">
+            {SKILL_SECTIONS.map(({ skill, section }) => (
+              <li key={skill} className="border-b border-hairline">
+                <Link href={SECTIONS[section].pathname} className={ROW}>
+                  <span className="flex items-center gap-3 font-medium">
+                    <SkillMark
+                      skill={skill}
+                      className="text-cover dark:text-foil"
+                    />
+                    {t(`Skills.${skill}`)}
+                  </span>
+                  <span className="text-sm text-ink-soft">
+                    {t("Syllabus.phase", { phase: SECTIONS[section].phase })}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </div>
+    </>
+  );
+}

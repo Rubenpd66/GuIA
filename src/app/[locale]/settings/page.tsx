@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { LocaleSwitcher } from "@/components/i18n/LocaleSwitcher";
+import { ProgressManager } from "@/components/settings/ProgressManager";
 import { ThemeChoice } from "@/components/theme/ThemeChoice";
 import { PageHeader } from "@/components/ui/PageHeader";
 
@@ -8,7 +9,6 @@ import { PageHeader } from "@/components/ui/PageHeader";
 const LATER = [
   { key: "voice", phase: 4 },
   { key: "examDate", phase: 7 },
-  { key: "backup", phase: 2 },
 ] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -39,6 +39,14 @@ export default async function SettingsPage() {
           </h2>
           <div className="mt-3">
             <LocaleSwitcher variant="full" />
+          </div>
+        </section>
+        <section aria-labelledby="progress-heading">
+          <h2 id="progress-heading" className="text-lg font-bold">
+            {t("Settings.progressTitle")}
+          </h2>
+          <div className="mt-3">
+            <ProgressManager />
           </div>
         </section>
         <section aria-labelledby="later-heading">

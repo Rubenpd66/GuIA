@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { PageHeader } from "@/components/ui/PageHeader";
 
-const TOPICS = ["stored", "notStored", "future"] as const;
+const TOPICS = ["stored", "notStored", "delete"] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Privacy");

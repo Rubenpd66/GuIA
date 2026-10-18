@@ -60,3 +60,8 @@ export function clearProgress() {
 export function useProgress(): Progress {
   return useSyncExternalStore(subscribe, getSnapshot, () => EMPTY_PROGRESS);
 }
+
+/** The latest stored progress, read at the moment it is needed (e.g. when a session ends). */
+export function readProgress(): Progress {
+  return getSnapshot();
+}

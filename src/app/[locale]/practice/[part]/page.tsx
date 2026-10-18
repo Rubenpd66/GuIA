@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import { GrammarTrainer } from "@/components/trainer/GrammarTrainer";
+import { VocabularyTrainer } from "@/components/trainer/VocabularyTrainer";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { PHASE_OF_SKILL } from "@/config/sections";
+import { exercisesOfPart } from "@/lib/content";
+import { getContent } from "@/lib/content/load";
+import { localized } from "@/lib/content/localize";
 import {
   EXAM_PARTS,
   SKILL_OF_PART,
@@ -61,6 +66,31 @@ async function PracticePart({ params }: { params: Params }) {
   // Unknown parts are not prerendered and must not render a trainer.
   if (!isExamPart(part)) notFound();
   const t = await getTranslations();
+
+  if (part === "core-grammar" || part === "core-vocabulary") {
+    const [content, locale] = await Promise.all([getContent(), getLocale()]);
+    const lessonTitles = Object.fromEntries(
+      content.grammarLessons.map((lesson) => [
+        lesson.slug,
+        localized(lesson.title, locale),
+      ]),
+    );
+    return (
+      <>
+        <PageHeader title={await titleOf(part)} />
+        {part === "core-grammar" ? (
+          <GrammarTrainer
+            exercises={exercisesOfPart(content, "core-grammar")}
+            lessonTitles={lessonTitles}
+          />
+        ) : (
+          <VocabularyTrainer
+            tasks={exercisesOfPart(content, "core-vocabulary")}
+          />
+        )}
+      </>
+    );
+  }
 
   return (
     <>
