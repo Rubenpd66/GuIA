@@ -1,0 +1,72 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-shopping-consumption-01",
+      "examPart": "reading-2",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "title": "Buying on impulse",
+      "sentences": [
+        "Online shopping has made it easier than ever to buy things on impulse, often late at night and with a single click.",
+        "Retailers are well aware of this, and many of them design their websites to make hesitation feel unnecessary.",
+        "Countdown timers, 'only two left' warnings and one-click payment buttons are typical examples of the strategy.",
+        "Consumer groups argue that such techniques put pressure on shoppers who would otherwise take time to compare prices.",
+        "Some countries have therefore introduced rules that require sellers to show the final price clearly and to allow a cooling-off period for returns.",
+        "Whether these measures will actually change people's habits, however, remains to be seen."
+      ],
+      "explanation": {
+        "en": "'this' is impulse buying, 'the strategy' is the website design, 'such techniques' are the timers and buttons, 'therefore' reacts to the criticism, and 'these measures' are the new rules.",
+        "es": "'this' es la compra impulsiva, 'the strategy' es el diseño de las webs, 'such techniques' son los contadores y botones, 'therefore' reacciona a la crítica y 'these measures' son las nuevas normas."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "this",
+          "refersTo": 0,
+          "note": {
+            "en": "Impulse buying online.",
+            "es": "La compra impulsiva por internet."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "the strategy",
+          "refersTo": 1,
+          "note": {
+            "en": "Designing sites to remove hesitation.",
+            "es": "Diseñar las webs para quitar dudas."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "such techniques",
+          "refersTo": 2,
+          "note": {
+            "en": "Timers, warnings and one-click buttons.",
+            "es": "Contadores, avisos y botones de un clic."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "therefore",
+          "refersTo": 3,
+          "note": {
+            "en": "Rules are a result of the criticism.",
+            "es": "Las normas son consecuencia de la crítica."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "these measures",
+          "refersTo": 4,
+          "note": {
+            "en": "The new rules on prices and returns.",
+            "es": "Las nuevas normas sobre precios y devoluciones."
+          }
+        }
+      ]
+    }
+  ]
+}

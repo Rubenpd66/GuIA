@@ -1,0 +1,148 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-environment-01",
+      "examPart": "reading-2",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 3,
+      "title": "Second life for clothes",
+      "sentences": [
+        "A growing number of cities are discouraging residents from throwing away clothes that are still in good condition.",
+        "One approach is to place large collection boxes near supermarkets, where people can leave items they no longer wear.",
+        "The contents of these boxes are sorted by volunteers, who send the best pieces to charity shops.",
+        "Whatever cannot be sold in this way is passed to recycling firms that turn old fabric into insulation or cleaning cloths.",
+        "Even so, only a small share of discarded clothing ever reaches these collection points, so some cities prefer a stricter approach: a tax on shops that sell very cheap clothing in huge quantities.",
+        "Supporters argue that this tax would make shoppers think twice, but critics fear it would simply raise prices for families on low incomes."
+      ],
+      "explanation": {
+        "en": "'One approach' opens the list of measures. 'These boxes' needs the boxes just mentioned, 'this way' refers to selling in charity shops, 'Even so' concedes that recycling is not enough, and 'this tax' is the stricter approach.",
+        "es": "'One approach' abre la lista de medidas. 'These boxes' necesita las cajas recién mencionadas, 'this way' se refiere a vender en tiendas benéficas, 'Even so' admite que reciclar no basta y 'this tax' es el enfoque más estricto."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "One approach",
+          "refersTo": 0,
+          "note": {
+            "en": "A way of discouraging waste.",
+            "es": "Una forma de desalentar el desperdicio."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "these boxes",
+          "refersTo": 1,
+          "note": {
+            "en": "The collection boxes.",
+            "es": "Las cajas de recogida."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "this way",
+          "refersTo": 2,
+          "note": {
+            "en": "Selling through charity shops.",
+            "es": "Vender en tiendas benéficas."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "Even so",
+          "refersTo": 3,
+          "note": {
+            "en": "A concession: recycling helps, but it is not enough.",
+            "es": "Una concesión: reciclar ayuda, pero no basta."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "these collection points",
+          "refersTo": 1,
+          "note": {
+            "en": "The collection boxes.",
+            "es": "Las cajas de recogida."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "this tax",
+          "refersTo": 4,
+          "note": {
+            "en": "The tax on cheap clothing.",
+            "es": "El impuesto sobre la ropa barata."
+          }
+        }
+      ]
+    },
+    {
+      "id": "r2-environment-02",
+      "examPart": "reading-2",
+      "cefrLevel": "C1",
+      "topic": "environment",
+      "difficulty": 5,
+      "title": "The price of delay",
+      "sentences": [
+        "Debates about climate policy are often framed as a contest between economic growth and environmental protection, as though one must be bought at the expense of the other.",
+        "This framing is convenient for politicians, since it allows them to present any difficult choice as an unfortunate necessity.",
+        "It is, however, increasingly hard to defend in the face of evidence that the costs of inaction, from failed harvests to flooded cities, dwarf the costs of prevention.",
+        "Economists who once treated such damage as an external factor, lying outside their models, are now obliged to count it as a central expense.",
+        "That shift in accounting does not settle the argument, but it does change who bears the burden of proof.",
+        "Those proposing delay must now explain why a risk of this magnitude should be left unpriced."
+      ],
+      "explanation": {
+        "en": "'This framing' sums up the opening, 'It' keeps that framing as the subject, 'such damage' refers to failed harvests and floods, 'That shift' is the change in accounting, and the final sentence draws the consequence for those who want delay.",
+        "es": "'This framing' resume el comienzo, 'It' mantiene ese planteamiento como sujeto, 'such damage' remite a cosechas perdidas e inundaciones, 'That shift' es el cambio contable y la última frase saca la consecuencia para quienes piden esperar."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "This framing",
+          "refersTo": 0,
+          "note": {
+            "en": "Growth versus protection as a contest.",
+            "es": "Crecimiento frente a protección como una pugna."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "It",
+          "refersTo": 1,
+          "note": {
+            "en": "Still the framing; 'however' contrasts it with the evidence.",
+            "es": "Sigue siendo el planteamiento; 'however' lo contrasta con las pruebas."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "such damage",
+          "refersTo": 2,
+          "note": {
+            "en": "Failed harvests and flooded cities.",
+            "es": "Cosechas perdidas y ciudades inundadas."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "That shift",
+          "refersTo": 3,
+          "note": {
+            "en": "Counting damage as a central expense.",
+            "es": "Contar el daño como un gasto central."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "this magnitude",
+          "refersTo": 2,
+          "note": {
+            "en": "The size of the costs of inaction.",
+            "es": "El tamaño de los costes de no actuar."
+          }
+        }
+      ]
+    }
+  ]
+}

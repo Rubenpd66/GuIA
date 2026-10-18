@@ -1,0 +1,72 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-city-01",
+      "examPart": "reading-2",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 3,
+      "title": "Closing the square",
+      "sentences": [
+        "For decades, the centre of Millbrook was dominated by traffic, and few people lingered there longer than they had to.",
+        "Last year, the council took a bold step and closed the main square to cars.",
+        "At first, shopkeepers feared that the decision would drive customers away.",
+        "Their fears proved unfounded: within months, footfall had risen by almost a fifth.",
+        "Encouraged by this result, the council is now planning to extend the pedestrian zone to two neighbouring streets.",
+        "Not everyone is pleased, however, since some residents of those streets worry about losing their parking spaces."
+      ],
+      "explanation": {
+        "en": "'The decision' names the closure, 'Their fears' refers to the shopkeepers' fears, 'this result' is the rise in footfall, and 'those streets' are the two neighbouring streets. 'however' introduces the opposing view last.",
+        "es": "'The decision' nombra el cierre, 'Their fears' remite a los temores de los comerciantes, 'this result' es el aumento de visitantes y 'those streets' son las dos calles vecinas. 'however' introduce al final la postura contraria."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "closed the main square to cars",
+          "refersTo": 0,
+          "note": {
+            "en": "A reaction to the traffic problem.",
+            "es": "Una respuesta al problema del tráfico."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "the decision",
+          "refersTo": 1,
+          "note": {
+            "en": "The closure of the square.",
+            "es": "El cierre de la plaza."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "Their fears",
+          "refersTo": 2,
+          "note": {
+            "en": "The shopkeepers' fears.",
+            "es": "Los temores de los comerciantes."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "this result",
+          "refersTo": 3,
+          "note": {
+            "en": "The rise in footfall.",
+            "es": "El aumento de visitantes."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "those streets",
+          "refersTo": 4,
+          "note": {
+            "en": "The two neighbouring streets.",
+            "es": "Las dos calles vecinas."
+          }
+        }
+      ]
+    }
+  ]
+}

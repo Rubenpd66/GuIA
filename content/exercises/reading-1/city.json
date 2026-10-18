@@ -1,0 +1,57 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-city-01",
+      "examPart": "reading-1",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 2,
+      "context": "A notice at the public library",
+      "items": [
+        {
+          "prompt": "The library will be closed ___ Monday 3 March because of repair work.",
+          "options": ["in", "on", "at"],
+          "answer": 1,
+          "explanation": {
+            "en": "We use on with days and dates."
+          }
+        },
+        {
+          "prompt": "There are only ___ computers in the reading room, so please book a slot in advance.",
+          "options": ["a few", "a little", "much"],
+          "answer": 0,
+          "explanation": {
+            "en": "Computers can be counted, so we use a few. A little and much go with uncountable nouns.",
+            "es": "«Computers» es contable: a few. «A little» y «much» son para incontables."
+          }
+        },
+        {
+          "prompt": "Staff are happy to help ___ you have trouble with the self-service machines.",
+          "options": ["unless", "until", "if"],
+          "answer": 2,
+          "explanation": {
+            "en": "If introduces the condition under which staff will help. Unless and until do not make sense here."
+          }
+        },
+        {
+          "prompt": "The café on the first floor is ___ every day from nine until five.",
+          "options": ["opened", "opening", "open"],
+          "answer": 2,
+          "explanation": {
+            "en": "Open is the adjective meaning not closed. Opened describes an action, as in it was opened by the mayor.",
+            "es": "«Abierto» se dice «open», no «opened»."
+          }
+        },
+        {
+          "prompt": "We apologise for any ___ this may cause.",
+          "options": ["inconvenience", "inconvenient", "inconveniently"],
+          "answer": 0,
+          "explanation": {
+            "en": "After any we need a noun. The usual phrase is any inconvenience."
+          }
+        }
+      ]
+    }
+  ]
+}

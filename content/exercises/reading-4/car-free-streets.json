@@ -1,0 +1,63 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r4-car-free-streets-01",
+      "examPart": "reading-4",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 3,
+      "title": "Giving the street back to people",
+      "paragraphs": [
+        "Walk through the centre of almost any large city and you will notice how much of it has been shaped for vehicles rather than for people. Wide avenues, multi-storey car parks and roundabouts were built during the middle of the last century, when planners believed that cars represented freedom and progress. Old squares were turned into traffic junctions, and pavements were narrowed to make room for another lane. Few residents were asked for their opinion at the time. Decades later, the results are everywhere: noisy crossings that take minutes to cross on foot, parked vehicles blocking the views of historic buildings, and neighbourhoods where it is difficult to imagine a street without engines.",
+        "When a council proposes closing a high street to traffic, the first people to complain are usually the owners of the shops on it. They fear that customers who arrive by car will go elsewhere and that takings will fall. Yet the experience of many cities suggests the opposite. After streets were closed to vehicles in several European towns, the number of shoppers rose, people stayed longer, and trade increased within a year or two. Pedestrians turn out to spend more in total than drivers, because they pass by more often and stop to look in windows. Some traders who campaigned against the changes later asked for the scheme to be extended.",
+        "The health arguments are just as strong. Traffic is a major source of the fine particles that damage lungs, and children who live beside busy roads are more likely to develop asthma. When vehicles are removed, measurements of pollution fall within days. Noise falls too, which matters more than most people realise, because constant loud sound is linked to stress, poor sleep and high blood pressure. In one neighbourhood where traffic was banned, residents reported that they could hear birdsong in the morning for the first time in years. Doctors increasingly describe quiet, clean streets as a form of preventive medicine that costs very little.",
+        "Many people would like to cycle to work but are put off by the danger. Surveys repeatedly show that the main reason is not laziness or bad weather but fear of being hit by a lorry or a careless driver. Cities that have built lanes physically separated from traffic, with kerbs or planters, have seen the number of cyclists double or triple. Parents allow children to ride to school, and older people who had given up cycling return to it. The lesson is that infrastructure comes first and habits follow. Painting a thin line on the road and calling it a cycle path persuades nobody.",
+        "A street without cars is not simply a quiet road; it can become a room that belongs to everybody. Where traffic has been taken away, cafés put tables outside, neighbours place benches and plants along the pavement, and children play football without an adult watching the road. Strangers stop to talk, and local markets and festivals find space to flourish. Planners call this kind of space a place for ordinary social life, and they argue that it is as important to a city as its hospitals or its schools. People who used to hurry through now sit down, and the whole area feels safer as a result.",
+        "Nevertheless, closing roads does not suit everyone. Disabled residents, elderly people and workers who have to carry heavy equipment sometimes depend on cars, and a ban that ignores them can feel unfair. Delivery companies complain about longer routes, which can push up prices, and people who live in distant suburbs with poor bus services may find the centre harder to reach. Critics also point out that traffic does not disappear but moves to neighbouring roads, making life worse for those who live there. Supporters accept that these concerns are real and say that exemptions, parking for blue-badge holders and better public transport must be part of any serious plan.",
+        "Most successful projects did not begin with a grand announcement. Many started with a single weekend when a street was closed to cars as a trial, or with temporary barriers and a few chairs. Residents were then able to see for themselves what the change felt like, and the council could adjust the scheme according to their comments. Often the trial was so popular that it became permanent. Experts advise officials to be patient, to measure results honestly and to talk to everyone affected before making changes. A modest experiment that works is more persuasive than a perfect master plan that people fear."
+      ],
+      "headings": [
+        "A place to sit, talk and play",
+        "Electric cars as the answer to dirty air",
+        "A century of building for the car",
+        "Not a solution for everyone",
+        "Cleaner air, quieter evenings",
+        "Starting small and learning as you go",
+        "Business owners' fears prove unfounded",
+        "Making two wheels feel safe"
+      ],
+      "answers": [2, 6, 4, 7, 0, 3, 5],
+      "explanations": [
+        {
+          "en": "Key idea: city centres were designed around vehicles in the last century. 'Not a solution for everyone' is about objections to closing roads, which come later.",
+          "es": "Idea clave: los centros urbanos se diseñaron en torno a los vehículos el siglo pasado. 'Not a solution for everyone' habla de las objeciones al cierre de calles, que llegan después."
+        },
+        {
+          "en": "Shop owners fear losing customers, but trade actually rose after streets were closed. 'Making two wheels feel safe' is about cycling, which is not mentioned here.",
+          "es": "Los comerciantes temen perder clientes, pero el negocio subió al cerrar las calles al tráfico. 'Making two wheels feel safe' trata de la bicicleta, que aquí no aparece."
+        },
+        {
+          "en": "The paragraph links removing traffic to less pollution and less noise. The extra heading is tempting because of the air quality, but the text never mentions electric cars.",
+          "es": "El párrafo une retirar el tráfico con menos contaminación y menos ruido. El encabezado extra tienta por la calidad del aire, pero el texto no menciona coches eléctricos."
+        },
+        {
+          "en": "People cycle when lanes are separated from traffic: 'infrastructure comes first and habits follow'. 'Cleaner air, quieter evenings' is a benefit of fewer cars, not of cycling lanes.",
+          "es": "La gente va en bici cuando los carriles están separados del tráfico: 'infrastructure comes first and habits follow'. 'Cleaner air...' es un beneficio de tener menos coches, no de los carriles bici."
+        },
+        {
+          "en": "Streets become shared social space with tables, benches and play. 'Business owners' fears prove unfounded' mentions cafés only in passing; the focus here is community life, not trade.",
+          "es": "Las calles se convierten en espacio social compartido con mesas, bancos y juego. 'Business owners' fears...' trata del comercio; aquí lo importante es la vida de barrio."
+        },
+        {
+          "en": "The paragraph lists groups for whom the change is difficult: disabled people, deliveries and suburban residents. 'A century of building for the car' is about history, not objections.",
+          "es": "El párrafo enumera quienes tienen dificultades: personas con discapacidad, repartos y residentes de las afueras. 'A century of building for the car' habla de historia, no de objeciones."
+        },
+        {
+          "en": "Trials and temporary barriers let residents test an idea before it becomes permanent. 'Not a solution for everyone' is tempting because the paragraph mentions adjusting the scheme, but it does not list problems.",
+          "es": "Las pruebas y barreras temporales permiten probar una idea antes de hacerla permanente. 'Not a solution for everyone' tienta porque se habla de ajustar el plan, pero no se enumeran problemas."
+        }
+      ]
+    }
+  ]
+}

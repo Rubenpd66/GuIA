@@ -1,0 +1,89 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r3-technology-teen-social-media-01",
+      "examPart": "reading-3",
+      "cefrLevel": "C1",
+      "topic": "technology",
+      "difficulty": 4,
+      "question": "Should social media be banned for under-sixteens?",
+      "people": [
+        {
+          "name": "Nadia",
+          "text": "In the classroom I see pupils who can't sustain their attention for twenty minutes and group chats that turn vicious overnight. Part of me wants an outright ban for under-sixteens. Yet I know teenagers are resourceful: they will invent a birth date in seconds, so legislation alone would achieve little. I would put more faith in making platforms less addictive by default, removing endless scrolling and late-night notifications. Restricting access is a blunt tool; changing how the product is built targets the real problem."
+        },
+        {
+          "name": "Henrik",
+          "text": "I used to favour a ban until I thought about how it would be policed. To check ages, companies would need to collect passports or facial scans, creating enormous databases of children's data that someone will inevitably leak. That seems a worse risk than the one we set out to solve. Having worked in the industry, I'm also wary of politicians who promise a technical fix without understanding the technology. Better digital education at school, I think, would protect young people more reliably than blocking them."
+        },
+        {
+          "name": "Amara",
+          "text": "I grew up in a village where nobody shared my interests or, frankly, my identity. Online communities were where I first felt understood, and a ban at fifteen would have left me isolated. I won't pretend it was all positive; I lost entire summers to scrolling and compared myself endlessly with strangers. But the answer, I'd say, is to teach young people to use these platforms deliberately, not to cut them off from the only company that some of them have."
+        },
+        {
+          "name": "Patrick",
+          "text": "I've three children, and my instinct is to let them wait. The trouble is that if one parent refuses, their child becomes the odd one out, excluded from every plan made in the group chat. We are all stuck in a trap that none of us chose. That's why rules at home aren't enough; a legal age limit would take the pressure off parents. Perfect enforcement isn't necessary. Even a partly effective law gives families a reason to say no."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Adjusting the features of a product may work better than blocking access to it.",
+          "answer": 0,
+          "explanation": {
+            "en": "Nadia says restricting access is a blunt tool and prefers removing endless scrolling and late-night notifications.",
+            "es": "Nadia dice que restringir el acceso es una herramienta poco precisa y prefiere quitar el scroll infinito y las notificaciones nocturnas."
+          }
+        },
+        {
+          "text": "Verifying users' ages could create a greater danger than the one it removes.",
+          "answer": 1,
+          "explanation": {
+            "en": "Henrik says collecting passports or facial scans would create databases that someone will leak, a worse risk.",
+            "es": "Henrik dice que recoger pasaportes o escáneres faciales crearía bases de datos que alguien filtrará, un riesgo peor."
+          }
+        },
+        {
+          "text": "Contact with others online can be a lifeline for young people who feel different from those around them.",
+          "answer": 2,
+          "explanation": {
+            "en": "Amara grew up where nobody shared her identity and first felt understood in online communities.",
+            "es": "Amara creció donde nadie compartía su identidad y se sintió comprendida por primera vez en comunidades en línea."
+          }
+        },
+        {
+          "text": "Parents find it hard to refuse when all of their child's friends have access.",
+          "answer": 3,
+          "explanation": {
+            "en": "Patrick says the child of a parent who refuses becomes the odd one out, excluded from the group chat.",
+            "es": "Patrick dice que el hijo de un padre que se niega queda como el raro, excluido del chat de grupo."
+          }
+        },
+        {
+          "text": "Teenagers can get around an age limit with almost no effort.",
+          "answer": 0,
+          "explanation": {
+            "en": "Nadia says teenagers will invent a birth date in seconds, so legislation alone would achieve little.",
+            "es": "Nadia dice que los adolescentes se inventarán una fecha de nacimiento en segundos, así que la ley por sí sola lograría poco."
+          }
+        },
+        {
+          "text": "Those who propose technical solutions may not fully grasp what they involve.",
+          "answer": 1,
+          "explanation": {
+            "en": "Henrik is wary of politicians who promise a technical fix without understanding the technology.",
+            "es": "Henrik desconfía de los políticos que prometen una solución técnica sin entender la tecnología."
+          }
+        },
+        {
+          "text": "A law does not have to be flawless to be useful.",
+          "answer": 3,
+          "explanation": {
+            "en": "Patrick says perfect enforcement isn't necessary, because even a partly effective law gives families a reason to say no.",
+            "es": "Patrick dice que no hace falta una aplicación perfecta, porque una ley en parte eficaz ya da a las familias un motivo para decir que no."
+          }
+        }
+      ]
+    }
+  ]
+}

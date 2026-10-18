@@ -1,0 +1,72 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-relationships-01",
+      "examPart": "reading-2",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 1,
+      "title": "A dinner with strangers",
+      "sentences": [
+        "Last week my neighbour Clara invited me to a small dinner at her flat.",
+        "I did not know any of the other guests, so I felt rather shy when I arrived.",
+        "Luckily, the man sitting next to me turned out to be a friendly engineer who loved talking about his travels.",
+        "He told me about a trip he had taken to Peru, and soon we were laughing like old friends.",
+        "By the end of the evening, I had forgotten that I had ever been nervous.",
+        "Yesterday I sent Clara a message to thank her, and she promised to invite me again soon."
+      ],
+      "explanation": {
+        "en": "'the other guests' belongs to the dinner. 'Luckily' answers the shyness, 'He' is the engineer, 'nervous' repeats the idea of 'shy', and 'Yesterday' comes after the evening.",
+        "es": "'the other guests' pertenece a la cena. 'Luckily' contesta a la timidez, 'He' es el ingeniero, 'nervous' repite la idea de 'shy' y 'Yesterday' va después de la velada."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "the other guests",
+          "refersTo": 0,
+          "note": {
+            "en": "The people at the dinner.",
+            "es": "Los invitados de la cena."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "Luckily",
+          "refersTo": 1,
+          "note": {
+            "en": "Good news after feeling shy.",
+            "es": "Buena noticia tras sentirse tímido."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "He",
+          "refersTo": 2,
+          "note": {
+            "en": "He = the engineer.",
+            "es": "He = el ingeniero."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "nervous",
+          "refersTo": 1,
+          "note": {
+            "en": "The same feeling as 'shy'.",
+            "es": "El mismo sentimiento que 'shy'."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "Yesterday",
+          "refersTo": 4,
+          "note": {
+            "en": "A later time than the evening.",
+            "es": "Un momento posterior a la velada."
+          }
+        }
+      ]
+    }
+  ]
+}

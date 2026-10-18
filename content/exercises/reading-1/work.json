@@ -1,0 +1,108 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-work-01",
+      "examPart": "reading-1",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "context": "An email to a colleague",
+      "items": [
+        {
+          "prompt": "Thanks for your message ___ the sales report.",
+          "options": ["about", "at", "by"],
+          "answer": 0,
+          "explanation": {
+            "en": "A message about something is a message on that subject. At and by do not fit here."
+          }
+        },
+        {
+          "prompt": "I couldn't answer your call yesterday because I ___ in a meeting.",
+          "options": ["have been", "was", "am"],
+          "answer": 1,
+          "explanation": {
+            "en": "Yesterday is a finished time, so we use the past simple, not the present perfect.",
+            "es": "Con «yesterday» se usa el pasado simple (was), no el present perfect."
+          }
+        },
+        {
+          "prompt": "Could we ___ our discussion until Monday?",
+          "options": ["put on", "put off", "put out"],
+          "answer": 1,
+          "explanation": {
+            "en": "Put off means to delay something until a later time."
+          }
+        },
+        {
+          "prompt": "I'll send you the figures as soon as I ___ them from finance.",
+          "options": ["get", "will get", "am getting"],
+          "answer": 0,
+          "explanation": {
+            "en": "After as soon as we use the present simple for a future action, not will.",
+            "es": "Después de «as soon as» se usa el presente simple, no «will»."
+          }
+        },
+        {
+          "prompt": "I'm happy to ___ you a hand with the slides if you need it.",
+          "options": ["do", "make", "give"],
+          "answer": 2,
+          "explanation": {
+            "en": "The fixed phrase is give someone a hand, meaning to help them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "r1-work-02",
+      "examPart": "reading-1",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 5,
+      "context": "An email from a manager to all staff about a restructuring",
+      "items": [
+        {
+          "prompt": "Difficult ___ it may be to accept, the restructuring announced this morning is essential for our long-term survival.",
+          "options": ["even", "despite", "though"],
+          "answer": 2,
+          "explanation": {
+            "en": "Adjective + though + subject + may be is a formal concessive pattern meaning although it may be difficult. Even and despite cannot be used in this pattern."
+          }
+        },
+        {
+          "prompt": "We had no alternative ___ to reduce headcount by about ten per cent.",
+          "options": ["than", "but", "rather"],
+          "answer": 1,
+          "explanation": {
+            "en": "The fixed pattern is no alternative but to + infinitive, meaning no other choice."
+          }
+        },
+        {
+          "prompt": "Under no circumstances ___ any compulsory redundancies be made before the end of the year.",
+          "options": ["are", "will", "have"],
+          "answer": 1,
+          "explanation": {
+            "en": "After a negative adverbial at the start of the sentence we invert the auxiliary and the subject. Only will works with be made."
+          }
+        },
+        {
+          "prompt": "Anyone interested in voluntary severance is ___ to speak to HR before the end of the month.",
+          "options": ["encouraged", "persuaded", "convinced"],
+          "answer": 0,
+          "explanation": {
+            "en": "Be encouraged to do something is a polite way of recommending an action. Is persuaded or is convinced would say that staff have already been won over, which makes no sense in an invitation."
+          }
+        },
+        {
+          "prompt": "Those who leave will receive a generous package, ___ of the length of their service.",
+          "options": ["regarding", "depending", "irrespective"],
+          "answer": 2,
+          "explanation": {
+            "en": "Irrespective of means whatever the length of service. Depending needs on, not of, and regarding of is not English.",
+            "es": "«Depending» va con «on», no con «of»."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-shopping-consumption-01",
+      "examPart": "reading-1",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "context": "A complaint email to an online clothes shop",
+      "items": [
+        {
+          "prompt": "I am writing to complain ___ a jacket I ordered from your website on 4 May.",
+          "options": ["for", "with", "about"],
+          "answer": 2,
+          "explanation": {
+            "en": "We complain about a problem or a product."
+          }
+        },
+        {
+          "prompt": "It was supposed to ___ within three working days, but it took almost two weeks.",
+          "options": ["deliver", "be delivered", "be delivering"],
+          "answer": 1,
+          "explanation": {
+            "en": "The jacket does not deliver anything, it receives the action, so we need the passive: supposed to be delivered."
+          }
+        },
+        {
+          "prompt": "When it finally arrived, I found that the zip was ___ and the lining was torn.",
+          "options": ["faulty", "flawless", "fussy"],
+          "answer": 0,
+          "explanation": {
+            "en": "Faulty means not working properly, which is the reason for the complaint. Flawless means perfect, the opposite of what the writer means, and fussy describes a person who is hard to please."
+          }
+        },
+        {
+          "prompt": "If I had known about the delays, I ___ from another shop.",
+          "options": ["would order", "will have ordered", "would have ordered"],
+          "answer": 2,
+          "explanation": {
+            "en": "A past unreal situation needs the third conditional: if + past perfect, would have + past participle.",
+            "es": "Condicional de pasado: «if + had known, would have ordered»."
+          }
+        },
+        {
+          "prompt": "Please confirm that the refund ___ to my card within five working days.",
+          "options": ["will be sent", "will send", "is sending"],
+          "answer": 0,
+          "explanation": {
+            "en": "The refund is sent by the shop, so the verb must be passive."
+          }
+        }
+      ]
+    }
+  ]
+}

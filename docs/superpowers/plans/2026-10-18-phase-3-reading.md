@@ -98,10 +98,10 @@ content/exercises/reading-{1,2,3,4}/*.json   banco inicial
 
 Temas repartidos entre los 11 del examen. Parte 1: textos cortos reales (nota, email, aviso) y huecos de gramática y vocabulario a nivel de frase, con distractores claros. Parte 2: cohesión visible (pronombres, artículos, conectores, referencias), un único orden posible y `cohesionHints` en todas. Parte 3: opiniones con matices y paráfrasis (las afirmaciones no repiten palabras del texto), cada persona usada al menos una vez. Parte 4: un párrafo, una idea; el encabezado sobrante parece encajar pero no.
 
-- [ ] **Step 1:** 4 agentes `content-writer`, uno por parte, en `content/exercises/reading-N/<tema>.json`.
-- [ ] **Step 2:** `npm run validate:content` → 0 errores, 0 avisos.
-- [ ] **Step 3:** revisión: un único orden en la parte 2 (leerla barajada), una única persona por afirmación, un único encabezado por párrafo, recuento de palabras, originalidad.
-- [ ] **Step 4:** commit `content(reading): initial bank for the four parts`.
+- [x] **Step 1:** 4 agentes `content-writer`, uno por parte, en `content/exercises/reading-N/<tema>.json`.
+- [x] **Step 2:** `npm run validate:content` → 0 errores, 0 avisos.
+- [x] **Step 3:** revisión: un único orden en la parte 2 (leerla barajada), una única persona por afirmación, un único encabezado por párrafo, recuento de palabras, originalidad.
+- [x] **Step 4:** commit `content(reading): initial bank for the four parts`.
 
 ### Task 6: Página de Reading y estrategias
 

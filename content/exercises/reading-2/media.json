@@ -1,0 +1,72 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-media-01",
+      "examPart": "reading-2",
+      "cefrLevel": "B2",
+      "topic": "media",
+      "difficulty": 3,
+      "title": "News on the phone",
+      "sentences": [
+        "Until recently, most people learned about the news by reading a newspaper or watching a bulletin at a fixed time each evening.",
+        "Today, however, many of us first see a headline on our phones, often before we have even got out of bed.",
+        "This change has given readers far more choice, but it has also made it harder to tell reliable reports from rumours.",
+        "In response, a number of news organisations have set up teams whose only job is to check whether viral stories are true.",
+        "These teams publish their findings alongside the original claims, so that readers can see exactly where the mistakes lie.",
+        "Early studies suggest that such corrections help, although they rarely reach as many people as the false story did."
+      ],
+      "explanation": {
+        "en": "'Until recently' and 'Today, however' contrast the past and the present. 'This change' is the new habit, 'In response' answers the problem of rumours, 'These teams' repeats 'teams' and 'such corrections' are the published findings.",
+        "es": "'Until recently' y 'Today, however' contrastan pasado y presente. 'This change' es el nuevo hábito, 'In response' contesta al problema de los rumores, 'These teams' retoma 'teams' y 'such corrections' son los hallazgos publicados."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "Today, however",
+          "refersTo": 0,
+          "note": {
+            "en": "It contrasts the present with 'Until recently'.",
+            "es": "Contrasta el presente con 'Until recently'."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "This change",
+          "refersTo": 1,
+          "note": {
+            "en": "Seeing headlines on phones.",
+            "es": "Ver titulares en el móvil."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "In response",
+          "refersTo": 2,
+          "note": {
+            "en": "A reaction to the rumours problem.",
+            "es": "Una reacción al problema de los rumores."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "These teams",
+          "refersTo": 3,
+          "note": {
+            "en": "The fact-checking teams.",
+            "es": "Los equipos de verificación."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "such corrections",
+          "refersTo": 4,
+          "note": {
+            "en": "The published findings.",
+            "es": "Los hallazgos publicados."
+          }
+        }
+      ]
+    }
+  ]
+}

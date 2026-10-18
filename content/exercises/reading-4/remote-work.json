@@ -1,0 +1,63 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r4-remote-work-01",
+      "examPart": "reading-4",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "title": "Working from the kitchen table",
+      "paragraphs": [
+        "Few people expected the office to empty so quickly. Within weeks, millions of employees had packed their laptops and set up in spare bedrooms, on sofas and at kitchen tables. Companies that had spent years arguing about whether staff could be trusted to work without supervision suddenly had no choice. What began as an emergency measure turned into an experiment on a scale that nobody had planned, and the results surprised almost everyone. Managers who had predicted chaos found that most of the work carried on as before, while employees who had dreamed of working in their pyjamas discovered that the reality was rather more complicated than they had imagined.",
+        "For many people, the first thing they noticed was how much time they had gained. A typical commuter spends the best part of an hour each way squeezed onto a train or stuck in traffic, and suddenly that time belonged to them again. Some used it to sleep, others to cook a proper breakfast, go for a run or walk their children to school. There were financial gains as well, since fewer tickets, petrol bills and expensive sandwiches left more money at the end of the month. Surveys in several countries found that many employees would accept a smaller pay rise in exchange for the chance to stay at home.",
+        "However, not everyone enjoyed the peace and quiet. Offices can be noisy and sometimes irritating places, but they are also where friendships begin and where good ideas are born in unplanned conversations. At home, those moments disappear. A question that would have taken ten seconds to ask a colleague across the desk now has to be typed into a message, and many workers admitted that they hesitated to send it in case they seemed annoying. Younger employees, who had not yet built up a network of contacts, were particularly affected. Several described going a whole week without hearing another human voice during working hours, and they said that the silence became hard to bear.",
+        "Another problem was that the laptop never went away. When the dining table doubles as a desk, it is tempting to answer one last email after supper, or to start work before breakfast simply because the computer is sitting there. Researchers found that people working from home often put in longer hours than they had in the office, usually without being paid for them. Those who were lucky enough to have a spare room could close the door at six o'clock, but many others had to pack their work away every evening to create a sense of separation. Without such rituals, tiredness built up quickly and holidays seemed less restful.",
+        "The change has also forced managers to rethink how they lead. In an office, it is easy to confuse being busy with being productive: the employee who arrives early and leaves late looks committed, whatever he or she actually achieves. When teams are scattered across different houses, this shortcut no longer works. Successful managers have had to set clear goals, agree deadlines and then trust people to get on with the job. Those who tried instead to monitor their staff with software that recorded every keystroke found that morale fell sharply, and that some of their best workers simply handed in their notice and went to work for someone else.",
+        "The effects have spread well beyond the workplace itself. City-centre sandwich bars, dry cleaners and small shops that once depended on the lunchtime rush have seen their customers vanish, and some have closed for good. Landlords of office buildings are struggling to fill empty floors, and public transport companies are worried about falling ticket sales. At the same time, suburban high streets have enjoyed an unexpected revival, as people who work at home buy their coffee, their bread and their stationery close to where they live. Planners now face difficult questions about what to do with business districts that are half empty on weekdays.",
+        "Most experts believe that neither extreme will win. Companies that demanded five days a week in the office have struggled to recruit, while fully remote firms have found that creating a shared culture is hard. As a result, many organisations are settling on a mixture, with two or three days at the desk and the rest at home. The office is then used for what it does best: meetings, training, celebrations and the kind of brainstorming that works better face to face. Whether this arrangement will last is uncertain, but few people say that they want to go back to the old routine completely."
+      ],
+      "headings": [
+        "A compromise for the years ahead",
+        "Missing the chat by the coffee machine",
+        "Choosing the right equipment for a home office",
+        "A change nobody was ready for",
+        "Judging people by what they do, not where they sit",
+        "The hours that used to disappear on trains",
+        "Quiet streets in the city centre",
+        "When the working day never quite ends"
+      ],
+      "answers": [3, 5, 1, 7, 4, 6, 0],
+      "explanations": [
+        {
+          "en": "The key idea is how suddenly and unexpectedly everything changed: 'Few people expected the office to empty so quickly.' 'Judging people...' is about management, which appears only later.",
+          "es": "La idea clave es lo repentino e inesperado del cambio: 'Few people expected the office to empty so quickly'. El encabezado sobre juzgar a las personas trata de la gestión, que aparece más adelante."
+        },
+        {
+          "en": "The paragraph is about time and money saved by not commuting. 'Quiet streets in the city centre' is about the effect on businesses, not on individual workers.",
+          "es": "El párrafo trata del tiempo y el dinero que se ahorran al no desplazarse al trabajo. 'Quiet streets...' habla del efecto en los negocios, no en cada trabajador."
+        },
+        {
+          "en": "The key sentence is about unplanned conversations disappearing and workers hesitating to ask colleagues questions. 'When the working day never quite ends' is about long hours, not loneliness.",
+          "es": "La frase clave es que desaparecen las conversaciones improvisadas y que los empleados dudan en preguntar a sus compañeros. 'When the working day never quite ends' habla de jornadas largas, no de soledad."
+        },
+        {
+          "en": "Researchers found people working longer hours because the laptop is always there. The extra heading about equipment is tempting because the paragraph mentions a desk and a spare room, but it never gives advice on equipment.",
+          "es": "Se trabaja más horas porque el portátil siempre está a mano. El encabezado extra sobre equipo tienta porque se mencionan la mesa y la habitación libre, pero el párrafo no habla de equipamiento."
+        },
+        {
+          "en": "Managers must set goals and trust staff instead of watching who is at a desk. 'A compromise for the years ahead' is about the mixture of home and office, which is the last paragraph.",
+          "es": "Los jefes deben fijar objetivos y confiar en el personal en lugar de vigilar quién está en su sitio. 'A compromise...' se refiere a la mezcla de casa y oficina, del último párrafo."
+        },
+        {
+          "en": "Shops, cafés and landlords in business districts lose customers while suburban streets gain them. 'The hours that used to disappear on trains' is about personal time, not local economies.",
+          "es": "Los negocios y propietarios del centro pierden clientes mientras los barrios residenciales ganan. 'The hours that used to disappear on trains' trata del tiempo personal, no de la economía local."
+        },
+        {
+          "en": "Experts expect a mixture of office and home days: 'neither extreme will win'. 'A change nobody was ready for' describes the sudden start, not the likely outcome.",
+          "es": "Los expertos prevén una mezcla de días en la oficina y en casa: 'neither extreme will win'. 'A change nobody was ready for' describe el comienzo repentino, no el resultado probable."
+        }
+      ]
+    }
+  ]
+}

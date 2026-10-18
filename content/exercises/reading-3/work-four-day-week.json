@@ -1,0 +1,89 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r3-work-four-day-week-01",
+      "examPart": "reading-3",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 4,
+      "question": "Should companies introduce a four-day working week?",
+      "people": [
+        {
+          "name": "Ingrid",
+          "text": "We trialled a four-day week for six months, expecting chaos. Instead, output barely changed and sick leave dropped noticeably. I became a convert, at least in theory. In practice, I noticed that several colleagues simply crammed five days of tasks into four, and by Thursday evening they were running on empty. A shorter week works only if the workload is cut as well, not just the calendar. So I would recommend it to firms willing to rethink their targets, rather than as a blanket rule."
+        },
+        {
+          "name": "Rashid",
+          "text": "It's easy to admire the four-day week from behind a desk. On my ward, patients need care every day, so staff can't simply vanish on Fridays. If office workers gain an extra day off while nurses, bus drivers and shop assistants do not, we create a two-tier society. I'm not saying it's a bad idea; I would welcome shorter shifts, which might mean fewer errors caused by exhaustion. But any national conversation has to include those who keep essential services running, otherwise it is a perk for the privileged."
+        },
+        {
+          "name": "Tomasz",
+          "text": "I run a factory with forty employees and thin margins. When I first heard about the four-day week, I laughed. Our customers still expect answers on Fridays, and machines that stand idle cost money. Yet one of my suppliers adopted a rota, with half the team off on alternate Fridays, and it stayed open five days. I'm now more open-minded than I was, though I would need proof that it won't cost jobs. Fairness to staff matters, but so does the survival of the business."
+        },
+        {
+          "name": "Thandiwe",
+          "text": "As a freelance translator, I have never had a five-day week, so the debate feels slightly remote. My problem isn't the number of days but the fact that messages arrive at ten at night and clients expect immediate replies. Fewer working days would mean nothing if I stayed permanently available. What we need is a culture in which people can genuinely disconnect. I suspect many full-time employees feel the same: they would swap the extra day off for the right to ignore their phone after six."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Fitting the same duties into fewer days can leave employees drained.",
+          "answer": 0,
+          "explanation": {
+            "en": "Ingrid noticed colleagues who crammed five days of tasks into four and were running on empty by Thursday.",
+            "es": "Ingrid vio a compañeros que metieron cinco días de tareas en cuatro y el jueves ya iban sin energía."
+          }
+        },
+        {
+          "text": "If only some jobs get a shorter week, society could become more divided.",
+          "answer": 1,
+          "explanation": {
+            "en": "Rashid warns of a two-tier society if office workers get a day off and nurses and drivers do not.",
+            "es": "Rashid avisa de una sociedad de dos niveles si los oficinistas tienen un día libre y las enfermeras y conductores no."
+          }
+        },
+        {
+          "text": "Seeing how another business coped has softened the speaker's scepticism.",
+          "answer": 2,
+          "explanation": {
+            "en": "Tomasz laughed at first, but a supplier's rota system made him more open-minded.",
+            "es": "Tomasz al principio se rio, pero el sistema de turnos de un proveedor lo hizo más receptivo."
+          }
+        },
+        {
+          "text": "Contact outside office hours is a bigger problem than the length of the working week.",
+          "answer": 3,
+          "explanation": {
+            "en": "Thandiwe says her problem is messages arriving at ten at night, not the number of days.",
+            "es": "Thandiwe dice que su problema son los mensajes que llegan a las diez de la noche, no el número de días."
+          }
+        },
+        {
+          "text": "A shorter week only works if people are also given less to do.",
+          "answer": 0,
+          "explanation": {
+            "en": "Ingrid says a shorter week works only if the workload is cut as well, and recommends rethinking targets.",
+            "es": "Ingrid dice que una semana más corta solo funciona si también se reduce la carga de trabajo, y recomienda replantear los objetivos."
+          }
+        },
+        {
+          "text": "Shorter shifts could reduce the number of errors made by tired staff.",
+          "answer": 1,
+          "explanation": {
+            "en": "Rashid welcomes shorter shifts because they might mean fewer errors caused by exhaustion.",
+            "es": "Rashid ve bien los turnos más cortos porque podría haber menos errores causados por el agotamiento."
+          }
+        },
+        {
+          "text": "Keeping the company viable is as important as treating employees fairly.",
+          "answer": 2,
+          "explanation": {
+            "en": "Tomasz ends by saying fairness to staff matters, but so does the survival of the business.",
+            "es": "Tomasz termina diciendo que la justicia con la plantilla importa, pero también la supervivencia del negocio."
+          }
+        }
+      ]
+    }
+  ]
+}

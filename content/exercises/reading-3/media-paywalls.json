@@ -1,0 +1,89 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r3-media-paywalls-01",
+      "examPart": "reading-3",
+      "cefrLevel": "C1",
+      "topic": "media",
+      "difficulty": 4,
+      "question": "Should readers have to pay for news online?",
+      "people": [
+        {
+          "name": "Bronwen",
+          "text": "Running a regional newspaper has taught me that quality journalism costs money: court reporting, council meetings and investigations do not pay for themselves. When we relied on advertising alone, we drifted towards sensational headlines because only clicks counted. Since introducing a modest subscription, we have been able to keep six reporters. That said, I worry about readers who can't afford it, so we leave emergency information, such as flood warnings, free to everyone. I would never go back to the old model."
+        },
+        {
+          "name": "Samir",
+          "text": "I'm twenty-six and I subscribe to precisely none of the newspapers I read. Most of my news comes from links that friends share, and when a site blocks me with a payment screen, I simply close it and find a free version somewhere else. I realise that's not very principled. If each outlet charged separately, the total cost would be absurd. What might work is a single monthly fee covering many publications, the way streaming services bundle films. Until then, I'm unlikely to pay for anything."
+        },
+        {
+          "name": "Judith",
+          "text": "I spent my career in a public library, so access to information is close to a matter of principle for me. When reliable reporting sits behind a paywall while rumours and conspiracy theories are free, the wealthy get facts and everyone else gets noise. I would prefer news to be funded collectively, perhaps through a levy or public money, with strong safeguards for editorial independence. I used to dismiss that idea as dangerous; now I see the current system as the greater risk."
+        },
+        {
+          "name": "Ravi",
+          "text": "As a freelance reporter, I have watched my income depend on clicks, which rewards outrage rather than accuracy. Reader subscriptions seem fairer, because they reward outlets for being trusted and not merely noticed. My reservation is that people will pay only for a publication that confirms their opinions, which could harden divisions even further. I don't have a neat solution. But on balance, I would rather write for readers who have chosen to support me than for algorithms that decide what counts as popular."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Income from readers has helped the paper maintain its team of journalists.",
+          "answer": 0,
+          "explanation": {
+            "en": "Bronwen says that since introducing a modest subscription, they have been able to keep six reporters.",
+            "es": "Bronwen dice que desde que introdujeron una suscripción módica han podido mantener a seis reporteros."
+          }
+        },
+        {
+          "text": "Finding unpaid alternatives so easily reduces the speaker's willingness to pay.",
+          "answer": 1,
+          "explanation": {
+            "en": "Samir closes any site with a payment screen and finds a free version somewhere else.",
+            "es": "Samir cierra cualquier web con pantalla de pago y busca una versión gratuita en otro sitio."
+          }
+        },
+        {
+          "text": "The speaker now supports an idea that they once thought too risky.",
+          "answer": 2,
+          "explanation": {
+            "en": "Judith used to dismiss collective funding as dangerous, but now sees the current system as the greater risk.",
+            "es": "Judith antes descartaba la financiación colectiva por peligrosa, pero ahora ve el sistema actual como el mayor riesgo."
+          }
+        },
+        {
+          "text": "Payments from readers may encourage people to follow only what they already believe.",
+          "answer": 3,
+          "explanation": {
+            "en": "Ravi worries that people will pay only for a publication that confirms their opinions, hardening divisions.",
+            "es": "A Ravi le preocupa que la gente pague solo por una publicación que confirme sus opiniones, lo que endurece las divisiones."
+          }
+        },
+        {
+          "text": "Safety notices are exempt from any payment requirement.",
+          "answer": 0,
+          "explanation": {
+            "en": "Bronwen's paper leaves emergency information, such as flood warnings, free to everyone.",
+            "es": "El periódico de Bronwen deja gratis para todos la información de emergencia, como los avisos de inundación."
+          }
+        },
+        {
+          "text": "A joint package covering several outlets would be a more realistic option.",
+          "answer": 1,
+          "explanation": {
+            "en": "Samir suggests a single monthly fee covering many publications, like streaming bundles.",
+            "es": "Samir propone una única cuota mensual que cubra muchas publicaciones, como los paquetes de las plataformas de streaming."
+          }
+        },
+        {
+          "text": "Working for an audience that deliberately backs the writer is preferable to chasing algorithmic popularity.",
+          "answer": 3,
+          "explanation": {
+            "en": "Ravi would rather write for readers who have chosen to support him than for algorithms that decide what is popular.",
+            "es": "Ravi prefiere escribir para lectores que han elegido apoyarlo antes que para algoritmos que deciden qué es popular."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r3-shopping-consumption-01",
+      "examPart": "reading-3",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "question": "Is it better to buy second-hand than to buy new?",
+      "people": [
+        {
+          "name": "Elena",
+          "text": "Nearly everything in my flat came from markets or house clearances. Old wooden furniture is simply better made than the flat-pack kind, and I paid a third of the price. I do have limits, though. I would never buy a used mattress, and I'm nervous about second-hand electrical goods, since nobody can tell me whether the wiring is safe. A new kettle with a guarantee seems a sensible exception. For almost everything else, I'd say used is the first thing to look for."
+        },
+        {
+          "name": "Dev",
+          "text": "I sell second-hand trainers and jackets online, so I'm hardly neutral. It gives me a decent second income, and buyers get brands they could not otherwise afford. But I've noticed a downside. Some people now raid charity shops for bargains and resell them at triple the price, which leaves local families with fewer affordable options. I don't think that's what second-hand shopping was meant to be. I'd still argue it beats buying new, as long as the bargains stay available for those who need them."
+        },
+        {
+          "name": "Claire",
+          "text": "People assume second-hand shopping is automatically green, but I'm not convinced. When a jumper costs four pounds, I tend to buy three, wear them twice and give them away again. The low price removes the guilt that used to stop me. The truly responsible option is to buy less and repair what you already own. Second-hand is certainly better than new, but it only helps if it replaces purchases rather than adding to them. I learnt that after clearing out my wardrobe last winter."
+        },
+        {
+          "name": "Yusuf",
+          "text": "When our twins were born, a neighbour handed us three bags of baby clothes, and I realised how absurd it is to buy new for children who outgrow things in a matter of weeks. Years ago, as a student, I would have been embarrassed to wear someone else's coat. That feeling seems to have disappeared among younger people, which I welcome. For anything children use, second-hand is simply common sense, and I can't see why anyone would pay full price for a pushchair."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Some used items worry the speaker for safety reasons.",
+          "answer": 0,
+          "explanation": {
+            "en": "Elena is nervous about second-hand electrical goods because nobody can say if the wiring is safe.",
+            "es": "Elena desconfía de los aparatos eléctricos de segunda mano porque nadie puede asegurar que el cableado sea seguro."
+          }
+        },
+        {
+          "text": "Cheap prices can lead people to buy more than they need.",
+          "answer": 2,
+          "explanation": {
+            "en": "Claire buys three jumpers when one costs four pounds, because the low price removes the guilt.",
+            "es": "Claire compra tres jerséis cuando uno cuesta cuatro libras, porque el precio bajo le quita el remordimiento."
+          }
+        },
+        {
+          "text": "Resellers may be making it harder for low-income households to find cheap goods.",
+          "answer": 1,
+          "explanation": {
+            "en": "Dev says people who resell charity-shop bargains at triple the price leave local families with fewer affordable options.",
+            "es": "Dev dice que quienes revenden las gangas de las tiendas benéficas al triple dejan a las familias del barrio con menos opciones asequibles."
+          }
+        },
+        {
+          "text": "Attitudes towards wearing other people's clothes have become more relaxed.",
+          "answer": 3,
+          "explanation": {
+            "en": "Yusuf says the embarrassment he felt as a student seems to have disappeared among younger people.",
+            "es": "Yusuf dice que la vergüenza que él sentía de estudiante parece haber desaparecido entre los jóvenes."
+          }
+        },
+        {
+          "text": "Older products can be of higher quality than modern mass-produced ones.",
+          "answer": 0,
+          "explanation": {
+            "en": "Elena says old wooden furniture is better made than the flat-pack kind.",
+            "es": "Elena dice que los muebles antiguos de madera están mejor hechos que los de montar."
+          }
+        },
+        {
+          "text": "The most environmentally responsible choice is to consume less.",
+          "answer": 2,
+          "explanation": {
+            "en": "Claire says the truly responsible option is to buy less and repair what you own.",
+            "es": "Claire dice que lo realmente responsable es comprar menos y reparar lo que ya se tiene."
+          }
+        },
+        {
+          "text": "Things that are needed only for a short time are especially suited to being bought used.",
+          "answer": 3,
+          "explanation": {
+            "en": "Yusuf says it is absurd to buy new for children who outgrow things in weeks, so second-hand is common sense.",
+            "es": "Yusuf dice que es absurdo comprar nuevo para niños que se les queda pequeño todo en semanas; lo de segunda mano es de sentido común."
+          }
+        }
+      ]
+    }
+  ]
+}

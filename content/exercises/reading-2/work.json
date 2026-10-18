@@ -1,0 +1,136 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-work-01",
+      "examPart": "reading-2",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 1,
+      "title": "The first day",
+      "sentences": [
+        "Last month Priya started working as a receptionist at a dental clinic.",
+        "On her first morning, the manager gave her a folder with a list of jobs.",
+        "The first job was to learn how the booking system worked, so she spent an hour practising with a colleague.",
+        "After that, she answered a phone call for the first time, and it was easier than she had expected.",
+        "The call went so well that she felt much more confident, and by lunchtime she no longer needed to check the folder.",
+        "Today, four weeks on, she says it is the best job she has ever had."
+      ],
+      "explanation": {
+        "en": "The story follows the order of events. 'The first job' picks up 'a list of jobs', 'After that' follows the training, 'The call' repeats 'a phone call' (a becomes the), and the last sentence jumps forward to today.",
+        "es": "La historia sigue el orden de los hechos. 'The first job' retoma 'a list of jobs', 'After that' va tras la práctica, 'The call' repite 'a phone call' (a pasa a the) y la última frase salta al presente."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "her",
+          "refersTo": 0,
+          "note": { "en": "Her = Priya.", "es": "Her = Priya." }
+        },
+        {
+          "sentence": 2,
+          "phrase": "The first job",
+          "refersTo": 1,
+          "note": {
+            "en": "It points back to the list of jobs.",
+            "es": "Remite a la lista de tareas (list of jobs)."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "After that",
+          "refersTo": 2,
+          "note": {
+            "en": "A time linker: after the practice session.",
+            "es": "Conector de tiempo: después de la práctica."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "The call",
+          "refersTo": 3,
+          "note": {
+            "en": "A phone call becomes the call.",
+            "es": "A phone call pasa a ser the call."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "four weeks on",
+          "refersTo": 0,
+          "note": {
+            "en": "Time has moved on since she started.",
+            "es": "Ha pasado el tiempo desde que empezó."
+          }
+        }
+      ]
+    },
+    {
+      "id": "r2-work-02",
+      "examPart": "reading-2",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 4,
+      "title": "Too many meetings",
+      "sentences": [
+        "Few organisations openly admit that their meetings have become a problem, yet most employees would readily describe them as the least productive part of the week.",
+        "The difficulty, however, is rarely the meetings themselves but the habit of calling one whenever a decision feels uncomfortable.",
+        "Such a reflex has a predictable consequence: responsibility is spread so thinly across the room that nobody feels personally accountable for the outcome.",
+        "Some companies have therefore started to require a named individual to take each decision, with the meeting reduced to a forum for advice.",
+        "Early results suggest that this arrangement shortens discussions considerably, although it demands a degree of courage that not every manager possesses.",
+        "Whether such results can be repeated in cultures that prize consensus above speed remains, for the moment, an open question."
+      ],
+      "explanation": {
+        "en": "Each sentence leans on the one before: 'The difficulty' answers 'a problem'; 'Such a reflex' names the habit; 'therefore' draws a conclusion from the consequence; 'this arrangement' is the named decision-maker; 'such results' are the 'early results'.",
+        "es": "Cada frase se apoya en la anterior: 'The difficulty' responde a 'a problem'; 'Such a reflex' nombra el hábito; 'therefore' extrae una conclusión; 'this arrangement' es el responsable nombrado; 'such results' son los 'early results'."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "The difficulty",
+          "refersTo": 0,
+          "note": {
+            "en": "Lexical reference to 'a problem'.",
+            "es": "Referencia léxica a 'a problem'."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "Such a reflex",
+          "refersTo": 1,
+          "note": {
+            "en": "It names the habit of calling a meeting.",
+            "es": "Nombra el hábito de convocar una reunión."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "therefore",
+          "refersTo": 2,
+          "note": {
+            "en": "The companies react to the consequence.",
+            "es": "Las empresas reaccionan a la consecuencia."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "this arrangement",
+          "refersTo": 3,
+          "note": {
+            "en": "It sums up the named decision-maker system.",
+            "es": "Resume el sistema del responsable nombrado."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "such results",
+          "refersTo": 4,
+          "note": {
+            "en": "It picks up 'early results'.",
+            "es": "Retoma 'early results'."
+          }
+        }
+      ]
+    }
+  ]
+}

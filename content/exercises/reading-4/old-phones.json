@@ -1,0 +1,63 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r4-old-phones-01",
+      "examPart": "reading-4",
+      "cefrLevel": "C1",
+      "topic": "shopping-consumption",
+      "difficulty": 4,
+      "title": "The drawer where phones go to retire",
+      "paragraphs": [
+        "Open the kitchen drawer in a typical household and, somewhere beneath the batteries and takeaway menus, you are likely to find at least one phone that no longer rings. Studies in several countries suggest that the average home holds between two and four disused handsets, which adds up to hundreds of millions of devices lying idle across the world. Their owners rarely describe themselves as collectors. If asked why the phones are still there, most people look slightly embarrassed and admit that they have never really thought about it. The habit is so widespread that researchers have given it a name, and they now treat it as a puzzle worth explaining.",
+        "One answer is sentimental. A phone is not a toaster: it holds thousands of photographs, conversations with people who have died, and the trail of a relationship or a year abroad. Throwing the device away feels uncomfortably like throwing away the memories stored inside it, even when the owner knows that everything has been copied to a newer model. Psychologists compare the old handset to a shoebox of letters, an object that has become a container for identity. Several interviewees said they felt guilty when they imagined parting with it, as if they were somehow betraying the person they used to be.",
+        "Others keep a phone out of vague practicality. It might be useful as a spare if the new one breaks, or as an alarm clock, or as a music player for the gym. Many owners also assume that they will one day sell it, and they picture a buyer paying a decent sum. In reality, few of these plans are ever carried out, and the value of an old model falls with every month that passes. What is really happening is that a small decision keeps being delayed, because the cost of doing nothing is invisible while the effort of acting is immediate. The drawer is simply the place where putting things off becomes permanent.",
+        "A third reason is anxiety about privacy. Our phones hold bank details, medical information, private messages and passwords, so handing one to a stranger for recycling can feel reckless. Many people do not trust the factory reset button, having heard stories of data being recovered from supposedly wiped devices. Technically, a properly encrypted phone that has been reset is very difficult to read, but this reassurance rarely reaches ordinary users. Some say that they would prefer to keep a phone in a drawer indefinitely than to risk a stranger finding their old photographs, and a few admit to smashing the screen before disposing of it, which makes recycling harder.",
+        "Whatever the motives, the consequences are considerable. A mobile phone contains small quantities of gold, silver, copper and rare elements whose extraction involves mining, large amounts of energy and sometimes appalling working conditions. When thousands of devices lie unused, those materials cannot be recovered and new supplies must be dug up to make the next generation. Industry figures estimate that only a small proportion of handsets are ever recycled properly. Recovering valuable metals from old devices is generally far less damaging than mining them again, so every phone left to gather dust represents a resource that has been, in effect, wasted.",
+        "It would be unfair to blame consumers alone. Manufacturers design products with batteries that cannot be replaced, glued casings that discourage repair, and software that stops receiving security updates after a few years, leaving a perfectly functioning phone unsafe to use. Critics call this planned obsolescence, though companies insist that they are simply keeping pace with technology. Whatever the intention, the effect is that devices are abandoned long before they stop working. Some governments have started to respond with laws that oblige makers to supply spare parts and to guarantee updates for longer, a change that could slow the rate at which new drawers fill up.",
+        "Behavioural scientists believe the answer lies in convenience rather than in guilt-inducing campaigns. When a shop offers a prepaid envelope, or a courier collects the old device when the new one is delivered, return rates rise sharply. Trade-in discounts help, and so do clear assurances that data will be erased in front of the customer. Even small prompts, such as a reminder message three months after a purchase, make people more likely to act. The lesson is that most owners do not object to recycling their phones; they simply need the first step to be so easy that they can no longer find an excuse."
+      ],
+      "headings": [
+        "Doubts about what happens to our data",
+        "Making it easy to let go",
+        "Memories we are reluctant to delete",
+        "Why batteries lose power over time",
+        "A drawer full of forgotten devices",
+        "Precious materials going to waste",
+        "Putting off a decision with vague plans",
+        "Products not built to last"
+      ],
+      "answers": [4, 2, 6, 0, 5, 7, 1],
+      "explanations": [
+        {
+          "en": "The paragraph shows how common the habit is: two to four unused phones per home. The other headings name causes or consequences that appear later.",
+          "es": "El párrafo muestra lo extendido del hábito: de dos a cuatro móviles sin uso por hogar. Los demás encabezados nombran causas o consecuencias que aparecen después."
+        },
+        {
+          "en": "Phones contain photos and messages, so discarding one feels like discarding memories. 'Putting off a decision with vague plans' is the next paragraph's reason, which is practical rather than emotional.",
+          "es": "Los móviles guardan fotos y mensajes, así que tirarlos parece tirar recuerdos. 'Putting off a decision...' es la razón del párrafo siguiente, práctica y no emocional."
+        },
+        {
+          "en": "Owners imagine uses or a future sale but never act: 'a small decision keeps being delayed'. 'Memories we are reluctant to delete' fails because this paragraph is not about sentiment.",
+          "es": "Los dueños imaginan usos o una venta futura pero no actúan: 'a small decision keeps being delayed'. 'Memories we are reluctant to delete' no sirve porque aquí no se habla de sentimientos."
+        },
+        {
+          "en": "People fear that a stranger could recover their personal data. 'Precious materials going to waste' is about the environment.",
+          "es": "La gente teme que un desconocido recupere sus datos personales. 'Precious materials going to waste' trata del medio ambiente."
+        },
+        {
+          "en": "Gold, silver and rare elements are lost while new ones are mined. 'Products not built to last' is about how phones are designed, not about the metals inside them.",
+          "es": "Se pierden oro, plata y elementos raros mientras se extraen otros nuevos. 'Products not built to last' trata del diseño de los móviles, no de los metales que contienen."
+        },
+        {
+          "en": "Sealed batteries, glued casings and ended updates make devices obsolete early. The extra heading is tempting because the paragraph mentions batteries, but its main point is manufacturers' design choices, not how batteries age.",
+          "es": "Baterías selladas, carcasas pegadas y fin de las actualizaciones dejan los aparatos obsoletos pronto. El encabezado extra tienta porque se citan las baterías, pero la idea principal son las decisiones de diseño, no cómo envejece una batería."
+        },
+        {
+          "en": "Prepaid envelopes, courier collection and reminders make returning a phone easy. 'Putting off a decision with vague plans' describes the problem, not the solution.",
+          "es": "Los sobres prepagados, la recogida a domicilio y los avisos facilitan devolver el móvil. 'Putting off a decision...' describe el problema, no la solución."
+        }
+      ]
+    }
+  ]
+}

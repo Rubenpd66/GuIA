@@ -1,0 +1,63 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r4-rewilding-01",
+      "examPart": "reading-4",
+      "cefrLevel": "C1",
+      "topic": "environment",
+      "difficulty": 4,
+      "title": "Letting the land run wild",
+      "paragraphs": [
+        "Conventional conservation resembles gardening on a grand scale: managers decide which species deserve protection, cut back the ones that do not, and intervene whenever the landscape drifts from the intended picture. Rewilding rejects that philosophy. On estates where it has been tried, the owners have simply stopped ploughing marginal fields, blocked drainage ditches and taken down fences, then waited to see what happened. The aim is not to recreate a particular historical moment but to restore the processes, such as grazing, flooding and decay, that allow ecosystems to organise themselves. Its advocates admit that this requires a certain humility, since the outcome cannot be predicted and may not please everyone.",
+        "What startled even the optimists was the pace of recovery. Within three or four years of the first fields being abandoned, ecologists recorded dozens of insect species that had not been seen locally for a generation, together with the ground-nesting birds that feed on them. Rare butterflies appeared along the margins of scrub, and bats returned to hunt over newly formed ponds. Some arrivals were completely unexpected, such as a species of orchid that nobody remembered growing in the district. Researchers suggest that seeds and eggs had been lying dormant in the soil for decades, waiting for the pressure of intensive farming to be lifted.",
+        "A few animals seem to matter out of all proportion to their numbers. Beavers, for example, were reintroduced to several river valleys, where their dams slow the flow of water, create wetlands and trap sediment that would otherwise clog the channels downstream. Hydrologists who monitored one catchment found that the peak of floods was reduced considerably, protecting villages that had suffered repeatedly. Fish, amphibians and dragonflies all benefited from the new pools. Conservationists therefore describe such animals as ecosystem engineers, performing at no cost the sort of work that human contractors would struggle to equal and would charge a great deal to attempt.",
+        "Not everyone is delighted. In farming communities, the sight of fields reverting to bramble and willow can feel like a reproach, as though generations of hard work were being dismissed as a mistake. Livestock keepers worry about disease carried by wild animals, and the prospect of predators being reintroduced alarms them further, however remote it may seem. There is also a cultural dimension: neat hedgerows and well-kept pasture are a source of pride, and many residents regard a tangle of undergrowth as neglect. Rewilding projects that ignored these sentiments have met with hostility, sabotage and legal challenges, and some organisers now regret not consulting neighbours earlier.",
+        "Because owners of the land still have bills to pay, the financial argument matters as much as the ecological one. Several estates have found that visitors will pay to stay in cabins and to join guided walks where they might glimpse eagles or wildcats, creating jobs that did not exist when the land was farmed. Others receive payments for the carbon stored in growing woodland or for the flood protection their rivers provide to towns downstream. The sums are rarely large enough to match the profits of fertile arable ground, however, and the income tends to benefit big landowners more than tenants. Whether such schemes can support entire rural communities remains unproven.",
+        "Scientists do not agree about what success would look like. Because humans have shaped the countryside for thousands of years, critics ask which version of nature should be treated as the target, and some argue that many prized habitats, such as flower-rich meadows, only exist because of centuries of mowing and grazing. Allowing them to turn into scrub could therefore reduce diversity rather than increase it. Supporters reply that the baseline should be abundance, not any single past state. The debate is partly philosophical, but it has practical consequences, because it determines which projects attract funding and how the public judges whether the money has been wisely spent.",
+        "Realistically, few people suggest that the whole countryside should be left to its own devices. Population growth and rising food prices make that unrealistic, and the countries that import most of their produce would simply export the environmental damage. A more plausible vision is a patchwork, in which intensive farming on the best soils is balanced by large wild areas on poor land, steep slopes and river corridors, connected by strips of habitat. In this model the question shifts from whether land should be productive or wild to where each approach makes most sense, a decision that would need to be negotiated locally."
+      ],
+      "headings": [
+        "Disagreement over what counts as natural",
+        "Engineers with fur and flat tails",
+        "The case for bringing back large predators",
+        "Stepping back instead of stepping in",
+        "Room for both food and wilderness",
+        "Resentment among those who work the land",
+        "Wildlife returns faster than expected",
+        "New income from untidy land"
+      ],
+      "answers": [3, 6, 1, 5, 7, 0, 4],
+      "explanations": [
+        {
+          "en": "Rewilding means withdrawing control and letting natural processes work, unlike conservation as 'gardening'. 'Wildlife returns faster than expected' describes results, which come in the next paragraph.",
+          "es": "Rewilding es retirar el control y dejar actuar los procesos naturales, al contrario que la conservación como 'jardinería'. 'Wildlife returns faster than expected' describe resultados, que llegan en el párrafo siguiente."
+        },
+        {
+          "en": "The key sentence is 'What startled even the optimists was the pace of recovery'. 'Engineers with fur and flat tails' is about beavers, who appear only in the following paragraph.",
+          "es": "La frase clave es 'What startled even the optimists was the pace of recovery'. 'Engineers with fur and flat tails' habla de los castores, que aparecen en el párrafo siguiente."
+        },
+        {
+          "en": "Beavers change rivers and reduce floods, so they are 'ecosystem engineers'. The extra heading is tempting because rewilding often involves animals, but this paragraph discusses beavers, not predators.",
+          "es": "Los castores cambian los ríos y reducen las inundaciones: son 'ecosystem engineers'. El encabezado extra tienta porque el rewilding suele implicar animales, pero aquí se habla de castores, no de depredadores."
+        },
+        {
+          "en": "Farmers feel reproached and neighbours see neglect. The mention of predators is only one worry among several, so the extra heading does not capture the main idea; 'New income from untidy land' is about money.",
+          "es": "Los agricultores se sienten reprochados y los vecinos ven abandono. Los depredadores son solo una preocupación entre varias, así que el encabezado extra no resume el párrafo; 'New income from untidy land' trata de dinero."
+        },
+        {
+          "en": "Tourism, carbon payments and flood protection create revenue. 'Resentment among those who work the land' fails because the paragraph is about money, not attitudes.",
+          "es": "El turismo, los pagos por carbono y la protección contra inundaciones generan ingresos. 'Resentment among those who work the land' no sirve porque el párrafo trata de dinero, no de actitudes."
+        },
+        {
+          "en": "Critics ask which past state counts as 'natural', since people have shaped the land for millennia. 'Stepping back instead of stepping in' describes the method of rewilding, not the debate about its goals.",
+          "es": "Los críticos preguntan qué estado pasado cuenta como 'natural', ya que el ser humano modela el paisaje desde hace milenios. 'Stepping back...' describe el método, no el debate sobre los objetivos."
+        },
+        {
+          "en": "The final paragraph proposes a patchwork of farmed and wild land. 'Disagreement over what counts as natural' belongs to the previous paragraph; here the debate is about where to put each use.",
+          "es": "El último párrafo propone un mosaico de tierras cultivadas y silvestres. 'Disagreement over what counts as natural' corresponde al párrafo anterior; aquí se trata de dónde ubicar cada uso."
+        }
+      ]
+    }
+  ]
+}

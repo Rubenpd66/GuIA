@@ -1,0 +1,58 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-travel-01",
+      "examPart": "reading-1",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "context": "A text message to a friend before a trip",
+      "items": [
+        {
+          "prompt": "Our flight leaves at six, so we need to ___ at the airport by four.",
+          "options": ["check out", "check in", "check up"],
+          "answer": 1,
+          "explanation": {
+            "en": "At an airport we check in, that is, register for the flight. Check out is for leaving a hotel."
+          }
+        },
+        {
+          "prompt": "I'll pick you up at three if the traffic ___ too bad.",
+          "options": ["isn't", "won't be", "wasn't"],
+          "answer": 0,
+          "explanation": {
+            "en": "In a first conditional the if-clause takes the present simple, not will.",
+            "es": "En la oración con «if» se usa el presente simple, no «will»."
+          }
+        },
+        {
+          "prompt": "Don't forget your passport, because you ___ travel without it.",
+          "options": ["don't have to", "needn't", "mustn't"],
+          "answer": 2,
+          "explanation": {
+            "en": "Mustn't means it is forbidden. Don't have to and needn't mean it is not necessary.",
+            "es": "«Mustn't» es prohibición; «don't have to» es «no hace falta»."
+          }
+        },
+        {
+          "prompt": "The hotel is only ten minutes ___ foot from the beach, so we can walk down every morning.",
+          "options": ["by", "with", "on"],
+          "answer": 2,
+          "explanation": {
+            "en": "The fixed phrase is on foot. We use by for vehicles, such as by bus.",
+            "es": "«A pie» es «on foot», no «by foot»."
+          }
+        },
+        {
+          "prompt": "Send me a message as soon as you ___ in Lisbon.",
+          "options": ["arrive", "reach", "go"],
+          "answer": 0,
+          "explanation": {
+            "en": "Arrive in a city is correct. Reach takes a direct object (reach Lisbon) and go needs to."
+          }
+        }
+      ]
+    }
+  ]
+}

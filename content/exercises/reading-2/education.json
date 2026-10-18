@@ -1,0 +1,148 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-education-01",
+      "examPart": "reading-2",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 2,
+      "title": "A summer in Dublin",
+      "sentences": [
+        "Marta has wanted to study English abroad for years, and this summer she finally booked a course in Dublin.",
+        "The course lasts four weeks, and she will live with a local family during that time.",
+        "She is a little nervous about this, because she has never stayed with strangers before.",
+        "Her teacher, Mr Hughes, tells her not to worry, however: most host families are very kind, and the first dinner is the hardest part.",
+        "If he is right, Marta will be chatting in English at breakfast within a few days.",
+        "By the end of the course, she hopes to be thinking in English instead of translating in her head."
+      ],
+      "explanation": {
+        "en": "'The course' repeats 'a course' (a becomes the). 'This' points to living with a family, 'however' answers her worry, 'he' is Mr Hughes, and the last sentence looks ahead to the end of the course.",
+        "es": "'The course' repite 'a course' (a pasa a the). 'This' remite a vivir con una familia, 'however' contesta a su preocupación, 'he' es Mr Hughes y la última frase mira al final del curso."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "The course",
+          "refersTo": 0,
+          "note": {
+            "en": "A course becomes the course.",
+            "es": "A course pasa a ser the course."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "this",
+          "refersTo": 1,
+          "note": {
+            "en": "It means living with a local family.",
+            "es": "Se refiere a vivir con una familia local."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "however",
+          "refersTo": 2,
+          "note": {
+            "en": "The teacher says the opposite of what worries her.",
+            "es": "El profesor dice lo contrario de lo que la preocupa."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "he",
+          "refersTo": 3,
+          "note": {
+            "en": "He = Mr Hughes.",
+            "es": "He = Mr Hughes."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "the course",
+          "refersTo": 1,
+          "note": {
+            "en": "It looks ahead to the end of the four weeks.",
+            "es": "Mira al final de las cuatro semanas."
+          }
+        }
+      ]
+    },
+    {
+      "id": "r2-education-02",
+      "examPart": "reading-2",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 3,
+      "title": "Studying smarter",
+      "sentences": [
+        "Many first-year students arrive at university convinced that long hours in the library are the key to good grades.",
+        "Research on learning, however, suggests that this belief is only partly true.",
+        "What matters more is how the time is spent, and in particular whether students test themselves rather than simply rereading their notes.",
+        "This habit, known as retrieval practice, helps people to remember information far longer than rereading does.",
+        "As a result, a number of universities now run short workshops in which new students are taught how to apply it.",
+        "The workshops are usually optional, so the students who would benefit most are not always the ones who attend."
+      ],
+      "explanation": {
+        "en": "'This belief' sums up the opening idea. 'The time' means the long hours, 'This habit' is testing yourself, 'As a result' and 'it' lead to the workshops, and 'The workshops' repeats 'workshops' (a general noun becomes a known one).",
+        "es": "'This belief' resume la idea inicial. 'The time' son las largas horas, 'This habit' es autoevaluarse, 'As a result' e 'it' llevan a los talleres y 'The workshops' retoma 'workshops'."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "this belief",
+          "refersTo": 0,
+          "note": {
+            "en": "It sums up the idea that long hours mean good grades.",
+            "es": "Resume la idea de que muchas horas dan buenas notas."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "the time",
+          "refersTo": 0,
+          "note": {
+            "en": "The hours spent in the library.",
+            "es": "Las horas pasadas en la biblioteca."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "This habit",
+          "refersTo": 2,
+          "note": {
+            "en": "Testing yourself.",
+            "es": "Autoevaluarse."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "As a result",
+          "refersTo": 3,
+          "note": {
+            "en": "Universities react to what research shows.",
+            "es": "Las universidades reaccionan a lo que muestra la investigación."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "it",
+          "refersTo": 3,
+          "note": {
+            "en": "It = retrieval practice.",
+            "es": "It = retrieval practice."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "The workshops",
+          "refersTo": 4,
+          "note": {
+            "en": "Workshops becomes the workshops.",
+            "es": "Workshops pasa a ser the workshops."
+          }
+        }
+      ]
+    }
+  ]
+}

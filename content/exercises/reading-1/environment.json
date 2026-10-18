@@ -1,0 +1,57 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-environment-01",
+      "examPart": "reading-1",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 3,
+      "context": "A newsletter from a residents' association about recycling",
+      "items": [
+        {
+          "prompt": "Thanks to your efforts, the amount of rubbish sent to landfill this year is ___ lower than it was five years ago.",
+          "options": ["very", "much", "more"],
+          "answer": 1,
+          "explanation": {
+            "en": "Much is used before a comparative to say that the difference is big. Very cannot modify a comparative.",
+            "es": "Antes de un comparativo se usa «much», no «very»."
+          }
+        },
+        {
+          "prompt": "Residents are reminded that glass goes in the green bin, ___ plastic goes in the blue one.",
+          "options": ["whereas", "despite", "unless"],
+          "answer": 0,
+          "explanation": {
+            "en": "Whereas contrasts two facts in the same sentence. Despite needs a noun or -ing form, and unless means if not."
+          }
+        },
+        {
+          "prompt": "If everyone ___ their rubbish more carefully, we would reduce waste even further.",
+          "options": ["sorts", "would sort", "sorted"],
+          "answer": 2,
+          "explanation": {
+            "en": "A second conditional with would in the main clause needs the past simple in the if-clause.",
+            "es": "Con «would» en la principal, la cláusula con «if» va en pasado simple."
+          }
+        },
+        {
+          "prompt": "Please do not leave bags next to the bins, ___ they attract foxes.",
+          "options": ["since", "so that", "even if"],
+          "answer": 0,
+          "explanation": {
+            "en": "Since gives a reason, here the reason for the request. So that gives a purpose and even if sets up a contrast."
+          }
+        },
+        {
+          "prompt": "Local shops will be fined if they fail ___ the new rules on plastic bags.",
+          "options": ["following", "to follow", "follow"],
+          "answer": 1,
+          "explanation": {
+            "en": "The verb fail is followed by to + infinitive."
+          }
+        }
+      ]
+    }
+  ]
+}

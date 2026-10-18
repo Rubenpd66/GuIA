@@ -1,0 +1,63 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r4-adult-learners-01",
+      "examPart": "reading-4",
+      "cefrLevel": "C1",
+      "topic": "education",
+      "difficulty": 4,
+      "title": "Never too late to learn a language",
+      "paragraphs": [
+        "Ask a group of adults why they never mastered a foreign language and many will answer that they started too late. The belief has a long history, and it seems sensible: children soak up the speech around them without effort, while grown-ups struggle to remember a single list of words. Yet the scientific evidence is more nuanced than the popular wisdom. In controlled studies, teenagers and adults often progress faster than young children during the first months of learning. What children genuinely enjoy is time, since they hear the language for many hours every day, not a superior brain. The idea of a fixed deadline for learning is largely a myth.",
+        "Mature students bring resources that no child possesses. They already know how language works, so concepts such as tenses, word order or politeness do not need to be discovered from scratch. They can read, take notes and use dictionaries, and they have a lifetime of general knowledge that helps them guess the meaning of unfamiliar words. Adults also choose to study for reasons of their own, whether a new job, a partner or a move abroad, and this motivation keeps them going when the novelty fades. A teacher of evening classes remarked that her pupils in their fifties usually did the homework more thoroughly than the teenagers.",
+        "There is one area in which later starters are usually at a disadvantage, and that is accent. People who begin after puberty rarely sound exactly like native speakers, however many years they spend in the country. Some learners find this deeply discouraging and give up altogether. Linguists, however, point out that the goal of passing for a native speaker is unrealistic and unnecessary. What matters in real conversation is being understood, and a speaker with a clear rhythm and a recognisable accent can be perfectly effective. Many of the most admired communicators in the world speak foreign languages with a noticeable accent, and nobody thinks less of them.",
+        "A far bigger obstacle, according to many teachers, is emotional. Small children make mistakes constantly and feel no shame, whereas adults have spent decades building a self-image as competent people. Speaking a new language means sounding clumsy, using the wrong word and being corrected by someone younger. This can provoke such anxiety that learners stay silent in class, which is the worst possible strategy. Good teachers create an atmosphere in which errors are treated as useful information rather than as failures, and they encourage students to laugh at their mistakes. Those who learn to tolerate looking foolish tend to progress far more quickly.",
+        "Busy adults often say that they simply do not have time. Research on memory suggests that this may be less of a barrier than they imagine. Learning is more effective when it is spread across many days than when it is crammed into one long session, because the brain consolidates information during the gaps between study. Twenty minutes on a daily commute, repeated regularly, will usually achieve more than a three-hour effort on Sunday afternoon. Teachers therefore recommend attaching study to an existing routine, such as breakfast or a train journey, so that it does not depend on finding a free evening that never comes.",
+        "Technology has made starting easier than ever. Language apps turn vocabulary practice into a game, reward consistency and fit comfortably into any pocket. They are excellent for building a basic stock of words and for revising on the move. Their weakness is that they rarely demand what really counts, which is spontaneous speech with another person who may not understand you the first time. Learners who rely only on apps often discover that they can recognise hundreds of words but freeze when somebody addresses them. The best results come from combining digital tools with regular conversation, whether in a class, an exchange group or online.",
+        "The advantages of learning in later life go beyond the language itself. Some studies suggest that using two languages regularly may delay the appearance of memory problems, although researchers still debate how strong this effect is. More certain are the social and personal benefits: friendships with people from other cultures, confidence at work and a sense of renewed curiosity. Many older learners describe the experience as rejuvenating, a proof that they are still capable of growing. Even if they never reach perfect fluency, they gain the pleasure of reading a novel, following a film or ordering a meal in someone else's language."
+      ],
+      "headings": [
+        "Sounding perfect is not the point",
+        "Little and often beats long and rare",
+        "Rewards that go beyond fluency",
+        "Challenging the belief that youth is essential",
+        "Why bilingual children do better at school",
+        "Apps help, but talking matters more",
+        "The embarrassment of making mistakes",
+        "What experience gives the mature student"
+      ],
+      "answers": [3, 7, 0, 6, 1, 5, 2],
+      "explanations": [
+        {
+          "en": "The paragraph questions the idea that adults start too late: 'The idea of a fixed deadline for learning is largely a myth.' 'What experience gives the mature student' is the next paragraph, about adult advantages.",
+          "es": "El párrafo cuestiona que los adultos empiecen tarde: 'The idea of a fixed deadline for learning is largely a myth'. 'What experience gives the mature student' es el párrafo siguiente, sobre las ventajas de los adultos."
+        },
+        {
+          "en": "Adults know how language works, can study and are motivated. The extra heading about bilingual children mentions the wrong age group and the wrong topic; paragraph 1 mentions children only for comparison.",
+          "es": "Los adultos saben cómo funciona una lengua, pueden estudiar y están motivados. El encabezado extra habla de niños bilingües, otro grupo y otro tema; el párrafo 1 solo menciona a los niños para comparar."
+        },
+        {
+          "en": "Accent is the one weak area, but being understood matters more than sounding native. 'The embarrassment of making mistakes' is about fear of errors, which comes next.",
+          "es": "El acento es el único punto débil, pero que te entiendan importa más que sonar nativo. 'The embarrassment of making mistakes' trata del miedo a equivocarse, que viene después."
+        },
+        {
+          "en": "Adults feel anxious about looking foolish and so stay silent. 'Sounding perfect is not the point' is about accent, not feelings in the classroom.",
+          "es": "Los adultos sienten ansiedad por hacer el ridículo y se callan. 'Sounding perfect is not the point' trata del acento, no de las emociones en clase."
+        },
+        {
+          "en": "Spaced, short sessions work better than one long one. 'Apps help, but talking matters more' is tempting because the commute might suggest a phone, but the paragraph does not discuss apps.",
+          "es": "Las sesiones cortas y espaciadas funcionan mejor que una larga. 'Apps help...' tienta porque el trayecto sugiere el móvil, pero el párrafo no habla de aplicaciones."
+        },
+        {
+          "en": "Apps are good for vocabulary but cannot replace speaking to people. 'Little and often beats long and rare' concerns timing of study, not tools.",
+          "es": "Las aplicaciones sirven para vocabulario pero no sustituyen hablar con personas. 'Little and often beats long and rare' trata de cómo repartir el estudio, no de las herramientas."
+        },
+        {
+          "en": "The benefits include memory, friendships and confidence, beyond speaking well. 'Challenging the belief that youth is essential' is about the myth discussed at the beginning.",
+          "es": "Los beneficios incluyen memoria, amistades y confianza, más allá de hablar bien. 'Challenging the belief that youth is essential' trata del mito del principio."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-travel-01",
+      "examPart": "reading-2",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "title": "A weekend by the sea",
+      "sentences": [
+        "Last August my sister and I took a train to a small coastal town that neither of us had visited before.",
+        "The journey took almost five hours, but we enjoyed it because the views from the window were spectacular.",
+        "When we arrived, we discovered that the hotel we had booked was on the other side of the town.",
+        "There were no taxis at the station, so we had to carry our heavy bags all the way there, up a long, steep hill.",
+        "By the time we reached the hotel, we were exhausted, but the owner welcomed us with cold drinks.",
+        "After a short rest, we went out to explore, and that evening we had the best seafood of our lives."
+      ],
+      "explanation": {
+        "en": "The story follows the trip in time: the journey, the arrival, the problem with the hotel, the walk (there = to the hotel), reaching it, and the evening. 'The journey' and 'the station' pick up 'a train'.",
+        "es": "La historia sigue el viaje en el tiempo: trayecto, llegada, problema con el hotel, caminata (there = al hotel), llegada y noche. 'The journey' y 'the station' retoman 'a train'."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "The journey",
+          "refersTo": 0,
+          "note": {
+            "en": "The train trip.",
+            "es": "El viaje en tren."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "When we arrived",
+          "refersTo": 1,
+          "note": {
+            "en": "After the journey ends.",
+            "es": "Cuando termina el trayecto."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "there",
+          "refersTo": 2,
+          "note": {
+            "en": "There = the hotel, on the other side of town.",
+            "es": "There = el hotel, al otro lado de la ciudad."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "By the time we reached the hotel",
+          "refersTo": 3,
+          "note": {
+            "en": "After the long walk uphill.",
+            "es": "Después de la larga subida."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "After a short rest",
+          "refersTo": 4,
+          "note": {
+            "en": "They were exhausted, so they rested.",
+            "es": "Estaban agotados, así que descansaron."
+          }
+        }
+      ]
+    }
+  ]
+}

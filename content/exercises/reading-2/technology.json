@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-technology-01",
+      "examPart": "reading-2",
+      "cefrLevel": "B2",
+      "topic": "technology",
+      "difficulty": 3,
+      "title": "A watch that talks back",
+      "sentences": [
+        "When Daniel bought his first smartwatch, he assumed it would simply tell him the time and count his steps.",
+        "Within a week, however, the device had started to send him reminders to stand up, breathe and drink water.",
+        "At first he found these messages helpful, and he even felt a little proud when he reached his daily targets.",
+        "Gradually, though, the constant alerts began to feel like pressure rather than support.",
+        "Eventually he turned most of the notifications off, keeping only the one that wakes him in the morning.",
+        "Looking back, he admits that the watch taught him more about his own habits than any of its numbers did."
+      ],
+      "explanation": {
+        "en": "'The device' replaces 'smartwatch', 'these messages' are the reminders, and 'the constant alerts' and 'the notifications' keep naming them. 'At first', 'Gradually' and 'Eventually' give the time sequence.",
+        "es": "'The device' sustituye a 'smartwatch', 'these messages' son los recordatorios y 'the constant alerts' y 'the notifications' siguen nombrándolos. 'At first', 'Gradually' y 'Eventually' marcan la secuencia."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "the device",
+          "refersTo": 0,
+          "note": {
+            "en": "A synonym for the smartwatch.",
+            "es": "Sinónimo de smartwatch."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "these messages",
+          "refersTo": 1,
+          "note": {
+            "en": "The reminders.",
+            "es": "Los recordatorios."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "the constant alerts",
+          "refersTo": 2,
+          "note": {
+            "en": "Another word for the messages; 'though' contrasts with 'At first'.",
+            "es": "Otra palabra para los mensajes; 'though' contrasta con 'At first'."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "the notifications",
+          "refersTo": 3,
+          "note": {
+            "en": "The same alerts again.",
+            "es": "Otra vez las mismas alertas."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "the watch",
+          "refersTo": 0,
+          "note": {
+            "en": "Back to the watch from the start.",
+            "es": "Vuelve al reloj del principio."
+          }
+        }
+      ]
+    },
+    {
+      "id": "r2-technology-02",
+      "examPart": "reading-2",
+      "cefrLevel": "C1",
+      "topic": "technology",
+      "difficulty": 5,
+      "title": "Machines in medicine",
+      "sentences": [
+        "The promise of artificial intelligence in medicine rests on a simple premise: that patterns invisible to a human eye may be obvious to a machine trained on millions of scans.",
+        "In certain narrow tasks, such as spotting early signs of disease in an image, that premise has been borne out.",
+        "Yet success of this kind tends to obscure a more troubling question, namely what happens when the system is wrong.",
+        "A human specialist who misses a diagnosis can usually explain the reasoning behind the error; an algorithm, by contrast, often cannot.",
+        "This opacity makes it difficult for doctors to know when to trust a recommendation and when to override it.",
+        "Until that difficulty is resolved, many hospitals are likely to treat such tools as assistants rather than as decision-makers."
+      ],
+      "explanation": {
+        "en": "'That premise' repeats the opening idea, 'success of this kind' refers to the borne-out premise, 'by contrast' sets the algorithm against the specialist, 'This opacity' names the algorithm's silence and 'that difficulty' names the doctors' problem.",
+        "es": "'That premise' retoma la idea inicial, 'success of this kind' remite a la premisa confirmada, 'by contrast' opone el algoritmo al especialista, 'This opacity' nombra su falta de explicación y 'that difficulty' el problema de los médicos."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "that premise",
+          "refersTo": 0,
+          "note": {
+            "en": "The idea that machines can see hidden patterns.",
+            "es": "La idea de que las máquinas ven patrones ocultos."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "success of this kind",
+          "refersTo": 1,
+          "note": {
+            "en": "The premise being borne out.",
+            "es": "La premisa que se confirma."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "by contrast",
+          "refersTo": 2,
+          "note": {
+            "en": "The algorithm is compared with the human specialist.",
+            "es": "Se compara el algoritmo con el especialista humano."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "This opacity",
+          "refersTo": 3,
+          "note": {
+            "en": "The algorithm's inability to explain itself.",
+            "es": "Que el algoritmo no pueda explicarse."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "that difficulty",
+          "refersTo": 4,
+          "note": {
+            "en": "Doctors not knowing when to trust the tool.",
+            "es": "Los médicos no saben cuándo fiarse de la herramienta."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -21,13 +21,8 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 - Open: egu units 35 (probably "would", could go on `used-to-and-get-used-to`) and 41 (unassigned), and evu references for the vocabulary groups (the user chose none for now; evu coverage 2/101). Ask the user before adding references.
 - Phase 3 (Reading) is in progress. The plan is approved: `docs/superpowers/plans/2026-10-18-phase-3-reading.md`.
   - Tasks 1–4 are done and committed: `src/lib/trainer/reading.ts`, `SortableList`, `HighlightableText` (+ `useHighlights`), and `ReadingTrainer` with `Reading1–4Task` wired into `/practice/[part]` (smoke-tested at 375 px in study mode for all four parts; the full Task 7 browser pass is still due).
-  - **Resume at Task 5 review** (content below), then Task 6 (`/reading` strategies page).
-  - The Task 5 content is drafted and validates, but is NOT committed or reviewed: `content/exercises/reading-{1,2,3,4}/`, with 12/16/8/6 tasks. Review it key by key before committing.
-  - Items the agents flagged for review:
-    - r2: the order may not be unique in `environment-01` and `education-01`. In the B1 stories (`work-01`, `health-sport-01`, `travel-01`, `relationships-01`) the order rests on time sequence.
-    - r1: `media-01` item 4, `work-02` items 4–5, `travel-01` item 3.
-    - r3: possible second person in `technology-teen-social-media` (age limits), `environment-air-travel-tax` (two statements), `work-four-day-week` (errors; two stiff statements), `media-paywalls` (the statement says "she", a gender clue), `shopping-consumption` (short-term use).
-    - r4: two headings could fit in `rewilding` p4, `old-phones` p6, `adult-learners` p1/p2 and `local-news` p5/p7.
+  - Task 5 is done: 12/16/8/6 tasks in `content/exercises/reading-{1,2,3,4}/`, reviewed key by key and committed.
+  - **Resume at Task 6:** the `/reading` page with format and strategies, then Task 7 (full browser pass and close).
 - Phases 3–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands

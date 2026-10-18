@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-health-sport-01",
+      "examPart": "reading-2",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "title": "Learning to run",
+      "sentences": [
+        "Tom had never been keen on exercise, but last January he decided to try running.",
+        "He bought a pair of cheap trainers and went out the next morning, determined to run for half an hour.",
+        "Unfortunately, he could only manage five minutes before he had to stop and walk.",
+        "Instead of giving up, he made a new plan: he would alternate one minute of running with two minutes of walking.",
+        "The plan worked better than he expected, and after a month he could run for twenty minutes without a break.",
+        "Now he runs three times a week and has even entered a ten-kilometre race for charity."
+      ],
+      "explanation": {
+        "en": "The events follow in time. 'Unfortunately' answers his hope of half an hour, 'a new plan' becomes 'The plan', and 'Now' closes the story in the present.",
+        "es": "Los hechos siguen un orden temporal. 'Unfortunately' contesta a su deseo de media hora, 'a new plan' pasa a 'The plan' y 'Now' cierra la historia en el presente."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "the next morning",
+          "refersTo": 0,
+          "note": {
+            "en": "The morning after he decided.",
+            "es": "La mañana siguiente a decidirlo."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "Unfortunately",
+          "refersTo": 1,
+          "note": {
+            "en": "It contrasts with his plan to run for half an hour.",
+            "es": "Contrasta con su plan de correr media hora."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "Instead of giving up",
+          "refersTo": 2,
+          "note": {
+            "en": "He could have given up after stopping.",
+            "es": "Podría haberse rendido tras parar."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "The plan",
+          "refersTo": 3,
+          "note": {
+            "en": "A new plan becomes the plan.",
+            "es": "A new plan pasa a ser the plan."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "Now",
+          "refersTo": 4,
+          "note": {
+            "en": "The present result, after a month.",
+            "es": "El resultado actual, tras un mes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "r2-health-sport-02",
+      "examPart": "reading-2",
+      "cefrLevel": "C1",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "title": "The false economy of sleep",
+      "sentences": [
+        "Sleep is often treated as a luxury that can be traded away when a deadline approaches, yet a considerable body of research suggests that this is a false economy.",
+        "Even a modest shortfall, repeated over several nights, impairs judgement in ways that the affected person rarely notices.",
+        "This lack of awareness is precisely what makes the habit so persistent, because people feel they are coping when their performance has in fact declined.",
+        "Experiments in which volunteers were tested after restricted sleep illustrate the point: they consistently rated themselves as alert while making far more errors.",
+        "Such findings have prompted some employers to discourage late-night emails and to treat rest as part of the job rather than a reward for finishing it.",
+        "Whether workers will welcome the change, or quietly resent being told when to switch off, is another matter."
+      ],
+      "explanation": {
+        "en": "'A modest shortfall' is a lack of sleep, 'This lack of awareness' picks up 'rarely notices', 'the point' is that people misjudge themselves, 'Such findings' sums up the experiments, and 'the change' is the new employer policy.",
+        "es": "'A modest shortfall' es la falta de sueño, 'This lack of awareness' retoma 'rarely notices', 'the point' es que se juzgan mal, 'Such findings' resume los experimentos y 'the change' es la nueva política de las empresas."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "a modest shortfall",
+          "refersTo": 0,
+          "note": {
+            "en": "A small lack of sleep.",
+            "es": "Una pequeña falta de sueño."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "This lack of awareness",
+          "refersTo": 1,
+          "note": {
+            "en": "It restates 'rarely notices'.",
+            "es": "Reformula 'rarely notices'."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "the point",
+          "refersTo": 2,
+          "note": {
+            "en": "People feel they are coping when they are not.",
+            "es": "La gente cree que lo lleva bien y no es así."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "Such findings",
+          "refersTo": 3,
+          "note": {
+            "en": "The results of the experiments.",
+            "es": "Los resultados de los experimentos."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "the change",
+          "refersTo": 4,
+          "note": {
+            "en": "Employers treating rest as part of the job.",
+            "es": "Las empresas que tratan el descanso como parte del trabajo."
+          }
+        }
+      ]
+    }
+  ]
+}

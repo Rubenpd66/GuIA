@@ -1,0 +1,89 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r3-environment-air-travel-tax-01",
+      "examPart": "reading-3",
+      "cefrLevel": "C1",
+      "topic": "environment",
+      "difficulty": 4,
+      "question": "Should governments tax air travel more heavily?",
+      "people": [
+        {
+          "name": "Gareth",
+          "text": "I run a guesthouse on a small island where the plane is how the doctor, the post and half of our supplies arrive. When people talk about heavier taxes on flying, they picture holidaymakers jetting off to Spain, not communities like mine. A blanket levy would raise our costs overnight and probably push young people to the mainland. I accept the climate argument, truly. But any new charge must exempt places with no realistic alternative, otherwise we are paying for other people's emissions."
+        },
+        {
+          "name": "Léa",
+          "text": "The statistics are striking: a small minority of travellers account for most of the flights taken each year. A flat tax on every ticket therefore hits the occasional holidaymaker hardest while barely troubling those who fly monthly. I would favour a charge that rises with each additional journey. I'm less persuaded by carbon offsetting schemes, which too often let people feel virtuous without any measurable effect on the atmosphere. If we want emissions to fall, the price has to bite where the habit is heaviest."
+        },
+        {
+          "name": "Camila",
+          "text": "Where I live, in the Peruvian highlands, nearly every job depends on visitors who arrive by plane. If tickets become much dearer, fewer will come, and the loss will fall on families who contributed almost nothing to the problem. I understand why wealthier countries want to act, and I wouldn't deny that air travel pollutes. My suggestion is that part of the revenue be sent back to destinations like ours, to fund conservation and cleaner transport, so that we gain something from the policy instead of simply absorbing its costs."
+        },
+        {
+          "name": "Margaret",
+          "text": "For years I thought such taxes were pointless, since people who want to fly will pay whatever it costs. A few journeys by sleeper train have made me reconsider; the difficulty is that the train is often twice the price of the plane and takes forever to book. Raising air fares without first making rail competitive simply punishes travellers. So I would reverse the order: improve and subsidise the alternatives, then tax flying. Once a better option exists, I suspect behaviour will change without much persuasion."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Residents of isolated areas should not be charged for journeys they cannot avoid.",
+          "answer": 0,
+          "explanation": {
+            "en": "Gareth says any new charge must exempt places with no realistic alternative to flying.",
+            "es": "Gareth dice que cualquier nuevo gravamen debe eximir a los lugares sin una alternativa realista al avión."
+          }
+        },
+        {
+          "text": "Passengers who travel often should pay progressively more.",
+          "answer": 1,
+          "explanation": {
+            "en": "Léa favours a charge that rises with each additional journey, because a flat tax barely troubles frequent flyers.",
+            "es": "Léa prefiere un cargo que suba con cada viaje adicional, porque un impuesto fijo apenas molesta a quien vuela mucho."
+          }
+        },
+        {
+          "text": "Money raised by the policy should benefit the places that receive tourists.",
+          "answer": 2,
+          "explanation": {
+            "en": "Camila suggests sending part of the revenue back to destinations like hers for conservation and cleaner transport.",
+            "es": "Camila propone devolver parte de lo recaudado a destinos como el suyo para conservación y transporte más limpio."
+          }
+        },
+        {
+          "text": "The speaker has revised an earlier belief that financial measures are useless.",
+          "answer": 3,
+          "explanation": {
+            "en": "Margaret says she thought such taxes were pointless for years, but train journeys made her reconsider.",
+            "es": "Margaret dice que durante años pensó que esos impuestos no servían de nada, pero viajar en tren la hizo replantearse."
+          }
+        },
+        {
+          "text": "Schemes that compensate for pollution may give a false sense of achievement.",
+          "answer": 1,
+          "explanation": {
+            "en": "Léa says carbon offsetting lets people feel virtuous without any measurable effect on the atmosphere.",
+            "es": "Léa dice que la compensación de carbono deja que la gente se sienta virtuosa sin ningún efecto medible en la atmósfera."
+          }
+        },
+        {
+          "text": "Better and cheaper rail services should come before higher air fares.",
+          "answer": 3,
+          "explanation": {
+            "en": "Margaret would reverse the order: improve and subsidise the alternatives, then tax flying.",
+            "es": "Margaret invertiría el orden: mejorar y subvencionar las alternativas y luego gravar el avión."
+          }
+        },
+        {
+          "text": "People in poorer parts of the world could end up paying for decisions taken by wealthier nations.",
+          "answer": 2,
+          "explanation": {
+            "en": "Camila understands why wealthier countries want to act, but says the loss of visitors would fall on families in places like the Peruvian highlands, who contributed almost nothing to the problem.",
+            "es": "Camila entiende que los países ricos quieran actuar, pero dice que la pérdida de visitantes recaería en familias de lugares como los Andes peruanos, que casi no contribuyeron al problema."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r3-health-sport-01",
+      "examPart": "reading-3",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "question": "Should schools make sport compulsory for all students?",
+      "people": [
+        {
+          "name": "Mei",
+          "text": "I dreaded PE lessons. Being picked last for netball at fourteen made me avoid anything sporty until my thirties, when a friend took me climbing and I loved it. So I'm wary of compulsion. That said, I wouldn't scrap it entirely. Children should have to try some kind of movement; they just need a real menu, including dance, swimming or walking clubs, so that nobody's first impression of exercise is being laughed at in front of the whole class. Enjoyment is what keeps people active for life."
+        },
+        {
+          "name": "Omar",
+          "text": "After twenty years of teaching PE, I know that for many pupils our lessons are the only exercise they get all week. Their families can't afford clubs, and the streets nearby aren't safe. For that reason I would keep sport compulsory. What I would change is the marking. Giving grades for how fast a child can run rewards those who were born athletic and teaches everyone else to feel hopeless. Effort and attendance are what we should record. Children respond to encouragement."
+        },
+        {
+          "name": "Beatriz",
+          "text": "My daughter is seventeen and sits her final exams in May. Between revision and a part-time job she has hardly any free time, yet her school still insists on two sports sessions a week. At her age, I think that's excessive. When she was nine, I felt differently: young children need to run around, and it helps them concentrate in class. Older students, in my view, should be trusted to decide for themselves how to spend their hours. Choice teaches responsibility."
+        },
+        {
+          "name": "Jack",
+          "text": "I coach a youth football team, and I'm convinced that competitive sport builds resilience. Losing a match and then turning up to training the next week is a lesson no textbook gives. I used to think everybody should be made to compete, but some of my players are miserable on the pitch, and their parents have convinced me otherwise. Now I say: require fitness, not competition. Schools can leave the trophies to teams that people join voluntarily. Fitness itself benefits everybody."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Pupils from low-income areas may have no other way to be active.",
+          "answer": 1,
+          "explanation": {
+            "en": "Omar says lessons are the only exercise many pupils get, because their families can't afford clubs and the streets aren't safe.",
+            "es": "Omar dice que las clases son el único ejercicio de muchos alumnos, porque sus familias no pueden pagar clubes y las calles no son seguras."
+          }
+        },
+        {
+          "text": "An unpleasant experience at school kept the speaker away from physical activity for years.",
+          "answer": 0,
+          "explanation": {
+            "en": "Mei was picked last for netball at fourteen and avoided anything sporty until her thirties.",
+            "es": "A Mei la eligieron la última en netball a los catorce años y evitó el deporte hasta los treinta."
+          }
+        },
+        {
+          "text": "Compulsory activity becomes less suitable as teenagers face more academic pressure.",
+          "answer": 2,
+          "explanation": {
+            "en": "Beatriz says two sessions a week are excessive for her daughter, who has final exams and little free time.",
+            "es": "Beatriz dice que dos sesiones semanales son excesivas para su hija, que tiene exámenes finales y poco tiempo libre."
+          }
+        },
+        {
+          "text": "Facing defeat teaches something that cannot be learnt from books.",
+          "answer": 3,
+          "explanation": {
+            "en": "Jack says losing a match and returning to training is a lesson no textbook gives.",
+            "es": "Jack dice que perder un partido y volver a entrenar es una lección que ningún libro de texto da."
+          }
+        },
+        {
+          "text": "Assessment should reward commitment rather than natural talent.",
+          "answer": 1,
+          "explanation": {
+            "en": "Omar criticises grades for running speed and says effort and attendance should be recorded.",
+            "es": "Omar critica las notas por la velocidad al correr y dice que se debe registrar el esfuerzo y la asistencia."
+          }
+        },
+        {
+          "text": "Physical activity can improve young children's attention.",
+          "answer": 2,
+          "explanation": {
+            "en": "Beatriz says young children need to run around and that it helps them concentrate in class.",
+            "es": "Beatriz dice que los niños pequeños necesitan correr y que les ayuda a concentrarse en clase."
+          }
+        },
+        {
+          "text": "Pupils should be offered a wide range of activities, not just a few traditional ones.",
+          "answer": 0,
+          "explanation": {
+            "en": "Mei asks for a real menu, including dance, swimming or walking clubs.",
+            "es": "Mei pide un verdadero menú de opciones, con baile, natación o clubes de paseo."
+          }
+        }
+      ]
+    }
+  ]
+}

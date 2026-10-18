@@ -1,0 +1,89 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r3-education-university-fees-01",
+      "examPart": "reading-3",
+      "cefrLevel": "C1",
+      "topic": "education",
+      "difficulty": 5,
+      "question": "Should university education be free for everyone?",
+      "people": [
+        {
+          "name": "Adaeze",
+          "text": "Having taught at a university for fifteen years, I have watched talented students from poorer backgrounds turn down places because they fear debt. That alone makes me sympathetic to free tuition. My hesitation is practical: if fees disappear, the money must come from somewhere, and in my experience promises of funding are the first thing to be cut. Larger lectures, fewer tutorials and a rushed marking load would harm the very students we wanted to help. Free access is admirable only if quality is guaranteed."
+        },
+        {
+          "name": "Lucas",
+          "text": "I graduated owing forty thousand pounds, and that figure quietly steered every decision afterwards. I wanted to teach, but I took a better-paid job in finance because the repayments would not wait. Looking back, I find it hard to call that real freedom of choice, so I lean towards abolishing fees. I should add that I once believed a degree always paid for itself. I no longer do, and that strengthens the case for removing the financial gamble from young people altogether."
+        },
+        {
+          "name": "Fiona",
+          "text": "I'm a self-employed plumber, and I earn a good living without a degree. It irritates me when people say tuition should be paid for by everyone. Graduates, on average, earn more over their lifetimes, so why should I subsidise them through my taxes? If the state has money to spend, it should back apprenticeships and technical training, which are often neglected. I'm not against higher education; my niece is studying medicine, and I'm proud of her. I just object to it being treated as the only respectable route."
+        },
+        {
+          "name": "Kenji",
+          "text": "I studied in a country where universities charge nothing, and I was grateful, but the downsides were visible. Lecture halls were overcrowded and many students drifted for years without commitment, because there was no cost to delaying. A modest contribution, repaid only once graduates reach a decent salary, seems to me to balance access and seriousness. Nobody would be put off by upfront costs, yet people would think carefully about what they study. That, I feel, is more sustainable than either extreme."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Pledges of financial support for universities tend not to last.",
+          "answer": 0,
+          "explanation": {
+            "en": "Adaeze says that in her experience promises of funding are the first thing to be cut.",
+            "es": "Adaeze dice que, según su experiencia, las promesas de financiación son lo primero que se recorta."
+          }
+        },
+        {
+          "text": "Obligations to repay money influenced the speaker's choice of profession.",
+          "answer": 1,
+          "explanation": {
+            "en": "Lucas wanted to teach but took a better-paid job in finance because the repayments would not wait.",
+            "es": "Lucas quería ser profesor pero aceptó un trabajo mejor pagado en finanzas porque las cuotas no esperaban."
+          }
+        },
+        {
+          "text": "Practical, job-focused routes deserve as much support as academic ones.",
+          "answer": 2,
+          "explanation": {
+            "en": "Fiona says the state should back apprenticeships and technical training, often neglected.",
+            "es": "Fiona dice que el Estado debería apoyar los aprendizajes y la formación técnica, a menudo descuidados."
+          }
+        },
+        {
+          "text": "The absence of any cost may make students less committed to their studies.",
+          "answer": 3,
+          "explanation": {
+            "en": "Kenji saw students drift for years without commitment because there was no cost to delaying.",
+            "es": "Kenji vio a estudiantes que iban a la deriva durante años sin compromiso porque retrasarse no costaba nada."
+          }
+        },
+        {
+          "text": "Fear of owing money discourages gifted young people from enrolling.",
+          "answer": 0,
+          "explanation": {
+            "en": "Adaeze has watched talented students from poorer backgrounds turn down places because they fear debt.",
+            "es": "Adaeze ha visto a estudiantes con talento y menos recursos rechazar plaza por miedo a endeudarse."
+          }
+        },
+        {
+          "text": "The speaker no longer trusts that a qualification guarantees a financial return.",
+          "answer": 1,
+          "explanation": {
+            "en": "Lucas says he once believed a degree always paid for itself, but no longer does.",
+            "es": "Lucas dice que antes creía que un título siempre se amortizaba, pero ya no."
+          }
+        },
+        {
+          "text": "Graduates should repay their costs only when their pay reaches a reasonable level.",
+          "answer": 3,
+          "explanation": {
+            "en": "Kenji proposes a modest contribution, repaid only once graduates reach a decent salary.",
+            "es": "Kenji propone una contribución módica que se devuelva solo cuando los graduados alcancen un buen sueldo."
+          }
+        }
+      ]
+    }
+  ]
+}

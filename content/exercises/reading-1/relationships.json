@@ -1,0 +1,58 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-relationships-01",
+      "examPart": "reading-1",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 3,
+      "context": "An email to an old friend",
+      "items": [
+        {
+          "prompt": "I'm so sorry I haven't been in touch ___ ages.",
+          "options": ["since", "during", "for"],
+          "answer": 2,
+          "explanation": {
+            "en": "For is used with a length of time (for ages). Since needs a starting point and during is not used with the present perfect in this way.",
+            "es": "«Hace siglos» es «for ages», no «since ages»."
+          }
+        },
+        {
+          "prompt": "It would be lovely to ___ up over a coffee soon.",
+          "options": ["pick", "catch", "take"],
+          "answer": 1,
+          "explanation": {
+            "en": "Catch up means to talk and share news with someone you have not seen for a while."
+          }
+        },
+        {
+          "prompt": "My sister, ___ you met at my graduation, is getting married in June.",
+          "options": ["whom", "which", "whose"],
+          "answer": 0,
+          "explanation": {
+            "en": "Whom is the object of met and refers to a person. Which is for things and whose shows possession."
+          }
+        },
+        {
+          "prompt": "She and Tom have always ___ really well, so nobody was surprised by the news.",
+          "options": ["got by", "got on", "got off"],
+          "answer": 1,
+          "explanation": {
+            "en": "Get on well with someone means to have a good relationship. Get by means to manage, and get off means to leave a vehicle.",
+            "es": "«Llevarse bien» es «get on (well)»."
+          }
+        },
+        {
+          "prompt": "I would be devastated if you ___ the wedding.",
+          "options": ["missed", "lost", "failed"],
+          "answer": 0,
+          "explanation": {
+            "en": "To miss an event is to not be there. Lost and failed do not take an event as an object in this sense.",
+            "es": "«Perderse un evento» es «miss», no «lose»."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-culture-leisure-01",
+      "examPart": "reading-2",
+      "cefrLevel": "C1",
+      "topic": "culture-leisure",
+      "difficulty": 4,
+      "title": "Are we really reading less?",
+      "sentences": [
+        "Reading for pleasure is frequently described as being in decline, yet the evidence for such a claim is more ambiguous than it first appears.",
+        "Surveys do show that fewer adults finish a printed novel in a given month than a generation ago.",
+        "What these surveys tend to omit, however, is the time now spent on long-form journalism, audiobooks and serialised stories read on screens.",
+        "Such habits are harder to count, because they do not fit the category of 'a book' that most questionnaires were designed to measure.",
+        "The apparent decline may therefore reflect a change in the instrument rather than in the readers.",
+        "If so, the more pressing concern is not whether people read, but whether they still read anything that demands sustained attention."
+      ],
+      "explanation": {
+        "en": "'Surveys do show' concedes part of the claim, 'these surveys' picks them up, 'Such habits' are the omitted activities, 'the instrument' means the questionnaires, and 'If so' assumes the previous conclusion.",
+        "es": "'Surveys do show' concede parte de la afirmación, 'these surveys' las retoma, 'Such habits' son las actividades omitidas, 'the instrument' son los cuestionarios y 'If so' da por buena la conclusión anterior."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "Surveys do show",
+          "refersTo": 0,
+          "note": {
+            "en": "It concedes part of the 'claim' of decline.",
+            "es": "Concede parte de la afirmación del declive."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "these surveys",
+          "refersTo": 1,
+          "note": {
+            "en": "Surveys becomes these surveys.",
+            "es": "Surveys pasa a these surveys."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "Such habits",
+          "refersTo": 2,
+          "note": {
+            "en": "Long-form journalism, audiobooks and serials.",
+            "es": "Periodismo largo, audiolibros y seriales."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "the instrument",
+          "refersTo": 3,
+          "note": {
+            "en": "The questionnaires that measure reading.",
+            "es": "Los cuestionarios que miden la lectura."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "If so",
+          "refersTo": 4,
+          "note": {
+            "en": "It assumes the decline is partly a measuring problem.",
+            "es": "Supone que el declive es en parte un problema de medición."
+          }
+        }
+      ]
+    }
+  ]
+}

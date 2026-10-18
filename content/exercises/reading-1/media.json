@@ -1,0 +1,56 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-media-01",
+      "examPart": "reading-1",
+      "cefrLevel": "C1",
+      "topic": "media",
+      "difficulty": 4,
+      "context": "A letter to the editor of a newspaper",
+      "items": [
+        {
+          "prompt": "Your front-page headline was a ___ attempt to boost sales, suggesting that the candidate had lied when she had merely made an error.",
+          "options": ["sensible", "sensationalist", "sensitive"],
+          "answer": 1,
+          "explanation": {
+            "en": "Sensationalist describes media that exaggerate to attract attention. Sensible means practical and sensitive means easily upset or aware of feelings.",
+            "es": "«Sensato» es «sensible»; «sensible» (delicado) es «sensitive»; «sensacionalista» es «sensationalist»."
+          }
+        },
+        {
+          "prompt": "Not only ___ the facts, but you also failed to give her a chance to reply.",
+          "options": ["you distorted", "you did distort", "did you distort"],
+          "answer": 2,
+          "explanation": {
+            "en": "After not only at the start of a sentence, the auxiliary comes before the subject: did you distort."
+          }
+        },
+        {
+          "prompt": "A free press has a duty to hold politicians to ___ without resorting to personal attacks.",
+          "options": ["account", "blame", "answer"],
+          "answer": 0,
+          "explanation": {
+            "en": "The collocation is hold someone to account, meaning to make them explain their actions."
+          }
+        },
+        {
+          "prompt": "Had the paper checked its sources, it ___ been forced to print a correction.",
+          "options": ["had not", "would not have", "would not"],
+          "answer": 1,
+          "explanation": {
+            "en": "This is an inverted third conditional (had + subject replaces if), so the main clause needs would have + past participle."
+          }
+        },
+        {
+          "prompt": "I trust that you will publish a retraction ___ the earliest opportunity.",
+          "options": ["by", "on", "at"],
+          "answer": 2,
+          "explanation": {
+            "en": "The fixed phrase is at the earliest opportunity."
+          }
+        }
+      ]
+    }
+  ]
+}

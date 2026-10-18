@@ -1,0 +1,57 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-technology-01",
+      "examPart": "reading-1",
+      "cefrLevel": "B2",
+      "topic": "technology",
+      "difficulty": 3,
+      "context": "An email from the IT department to all staff",
+      "items": [
+        {
+          "prompt": "The new security system has been up and running ___ the beginning of the month.",
+          "options": ["for", "since", "from"],
+          "answer": 1,
+          "explanation": {
+            "en": "Since is used with a starting point in time. For is used with a length of time, such as for three weeks.",
+            "es": "«Desde» + punto de inicio es «since»; «for» va con duración."
+          }
+        },
+        {
+          "prompt": "As a result, all staff are ___ to change their passwords by Friday.",
+          "options": ["demanded", "insisted", "required"],
+          "answer": 2,
+          "explanation": {
+            "en": "The passive be required to + infinitive is correct. Demanded and insisted cannot be followed by this structure."
+          }
+        },
+        {
+          "prompt": "Passwords must be at least twelve characters long; ___, the system will reject them.",
+          "options": ["otherwise", "moreover", "therefore"],
+          "answer": 0,
+          "explanation": {
+            "en": "Otherwise means if you do not do that. Moreover adds information and therefore gives a result."
+          }
+        },
+        {
+          "prompt": "Employees are not allowed ___ unapproved apps on company devices.",
+          "options": ["install", "installing", "to install"],
+          "answer": 2,
+          "explanation": {
+            "en": "Be allowed is followed by to + infinitive."
+          }
+        },
+        {
+          "prompt": "If you ___ your laptop on public transport, report it to us immediately.",
+          "options": ["lose", "will lose", "would lose"],
+          "answer": 0,
+          "explanation": {
+            "en": "With an imperative in the main clause the if-clause takes the present simple.",
+            "es": "Tras «if» no se usa «will» ni «would»: presente simple."
+          }
+        }
+      ]
+    }
+  ]
+}

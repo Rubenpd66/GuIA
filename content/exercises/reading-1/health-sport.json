@@ -1,0 +1,57 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-health-sport-01",
+      "examPart": "reading-1",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "context": "A notice at a gym",
+      "items": [
+        {
+          "prompt": "Members are kindly asked to wipe down all equipment ___ use.",
+          "options": ["after", "afterwards", "later"],
+          "answer": 0,
+          "explanation": {
+            "en": "After is a preposition and takes a noun (after use). Afterwards and later are adverbs and stand alone."
+          }
+        },
+        {
+          "prompt": "If you have an injury, please speak to a trainer before ___ any of the weights.",
+          "options": ["to use", "using", "use"],
+          "answer": 1,
+          "explanation": {
+            "en": "After a preposition such as before we use the -ing form.",
+            "es": "Tras una preposición («before») se usa -ing, no el infinitivo."
+          }
+        },
+        {
+          "prompt": "You are not ___ to bring guests into the changing rooms.",
+          "options": ["allowed", "let", "made"],
+          "answer": 0,
+          "explanation": {
+            "en": "Be allowed to means to have permission. Let is not used in the passive, and made to means forced to."
+          }
+        },
+        {
+          "prompt": "To book a class, simply ___ up at reception or on our app.",
+          "options": ["put", "take", "sign"],
+          "answer": 2,
+          "explanation": {
+            "en": "Sign up means to register for something."
+          }
+        },
+        {
+          "prompt": "The pool will be closed for maintenance next week, ___ means that the sauna will also be unavailable.",
+          "options": ["that", "what", "which"],
+          "answer": 2,
+          "explanation": {
+            "en": "Which refers back to the whole previous clause. After a comma we cannot use that, and what does not introduce a relative clause.",
+            "es": "Después de coma se usa «which», nunca «that»."
+          }
+        }
+      ]
+    }
+  ]
+}

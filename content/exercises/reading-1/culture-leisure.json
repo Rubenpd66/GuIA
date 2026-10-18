@@ -1,0 +1,56 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-culture-leisure-01",
+      "examPart": "reading-1",
+      "cefrLevel": "C1",
+      "topic": "culture-leisure",
+      "difficulty": 4,
+      "context": "A theatre review published on a website",
+      "items": [
+        {
+          "prompt": "The play, set in 1930s Vienna, ___ the audience from the very first scene.",
+          "options": ["catches", "grips", "holds up"],
+          "answer": 1,
+          "explanation": {
+            "en": "Grip means to hold someone's attention completely. Holds up means to delay, and catches does not fit with an audience."
+          }
+        },
+        {
+          "prompt": "The lead actor, ___ performance has already won several awards, is superb as the old king.",
+          "options": ["whose", "which", "of whom"],
+          "answer": 0,
+          "explanation": {
+            "en": "Whose shows possession: the actor's performance. Which is for things, and of whom cannot stand before a noun in this way."
+          }
+        },
+        {
+          "prompt": "By the time the curtain came down, most of the audience ___ to their feet.",
+          "options": ["had leapt", "has leapt", "leap"],
+          "answer": 0,
+          "explanation": {
+            "en": "By the time + past simple needs the past perfect for the action completed before it: had leapt. Has leapt is present perfect, which cannot follow a past time clause, and leap is present simple."
+          }
+        },
+        {
+          "prompt": "It is a production that is well ___ seeing, whatever your usual taste in theatre.",
+          "options": ["worthwhile", "worthy", "worth"],
+          "answer": 2,
+          "explanation": {
+            "en": "Worth is followed directly by an -ing form: worth seeing. Worthwhile and worthy cannot be used this way.",
+            "es": "«Vale la pena verla» es «worth seeing», sin «of» ni «to»."
+          }
+        },
+        {
+          "prompt": "I would strongly advise anyone with an interest in modern drama ___ a seat early.",
+          "options": ["booking", "to book", "book"],
+          "answer": 1,
+          "explanation": {
+            "en": "Advise + person + to + infinitive is the correct pattern. Advise booking would need no person before it."
+          }
+        }
+      ]
+    }
+  ]
+}

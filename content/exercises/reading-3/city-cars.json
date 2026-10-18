@@ -1,0 +1,89 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r3-city-cars-01",
+      "examPart": "reading-3",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 3,
+      "question": "Should cars be banned from city centres?",
+      "people": [
+        {
+          "name": "Priya",
+          "text": "I was sure a ban would ruin my bakery, because many of my customers drive in from the suburbs. Then our high street was closed to traffic for a trial month, and my takings actually rose: people lingered, sat outside and bought more than before. I'm still uneasy about a permanent rule, though. Some of my older customers can't walk far and need somewhere to be dropped off right by the door. If the council provides that, I would support a ban without any hesitation at all."
+        },
+        {
+          "name": "Carlos",
+          "text": "A complete ban is unrealistic. Plenty of people work shifts that end at midnight, when the buses have stopped running, and they can't cycle home safely along dark roads. A fairer approach is to charge drivers a daily fee, with discounts for residents. That reduces traffic without punishing those who have no other way of getting around. I would also rather see the money from the charge spent on frequent, cheap buses than on prettier pavements and flower beds. Otherwise the policy will look like a punishment for ordinary workers."
+        },
+        {
+          "name": "Hannah",
+          "text": "I live above a main road, and my daughter's asthma gets much worse on days when the air is thick with exhaust fumes. So for me this is about health, not convenience, and I don't care much if some people complain about parking. But I accept that bans only work if public transport is dependable. Where I live, the tram breaks down almost every week, and that makes me hesitate to ask other people to leave their cars at home."
+        },
+        {
+          "name": "Kwame",
+          "text": "I drive a delivery van, so a ban would hit my job directly. Yet I'm not against limits. Unloading during the busiest hours is chaos, and I would happily start before eight in the morning if I were allowed to. What annoys me is the idea that all drivers are the same. Most of us are working, not sightseeing. Give businesses a proper permit and I will accept tough restrictions on private cars without complaining. Treat us as professionals and we will cooperate."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Poor air quality affects the speaker's own family.",
+          "answer": 2,
+          "explanation": {
+            "en": "Hannah says her daughter's asthma gets worse when the air is thick with exhaust fumes.",
+            "es": "Hannah dice que el asma de su hija empeora cuando el aire está cargado de humos."
+          }
+        },
+        {
+          "text": "A short experiment proved the speaker's financial fears wrong.",
+          "answer": 0,
+          "explanation": {
+            "en": "Priya feared the ban would ruin her bakery, but during the trial month her takings rose.",
+            "es": "Priya temía que la prohibición arruinara su panadería, pero durante el mes de prueba sus ingresos subieron."
+          }
+        },
+        {
+          "text": "Making motorists pay is a better solution than forbidding them to enter.",
+          "answer": 1,
+          "explanation": {
+            "en": "Carlos calls a complete ban unrealistic and prefers to charge drivers a daily fee.",
+            "es": "Carlos dice que una prohibición total no es realista y prefiere cobrar a los conductores una tarifa diaria."
+          }
+        },
+        {
+          "text": "The speaker would accept restrictions if deliveries could be made at quieter times.",
+          "answer": 3,
+          "explanation": {
+            "en": "Kwame would happily start before eight in the morning and will accept restrictions if businesses get a permit.",
+            "es": "Kwame empezaría gustosamente antes de las ocho y aceptaría restricciones si las empresas tuvieran un permiso."
+          }
+        },
+        {
+          "text": "Customers with limited mobility must still be able to get close to the shops.",
+          "answer": 0,
+          "explanation": {
+            "en": "Priya says older customers who can't walk far need somewhere to be dropped off by the door.",
+            "es": "Priya dice que los clientes mayores que no pueden caminar mucho necesitan un sitio donde los dejen junto a la puerta."
+          }
+        },
+        {
+          "text": "People who finish work very late may have no safe alternative to driving.",
+          "answer": 1,
+          "explanation": {
+            "en": "Carlos mentions shifts that end at midnight, when the buses have stopped and cycling home is unsafe.",
+            "es": "Carlos menciona turnos que acaban a medianoche, cuando ya no hay autobuses y volver en bici no es seguro."
+          }
+        },
+        {
+          "text": "The speaker is reluctant to make demands on other people because local transport lets them down.",
+          "answer": 2,
+          "explanation": {
+            "en": "Hannah says the tram breaks down almost every week, so she hesitates to ask others to leave their cars at home.",
+            "es": "Hannah dice que el tranvía se avería casi cada semana, así que duda en pedir a otros que dejen el coche en casa."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r4-local-news-01",
+      "examPart": "reading-4",
+      "cefrLevel": "C1",
+      "topic": "media",
+      "difficulty": 4,
+      "title": "Who is watching the town hall?",
+      "paragraphs": [
+        "For most of the twentieth century, the local newspaper was as much a part of a town as its market or its church. It printed the results of Sunday's football matches, announced births and funerals, praised the winners of the flower show and, perhaps most importantly, sent a reporter to sit through the long evening meetings of the council. People who never agreed on politics still bought the same paper, and in doing so shared a common set of facts. Sociologists argue that this shared reading created a sense of belonging, giving residents a picture of the place they lived in and a reason to care about the people around them.",
+        "The business model that supported all this was surprisingly fragile. For decades, newspapers earned most of their income not from readers but from advertisers, especially from the small classified notices for cars, flats, jobs and second-hand furniture. When these listings moved to free websites, and when larger advertising budgets flowed to search engines and social platforms, the money simply drained away. Within about fifteen years, many titles lost more than half of their revenue. Owners responded with redundancies, merged offices and shared content, until some papers were produced by a handful of staff covering several towns, none of whom could possibly be everywhere.",
+        "The consequence is what researchers describe as a news desert: a community in which no journalist regularly reports on local affairs. Studies from several countries suggest that the effects are measurable. Fewer candidates stand for election, voter turnout falls, and public bodies are more likely to borrow money at high interest rates because nobody is asking questions about the deals. When a planning decision is made or a contract is awarded, there is nobody in the room to explain it afterwards. Democracy does not collapse overnight, but it grows quieter and less accountable, and wrongdoing becomes easier to hide when no one expects to be asked about it.",
+        "Nature abhors a vacuum, and information is no exception. In many towns, the gap left by the vanished reporter has been filled by community groups on social media, where residents share news about road closures, lost dogs and suspicious strangers. Some of these groups are valuable and well moderated, but others spread rumour and anger with astonishing speed. Without an editor to check facts, a half-heard remark about a new housing development can become a certainty by the evening, and corrections rarely travel as far as the original claim. Officials say that they spend more time denying false stories than announcing real decisions.",
+        "In response, some communities have decided to build something different. Rather than waiting for a large company to rescue the local paper, groups of residents have launched non-profit newsrooms funded by donations, foundation grants and monthly memberships, with the readers themselves forming part of the governing board. One small town now has a website run by three full-time reporters who answer to a cooperative of subscribers. Their stories are free to everyone, on the grounds that information about public life should not be reserved for those who can pay. These experiments are small, but they show that local reporting can survive when its ownership changes.",
+        "The difficulty lies in persuading people to pay. Surveys consistently show that most adults think local journalism is important and would be sorry to lose it; yet only a small minority of them subscribe to any title. Economists call this a free-rider problem. Everyone benefits when somebody scrutinises the council, so each individual reasons that someone else will cover the cost. Years of free online content have also taught readers to expect news at no charge, and they are reluctant to change that assumption. Publishers who ask for payment are caught in a bind, because a barrier of any kind sends casual readers to competitors.",
+        "Faced with such market failure, some argue that public money should help. Proposals include tax relief for non-profit newsrooms, a levy on the technology firms that profit from sharing news, and grants distributed by independent panels. Supporters point out that governments already subsidise libraries, museums and public broadcasters on the grounds that they serve the public good. Opponents answer that anyone who depends on official funding may hesitate to criticise officials, and they ask who would decide which outlets qualify. Most agree that, if support is provided, strict safeguards must separate the money from editorial decisions."
+      ],
+      "headings": [
+        "Should the state step in?",
+        "The glue that held a community together",
+        "Gossip fills the silence",
+        "Valued but not paid for",
+        "How reporters check facts online",
+        "Towns that no one is watching",
+        "Readers become the owners",
+        "Where the advertising went"
+      ],
+      "answers": [1, 7, 5, 2, 6, 3, 0],
+      "explanations": [
+        {
+          "en": "The paper gave residents shared facts and a sense of belonging. 'Towns that no one is watching' describes the later situation after papers disappeared.",
+          "es": "El periódico daba a los vecinos hechos compartidos y sentido de pertenencia. 'Towns that no one is watching' describe la situación posterior, cuando desaparecen los periódicos."
+        },
+        {
+          "en": "Classified ads moved online and advertising money went to platforms, so revenue collapsed. 'Valued but not paid for' is about readers, not advertisers.",
+          "es": "Los anuncios clasificados pasaron a internet y la publicidad se fue a las plataformas, así que los ingresos se hundieron. 'Valued but not paid for' trata de los lectores, no de los anunciantes."
+        },
+        {
+          "en": "A 'news desert' leads to fewer candidates, lower turnout and less accountability. 'Gossip fills the silence' is the next paragraph, about what replaces the reporter.",
+          "es": "Un 'news desert' implica menos candidatos, menos participación y menos rendición de cuentas. 'Gossip fills the silence' es el párrafo siguiente, sobre lo que ocupa el lugar del periodista."
+        },
+        {
+          "en": "Social media groups spread rumours that nobody checks. The extra heading is tempting because the paragraph mentions checking facts, but it is about the absence of an editor, not about methods reporters use.",
+          "es": "Los grupos de redes sociales difunden rumores que nadie comprueba. El encabezado extra tienta porque se habla de comprobar datos, pero el párrafo trata de la ausencia de editor, no de métodos de los periodistas."
+        },
+        {
+          "en": "Non-profit newsrooms funded by members and governed with readers. 'Should the state step in?' is about public money, which is the final paragraph.",
+          "es": "Redacciones sin ánimo de lucro financiadas por socios y con lectores en el consejo. 'Should the state step in?' trata del dinero público, en el último párrafo."
+        },
+        {
+          "en": "People say they value local news but few subscribe: the free-rider problem. 'Where the advertising went' fails because the issue here is readers' reluctance to pay.",
+          "es": "La gente dice valorar la prensa local pero pocos se suscriben: el problema del 'free-rider'. 'Where the advertising went' no sirve porque aquí el asunto es que los lectores no quieren pagar."
+        },
+        {
+          "en": "The paragraph weighs public subsidy against independence. 'Readers become the owners' is about a different funding model and appears earlier.",
+          "es": "El párrafo sopesa la subvención pública frente a la independencia. 'Readers become the owners' es otro modelo de financiación y aparece antes."
+        }
+      ]
+    }
+  ]
+}

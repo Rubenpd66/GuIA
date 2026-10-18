@@ -1,0 +1,56 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-education-01",
+      "examPart": "reading-1",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 1,
+      "context": "An email from a student to a tutor asking for an extension",
+      "items": [
+        {
+          "prompt": "Last week my laptop ___ and I lost most of my notes.",
+          "options": ["broke up", "broke down", "broke out"],
+          "answer": 1,
+          "explanation": {
+            "en": "A machine that stops working breaks down. Broke up is for relationships or ice, and broke out is for fires, wars or illnesses."
+          }
+        },
+        {
+          "prompt": "I have been rewriting the essay all week, but I ___ finished yet.",
+          "options": ["haven't", "hadn't", "don't"],
+          "answer": 0,
+          "explanation": {
+            "en": "Yet with an action that is still not complete needs the present perfect: haven't finished yet.",
+            "es": "«Yet» pide el present perfect (haven't finished), no el presente simple."
+          }
+        },
+        {
+          "prompt": "Would it be possible to hand it ___ on Friday instead of Wednesday?",
+          "options": ["in", "out", "off"],
+          "answer": 0,
+          "explanation": {
+            "en": "To hand in work is to give it to a teacher. Hand out means to distribute."
+          }
+        },
+        {
+          "prompt": "I would be grateful ___ you could let me know by Thursday.",
+          "options": ["unless", "if", "when"],
+          "answer": 1,
+          "explanation": {
+            "en": "I would be grateful if you could is the polite pattern for a request. Unless and when change the meaning."
+          }
+        },
+        {
+          "prompt": "Thank you for your ___, and I look forward to hearing from you.",
+          "options": ["understanding", "understand", "understood"],
+          "answer": 0,
+          "explanation": {
+            "en": "After your we need a noun, so understanding is the only possible form."
+          }
+        }
+      ]
+    }
+  ]
+}
