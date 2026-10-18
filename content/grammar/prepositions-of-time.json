@@ -1,0 +1,154 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "prepositions-of-time",
+      "level": "A2",
+      "category": "prepositions",
+      "order": 60,
+      "references": [
+        { "book": "egu", "unit": 121 },
+        { "book": "egu", "unit": 122 }
+      ],
+      "title": {
+        "en": "Prepositions of time: at, on, in",
+        "es": "Preposiciones de tiempo: at, on, in"
+      },
+      "summary": {
+        "en": "Use **at** for exact times and some fixed expressions (_at 7.30_, _at night_, _at the weekend_), **on** for days and dates (_on Friday_, _on 3 May_) and **in** for longer periods (_in July_, _in 2019_, _in the morning_). Use **no preposition** before _next, last, this, every, tomorrow, yesterday_ and _today_.",
+        "es": "El español usa «a, el, en» según el caso:«el lunes» = on Monday (sin the), «a las siete» = at seven, «en 2019» = in 2019. Y «la semana que viene» = next week, sin preposición."
+      },
+      "form": [
+        "**at** + clock time and points: _at 9.15, at noon, at midnight, at lunchtime, at Christmas, at night_",
+        "**on** + days and dates: _on Monday, on Monday morning, on 12 June, on my birthday_",
+        "**in** + months, years, seasons, centuries and parts of the day: _in March, in 2024, in winter, in the evening_",
+        "**no preposition**: _next week, last year, this morning, every day, tomorrow, yesterday_",
+        "**in** + a period = after that time: _The course starts in two weeks._"
+      ],
+      "uses": [
+        {
+          "text": "**Exact time** → at: _The train leaves at 6.40._"
+        },
+        {
+          "text": "**Day or date** → on: _The deadline is on Thursday._ _We got married on 21 April._"
+        },
+        {
+          "text": "**Month, year, season, part of the day** → in: _It rains a lot in autumn._ _I read in the evening._",
+          "note": {
+            "en": "Exceptions: at night, but in the morning / afternoon / evening; on Friday morning.",
+            "es": "Excepciones: at night, pero in the morning; y on Friday morning."
+          }
+        },
+        {
+          "text": "**Holiday periods** → at: _at Christmas_, _at Easter_ (but _on Christmas Day_). In British English: _at the weekend_."
+        },
+        {
+          "text": "**Time reference words** → no preposition: _I'll call you tomorrow._ _We went to Rome last summer._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "The party is in Saturday at the night.",
+          "right": "The party is on Saturday night.",
+          "why": {
+            "en": "Use on with days, and say at night or on Saturday night.",
+            "es": "«El sábado» = on Saturday, sin the; y on Saturday night."
+          }
+        },
+        {
+          "wrong": "I was born at 1995 in the 14th of May.",
+          "right": "I was born in 1995 on 14 May.",
+          "why": {
+            "en": "Years take in; dates take on.",
+            "es": "Año: in; fecha: on."
+          }
+        },
+        {
+          "wrong": "I'll see you in the next week.",
+          "right": "I'll see you next week.",
+          "why": {
+            "en": "Next, last, this and every are used without a preposition or article.",
+            "es": "«La semana que viene» = next week, sin preposición ni the."
+          }
+        },
+        {
+          "wrong": "On the weekends I usually sleep late.",
+          "right": "At the weekend I usually sleep late. / At weekends I usually sleep late.",
+          "why": {
+            "en": "British English uses at the weekend or at weekends.",
+            "es": "En inglés británico: at the weekend / at weekends."
+          }
+        },
+        {
+          "wrong": "The film starts on 9 pm.",
+          "right": "The film starts at 9 pm.",
+          "why": {
+            "en": "Clock times take at.",
+            "es": "Las horas llevan at."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "The shop opens at nine and closes at half past five.",
+          "es": "La tienda abre a las nueve y cierra a las cinco y media."
+        },
+        {
+          "en": "My flight is on Sunday morning, so I'll leave at dawn.",
+          "es": "Mi vuelo es el domingo por la mañana, así que saldré al amanecer."
+        },
+        { "en": "The meeting is on 12 March at 10.30." },
+        { "en": "They moved to Valencia in 2018." },
+        { "en": "It's very hot here in July and August." },
+        { "en": "I'm usually exhausted in the evening." },
+        { "en": "We always visit my grandparents at Christmas." },
+        { "en": "I'll send you the report tomorrow morning." },
+        { "en": "Last year we didn't have a holiday." },
+        { "en": "The lecture finishes in about an hour." }
+      ],
+      "practice": [
+        {
+          "prompt": "The meeting starts ___ half past nine.",
+          "options": ["at", "on", "in"],
+          "answer": 0,
+          "explanation": {
+            "en": "Clock times take at."
+          }
+        },
+        {
+          "prompt": "My sister was born ___ 14 March.",
+          "options": ["in", "on", "at"],
+          "answer": 1,
+          "explanation": {
+            "en": "Dates take on."
+          }
+        },
+        {
+          "prompt": "I usually go for a run ___ the evening.",
+          "options": ["at", "on", "in"],
+          "answer": 2,
+          "explanation": {
+            "en": "Parts of the day take in, except night (at night)."
+          }
+        },
+        {
+          "prompt": "We're moving house ___ next month.",
+          "options": ["in", "on", "(no preposition)"],
+          "answer": 2,
+          "explanation": {
+            "en": "Next + time word is used without a preposition."
+          }
+        },
+        {
+          "prompt": "Many shops stay open late ___ Christmas.",
+          "options": ["on", "at", "in"],
+          "answer": 1,
+          "explanation": {
+            "en": "The holiday period takes at: at Christmas."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

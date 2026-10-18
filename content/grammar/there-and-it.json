@@ -1,0 +1,143 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "there-and-it",
+      "level": "A2",
+      "category": "pronouns-determiners",
+      "order": 20,
+      "references": [{ "book": "egu", "unit": 84 }],
+      "title": {
+        "en": "There is / there are and it is",
+        "es": "There is / there are e it is"
+      },
+      "summary": {
+        "en": "Use **there is / there are** to say that something exists or to introduce it for the first time: _There is a pharmacy on the corner._ Use **it** to talk about something already known, and also for weather, time, distance and \"it is + adjective + to…\": _It's raining_, _It's difficult to park here._ Spanish _hay_ is always **there is/are**, never _is_ or _it is_ on its own.",
+        "es": "«Hay» = there is / there are. «Es» o «está» referido a algo ya conocido = it is. No puedes empezar con is: siempre hace falta there o it."
+      },
+      "form": [
+        "**There is** + singular or uncountable; **there are** + plural: _There is a problem. There are two options._",
+        "Questions: **Is there…? / Are there…?**; negatives: **There isn't a… / There aren't any…**",
+        "Past and perfect: **there was / were**, **there has been / have been**",
+        "**It is** + adjective + **to** + verb: _It is important to book early._",
+        "**It** for weather, time, distance, dates: _It's 8.30. It's ten miles to the airport._"
+      ],
+      "uses": [
+        {
+          "text": "**Introduce something new** → there is/are: _There's a message for you on the desk._"
+        },
+        {
+          "text": "**Talk about it once it is known** → it: _I found a flat. **It**'s near the station._",
+          "note": {
+            "en": "First there is (new information), then it (the same thing again).",
+            "es": "Primero there is (algo nuevo); después, it (ya lo conoces)."
+          }
+        },
+        {
+          "text": "**Weather, time and distance** → it: _It's getting dark._ _It's a long way to the coast._"
+        },
+        {
+          "text": "**General comments** → it + adjective + to…: _It's hard to find good staff._ _It was nice to see you._"
+        },
+        {
+          "text": "**Quantity** → there + a lot of / any / no: _There wasn't any time._ _There are a lot of tourists in August._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "In my city has a big park.",
+          "right": "There is a big park in my city.",
+          "why": {
+            "en": "Has cannot mean \"there is\". Use there is / there are.",
+            "es": "«Hay» no es has: se dice there is / there are."
+          }
+        },
+        {
+          "wrong": "Is a lot of traffic at this time.",
+          "right": "There is a lot of traffic at this time.",
+          "why": {
+            "en": "English needs a subject, so use there.",
+            "es": "No se puede empezar con is: hace falta there."
+          }
+        },
+        {
+          "wrong": "It is a lot of people in the square.",
+          "right": "There are a lot of people in the square.",
+          "why": {
+            "en": "Existence is expressed with there, not it. People is plural, so use are.",
+            "es": "Para «hay», usa there. Y people es plural: there are."
+          }
+        },
+        {
+          "wrong": "Is difficult to find a flat in this area.",
+          "right": "It is difficult to find a flat in this area.",
+          "why": {
+            "en": "Use it as the subject before an adjective.",
+            "es": "«Es difícil encontrar…» = It is difficult to find…"
+          }
+        },
+        {
+          "wrong": "There have two bedrooms and a small kitchen.",
+          "right": "There are two bedrooms and a small kitchen. / It has two bedrooms and a small kitchen.",
+          "why": {
+            "en": "There have is never correct. Say there is/are, or use it has for a known place.",
+            "es": "There have no existe. O there are, o it has si hablas de un sitio concreto."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "There's a good Italian restaurant behind the station.",
+          "es": "Hay un buen restaurante italiano detrás de la estación."
+        },
+        {
+          "en": "Is there a bank near here? Yes, it's opposite the library.",
+          "es": "¿Hay un banco por aquí? Sí, está enfrente de la biblioteca."
+        },
+        { "en": "There aren't any tickets left for Saturday." },
+        { "en": "There was nobody at reception when we arrived." },
+        { "en": "There have been several complaints about the noise." },
+        { "en": "It's about forty minutes from here to the airport." },
+        { "en": "It was raining all weekend, so we stayed in." },
+        { "en": "It's essential to arrive early on the day of the exam." },
+        { "en": "How many people are there in your team?" },
+        { "en": "It looks as if there will be a delay." }
+      ],
+      "practice": [
+        {
+          "prompt": "___ a lot of traffic on the ring road this morning.",
+          "options": ["It was", "There was", "Was"],
+          "answer": 1,
+          "explanation": {
+            "en": "Existence is expressed with there was; every sentence needs a subject."
+          }
+        },
+        {
+          "prompt": "I'd love to visit Granada. ___ is a beautiful city.",
+          "options": ["It", "There", "Is"],
+          "answer": 0,
+          "explanation": {
+            "en": "Granada is already known, so we refer to it with it."
+          }
+        },
+        {
+          "prompt": "___ difficult to park in the centre at weekends.",
+          "options": ["There is", "It is", "Is"],
+          "answer": 1,
+          "explanation": {
+            "en": "It is + adjective + to + verb is the pattern for general comments."
+          }
+        },
+        {
+          "prompt": "Excuse me, ___ a chemist near here?",
+          "options": ["is there", "is it", "there is"],
+          "answer": 0,
+          "explanation": {
+            "en": "A question about existence uses Is there…? with the verb first."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

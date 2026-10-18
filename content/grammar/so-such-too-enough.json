@@ -1,0 +1,157 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "so-such-too-enough",
+      "level": "B1",
+      "category": "adjectives-adverbs",
+      "order": 210,
+      "references": [
+        { "book": "egu", "unit": 102 },
+        { "book": "egu", "unit": 103 }
+      ],
+      "title": {
+        "en": "So, such, too and enough",
+        "es": "So, such, too y enough"
+      },
+      "summary": {
+        "en": "**So** goes before an adjective or adverb (_so tired_, _so quickly_). **Such** goes before a noun, with or without an adjective (_such a long day_, _such good news_). **Too** means \"more than is good or possible\" (_too heavy to carry_). **Enough** means \"as much as we need\": it comes after an adjective or adverb (_old enough_) but before a noun (_enough time_).",
+        "es": "Dos trampas: too es «demasiado» y siempre implica un problema (no es «muy», que es very); y enough va detrás del adjetivo, al revés que «suficientemente»."
+      },
+      "form": [
+        "**so** + adjective/adverb: _so cold_, _so slowly_; **so much / so many** + noun",
+        "**such** + (a/an) + (adjective) + noun: _such a mess_, _such nice people_",
+        "**too** + adjective/adverb: _too expensive_; **too much** (uncountable) / **too many** (plural) + noun",
+        "adjective/adverb + **enough**: _tall enough_; **enough** + noun: _enough money_",
+        "Result: so/such … **that** + clause; too/enough + **to** + verb"
+      ],
+      "uses": [
+        {
+          "text": "**Emphasis** → so / such: _I'm **so** pleased for you!_ _It's **such** a shame._"
+        },
+        {
+          "text": "**Result** → so / such … that: _The traffic was **so** heavy **that** we missed the start._ _It was **such** heavy traffic **that** we missed the start._",
+          "note": {
+            "en": "In speech, that is often left out: _I was so tired I couldn't think._",
+            "es": "En conversación se suele omitir that."
+          }
+        },
+        {
+          "text": "**Too = a problem** → too + adjective (+ to + verb): _This box is **too** heavy **to** lift._",
+          "note": {
+            "en": "Too is negative. For a positive feeling use so or very.",
+            "es": "Too no es «muy»: implica que algo sobra y causa un problema."
+          }
+        },
+        {
+          "text": "**Enough = as much as needed** → adjective + enough, enough + noun: _Is the water warm **enough** to swim in?_ _We don't have **enough** chairs._",
+          "note": {
+            "en": "The adjective comes first: _big enough_, never _enough big_.",
+            "es": "El adjetivo va delante: big enough, no enough big."
+          }
+        },
+        {
+          "text": "**Quantities** → too much / too many for a problem, so much / so many for emphasis: _There are **too many** people here._ _I've got **so many** emails to answer._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "It was a so interesting talk.",
+          "right": "It was such an interesting talk.",
+          "why": {
+            "en": "So does not go before a/an + noun. Use such.",
+            "es": "Delante de un sustantivo (con a/an) se usa such, no so."
+          }
+        },
+        {
+          "wrong": "The coat isn't enough warm.",
+          "right": "The coat isn't warm enough.",
+          "why": {
+            "en": "Enough comes after an adjective or adverb.",
+            "es": "Enough va detrás del adjetivo."
+          }
+        },
+        {
+          "wrong": "I was too happy to see you.",
+          "right": "I was so happy to see you.",
+          "why": {
+            "en": "Too suggests a problem. For a strong positive feeling use so.",
+            "es": "Too significa «demasiado» y suena a problema. Para «muy contento» usa so o very."
+          }
+        },
+        {
+          "wrong": "There were too much people in the shop.",
+          "right": "There were too many people in the shop.",
+          "why": {
+            "en": "People is plural and countable, so it takes many.",
+            "es": "Con plurales contables se usa too many, no too much."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "The queue was so long that we gave up and went home." },
+        { "en": "It was such a long queue that we gave up." },
+        {
+          "en": "She's such a talented designer.",
+          "es": "Es una diseñadora con muchísimo talento."
+        },
+        { "en": "I can't concentrate; there's too much noise in here." },
+        {
+          "en": "There were too many cars for the small car park.",
+          "es": "Había demasiados coches para el pequeño aparcamiento."
+        },
+        {
+          "en": "The soup isn't hot enough.",
+          "es": "La sopa no está lo bastante caliente."
+        },
+        { "en": "Do you have enough money to pay for the tickets?" },
+        { "en": "He's too young to rent a car." },
+        { "en": "Speak slowly enough for everyone to understand." },
+        { "en": "I'm so sorry I'm late!" }
+      ],
+      "practice": [
+        {
+          "prompt": "The instructions were ___ confusing that nobody knew where to start.",
+          "options": ["so", "such", "too"],
+          "answer": 0,
+          "explanation": {
+            "en": "So goes before an adjective and introduces the result clause with that."
+          }
+        },
+        {
+          "prompt": "They are ___ friendly neighbours.",
+          "options": ["such", "so", "such a"],
+          "answer": 0,
+          "explanation": {
+            "en": "Such goes before an adjective + plural noun, without a/an."
+          }
+        },
+        {
+          "prompt": "He isn't old ___ to drive a car.",
+          "options": ["enough", "too", "so"],
+          "answer": 0,
+          "explanation": {
+            "en": "Enough follows the adjective and is followed by to + verb."
+          }
+        },
+        {
+          "prompt": "I can't afford this coat; it's ___ expensive.",
+          "options": ["too", "enough", "such"],
+          "answer": 0,
+          "explanation": {
+            "en": "Too expresses a problem: the price is more than I can pay."
+          }
+        },
+        {
+          "prompt": "There were ___ many people at the station that we missed our train.",
+          "options": ["so", "such", "too"],
+          "answer": 0,
+          "explanation": {
+            "en": "So many + noun + that shows the result. Too many cannot be followed by that."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

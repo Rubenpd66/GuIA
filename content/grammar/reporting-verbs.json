@@ -1,0 +1,155 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "reporting-verbs",
+      "level": "C1",
+      "category": "reported-speech",
+      "order": 50,
+      "references": [{ "book": "egu", "unit": 55 }],
+      "title": {
+        "en": "Reporting verbs and their patterns",
+        "es": "Verbos de información y sus estructuras"
+      },
+      "summary": {
+        "en": "Instead of always using _say_ and _tell_, skilled speakers choose a verb that shows the speaker's purpose: _admit_, _deny_, _warn_, _urge_, _accuse_. Each verb has its own pattern. Some take a **that-clause** (_He claimed that…_), some a **to-infinitive** (_She refused to…_), some an **-ing form** (_He denied taking…_), and many take **object + to-infinitive** (_They urged us to…_). Verbs of blame and criticism take **object + preposition + -ing** (_accuse someone of lying_). Using the exact verb makes a report shorter and more precise, which helps in Speaking part 4 and in the formal email of Writing part 4.",
+        "es": "En español basta con «dijo que…»; en inglés, el verbo ya lleva la intención (acusó, admitió, advirtió) y cada uno tiene su estructura. Acusar de hacer algo es **accuse + objeto + of + -ing**."
+      },
+      "form": [
+        "**+ that-clause**: _claim, explain, insist, point out, mention, admit, complain_ (_He insisted that he was right._)",
+        "**+ to-infinitive**: _agree, offer, promise, refuse, threaten, claim_ (_She refused to sign._)",
+        "**+ -ing**: _admit, deny, suggest, recommend, mention_ (_He admitted taking the money._)",
+        "**+ object + to-infinitive**: _advise, ask, encourage, invite, order, persuade, remind, urge, warn_ (_They warned us not to go._)",
+        "**+ object + preposition + -ing**: _accuse … of, blame … for, criticise … for, congratulate … on, thank … for_",
+        "**apologise (to someone) for + -ing**; **insist on + -ing**; **blame something on someone**"
+      ],
+      "uses": [
+        {
+          "text": "**Showing attitude** → _She accused the company of ignoring complaints._"
+        },
+        {
+          "text": "**Admitting or denying** → _The driver admitted driving too fast. He denied causing the accident._"
+        },
+        {
+          "text": "**Advising and warning** → _The guide urged everyone to stay together._"
+        },
+        {
+          "text": "**Promises and refusals** → _The shop promised to refund the money, but refused to replace the item._"
+        },
+        {
+          "text": "**Reporting a complaint formally** → _I would like to point out that the room was not cleaned._",
+          "note": {
+            "en": "Verbs such as point out, complain and regret to inform sound polite and precise in a formal email.",
+            "es": "Verbos como point out o complain son corteses y precisos en un correo formal."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "He accused me to have lied.",
+          "right": "He accused me of lying.",
+          "why": {
+            "en": "Accuse takes object + of + -ing form, not a to-infinitive.",
+            "es": "Accuse + objeto + of + -ing."
+          }
+        },
+        {
+          "wrong": "She insisted to pay for the meal.",
+          "right": "She insisted on paying for the meal.",
+          "why": {
+            "en": "Insist is followed by on + -ing, or by a that-clause.",
+            "es": "Insist on + -ing, o insist that…"
+          }
+        },
+        {
+          "wrong": "They blamed the delay to the weather.",
+          "right": "They blamed the delay on the weather.",
+          "why": {
+            "en": "Blame something on a cause, or blame someone for something.",
+            "es": "Blame something on…; blame someone for…"
+          }
+        },
+        {
+          "wrong": "He denied to have taken the keys.",
+          "right": "He denied taking the keys.",
+          "why": {
+            "en": "Deny is followed by an -ing form (or having + past participle), not to-infinitive.",
+            "es": "Deny + -ing, nunca to + infinitivo."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "The manager accused her of falsifying the figures.",
+          "es": "El director la acusó de falsificar las cifras."
+        },
+        {
+          "en": "He refused to answer any questions about the contract."
+        },
+        {
+          "en": "She finally admitted sending the email by mistake."
+        },
+        {
+          "en": "The tutor urged us to submit the draft early.",
+          "es": "El tutor nos instó a entregar el borrador pronto."
+        },
+        {
+          "en": "The passengers complained that nobody had explained the delay."
+        },
+        {
+          "en": "He denied having seen the report before the meeting."
+        },
+        {
+          "en": "The doctor warned him not to lift heavy objects."
+        },
+        {
+          "en": "My neighbour apologised for making so much noise."
+        },
+        {
+          "en": "They criticised the council for ignoring the problem."
+        },
+        {
+          "en": "The union insisted on being present at the talks."
+        },
+        {
+          "en": "She reminded us to bring our passports to the airport."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "The manager accused her ___ the figures.",
+          "options": ["of falsifying", "to falsify", "for falsifying"],
+          "answer": 0,
+          "explanation": {
+            "en": "Accuse someone of + -ing."
+          }
+        },
+        {
+          "prompt": "He refused ___ any questions about the contract.",
+          "options": ["answering", "that he answer", "to answer"],
+          "answer": 2,
+          "explanation": {
+            "en": "Refuse is followed by a to-infinitive."
+          }
+        },
+        {
+          "prompt": "She finally admitted ___ the email by mistake.",
+          "options": ["to send", "sending", "that send"],
+          "answer": 1,
+          "explanation": {
+            "en": "Admit is followed by an -ing form (or a that-clause with a proper verb form)."
+          }
+        },
+        {
+          "prompt": "The tutor ___ us to submit the draft early.",
+          "options": ["suggested", "insisted", "urged"],
+          "answer": 2,
+          "explanation": {
+            "en": "Urge takes object + to-infinitive; suggest and insist do not."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

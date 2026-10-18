@@ -1,0 +1,176 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "adjective-patterns-and-perception-verbs",
+      "level": "B2",
+      "category": "verb-patterns",
+      "order": 150,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 65
+        },
+        {
+          "book": "egu",
+          "unit": 66
+        },
+        {
+          "book": "egu",
+          "unit": 67
+        }
+      ],
+      "title": {
+        "en": "Adjective + to-infinitive, and verbs of perception",
+        "es": "Adjetivo + to-infinitive y verbos de percepción"
+      },
+      "summary": {
+        "en": "Many adjectives are followed by a **to-infinitive**: _glad **to see**_, _easy **to use**_, _likely **to happen**_. Some adjectives change pattern with the meaning: _afraid **to** do_ (too scared to act) and _afraid **of** doing_ (scared of the result). After **see, hear, watch, notice and feel**, use the **bare infinitive** for a complete action (_I saw him leave_) and the **-ing form** for an action in progress (_I saw him leaving_).",
+        "es": "Tras _see, hear, watch_ + persona no se usa **to**: _I saw him **leave**_ (acción completa) o _I saw him **leaving**_ (en curso). Y con adjetivos fáciles o difíciles se dice _difficult **to do**_, sin pronombre al final."
+      },
+      "form": [
+        "Adjective + **to-infinitive**: _pleased to hear_, _easy to use_, _certain to win_, _the first to arrive_",
+        "**It's** + adjective + (**for/of** someone) + **to-infinitive**: _It's essential for you to attend. It was kind of you to wait._",
+        "**afraid to** do (reluctant) / **afraid of** doing (fear of something happening)",
+        "**sorry to** hear or say (a reaction) / **sorry for / about** + noun or -ing (an apology)",
+        "**see, hear, watch, notice, feel** + object + **bare infinitive** (whole action) or **-ing** (action in progress)"
+      ],
+      "uses": [
+        {
+          "text": "**Reaction or feeling**: _I was delighted **to hear** your news. She was surprised **to see** so many people._"
+        },
+        {
+          "text": "**How easy, hard or safe something is**: _This app is easy **to use**. The water isn't safe **to drink**._",
+          "note": {
+            "en": "Do not repeat the object after the infinitive: _easy to use_, not _easy to use it_.",
+            "es": "No repetimos el objeto al final: _easy to use_, no _easy to use it_."
+          }
+        },
+        {
+          "text": "**Judging someone's behaviour** with **of**: _It was generous **of** you to lend me the money._ With **for**, we talk about the task: _It's important **for** staff to arrive early._"
+        },
+        {
+          "text": "**Afraid**: _He was afraid **to tell** his boss_ (he did not tell him). _He was afraid **of losing** his job_ (the thing he feared)."
+        },
+        {
+          "text": "**Perception verbs**: _I heard her **sing**_ (the whole song). _I heard her **singing** in the shower_ (the action was going on). Not _I heard her to sing_."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I saw him to leave the building.",
+          "right": "I saw him leave the building.",
+          "why": {
+            "en": "After see, hear and watch with an object, we use the bare infinitive or -ing, never to.",
+            "es": "Después de _see / hear / watch_ + objeto no se usa **to**."
+          }
+        },
+        {
+          "wrong": "This exercise is difficult to do it.",
+          "right": "This exercise is difficult to do.",
+          "why": {
+            "en": "The subject of the sentence is already the object of the infinitive, so we do not add it.",
+            "es": "En español decimos «es difícil de hacerlo», pero en inglés no se repite el objeto."
+          }
+        },
+        {
+          "wrong": "It was kind from you to help us.",
+          "right": "It was kind of you to help us.",
+          "why": {
+            "en": "To judge someone's behaviour we say kind of you, not from you.",
+            "es": "«Qué amable por tu parte» es _kind **of** you_."
+          }
+        },
+        {
+          "wrong": "I was glad of see them all together.",
+          "right": "I was glad to see them all together.",
+          "why": {
+            "en": "After glad we use a to-infinitive to give the reason for the feeling.",
+            "es": "Tras _glad / pleased / happy_ que expresan la reacción se usa **to** + infinitivo."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm delighted to hear that you've passed.",
+          "es": "Me alegra saber que has aprobado."
+        },
+        {
+          "en": "This printer is really easy to use."
+        },
+        {
+          "en": "It's essential for all staff to attend the briefing."
+        },
+        {
+          "en": "It was kind of you to lend me your charger.",
+          "es": "Fue muy amable por tu parte dejarme el cargador."
+        },
+        {
+          "en": "She was the first to arrive and the last to leave."
+        },
+        {
+          "en": "He was afraid to ask for a pay rise, so he never mentioned it."
+        },
+        {
+          "en": "He was afraid of losing his job, so he worked late every night."
+        },
+        {
+          "en": "I was sorry to hear about your accident."
+        },
+        {
+          "en": "I saw him leave the building at six.",
+          "es": "Lo vi salir del edificio a las seis."
+        },
+        {
+          "en": "We watched the sun going down behind the hills."
+        },
+        {
+          "en": "She heard the neighbours arguing through the wall."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "I was surprised ___ so many people at the meeting.",
+          "options": ["seeing", "to see", "see"],
+          "answer": 1,
+          "explanation": {
+            "en": "Surprised is followed by a to-infinitive when it names the reaction."
+          }
+        },
+        {
+          "prompt": "This new software is very easy ___.",
+          "options": ["using", "use", "to use"],
+          "answer": 2,
+          "explanation": {
+            "en": "Easy takes a to-infinitive, with no pronoun after it."
+          }
+        },
+        {
+          "prompt": "I noticed a man ___ photos of the building for twenty minutes.",
+          "options": ["taking", "to take", "took"],
+          "answer": 0,
+          "explanation": {
+            "en": "The action lasted for some time and was in progress, so we use -ing. After notice we never use to."
+          }
+        },
+        {
+          "prompt": "She didn't go out alone because she was afraid of ___ lost.",
+          "options": ["get", "to get", "getting"],
+          "answer": 2,
+          "explanation": {
+            "en": "Afraid of is followed by an -ing form."
+          }
+        },
+        {
+          "prompt": "It was very generous ___ you to pay for everyone.",
+          "options": ["from", "of", "to"],
+          "answer": 1,
+          "explanation": {
+            "en": "We judge a person's behaviour with generous of you."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

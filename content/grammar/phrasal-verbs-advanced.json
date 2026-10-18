@@ -1,0 +1,168 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "phrasal-verbs-advanced",
+      "level": "C1",
+      "category": "phrasal-verbs",
+      "order": 70,
+      "references": [
+        { "book": "egu", "unit": 141 },
+        { "book": "egu", "unit": 142 },
+        { "book": "egu", "unit": 143 },
+        { "book": "egu", "unit": 144 },
+        { "book": "egu", "unit": 145 }
+      ],
+      "title": {
+        "en": "Phrasal verbs: three-word verbs and multiple meanings",
+        "es": "Phrasal verbs: verbos de tres palabras y varios significados"
+      },
+      "summary": {
+        "en": "At C1 you meet **three-word phrasal verbs** (verb + adverb + preposition) such as _put up with_, _look forward to_, _come up with_ and _run out of_. They are **inseparable**: the object always comes at the end (_I can't put up with the noise_). If the last word is **to**, it is a preposition, so a verb after it takes **-ing**: _I'm looking forward to seeing you._ Many phrasal verbs have several meanings (_pick up_ a parcel, a language or speed), so learn them in context. In a formal email or report, a one-word verb often sounds better (_tolerate_, _devise_, _postpone_), but in Speaking part 4 phrasal verbs make your English sound natural.",
+        "es": "Los de tres palabras no se separan: *put up with it*, no *put it up with*. Si acaban en **to** (look forward to, get round to), ese to es preposición y lleva -ing: looking forward to seeing, no *to see*."
+      },
+      "form": [
+        "Three-word verbs: **verb + adverb + preposition + object** (_get away with it_, _make up for lost time_)",
+        "Never separated: _put up with the noise_, not _put the noise up with_",
+        "When the last word is **to**, use **-ing**: _look forward to hearing_, _get round to doing_",
+        "Passive of verbs with an object: _The decision was put off._ _The problem was dealt with quickly._",
+        "Nouns from phrasal verbs: _breakdown, outcome, setback, check-in, take-off_",
+        "Formal equivalents: _carry out_ → perform; _put off_ → postpone; _find out_ → discover; _put up with_ → tolerate; _come up with_ → devise"
+      ],
+      "uses": [
+        {
+          "text": "**Dealing with problems** → _We came up with a plan to cut costs. I can't put up with this noise any longer._"
+        },
+        {
+          "text": "**Relationships and attitudes** → _She looks up to her grandmother. He gets on with everyone at work._"
+        },
+        {
+          "text": "**Running out and catching up** → _We've run out of paper. I'll catch up with you at the station._"
+        },
+        {
+          "text": "**Several meanings of one verb** → _pick up_: collect (a parcel), learn (a few words), improve (sales picked up).",
+          "note": {
+            "en": "Note the meaning, the structure and whether the verb is separable each time you learn it.",
+            "es": "Anota siempre significado, estructura y si se puede separar."
+          }
+        },
+        {
+          "text": "**Ending a formal email** → _I look forward to hearing from you._",
+          "note": {
+            "en": "Look forward to hearing from you is correct and useful at the end of the formal email in Writing part 4.",
+            "es": "Look forward to hearing from you es el cierre habitual del correo formal."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I look forward to hear from you.",
+          "right": "I look forward to hearing from you.",
+          "why": {
+            "en": "To in look forward to is a preposition, so the verb that follows takes -ing.",
+            "es": "Ese to es preposición: hearing, no hear."
+          }
+        },
+        {
+          "wrong": "We've run out money.",
+          "right": "We've run out of money.",
+          "why": {
+            "en": "The preposition of belongs to the verb run out of.",
+            "es": "Run out of: no olvides la preposición."
+          }
+        },
+        {
+          "wrong": "I can't put up the noise.",
+          "right": "I can't put up with the noise.",
+          "why": {
+            "en": "Put up with (tolerate) needs all three words.",
+            "es": "Tolerar es put up with; put up solo no vale."
+          }
+        },
+        {
+          "wrong": "She came up an excellent idea.",
+          "right": "She came up with an excellent idea.",
+          "why": {
+            "en": "Come up with is a three-word verb meaning to think of something.",
+            "es": "Come up with = ocurrírsele, idear."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I can't put up with the noise from the building site any longer.",
+          "es": "No soporto más el ruido de las obras."
+        },
+        {
+          "en": "The team came up with a clever plan to cut costs."
+        },
+        {
+          "en": "We've run out of paper, so please order some more."
+        },
+        {
+          "en": "I'm really looking forward to meeting you next week.",
+          "es": "Tengo muchas ganas de conocerte la semana que viene."
+        },
+        {
+          "en": "He got away with it because nobody had seen him."
+        },
+        {
+          "en": "She works hard to make up for the time she lost last year."
+        },
+        {
+          "en": "They look down on people who haven't been to university."
+        },
+        {
+          "en": "We wanted to buy the house, but the deal fell through at the last minute."
+        },
+        {
+          "en": "After a slow start, sales picked up in the spring."
+        },
+        {
+          "en": "I'll try to catch up with you after the meeting."
+        },
+        {
+          "en": "The company is cutting down on travel to reduce its costs."
+        },
+        {
+          "en": "I haven't got round to answering your email yet; I'll do it tonight."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "I can't ___ the noise from the building site any longer.",
+          "options": ["put up with", "put up at", "put out with"],
+          "answer": 0,
+          "explanation": {
+            "en": "Put up with means tolerate."
+          }
+        },
+        {
+          "prompt": "We've ___ paper, so please order some more.",
+          "options": ["run out of", "run down of", "run away from"],
+          "answer": 0,
+          "explanation": {
+            "en": "Run out of means to have none left."
+          }
+        },
+        {
+          "prompt": "I'm looking forward ___ you at the conference.",
+          "options": ["to see", "for seeing", "to seeing"],
+          "answer": 2,
+          "explanation": {
+            "en": "To is a preposition here, so the verb takes -ing."
+          }
+        },
+        {
+          "prompt": "We wanted to buy the house, but the deal ___ at the last minute.",
+          "options": ["fell off", "fell through", "fell out"],
+          "answer": 1,
+          "explanation": {
+            "en": "Fall through means a plan or agreement fails to happen."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

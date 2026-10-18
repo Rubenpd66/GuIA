@@ -1,0 +1,159 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "prepositions-of-place-and-movement",
+      "level": "A2",
+      "category": "prepositions",
+      "order": 70,
+      "references": [
+        { "book": "egu", "unit": 123 },
+        { "book": "egu", "unit": 124 },
+        { "book": "egu", "unit": 125 },
+        { "book": "egu", "unit": 126 }
+      ],
+      "title": {
+        "en": "Prepositions of place and movement",
+        "es": "Preposiciones de lugar y movimiento"
+      },
+      "summary": {
+        "en": "Use **at** for a point (_at the bus stop_, _at work_), **in** for an enclosed space, city or country (_in the office_, _in Madrid_) and **on** for a surface, a line, a floor or public transport (_on the wall_, _on the second floor_, _on the bus_). For movement use **to**, **into**, **out of**, **through**, **across**, **along**, **past**. Do not use **to** with **home**, **here**, **there**, and use **in** (not _to_) after **arrive** for a city.",
+        "es": "«Llegué a Madrid» = I arrived in Madrid; «voy a casa» = I'm going home (sin to); «en el autobús» = on the bus; «en el segundo piso» = on the second floor."
+      },
+      "form": [
+        "**at** + point or event: _at the door, at the airport, at a concert, at university_",
+        "**in** + enclosed area: _in a room, in a car, in London, in the newspaper_",
+        "**on** + surface, floor, line, public transport: _on the table, on the third floor, on the train, on the left_",
+        "**arrive in** + city or country; **arrive at** + building or small place; **get to** + any place",
+        "**go home / go abroad / go upstairs** (no to); **go to** + other places",
+        "**next to, opposite, in front of, behind, between, among, near, above, below, under**"
+      ],
+      "uses": [
+        {
+          "text": "**Position** → at, in, on: _She is at the station, in the café, on the platform._"
+        },
+        {
+          "text": "**Transport** → on a bus, train, plane, ship, bike; in a car or taxi: _I left my umbrella on the bus._"
+        },
+        {
+          "text": "**Arrival** → arrive in / at, get to: _We arrived in Seville at midnight._ _We got to the hotel late._",
+          "note": {
+            "en": "Never use arrive to: not _arrived to Seville_.",
+            "es": "Arrive no lleva to: arrive in Seville."
+          }
+        },
+        {
+          "text": "**Direction** → to, into, out of, through, across, along, past: _He walked past the bank and into a café._"
+        },
+        {
+          "text": "**Relative position** → between two things, among three or more: _The pharmacy is between the bank and the bakery._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "We arrived to Valencia very late.",
+          "right": "We arrived in Valencia very late.",
+          "why": {
+            "en": "Arrive is followed by in or at, never by to.",
+            "es": "«Llegar a» = arrive in / at; to solo con get to."
+          }
+        },
+        {
+          "wrong": "I'm going to home now because I'm tired.",
+          "right": "I'm going home now because I'm tired.",
+          "why": {
+            "en": "Home is an adverb here, so no preposition is needed.",
+            "es": "Go home, sin to."
+          }
+        },
+        {
+          "wrong": "I left my bag in the bus and now I live in the third floor.",
+          "right": "I left my bag on the bus and now I live on the third floor.",
+          "why": {
+            "en": "Public transport and floors take on.",
+            "es": "Autobús, tren y plantas del edificio: on."
+          }
+        },
+        {
+          "wrong": "The post office is at the left, in front of the station.",
+          "right": "The post office is on the left, opposite the station.",
+          "why": {
+            "en": "On the left / right is the fixed expression. Opposite means across from; in front of means before it, on the same side.",
+            "es": "«A la izquierda» = on the left. «Enfrente de» = opposite."
+          }
+        },
+        {
+          "wrong": "I study in the university and I live near of the park.",
+          "right": "I study at university and I live near the park.",
+          "why": {
+            "en": "Say at university, and near is not followed by of.",
+            "es": "Near no lleva of."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "We got to the airport two hours before the flight.",
+          "es": "Llegamos al aeropuerto dos horas antes del vuelo."
+        },
+        {
+          "en": "The lift is out of order, so I walked up to the fourth floor.",
+          "es": "El ascensor está estropeado, así que subí andando a la cuarta planta."
+        },
+        { "en": "Her office is on the second floor, next to the kitchen." },
+        { "en": "I'll wait for you at the entrance." },
+        { "en": "The shop is between the bank and the bakery." },
+        { "en": "They live in a small village in the north of Italy." },
+        { "en": "We walked along the river and then across the bridge." },
+        {
+          "en": "The train goes through a long tunnel before it reaches the coast."
+        },
+        { "en": "He took his phone out of his pocket and checked the time." },
+        { "en": "Turn left at the traffic lights and go past the cinema." }
+      ],
+      "practice": [
+        {
+          "prompt": "We arrived ___ Valencia just after midnight.",
+          "options": ["to", "in", "on"],
+          "answer": 1,
+          "explanation": {
+            "en": "After arrive, a city takes in; arrive to does not exist."
+          }
+        },
+        {
+          "prompt": "My flat is ___ the second floor.",
+          "options": ["in", "on", "at"],
+          "answer": 1,
+          "explanation": {
+            "en": "Floors of a building take on."
+          }
+        },
+        {
+          "prompt": "Let's go ___ after the meeting; I'm exhausted.",
+          "options": ["to home", "home", "at home"],
+          "answer": 1,
+          "explanation": {
+            "en": "Go home needs no preposition."
+          }
+        },
+        {
+          "prompt": "I left my umbrella ___ the bus.",
+          "options": ["in", "on", "at"],
+          "answer": 1,
+          "explanation": {
+            "en": "Buses, trains and planes take on."
+          }
+        },
+        {
+          "prompt": "The shop is ___ the post office and the bank.",
+          "options": ["between", "among", "behind"],
+          "answer": 0,
+          "explanation": {
+            "en": "Between is used for two things; among needs three or more."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

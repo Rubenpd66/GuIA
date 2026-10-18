@@ -1,0 +1,154 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "adjectives-and-adverbs",
+      "level": "A2",
+      "category": "adjectives-adverbs",
+      "order": 50,
+      "references": [
+        { "book": "egu", "unit": 100 },
+        { "book": "egu", "unit": 101 }
+      ],
+      "title": {
+        "en": "Adjectives and adverbs",
+        "es": "Adjetivos y adverbios"
+      },
+      "summary": {
+        "en": "An **adjective** describes a noun (_a quiet street_) and goes after **be**, **look**, **feel**, **sound** and **seem**. An **adverb** describes a verb, an adjective or another adverb and often ends in **-ly** (_she spoke quietly_). English adjectives never take **-s**, and the adverb of **good** is **well**. Watch out for **hard / hardly**, **late / lately** and **fast**.",
+        "es": "Los adjetivos ingleses no concuerdan en plural: the important things, no the importants things. Después de look, feel y sound va adjetivo: You look tired, no You look tiredly."
+      },
+      "form": [
+        "Adjective + noun: _a difficult decision, two difficult decisions_ (no plural -s)",
+        "**be / look / feel / sound / seem / taste** + adjective: _The soup tastes wonderful._",
+        "Most adverbs: adjective + **-ly**: _careful → carefully, quick → quickly_; **-y → -ily**: _easy → easily_",
+        "Irregular: **good → well**; **hard, fast, late, early** are both adjective and adverb",
+        "Manner adverbs usually come **after the verb or its object**: _She drives carefully._ _He answered the question calmly._"
+      ],
+      "uses": [
+        {
+          "text": "**Describe a noun** → adjective: _a reliable colleague_, _an exhausting journey_."
+        },
+        {
+          "text": "**Describe how something is, looks or feels** → adjective after a linking verb: _You seem stressed._ _That sounds interesting._"
+        },
+        {
+          "text": "**Describe how an action is done** → adverb: _He reacted angrily._ _They played brilliantly._"
+        },
+        {
+          "text": "**Strengthen an adjective or adverb** → very, really, extremely, fairly: _It was extremely cold._ _She works really hard._"
+        },
+        {
+          "text": "**Same form, different meaning**: _hard_ (with effort) / _hardly_ (almost not); _late_ (not on time) / _lately_ (recently).",
+          "note": {
+            "en": "Hardly means almost not: _I hardly know him_ = I know him very little.",
+            "es": "Hardly no es «duramente»: significa «apenas»."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "You look very tiredly today.",
+          "right": "You look very tired today.",
+          "why": {
+            "en": "After look, feel, sound and seem we use an adjective, not an adverb.",
+            "es": "Tras look / feel / sound / seem va adjetivo."
+          }
+        },
+        {
+          "wrong": "These are very importants decisions, and the new rules are not clears.",
+          "right": "These are very important decisions, and the new rules are not clear.",
+          "why": {
+            "en": "Adjectives never take -s, even before or after a plural noun.",
+            "es": "El adjetivo es invariable: no concuerda en plural."
+          }
+        },
+        {
+          "wrong": "He speaks very good English and works hardly.",
+          "right": "He speaks very good English and works hard.",
+          "why": {
+            "en": "Hardly means almost not. The adverb of hard is hard.",
+            "es": "Hardly = apenas. «Trabaja duro» = works hard."
+          }
+        },
+        {
+          "wrong": "She plays the guitar very good.",
+          "right": "She plays the guitar very well.",
+          "why": {
+            "en": "Good is an adjective. The adverb is well.",
+            "es": "Good es adjetivo; el adverbio es well."
+          }
+        },
+        {
+          "wrong": "I speak well English and I like very much the food.",
+          "right": "I speak English well and I like the food very much.",
+          "why": {
+            "en": "Do not put an adverb between the verb and its object.",
+            "es": "No se coloca el adverbio entre verbo y objeto."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "The new manager is friendly, but she seems quite nervous.",
+          "es": "La nueva jefa es amable, pero parece bastante nerviosa."
+        },
+        {
+          "en": "Our flight arrived late because of the storm.",
+          "es": "Nuestro vuelo llegó tarde por la tormenta."
+        },
+        { "en": "That sounds like a sensible plan." },
+        { "en": "He drove carefully along the icy road." },
+        { "en": "She answered the question confidently." },
+        { "en": "I can hardly hear you; the line is terrible." },
+        { "en": "I've been feeling much better lately." },
+        { "en": "They worked hard all week, and the results were excellent." },
+        { "en": "The exam was surprisingly easy." },
+        { "en": "He speaks fast, so I often ask him to slow down." }
+      ],
+      "practice": [
+        {
+          "prompt": "You look ___ after the long flight.",
+          "options": ["tired", "tiredly", "tire"],
+          "answer": 0,
+          "explanation": {
+            "en": "Look is a linking verb here, so it takes an adjective."
+          }
+        },
+        {
+          "prompt": "She plays the piano really ___.",
+          "options": ["good", "well", "goodly"],
+          "answer": 1,
+          "explanation": {
+            "en": "The adverb of good is well."
+          }
+        },
+        {
+          "prompt": "He worked ___ all night to finish the project.",
+          "options": ["hard", "hardly", "harder"],
+          "answer": 0,
+          "explanation": {
+            "en": "Hard is both the adjective and the adverb. Hardly means almost not."
+          }
+        },
+        {
+          "prompt": "I ___ understand what he said; the line was terrible.",
+          "options": ["hard", "hardly", "difficultly"],
+          "answer": 1,
+          "explanation": {
+            "en": "Hardly means almost not, which is the meaning needed here."
+          }
+        },
+        {
+          "prompt": "The manager spoke ___ about the delays.",
+          "options": ["calm", "calmly", "calmness"],
+          "answer": 1,
+          "explanation": {
+            "en": "We need an adverb to describe the verb spoke."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

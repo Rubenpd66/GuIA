@@ -1,0 +1,164 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "gerund-after-prepositions",
+      "level": "B2",
+      "category": "verb-patterns",
+      "order": 140,
+      "references": [
+        { "book": "egu", "unit": 60 },
+        { "book": "egu", "unit": 62 },
+        { "book": "egu", "unit": 63 }
+      ],
+      "title": {
+        "en": "Verbs and expressions followed by -ing after a preposition",
+        "es": "Preposición + -ing"
+      },
+      "summary": {
+        "en": "After a **preposition** the verb is always an **-ing form**: _interested **in learning**_, _before **leaving**_, _without **asking**_, _thank you for **helping**_. This includes the preposition **to** in phrases such as _look forward **to seeing**_ and _be used **to working**_. Some fixed expressions also take **-ing**: _there's no point in_, _it's no use_, _it's worth_, _have difficulty (in)_.",
+        "es": "En español usamos el infinitivo después de una preposición («antes de salir», «sin preguntar»). En inglés es siempre la forma en -ing: _before leaving_, _without asking_. Ojo con **to**: en _look forward to_ es una preposición, así que sigue -ing."
+      },
+      "form": [
+        "Preposition + **-ing**: _by working_, _instead of complaining_, _after finishing_",
+        "Verb + preposition + **-ing**: _insist on paying_, _apologise for being_, _succeed in finding_",
+        "Adjective + preposition + **-ing**: _tired of waiting_, _capable of doing_, _fed up with queuing_",
+        "Fixed expressions: _there's no point in_ / _it's no use_ / _it's worth_ / _have difficulty (in)_ / _spend time_ + **-ing**",
+        "Test for **to**: if you can put a noun or _it_ after it (_I'm looking forward to it_), it is a preposition and takes **-ing**"
+      ],
+      "uses": [
+        {
+          "text": "**After any preposition**: _Check the oven before **leaving**. She got the job by **impressing** the manager._"
+        },
+        {
+          "text": "**After verb + preposition**: _He insisted on **paying**. They're thinking of **moving**. We succeeded in **booking** a table._"
+        },
+        {
+          "text": "**After adjective + preposition**: _I'm tired of **hearing** the same excuse. She's good at **explaining** difficult ideas._"
+        },
+        {
+          "text": "**Phrases with to as a preposition**: _I look forward to **seeing** you. He's not used to **driving** on the left. She objected to **working** at weekends._",
+          "note": {
+            "en": "Compare: _I want to see you_ (to + infinitive) and _I look forward to seeing you_ (preposition + -ing).",
+            "es": "Compara: _I want to see you_ (to + infinitivo) y _I look forward to seeing you_ (preposición + -ing)."
+          }
+        },
+        {
+          "text": "**Fixed expressions**: _There's no point in **arguing**. It's no use **waiting**. It's worth **trying**. We had difficulty **finding** the house._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Before to leave, please sign the register.",
+          "right": "Before leaving, please sign the register.",
+          "why": {
+            "en": "After a preposition we use the -ing form, never to + infinitive.",
+            "es": "Tras una preposición va -ing, no «to + infinitivo» (aunque en español digamos «antes de salir»)."
+          }
+        },
+        {
+          "wrong": "I look forward to see you next week.",
+          "right": "I look forward to seeing you next week.",
+          "why": {
+            "en": "In look forward to, the word to is a preposition, so the verb takes -ing.",
+            "es": "En _look forward to_, **to** es preposición: va seguida de -ing."
+          }
+        },
+        {
+          "wrong": "It's worth to visit the old town.",
+          "right": "It's worth visiting the old town.",
+          "why": {
+            "en": "Worth is followed directly by an -ing form.",
+            "es": "_Worth_ se construye con -ing, sin «to»."
+          }
+        },
+        {
+          "wrong": "She left without to say anything.",
+          "right": "She left without saying anything.",
+          "why": {
+            "en": "Without is a preposition, so it takes -ing.",
+            "es": "«Sin decir nada» se traduce con -ing: _without saying_."
+          }
+        },
+        {
+          "wrong": "We had difficulty to find a taxi.",
+          "right": "We had difficulty finding a taxi.",
+          "why": {
+            "en": "After have difficulty (or trouble) we use -ing, with or without in.",
+            "es": "Tras _have difficulty / trouble_ va -ing, no infinitivo."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "Before signing the contract, read every page carefully.",
+          "es": "Antes de firmar el contrato, lee todas las páginas con atención."
+        },
+        {
+          "en": "He left the party without saying goodbye.",
+          "es": "Se fue de la fiesta sin despedirse."
+        },
+        { "en": "She's interested in training as a physiotherapist." },
+        {
+          "en": "I'm looking forward to seeing my cousins again.",
+          "es": "Tengo ganas de volver a ver a mis primos."
+        },
+        { "en": "They insisted on paying for the whole meal." },
+        {
+          "en": "She apologised for being late and explained what had happened."
+        },
+        {
+          "en": "There's no point in arguing with him; he never changes his mind.",
+          "es": "No tiene sentido discutir con él; nunca cambia de opinión."
+        },
+        { "en": "It's worth booking early if you want a window seat." },
+        { "en": "We had difficulty finding the entrance to the car park." },
+        { "en": "By working evenings, he saved enough for a deposit." },
+        { "en": "I'm fed up with waiting for the bus in the rain." }
+      ],
+      "practice": [
+        {
+          "prompt": "I'm tired of ___ the same answer every day.",
+          "options": ["hearing", "to hear", "hear"],
+          "answer": 0,
+          "explanation": {
+            "en": "Of is a preposition, so the verb takes the -ing form."
+          }
+        },
+        {
+          "prompt": "He walked out of the meeting without ___ a word.",
+          "options": ["to say", "saying", "say"],
+          "answer": 1,
+          "explanation": {
+            "en": "Without is a preposition and is followed by -ing."
+          }
+        },
+        {
+          "prompt": "Is it worth ___ the museum if we only have an hour?",
+          "options": ["to visit", "visit", "visiting"],
+          "answer": 2,
+          "explanation": {
+            "en": "Worth is followed by an -ing form."
+          }
+        },
+        {
+          "prompt": "We had difficulty ___ a parking space near the station.",
+          "options": ["finding", "to find", "find"],
+          "answer": 0,
+          "explanation": {
+            "en": "After have difficulty we use -ing."
+          }
+        },
+        {
+          "prompt": "I'm really looking forward to ___ the new team next month.",
+          "options": ["meet", "meeting", "to meet"],
+          "answer": 1,
+          "explanation": {
+            "en": "In look forward to, to is a preposition, so the verb takes -ing."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "phrasal-verbs-basics",
+      "level": "B2",
+      "category": "phrasal-verbs",
+      "order": 210,
+      "references": [
+        { "book": "egu", "unit": 136 },
+        { "book": "egu", "unit": 137 },
+        { "book": "egu", "unit": 138 },
+        { "book": "egu", "unit": 139 },
+        { "book": "egu", "unit": 140 }
+      ],
+      "title": {
+        "en": "Phrasal verbs: how they work",
+        "es": "Phrasal verbs: cómo funcionan"
+      },
+      "summary": {
+        "en": "A **phrasal verb** is a verb plus a small word (a particle such as _up_, _out_, _off_ or _back_) that together have their own meaning, often different from the verb alone: _give up_ (stop), _turn down_ (refuse), _set off_ (start a journey). Some have no object (_The plane took off._). Others have one, and then you must check whether the verb is **separable** (_switch the light off_ / _switch off the light_) or **inseparable** (_look after the children_). With a pronoun, a separable verb always splits: **switch it off**. They are very common in speech and informal writing; in a formal email you will often choose a one-word verb instead (_postpone_, not _put off_).",
+        "es": "Un phrasal verb es verbo + partícula (up, out, off…) con significado propio, casi nunca la suma literal de las dos partes. Con pronombre, el objeto va en medio: *turn it off*, nunca *turn off it*. Aprende cada verbo como una palabra más, con su significado y su estructura."
+      },
+      "form": [
+        "No object: **verb + particle** (_wake up_, _break down_, _take off_, _grow up_)",
+        "Separable: **verb + object + particle** or **verb + particle + noun** (_call the meeting off_ / _call off the meeting_)",
+        "Separable with a pronoun: **verb + pronoun + particle** only (_call it off_)",
+        "Inseparable: **verb + particle + object**, always together (_run into an old friend_, _get over a cold_)",
+        "Common particles: **up** (finish, increase), **down** (reduce, fail), **out** (disappear, find), **off** (leave, cancel), **on** (continue), **back** (return), **away**",
+        "Passive: the object becomes the subject (_The match was called off._)"
+      ],
+      "uses": [
+        {
+          "text": "**Everyday actions** → _Please turn the music down; I'm trying to study._"
+        },
+        {
+          "text": "**Changing plans** → _They had to call off the wedding at the last minute._"
+        },
+        {
+          "text": "**Starting and stopping** → _She gave up her job and set up her own company._"
+        },
+        {
+          "text": "**Informal speech** → _Can you pick me up at the station?_",
+          "note": {
+            "en": "In Speaking part 4 these verbs make your English sound natural; in a formal email prefer collect, cancel or postpone.",
+            "es": "En Speaking suenan naturales; en un correo formal usa collect, cancel o postpone."
+          }
+        },
+        {
+          "text": "**One verb, several meanings** → _take off_ (a plane leaves the ground; clothes come off; a business becomes successful)."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Please turn off it before you leave.",
+          "right": "Please turn it off before you leave.",
+          "why": {
+            "en": "A pronoun object of a separable phrasal verb goes between the verb and the particle.",
+            "es": "Con pronombre, va en medio: turn it off, pick me up, put them away."
+          }
+        },
+        {
+          "wrong": "I grew in a small village near Valencia.",
+          "right": "I grew up in a small village near Valencia.",
+          "why": {
+            "en": "The meaning of becoming an adult needs the particle; grow alone means to get bigger.",
+            "es": "«Criarse» es grow up; grow solo significa crecer o cultivar."
+          }
+        },
+        {
+          "wrong": "He gave up to smoke last year.",
+          "right": "He gave up smoking last year.",
+          "why": {
+            "en": "Give up is followed by a noun or an -ing form, not to + infinitive.",
+            "es": "Tras give up va -ing: give up smoking."
+          }
+        },
+        {
+          "wrong": "Can you pick up me at the airport?",
+          "right": "Can you pick me up at the airport?",
+          "why": {
+            "en": "Pronouns (me, him, it, them) never come after the particle of a separable verb.",
+            "es": "El pronombre nunca va detrás de la partícula."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "My car broke down on the motorway, so I called a garage.",
+          "es": "Se me estropeó el coche en la autopista, así que llamé a un taller."
+        },
+        {
+          "en": "Our flight took off an hour late because of the fog."
+        },
+        {
+          "en": "I found a wallet in the street and handed it in at the police station.",
+          "es": "Encontré una cartera en la calle y la entregué en la comisaría."
+        },
+        { "en": "Could you put those boxes away before the guests arrive?" },
+        { "en": "She turned down the job because the salary was too low." },
+        { "en": "I ran into my old teacher at the supermarket yesterday." },
+        { "en": "We set off at six to avoid the traffic." },
+        {
+          "en": "He's still getting over the flu, so he isn't working this week."
+        },
+        { "en": "The organisers called off the concert because of the storm." },
+        { "en": "If you don't know a word, look it up in a dictionary." },
+        {
+          "en": "Hold on a moment, I'll check my diary.",
+          "es": "Espera un momento, miro mi agenda."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "Those boxes are in the way. Please ___.",
+          "options": ["put away them", "put them away", "put them in away"],
+          "answer": 1,
+          "explanation": {
+            "en": "A pronoun object of a separable phrasal verb goes between the verb and the particle."
+          }
+        },
+        {
+          "prompt": "I found a wallet outside the cinema, so I ___ at the police station.",
+          "options": ["handed in it", "handed it in", "handed in to it"],
+          "answer": 1,
+          "explanation": {
+            "en": "Hand in is separable, so the pronoun it goes in the middle: handed it in."
+          }
+        },
+        {
+          "prompt": "My old teacher was shopping at the same supermarket yesterday, and I ___ by the fruit stall.",
+          "options": ["ran into her", "ran her into", "ran up her"],
+          "answer": 0,
+          "explanation": {
+            "en": "Run into (meet by chance) is inseparable: the object always follows the particle."
+          }
+        },
+        {
+          "prompt": "My car ___ on the motorway, so we were late for the wedding.",
+          "options": ["broke down it", "was broke down", "broke down"],
+          "answer": 2,
+          "explanation": {
+            "en": "Break down has no object here, so nothing follows the particle."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

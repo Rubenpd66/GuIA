@@ -1,0 +1,151 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "inverted-conditionals",
+      "level": "C1",
+      "category": "conditionals",
+      "order": 80,
+      "references": [],
+      "title": {
+        "en": "Inverted conditionals: Had I known, Should you need, Were it not for",
+        "es": "Condicionales invertidos"
+      },
+      "summary": {
+        "en": "In formal English you can drop _if_ and put the auxiliary first. Three auxiliaries do this: **had** (third conditional), **should** (a possible future event) and **were** (unreal present). _If I had known_ becomes _**Had I known**_; _If you need help_ becomes _**Should you need** help_; _If I were you_ becomes _**Were I** you_. This is different from inversion after negative adverbials: here the trigger is a missing _if_. It is very useful in the formal email of Writing part 4 (_Should you require further details, please contact me_).",
+        "es": "Se quita if y el auxiliar pasa delante del sujeto: Had I known = «de haberlo sabido». Es muy formal y se usa sobre todo por escrito."
+      },
+      "form": [
+        "**Had** + subject + past participle, **would have** + past participle (= if + past perfect)",
+        "**Should** + subject + base verb, imperative / will / can (= if + present, an unlikely or polite possibility)",
+        "**Were** + subject + **to** + infinitive, **would** + infinitive (= if + past simple); **Were** + subject + adjective / noun",
+        "Negative: **not** goes after the subject: _Had I **not** left_, never _Hadn't I left_",
+        "**Had it not been for / Were it not for** + noun = _if it hadn't been for / if it weren't for_"
+      ],
+      "uses": [
+        {
+          "text": "**Formal letters and emails**: _Should you wish to cancel, please let us know by Friday._"
+        },
+        {
+          "text": "**Regret about the past**: _Had I realised how late it was, I would have called a taxi._"
+        },
+        {
+          "text": "**Unreal present in careful speech or writing**: _Were I in your position, I would accept the offer._"
+        },
+        {
+          "text": "**Saying that something depended on one factor**: _Were it not for the volunteers, the festival would not happen._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Had I knew about the delay, I would have booked another flight.",
+          "right": "Had I known about the delay, I would have booked another flight.",
+          "why": {
+            "en": "Had here is the auxiliary of the past perfect, so the verb needs a past participle.",
+            "es": "Had es el auxiliar de «hubiera»: después va el participio (known)."
+          }
+        },
+        {
+          "wrong": "Hadn't I taken the map, we would have got lost.",
+          "right": "Had I not taken the map, we would have got lost.",
+          "why": {
+            "en": "In inverted conditionals the negative is not contracted: not follows the subject.",
+            "es": "No se contrae: Had I not…, nunca Hadn't I…"
+          }
+        },
+        {
+          "wrong": "Should you will need help, call me.",
+          "right": "Should you need help, please call me.",
+          "why": {
+            "en": "After should (= if), the verb is the base form, without will.",
+            "es": "Tras should va el infinitivo sin to ni will."
+          }
+        },
+        {
+          "wrong": "Was I in your position, I would think twice.",
+          "right": "Were I in your position, I would think twice.",
+          "why": {
+            "en": "The inverted form of the unreal present uses were for every person.",
+            "es": "En esta estructura se usa siempre were, incluso con I."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "Had I known about the strike, I would have driven to work." },
+        {
+          "en": "Had the train been on time, we would have made the meeting.",
+          "es": "Si el tren hubiera llegado a su hora, habríamos llegado a la reunión."
+        },
+        {
+          "en": "Had she not accepted the offer, she would still be unemployed."
+        },
+        {
+          "en": "Should you require further information, please do not hesitate to contact us.",
+          "es": "Si necesita más información, no dude en ponerse en contacto con nosotros."
+        },
+        {
+          "en": "Should the weather turn bad, the ceremony will be held indoors."
+        },
+        {
+          "en": "Were I in your position, I would think twice before signing."
+        },
+        {
+          "en": "Were the company to move abroad, hundreds of jobs would be lost."
+        },
+        {
+          "en": "Were it not for her experience, the project would be in serious trouble.",
+          "es": "Si no fuera por su experiencia, el proyecto estaría en serios apuros."
+        },
+        {
+          "en": "Had it not been for the rain, we would have had a perfect weekend."
+        },
+        {
+          "en": "Should you change your mind, the offer will remain open until May."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "___ the train been on time, we would have made the meeting.",
+          "options": ["Had", "Would", "Has"],
+          "answer": 0,
+          "explanation": {
+            "en": "Had + subject + past participle replaces if the train had been on time."
+          }
+        },
+        {
+          "prompt": "___ you need any further information, please contact our office.",
+          "options": ["Should", "Would", "Do"],
+          "answer": 0,
+          "explanation": {
+            "en": "Should + subject + base verb is the formal way to say if you need."
+          }
+        },
+        {
+          "prompt": "Had I ___ about the strike, I would have driven instead.",
+          "options": ["known", "know", "knew"],
+          "answer": 0,
+          "explanation": {
+            "en": "Had needs a past participle: known."
+          }
+        },
+        {
+          "prompt": "Had it ___ for the rain, we would have had a perfect weekend.",
+          "options": ["not been", "been not", "not"],
+          "answer": 0,
+          "explanation": {
+            "en": "The fixed pattern is Had it not been for + noun."
+          }
+        },
+        {
+          "prompt": "___ I in your position, I would think twice before signing.",
+          "options": ["Were", "Was", "Had"],
+          "answer": 0,
+          "explanation": {
+            "en": "The inverted unreal present uses were."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

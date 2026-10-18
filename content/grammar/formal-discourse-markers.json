@@ -1,0 +1,155 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "formal-discourse-markers",
+      "level": "C1",
+      "category": "linking",
+      "order": 120,
+      "references": [],
+      "title": {
+        "en": "Formal discourse markers",
+        "es": "Conectores formales"
+      },
+      "summary": {
+        "en": "Formal writing and careful speech use more precise linkers than _but_, _so_ and _also_. For **contrast** use _nevertheless_ or _nonetheless_; for **result** use _consequently_ or _as a result_; for **addition** use _furthermore_ or _moreover_. _Thereby_ + -ing shows a result in the same clause, while _notwithstanding_ and _in light of_ are followed by a noun. Most linkers start a new sentence (or follow a semicolon) and take a comma afterwards. They are a strong choice in the formal email of Writing part 4, but they sound stiff in casual talk.",
+        "es": "Son los equivalentes formales de but, so y also. Casi todos empiezan frase (o van tras punto y coma) y llevan coma después."
+      },
+      "form": [
+        "Contrast: **Nevertheless, / Nonetheless, / However,** + clause (new sentence or after a semicolon)",
+        "Result: **Consequently, / As a result, / Therefore, / Thus** + clause",
+        "Result in the same clause: clause, **thereby** + -ing (_thereby reducing costs_)",
+        "Addition: **Furthermore, / Moreover, / In addition,** + clause",
+        "**Notwithstanding** + noun (= in spite of); can follow the noun: _the delays notwithstanding_",
+        "**In light of / In view of** + noun, or **in light of the fact that** + clause (= considering)",
+        "Punctuation: full stop or semicolon before the linker, comma after it; never a comma alone to join two clauses"
+      ],
+      "uses": [
+        {
+          "text": "**Contrasting a problem with a positive point in a formal email**: _The room was small. Nevertheless, the staff were exceptionally helpful._"
+        },
+        {
+          "text": "**Explaining consequences clearly**: _Several trains were cancelled. Consequently, many commuters arrived late._"
+        },
+        {
+          "text": "**Building an argument point by point**: _The scheme is affordable; furthermore, it is easy to maintain._"
+        },
+        {
+          "text": "**Justifying a decision**: _In light of the recent complaints, the council has decided to review its policy._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "The service was slow, nevertheless the food was excellent.",
+          "right": "The service was slow. Nevertheless, the food was excellent.",
+          "why": {
+            "en": "Nevertheless is not a conjunction: it needs a full stop or semicolon before it and a comma after it.",
+            "es": "No une dos frases solo con coma; antes va punto o punto y coma."
+          }
+        },
+        {
+          "wrong": "The company reduced its prices, thereby to attract more customers.",
+          "right": "The company reduced its prices, thereby attracting more customers.",
+          "why": {
+            "en": "Thereby is followed by an -ing form.",
+            "es": "Después de thereby va el gerundio (-ing)."
+          }
+        },
+        {
+          "wrong": "In light of that the figures fell, we changed our plans.",
+          "right": "In light of the fall in the figures, we changed our plans.",
+          "why": {
+            "en": "In light of is followed by a noun phrase; for a clause use in light of the fact that.",
+            "es": "Tras in light of va un nombre, no un verbo conjugado."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tickets were expensive; nevertheless, the show was well worth the price."
+        },
+        {
+          "en": "The flat is small. Nonetheless, its location makes it very attractive.",
+          "es": "El piso es pequeño. Aun así, su ubicación lo hace muy atractivo."
+        },
+        {
+          "en": "Several trains were cancelled. Consequently, many commuters arrived late."
+        },
+        {
+          "en": "The factory installed solar panels, thereby cutting its energy bills by a third."
+        },
+        {
+          "en": "The proposal is sound; furthermore, it is cheaper than the alternative."
+        },
+        {
+          "en": "Furthermore, I would be grateful if you could confirm the date in writing.",
+          "es": "Además, le agradecería que confirmara la fecha por escrito."
+        },
+        {
+          "en": "Notwithstanding the delays, the project was completed on schedule."
+        },
+        {
+          "en": "In light of the recent complaints, the council has decided to review its policy.",
+          "es": "A la vista de las quejas recientes, el ayuntamiento ha decidido revisar su política."
+        },
+        {
+          "en": "In view of the weather forecast, we regret to inform you that the event is cancelled."
+        },
+        {
+          "en": "The results were disappointing. Moreover, the cost of the trial was far higher than expected."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "The tickets were expensive; ___, the show was well worth the price.",
+          "options": ["nevertheless", "consequently", "furthermore"],
+          "answer": 0,
+          "explanation": {
+            "en": "Expensive tickets and a worthwhile show are in contrast, so use nevertheless."
+          }
+        },
+        {
+          "prompt": "The factory installed solar panels, ___ its energy bills by a third.",
+          "options": ["thereby cutting", "thereby cut", "thereby to cut"],
+          "answer": 0,
+          "explanation": {
+            "en": "Thereby is followed by an -ing form."
+          }
+        },
+        {
+          "prompt": "___ the recent complaints, the council has decided to review its policy.",
+          "options": ["In light of", "In case of", "On behalf of"],
+          "answer": 0,
+          "explanation": {
+            "en": "In light of + noun means considering something that has happened."
+          }
+        },
+        {
+          "prompt": "Several trains were cancelled. ___, many commuters arrived late.",
+          "options": ["Consequently", "Nevertheless", "Notwithstanding"],
+          "answer": 0,
+          "explanation": {
+            "en": "Late arrival is the result of the cancellations: consequently. Notwithstanding needs a noun."
+          }
+        },
+        {
+          "prompt": "The proposal is sound; ___, it is cheaper than the alternative.",
+          "options": ["furthermore", "nevertheless", "consequently"],
+          "answer": 0,
+          "explanation": {
+            "en": "A second advantage is added, so use furthermore."
+          }
+        },
+        {
+          "prompt": "___ the delays, the project was completed on schedule.",
+          "options": ["Notwithstanding", "Consequently", "Thereby"],
+          "answer": 0,
+          "explanation": {
+            "en": "Notwithstanding + noun means in spite of."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

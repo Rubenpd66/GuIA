@@ -1,0 +1,161 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "ellipsis-and-substitution",
+      "level": "C1",
+      "category": "linking",
+      "order": 110,
+      "references": [],
+      "title": {
+        "en": "Ellipsis and substitution",
+        "es": "Elipsis y sustitución"
+      },
+      "summary": {
+        "en": "Fluent English avoids repeating words that are already clear. **Substitution** replaces them with a short word: _I think **so**_, _he did **so**_, _the red **one**_. **Ellipsis** leaves them out altogether: _She can swim, but I **can't**._ _I'd love **to**._ Spanish speakers often repeat the verb or translate _creo que sí_ word by word, so these short forms are a quick way to sound more natural in Speaking parts 2 to 4 and to keep your writing tight.",
+        "es": "En inglés no se repite lo ya dicho: se usa so, not, one(s), do so o se deja solo el auxiliar o to. No se dice «I think yes» sino I think so."
+      },
+      "form": [
+        "**so / not** after _think, hope, expect, suppose, believe, be afraid_: _I hope so_ / _I hope not_",
+        "Negative with think / believe / expect: _I don't think so_ (not _I think not_ in everyday speech)",
+        "**do so** (formal) replaces a verb phrase: _They were told to leave and did so at once._",
+        "**one / ones** replace a countable noun: _the blue one_, _which ones?_ (not for uncountable nouns)",
+        "Ellipsis after an **auxiliary or modal**: _She has finished, but I haven't._",
+        "Ellipsis after **to**: _You can come if you want to._ _I'd love to._"
+      ],
+      "uses": [
+        {
+          "text": "**Short answers that sound natural**: _'Is it open on Sundays?' 'I'm afraid not.'_"
+        },
+        {
+          "text": "**Avoiding repetition in formal writing**: _We asked the tenants to vacate the building, and they did so within a week._"
+        },
+        {
+          "text": "**Choosing between things without naming them again**: _I prefer the cheaper ones._"
+        },
+        {
+          "text": "**Comparing people or actions**: _My sister loves flying, but I don't._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "'Is he coming?' 'I think yes.'",
+          "right": "'Is he coming?' 'I think so.'",
+          "why": {
+            "en": "After think, hope or expect, use so (or not), never yes or no.",
+            "es": "«Creo que sí» = I think so."
+          }
+        },
+        {
+          "wrong": "'Is it going to rain?' 'I don't hope so.'",
+          "right": "'Is it going to rain?' 'I hope not.'",
+          "why": {
+            "en": "Hope takes not for the negative, not don't hope so.",
+            "es": "«Espero que no» = I hope not."
+          }
+        },
+        {
+          "wrong": "I like this jacket, but I prefer the grey.",
+          "right": "I like this jacket, but I prefer the grey one.",
+          "why": {
+            "en": "An adjective cannot stand alone for a countable noun; add one or ones.",
+            "es": "Hace falta one(s) para sustituir al nombre."
+          }
+        },
+        {
+          "wrong": "'Do you want to come?' 'Yes, I want.'",
+          "right": "'Do you want to come?' 'Yes, I'd love to.'",
+          "why": {
+            "en": "Want and love need an object or to; with ellipsis, the short form ends with to.",
+            "es": "Después de want o love hay que terminar con to."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "'Will the strike go ahead?' 'I don't think so, but the union hasn't confirmed it.'"
+        },
+        {
+          "en": "'Is the shop open on Sundays?' 'I'm afraid not.'"
+        },
+        {
+          "en": "We asked the tenants to move out, and they did so within a week.",
+          "es": "Pedimos a los inquilinos que se fueran y lo hicieron en una semana."
+        },
+        {
+          "en": "Which trainers do you prefer, the black ones or the white ones?"
+        },
+        {
+          "en": "I haven't booked a table, but my sister has.",
+          "es": "Yo no he reservado mesa, pero mi hermana sí."
+        },
+        {
+          "en": "She said she would call, and she did."
+        },
+        {
+          "en": "'Are you coming to the talk?' 'I'd love to, but I have a meeting.'"
+        },
+        {
+          "en": "He doesn't earn much, but he could if he wanted to."
+        },
+        {
+          "en": "He didn't apologise, though I think he should have."
+        },
+        {
+          "en": "Some students prefer to work alone; others, in groups."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "'Will the museum be open on Monday?' 'I'm afraid ___.'",
+          "options": ["not", "no", "not so"],
+          "answer": 0,
+          "explanation": {
+            "en": "I'm afraid not is the fixed short answer; no and not so do not work."
+          }
+        },
+        {
+          "prompt": "I don't like the red curtains. I prefer the green ___.",
+          "options": ["ones", "one", "them"],
+          "answer": 0,
+          "explanation": {
+            "en": "Curtains is plural, so the substitute is ones."
+          }
+        },
+        {
+          "prompt": "He promised to send the files, and he ___ by the next morning.",
+          "options": ["did so", "so did", "did it so"],
+          "answer": 0,
+          "explanation": {
+            "en": "Did so replaces the verb phrase sent the files."
+          }
+        },
+        {
+          "prompt": "'Do you want to join us?' 'Yes, I'd love ___.'",
+          "options": ["to", "go", "for"],
+          "answer": 0,
+          "explanation": {
+            "en": "After love, the infinitive can be shortened to to."
+          }
+        },
+        {
+          "prompt": "'Has the report been finished?' 'I hope ___, because the boss wants it today.'",
+          "options": ["so", "it", "yes"],
+          "answer": 0,
+          "explanation": {
+            "en": "After hope, use so to replace the whole clause."
+          }
+        },
+        {
+          "prompt": "I haven't seen that film, but my brother ___.",
+          "options": ["has", "does", "is"],
+          "answer": 0,
+          "explanation": {
+            "en": "The auxiliary of the first clause (have) is repeated alone."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

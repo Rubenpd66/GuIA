@@ -1,0 +1,155 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "present-perfect-basics",
+      "level": "A2",
+      "category": "tenses",
+      "order": 80,
+      "references": [
+        { "book": "egu", "unit": 7 },
+        { "book": "egu", "unit": 8 }
+      ],
+      "title": {
+        "en": "Present perfect: form and basic uses",
+        "es": "Present perfect: formación y usos básicos"
+      },
+      "summary": {
+        "en": "Build the **present perfect** with **have / has + past participle**. Use it for experiences up to now (_I've never tried sushi_), for recent news with a result now (_She's lost her phone_), and with **just, already, yet, ever, never, for** and **since**. Learn the irregular participles (_been, gone, seen, done, written_): the past simple form is often different (_went / gone_).",
+        "es": "Se forma con have/has + participio, y es el tiempo que más se confunde con el pretérito indefinido español. Aquí solo la forma y los usos básicos; la comparación con el past simple está en otra lección."
+      },
+      "form": [
+        "Positive: **have / has + past participle**: _I've finished. She's arrived._",
+        "Negative: **haven't / hasn't + past participle**: _We haven't decided._",
+        "Question: **Have / Has + subject + past participle?**: _Have you seen the news?_",
+        "Short answers: _Yes, I have. / No, she hasn't._",
+        "Regular participle = past simple (**-ed**); irregular participles must be learnt: _go → gone, see → seen, write → written, eat → eaten_",
+        "**been** (went and came back) / **gone** (is still there): _I've been to Rome. He's gone to Rome._"
+      ],
+      "uses": [
+        {
+          "text": "**Life experience** → ever / never: _Have you ever worked abroad?_ _I've never driven a lorry._"
+        },
+        {
+          "text": "**Recent action with a result now** → just / already: _I've just spoken to the manager._ _They've already left._"
+        },
+        {
+          "text": "**Expected action** → yet (questions and negatives): _Has the parcel arrived yet?_ _I haven't paid yet._",
+          "note": {
+            "en": "Yet goes at the end of the sentence. Already goes between have and the participle.",
+            "es": "Yet va al final; already, entre have y el participio."
+          }
+        },
+        {
+          "text": "**Situation continuing now** → for / since: _I've known her for ten years._ _We've lived here since March._"
+        },
+        {
+          "text": "**Changes** → _My English has improved._ _Prices have gone up._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I have went to the dentist twice this month.",
+          "right": "I have been to the dentist twice this month. / I went to the dentist twice this month.",
+          "why": {
+            "en": "Went is the past simple. The present perfect needs the past participle: gone or been.",
+            "es": "Have went no existe: el participio de go es gone (been si ya has vuelto)."
+          }
+        },
+        {
+          "wrong": "Did you ever be to London?",
+          "right": "Have you ever been to London?",
+          "why": {
+            "en": "Experience up to now takes the present perfect, with have and the participle been.",
+            "es": "«¿Has estado alguna vez…?» = Have you ever been…?"
+          }
+        },
+        {
+          "wrong": "She has finish her homework, and I haven't see the film.",
+          "right": "She has finished her homework, and I haven't seen the film.",
+          "why": {
+            "en": "After have/has we need the past participle, not the base form.",
+            "es": "Tras have/has va el participio, no el infinitivo."
+          }
+        },
+        {
+          "wrong": "I haven't finished the report already.",
+          "right": "I haven't finished the report yet.",
+          "why": {
+            "en": "In negatives we use yet at the end, not already.",
+            "es": "«Todavía no» = not yet."
+          }
+        },
+        {
+          "wrong": "I know her since 2015 and I am here for two hours.",
+          "right": "I've known her since 2015 and I've been here for two hours.",
+          "why": {
+            "en": "A situation that started in the past and continues now takes the present perfect.",
+            "es": "«La conozco desde» y «estoy aquí desde hace» llevan present perfect."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I've never tried skiing, but I'd love to.",
+          "es": "Nunca he probado el esquí, pero me encantaría."
+        },
+        {
+          "en": "Has the manager arrived yet?",
+          "es": "¿Ha llegado ya el director?"
+        },
+        { "en": "We've already booked the hotel for the conference." },
+        { "en": "She hasn't answered my email yet." },
+        { "en": "I've just heard some great news." },
+        { "en": "They've lived in Bilbao for six years." },
+        { "en": "Have you ever been to Scotland?" },
+        { "en": "He's gone to the bank; he'll be back in ten minutes." },
+        { "en": "My computer has stopped working again." },
+        { "en": "How long have you been a member of the gym?" }
+      ],
+      "practice": [
+        {
+          "prompt": "I've never ___ a marathon, but I'd like to.",
+          "options": ["run", "ran", "runned"],
+          "answer": 0,
+          "explanation": {
+            "en": "The participle of run is run; ran is the past simple."
+          }
+        },
+        {
+          "prompt": "We haven't decided where to go ___.",
+          "options": ["yet", "already", "ever"],
+          "answer": 0,
+          "explanation": {
+            "en": "In a negative sentence, yet means up to now and goes at the end."
+          }
+        },
+        {
+          "prompt": "I've ___ to Lisbon twice, and I loved it.",
+          "options": ["been", "gone", "went"],
+          "answer": 0,
+          "explanation": {
+            "en": "Been means you went and came back; gone would mean you are still there."
+          }
+        },
+        {
+          "prompt": "We've known each other ___ 2015.",
+          "options": ["for", "since", "from"],
+          "answer": 1,
+          "explanation": {
+            "en": "Since is used with a starting point in time; for is used with a period."
+          }
+        },
+        {
+          "prompt": "Have you ___ the new series? Everyone is talking about it.",
+          "options": ["see", "saw", "seen"],
+          "answer": 2,
+          "explanation": {
+            "en": "After have we need the past participle: seen."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

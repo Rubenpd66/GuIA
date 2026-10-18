@@ -1,0 +1,156 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "possessives-and-reflexives",
+      "level": "A2",
+      "category": "pronouns-determiners",
+      "order": 30,
+      "references": [
+        { "book": "egu", "unit": 81 },
+        { "book": "egu", "unit": 82 },
+        { "book": "egu", "unit": 83 }
+      ],
+      "title": {
+        "en": "Possessives and reflexive pronouns",
+        "es": "Posesivos y pronombres reflexivos"
+      },
+      "summary": {
+        "en": "**My, your, his, her…** go before a noun and agree with the **owner**, not with the thing: _Sara loves her job_, _Tom loves his job_. **Mine, yours, hers…** stand alone: _That coat is mine._ Use **'s** for people and **of** for things: _my manager's office_, _the end of the film_. **Myself, themselves…** are used only when the subject and object are the same person; English also uses **my** (not _the_) with body parts and clothes.",
+        "es": "My/his/her concuerdan con el poseedor, no con la cosa. Y no uses el artículo con partes del cuerpo: «me lavo las manos» = I wash my hands. Muchos verbos reflexivos en español (levantarse, ducharse) no llevan reflexivo en inglés."
+      },
+      "form": [
+        "Determiners: **my, your, his, her, its, our, their** + noun (no article before them)",
+        "Pronouns: **mine, yours, his, hers, ours, theirs** (no noun after them)",
+        "**'s** with people: _Ana's brother_, _my parents' house_; **of** with things: _the door of the car_",
+        "**a friend of mine / yours / his** (one of several friends)",
+        "Reflexives: **myself, yourself, himself, herself, itself, ourselves, yourselves, themselves**",
+        "**each other** = one another (a reciprocal action)"
+      ],
+      "uses": [
+        {
+          "text": "**Possession** → determiner or 's: _Where is your passport?_ _That's Clara's laptop._"
+        },
+        {
+          "text": "**Without a noun** → mine, yours…: _Is this pen yours?_ _No, mine is blue._"
+        },
+        {
+          "text": "**Subject = object** → reflexive: _She taught herself Italian._ _We enjoyed ourselves._",
+          "note": {
+            "en": "Compare _They hurt themselves_ (each one hurt himself) with _They hurt each other_ (A hurt B and B hurt A).",
+            "es": "Themselves = cada uno a sí mismo; each other = el uno al otro."
+          }
+        },
+        {
+          "text": "**Emphasis** → reflexive after the noun: _The director herself answered the phone._ _I did it myself._ **By myself** = alone."
+        },
+        {
+          "text": "**Body parts and clothes** → possessive: _He broke his arm._ _Put your coat on._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Sara forgot his umbrella at the office.",
+          "right": "Sara forgot her umbrella at the office.",
+          "why": {
+            "en": "The possessive agrees with the owner (Sara = her), not with the object.",
+            "es": "Concuerda con el poseedor: Sara → her; no con el paparaguas."
+          }
+        },
+        {
+          "wrong": "I washed the hands and brushed the teeth.",
+          "right": "I washed my hands and brushed my teeth.",
+          "why": {
+            "en": "Use a possessive with body parts, not the.",
+            "es": "Con partes del cuerpo se usa my/your…, no the."
+          }
+        },
+        {
+          "wrong": "A colleague of me recommended this book.",
+          "right": "A colleague of mine recommended this book.",
+          "why": {
+            "en": "After of, use the possessive pronoun (mine), not the object pronoun.",
+            "es": "«Un compañero mío» = a colleague of mine."
+          }
+        },
+        {
+          "wrong": "I feel myself tired, so I will relax myself at home.",
+          "right": "I feel tired, so I will relax at home.",
+          "why": {
+            "en": "Many verbs that are reflexive in Spanish are not reflexive in English: get up, wash, shave, relax, feel.",
+            "es": "Levantarse, ducharse, afeitarse, relajarse, sentirse: sin reflexivo en inglés."
+          }
+        },
+        {
+          "wrong": "The car of my father is in the garage.",
+          "right": "My father's car is in the garage.",
+          "why": {
+            "en": "With people, 's is usual: the owner comes first, then 's, then the thing.",
+            "es": "«El coche de mi padre» = my father's car; no se invierte con of."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "My manager has asked me to rewrite my report by Friday.",
+          "es": "Mi jefa me ha pedido que reescriba mi informe para el viernes."
+        },
+        {
+          "en": "I'm not sure whose keys these are. Are they yours?",
+          "es": "No sé de quién son estas llaves. ¿Son tuyas?"
+        },
+        { "en": "The company has changed its name twice in five years." },
+        { "en": "Our neighbours' dog barks all night." },
+        { "en": "She taught herself to code during lockdown." },
+        { "en": "You can't blame anyone but yourself." },
+        { "en": "They've known each other since secondary school." },
+        { "en": "He cut himself while he was chopping onions." },
+        { "en": "Can I borrow your charger? Mine has stopped working." },
+        { "en": "I'd rather do it myself than wait for someone else." }
+      ],
+      "practice": [
+        {
+          "prompt": "Sara forgot ___ umbrella, so she got soaked.",
+          "options": ["his", "her", "their"],
+          "answer": 1,
+          "explanation": {
+            "en": "The possessive agrees with the owner, Sara, who is a woman: her."
+          }
+        },
+        {
+          "prompt": "Don't worry about us. We can look after ___.",
+          "options": ["us", "ourselves", "each other"],
+          "answer": 1,
+          "explanation": {
+            "en": "Subject and object are the same people (we), so we use ourselves."
+          }
+        },
+        {
+          "prompt": "Tom and Ana have known ___ since university.",
+          "options": ["themselves", "each other", "them"],
+          "answer": 1,
+          "explanation": {
+            "en": "Each knows the other: a reciprocal action takes each other."
+          }
+        },
+        {
+          "prompt": "That isn't your pen. It's ___.",
+          "options": ["my", "mine", "me"],
+          "answer": 1,
+          "explanation": {
+            "en": "There is no noun after the gap, so we need the pronoun mine."
+          }
+        },
+        {
+          "prompt": "I washed ___ hands before dinner.",
+          "options": ["the", "my", "mine"],
+          "answer": 1,
+          "explanation": {
+            "en": "Body parts take a possessive determiner, not the."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

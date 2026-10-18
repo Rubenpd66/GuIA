@@ -1,0 +1,152 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "degree-modifiers",
+      "level": "C1",
+      "category": "adjectives-adverbs",
+      "order": 60,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 104
+        }
+      ],
+      "title": {
+        "en": "Degree modifiers: quite, rather, fairly, absolutely",
+        "es": "Modificadores de grado: quite, rather, fairly, absolutely"
+      },
+      "summary": {
+        "en": "Modifiers change how strong an adjective or adverb is. **Gradable** adjectives (_good, tired, cold, expensive_) accept _very, extremely, really, fairly, quite, pretty, rather, slightly, a bit_. **Extreme or ungradable** adjectives (_fantastic, exhausted, freezing, impossible, perfect_) do not take _very_; use _absolutely, completely, utterly, totally_ or _really_. **Quite** is tricky: with gradable words it means 'to a moderate degree' in British English (_quite good_), but with extreme words it means 'completely' (_quite impossible_). _Rather_ often suggests more than expected or something negative (_rather expensive_), and _pretty_ is informal. For comparatives use _much, far, a lot, slightly, a bit_, never _very_. These choices make your tone precise, which matters in Speaking part 4 and in formal writing.",
+        "es": "**Very** solo con adjetivos graduables; con los extremos (agotado, helado, imposible) usa absolutely o completely. Para comparativos usa much / far, no *very better*. Ojo: quite no es «quitar», sino «bastante» o «del todo»."
+      },
+      "form": [
+        "Gradable adjective: **fairly / quite / pretty / rather / very / extremely + adjective**",
+        "Extreme adjective: **absolutely / completely / utterly / totally / really + adjective**",
+        "Comparatives: **much / far / a lot / slightly / a bit + comparative** (_much cheaper_)",
+        "Too: **far / much too + adjective** (not _too much_ before an adjective)",
+        "Word order with nouns: **quite a** / **rather a** + adjective + noun, or **a** + **quite / rather** + adjective + noun (_quite a nice day_, _a rather nice day_)",
+        "Informal: _pretty good_, _a bit tired_; formal: _somewhat disappointed_, _rather concerned_"
+      ],
+      "uses": [
+        {
+          "text": "**Moderate degree** → _The hotel was fairly cheap, but quite far from the centre._"
+        },
+        {
+          "text": "**Strong feeling with extreme adjectives** → _The view from the top was absolutely breathtaking._"
+        },
+        {
+          "text": "**Complaining politely** → _I was rather disappointed with the service._",
+          "note": {
+            "en": "Rather and somewhat soften a complaint in a formal email while still making it clear.",
+            "es": "Rather y somewhat suavizan una queja en un correo formal."
+          }
+        },
+        {
+          "text": "**Comparing** → _My new flat is much bigger than the old one._"
+        },
+        {
+          "text": "**Quite a + noun** → _That was quite a surprise._ (meaning a big surprise)"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "The view from the top was very magnificent.",
+          "right": "The view from the top was absolutely magnificent.",
+          "why": {
+            "en": "Magnificent is already extreme, so use absolutely or really, not very.",
+            "es": "Magnificent ya es extremo: absolutely o really, no very."
+          }
+        },
+        {
+          "wrong": "My new job is very better than the old one.",
+          "right": "My new job is much better than the old one.",
+          "why": {
+            "en": "Very does not modify comparatives; use much, far or a lot.",
+            "es": "Muy mejor se dice much better."
+          }
+        },
+        {
+          "wrong": "That was a quite surprise.",
+          "right": "That was quite a surprise.",
+          "why": {
+            "en": "With a noun alone, the order is quite a + noun.",
+            "es": "Sin adjetivo, el orden es quite a + sustantivo."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "The film was fairly entertaining, but it went on a bit too long."
+        },
+        {
+          "en": "It was absolutely freezing in the tent, so nobody slept.",
+          "es": "Hacía un frío helador en la tienda, así que nadie durmió."
+        },
+        {
+          "en": "I thought the exam was quite difficult, but most students passed."
+        },
+        {
+          "en": "It is quite impossible to park here on Saturdays.",
+          "es": "Es del todo imposible aparcar aquí los sábados."
+        },
+        {
+          "en": "We were rather surprised to hear the price had doubled."
+        },
+        {
+          "en": "The new menu is a lot cheaper than the old one."
+        },
+        {
+          "en": "That was quite a surprise; nobody expected her to resign."
+        },
+        {
+          "en": "He was completely exhausted after the long journey."
+        },
+        {
+          "en": "The rucksack is far too heavy for a child to carry."
+        },
+        {
+          "en": "I'm pretty tired, so I think I'll go to bed early."
+        },
+        {
+          "en": "We were somewhat disappointed with the quality of the room."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "It's ___ impossible to park here on Saturdays.",
+          "options": ["very", "fairly", "absolutely"],
+          "answer": 2,
+          "explanation": {
+            "en": "Impossible is an extreme adjective, so it takes absolutely."
+          }
+        },
+        {
+          "prompt": "My new flat is ___ bigger than the old one.",
+          "options": ["quite", "much", "very"],
+          "answer": 1,
+          "explanation": {
+            "en": "Comparatives take much, far or a lot, not very or quite."
+          }
+        },
+        {
+          "prompt": "That was ___ surprise: nobody expected her to resign.",
+          "options": ["a quite", "quite", "quite a"],
+          "answer": 2,
+          "explanation": {
+            "en": "The order is quite a + noun."
+          }
+        },
+        {
+          "prompt": "The rucksack is ___ heavy for a child to carry.",
+          "options": ["very too", "far too", "too much"],
+          "answer": 1,
+          "explanation": {
+            "en": "Use far too (or much too) before an adjective; too much goes before nouns."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

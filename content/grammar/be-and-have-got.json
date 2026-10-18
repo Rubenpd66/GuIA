@@ -1,0 +1,143 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "be-and-have-got",
+      "level": "A2",
+      "category": "tenses",
+      "order": 10,
+      "references": [{ "book": "egu", "unit": 17 }],
+      "title": {
+        "en": "Be, have and have got",
+        "es": "Be, have y have got"
+      },
+      "summary": {
+        "en": "English uses **be** where Spanish uses _tener_ or _hacer_ for age, feelings and weather: _I'm 25_, _I'm cold_, _It's windy_. Use **have got** (or **have**) for possession, family and illness, but **have** alone for actions: _have breakfast_, _have a shower_, _have a meeting_. Every sentence needs a subject, and **people** is plural.",
+        "es": "«Tengo 25 años», «tengo frío», «tengo hambre» llevan be en inglés: I'm 25, I'm cold, I'm hungry. Y people es plural: People are, nunca People is."
+      },
+      "form": [
+        "**be**: _I am / you are / he, she, it is / we, you, they are_; past _was / were_",
+        "**have got** (possession): _I've got / she's got_; questions _Have you got…?_; negatives _I haven't got…_",
+        "**have** (possession, formal or American): _Do you have…?_ _I don't have…_",
+        "**have** (actions, no got): _have lunch, have a look, have a good time_; questions and negatives with _do_",
+        "Past of possession: _had_ (not _had got_): _We had a small flat in Leeds._"
+      ],
+      "uses": [
+        {
+          "text": "**Age, feelings, physical state** → be: _He's thirty-two._ _I'm hungry._ _We were very tired._",
+          "note": {
+            "en": "Also: be right / wrong, be afraid, be in a hurry, be hot / cold.",
+            "es": "También: tener razón = be right, tener miedo = be afraid, tener prisa = be in a hurry."
+          }
+        },
+        {
+          "text": "**Weather and time** → it + be: _It's raining._ _It's half past six._ _It's very hot today._"
+        },
+        {
+          "text": "**Possession, relationships, health** → have got (British, everyday): _She's got two brothers._ _I've got a headache._"
+        },
+        {
+          "text": "**Actions and experiences** → have, never have got: _We have dinner at nine._ _Did you have a good flight?_"
+        },
+        {
+          "text": "**Plural subjects**: _people_, _the police_ and _staff_ take a plural verb: _People are tired of waiting._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I have 25 years.",
+          "right": "I'm 25 (years old).",
+          "why": {
+            "en": "Age uses be, never have.",
+            "es": "La edad lleva be: I am 25. Es el error más repetido de los hispanohablantes."
+          }
+        },
+        {
+          "wrong": "I have hungry, and my sister has cold.",
+          "right": "I'm hungry, and my sister is cold.",
+          "why": {
+            "en": "Feelings and physical states take be + adjective.",
+            "es": "Hambre, frío, calor, sed y sueño: be + adjetivo (I'm hungry / cold / thirsty / sleepy)."
+          }
+        },
+        {
+          "wrong": "People is very worried about prices.",
+          "right": "People are very worried about prices.",
+          "why": {
+            "en": "People is a plural noun, so it takes are.",
+            "es": "«La gente» es singular en español, pero people es plural en inglés."
+          }
+        },
+        {
+          "wrong": "Is raining and is very cold.",
+          "right": "It's raining and it's very cold.",
+          "why": {
+            "en": "English sentences need a subject; use it for weather.",
+            "es": "No se puede omitir el sujeto: it's raining."
+          }
+        },
+        {
+          "wrong": "Do you have got a pen I could borrow?",
+          "right": "Have you got a pen I could borrow? / Do you have a pen I could borrow?",
+          "why": {
+            "en": "Use either have got or do + have, never both together.",
+            "es": "Have got o do…have, nunca las dos a la vez."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "My father is sixty-eight, but he's still very active.",
+          "es": "Mi padre tiene sesenta y ocho años, pero sigue muy activo."
+        },
+        {
+          "en": "I'm freezing. Have you got a spare jumper?",
+          "es": "Me estoy helando. ¿Tienes un jersey de sobra?"
+        },
+        { "en": "They haven't got a car, so they go everywhere by bus." },
+        { "en": "She's got a bad cold and a sore throat." },
+        { "en": "You're right: the meeting is on Thursday, not Wednesday." },
+        { "en": "We had a great time at the festival last summer." },
+        { "en": "I usually have a shower before breakfast." },
+        { "en": "Do you have any plans for the weekend?" },
+        { "en": "Most people are happy to help if you ask politely." },
+        { "en": "It was very foggy, so the flight was late." }
+      ],
+      "practice": [
+        {
+          "prompt": "My sister ___ 29 years old.",
+          "options": ["has", "is", "have"],
+          "answer": 1,
+          "explanation": {
+            "en": "Age takes be: she is 29."
+          }
+        },
+        {
+          "prompt": "I'm freezing. ___ you got a spare jumper?",
+          "options": ["Have", "Do", "Are"],
+          "answer": 0,
+          "explanation": {
+            "en": "Have you got…? is the British question form; Do you got is not possible."
+          }
+        },
+        {
+          "prompt": "People ___ often surprised by the prices here.",
+          "options": ["is", "are", "has"],
+          "answer": 1,
+          "explanation": {
+            "en": "People is plural, so it takes are."
+          }
+        },
+        {
+          "prompt": "I usually ___ a shower before breakfast.",
+          "options": ["have", "have got", "am having"],
+          "answer": 0,
+          "explanation": {
+            "en": "Actions and habits take have, not have got; the present continuous does not fit usually."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

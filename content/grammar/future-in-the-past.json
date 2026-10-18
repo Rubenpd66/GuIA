@@ -1,0 +1,141 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "future-in-the-past",
+      "level": "C1",
+      "category": "future",
+      "order": 30,
+      "references": [],
+      "title": {
+        "en": "The future seen from the past",
+        "es": "El futuro visto desde el pasado"
+      },
+      "summary": {
+        "en": "When we tell a story or report plans, we often look forward from a moment in the past. Use **was/were going to** for a plan or intention (often one that did not happen): _I was going to call you, but I forgot._ Use **was/were about to** for something that was just going to happen: _We were about to leave when it started to rain._ Use **would** to describe what turned out to be the future, with hindsight: _She didn't know she would become a minister._ In formal or literary style, **was/were to** and **was/were to have + past participle** describe events that were arranged, fated, or planned but did not happen: _The talks were to have begun on Monday._ These forms are useful for narratives and for formal reports of missed plans in Writing part 4.",
+        "es": "Es el «iba a…», «estaba a punto de…» y «llegaría a ser…» del español. Ojo: would no sirve para un plan que no se cumplió; para eso usa was going to o was to have + participio."
+      },
+      "form": [
+        "Plan or intention: **was/were going to + infinitive**",
+        "Unfulfilled plan: **was/were going to + infinitive** (often with _but_) or **was/were to have + past participle** (formal)",
+        "Imminent action: **was/were about to + infinitive**",
+        "Hindsight about what happened next: **would + infinitive** (_He would later regret it._)",
+        "Arrangements or fate: **was/were to + infinitive** (_She was to become a famous novelist._)",
+        "Past continuous for arrangements: _I was meeting Ana at six._",
+        "Negative: _I wasn't going to say anything._ / _It would never be the same again._"
+      ],
+      "uses": [
+        {
+          "text": "**Plans that did not happen** → _We were going to book a table, but the restaurant was full._"
+        },
+        {
+          "text": "**Just about to happen** → _Just as the plane was about to take off, a passenger asked to get off._"
+        },
+        {
+          "text": "**Hindsight in narrative** → _Nobody then realised that this small start-up would become a global brand._",
+          "note": {
+            "en": "Would here looks forward from the past, so it does not change into will.",
+            "es": "Mira hacia delante desde el pasado: no se convierte en will."
+          }
+        },
+        {
+          "text": "**Fate or destiny (formal, literary)** → _They were to meet again twenty years later._"
+        },
+        {
+          "text": "**Formal report of a cancelled plan** → _The ceremony was to have taken place in June; it has been postponed._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I would call you last night, but I forgot.",
+          "right": "I was going to call you last night, but I forgot.",
+          "why": {
+            "en": "Would does not express an unfulfilled plan; use was going to (or was to have called in formal style).",
+            "es": "Para un plan que no se cumplió: was going to, no would."
+          }
+        },
+        {
+          "wrong": "She was about leaving when the phone rang.",
+          "right": "She was about to leave when the phone rang.",
+          "why": {
+            "en": "Be about is followed by to + infinitive, not an -ing form.",
+            "es": "Be about to + infinitivo."
+          }
+        },
+        {
+          "wrong": "He didn't know that he will win the prize.",
+          "right": "He didn't know that he would win the prize.",
+          "why": {
+            "en": "After a past tense, the future from that moment is would, not will.",
+            "es": "Tras un verbo en pasado, usa would, no will."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I was going to book a table, but the restaurant was already full.",
+          "es": "Iba a reservar mesa, pero el restaurante ya estaba lleno."
+        },
+        { "en": "We were about to leave when the manager called." },
+        {
+          "en": "She didn't know it yet, but she would soon be running the whole department."
+        },
+        {
+          "en": "He left home at eighteen, never imagining that he would one day return as mayor.",
+          "es": "Se fue de casa a los dieciocho, sin imaginar que un día volvería como alcalde."
+        },
+        {
+          "en": "The talks were to have started on Monday, but both delegations arrived late."
+        },
+        {
+          "en": "They were to meet again twenty years later, in a very different city."
+        },
+        { "en": "I was meeting Ana at six, so I couldn't stay for the film." },
+        { "en": "Nobody told us the road was going to be closed." },
+        { "en": "It was the last time he would ever see the village." },
+        {
+          "en": "Just as the train was about to leave, a man ran along the platform."
+        },
+        {
+          "en": "I wasn't going to mention the mistake, but she asked me directly.",
+          "es": "No pensaba mencionar el error, pero me preguntó directamente."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "I ___ ring you last night, but my phone ran out of battery.",
+          "options": ["was going to", "would have", "was about"],
+          "answer": 0,
+          "explanation": {
+            "en": "A plan that did not happen: was going to + infinitive."
+          }
+        },
+        {
+          "prompt": "I was about ___ the door when the phone rang.",
+          "options": ["to open", "opening", "open"],
+          "answer": 0,
+          "explanation": {
+            "en": "Be about is followed by to + infinitive."
+          }
+        },
+        {
+          "prompt": "Nobody realised then that the little start-up ___ one of the biggest firms in Europe.",
+          "options": ["will become", "would become", "has become"],
+          "answer": 1,
+          "explanation": {
+            "en": "Looking forward from a past moment, with hindsight: would + infinitive."
+          }
+        },
+        {
+          "prompt": "The new bridge ___ opened in May, but heavy rain has delayed the work.",
+          "options": ["was to", "was going have", "was to have"],
+          "answer": 2,
+          "explanation": {
+            "en": "Was/were to have + past participle: a formal way to say a plan did not happen."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

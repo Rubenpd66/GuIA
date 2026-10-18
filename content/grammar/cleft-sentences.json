@@ -1,0 +1,149 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "cleft-sentences",
+      "level": "C1",
+      "category": "emphasis",
+      "order": 10,
+      "references": [],
+      "title": {
+        "en": "Cleft sentences for emphasis",
+        "es": "Oraciones enfáticas (cleft sentences)"
+      },
+      "summary": {
+        "en": "A cleft sentence splits one idea into two parts to put the important information in focus. There are two main patterns. **It + be + focus + that / who…** points at one element: _It was the noise **that** kept me awake._ **What / All / The reason… + be + focus** builds up to the key information: _**What** I need is a holiday._ Both sound natural in speech and give your writing a more controlled, persuasive tone, which helps in Speaking part 4 and in the formal email of Writing part 4.",
+        "es": "Se divide la frase en dos partes para destacar lo importante, como en «fue el ruido lo que me despertó» o «lo que necesito es descansar». En inglés el verbo ser (be) siempre está en medio y no se repite el sujeto."
+      },
+      "form": [
+        "**It is / was** + focus + **that / who** + rest of the sentence (_who_ only for people)",
+        "**What** + subject + verb + **be** + focus (_What I need is…_, _What surprised me was…_)",
+        "**All** + subject + verb + **be** + focus (_All I want is…_)",
+        "**The reason (why)** + subject + verb + **be that**… (_The reason I called is that…_)",
+        "**The place where / The person who / The thing that** + clause + **be** + focus",
+        "**It was not until** + time + **that** + clause (_It wasn't until midnight that we arrived._)"
+      ],
+      "uses": [
+        {
+          "text": "**Correcting or contrasting**: _It wasn't the price that put me off, it was the service._"
+        },
+        {
+          "text": "**Putting new information last, where it has most impact**: _What worries me is how little time we have left._"
+        },
+        {
+          "text": "**Stressing a time or place**: _It was in the evenings that she did her best work._"
+        },
+        {
+          "text": "**Explaining reasons clearly in a formal email**: _The reason I am writing is that my order has not arrived._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "It was my sister which told me the news.",
+          "right": "It was my sister who told me the news.",
+          "why": {
+            "en": "When the focus is a person, use who (or that), never which.",
+            "es": "Si el foco es una persona, who (o that), nunca which."
+          }
+        },
+        {
+          "wrong": "It is the noise what bothers me.",
+          "right": "It is the noise that bothers me. / What bothers me is the noise.",
+          "why": {
+            "en": "What cannot follow a focused noun; use that, or build the what-pattern.",
+            "es": "«Lo que» después de un nombre se dice that; what solo abre la frase."
+          }
+        },
+        {
+          "wrong": "The reason why I left is because the pay was low.",
+          "right": "The reason I left is that the pay was low.",
+          "why": {
+            "en": "The reason already means because, so use that, not because.",
+            "es": "The reason ya significa «porque»: no añadas because."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "It was the noise, not the heat, that kept me awake."
+        },
+        {
+          "en": "It is my manager who makes the final decision, not the board.",
+          "es": "Es mi jefe quien toma la decisión final, no la junta."
+        },
+        {
+          "en": "What I need right now is a long holiday."
+        },
+        {
+          "en": "All I want is a quiet evening at home.",
+          "es": "Lo único que quiero es una tarde tranquila en casa."
+        },
+        {
+          "en": "What surprised me most was how quickly she adapted."
+        },
+        {
+          "en": "The reason I am writing is that my order has not arrived."
+        },
+        {
+          "en": "It wasn't until I read the contract that I noticed the error."
+        },
+        {
+          "en": "What she did was apologise in front of the whole team."
+        },
+        {
+          "en": "The place where we first met has since been knocked down."
+        },
+        {
+          "en": "It was in the evenings that he got most of his work done."
+        },
+        {
+          "en": "What I'd really like is a sandwich and ten minutes' peace.",
+          "es": "Lo que de verdad me apetece es un bocadillo y diez minutos de paz."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "It was in the library ___ I lost my keys.",
+          "options": ["that", "what", "when"],
+          "answer": 0,
+          "explanation": {
+            "en": "An it-cleft with a place as the focus is completed with that."
+          }
+        },
+        {
+          "prompt": "___ I need right now is a strong coffee.",
+          "options": ["What", "That", "It"],
+          "answer": 0,
+          "explanation": {
+            "en": "The what-pattern opens with what and continues with be."
+          }
+        },
+        {
+          "prompt": "The reason ___ I left the job was the low salary.",
+          "options": ["why", "because", "what"],
+          "answer": 0,
+          "explanation": {
+            "en": "The reason (why) + clause + be + focus. Because and what do not fit here."
+          }
+        },
+        {
+          "prompt": "All I want ___ a decent night's sleep.",
+          "options": ["is", "are", "be"],
+          "answer": 0,
+          "explanation": {
+            "en": "All I want is + one thing: the verb be agrees with the singular complement."
+          }
+        },
+        {
+          "prompt": "It wasn't until the end of the film ___ I realised who the thief was.",
+          "options": ["that", "than", "what"],
+          "answer": 0,
+          "explanation": {
+            "en": "It wasn't until + time + that + clause."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

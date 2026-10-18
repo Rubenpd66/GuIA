@@ -1,0 +1,186 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "quantifiers-all-both-each",
+      "level": "B2",
+      "category": "pronouns-determiners",
+      "order": 180,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 88
+        },
+        {
+          "book": "egu",
+          "unit": 89
+        },
+        {
+          "book": "egu",
+          "unit": 90
+        },
+        {
+          "book": "egu",
+          "unit": 91
+        }
+      ],
+      "title": {
+        "en": "All, most, both, neither, each, every and whole",
+        "es": "All, most, both, neither, each, every y whole"
+      },
+      "summary": {
+        "en": "Use **all / most / some of + the (or a pronoun)** for a group you have in mind: _all **of** the staff_, _most **of** them_. Use **both** and **neither** for exactly two things, and **each** and **every** for single members of a group (both take a **singular** noun and verb). **Every** looks at the whole group (three or more); **each** looks at the members one by one. For time, say _all day_ or _the whole day_.",
+        "es": "_Todos los estudiantes_ es **all the students** (sin _every_ ni _of_ delante del artículo). _Cada día_ es **every day** (singular), y _todo el día_ es **all day** o **the whole day**."
+      },
+      "form": [
+        "**all / most / some / none + (of) + the/my/these + noun**: _all the tickets_, _most of my friends_",
+        "**all / most / some + of + pronoun**: _all of us_, _most of them_ (of is needed before a pronoun)",
+        "**both / neither / either** with two things: _both (of) the candidates_, _neither candidate_, _either of them_",
+        "**every / each + singular noun + singular verb**: _every flight was delayed_, _each employee gets a login_",
+        "**each of / every one of + plural noun + singular verb**: _each of the rooms has a sea view_",
+        "**the whole + singular noun** = all of it: _the whole morning_, _the whole of the city_",
+        "**each other** = one another: _they know each other_"
+      ],
+      "uses": [
+        {
+          "text": "**All / most / some of**: _All the tickets have been sold. Most of the people I spoke to were happy. Some of us stayed behind._"
+        },
+        {
+          "text": "**Both, neither, either**: _Both candidates are strong, but neither has worked abroad. You can take either route._"
+        },
+        {
+          "text": "**Every** for a whole group, **each** for individuals: _Every employee must wear a badge_ (all of them). _Each employee has a different password_ (one by one).",
+          "note": {
+            "en": "Each can be used for two or more; every for three or more.",
+            "es": "_Each_ vale para dos o más; _every_ para tres o más."
+          }
+        },
+        {
+          "text": "**Time and whole things**: _It rained all weekend. We spent the whole afternoon queuing._ Whole needs the or a possessive: _the whole day_, not _whole day_."
+        },
+        {
+          "text": "**Each other**: _The two sisters write to each other every week._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I see my friends every days.",
+          "right": "I see my friends every day.",
+          "why": {
+            "en": "After every, the noun is singular.",
+            "es": "«Todos los días» es _every day_: _every_ siempre va con singular."
+          }
+        },
+        {
+          "wrong": "Every students need a pass.",
+          "right": "Every student needs a pass.",
+          "why": {
+            "en": "Every takes a singular noun and a singular verb.",
+            "es": "_Every_ + sustantivo singular + verbo en singular."
+          }
+        },
+        {
+          "wrong": "All of people were angry about the decision.",
+          "right": "All (of) the people were angry about the decision.",
+          "why": {
+            "en": "Use of after all only before the, my, this or a pronoun, not before a noun on its own.",
+            "es": "Sin artículo ni posesivo no se usa _of_: _all people_, pero _all of the people_."
+          }
+        },
+        {
+          "wrong": "She has two sisters, and both of they live abroad.",
+          "right": "She has two sisters, and both of them live abroad.",
+          "why": {
+            "en": "After of we use an object pronoun.",
+            "es": "Después de _of_ va un pronombre complemento: _them_."
+          }
+        },
+        {
+          "wrong": "I waited whole day for the delivery.",
+          "right": "I waited all day / the whole day for the delivery.",
+          "why": {
+            "en": "Whole needs the or a possessive before it.",
+            "es": "_Whole_ necesita _the_ delante (_the whole day_); sin artículo se dice _all day_."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "All the tickets have been sold.",
+          "es": "Se han vendido todas las entradas."
+        },
+        {
+          "en": "Most of the people I spoke to were happy with the service."
+        },
+        {
+          "en": "All of us were tired after the journey."
+        },
+        {
+          "en": "Both candidates have experience, but neither has worked abroad.",
+          "es": "Los dos candidatos tienen experiencia, pero ninguno ha trabajado en el extranjero."
+        },
+        {
+          "en": "Each employee gets a separate login."
+        },
+        {
+          "en": "Every flight was delayed because of the fog."
+        },
+        {
+          "en": "It rained all weekend, so we stayed in."
+        },
+        {
+          "en": "We spent the whole afternoon queuing for tickets."
+        },
+        {
+          "en": "They've known each other since university."
+        },
+        {
+          "en": "Each of the rooms has its own balcony."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "___ the students passed the test.",
+          "options": ["Every", "All", "Whole"],
+          "answer": 1,
+          "explanation": {
+            "en": "All the + plural noun means every one of them. Every cannot be followed by the."
+          }
+        },
+        {
+          "prompt": "It rained the ___ weekend, so we stayed in and watched films.",
+          "options": ["every", "all", "whole"],
+          "answer": 2,
+          "explanation": {
+            "en": "The whole + singular noun: the whole weekend. After the, all and every do not fit."
+          }
+        },
+        {
+          "prompt": "Both of my brothers ___ in London.",
+          "options": ["lives", "live", "is living"],
+          "answer": 1,
+          "explanation": {
+            "en": "Both of + plural noun takes a plural verb."
+          }
+        },
+        {
+          "prompt": "___ of the rooms has a view of the sea.",
+          "options": ["Every", "Each", "All"],
+          "answer": 1,
+          "explanation": {
+            "en": "Each of + plural noun is followed by a singular verb. Every cannot be followed by of the, and all would need have."
+          }
+        },
+        {
+          "prompt": "I go running ___ morning before work.",
+          "options": ["all", "whole", "every"],
+          "answer": 2,
+          "explanation": {
+            "en": "Every morning means each morning, again and again. All morning means for the whole morning."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

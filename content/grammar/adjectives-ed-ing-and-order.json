@@ -1,0 +1,154 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "adjectives-ed-ing-and-order",
+      "level": "B1",
+      "category": "adjectives-adverbs",
+      "order": 200,
+      "references": [
+        { "book": "egu", "unit": 98 },
+        { "book": "egu", "unit": 99 }
+      ],
+      "title": {
+        "en": "Adjectives in -ed and -ing, and adjective order",
+        "es": "Adjetivos en -ed y -ing, y orden de los adjetivos"
+      },
+      "summary": {
+        "en": "**-ing adjectives** describe the thing, person or situation that causes a feeling (_a boring lecture_, _an exciting offer_). **-ed adjectives** describe the person who has the feeling (_I'm bored_, _she was excited_). When two or more adjectives come before a noun, they usually follow a fixed order: opinion, size, age, shape, colour, origin, material, purpose.",
+        "es": "En español «aburrido» sirve para las dos ideas; en inglés no: bored es el que se aburre y boring es lo que aburre. Además, los adjetivos van delante del sustantivo y en un orden bastante fijo."
+      },
+      "form": [
+        "-ing adjective = the cause of the feeling: **boring**, **tiring**, **surprising**, **confusing**",
+        "-ed adjective = the person who feels it: **bored**, **tired**, **surprised**, **confused**",
+        "Order before a noun: opinion → size → age → shape → colour → origin → material → purpose → **noun**",
+        "Adjectives never change for plural or gender: _a tall man_, _tall women_"
+      ],
+      "uses": [
+        {
+          "text": "**The cause of a feeling** → -ing: _The news was **shocking**._ _It was a **tiring** journey._"
+        },
+        {
+          "text": "**The person who feels it** → -ed: _We were **shocked** by the news._ _I got home **tired**._"
+        },
+        {
+          "text": "**Two or three adjectives before a noun** → keep the usual order, opinion first and facts after: _a **lovely old wooden** table_ (opinion, age, material).",
+          "note": {
+            "en": "Native speakers rarely use more than three adjectives in a row.",
+            "es": "No se pone and entre adjetivos de distinto tipo ni se cambia el orden: «una mesa de madera vieja y bonita» no se traduce palabra por palabra."
+          }
+        },
+        {
+          "text": "**After a verb such as be, look or seem** → use _and_ before the last adjective: _The corridor was **long, narrow and dark**._ Before a noun there is usually no _and_: _a **long, narrow** corridor._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I was very boring during the lecture.",
+          "right": "I was very bored during the lecture.",
+          "why": {
+            "en": "Boring describes what causes the feeling. The person who feels it is bored.",
+            "es": "Si dices «I was boring», dices que tú eras aburrido. Para «me aburría» se usa bored."
+          }
+        },
+        {
+          "wrong": "She is very interesting in photography.",
+          "right": "She is very interested in photography.",
+          "why": {
+            "en": "Use the -ed form for the person who feels the interest, and -ing for the thing that causes it.",
+            "es": "«Interesada» es interested; interesting se usa para lo que despierta interés."
+          }
+        },
+        {
+          "wrong": "I bought a leather black bag.",
+          "right": "I bought a black leather bag.",
+          "why": {
+            "en": "Colour comes before material in the usual order.",
+            "es": "El color va antes del material, y el material justo antes del sustantivo."
+          }
+        },
+        {
+          "wrong": "They live in a house old and big.",
+          "right": "They live in a big old house.",
+          "why": {
+            "en": "Adjectives go before the noun in English, and size comes before age.",
+            "es": "En inglés el adjetivo va delante del nombre, no detrás."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "The film was so confusing that we talked about it for an hour afterwards.",
+          "es": "La película era tan confusa que estuvimos una hora hablando de ella después."
+        },
+        {
+          "en": "I was confused by the ending.",
+          "es": "El final me dejó confundido."
+        },
+        {
+          "en": "It's an exciting opportunity, but I'm a little worried about the move."
+        },
+        {
+          "en": "The results were disappointing, so the whole team felt disappointed."
+        },
+        { "en": "It was a tiring day, and I got home exhausted." },
+        {
+          "en": "He lives in a beautiful old stone cottage by the river.",
+          "es": "Vive en una preciosa casa de campo antigua de piedra junto al río."
+        },
+        { "en": "She wore a long red silk dress." },
+        { "en": "We booked a small, quiet hotel near the beach." },
+        { "en": "They sell a lovely round Spanish cheese." },
+        { "en": "My uncle bought a big new black leather sofa." },
+        { "en": "The corridor was long, narrow and dark." }
+      ],
+      "practice": [
+        {
+          "prompt": "I found the documentary really ___; I nearly fell asleep.",
+          "options": ["boring", "bored", "bore"],
+          "answer": 0,
+          "explanation": {
+            "en": "The documentary causes the feeling, so we need the -ing adjective."
+          }
+        },
+        {
+          "prompt": "After the long flight, we were all ___.",
+          "options": ["exhausted", "exhausting", "exhaust"],
+          "answer": 0,
+          "explanation": {
+            "en": "We are the people who feel the tiredness, so we need the -ed adjective."
+          }
+        },
+        {
+          "prompt": "She bought a ___ jacket in the sale.",
+          "options": [
+            "lovely brown leather",
+            "leather lovely brown",
+            "brown lovely leather"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The order is opinion (lovely), colour (brown), material (leather)."
+          }
+        },
+        {
+          "prompt": "We stayed in a ___ hotel near the harbour.",
+          "options": ["small old stone", "stone old small", "old stone small"],
+          "answer": 0,
+          "explanation": {
+            "en": "The order is size (small), age (old), material (stone)."
+          }
+        },
+        {
+          "prompt": "The news about the strike was ___ for commuters.",
+          "options": ["worrying", "worried", "worry"],
+          "answer": 0,
+          "explanation": {
+            "en": "The news causes the worry, so we need the -ing adjective."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

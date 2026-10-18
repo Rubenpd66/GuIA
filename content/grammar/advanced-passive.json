@@ -1,0 +1,155 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "advanced-passive",
+      "level": "C1",
+      "category": "passive",
+      "order": 40,
+      "references": [],
+      "title": {
+        "en": "Advanced passive: infinitives, gerunds and get",
+        "es": "Pasiva avanzada: infinitivos, gerundios y get"
+      },
+      "summary": {
+        "en": "The passive can appear in non-finite forms. Use the **passive infinitive** after modals and many verbs (_to be done_, _to have been done_) and the **passive gerund** after prepositions and verbs like _enjoy_, _avoid_ and _hate_ (_being done_, _having been done_): _She expects to be promoted. He hates being interrupted. The file seems to have been deleted._ Verbs with two objects (_give_, _offer_, _send_, _show_, _tell_) have two passives; the person is usually the subject: _I was offered a place._ In informal English, **get + past participle** can replace **be** for things that happen to someone, often by accident or without warning: _He got fired._ Passive forms keep a formal report impersonal and objective, which suits the formal email of Writing part 4.",
+        "es": "En español lo resolvemos con «se» o con la voz activa: «odio que me interrumpan» es **I hate being interrupted**. Fíjate en to have been + participio para algo anterior. Get + participio es informal y no se usa en informes formales."
+      },
+      "form": [
+        "Passive infinitive: **to be + past participle** (_to be done_); perfect: **to have been + past participle**",
+        "Passive gerund: **being + past participle**; perfect: **having been + past participle**",
+        "After modals: _The form must be signed._ _The goods may have been damaged._",
+        "Two objects: **person + be + past participle + thing** (_I was given a warning._) or **thing + be + past participle + to/for + person**",
+        "Get-passive: **get/got + past participle** (_got stolen_, _get promoted_, _get married_)",
+        "Get-passive is informal and used for events, not states: _The shop is closed_ (not _gets closed_)"
+      ],
+      "uses": [
+        {
+          "text": "**After expect, want, seem, appear** → _The new tunnel is expected to be completed next year._"
+        },
+        {
+          "text": "**After enjoy, avoid, hate, remember, risk** → _I remember being told to wait outside._"
+        },
+        {
+          "text": "**Earlier events** → _The suspect denied having been in the building._ _The painting appears to have been stolen at night._",
+          "note": {
+            "en": "The perfect form (to have been / having been) shows the event is earlier than the main verb.",
+            "es": "La forma perfecta indica que el hecho es anterior al verbo principal."
+          }
+        },
+        {
+          "text": "**Putting the person first with two objects** → _All the staff were sent a reminder._ (more natural than _A reminder was sent to all the staff_)"
+        },
+        {
+          "text": "**Informal events that happen to us** → _My bike got stolen outside the library._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I don't remember to be told about the change.",
+          "right": "I don't remember being told about the change.",
+          "why": {
+            "en": "Remember + gerund refers to a past memory; for a passive, use being + past participle.",
+            "es": "Para un recuerdo del pasado: remember + being + participio."
+          }
+        },
+        {
+          "wrong": "The report seems to be lost last week.",
+          "right": "The report seems to have been lost last week.",
+          "why": {
+            "en": "An earlier event needs the perfect passive infinitive.",
+            "es": "Hecho anterior: to have been lost."
+          }
+        },
+        {
+          "wrong": "I was got fired after the merger.",
+          "right": "I got fired after the merger.",
+          "why": {
+            "en": "Get replaces be in the get-passive. Do not use both.",
+            "es": "Get sustituye a be; no se usan los dos."
+          }
+        },
+        {
+          "wrong": "She was been promoted last year.",
+          "right": "She was promoted last year.",
+          "why": {
+            "en": "The past simple passive is was/were + past participle; been only follows have, had or modals (has been promoted).",
+            "es": "Pasiva en pasado simple: was/were + participio. Been solo va tras have/had o un modal."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "She expects to be promoted before the end of the year.",
+          "es": "Espera que la asciendan antes de que acabe el año."
+        },
+        {
+          "en": "I hate being interrupted when I'm trying to concentrate.",
+          "es": "Odio que me interrumpan cuando intento concentrarme."
+        },
+        {
+          "en": "The file seems to have been deleted by mistake."
+        },
+        {
+          "en": "Having been warned about the weather, they took extra clothes."
+        },
+        {
+          "en": "The goods may have been damaged during transport."
+        },
+        {
+          "en": "I was offered a place on the course, but I turned it down."
+        },
+        {
+          "en": "All the staff were sent a reminder about the new rules."
+        },
+        {
+          "en": "The suspect denied having been in the building that night."
+        },
+        {
+          "en": "My bike got stolen outside the library last week."
+        },
+        {
+          "en": "There is nothing to be gained by arguing with him."
+        },
+        {
+          "en": "He got fired after the merger, but he found another job quickly."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "She doesn't like ___ what to do by her colleagues.",
+          "options": ["being told", "telling", "be told"],
+          "answer": 0,
+          "explanation": {
+            "en": "After like, the passive gerund being + past participle shows she receives the action."
+          }
+        },
+        {
+          "prompt": "The documents appear ___ lost during the office move.",
+          "options": ["to being", "being", "to have been"],
+          "answer": 2,
+          "explanation": {
+            "en": "An earlier event after appear needs the perfect passive infinitive: to have been lost."
+          }
+        },
+        {
+          "prompt": "Last week all the staff ___ a bonus by the director.",
+          "options": ["gave", "were given", "were given to"],
+          "answer": 1,
+          "explanation": {
+            "en": "With a person as the subject of a two-object verb, use be + given + the thing."
+          }
+        },
+        {
+          "prompt": "Careful with that glass or it will ___ broken.",
+          "options": ["got", "get", "be getting"],
+          "answer": 1,
+          "explanation": {
+            "en": "After will, the get-passive uses the base form: will get broken."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

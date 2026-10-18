@@ -1,0 +1,176 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "some-any-no-none",
+      "level": "A2",
+      "category": "pronouns-determiners",
+      "order": 40,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 85
+        },
+        {
+          "book": "egu",
+          "unit": 86
+        }
+      ],
+      "title": {
+        "en": "Some, any, no, none and compounds",
+        "es": "Some, any, no, none y sus compuestos"
+      },
+      "summary": {
+        "en": "Use **some** in positive sentences and in offers or requests; use **any** in negatives, in most questions and to mean \"it doesn't matter which\". **No** and **none** already make a sentence negative, so never add **not**. The same pattern applies to the compounds: _something / anything / nothing_, _somebody / anybody / nobody_, _somewhere / anywhere / nowhere_.",
+        "es": "En inglés solo hay una negación por frase: «no conozco a nadie» = I don't know anybody (o I know nobody), nunca I don't know nobody."
+      },
+      "form": [
+        "**some** + plural or uncountable (positive, offers, requests): _some water, some ideas_",
+        "**any** + plural or uncountable (negatives, questions, if): _I haven't got any time._",
+        "**no** + noun = not any: _There is no milk._ **None** stands alone or is followed by of: _None of them came._",
+        "**something / somebody / somewhere**, **anything / anybody / anywhere**, **nothing / nobody / nowhere**",
+        "**any** (free choice, stressed) = whichever: _Any day is fine._"
+      ],
+      "uses": [
+        {
+          "text": "**Positive statements** → some: _I bought some bread._ _She's meeting somebody at six._"
+        },
+        {
+          "text": "**Offers and requests** → some: _Would you like some tea?_ _Could I have some information?_"
+        },
+        {
+          "text": "**Negatives and questions** → any: _We didn't see anyone._ _Is there anything I can do?_",
+          "note": {
+            "en": "With a negative verb, use any- words; with a positive verb, use no- words. Never both.",
+            "es": "Verbo negativo + any-; verbo afirmativo + no-. Nunca las dos negaciones."
+          }
+        },
+        {
+          "text": "**Nothing available** → no / none: _There are no rooms left._ _How many did you buy? None._"
+        },
+        {
+          "text": "**Free choice** → any: _You can ask any of the staff._ _Take any seat you like._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I don't know nothing about the project.",
+          "right": "I don't know anything about the project. / I know nothing about the project.",
+          "why": {
+            "en": "English allows only one negative word in a clause.",
+            "es": "No se acumulan negaciones: don't + anything, o bien nothing."
+          }
+        },
+        {
+          "wrong": "Nobody didn't call me this morning.",
+          "right": "Nobody called me this morning.",
+          "why": {
+            "en": "Nobody is already negative, so the verb stays positive.",
+            "es": "«Nadie me llamó» lleva el verbo en afirmativo."
+          }
+        },
+        {
+          "wrong": "Did you buy some milk?",
+          "right": "Did you buy any milk?",
+          "why": {
+            "en": "In a neutral question, use any; some suggests you expect a yes.",
+            "es": "En preguntas neutras se usa any."
+          }
+        },
+        {
+          "wrong": "No of my colleagues speak German.",
+          "right": "None of my colleagues speak German.",
+          "why": {
+            "en": "Before of, use none, not no.",
+            "es": "Ante of se usa none; no va directamente antes de un sustantivo."
+          }
+        },
+        {
+          "wrong": "There aren't no seats at the back.",
+          "right": "There aren't any seats at the back. / There are no seats at the back.",
+          "why": {
+            "en": "Use not + any, or no with a positive verb.",
+            "es": "Un único elemento negativo."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "We can't make dinner tonight. There isn't anything in the fridge.",
+          "es": "Esta noche no podemos hacer la cena. No hay nada en la nevera."
+        },
+        {
+          "en": "Would you like some more coffee?",
+          "es": "¿Quieres más café?"
+        },
+        {
+          "en": "I looked everywhere, but I couldn't find my glasses anywhere."
+        },
+        {
+          "en": "Somebody has left a bag on the platform."
+        },
+        {
+          "en": "There was nobody at the front desk, so I waited."
+        },
+        {
+          "en": "None of the candidates had any experience in sales."
+        },
+        {
+          "en": "You can pay by card or in cash. Any method is fine."
+        },
+        {
+          "en": "We've got no time left, so let's decide now."
+        },
+        {
+          "en": "Is there anywhere quiet where we can talk?"
+        },
+        {
+          "en": "If you have any questions, please ask."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "I haven't seen ___ of my cousins this year.",
+          "options": ["none", "any", "no"],
+          "answer": 1,
+          "explanation": {
+            "en": "After a negative verb we use any; none would make a double negative."
+          }
+        },
+        {
+          "prompt": "Could you lend me ___ money until Friday?",
+          "options": ["none", "some", "no"],
+          "answer": 1,
+          "explanation": {
+            "en": "A request takes some, even though it is a question."
+          }
+        },
+        {
+          "prompt": "We can't cook tonight. There isn't ___ in the fridge.",
+          "options": ["nothing", "anything", "something"],
+          "answer": 1,
+          "explanation": {
+            "en": "With the negative isn't we use anything, not nothing."
+          }
+        },
+        {
+          "prompt": "Did any of the applicants have experience? No, ___ of them did.",
+          "options": ["none", "no", "nobody"],
+          "answer": 0,
+          "explanation": {
+            "en": "None of them is the pattern; no and nobody cannot be followed by of them."
+          }
+        },
+        {
+          "prompt": "You can choose ___ colour you like; they are all in stock.",
+          "options": ["some", "any", "no"],
+          "answer": 1,
+          "explanation": {
+            "en": "Any means \"whichever you like\" when the choice is free."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "for-during-while-by-until",
+      "level": "B1",
+      "category": "prepositions",
+      "order": 230,
+      "references": [
+        { "book": "egu", "unit": 119 },
+        { "book": "egu", "unit": 120 }
+      ],
+      "title": {
+        "en": "For, during and while; by and until",
+        "es": "For, during y while; by y until"
+      },
+      "summary": {
+        "en": "Use **for** + a length of time (_for three weeks_), **during** + a noun for when something happens (_during the holidays_), and **while** + a clause with a subject and verb (_while I was waiting_). **Until** shows the point when a situation stops, and **by** shows a deadline: at that time or before.",
+        "es": "En español «durante» sirve para todo, pero en inglés for dice cuánto dura algo (for two weeks) y during dice cuándo ocurre (during the course). Y until es «hasta» mientras que by es «a más tardar»."
+      },
+      "form": [
+        "**for** + length of time: _for ten minutes_, _for years_",
+        "**during** + noun (event or period): _during the meeting_, _during the night_",
+        "**while** + subject + verb (or -ing): _while we were driving_, _while waiting_",
+        "**until / till** + time or event: _until Friday_, _until you arrive_",
+        "**by** + time (deadline): _by Friday_; **by the time** + clause: _by the time we got there_"
+      ],
+      "uses": [
+        {
+          "text": "**For** answers _How long?_: _I've been studying **for** two hours._ _They stayed **for** a week._"
+        },
+        {
+          "text": "**During** answers _When?_: _The phone rang **during** the film._ _Prices rise **during** the summer._",
+          "note": {
+            "en": "During tells us when, not how long.",
+            "es": "During no dice cuánto dura; dice en qué momento."
+          }
+        },
+        {
+          "text": "**While** joins two actions at the same time: _She called **while** I was cooking._ _Don't use your phone **while** driving._"
+        },
+        {
+          "text": "**Until** = up to a time, then it stops: _I'll work **until** six._ After a negative it means \"not before\": _The shop doesn't open **until** nine._",
+          "note": {
+            "en": "Not … until is a very common way to say that something starts later than you might expect.",
+            "es": "«No abre hasta las nueve» = The shop doesn't open until nine."
+          }
+        },
+        {
+          "text": "**By** = no later than: _Please reply **by** Monday._ **By the time** is followed by a clause: _By the time we arrived, the show had started._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I lived in Madrid during three years.",
+          "right": "I lived in Madrid for three years.",
+          "why": {
+            "en": "A length of time takes for. During is used with an event or a period such as the summer.",
+            "es": "«Durante tres años» es for three years. During va con un nombre de periodo o suceso."
+          }
+        },
+        {
+          "wrong": "I'll send it until Friday.",
+          "right": "I'll send it by Friday.",
+          "why": {
+            "en": "A deadline takes by. Until means that something continues up to that point.",
+            "es": "«Para el viernes, a más tardar» es by Friday. Until es «hasta» y algo continúa hasta entonces."
+          }
+        },
+        {
+          "wrong": "During I was studying, I listened to music.",
+          "right": "While I was studying, I listened to music.",
+          "why": {
+            "en": "During is followed by a noun; before a subject and verb we need while.",
+            "es": "Antes de sujeto + verbo se usa while, no during."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "We waited for the results for nearly an hour.",
+          "es": "Esperamos los resultados durante casi una hora."
+        },
+        { "en": "He fell asleep during the second half of the film." },
+        { "en": "I read the news while I was having breakfast." },
+        { "en": "Don't use your phone while driving." },
+        { "en": "She lived in Lisbon for six years before moving to Madrid." },
+        {
+          "en": "I'll be in the office until half past five.",
+          "es": "Estaré en la oficina hasta las cinco y media."
+        },
+        {
+          "en": "The report must be on my desk by Friday morning.",
+          "es": "El informe tiene que estar en mi mesa el viernes por la mañana a más tardar."
+        },
+        { "en": "The museum doesn't open until ten." },
+        { "en": "By the time the ambulance arrived, the crowd had gone." },
+        { "en": "There are fewer visitors during the winter." },
+        { "en": "Can you look after my plants while I'm away?" }
+      ],
+      "practice": [
+        {
+          "prompt": "She has worked here ___ three years.",
+          "options": ["for", "during", "while"],
+          "answer": 0,
+          "explanation": {
+            "en": "Three years is a length of time, so we use for."
+          }
+        },
+        {
+          "prompt": "I fell asleep ___ the film.",
+          "options": ["during", "for", "by"],
+          "answer": 0,
+          "explanation": {
+            "en": "The film is an event and we say when it happened: during."
+          }
+        },
+        {
+          "prompt": "I had a coffee ___ I was waiting for the train.",
+          "options": ["while", "during", "for"],
+          "answer": 0,
+          "explanation": {
+            "en": "A subject and verb follow, so we need the conjunction while."
+          }
+        },
+        {
+          "prompt": "Please send me the report ___ Friday at the latest.",
+          "options": ["by", "until", "during"],
+          "answer": 0,
+          "explanation": {
+            "en": "At the latest shows a deadline, so we use by."
+          }
+        },
+        {
+          "prompt": "The shop stays open ___ ten o'clock, so we have plenty of time.",
+          "options": ["until", "by", "for"],
+          "answer": 0,
+          "explanation": {
+            "en": "The situation continues up to ten o'clock and then stops: until."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

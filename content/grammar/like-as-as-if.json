@@ -1,0 +1,161 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "like-as-as-if",
+      "level": "B2",
+      "category": "linking",
+      "order": 130,
+      "references": [
+        { "book": "egu", "unit": 116 },
+        { "book": "egu", "unit": 117 },
+        { "book": "egu", "unit": 118 }
+      ],
+      "title": {
+        "en": "Like, as and as if",
+        "es": "Like, as y as if"
+      },
+      "summary": {
+        "en": "Use **like** (a preposition) to say that something is similar: _He looks **like** his father._ Use **as** for a role or function (_She works **as** a pharmacist_) and to introduce a clause (_Do **as** you're told_). **As** can also mean \"while\" or \"because\" (_As I was leaving, the phone rang. As it was late, we took a taxi._). **As if** and **as though** compare a situation with how it seems or might be imagined.",
+        "es": "Las dos se traducen como «como»: She works like a nurse significa que trabaja de forma parecida a una enfermera, y as a nurse que es enfermera. «Como si» es as if o as though, nunca like if."
+      },
+      "form": [
+        "**like** + noun / pronoun / -ing: _like a professional_, _like him_, _like swimming_",
+        "**as** + noun (role): _as a guide_; **as** + clause (manner, time or reason): _as I said_, _as we walked_, _as it was late_",
+        "**as if / as though** + clause: _as if it's going to rain_ (real possibility); _as if he knew everything_ (unreal, past tense)",
+        "**look / sound / feel / taste like** + noun; **look / sound / feel as if** + clause"
+      ],
+      "uses": [
+        {
+          "text": "**Like = similar to**: _This cheese tastes **like** soap._ _It's **like** living in a film._"
+        },
+        {
+          "text": "**As = in the role of**: _He worked **as** a lifeguard last summer._ _Use the box **as** a table._ Compare _Don't treat me **like** a child_ (I am not one).",
+          "note": {
+            "en": "Like gives a comparison. As gives the real job, role or use.",
+            "es": "As dice lo que algo o alguien es; like dice a qué se parece."
+          }
+        },
+        {
+          "text": "**As + clause = in the way that**: _Do **as** I say._ _Leave everything **as** it is._ In casual speech many people say _like_ here, but **as** is the safe choice in writing and in exams."
+        },
+        {
+          "text": "**As = while or because**: _**As** I was leaving, the phone rang._ _**As** it was late, we took a taxi._",
+          "note": {
+            "en": "A reason clause with as usually comes first in the sentence.",
+            "es": "As con valor de «mientras» o «como» (porque) suele ir al principio."
+          }
+        },
+        {
+          "text": "**As if / as though**: _It looks **as if** it's going to rain._ _She talks **as though** she knew the boss personally_ (she doesn't). The past tense shows the idea is unreal or unlikely; a real possibility keeps the present."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "He works like a teacher in a primary school.",
+          "right": "He works as a teacher in a primary school.",
+          "why": {
+            "en": "He really is a teacher, so we use as for the role. Like would mean he is similar to one.",
+            "es": "Si trabaja de profesor, se usa as. Con like solo se parecería a un profesor."
+          }
+        },
+        {
+          "wrong": "She looks as her mother.",
+          "right": "She looks like her mother.",
+          "why": {
+            "en": "Before a noun or pronoun with no verb, we use like to compare.",
+            "es": "Delante de un nombre sin verbo, para comparar, se usa like."
+          }
+        },
+        {
+          "wrong": "He behaves like if he owned the place.",
+          "right": "He behaves as if he owned the place.",
+          "why": {
+            "en": "\"As if\" is a fixed phrase. Like if does not exist in English.",
+            "es": "«Como si» es as if o as though. Like if no existe."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "She works as a translator for an international company." },
+        {
+          "en": "You sound like your mother when you say that.",
+          "es": "Hablas igual que tu madre cuando dices eso."
+        },
+        { "en": "Can I use this crate as a seat?" },
+        { "en": "As I was crossing the road, a cyclist nearly hit me." },
+        {
+          "en": "As it was raining, we cancelled the barbecue.",
+          "es": "Como llovía, cancelamos la barbacoa."
+        },
+        { "en": "It looks as if the meeting will finish late." },
+        {
+          "en": "He spoke as though he had never heard of the problem.",
+          "es": "Habló como si nunca hubiera oído hablar del problema."
+        },
+        {
+          "en": "Leave the documents as they are; I'll deal with them later."
+        },
+        {
+          "en": "This soup tastes like something my grandmother used to make."
+        },
+        { "en": "It felt like ages before the results came out." },
+        {
+          "en": "He talks about money as if it grew on trees.",
+          "es": "Habla del dinero como si creciera en los árboles."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "She works ___ a nurse at the city hospital.",
+          "options": ["as", "like", "as if"],
+          "answer": 0,
+          "explanation": {
+            "en": "She is a nurse, so as gives her role."
+          }
+        },
+        {
+          "prompt": "He looks ___ his father when he laughs.",
+          "options": ["like", "as", "as if"],
+          "answer": 0,
+          "explanation": {
+            "en": "Looks + noun for a similarity takes like."
+          }
+        },
+        {
+          "prompt": "___ it was raining, we stayed indoors.",
+          "options": ["As", "Like", "As if"],
+          "answer": 0,
+          "explanation": {
+            "en": "As at the start of a clause can give the reason."
+          }
+        },
+        {
+          "prompt": "He talks about Rome ___ he had lived there all his life.",
+          "options": ["as if", "so that", "as for"],
+          "answer": 0,
+          "explanation": {
+            "en": "As if compares what he says with how it seems, and the past perfect shows it is unreal."
+          }
+        },
+        {
+          "prompt": "That sounds ___ a great idea.",
+          "options": ["like", "as", "as if"],
+          "answer": 0,
+          "explanation": {
+            "en": "Sound + noun phrase takes like."
+          }
+        },
+        {
+          "prompt": "The phone rang ___ I was getting into the shower.",
+          "options": ["as", "like", "by"],
+          "answer": 0,
+          "explanation": {
+            "en": "As can mean while, joining two things that happen at the same time."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

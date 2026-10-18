@@ -1,0 +1,151 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "prepositions-other-uses",
+      "level": "B1",
+      "category": "prepositions",
+      "order": 240,
+      "references": [
+        { "book": "egu", "unit": 127 },
+        { "book": "egu", "unit": 128 }
+      ],
+      "title": {
+        "en": "In, at and on in other expressions; by",
+        "es": "In, at y on en otras expresiones; by"
+      },
+      "summary": {
+        "en": "Many fixed expressions need a particular preposition that you simply have to learn: _on the radio_, _in the newspaper_, _at university_, _on holiday_. **By** has several common uses: means of transport and communication (_by train_, _by email_), the person or thing that does something (_written by_), and \"next to\" (_by the window_).",
+        "es": "Muchas de estas expresiones no coinciden con el español: «de vacaciones» es on holiday, «en la tele» es on TV, «en el autobús» es on the bus. Conviene aprenderlas como bloques."
+      },
+      "form": [
+        "**in**: _in the newspaper_, _in a photo_, _in hospital_, _in the corner_, _in the end_ (finally), _in time_ (early enough)",
+        "**at**: _at university_, _at work_, _at the back_, _at the top_, _at the end of_, _at first_, _at the moment_",
+        "**on**: _on TV_, _on the radio_, _on the phone_, _on holiday_, _on foot_, _on the left/right_, _on the bus/train/plane_, _on time_ (punctual)",
+        "**by**: _by car/bus/train_, _by email/post_, _by mistake/accident/chance_, _by myself_, _written by Orwell_, _by the sea_, _by working hard_"
+      ],
+      "uses": [
+        {
+          "text": "**Media and communication**: _on TV_, _on the radio_, _on the phone_, _on the internet_, but _in the newspaper_, _in a magazine_, _in a letter_."
+        },
+        {
+          "text": "**Places without an article**, when we mean the activity: _in hospital_ (as a patient), _at university_, _at work_, _in bed_.",
+          "note": {
+            "en": "In British English, in hospital and at university are the usual forms.",
+            "es": "Sin the cuando hablamos de la función: She's in hospital = está ingresada."
+          }
+        },
+        {
+          "text": "**Transport**: _on_ for public transport and bikes (_on the bus_, _on a plane_, _on my bike_), _in_ for cars and taxis (_in the car_, _in a taxi_). With **by** there is no article: _by bus_, _by taxi_."
+        },
+        {
+          "text": "**Position**: _on the left_, _on the right_, _at the back_, _at the top_, _in the middle_. Compare _in the corner of the room_ with _on the corner of the street_."
+        },
+        {
+          "text": "**By**: _by mistake_, _by chance_, _by myself_ (alone), _by the window_ (next to), _a novel **by** Orwell_, _You learn **by** listening._"
+        },
+        {
+          "text": "**Pairs that differ**: _in time_ (early enough) / _on time_ (punctual); _in the end_ (finally) / _at the end of_ (the last part of something)."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "We are in holidays in August.",
+          "right": "We are on holiday in August.",
+          "why": {
+            "en": "The fixed expression is on holiday, singular.",
+            "es": "«De vacaciones» es on holiday, en singular."
+          }
+        },
+        {
+          "wrong": "I go to work with the bus.",
+          "right": "I go to work by bus.",
+          "why": {
+            "en": "Means of transport takes by, with no article. You can also say on the bus.",
+            "es": "No se traduce «con el autobús»: by bus (sin artículo) o on the bus."
+          }
+        },
+        {
+          "wrong": "I saw her in the TV last night.",
+          "right": "I saw her on TV last night.",
+          "why": {
+            "en": "We say on TV, on the radio and on the internet.",
+            "es": "«En la tele» es on TV."
+          }
+        },
+        {
+          "wrong": "The toilets are at the left, next to the lift.",
+          "right": "The toilets are on the left, next to the lift.",
+          "why": {
+            "en": "We say on the left and on the right.",
+            "es": "«A la izquierda» es on the left."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "I read about the closure in the local newspaper." },
+        { "en": "Is there anything good on TV tonight?" },
+        {
+          "en": "She's on the phone to her bank.",
+          "es": "Está hablando por teléfono con su banco."
+        },
+        { "en": "My brother is at university in Leeds." },
+        { "en": "He was in hospital for two weeks after the accident." },
+        { "en": "We're going on holiday to Crete in June." },
+        { "en": "The lift is on the left, just past reception." },
+        {
+          "en": "We arrived on time, but we weren't in time to catch the opening speech."
+        },
+        {
+          "en": "I got your message by mistake; it was meant for someone else.",
+          "es": "Me llegó tu mensaje por error; era para otra persona."
+        },
+        { "en": "They travelled around Peru by bus and on foot." },
+        { "en": "A novel by a young Nigerian writer won the prize." }
+      ],
+      "practice": [
+        {
+          "prompt": "I saw an interesting article ___ the newspaper this morning.",
+          "options": ["in", "on", "at"],
+          "answer": 0,
+          "explanation": {
+            "en": "We say in the newspaper, in a magazine."
+          }
+        },
+        {
+          "prompt": "We travelled across Spain ___ train.",
+          "options": ["by", "with", "in"],
+          "answer": 0,
+          "explanation": {
+            "en": "Means of transport without an article takes by."
+          }
+        },
+        {
+          "prompt": "I'm sorry, I took your umbrella ___ mistake.",
+          "options": ["by", "in", "on"],
+          "answer": 0,
+          "explanation": {
+            "en": "The fixed expression is by mistake."
+          }
+        },
+        {
+          "prompt": "The match is ___ TV tonight at nine.",
+          "options": ["on", "in", "at"],
+          "answer": 0,
+          "explanation": {
+            "en": "We say on TV and on the radio."
+          }
+        },
+        {
+          "prompt": "We're ___ holiday in Crete until the end of the month.",
+          "options": ["on", "in", "at"],
+          "answer": 0,
+          "explanation": {
+            "en": "The fixed expression is on holiday."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

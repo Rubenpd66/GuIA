@@ -1,0 +1,140 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "mixed-conditionals",
+      "level": "C1",
+      "category": "conditionals",
+      "order": 90,
+      "references": [],
+      "title": {
+        "en": "Mixed conditionals",
+        "es": "Condicionales mixtos"
+      },
+      "summary": {
+        "en": "Mixed conditionals join a condition and a result that belong to **different times**. The most common pattern links an unreal past with a present result: _If I **had taken** that job, I **would be** living in Lisbon now._ The other links an unreal present or permanent situation with a past result: _If she **were** more careful, she **wouldn't have lost** the keys._ Time words such as _now_, _today_, _still_ and _yesterday_ show which time each half refers to.",
+        "es": "Se mezclan los tiempos porque la condición y el resultado no coinciden en el tiempo: «si hubiera aceptado (entonces), ahora viviría en Lisboa»."
+      },
+      "form": [
+        "Past condition → present result: **if** + past perfect, **would / could / might** + infinitive",
+        "Present or general condition → past result: **if** + past simple, **would / could / might** + **have** + past participle",
+        "Time words show the switch: _now, today, these days, still_ (present); _then, last year, at the time_ (past)",
+        "Negative forms are common: _If I hadn't missed the flight, I'd still be on holiday._"
+      ],
+      "uses": [
+        {
+          "text": "**A past decision with a present consequence**: _If we had bought the flat in 2015, we would own it outright by now._"
+        },
+        {
+          "text": "**A personality trait or permanent fact with a past consequence**: _If he weren't so stubborn, he would have accepted our help._"
+        },
+        {
+          "text": "**Reflecting on turning points in your life**, useful in Speaking part 4: _If I hadn't studied abroad, my English wouldn't be this fluent._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "If I would have saved more, I would own a flat now.",
+          "right": "If I had saved more, I would own a flat now.",
+          "why": {
+            "en": "Would never goes in the if clause; use the past perfect.",
+            "es": "No pongas would en la parte con if: usa had + participio."
+          }
+        },
+        {
+          "wrong": "If I were more organised, I wouldn't miss the deadline yesterday.",
+          "right": "If I were more organised, I wouldn't have missed the deadline yesterday.",
+          "why": {
+            "en": "A result in the past needs would have + past participle.",
+            "es": "Un resultado en el pasado pide would have + participio."
+          }
+        },
+        {
+          "wrong": "If I would be taller, I would have joined the police.",
+          "right": "If I were taller, I would have joined the police.",
+          "why": {
+            "en": "The unreal present in the if clause is past simple (were), not would be.",
+            "es": "En la parte con if va were, no would be."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "If I had taken that job in Madrid, I would be living there now."
+        },
+        {
+          "en": "If she had listened to the doctor, she wouldn't be in so much pain today.",
+          "es": "Si hubiera hecho caso al médico, hoy no tendría tanto dolor."
+        },
+        {
+          "en": "If we hadn't missed the flight, we would still be on holiday."
+        },
+        {
+          "en": "If the company had invested in training, its staff would be far more productive now."
+        },
+        {
+          "en": "If I hadn't studied abroad, my English wouldn't be this fluent."
+        },
+        {
+          "en": "If he weren't so stubborn, he would have accepted our help last week.",
+          "es": "Si no fuera tan terco, habría aceptado nuestra ayuda la semana pasada."
+        },
+        {
+          "en": "If I were a more patient person, I wouldn't have lost my temper at the meeting."
+        },
+        {
+          "en": "If she spoke better Italian, she might have got the job in Milan."
+        },
+        {
+          "en": "If the roads were safer, fewer people would have died last winter."
+        },
+        {
+          "en": "If it hadn't been for my brother's advice, I would still be unhappy at work."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "If I ___ that email last night, I wouldn't be in trouble now.",
+          "options": ["hadn't sent", "didn't send", "wouldn't send"],
+          "answer": 0,
+          "explanation": {
+            "en": "Past condition (last night) with a present result (now): past perfect in the if clause."
+          }
+        },
+        {
+          "prompt": "If she weren't so stubborn, she ___ our advice last week.",
+          "options": ["would have taken", "would take", "had taken"],
+          "answer": 0,
+          "explanation": {
+            "en": "A general trait (weren't) with a past result (last week): would have + past participle."
+          }
+        },
+        {
+          "prompt": "If the company ___ the new software in 2019, it would be far more efficient today.",
+          "options": ["had adopted", "adopted", "would adopt"],
+          "answer": 0,
+          "explanation": {
+            "en": "In 2019 is past, so the if clause takes the past perfect; today needs would be."
+          }
+        },
+        {
+          "prompt": "If I ___ a naturally shy person, I would have spoken up at yesterday's meeting.",
+          "options": ["weren't", "wouldn't be", "am not"],
+          "answer": 0,
+          "explanation": {
+            "en": "An unreal general fact takes past simple (were) in the if clause, never would."
+          }
+        },
+        {
+          "prompt": "We would still be waiting for a table if we ___ a booking yesterday.",
+          "options": ["hadn't made", "didn't make", "wouldn't make"],
+          "answer": 0,
+          "explanation": {
+            "en": "Yesterday is past, so the if clause uses the past perfect; the result (still waiting) is present."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "plural-and-compound-nouns",
+      "level": "B2",
+      "category": "nouns-articles",
+      "order": 170,
+      "references": [
+        { "book": "egu", "unit": 79 },
+        { "book": "egu", "unit": 80 }
+      ],
+      "title": {
+        "en": "Plural nouns, singular nouns and noun + noun",
+        "es": "Plurales, singulares engañosos y noun + noun"
+      },
+      "summary": {
+        "en": "Some nouns look singular but take a **plural verb** (_the police_, _people_), some end in **-s** but take a **singular verb** (_economics_, _news_), and some exist only in the plural (_trousers_, _glasses_, _scissors_). To combine two nouns, put the **describing noun first and keep it singular**: _a shoe shop_, _a train ticket_, _a ten-minute walk_.",
+        "es": "Tres trampas frecuentes: _the police are_ (plural) aunque en español es «la policía es»; _mathematics is_ (singular) aunque en español es «las matemáticas son»; y _a ten-minute walk_, sin -s en _minute_."
+      },
+      "form": [
+        "**Always plural**, with a plural verb: _police, people, clothes, cattle_",
+        "**Only plural** (two parts): _trousers, jeans, glasses, scissors, pyjamas_ → use _a pair of_ to count them",
+        "**Look plural, take a singular verb**: _news, economics, mathematics, physics, athletics_",
+        "**Irregular plurals**: _man → men, woman → women, child → children, foot → feet, tooth → teeth, mouse → mice, criterion → criteria, phenomenon → phenomena_",
+        "**Group nouns** (_team, family, government, staff_): singular or plural verb in British English, depending on whether we think of one unit or of its members",
+        "**Noun + noun**: first noun singular, working like an adjective: _a bus driver_, _a language school_. With numbers use hyphens and no -s: _a three-day course_",
+        "A few first nouns keep their **-s**: _a clothes shop_, _a sports centre_, _a savings account_, _the accounts department_"
+      ],
+      "uses": [
+        {
+          "text": "**Police, people, staff**: _The police **have** arrested two men. A lot of people **were** waiting outside._"
+        },
+        {
+          "text": "**Two-part objects**: _My trousers **are** too long. Where **are** my glasses? I need a new **pair of** jeans._"
+        },
+        {
+          "text": "**Subjects in -s**: _Economics **is** a popular degree. The news **was** a surprise._"
+        },
+        {
+          "text": "**Group nouns**: _My family **are** all coming to the wedding._ (the people) _The family **is** the most important unit in society._ (the group as a whole)",
+          "note": {
+            "en": "In American English the singular verb is more usual with group nouns; both are correct in British English.",
+            "es": "En inglés británico valen ambos; el singular es más habitual en inglés americano."
+          }
+        },
+        {
+          "text": "**Measurements in a noun phrase**: _a ten-minute walk_, _a five-pound note_, _a two-hour delay_. But the same thing as a predicate takes -s: _The walk is ten minutes._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "My trousers is dirty.",
+          "right": "My trousers are dirty.",
+          "why": {
+            "en": "Trousers is always plural, so it takes a plural verb.",
+            "es": "En español «mi pantalón es», pero _trousers_ es siempre plural: _are_."
+          }
+        },
+        {
+          "wrong": "The police is investigating the case.",
+          "right": "The police are investigating the case.",
+          "why": {
+            "en": "Police is always followed by a plural verb.",
+            "es": "_The police_ lleva siempre verbo en plural."
+          }
+        },
+        {
+          "wrong": "Mathematics are my favourite subject.",
+          "right": "Mathematics is my favourite subject.",
+          "why": {
+            "en": "Subjects ending in -ics are singular.",
+            "es": "Las asignaturas en -ics (_mathematics, physics, economics_) llevan verbo en singular."
+          }
+        },
+        {
+          "wrong": "I've booked a two-weeks holiday.",
+          "right": "I've booked a two-week holiday.",
+          "why": {
+            "en": "A noun used as an adjective stays singular, even after a number.",
+            "es": "Con un número delante, el sustantivo-adjetivo no lleva -s: _a two-week holiday_."
+          }
+        },
+        {
+          "wrong": "She works in a shoes shop.",
+          "right": "She works in a shoe shop.",
+          "why": {
+            "en": "The first noun in a noun + noun combination is normally singular.",
+            "es": "El primer sustantivo va en singular: _shoe shop_ (como «zapatería»)."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "My trousers are too long; could you shorten them?",
+          "es": "Los pantalones me quedan largos; ¿podrías acortarlos?"
+        },
+        { "en": "Do you have a pair of scissors I could borrow?" },
+        {
+          "en": "The police have asked drivers to avoid the city centre.",
+          "es": "La policía ha pedido a los conductores que eviten el centro."
+        },
+        { "en": "Physics was my favourite subject at school." },
+        { "en": "My family are all coming to the wedding." },
+        { "en": "Three women and two men applied for the post." },
+        { "en": "The criteria for the scholarship are very strict." },
+        {
+          "en": "I've booked a two-week course in Dublin.",
+          "es": "He reservado un curso de dos semanas en Dublín."
+        },
+        {
+          "en": "She works in a clothes shop, and her brother is a bus driver."
+        },
+        { "en": "There's a ten-minute walk from the station to the campus." }
+      ],
+      "practice": [
+        {
+          "prompt": "The police ___ asked everyone to stay indoors.",
+          "options": ["has", "is", "have"],
+          "answer": 2,
+          "explanation": {
+            "en": "Police is always plural, so it takes have."
+          }
+        },
+        {
+          "prompt": "Where ___ my glasses? I can't find them anywhere.",
+          "options": ["is", "are", "does"],
+          "answer": 1,
+          "explanation": {
+            "en": "Glasses is a plural noun and takes are."
+          }
+        },
+        {
+          "prompt": "It's a ___ walk from the hotel to the beach.",
+          "options": ["ten-minutes", "ten minutes", "ten-minute"],
+          "answer": 2,
+          "explanation": {
+            "en": "In a noun phrase before another noun, minute stays singular and is joined to the number with a hyphen."
+          }
+        },
+        {
+          "prompt": "Economics ___ one of the most popular degrees at our university.",
+          "options": ["are", "is", "have"],
+          "answer": 1,
+          "explanation": {
+            "en": "Names of subjects ending in -ics are singular."
+          }
+        },
+        {
+          "prompt": "There's a lovely ___ shop in the old town.",
+          "options": ["shoes", "shoe", "shoe's"],
+          "answer": 1,
+          "explanation": {
+            "en": "The first noun in noun + noun is singular: a shoe shop."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

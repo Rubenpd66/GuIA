@@ -1,0 +1,184 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "verb-prepositions",
+      "level": "B2",
+      "category": "prepositions",
+      "order": 200,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 133
+        },
+        {
+          "book": "egu",
+          "unit": 134
+        },
+        {
+          "book": "egu",
+          "unit": 135
+        }
+      ],
+      "title": {
+        "en": "Verbs with fixed prepositions",
+        "es": "Verbos con preposición fija"
+      },
+      "summary": {
+        "en": "Many verbs need a **fixed preposition**: _depend **on**_, _wait **for**_, _listen **to**_, _apologise **for**_, _accuse someone **of**_. Others need **none**, even though the Spanish verb does: _discuss **the plan**_, _marry **a pilot**_, _enter **the room**_. The best way to learn them is as chunks, not as separate words.",
+        "es": "Cuidado con los verbos que en español llevan preposición y en inglés no: _discuss the plan_ (no _about_), _marry someone_ (no _with_), _enter the room_ (no _in_). Y al revés: _depend **on**_, _wait **for**_, _listen **to**_."
+      },
+      "form": [
+        "Verb + **on**: _depend on, rely on, insist on, concentrate on, congratulate someone on_",
+        "Verb + **for**: _wait for, look for, search for, ask for, apply for, apologise (to someone) for, blame someone for, thank someone for_",
+        "Verb + **to**: _listen to, belong to, refer to, object to, explain something to someone_",
+        "Verb + **of**: _consist of, approve of, accuse someone of, dream of, suspect someone of_",
+        "Verb + **in**: _believe in, succeed in, result in_; verb + **with**: _agree with, deal with_",
+        "**No preposition**: _discuss, marry, enter, attend, reach, answer (the phone), approach, resemble_"
+      ],
+      "uses": [
+        {
+          "text": "**Fixed pair**: _It depends **on** the weather. You can rely **on** her. We're waiting **for** the plumber. She applied **for** a job at the museum._"
+        },
+        {
+          "text": "**Verb + person + preposition**: _He apologised **to** the customer **for** the mistake. They accused the company **of** hiding the figures. Don't blame me **for** the delay._"
+        },
+        {
+          "text": "**Verbs with no preposition**: _We discussed the proposal over lunch. She married a pilot. He entered the room quietly. Who attended the meeting?_",
+          "note": {
+            "en": "Spanish uses a preposition with all of these (hablar de, casarse con, entrar en, asistir a).",
+            "es": "En español todos llevan preposición (hablar de, casarse con, entrar en, asistir a), pero en inglés no."
+          }
+        },
+        {
+          "text": "**The preposition changes the meaning**: _look **at** a map_ (see it), _look **for** the key_ (search), _look **after** a child_ (care for). _Think **about** a problem_ (consider it), _think **of** an idea_ (invent or remember it)."
+        },
+        {
+          "text": "**Preposition + -ing**: _She doesn't approve of eating at the desk. We succeeded in persuading him._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "We discussed about the problem.",
+          "right": "We discussed the problem.",
+          "why": {
+            "en": "Discuss is followed directly by its object.",
+            "es": "_Discuss_ no lleva preposición, aunque en español hablemos «de»."
+          }
+        },
+        {
+          "wrong": "It depends of the weather.",
+          "right": "It depends on the weather.",
+          "why": {
+            "en": "Depend takes on.",
+            "es": "«Depende de» es _depends **on**_."
+          }
+        },
+        {
+          "wrong": "I'm waiting the bus.",
+          "right": "I'm waiting for the bus.",
+          "why": {
+            "en": "Wait needs for before its object.",
+            "es": "«Esperar el autobús» es _wait **for** the bus_."
+          }
+        },
+        {
+          "wrong": "She married with a pilot.",
+          "right": "She married a pilot.",
+          "why": {
+            "en": "Marry has no preposition.",
+            "es": "_Marry_ lleva complemento directo: «casarse con alguien» es _marry someone_."
+          }
+        },
+        {
+          "wrong": "He entered in the room without knocking.",
+          "right": "He entered the room without knocking.",
+          "why": {
+            "en": "Enter does not take in when the object is a place.",
+            "es": "_Enter_ no lleva preposición: «entrar en la sala» es _enter the room_."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "You can rely on her to meet the deadline.",
+          "es": "Puedes confiar en que ella cumpla el plazo."
+        },
+        {
+          "en": "We're waiting for the plumber, who is already an hour late."
+        },
+        {
+          "en": "She's always laughing at her own jokes."
+        },
+        {
+          "en": "The committee consists of twelve volunteers."
+        },
+        {
+          "en": "He apologised to the customer for the mistake.",
+          "es": "Se disculpó con el cliente por el error."
+        },
+        {
+          "en": "They accused the company of hiding the figures."
+        },
+        {
+          "en": "We discussed the proposal over lunch."
+        },
+        {
+          "en": "I've applied for a job at the museum."
+        },
+        {
+          "en": "She doesn't approve of eating at the desk."
+        },
+        {
+          "en": "This policy could result in higher prices."
+        },
+        {
+          "en": "Do you believe in luck?"
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "Success depends ___ a number of factors.",
+          "options": ["from", "on", "of"],
+          "answer": 1,
+          "explanation": {
+            "en": "Depend takes on."
+          }
+        },
+        {
+          "prompt": "The airline apologised ___ the long delay.",
+          "options": ["of", "to", "for"],
+          "answer": 2,
+          "explanation": {
+            "en": "We apologise to a person and for the thing that went wrong."
+          }
+        },
+        {
+          "prompt": "We need to discuss ___ the schedule before Friday.",
+          "options": ["(no preposition)", "about", "on"],
+          "answer": 0,
+          "explanation": {
+            "en": "Discuss has no preposition: discuss the schedule."
+          }
+        },
+        {
+          "prompt": "He was accused ___ stealing company data.",
+          "options": ["for", "of", "with"],
+          "answer": 1,
+          "explanation": {
+            "en": "We accuse someone of doing something."
+          }
+        },
+        {
+          "prompt": "Do you ever listen ___ podcasts when you cycle to work?",
+          "options": ["to", "at", "(no preposition)"],
+          "answer": 0,
+          "explanation": {
+            "en": "Listen always takes to before its object."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

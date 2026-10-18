@@ -1,0 +1,165 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "word-order-and-focus-adverbs",
+      "level": "B1",
+      "category": "adjectives-adverbs",
+      "order": 220,
+      "references": [
+        { "book": "egu", "unit": 109 },
+        { "book": "egu", "unit": 110 },
+        { "book": "egu", "unit": 111 },
+        { "book": "egu", "unit": 112 }
+      ],
+      "title": {
+        "en": "Word order, still / yet / already, and even",
+        "es": "Orden de palabras, still / yet / already y even"
+      },
+      "summary": {
+        "en": "English word order is rigid. The verb and its object stay together (_I like football very much_), place comes before time (_We met at the station at six_), and adverbs such as _always_, _never_ and _probably_ sit before the main verb but after _be_ (_She always arrives early_, _He is never late_). **Still**, **yet** and **already** compare a situation with what we expected, and **even** adds surprise.",
+        "es": "En inglés no se puede separar el verbo de su complemento: «Me gusta mucho el fútbol» es I like football very much. Y «todavía» y «ya» se traducen por still, yet o already según lo que quieras decir, y cada uno tiene su sitio en la frase."
+      },
+      "form": [
+        "Verb + object first, then manner, place and time: _I'll meet you **at the station** **at six**._",
+        "Mid-position adverbs (**always**, **never**, **usually**, **often**, **also**, **just**, **probably**): before the main verb, after **be**, after the first auxiliary",
+        "**still**: before the main verb; **yet**: at the end, in questions and negatives; **already**: before the main verb or at the end",
+        "**even** goes just before the word it emphasises: _even my boss_, _even in winter_"
+      ],
+      "uses": [
+        {
+          "text": "**The object stays next to the verb**: _She speaks **English fluently**._ Not _speaks fluently English_.",
+          "note": {
+            "en": "Never put an adverb between a verb and its direct object.",
+            "es": "No se coloca el adverbio entre el verbo y su complemento directo."
+          }
+        },
+        {
+          "text": "**Place before time**: _We have lunch **at the canteen** **every day**._"
+        },
+        {
+          "text": "**Frequency and certainty adverbs** go before the main verb but after _be_ and the first auxiliary: _I **usually** walk to work._ _He is **probably** at home._ _They have **never** met._"
+        },
+        {
+          "text": "**Still** = longer than expected: _It's **still** raining._ **Yet** = until now (questions and negatives): _Has she called **yet**?_ _I haven't seen it **yet**._ **Already** = sooner than expected: _The post has **already** arrived._",
+          "note": {
+            "en": "_I still haven't heard back_ stresses that it is taking too long.",
+            "es": "«Todavía no» se dice not … yet, o still delante de la negación para expresar impaciencia."
+          }
+        },
+        {
+          "text": "**Even** adds surprise: _**Even** the manager was confused._ _She didn't **even** say goodbye._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I like very much this song.",
+          "right": "I like this song very much.",
+          "why": {
+            "en": "The object must follow the verb directly; very much goes after it.",
+            "es": "En español separamos verbo y objeto («me gusta mucho esta canción»); en inglés no."
+          }
+        },
+        {
+          "wrong": "I go every day to the gym.",
+          "right": "I go to the gym every day.",
+          "why": {
+            "en": "Place comes before time, and time does not interrupt the verb phrase.",
+            "es": "Primero el lugar y después el tiempo."
+          }
+        },
+        {
+          "wrong": "I haven't still received the invoice.",
+          "right": "I still haven't received the invoice.",
+          "why": {
+            "en": "In negatives, still goes before the auxiliary. Alternatively use yet at the end: _I haven't received the invoice yet._",
+            "es": "«Todavía no he recibido» es I haven't received … yet o I still haven't received."
+          }
+        },
+        {
+          "wrong": "Always I have breakfast at seven.",
+          "right": "I always have breakfast at seven.",
+          "why": {
+            "en": "Frequency adverbs normally go between the subject and the main verb.",
+            "es": "«Siempre desayuno a las siete»: en inglés always va entre el sujeto y el verbo."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "She plays the piano beautifully.",
+          "es": "Toca el piano maravillosamente."
+        },
+        { "en": "We're meeting the clients at the hotel on Thursday." },
+        { "en": "He always gets up before six." },
+        { "en": "My sister is rarely home before eight." },
+        { "en": "They have probably missed the last bus." },
+        { "en": "Is it still snowing in the mountains?" },
+        {
+          "en": "I haven't seen the new office yet.",
+          "es": "Todavía no he visto la nueva oficina."
+        },
+        { "en": "The tickets have already sold out." },
+        {
+          "en": "I still haven't heard from the landlord, which is worrying."
+        },
+        { "en": "Even the experts were surprised by the result." },
+        {
+          "en": "He didn't even say thank you.",
+          "es": "Ni siquiera dio las gracias."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "She ___ after lunch.",
+          "options": [
+            "drinks never coffee",
+            "never drinks coffee",
+            "drinks coffee never"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Never goes before the main verb, and the object stays next to the verb."
+          }
+        },
+        {
+          "prompt": "I haven't finished the report ___.",
+          "options": ["yet", "already", "still"],
+          "answer": 0,
+          "explanation": {
+            "en": "Yet goes at the end of a negative sentence to mean until now."
+          }
+        },
+        {
+          "prompt": "She ___ lives with her parents; she hasn't found a flat of her own.",
+          "options": ["still", "yet", "already"],
+          "answer": 0,
+          "explanation": {
+            "en": "Still means the situation continues, and it goes before the main verb."
+          }
+        },
+        {
+          "prompt": "The test was so easy that ___ the slowest students finished early.",
+          "options": ["even", "ever", "yet"],
+          "answer": 0,
+          "explanation": {
+            "en": "Even adds surprise: you would not expect the slowest students to finish early."
+          }
+        },
+        {
+          "prompt": "I like ___.",
+          "options": [
+            "football very much",
+            "very much football",
+            "much football very"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The object (football) must come straight after the verb."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

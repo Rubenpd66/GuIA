@@ -1,0 +1,155 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "subjunctive-and-formal-structures",
+      "level": "C1",
+      "category": "verb-patterns",
+      "order": 100,
+      "references": [],
+      "title": {
+        "en": "The subjunctive and formal structures",
+        "es": "El subjuntivo y estructuras formales"
+      },
+      "summary": {
+        "en": "After verbs of demand, advice or proposal (_insist, demand, recommend, suggest, propose, request, require_) and after adjectives such as _essential, vital, important, necessary_, formal English uses **that + subject + base verb**: _The union insists that the contract **be** reviewed._ The verb never takes -s or a tense, and the negative is _not + base_. In British English, **should + base verb** is a common alternative: _It is vital that she **should** attend._ Use these patterns in formal emails (Writing part 4) and reports. Two fixed phrases also belong here: **if need be** and **be that as it may**.",
+        "es": "Es el «subjuntivo» inglés: that + sujeto + verbo en forma base (sin -s ni tiempo). Aparece en lenguaje formal, y en inglés británico se puede usar should + verbo."
+      },
+      "form": [
+        "**insist / demand / recommend / suggest / propose / request / require** + (that) + subject + **base verb** (or **should** + base verb)",
+        "**It is essential / vital / important / necessary / desirable** + (that) + subject + **base verb** (or **should** + base verb)",
+        "Negative: **not** + base verb (_that he not be contacted_) or _should not_ + base verb",
+        "The verb is the same for every person: _that she attend_, _that they attend_, _that it be_",
+        "With **suggest / insist** meaning a fact or belief, use a normal tense: _He insisted that he was innocent._",
+        "Fixed phrases: **if need be** (= if necessary); **be that as it may** (= even so)"
+      ],
+      "uses": [
+        {
+          "text": "**Rules and requirements in formal documents**: _The regulations require that every visitor sign in at reception._"
+        },
+        {
+          "text": "**Formal advice or proposals in emails and meetings**: _I would recommend that you apply before the deadline._"
+        },
+        {
+          "text": "**Stressing urgency**: _It is vital that the report be finished by noon._"
+        },
+        {
+          "text": "**Fixed phrases for flexibility and concession**: _I'll stay late, if need be._ _Be that as it may, the figures are encouraging._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I recommend you to book early.",
+          "right": "I recommend that you book early. / I recommend booking early.",
+          "why": {
+            "en": "Recommend and suggest are not followed by object + to-infinitive.",
+            "es": "No existe «recommend you to»: usa that + verbo, o recommend + -ing."
+          }
+        },
+        {
+          "wrong": "He insisted to pay the bill.",
+          "right": "He insisted on paying the bill. / He insisted that he (should) pay the bill.",
+          "why": {
+            "en": "Insist is followed by on + -ing or by a that-clause, not by a to-infinitive.",
+            "es": "«Insistió en pagar» = insisted on paying."
+          }
+        },
+        {
+          "wrong": "She suggested me to take a taxi.",
+          "right": "She suggested that I take a taxi.",
+          "why": {
+            "en": "Suggest cannot take an object followed by to; use a that-clause.",
+            "es": "No se dice «suggest me to»: usa that + sujeto + verbo base."
+          }
+        },
+        {
+          "wrong": "Be it as it may, we must finish today.",
+          "right": "Be that as it may, we must finish today.",
+          "why": {
+            "en": "The fixed phrase is be that as it may; you cannot change its words.",
+            "es": "Es una frase hecha («sea como fuere»): no se cambia."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "The union insists that the contract be reviewed before anyone signs it."
+        },
+        {
+          "en": "I would recommend that you apply before the deadline.",
+          "es": "Le recomendaría que presente la solicitud antes de la fecha límite."
+        },
+        { "en": "It is vital that every guest sign the register on arrival." },
+        {
+          "en": "We suggest that the report should be sent to all branch managers."
+        },
+        { "en": "The doctor insisted that she rest for a fortnight." },
+        {
+          "en": "It is essential that the applicant not be contacted directly."
+        },
+        { "en": "They proposed that the meeting be postponed until Monday." },
+        {
+          "en": "I'll take the night train and, if need be, stay over an extra day.",
+          "es": "Cogeré el tren nocturno y, si hace falta, me quedaré un día más."
+        },
+        {
+          "en": "Be that as it may, the figures speak for themselves.",
+          "es": "Sea como sea, las cifras hablan por sí solas."
+        },
+        {
+          "en": "It is important that you should be honest with her about the delay."
+        },
+        {
+          "en": "He insisted that he was innocent, and nobody could prove otherwise."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "The committee recommends that every member ___ the new code of conduct.",
+          "options": ["sign", "to sign", "signing"],
+          "answer": 0,
+          "explanation": {
+            "en": "After recommend that, the base form follows (sign); to sign and signing do not fit a that-clause."
+          }
+        },
+        {
+          "prompt": "It is essential that the documents ___ by noon tomorrow.",
+          "options": ["be submitted", "to be submitted", "submitting"],
+          "answer": 0,
+          "explanation": {
+            "en": "After It is essential that, use the base form of the verb: be submitted."
+          }
+        },
+        {
+          "prompt": "I suggest that you ___ a few days before you decide.",
+          "options": ["wait", "to wait", "waiting"],
+          "answer": 0,
+          "explanation": {
+            "en": "Suggest + that + subject + base verb. Not a to-infinitive or -ing after you."
+          }
+        },
+        {
+          "prompt": "___, the project still has to be finished on time.",
+          "options": [
+            "Be that as it may",
+            "Be it as it may",
+            "Being that as it may"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The fixed phrase is Be that as it may."
+          }
+        },
+        {
+          "prompt": "She insisted ___ the bill, so I let her.",
+          "options": ["on paying", "to pay", "in paying"],
+          "answer": 0,
+          "explanation": {
+            "en": "Insist is followed by on + -ing."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

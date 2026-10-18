@@ -1,0 +1,162 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "question-tags-and-short-answers",
+      "level": "B2",
+      "category": "questions",
+      "order": 120,
+      "references": [
+        { "book": "egu", "unit": 51 },
+        { "book": "egu", "unit": 52 }
+      ],
+      "title": {
+        "en": "Short answers, so do I / neither do I, and question tags",
+        "es": "Respuestas cortas, so do I / neither do I y question tags"
+      },
+      "summary": {
+        "en": "In short answers, English repeats the auxiliary from the question: _Yes, I **do**._ _No, she **isn't**._ To agree, use **so + auxiliary + subject** after a positive statement and **neither / nor + auxiliary + subject** after a negative one. To avoid repeating a clause, use _I think **so**_, _I hope **so**_ or _I hope **not**_. **Question tags** (_isn't it?_, _did they?_) ask for confirmation: a positive statement takes a negative tag and a negative statement takes a positive one.",
+        "es": "No basta con «sí» o «no»: en inglés se repite el auxiliar (Yes, I do). «Yo también» es So do I y «yo tampoco» es Neither do I, con el verbo antes del sujeto. Los question tags equivalen a «¿verdad?» o «¿no?», pero cambian según el auxiliar."
+      },
+      "form": [
+        "Short answer: **Yes/No** + subject + auxiliary (_Yes, I did._ _No, he hasn't._)",
+        "Agreeing: **So** + auxiliary + subject (_So do I_); **Neither / Nor** + auxiliary + subject (_Neither can she_)",
+        "Replacing a clause: **I think / hope / expect / suppose / am afraid + so**; negative: **I don't think so**, **I hope not**, **I'm afraid not**",
+        "Question tag: statement + auxiliary + pronoun with opposite polarity (_You've met, haven't you?_)",
+        "No auxiliary in the statement → **do / does / did**; **I am** → **aren't I**; **Let's** → **shall we**; imperatives → **will you**"
+      ],
+      "uses": [
+        {
+          "text": "**Short answers** repeat the auxiliary of the question: _'Were you at the meeting?' 'No, I wasn't.'_ Use _do / does / did_ when the question uses the present or past simple."
+        },
+        {
+          "text": "**Agreeing**: _'I love hiking.' 'So do I.'_ _'I haven't got a car.' 'Neither have I.'_ To disagree, stress the auxiliary: _'I'm not tired.' 'Well, I am!'_"
+        },
+        {
+          "text": "**Think so, hope not**: _'Is the shop open on Sundays?' 'I don't think so.'_ _'Will prices go up again?' 'I'm afraid so.'_ _'Will the exam be hard?' 'I hope not.'_"
+        },
+        {
+          "text": "**Tags** with a falling voice ask the listener to confirm; with a rising voice they are real questions: _You're a teacher, aren't you?_ _He doesn't smoke, does he?_",
+          "note": {
+            "en": "If the voice goes down, you expect agreement. If it goes up, you really don't know.",
+            "es": "Si la voz baja, esperas que te den la razón. Si sube, de verdad preguntas."
+          }
+        },
+        {
+          "text": "**Special cases**: _I'm late, **aren't I**?_ _Let's start, **shall we**?_ _Open the window, **will you**?_ _Nobody called, **did they**?_ _There's a problem, **isn't there**?_",
+          "note": {
+            "en": "Nobody, nothing, never and hardly make a statement negative, so the tag is positive.",
+            "es": "Nobody, nothing, never y hardly ya son negativos, así que el tag va en positivo."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "'I can't swim.' 'Neither I can.'",
+          "right": "'I can't swim.' 'Neither can I.'",
+          "why": {
+            "en": "After so and neither the auxiliary comes before the subject.",
+            "es": "Después de neither y so se invierte el orden: auxiliar + sujeto."
+          }
+        },
+        {
+          "wrong": "You don't like fish, don't you?",
+          "right": "You don't like fish, do you?",
+          "why": {
+            "en": "A negative statement takes a positive tag.",
+            "es": "Si la frase es negativa, el tag es afirmativo."
+          }
+        },
+        {
+          "wrong": "'Are you coming?' 'Yes, I come.'",
+          "right": "'Are you coming?' 'Yes, I am.'",
+          "why": {
+            "en": "A short answer repeats the auxiliary, not the main verb.",
+            "es": "Se responde con el auxiliar de la pregunta, no con el verbo principal."
+          }
+        },
+        {
+          "wrong": "'Will he pass?' 'I think yes.'",
+          "right": "'Will he pass?' 'I think so.'",
+          "why": {
+            "en": "After think, hope and expect we use so, not yes.",
+            "es": "No existe «I think yes»: se dice I think so."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "'Did you get my message?' 'Yes, I did, thanks.'" },
+        { "en": "'Can she drive?' 'No, she can't.'" },
+        {
+          "en": "'I've never been to Japan.' 'Neither have I.'",
+          "es": "—No he estado nunca en Japón. —Yo tampoco."
+        },
+        {
+          "en": "'I'd love a day off.' 'So would I.'",
+          "es": "—Me encantaría tener un día libre. —A mí también."
+        },
+        { "en": "'Is Sam coming tonight?' 'I think so, but I'm not sure.'" },
+        { "en": "'Will the exam be hard?' 'I hope not.'" },
+        {
+          "en": "You've already paid, haven't you?",
+          "es": "Ya has pagado, ¿verdad?"
+        },
+        { "en": "She doesn't work on Sundays, does she?" },
+        { "en": "Nobody has told them, have they?" },
+        { "en": "I'm in the right room, aren't I?" },
+        { "en": "Let's order now, shall we?" }
+      ],
+      "practice": [
+        {
+          "prompt": "You haven't seen my keys, ___?",
+          "options": ["have you", "haven't you", "did you"],
+          "answer": 0,
+          "explanation": {
+            "en": "The statement is negative, so the tag is positive and repeats the auxiliary have."
+          }
+        },
+        {
+          "prompt": "'I love this song.' '___ do I.'",
+          "options": ["So", "Neither", "Too"],
+          "answer": 0,
+          "explanation": {
+            "en": "To agree with a positive statement we use So + auxiliary + subject."
+          }
+        },
+        {
+          "prompt": "'I can't swim very well.' '___ can I.'",
+          "options": ["Neither", "So", "Also"],
+          "answer": 0,
+          "explanation": {
+            "en": "To agree with a negative statement we use Neither + auxiliary + subject."
+          }
+        },
+        {
+          "prompt": "'Is the shop open on Sundays?' 'I don't think ___.'",
+          "options": ["so", "not", "it"],
+          "answer": 0,
+          "explanation": {
+            "en": "I don't think so is the usual short negative answer."
+          }
+        },
+        {
+          "prompt": "Let's take a break, ___?",
+          "options": ["shall we", "will we", "don't we"],
+          "answer": 0,
+          "explanation": {
+            "en": "The tag after Let's is shall we."
+          }
+        },
+        {
+          "prompt": "I'm late again, ___?",
+          "options": ["aren't I", "isn't I", "don't I"],
+          "answer": 0,
+          "explanation": {
+            "en": "The tag for I am is aren't I."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

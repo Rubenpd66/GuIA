@@ -1,0 +1,151 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "articles-with-names",
+      "level": "B2",
+      "category": "nouns-articles",
+      "order": 160,
+      "references": [
+        { "book": "egu", "unit": 77 },
+        { "book": "egu", "unit": 78 }
+      ],
+      "title": {
+        "en": "Articles with names of people and places",
+        "es": "Artículos con nombres propios"
+      },
+      "summary": {
+        "en": "Most names have **no article**: _Peru_, _Madrid_, _Oxford Street_, _Lake Garda_, _Heathrow Airport_. Use **the** with plural names (_the Alps_, _the Netherlands_), rivers, seas and oceans (_the Thames_, _the Atlantic_), deserts, and many buildings, hotels, museums and newspapers (_the Ritz_, _the Louvre_, _the Guardian_). Family names take **the** in the plural: _the Hendersons_.",
+        "es": "En español dices «el Támesis» y «los Alpes», pero también «la calle Oxford» o «el aeropuerto de Heathrow». En inglés las calles, aeropuertos, estaciones y la mayoría de países y ciudades van **sin artículo**."
+      },
+      "form": [
+        "**No article**: continents, most countries and cities (_Peru_, _Leeds_), streets and squares (_Baker Street_, _Trafalgar Square_), single mountains (_Mount Etna_), lakes (_Lake Geneva_), most airports and stations (_Gatwick_, _Victoria Station_), universities named after a place (_Leeds University_)",
+        "**the + plural name**: countries and ranges (_the Netherlands_, _the Philippines_, _the Alps_, _the Pyrenees_), groups of islands (_the Canaries_)",
+        "**the + country name with a noun or abbreviation**: _the United Kingdom_, _the USA_, _the Czech Republic_",
+        "**the** + rivers, seas, oceans, canals, deserts: _the Danube_, _the Mediterranean_, _the Pacific_, _the Sahara_",
+        "**the** + many hotels, theatres, cinemas, museums, galleries and newspapers: _the Savoy_, _the Odeon_, _the Tate_, _the Times_",
+        "**the … of …**: _the University of Oxford_, _the Tower of London_, _the Bay of Biscay_",
+        "People: **the + plural surname** for a family (_the Hendersons_); **a + name** for a person we don't know (_a Mr Collins_) or for a work by an artist (_a Hockney_)"
+      ],
+      "uses": [
+        {
+          "text": "**Geography**: _Spain_ but _the Pyrenees_; _Lake Windermere_ but _the Atlantic_; _Mount Everest_ but _the Himalayas_."
+        },
+        {
+          "text": "**Streets, parks and transport**: _We met in Hyde Park, near Oxford Street. Her train leaves from Paddington Station._"
+        },
+        {
+          "text": "**Buildings and institutions**: _the British Museum_, _the Hilton_, _the Royal Opera House_. But a building named after a person or place often has no article: _Buckingham Palace_, _Westminster Abbey_, _King's College_."
+        },
+        {
+          "text": "**People**: _the Smiths are our neighbours_ (the family); _I spoke to a Ms Roberts_ (someone I don't know); _She owns a Picasso_ (a painting by him).",
+          "note": {
+            "en": "A family name in the plural just adds -s, with no apostrophe: the Hendersons, not the Henderson's.",
+            "es": "El apellido en plural lleva solo -s: _the Hendersons_, sin apóstrofo."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I'm from Netherlands.",
+          "right": "I'm from the Netherlands.",
+          "why": {
+            "en": "Plural country names take the.",
+            "es": "Los nombres de países en plural llevan _the_: _the Netherlands_, _the Philippines_."
+          }
+        },
+        {
+          "wrong": "We walked along the Oxford Street.",
+          "right": "We walked along Oxford Street.",
+          "why": {
+            "en": "Streets have no article.",
+            "es": "Aunque digamos «la calle Oxford», en inglés no se usa _the_ con calles."
+          }
+        },
+        {
+          "wrong": "They went skiing in Alps.",
+          "right": "They went skiing in the Alps.",
+          "why": {
+            "en": "Mountain ranges are plural names and take the.",
+            "es": "Las cordilleras llevan _the_: _the Alps_, _the Andes_."
+          }
+        },
+        {
+          "wrong": "I'll meet you at the Heathrow Airport.",
+          "right": "I'll meet you at Heathrow Airport.",
+          "why": {
+            "en": "Most airports have no article.",
+            "es": "Los aeropuertos y estaciones suelen ir sin artículo: _Heathrow Airport_."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "She's flying to Peru, then travelling through the Andes.",
+          "es": "Va a volar a Perú y luego recorrerá los Andes."
+        },
+        { "en": "The Thames flows through the middle of London." },
+        {
+          "en": "We stayed at the Grand Hotel, near Victoria Station.",
+          "es": "Nos alojamos en el Grand Hotel, cerca de la estación Victoria."
+        },
+        { "en": "The Netherlands is famous for its cycle paths." },
+        {
+          "en": "She studied at Leeds University before moving to the capital."
+        },
+        { "en": "He did a master's at the University of Edinburgh." },
+        {
+          "en": "Have you met the Hendersons? They've just moved in next door."
+        },
+        { "en": "There's a Mr Collins at reception asking for you." },
+        { "en": "The museum owns a Hockney and two Turners." },
+        {
+          "en": "Our flat is on Queen Street, opposite the Natural History Museum."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "We're driving across ___ Alps next month.",
+          "options": ["a", "the", "(no article)"],
+          "answer": 1,
+          "explanation": {
+            "en": "Mountain ranges are plural names, so they take the."
+          }
+        },
+        {
+          "prompt": "My cousin has lived in ___ Netherlands for ten years.",
+          "options": ["(no article)", "a", "the"],
+          "answer": 2,
+          "explanation": {
+            "en": "The Netherlands is a plural country name, so it takes the."
+          }
+        },
+        {
+          "prompt": "She teaches history at ___ King's College.",
+          "options": ["the", "(no article)", "a"],
+          "answer": 1,
+          "explanation": {
+            "en": "Colleges named after a person or place usually have no article."
+          }
+        },
+        {
+          "prompt": "Have you ever sailed across ___ Atlantic?",
+          "options": ["the", "(no article)", "an"],
+          "answer": 0,
+          "explanation": {
+            "en": "Oceans and seas take the."
+          }
+        },
+        {
+          "prompt": "We turned left into ___ Baker Street and stopped outside number 14.",
+          "options": ["the", "a", "(no article)"],
+          "answer": 2,
+          "explanation": {
+            "en": "Streets have no article."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

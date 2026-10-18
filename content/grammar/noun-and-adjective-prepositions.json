@@ -1,0 +1,186 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "noun-and-adjective-prepositions",
+      "level": "B2",
+      "category": "prepositions",
+      "order": 190,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 129
+        },
+        {
+          "book": "egu",
+          "unit": 130
+        },
+        {
+          "book": "egu",
+          "unit": 131
+        },
+        {
+          "book": "egu",
+          "unit": 132
+        }
+      ],
+      "title": {
+        "en": "Preposition after nouns and adjectives",
+        "es": "Preposición tras sustantivos y adjetivos"
+      },
+      "summary": {
+        "en": "Many nouns and adjectives are followed by a **fixed preposition**: _a reason **for**_, _damage **to**_, _a demand **for**_, _proud **of**_, _married **to**_, _responsible **for**_. The preposition is often different from the Spanish one (_casado **con**_ but _married **to**_), so learn each noun or adjective together with its preposition. After the preposition, use a noun, pronoun or **-ing** form.",
+        "es": "Aprende la palabra con su preposición, como un bloque. Muchas no coinciden con el español: _married **to**_ (casado con), _the answer **to**_ (la respuesta a), _full **of**_ (lleno de), _a reason **for**_ (una razón para)."
+      },
+      "form": [
+        "Noun + preposition: _a reason **for**, a demand **for**, damage **to**, a solution **to**, an answer **to**, a cause **of**, a difference **between**, a relationship **with**, trouble **with**, a lack **of**, a rise **in**_",
+        "Adjective + preposition: _proud **of**, afraid **of**, full **of**, tired **of**, aware **of**, famous **for**, responsible **for**, ready **for**, married **to**, similar **to**, allergic **to**, keen **on**, interested **in**_",
+        "Preposition + **noun / pronoun / -ing**: _a rise in prices_, _proud of her_, _tired of waiting_",
+        "Some words take two prepositions for two different things: _angry **with** someone **about** something_, _different **from** (or **to**) the original_"
+      ],
+      "uses": [
+        {
+          "text": "**Nouns for change and cause**: _a sharp rise **in** prices, an increase **in** demand, the cause **of** the delay, a reason **for** the decision._"
+        },
+        {
+          "text": "**Nouns for relations and effects**: _the difference **between** two things, a relationship **with** a person, damage **to** property, an answer **to** a question._"
+        },
+        {
+          "text": "**Adjectives for feelings and attitudes**: _proud **of** her work, scared **of** spiders, keen **on** cycling, worried **about** the exam._"
+        },
+        {
+          "text": "**Adjectives for qualities and states**: _full **of** people, famous **for** its food, similar **to** mine, married **to** a teacher, typical **of** him._"
+        },
+        {
+          "text": "**Two prepositions with one word**: _He's angry **with** his colleague **about** the delay. She's grateful **to** her tutor **for** his advice._",
+          "note": {
+            "en": "The first preposition goes with the person, the second with the thing.",
+            "es": "La primera preposición va con la persona; la segunda, con la cosa."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "She's married with a pilot.",
+          "right": "She's married to a pilot.",
+          "why": {
+            "en": "Married takes to, not with.",
+            "es": "«Casada con» es _married **to**_."
+          }
+        },
+        {
+          "wrong": "The reason of the delay was the weather.",
+          "right": "The reason for the delay was the weather.",
+          "why": {
+            "en": "Reason is followed by for.",
+            "es": "«La razón de» se dice _the reason **for**_."
+          }
+        },
+        {
+          "wrong": "The solution of this problem is simple.",
+          "right": "The solution to this problem is simple.",
+          "why": {
+            "en": "Solution is followed by to.",
+            "es": "«La solución del problema» es _the solution **to** the problem_."
+          }
+        },
+        {
+          "wrong": "The room was full with people.",
+          "right": "The room was full of people.",
+          "why": {
+            "en": "Full takes of.",
+            "es": "«Lleno de» es _full **of**_, no _full with_."
+          }
+        },
+        {
+          "wrong": "I'm very interested on modern art.",
+          "right": "I'm very interested in modern art.",
+          "why": {
+            "en": "Interested takes in.",
+            "es": "«Interesado en» es _interested **in**_."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "There has been a sharp increase in the number of people working from home.",
+          "es": "Ha habido un fuerte aumento del número de personas que trabajan desde casa."
+        },
+        {
+          "en": "What's the difference between a visa and a work permit?"
+        },
+        {
+          "en": "She has an excellent relationship with her students."
+        },
+        {
+          "en": "We're having some trouble with the heating."
+        },
+        {
+          "en": "The storm caused serious damage to the roof.",
+          "es": "La tormenta causó graves daños en el tejado."
+        },
+        {
+          "en": "Are you aware of the new safety rules?"
+        },
+        {
+          "en": "The film is typical of his early work."
+        },
+        {
+          "en": "I'm sick of waiting for the bus in the rain."
+        },
+        {
+          "en": "She's engaged to a doctor she met at university."
+        },
+        {
+          "en": "The company is famous for its customer service."
+        },
+        {
+          "en": "He was angry with the driver about the delay."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "There is a growing demand ___ affordable housing in big cities.",
+          "options": ["to", "for", "of"],
+          "answer": 1,
+          "explanation": {
+            "en": "Demand is followed by for."
+          }
+        },
+        {
+          "prompt": "The storm caused serious damage ___ the roof.",
+          "options": ["of", "at", "to"],
+          "answer": 2,
+          "explanation": {
+            "en": "We say damage to something."
+          }
+        },
+        {
+          "prompt": "She has been married ___ a Canadian since 2015.",
+          "options": ["with", "to", "by"],
+          "answer": 1,
+          "explanation": {
+            "en": "Married takes to."
+          }
+        },
+        {
+          "prompt": "The old warehouse was full ___ boxes of books.",
+          "options": ["with", "by", "of"],
+          "answer": 2,
+          "explanation": {
+            "en": "Full takes of."
+          }
+        },
+        {
+          "prompt": "Who is responsible ___ the training budget this year?",
+          "options": ["for", "of", "to"],
+          "answer": 0,
+          "explanation": {
+            "en": "Responsible for means in charge of something."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}
