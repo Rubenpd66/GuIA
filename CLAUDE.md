@@ -19,12 +19,12 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 
 - Phases 1 and 2 are done, committed and browser-checked. Phase 2 (Core) ran in batches 2a–2d: engine, trainers and progress tools; 65 grammar lessons with 336 questions (egu 143/145); 20 vocabulary groups with 276 entries and 300 Vocabulary items (75 per type); 120 functional phrases at `/functional-language`; 54 can-do statements B1–C1 shown in the syllabus and on linked lessons. Plans: `docs/superpowers/plans/2026-10-18-phase-2{a,b,c,d}-*.md`.
 - Open: egu units 35 (probably "would", could go on `used-to-and-get-used-to`) and 41 (unassigned), and evu references for the vocabulary groups (the user chose none for now; evu coverage 2/101). Ask the user before adding references.
-- Phase 3 (Reading) is in progress. The plan is approved: `docs/superpowers/plans/2026-10-18-phase-3-reading.md`.
-  - Tasks 1–4 are done and committed: `src/lib/trainer/reading.ts`, `SortableList`, `HighlightableText` (+ `useHighlights`), and `ReadingTrainer` with `Reading1–4Task` wired into `/practice/[part]` (smoke-tested at 375 px in study mode for all four parts; the full Task 7 browser pass is still due).
-  - Task 5 is done: 12/16/8/6 tasks in `content/exercises/reading-{1,2,3,4}/`, reviewed key by key and committed.
-  - Task 6 is done: `/reading` shows the format, app exam times and strategies per part, with cohesion lessons linked from part 2.
-  - **Resume at Task 7:** `format:check`, `build`, the full Playwright pass (375/1280, light/dark, ES/EN, keyboard and touch drag in part 2) and the phase close.
-- Phases 3–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
+- Phase 3 (Reading) is done, committed and browser-checked (375/1280, light/dark, ES/EN, keyboard and touch drag). Plan: `docs/superpowers/plans/2026-10-18-phase-3-reading.md`.
+  - Logic in `src/lib/trainer/reading.ts`; `ReadingTrainer` and `Reading1–4Task` in `src/components/reading/`, mounted at `/practice/reading-1…4`; `/reading` has the format, app exam times (4/8/8/15 min, an app decision) and strategies.
+  - Bank: 12/16/8/6 tasks in `content/exercises/reading-{1,2,3,4}/`, reviewed key by key.
+  - `SortableList` drags listen on `window` (touch events stop reaching the handle once the row moves in the DOM); keep that if you touch it.
+- **Next: phase 4 (Listening).** Plan it from the spec and wait for approval. Audio is a new service decision: ask the user before choosing TTS, recorded audio or any API.
+- Phases 4–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
 

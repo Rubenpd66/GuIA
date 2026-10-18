@@ -111,7 +111,7 @@ Temas repartidos entre los 11 del examen. Parte 1: textos cortos reales (nota, e
 
 ### Task 7: Comprobación y cierre
 
-- [ ] **Step 1:** `npm run check`, `format:check`, `build`; reiniciar el servidor de desarrollo.
-- [ ] **Step 2:** Playwright sin capturas, 375 y 1280 px, claro y oscuro, ES y EN: cada parte en estudio (comprobar, explicaciones, pistas de cohesión) y en examen (tiempo, resultados, repasar fallos); parte 2 solo con teclado (coger, mover, soltar, cancelar) y con arrastre de puntero emulado en táctil; resaltar y borrar en partes 3 y 4; encabezado repetido; `/reading` y `/practice`. Borrar `.playwright-mcp/`.
-- [ ] **Step 3:** `CLAUDE.md` (fase 3 hecha, siguiente fase 4 Listening) y memoria; commit `docs(claude): close phase 3`; sincronizar Documentos.
-- [ ] **Step 4:** informe breve y esfuerzo recomendado para la fase 4.
+- [x] **Step 1:** `npm run check`, `format:check`, `build`; reiniciar el servidor de desarrollo.
+- [x] **Step 2:** Playwright sin capturas, 375 y 1280 px, claro y oscuro, ES y EN: cada parte en estudio (comprobar, explicaciones, pistas de cohesión) y en examen (tiempo, resultados, repasar fallos); parte 2 solo con teclado (coger, mover, soltar, cancelar) y con arrastre de puntero emulado en táctil; resaltar y borrar en partes 3 y 4; encabezado repetido; `/reading` y `/practice`. Borrar `.playwright-mcp/`.
+- [x] **Step 3:** `CLAUDE.md` (fase 3 hecha, siguiente fase 4 Listening) y memoria; commit `docs(claude): close phase 3`; sincronizar Documentos.
+- [x] **Step 4:** informe breve y esfuerzo recomendado para la fase 4.
