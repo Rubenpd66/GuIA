@@ -13,6 +13,7 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 - Unofficial site: visible non-affiliation notice, no British Council logo, name in branding or corporate colours.
 - British English in all English content.
 - The user wants no narration or screenshots: work quietly, verify with tests and the validator, report briefly.
+- At the end of every phase or batch, add one line recommending the effort level for the next one (high: planning, hard debugging, phase 9 auth/keys; medium: routine code or content; low: mechanical edits).
 
 ## Commands
 
