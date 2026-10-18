@@ -1,0 +1,136 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "condition-and-purpose-linkers",
+      "level": "B2",
+      "category": "linking",
+      "order": 110,
+      "references": [
+        { "book": "egu", "unit": 64 },
+        { "book": "egu", "unit": 114 },
+        { "book": "egu", "unit": 115 }
+      ],
+      "title": {
+        "en": "Purpose and condition linkers",
+        "es": "Conectores de finalidad y condición"
+      },
+      "summary": {
+        "en": "To say **why** we do something use **to / in order to / so as to** + infinitive, **so that** + clause, or **for** + noun or -ing. To set a **condition** use **unless** (= if not), **as long as / provided that** (= only if) and **in case** (= because something might happen). Only **in case** looks at a possible problem; the others state a condition.",
+        "es": "«Para» tiene tres formas: to + infinitivo, so that + oración y for + nombre/-ing. Y «por si acaso» es in case, no if."
+      },
+      "form": [
+        "**to / in order to / so as to** + infinitive (negative: _in order not to_, _so as not to_)",
+        "**so that** + subject + can / will / would (_so that we can leave early_)",
+        "**for** + noun or -ing: _a knife for cutting bread_",
+        "**in case** + present simple (future meaning) or past simple (past meaning)",
+        "**unless / as long as / provided (that) / providing** + present simple, with a future or modal in the main clause"
+      ],
+      "uses": [
+        {
+          "text": "**Purpose, same subject**: _I'm saving money **to** buy a car._ _She left early **so as not to** miss the train._"
+        },
+        {
+          "text": "**Purpose, different subjects**: _I'll send the files **so that** you can read them tonight._"
+        },
+        {
+          "text": "**In case** = as a precaution: _Take an umbrella **in case** it rains._",
+          "note": {
+            "en": "In case is not the same as if: if it rains, I take it; in case it rains, I take it before.",
+            "es": "In case = por si acaso. Se hace antes de que ocurra algo."
+          }
+        },
+        {
+          "text": "**Unless** means if not: _We'll cancel the picnic **unless** the weather improves._"
+        },
+        {
+          "text": "**As long as / provided that** = only if: _You can borrow my car **as long as** you drive carefully._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I went to the bank for to pay the bill.",
+          "right": "I went to the bank to pay the bill.",
+          "why": {
+            "en": "Use to + infinitive for purpose, never for to.",
+            "es": "«Para pagar» = to pay, no for to pay."
+          }
+        },
+        {
+          "wrong": "She called a taxi for arriving on time.",
+          "right": "She called a taxi to arrive on time.",
+          "why": {
+            "en": "For + -ing describes the use of a thing, not a person's purpose.",
+            "es": "For + -ing sirve para el uso de un objeto; con personas, to + infinitivo."
+          }
+        },
+        {
+          "wrong": "I'll take a coat in case it will rain.",
+          "right": "I'll take a coat in case it rains.",
+          "why": {
+            "en": "After in case use the present simple for the future.",
+            "es": "Después de in case, presente simple, no will."
+          }
+        },
+        {
+          "wrong": "We'll go out unless it doesn't rain.",
+          "right": "We'll go out unless it rains.",
+          "why": {
+            "en": "Unless already means if not, so do not make the verb negative.",
+            "es": "Unless ya es «si no»; no pongas doble negación."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "He took a second job in order to pay off his loan.",
+          "es": "Aceptó un segundo trabajo para pagar su préstamo."
+        },
+        {
+          "en": "Write it down so that you don't forget.",
+          "es": "Apúntalo para que no se te olvide."
+        },
+        { "en": "I always carry a charger in case my phone dies." },
+        { "en": "You can park here provided that you leave before eight." },
+        { "en": "We won't get a refund unless we have the receipt." },
+        { "en": "She spoke quietly so as not to wake the baby." },
+        { "en": "This app is for tracking your expenses." },
+        { "en": "I'll lend you the book as long as you return it soon." },
+        { "en": "Let's book the table now in case the restaurant gets busy." }
+      ],
+      "practice": [
+        {
+          "prompt": "I'm learning Italian ___ work in Milan.",
+          "options": ["for", "in order to", "so that"],
+          "answer": 1,
+          "explanation": {
+            "en": "The subject is the same, so in order to + infinitive works; for and so that do not fit."
+          }
+        },
+        {
+          "prompt": "Take a sandwich ___ you get hungry on the train.",
+          "options": ["in case", "unless", "so as"],
+          "answer": 0,
+          "explanation": {
+            "en": "In case describes a precaution against a possible problem."
+          }
+        },
+        {
+          "prompt": "You can use my laptop ___ you look after it.",
+          "options": ["unless", "in case", "as long as"],
+          "answer": 2,
+          "explanation": { "en": "As long as means only if, a condition." }
+        },
+        {
+          "prompt": "I'll call you tonight ___ you can tell me the news.",
+          "options": ["so that", "for", "in case"],
+          "answer": 0,
+          "explanation": {
+            "en": "The subjects are different (I / you), so so that + clause fits."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

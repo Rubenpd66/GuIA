@@ -1,0 +1,144 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "passive-basics",
+      "level": "B1",
+      "category": "passive",
+      "order": 130,
+      "references": [
+        { "book": "egu", "unit": 42 },
+        { "book": "egu", "unit": 43 }
+      ],
+      "title": {
+        "en": "The passive: basic forms",
+        "es": "La voz pasiva: formas básicas"
+      },
+      "summary": {
+        "en": "Use the **passive** when the action matters more than who does it, or when we don't know or don't need to say who did it. Form it with **be + past participle**, and change the tense of **be**: _The bridge is repaired every year_, _was built in 1990_, _has been closed_. Add **by + agent** only when the doer is useful information.",
+        "es": "En inglés la pasiva se usa mucho más que en español, donde a menudo decimos «se arregla» o «arreglan». Siempre lleva el verbo **be** y el participio: no se puede omitir ninguno de los dos."
+      },
+      "form": [
+        "Present simple: **am/is/are + past participle** (_is made_)",
+        "Past simple: **was/were + past participle** (_was made_)",
+        "Present perfect: **has/have been + past participle** (_has been made_)",
+        "Future: **will be + past participle**; with modals: **can/must/should be + past participle**",
+        "Continuous: **is being / was being + past participle** (_is being repaired_)",
+        "Negative and questions follow the auxiliary: _It wasn't finished._ _Was it finished?_"
+      ],
+      "uses": [
+        {
+          "text": "**The doer is unknown or unimportant**: _My bike **was stolen** last night._"
+        },
+        {
+          "text": "**The action or result is the focus**: _The new library **will be opened** in May._"
+        },
+        {
+          "text": "**General facts and processes**: _Olive oil **is produced** in many parts of Spain._"
+        },
+        {
+          "text": "**Naming the doer with by**: _The report **was written by** an independent team._",
+          "note": {
+            "en": "Use by only when the doer adds information. Don't say by people or by someone.",
+            "es": "Usa by solo si el agente aporta información; no se dice by people ni by someone."
+          }
+        },
+        {
+          "text": "**Verbs with two objects** can have two passives: _She was given a pay rise_ or _A pay rise was given to her._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "The meeting has cancelled.",
+          "right": "The meeting has been cancelled.",
+          "why": {
+            "en": "A passive needs be + past participle. Without been, the verb sounds active.",
+            "es": "La pasiva necesita be en el tiempo correcto: has been cancelled, no has cancelled."
+          }
+        },
+        {
+          "wrong": "English is spoken in many countries by people.",
+          "right": "English is spoken in many countries.",
+          "why": {
+            "en": "Leave out the agent when it is obvious or general.",
+            "es": "No añadas by people: el agente obvio se omite."
+          }
+        },
+        {
+          "wrong": "The road is repairing at the moment.",
+          "right": "The road is being repaired at the moment.",
+          "why": {
+            "en": "The present continuous passive is is/are being + past participle.",
+            "es": "«Se está arreglando» es is being repaired, no is repairing."
+          }
+        },
+        {
+          "wrong": "It was happened last week.",
+          "right": "It happened last week.",
+          "why": {
+            "en": "Verbs like happen, arrive, die and seem have no object, so they have no passive.",
+            "es": "Los verbos intransitivos (happen, arrive, die) no tienen pasiva."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tickets are sold online only.",
+          "es": "Las entradas se venden solo por internet."
+        },
+        {
+          "en": "This church was designed by a local architect in 1862.",
+          "es": "Esta iglesia fue diseñada por un arquitecto local en 1862."
+        },
+        {
+          "en": "Several roads have been closed because of the flooding.",
+          "es": "Se han cortado varias carreteras por las inundaciones."
+        },
+        { "en": "Your order will be delivered within three working days." },
+        {
+          "en": "The town hall is being renovated, so it's closed until June."
+        },
+        { "en": "Mobile phones must not be used during the exam." },
+        { "en": "I was offered a job in Dublin, but I turned it down." },
+        { "en": "Was the package signed for, or was it left outside?" },
+        { "en": "The suspect hasn't been found yet." },
+        { "en": "Glass should be recycled, not thrown away." }
+      ],
+      "practice": [
+        {
+          "prompt": "The windows ___ every month by a cleaning company.",
+          "options": ["are cleaned", "are cleaning", "cleaned"],
+          "answer": 0,
+          "explanation": {
+            "en": "The windows receive the action, so we need the passive: are cleaned."
+          }
+        },
+        {
+          "prompt": "Sorry about the noise: the street ___ at the moment.",
+          "options": ["is repaired", "is being repaired", "has repaired"],
+          "answer": 1,
+          "explanation": {
+            "en": "An action in progress now needs the continuous passive: is being repaired."
+          }
+        },
+        {
+          "prompt": "My laptop ___ from my car last week.",
+          "options": ["stole", "was stolen", "has been stolen"],
+          "answer": 1,
+          "explanation": {
+            "en": "Last week is a finished time, so the past simple passive is needed: was stolen."
+          }
+        },
+        {
+          "prompt": "All the staff ___ about the changes by email tomorrow.",
+          "options": ["will inform", "will be informed", "will being informed"],
+          "answer": 1,
+          "explanation": {
+            "en": "The staff receive the information, so the future passive is will be informed."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

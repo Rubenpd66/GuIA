@@ -1,0 +1,137 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "countable-uncountable-quantifiers",
+      "level": "B1",
+      "category": "nouns-articles",
+      "order": 170,
+      "references": [
+        { "book": "egu", "unit": 69 },
+        { "book": "egu", "unit": 70 },
+        { "book": "egu", "unit": 71 },
+        { "book": "egu", "unit": 87 }
+      ],
+      "title": {
+        "en": "Countable and uncountable nouns; much, many, few, little",
+        "es": "Contables e incontables; much, many, few, little"
+      },
+      "summary": {
+        "en": "**Countable** nouns can be counted (_one idea, two ideas_). **Uncountable** nouns cannot (_information, advice, money_) and have no plural. Use **many / few / a few** with countable nouns and **much / little / a little** with uncountable ones. **A lot of** works with both. **A few / a little** are positive (some); **few / little** are negative (not enough).",
+        "es": "Cuidado con palabras que en español son contables y en inglés no: information, advice, news, furniture, luggage, traffic, work."
+      },
+      "form": [
+        "Countable: **a/an**, numbers, plural **-s** (_a ticket, three tickets_)",
+        "Uncountable: no plural, no a/an; use **some**, **a piece of**, **a bit of** (_some advice_, _a piece of news_)",
+        "**many / few / a few** + plural countable; **much / little / a little** + uncountable",
+        "**much** and **many** are mostly used in questions and negatives; in positive sentences use **a lot of**"
+      ],
+      "uses": [
+        {
+          "text": "**Countable**: _How **many** emails did you get?_ _There are **a few** seats left._"
+        },
+        {
+          "text": "**Uncountable**: _How **much** time do we have?_ _We have **a little** time before the meeting._"
+        },
+        {
+          "text": "**Positive or negative meaning**: _a few friends_ = some, enough; _few friends_ = hardly any. _A little money_ = some; _little money_ = hardly any.",
+          "note": {
+            "en": "Without a, few and little sound negative (not enough) and rather formal.",
+            "es": "Few/little sin «a» expresan escasez: casi ninguno, muy poco."
+          }
+        },
+        {
+          "text": "**A lot of / lots of** in positive sentences: _She has **a lot of** experience._ In negatives and questions, _much/many_ is more natural: _I don't have **much** free time._"
+        },
+        {
+          "text": "**Both meanings**: some nouns change meaning, e.g. _paper_ (material) and _a paper_ (a newspaper or an essay); _time_ and _a time_."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "She gave me some advices about my CV.",
+          "right": "She gave me some advice about my CV.",
+          "why": {
+            "en": "Advice is uncountable, so it has no plural. Say a piece of advice.",
+            "es": "Advice es incontable: no lleva -s ni a. «Un consejo» = a piece of advice."
+          }
+        },
+        {
+          "wrong": "The news are very worrying.",
+          "right": "The news is very worrying.",
+          "why": {
+            "en": "News looks plural but is uncountable and takes a singular verb.",
+            "es": "News acaba en -s pero es singular."
+          }
+        },
+        {
+          "wrong": "I haven't got many money this month.",
+          "right": "I haven't got much money this month.",
+          "why": {
+            "en": "Money is uncountable, so use much, not many.",
+            "es": "Money es incontable: much, no many."
+          }
+        },
+        {
+          "wrong": "I have few time, so let's be quick.",
+          "right": "I have little time, so let's be quick.",
+          "why": {
+            "en": "Time is uncountable, so use little, not few.",
+            "es": "Few va con contables; con incontables se usa little."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "There isn't much traffic on Sundays.",
+          "es": "No hay mucho tráfico los domingos."
+        },
+        {
+          "en": "How many people are coming to the party?",
+          "es": "¿Cuánta gente viene a la fiesta?"
+        },
+        { "en": "I need some information about the course." },
+        { "en": "We've got a little time, so let's have a coffee." },
+        { "en": "Few students passed the exam, which surprised the teacher." },
+        { "en": "A few of my neighbours play in a band." },
+        { "en": "She gave me a useful piece of advice." },
+        { "en": "He has a lot of furniture but very little space." },
+        { "en": "Too much sugar is bad for your teeth." },
+        { "en": "There are too many cars in the city centre." }
+      ],
+      "practice": [
+        {
+          "prompt": "How ___ homework do you have tonight?",
+          "options": ["many", "much", "few"],
+          "answer": 1,
+          "explanation": { "en": "Homework is uncountable, so use much." }
+        },
+        {
+          "prompt": "There are only ___ tickets left, so book now.",
+          "options": ["a little", "much", "a few"],
+          "answer": 2,
+          "explanation": {
+            "en": "Tickets are countable; a few means some, a small number."
+          }
+        },
+        {
+          "prompt": "I'm afraid I've got very ___ patience with rude customers.",
+          "options": ["few", "little", "many"],
+          "answer": 1,
+          "explanation": {
+            "en": "Patience is uncountable, and little means hardly any."
+          }
+        },
+        {
+          "prompt": "The news about the strike ___ not good.",
+          "options": ["is", "are", "were being"],
+          "answer": 0,
+          "explanation": {
+            "en": "News is uncountable and takes a singular verb."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

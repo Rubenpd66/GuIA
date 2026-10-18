@@ -1,0 +1,152 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "past-modals",
+      "level": "B2",
+      "category": "modals",
+      "order": 30,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 27
+        }
+      ],
+      "title": {
+        "en": "Past modals: could have, should have, needn't have",
+        "es": "Modales en pasado: could have, should have, needn't have"
+      },
+      "summary": {
+        "en": "Use **modal + have + past participle** to talk about the past without real facts: **could have** (it was possible but did not happen), **should have** (a mistake or criticism), **would have** (the imagined result) and **needn't have** (it was not necessary, but you did it). _I **should have** called._ _You **needn't have** bought flowers._",
+        "es": "Could have = «podría haber», should have = «debería haber», would have = «habría», needn't have = «no hacía falta que (pero lo hiciste)». Didn't need to = no era necesario, y no sabemos si se hizo."
+      },
+      "form": [
+        "**could / should / would / might + have + past participle**",
+        "Negative: **couldn't / shouldn't have + past participle**",
+        "**needn't have + past participle**: you did it, but it was unnecessary",
+        "**didn't need to + infinitive**: it was unnecessary (you probably didn't do it)"
+      ],
+      "uses": [
+        {
+          "text": "**Missed possibility**: _We **could have taken** the train, but we drove._"
+        },
+        {
+          "text": "**Regret or criticism**: _You **should have told** me. I **shouldn't have shouted**._"
+        },
+        {
+          "text": "**Imagined result**: _I **would have helped** if you'd asked._"
+        },
+        {
+          "text": "**Action done but not necessary**: _I **needn't have hurried**; the train was late._ (I did hurry.)"
+        },
+        {
+          "text": "**Not necessary, no action**: _I **didn't need to** hurry, so I walked slowly._",
+          "note": {
+            "en": "Didn't need to does not say whether you did it. Needn't have says you did it.",
+            "es": "Didn't need to no dice si lo hiciste; needn't have sí."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "You should told me about the problem.",
+          "right": "You should have told me about the problem.",
+          "why": {
+            "en": "Past modals need have + past participle.",
+            "es": "Debería habértelo dicho: should have told."
+          }
+        },
+        {
+          "wrong": "I should have to call her yesterday.",
+          "right": "I should have called her yesterday.",
+          "why": {
+            "en": "Do not add to or use the infinitive after have.",
+            "es": "No uses to: should have + participio."
+          }
+        },
+        {
+          "wrong": "You needn't to have waited for me.",
+          "right": "You needn't have waited for me.",
+          "why": {
+            "en": "Needn't is a modal: no to before have. Use needn't have + past participle for something done that was unnecessary.",
+            "es": "Needn't es modal: sin «to». Algo que hiciste y no hacía falta: needn't have + participio."
+          }
+        },
+        {
+          "wrong": "If I had known, I would had come.",
+          "right": "If I had known, I would have come.",
+          "why": {
+            "en": "After would, use have, not had.",
+            "es": "Tras would va have."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "She could have won the race if she hadn't tripped."
+        },
+        {
+          "en": "You should have checked the opening times before we set off.",
+          "es": "Deberías haber mirado el horario antes de salir."
+        },
+        {
+          "en": "We shouldn't have stayed up so late last night."
+        },
+        {
+          "en": "I would have gone to the party, but I had a cold."
+        },
+        {
+          "en": "You needn't have cooked so much; there were only four of us.",
+          "es": "No hacía falta que cocinaras tanto; éramos solo cuatro."
+        },
+        {
+          "en": "He didn't need to wear a suit, so he went in jeans."
+        },
+        {
+          "en": "They might have won if the referee had been fairer."
+        },
+        {
+          "en": "It was dangerous. You could have been seriously hurt."
+        },
+        {
+          "en": "Why didn't you ask? I would have lent you the money."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "I forgot Anna's birthday. I ___ remembered it.",
+          "options": ["should have", "should", "must have"],
+          "answer": 0,
+          "explanation": {
+            "en": "Regret about the past: should have + past participle."
+          }
+        },
+        {
+          "prompt": "We took umbrellas, but it stayed dry. We ___ bothered.",
+          "options": ["needn't have", "didn't need", "mustn't have"],
+          "answer": 0,
+          "explanation": {
+            "en": "We took them (an action done), but it was unnecessary: needn't have."
+          }
+        },
+        {
+          "prompt": "The brakes failed. You ___ been killed!",
+          "options": ["could have", "could", "can have"],
+          "answer": 0,
+          "explanation": {
+            "en": "Possible past result that did not happen: could have + past participle."
+          }
+        },
+        {
+          "prompt": "If she had asked me, I ___ her a lift.",
+          "options": ["would give", "would have given", "would had given"],
+          "answer": 1,
+          "explanation": {
+            "en": "Third-conditional result: would have + past participle."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

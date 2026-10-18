@@ -1,0 +1,146 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "ability-and-permission",
+      "level": "B1",
+      "category": "modals",
+      "order": 90,
+      "references": [
+        { "book": "egu", "unit": 26 },
+        { "book": "egu", "unit": 36 }
+      ],
+      "title": {
+        "en": "Ability, permission and requests",
+        "es": "Capacidad, permiso y peticiones"
+      },
+      "summary": {
+        "en": "Use **can** and **could** for ability, permission and requests: _I **can** swim_, _**Could** I borrow your pen?_ Use **be able to** where _can_ has no form: after other verbs, in the future and in the perfect tenses. For one successful action in the past, use **was able to**, not _could_.",
+        "es": "Can y could sirven para capacidad, permiso y peticiones. Cuando can no tiene la forma que necesitas (futuro, presente perfecto, infinitivo), usa be able to. Para un logro concreto en el pasado, was able to, no could."
+      },
+      "form": [
+        "**can / could** + infinitive without _to_: _She can drive._",
+        "**be able to** + infinitive: _He **was able to** finish early._",
+        "Questions and requests: **Can / Could / May** + subject + infinitive",
+        "Negative: **can't / cannot / couldn't / wasn't able to**"
+      ],
+      "uses": [
+        {
+          "text": "**General ability**: _She **can** speak three languages._ _I **could** swim when I was five._"
+        },
+        {
+          "text": "**One successful action in the past**: _The firefighters **were able to** save the building._ (Not _could_ in an affirmative sentence.)",
+          "note": {
+            "en": "In negatives, couldn't is fine: They couldn't save it.",
+            "es": "En negativa sí vale couldn't."
+          }
+        },
+        {
+          "text": "**Ability in other tenses**: _I **haven't been able to** call her all week._ _You'll **be able to** park here soon._"
+        },
+        {
+          "text": "**Asking for permission**: _**Can** I use your phone?_ _**Could** I leave early today?_ _**May** I come in?_ (the most formal)"
+        },
+        {
+          "text": "**Giving or refusing permission**: _You **can** park outside._ _You **can't** smoke in here._"
+        },
+        {
+          "text": "**Polite requests**: _**Could** you send me the report?_ _**Would** you mind closing the door?_"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Yesterday I could finish the report before lunch.",
+          "right": "Yesterday I was able to finish the report before lunch.",
+          "why": {
+            "en": "For one particular success in the past, use was able to. Could describes general ability.",
+            "es": "Un logro concreto en pasado: was able to. Could es para capacidad general."
+          }
+        },
+        {
+          "wrong": "She can to play the guitar.",
+          "right": "She can play the guitar.",
+          "why": {
+            "en": "Modal verbs are followed by the infinitive without to.",
+            "es": "Tras un modal no se usa to."
+          }
+        },
+        {
+          "wrong": "I will can come to the meeting.",
+          "right": "I will be able to come to the meeting.",
+          "why": {
+            "en": "Can has no infinitive, so it cannot follow will.",
+            "es": "Can no tiene infinitivo: «podré» es will be able to."
+          }
+        },
+        {
+          "wrong": "Do you can help me with this form?",
+          "right": "Can you help me with this form?",
+          "why": {
+            "en": "Modals make questions by inversion, without do.",
+            "es": "Los modales no llevan do en preguntas."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "My grandfather can still repair almost any clock." },
+        {
+          "en": "When I was a child, I could run for hours without getting tired.",
+          "es": "De niño podía correr durante horas sin cansarme."
+        },
+        {
+          "en": "After a long search, the police were able to find the missing dog."
+        },
+        { "en": "I couldn't open the window because the handle was broken." },
+        {
+          "en": "I haven't been able to sleep properly since the building work started.",
+          "es": "No he podido dormir bien desde que empezaron las obras."
+        },
+        { "en": "Will you be able to pick up the parcels on Friday?" },
+        { "en": "Could I borrow your charger for a few minutes?" },
+        {
+          "en": "May I ask who is calling, please?",
+          "es": "¿Puedo preguntar quién llama, por favor?"
+        },
+        {
+          "en": "Visitors can use the car park, but they can't stay overnight."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "Last night the engineers ___ repair the fault in under an hour.",
+          "options": ["could", "were able to", "can"],
+          "answer": 1,
+          "explanation": {
+            "en": "One particular success in the past needs was/were able to."
+          }
+        },
+        {
+          "prompt": "I'm sorry, I ___ come to your party next week. I'll be abroad.",
+          "options": ["don't can", "can't", "can to"],
+          "answer": 1,
+          "explanation": {
+            "en": "Can't + infinitive without to; no do with modals."
+          }
+        },
+        {
+          "prompt": "Excuse me, ___ I use the toilet, please?",
+          "options": ["may", "am", "do"],
+          "answer": 0,
+          "explanation": {
+            "en": "May I is a polite way to ask for permission."
+          }
+        },
+        {
+          "prompt": "With a new bike, you ___ cycle to work in twenty minutes.",
+          "options": ["will can", "will be able to", "are can"],
+          "answer": 1,
+          "explanation": {
+            "en": "Can has no infinitive, so use will be able to."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

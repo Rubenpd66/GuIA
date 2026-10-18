@@ -1,0 +1,150 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "reported-speech",
+      "level": "B2",
+      "category": "reported-speech",
+      "order": 60,
+      "references": [
+        { "book": "egu", "unit": 47 },
+        { "book": "egu", "unit": 48 }
+      ],
+      "title": {
+        "en": "Reported speech",
+        "es": "Estilo indirecto"
+      },
+      "summary": {
+        "en": "In **reported speech** we tell someone else's words from a later point of view. After a past reporting verb (_said_, _told_, _asked_) the tense usually moves back (**backshift**), and pronouns, places and time words change: _\"I'll call you tomorrow.\"_ → _She said she would call me the next day._ Questions keep statement order, and orders or requests use **tell/ask + object + to-infinitive**.",
+        "es": "Es el «dijo que…» del español, pero en inglés la concordancia de tiempos es más rígida: «Dijo que vendrá» suele ser **said she would come**. Recuerda que **say** no lleva complemento de persona directo (said to me) y **tell** sí (told me)."
+      },
+      "form": [
+        "Backshift: present simple → past simple; present continuous → past continuous; present perfect/past simple → past perfect",
+        "will → would; can → could; may → might; must → had to",
+        "Time and place: _today_ → _that day_; _tomorrow_ → _the next day_; _here_ → _there_; _now_ → _then_",
+        "Questions: **asked + if/whether/question word + subject + verb** (no do/does/did)",
+        "Orders and requests: **told/asked + object + (not) to + infinitive**",
+        "Reporting verbs: _admit, deny, suggest, promise, warn, insist_ have their own patterns"
+      ],
+      "uses": [
+        {
+          "text": "**Statements**: _\"We're leaving.\"_ → _They said they were leaving._"
+        },
+        {
+          "text": "**Questions**: _\"Where do you live?\"_ → _He asked me where I lived._"
+        },
+        {
+          "text": "**Orders and requests**: _\"Don't be late.\"_ → _She told us not to be late._"
+        },
+        {
+          "text": "**No backshift needed** when the fact is still true or the reporting verb is present: _He said he lives in Oslo_ (he still does). _She says she's tired._",
+          "note": {
+            "en": "Backshift is optional when the reported information is still true or has just been said.",
+            "es": "El retroceso de tiempos es opcional si lo dicho sigue siendo cierto."
+          }
+        },
+        {
+          "text": "**Reporting verbs with other patterns**: _She admitted taking the money. He suggested meeting earlier. They warned us not to go._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "She said me that she was busy.",
+          "right": "She told me that she was busy.",
+          "why": {
+            "en": "Tell needs a person object. Say does not: she said that… or she said to me that…",
+            "es": "Told me / said (to me): say no lleva complemento de persona directo."
+          }
+        },
+        {
+          "wrong": "He asked me where did I work.",
+          "right": "He asked me where I worked.",
+          "why": {
+            "en": "Reported questions use statement order, with no did.",
+            "es": "En la pregunta indirecta no se usa did ni inversión."
+          }
+        },
+        {
+          "wrong": "She asked me if I can help her.",
+          "right": "She asked me if I could help her.",
+          "why": {
+            "en": "After a past reporting verb, can usually becomes could.",
+            "es": "Tras un verbo en pasado, can pasa a could."
+          }
+        },
+        {
+          "wrong": "The doctor told me to not smoke.",
+          "right": "The doctor told me not to smoke.",
+          "why": {
+            "en": "Negative reported orders use not to + infinitive.",
+            "es": "El orden normal es not to + infinitivo."
+          }
+        },
+        {
+          "wrong": "He suggested me to take a taxi.",
+          "right": "He suggested that I take a taxi.",
+          "why": {
+            "en": "Suggest is not followed by object + to-infinitive. Use a that-clause or -ing.",
+            "es": "Suggest no admite objeto + to + infinitivo: that I take / taking."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "\"I'm meeting a client at noon,\" she said. → She said she was meeting a client at noon.",
+          "es": "Dijo que se reunía con un cliente a mediodía."
+        },
+        {
+          "en": "He told me he had lost his wallet on the way home.",
+          "es": "Me dijo que había perdido la cartera de camino a casa."
+        },
+        {
+          "en": "The receptionist asked whether we had a reservation.",
+          "es": "La recepcionista preguntó si teníamos reserva."
+        },
+        { "en": "She told the children to put their coats on." },
+        { "en": "They asked me not to share the document with anyone." },
+        { "en": "He said he'd finish the work by the following Friday." },
+        { "en": "I asked her what time the exhibition opened." },
+        { "en": "The driver warned us that the road might be icy." },
+        { "en": "She admitted that she hadn't read the contract." },
+        { "en": "He denied taking the keys." }
+      ],
+      "practice": [
+        {
+          "prompt": "\"I'll send the files tonight,\" she said. → She said she ___ the files that night.",
+          "options": ["will send", "would send", "sends"],
+          "answer": 1,
+          "explanation": {
+            "en": "After said, will usually becomes would."
+          }
+        },
+        {
+          "prompt": "\"Where do you work?\" he asked me. → He asked me where I ___.",
+          "options": ["work", "did work", "worked"],
+          "answer": 2,
+          "explanation": {
+            "en": "Reported questions use statement order and the backshifted tense, with no did."
+          }
+        },
+        {
+          "prompt": "\"Don't open the window,\" said Mum. → Mum told me ___ the window.",
+          "options": ["not to open", "to not open", "don't open"],
+          "answer": 0,
+          "explanation": {
+            "en": "A negative reported order uses not to + infinitive."
+          }
+        },
+        {
+          "prompt": "She ___ me that the flight had been cancelled.",
+          "options": ["said", "told", "spoke"],
+          "answer": 1,
+          "explanation": {
+            "en": "Tell takes a person object (me); say does not."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "passive-reporting-and-causative",
+      "level": "B2",
+      "category": "passive",
+      "order": 50,
+      "references": [
+        { "book": "egu", "unit": 44 },
+        { "book": "egu", "unit": 45 },
+        { "book": "egu", "unit": 46 }
+      ],
+      "title": {
+        "en": "Reporting passives and have/get something done",
+        "es": "Pasivas de información y have/get something done"
+      },
+      "summary": {
+        "en": "To report what people believe or say without naming them, use **It is said that…** or **He is said to…**. To talk about services or things that happen to us, use **have/get + object + past participle**: _I had my hair cut_, _She's getting the car repaired_. Both structures put the focus on the result, not on the doer.",
+        "es": "Equivale a «se dice que…» o «se cree que…» (reporting passive) y a «me corté el pelo» cuando otra persona lo hace (causative). En español usamos la forma reflexiva; en inglés es **have + objeto + participio**: no se dice *I cut my hair* si lo hace el peluquero."
+      },
+      "form": [
+        "**It + is/was + said/thought/believed/reported + that + clause**",
+        "**Subject + is/was + said/thought/believed + to + infinitive** (_He is said to be ill._)",
+        "Earlier events: **to have + past participle** (_She is believed to have left._)",
+        "Ongoing situations: **to be + -ing** (_The company is reported to be losing money._)",
+        "Causative: **have/get + object + past participle** (_We had the roof repaired._)",
+        "**Get** is more informal and often suggests something happened to you: _He got his phone stolen._"
+      ],
+      "uses": [
+        {
+          "text": "**Reporting general opinion**: _It is thought that the strike will end soon._"
+        },
+        {
+          "text": "**Same idea with a personal subject**: _The strike is thought to end soon._"
+        },
+        {
+          "text": "**Looking back**: _The painting is believed to have been stolen in 1998._",
+          "note": {
+            "en": "Use to have + past participle when the reported event is earlier than the reporting verb.",
+            "es": "Si el hecho es anterior al verbo de información, usa to have + participio."
+          }
+        },
+        {
+          "text": "**Arranging a service**: _I'm having my kitchen painted next week._"
+        },
+        {
+          "text": "**Unwelcome experiences**: _She had her bag stolen on the train._",
+          "note": {
+            "en": "The same pattern can describe something bad that happens to you, not something you arranged.",
+            "es": "El mismo patrón sirve para algo malo que te ocurre: had her bag stolen."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I cut my hair at the salon every six weeks.",
+          "right": "I have my hair cut at the salon every six weeks.",
+          "why": {
+            "en": "If someone else does the job for you, use have + object + past participle.",
+            "es": "Si lo hace otra persona, usa have + objeto + participio; I cut my hair significa que lo haces tú."
+          }
+        },
+        {
+          "wrong": "He is said that he is a millionaire.",
+          "right": "He is said to be a millionaire.",
+          "why": {
+            "en": "With a personal subject, the reporting passive is followed by to + infinitive, not a that-clause.",
+            "es": "Con sujeto personal: is said to be, no is said that."
+          }
+        },
+        {
+          "wrong": "They are said to leave the country last year.",
+          "right": "They are said to have left the country last year.",
+          "why": {
+            "en": "For an earlier event, use the perfect infinitive.",
+            "es": "Para un hecho pasado: to have left."
+          }
+        },
+        {
+          "wrong": "I had repaired my car yesterday.",
+          "right": "I had my car repaired yesterday.",
+          "why": {
+            "en": "The causative order is have + object + past participle. The past perfect has a different meaning.",
+            "es": "El orden es have + coche + participio; I had repaired es past perfect."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "It is said that the old mill is haunted.",
+          "es": "Se dice que el viejo molino está encantado."
+        },
+        {
+          "en": "The minister is believed to have resigned last night.",
+          "es": "Se cree que el ministro dimitió anoche."
+        },
+        {
+          "en": "I'm having my passport renewed this month.",
+          "es": "Este mes me van a renovar el pasaporte."
+        },
+        { "en": "The factory is reported to be closing next year." },
+        { "en": "It was widely believed that the economy would recover." },
+        { "en": "She had her car broken into while she was shopping." },
+        { "en": "We're getting the boiler serviced on Thursday." },
+        { "en": "The suspect is thought to be living abroad." },
+        { "en": "Have you ever had your portrait painted?" },
+        { "en": "He's had his teeth whitened, and it shows." }
+      ],
+      "practice": [
+        {
+          "prompt": "The new tunnel ___ to be the longest in the country.",
+          "options": ["says", "is said", "is saying"],
+          "answer": 1,
+          "explanation": {
+            "en": "The reporting passive is is said to + infinitive."
+          }
+        },
+        {
+          "prompt": "We ___ the windows replaced next week.",
+          "options": ["are having", "are replacing", "have replaced"],
+          "answer": 0,
+          "explanation": {
+            "en": "Someone else will do the work, so use have + object + past participle."
+          }
+        },
+        {
+          "prompt": "The thieves are believed ___ the country before the alarm went off.",
+          "options": ["to leave", "to have left", "leaving"],
+          "answer": 1,
+          "explanation": {
+            "en": "The leaving happened before the belief is reported, so use the perfect infinitive."
+          }
+        },
+        {
+          "prompt": "I need to ___ my laptop looked at; it keeps crashing.",
+          "options": ["get", "make", "do"],
+          "answer": 0,
+          "explanation": {
+            "en": "Get + object + past participle is a causative pattern; make and do do not work here."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

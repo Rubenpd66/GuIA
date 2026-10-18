@@ -1,0 +1,174 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "articles",
+      "level": "B1",
+      "category": "nouns-articles",
+      "order": 160,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 72
+        },
+        {
+          "book": "egu",
+          "unit": 73
+        },
+        {
+          "book": "egu",
+          "unit": 74
+        },
+        {
+          "book": "egu",
+          "unit": 75
+        },
+        {
+          "book": "egu",
+          "unit": 76
+        }
+      ],
+      "title": {
+        "en": "Articles: a, an, the or nothing",
+        "es": "Artículos: a, an, the o ninguno"
+      },
+      "summary": {
+        "en": "Use **a/an** for one of many things or when you first mention something. Use **the** when the listener knows which one: it was mentioned before, it is unique, or the context makes it clear. Use **no article** for plural or uncountable nouns when you speak in general: _Prices are rising_, _Life is expensive_.",
+        "es": "En español decimos «la vida» o «los precios» en general; en inglés, para generalizar, no se usa artículo: life, prices, people."
+      },
+      "form": [
+        "**a** + consonant sound (_a job_, _a university_); **an** + vowel sound (_an hour_, _an MBA_)",
+        "**the** + singular, plural or uncountable noun when it is specific or unique (_the sun_, _the report you sent_)",
+        "**no article** + plural or uncountable noun in general statements (_Doctors earn more than teachers_)",
+        "**the** + superlatives, _the first/last_, rivers, seas, mountain ranges, and countries with _Republic/Kingdom/States_"
+      ],
+      "uses": [
+        {
+          "text": "**First mention** → a/an; **second mention** → the: _I bought a jacket and a scarf. **The** jacket was cheap._"
+        },
+        {
+          "text": "**Unique or obvious things** → the: _the moon_, _the government_, _the city centre_."
+        },
+        {
+          "text": "**General statements** → no article: _Music helps me concentrate._ _People often work too hard._",
+          "note": {
+            "en": "Compare _Music helps me_ (in general) with _The music in this café is loud_ (specific).",
+            "es": "Para hablar en general no uses the: «la música ayuda» = Music helps."
+          }
+        },
+        {
+          "text": "**Jobs and descriptions** → a/an: _She is **an** engineer._ _He's **a** very patient man._"
+        },
+        {
+          "text": "**Fixed expressions without an article**: _go to work_, _at home_, _in hospital_, _by train_, _at university_, _in bed_."
+        },
+        {
+          "text": "**Place names**: no article for most countries, cities and lakes (_Italy_, _Lake Garda_); **the** for plural names and groups (_the Alps_, _the Netherlands_, _the Atlantic_)."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "The life is more expensive than before.",
+          "right": "Life is more expensive than before.",
+          "why": {
+            "en": "Do not use the when you talk about something in general.",
+            "es": "En general no se usa the, aunque en español digamos «la vida»."
+          }
+        },
+        {
+          "wrong": "The people in my country are very friendly.",
+          "right": "People in my country are very friendly.",
+          "why": {
+            "en": "People in general takes no article. Use the only when it is a specific group: the people I met.",
+            "es": "«La gente» en general es people, sin the."
+          }
+        },
+        {
+          "wrong": "She is doctor at the hospital near here.",
+          "right": "She is a doctor at the hospital near here.",
+          "why": {
+            "en": "A singular job title needs a/an.",
+            "es": "En inglés la profesión lleva a/an: «es médica» = she is a doctor."
+          }
+        },
+        {
+          "wrong": "I go to the work by the bus every morning.",
+          "right": "I go to work by bus every morning.",
+          "why": {
+            "en": "Go to work and by + transport are fixed expressions with no article.",
+            "es": "Expresiones fijas: go to work, by bus, at home."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I saw a film last night. The film was about a lighthouse keeper.",
+          "es": "Anoche vi una película. La película trataba de un farero."
+        },
+        {
+          "en": "Honesty is important in any relationship.",
+          "es": "La honestidad es importante en cualquier relación."
+        },
+        {
+          "en": "Could you close the window? It's freezing in here."
+        },
+        {
+          "en": "My brother is an architect and my sister is a pilot."
+        },
+        {
+          "en": "She spends most of her free time at home."
+        },
+        {
+          "en": "The Danube flows through several countries."
+        },
+        {
+          "en": "We travelled to Spain by train."
+        },
+        {
+          "en": "Children learn quickly when they are interested."
+        },
+        {
+          "en": "It was the most boring lecture I've ever attended."
+        },
+        {
+          "en": "He's been in hospital since Monday."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "___ coffee keeps me awake if I drink it late.",
+          "options": ["The", "A", "(no article)"],
+          "answer": 2,
+          "explanation": {
+            "en": "Coffee in general is uncountable and general, so no article is used."
+          }
+        },
+        {
+          "prompt": "She's ___ engineer at a wind-farm company.",
+          "options": ["a", "an", "the"],
+          "answer": 1,
+          "explanation": {
+            "en": "Engineer starts with a vowel sound, and a job title takes a/an."
+          }
+        },
+        {
+          "prompt": "I had lunch with a colleague. ___ colleague recommended this restaurant.",
+          "options": ["A", "The", "An"],
+          "answer": 1,
+          "explanation": {
+            "en": "The colleague was mentioned before, so we use the."
+          }
+        },
+        {
+          "prompt": "Most ___ in this town travel to work by car.",
+          "options": ["the people", "people", "a people"],
+          "answer": 1,
+          "explanation": {
+            "en": "People in general takes no article."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "modals-of-deduction",
+      "level": "B2",
+      "category": "modals",
+      "order": 20,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 28
+        },
+        {
+          "book": "egu",
+          "unit": 29
+        },
+        {
+          "book": "egu",
+          "unit": 30
+        }
+      ],
+      "title": {
+        "en": "Modals of deduction",
+        "es": "Modales de deducción"
+      },
+      "summary": {
+        "en": "Use modals to say how sure you are. **Must** means you are almost certain something is true; **can't** (or **couldn't**) means it is almost impossible; **may, might** and **could** mean it is possible. For the past, use the modal + **have** + past participle: _She **must have left** early._",
+        "es": "Must = «debe de» (casi seguro); can't = «no puede ser»; may/might/could = «quizá». Ojo: la negación de must en deducción es can't, no mustn't."
+      },
+      "form": [
+        "Present: **must / can't / may / might / could** + infinitive",
+        "Present continuous: modal + **be** + -ing: _He must be working._",
+        "Past: modal + **have** + past participle: _They might have got lost._",
+        "Negative possibility: **may not / might not** (not _mayn't_ in this use)"
+      ],
+      "uses": [
+        {
+          "text": "**Strong certainty (positive)**: _The lights are off, so they **must be** asleep._"
+        },
+        {
+          "text": "**Strong certainty (negative)**: _That **can't be** Tom; he's in Spain._"
+        },
+        {
+          "text": "**Possibility**: _She **might be** stuck in traffic._ _It **could be** a mistake._"
+        },
+        {
+          "text": "**Past deduction**: _He **must have forgotten** the date._ _You **can't have seen** her; she wasn't there._"
+        },
+        {
+          "text": "**Possible but not certain in the past**: _They **may have taken** a different route._",
+          "note": {
+            "en": "Couldn't have is also used for a past impossibility: It couldn't have been him.",
+            "es": "Couldn't have también expresa imposibilidad en el pasado."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "He mustn't be at home. The car isn't there.",
+          "right": "He can't be at home. The car isn't there.",
+          "why": {
+            "en": "The negative of must for deduction is can't. Mustn't means prohibition.",
+            "es": "«No puede estar» es can't be, no mustn't."
+          }
+        },
+        {
+          "wrong": "She must left early because her coat is gone.",
+          "right": "She must have left early because her coat is gone.",
+          "why": {
+            "en": "Past deduction needs have + past participle.",
+            "es": "Para el pasado: must have + participio."
+          }
+        },
+        {
+          "wrong": "They must to be tired after the journey.",
+          "right": "They must be tired after the journey.",
+          "why": {
+            "en": "No to after a modal.",
+            "es": "Tras un modal no va to."
+          }
+        },
+        {
+          "wrong": "He may be didn't hear the phone.",
+          "right": "He may not have heard the phone.",
+          "why": {
+            "en": "Use may not have + past participle for a negative possibility in the past.",
+            "es": "«Quizá no oyó» es may not have heard."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "You've been travelling since dawn, so you must be hungry."
+        },
+        {
+          "en": "That can't be the right address; it's a bakery.",
+          "es": "No puede ser la dirección correcta; es una panadería."
+        },
+        {
+          "en": "She might be working from home today."
+        },
+        {
+          "en": "The parcel could arrive tomorrow, but I wouldn't count on it."
+        },
+        {
+          "en": "He must have missed the bus; he's never usually this late.",
+          "es": "Habrá perdido el autobús; normalmente nunca llega tan tarde."
+        },
+        {
+          "en": "They can't have heard the news yet, or they'd have called."
+        },
+        {
+          "en": "I might have left my wallet in the taxi."
+        },
+        {
+          "en": "Someone must have been sleeping in the room; the bed is warm."
+        },
+        {
+          "en": "The results may not have been published yet."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "Mia has been on her feet all day. She ___ be exhausted.",
+          "options": ["must", "mustn't", "can"],
+          "answer": 0,
+          "explanation": {
+            "en": "Strong positive certainty: must."
+          }
+        },
+        {
+          "prompt": "Their flat is empty and the post is piling up. They ___ gone away.",
+          "options": ["must have", "must", "can't to"],
+          "answer": 0,
+          "explanation": {
+            "en": "Past deduction: must have + past participle."
+          }
+        },
+        {
+          "prompt": "That ___ be Karen's husband. She told me she isn't married.",
+          "options": ["mustn't", "can't", "doesn't"],
+          "answer": 1,
+          "explanation": {
+            "en": "Strong negative deduction: can't."
+          }
+        },
+        {
+          "prompt": "I'm not sure why he hasn't replied. He ___ seen my message.",
+          "options": ["might not have", "might not has", "must not to have"],
+          "answer": 0,
+          "explanation": {
+            "en": "Possibility in the past: might not have + past participle."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

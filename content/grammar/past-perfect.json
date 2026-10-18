@@ -1,0 +1,136 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "past-perfect",
+      "level": "B1",
+      "category": "tenses",
+      "order": 60,
+      "references": [
+        { "book": "egu", "unit": 15 },
+        { "book": "egu", "unit": 16 }
+      ],
+      "title": {
+        "en": "Past perfect",
+        "es": "Past perfect (pluscuamperfecto)"
+      },
+      "summary": {
+        "en": "Use the **past perfect** for an action that happened **before** another moment or action in the past: _When I got to the station, the train had left._ It makes the order of events clear. If events are told in the order they happened, the past simple is enough.",
+        "es": "Corresponde al pluscuamperfecto («había salido»). Se usa para la acción anterior cuando hay dos momentos en el pasado. No hace falta si cuentas los hechos en orden cronológico."
+      },
+      "form": [
+        "Subject + **had** + past participle (**had finished**, **had gone**)",
+        "Negative: **hadn't** + past participle. Question: **Had** + subject + past participle?",
+        "Useful words: _already_, _just_, _by the time_, _before_, _after_, _until_, _never…before_",
+        "Contracted form: _I'd finished_, _she'd left_"
+      ],
+      "uses": [
+        {
+          "text": "**The earlier of two past actions** → _By the time we arrived, the film **had started**._"
+        },
+        {
+          "text": "**Reasons for a past situation** → _He was upset because he **had failed** the test._"
+        },
+        {
+          "text": "**Reported experiences** → _She said she **had never travelled** abroad before._"
+        },
+        {
+          "text": "**After the time word** → _After she **had finished** her degree, she moved to Madrid._",
+          "note": {
+            "en": "When one action clearly follows the other with _after_ or _before_, the past simple is also common: _After she finished…_",
+            "es": "Con after/before también es habitual el past simple si el orden es evidente."
+          }
+        },
+        {
+          "text": "**Third conditional and wishes about the past** → _If I **had known**, I would have called._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "When I arrived, the shop already closed.",
+          "right": "When I arrived, the shop had already closed.",
+          "why": {
+            "en": "The shop closed before I arrived, so the earlier action needs the past perfect.",
+            "es": "El cierre fue anterior a mi llegada: past perfect."
+          }
+        },
+        {
+          "wrong": "I had visited Rome last year.",
+          "right": "I visited Rome last year.",
+          "why": {
+            "en": "With a single past event and no earlier reference point, use the past simple.",
+            "es": "Si no hay otro momento pasado de referencia, usa past simple."
+          }
+        },
+        {
+          "wrong": "She told me she has lost her passport.",
+          "right": "She told me she had lost her passport.",
+          "why": {
+            "en": "After a past reporting verb, the earlier event moves back to the past perfect.",
+            "es": "Tras un verbo en pasado, la acción anterior pasa a past perfect."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "By the time the manager called, I had already left the office.",
+          "es": "Cuando llamó el jefe, yo ya había salido de la oficina."
+        },
+        {
+          "en": "She was nervous because she had never flown before.",
+          "es": "Estaba nerviosa porque nunca había volado."
+        },
+        { "en": "They hadn't booked a hotel, so they slept in the car." },
+        { "en": "Had you met him before the conference?" },
+        { "en": "I realised that I had left my umbrella on the train." },
+        { "en": "After we had eaten, we went for a walk along the river." },
+        { "en": "He didn't get the job because he hadn't prepared properly." },
+        { "en": "The fields were flooded. It had rained for three days." },
+        { "en": "Until that evening, I had never tried Thai food." }
+      ],
+      "practice": [
+        {
+          "prompt": "When we got to the cinema, the film ___ .",
+          "options": [
+            "already started",
+            "had already started",
+            "has already started"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "The film started before we arrived: past perfect."
+          }
+        },
+        {
+          "prompt": "I was tired because I ___ much the night before.",
+          "options": ["didn't sleep", "haven't slept", "hadn't slept"],
+          "answer": 2,
+          "explanation": {
+            "en": "Not sleeping came before being tired, so use the past perfect."
+          }
+        },
+        {
+          "prompt": "She ___ in Paris in 2018, then she moved to Berlin.",
+          "options": ["had lived", "lived", "has lived"],
+          "answer": 1,
+          "explanation": {
+            "en": "No earlier reference point is needed; the events are in order: past simple."
+          }
+        },
+        {
+          "prompt": "He said he ___ the report, so I didn't send mine.",
+          "options": [
+            "already wrote",
+            "has already written",
+            "had already written"
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "Reported earlier action after a past verb: past perfect."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "wishes-and-regrets",
+      "level": "B2",
+      "category": "conditionals",
+      "order": 40,
+      "references": [
+        { "book": "egu", "unit": 40 },
+        { "book": "egu", "unit": 59 }
+      ],
+      "title": {
+        "en": "Wishes and regrets: wish, if only, would rather",
+        "es": "Deseos y arrepentimientos: wish, if only, would rather"
+      },
+      "summary": {
+        "en": "Use **wish** or **if only** + **past simple** for a present situation you would like to be different, **past perfect** for a regret about the past, and **would** for annoying habits or changes you want in other people. _I wish I **lived** nearer._ _I wish I **hadn't said** that._ _I wish he **would stop**._ Use **would rather** for preferences.",
+        "es": "El verbo va un paso atrás en el tiempo: deseo sobre el presente = pasado simple (I wish I had…), sobre el pasado = past perfect (I wish I had been…). Para quejas, wish + would. Cuidado: I wish I would es raro."
+      },
+      "form": [
+        "Present wish: **wish / if only** + past simple (_were_ for all persons in careful English)",
+        "Past regret: **wish / if only** + past perfect",
+        "Annoyance or wanted change: **wish / if only** + **would** + infinitive",
+        "Preference: **would rather** + infinitive; **would rather** + subject + past simple; **would rather have** + past participle"
+      ],
+      "uses": [
+        {
+          "text": "**Unreal present**: _I wish I **had** a bigger flat._ _If only she **were** here._"
+        },
+        {
+          "text": "**Regret about the past**: _I wish I **had listened** to my teacher._ _If only we **hadn't sold** the house._"
+        },
+        {
+          "text": "**Complaints and wanted change** (not about yourself): _I wish the neighbours **would turn** the music down._",
+          "note": {
+            "en": "Wish + would is for things that someone else controls. We don't say I wish I would.",
+            "es": "Wish + would, sobre otras personas o cosas; no con I."
+          }
+        },
+        {
+          "text": "**Preferences**: _I'**d rather** stay in tonight._ _I'**d rather** you **didn't** smoke here._"
+        },
+        {
+          "text": "**Past preference**: _I'**d rather have** gone by train._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I wish I would have more free time.",
+          "right": "I wish I had more free time.",
+          "why": {
+            "en": "For your own situation use the past simple, not would.",
+            "es": "Tu propia situación: pasado simple, no would."
+          }
+        },
+        {
+          "wrong": "I wish I studied harder at school.",
+          "right": "I wish I had studied harder at school.",
+          "why": {
+            "en": "A regret about the past needs the past perfect.",
+            "es": "Arrepentirse del pasado: past perfect."
+          }
+        },
+        {
+          "wrong": "I'd rather to stay at home.",
+          "right": "I'd rather stay at home.",
+          "why": {
+            "en": "Would rather is followed by the bare infinitive.",
+            "es": "Would rather + infinitivo sin to."
+          }
+        },
+        {
+          "wrong": "I'd rather you don't tell anyone.",
+          "right": "I'd rather you didn't tell anyone.",
+          "why": {
+            "en": "When the subject changes, would rather takes the past simple for the present or future.",
+            "es": "Con otro sujeto, would rather + pasado."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "I wish I could play the piano as well as you do." },
+        {
+          "en": "If only I lived closer to the sea.",
+          "es": "Ojalá viviera más cerca del mar."
+        },
+        { "en": "She wishes she hadn't moved to such a noisy street." },
+        {
+          "en": "I wish I had kept in touch with my old classmates.",
+          "es": "Ojalá hubiera mantenido el contacto con mis compañeros de clase."
+        },
+        { "en": "If only he hadn't lost his temper in the interview!" },
+        { "en": "I wish the buses would run more often on Sundays." },
+        { "en": "I'd rather have a quiet weekend than go out again." },
+        { "en": "Would you rather we met at the station or at the café?" },
+        { "en": "I'd rather you hadn't told her about the surprise." }
+      ],
+      "practice": [
+        {
+          "prompt": "I don't have a car. I wish I ___ one.",
+          "options": ["have", "had", "would have"],
+          "answer": 1,
+          "explanation": {
+            "en": "Unreal present: wish + past simple."
+          }
+        },
+        {
+          "prompt": "I failed the exam. If only I ___ more last month!",
+          "options": ["studied", "had studied", "would study"],
+          "answer": 1,
+          "explanation": {
+            "en": "Regret about the past: past perfect."
+          }
+        },
+        {
+          "prompt": "The tap keeps dripping. I wish someone ___ fix it.",
+          "options": ["would", "had", "will"],
+          "answer": 0,
+          "explanation": {
+            "en": "A wanted change by another person: wish + would."
+          }
+        },
+        {
+          "prompt": "I'd rather ___ in a hotel than camp.",
+          "options": ["to stay", "stay", "staying"],
+          "answer": 1,
+          "explanation": {
+            "en": "Would rather is followed by the bare infinitive."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

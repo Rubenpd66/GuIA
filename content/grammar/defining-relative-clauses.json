@@ -1,0 +1,131 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "defining-relative-clauses",
+      "level": "B1",
+      "category": "relative-clauses",
+      "order": 180,
+      "references": [
+        { "book": "egu", "unit": 92 },
+        { "book": "egu", "unit": 93 },
+        { "book": "egu", "unit": 94 }
+      ],
+      "title": {
+        "en": "Defining relative clauses",
+        "es": "Oraciones de relativo especificativas"
+      },
+      "summary": {
+        "en": "A **defining relative clause** tells us which person or thing we mean. Use **who** or **that** for people, **which** or **that** for things, **whose** for possession, **where** for places and **when** for times. There are no commas, and the information is essential: _The woman who lives upstairs is a nurse._",
+        "es": "Sirven para decir «cuál» o «quién»: sin la cláusula, la frase queda incompleta. Se escriben sin comas."
+      },
+      "form": [
+        "Person: noun + **who / that** + verb (_the man who called_)",
+        "Thing: noun + **which / that** + verb (_a phone that works_)",
+        "**whose** + noun (_a friend whose car broke down_); **where** (place), **when** (time)",
+        "When the relative pronoun is the **object**, it can be left out: _the book (that) I read_",
+        "Do not repeat the object or subject: _the film that I saw_ (not _that I saw it_)"
+      ],
+      "uses": [
+        {
+          "text": "**Subject pronoun** (cannot be omitted): _The colleague **who** sits next to me speaks four languages._"
+        },
+        {
+          "text": "**Object pronoun** (can be omitted): _The shop (**that**) we visited was closed._",
+          "note": {
+            "en": "Leaving out the pronoun is very common in speech.",
+            "es": "Cuando el relativo es complemento, se puede omitir: the shop we visited."
+          }
+        },
+        {
+          "text": "**Whose** shows possession: _She works with a man **whose** brother is a famous chef._"
+        },
+        {
+          "text": "**Where / when**: _This is the restaurant **where** we met._ _I remember the day **when** it snowed._"
+        },
+        {
+          "text": "**That** is common in defining clauses, but not after a preposition: _the house in **which** he lives_ (not _in that_)."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "The film that I watched it was boring.",
+          "right": "The film that I watched was boring.",
+          "why": {
+            "en": "The relative pronoun already replaces the object, so do not add it.",
+            "es": "No repitas el complemento: that ya sustituye a «la película»."
+          }
+        },
+        {
+          "wrong": "The man which lives next door is a plumber.",
+          "right": "The man who lives next door is a plumber.",
+          "why": {
+            "en": "Use who or that for people, not which.",
+            "es": "Para personas: who o that, no which."
+          }
+        },
+        {
+          "wrong": "That is the woman that her son won the prize.",
+          "right": "That is the woman whose son won the prize.",
+          "why": {
+            "en": "Use whose to show that something belongs to a person.",
+            "es": "«Cuyo/a» se dice whose."
+          }
+        },
+        {
+          "wrong": "The town where I grew up there is very small.",
+          "right": "The town where I grew up is very small.",
+          "why": {
+            "en": "Where already means in which, so do not add there.",
+            "es": "Where ya incluye el lugar; no añadas there."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "The teacher who helped me most has retired.",
+          "es": "La profesora que más me ayudó se ha jubilado."
+        },
+        { "en": "I'm looking for a laptop that isn't too heavy." },
+        { "en": "The report which you sent was very clear." },
+        { "en": "That's the café where we first met." },
+        { "en": "Do you know anyone whose flat is available?" },
+        { "en": "The book I borrowed from you is excellent." },
+        { "en": "I'll never forget the night when the power went out." },
+        { "en": "People who exercise regularly often sleep better." },
+        { "en": "This is the app that helped me learn Italian." }
+      ],
+      "practice": [
+        {
+          "prompt": "The woman ___ lives upstairs is a violinist.",
+          "options": ["who", "which", "whose"],
+          "answer": 0,
+          "explanation": {
+            "en": "Who refers to a person and is the subject of lives."
+          }
+        },
+        {
+          "prompt": "Is this the hotel ___ you stayed last summer?",
+          "options": ["which", "where", "when"],
+          "answer": 1,
+          "explanation": { "en": "Where refers to a place and means in which." }
+        },
+        {
+          "prompt": "I met a man ___ daughter works for the same company.",
+          "options": ["who", "that", "whose"],
+          "answer": 2,
+          "explanation": { "en": "Whose shows possession: the man's daughter." }
+        },
+        {
+          "prompt": "The jacket ___ I bought yesterday is too small.",
+          "options": ["what", "that", "who"],
+          "answer": 1,
+          "explanation": {
+            "en": "That (or which) refers to a thing; what cannot introduce a relative clause."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

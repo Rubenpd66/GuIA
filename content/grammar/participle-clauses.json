@@ -1,0 +1,166 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "participle-clauses",
+      "level": "B2",
+      "category": "verb-patterns",
+      "order": 80,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 68
+        },
+        {
+          "book": "egu",
+          "unit": 97
+        }
+      ],
+      "title": {
+        "en": "Participle clauses (-ing and -ed)",
+        "es": "Oraciones de participio (-ing y -ed)"
+      },
+      "summary": {
+        "en": "A **participle clause** shortens a longer sentence and makes your writing tighter. Use the **-ing form** for active meaning (_Walking home, I met an old friend_), the **-ed form** for passive meaning (_Built in 1900, the bridge is still in use_), and **having + past participle** for an action that happened first. The unstated subject of the participle must be the same as the subject of the main clause.",
+        "es": "Equivalen a oraciones de gerundio o participio españolas («Caminando a casa…», «Construido en 1900…»), pero el sujeto sobrentendido debe coincidir con el de la oración principal."
+      },
+      "form": [
+        "Active, at the same time: **-ing** (_Waiting for the bus, she read the news._)",
+        "Active, earlier action: **having + past participle** (_Having finished, he left._)",
+        "Passive: **-ed / being + past participle / having been + past participle** (_Seen from above, the city looks tiny._)",
+        "Reduced relative clause: _people living nearby_ (= who live nearby), _a book written by a friend_ (= which was written)",
+        "After time words: **before/after/while/when/since + -ing** (_After leaving school, he travelled._)",
+        "Negative: **not + participle** (_Not knowing the answer, I guessed._)"
+      ],
+      "uses": [
+        {
+          "text": "**Two actions at the same time**: _She sat by the window, **watching** the rain._"
+        },
+        {
+          "text": "**One action before another**: _**Having read** the instructions, I started the machine._"
+        },
+        {
+          "text": "**Reason**: _**Not wanting** to be late, he took a taxi._"
+        },
+        {
+          "text": "**Describing a noun (reduced relative clause)**: _The woman **sitting** next to me was a doctor._ _The documents **sent** yesterday are missing._"
+        },
+        {
+          "text": "**Passive meaning**: _**Surprised** by the noise, the dog barked._",
+          "note": {
+            "en": "Make sure the subject of the participle is the same as the main subject, or the sentence becomes illogical (a dangling participle).",
+            "es": "El sujeto del participio debe ser el de la oración principal; si no, la frase queda incoherente."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Walking down the street, a car hit my bike.",
+          "right": "Walking down the street, I saw a car hit my bike.",
+          "why": {
+            "en": "The subject of walking must be the main subject (I), not a car.",
+            "es": "Quien camina es «yo», así que el sujeto principal debe ser I."
+          }
+        },
+        {
+          "wrong": "Finished the work, she went home.",
+          "right": "Having finished the work, she went home.",
+          "why": {
+            "en": "For an earlier active action, use having + past participle.",
+            "es": "Para una acción anterior, having + participio."
+          }
+        },
+        {
+          "wrong": "The boy sitting on his own was looked sad.",
+          "right": "The boy sitting on his own looked sad.",
+          "why": {
+            "en": "The participle replaces a relative clause. Don't add another verb for the same subject.",
+            "es": "El participio sustituye a who was sitting; no repitas otro verbo auxiliar."
+          }
+        },
+        {
+          "wrong": "Being tired, the bed was where I went.",
+          "right": "Being tired, I went to bed.",
+          "why": {
+            "en": "Keep the same subject in both parts of the sentence.",
+            "es": "Ambas partes necesitan el mismo sujeto: Being tired, I…"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "Feeling nervous, she checked her notes again.",
+          "es": "Sintiéndose nerviosa, volvió a revisar sus notas."
+        },
+        {
+          "en": "Having missed the last train, we had to walk home.",
+          "es": "Como habíamos perdido el último tren, tuvimos que volver andando."
+        },
+        {
+          "en": "Written in a hurry, the email contained several mistakes.",
+          "es": "Escrito con prisa, el correo tenía varios errores."
+        },
+        {
+          "en": "The people waiting outside look frozen."
+        },
+        {
+          "en": "Not having a car, he cycles to work."
+        },
+        {
+          "en": "After talking to my manager, I felt much better."
+        },
+        {
+          "en": "The house, built by my grandfather, is now a museum."
+        },
+        {
+          "en": "Having been warned about the traffic, we left early."
+        },
+        {
+          "en": "Most of the students questioned said they liked the course."
+        },
+        {
+          "en": "Seen from the top, the valley looks like a green carpet."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "___ the report, Maria sent it to her boss.",
+          "options": ["Finish", "Having finished", "Finished"],
+          "answer": 1,
+          "explanation": {
+            "en": "Finishing came before sending, so we use having + past participle."
+          }
+        },
+        {
+          "prompt": "The photographs ___ at the exhibition were all taken in Peru.",
+          "options": ["showing", "shown", "having shown"],
+          "answer": 1,
+          "explanation": {
+            "en": "The photographs are shown (passive), so use the -ed participle."
+          }
+        },
+        {
+          "prompt": "___ the answer, he asked the teacher for help.",
+          "options": ["Not knowing", "Not known", "Knowing not to"],
+          "answer": 0,
+          "explanation": {
+            "en": "Active meaning and the same subject (he): not + -ing."
+          }
+        },
+        {
+          "prompt": "Opening the door, ___ the room was empty.",
+          "options": [
+            "the light showed that",
+            "there was a sign that",
+            "I saw that"
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "The person opening the door must be the subject of the main clause."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

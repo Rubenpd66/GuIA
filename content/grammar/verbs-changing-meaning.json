@@ -1,0 +1,169 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "verbs-changing-meaning",
+      "level": "B2",
+      "category": "verb-patterns",
+      "order": 70,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 56
+        },
+        {
+          "book": "egu",
+          "unit": 57
+        },
+        {
+          "book": "egu",
+          "unit": 58
+        }
+      ],
+      "title": {
+        "en": "Verbs that change meaning: -ing or to-infinitive",
+        "es": "Verbos que cambian de significado: -ing o to + infinitivo"
+      },
+      "summary": {
+        "en": "A few verbs can take both patterns, but the **meaning changes**. Roughly, **-ing** looks at an action that has happened or is in progress, and **to + infinitive** looks at an action that comes next or is intended: _I remember locking the door_ (I did it and I recall it) but _Remember to lock the door_ (don't forget). Verbs like _like_, _love_, _hate_ and _prefer_ allow both with only a small change.",
+        "es": "Con remember, forget, stop, try, regret y go on, cada patrón significa algo distinto: «recuerdo haberlo hecho» (-ing) frente a «recuerda hacerlo» (to). Con like y prefer la diferencia es mucho menor."
+      },
+      "form": [
+        "**remember/forget + -ing**: a memory of the past; **+ to-infinitive**: an obligation or task",
+        "**stop + -ing**: finish an activity; **stop + to-infinitive**: stop in order to do something",
+        "**try + -ing**: experiment; **try + to-infinitive**: make an effort",
+        "**regret + -ing**: be sorry about the past; **regret + to-infinitive**: formal bad news (_I regret to inform you…_)",
+        "**go on + -ing**: continue; **go on + to-infinitive**: do the next thing",
+        "**like/love/hate/prefer** + -ing (general enjoyment) or + to-infinitive (habit or choice); **would like/prefer** + to-infinitive"
+      ],
+      "uses": [
+        {
+          "text": "**Remember and forget**: _I'll never forget **meeting** her_ (a memory). _Don't forget **to book** the tickets._"
+        },
+        {
+          "text": "**Stop**: _He stopped **smoking** last year._ _We stopped **to take** photos._",
+          "note": {
+            "en": "In the second sentence, to take is a purpose, not the object of stop.",
+            "es": "Aquí to take expresa finalidad: «paramos para hacer fotos»."
+          }
+        },
+        {
+          "text": "**Try**: _Try **turning** it off and on again_ (an experiment). _I tried **to open** the door, but it was stuck._"
+        },
+        {
+          "text": "**Regret**: _I regret **telling** him the secret._ _We regret **to announce** that the flight is cancelled._"
+        },
+        {
+          "text": "**Go on**: _She went on **talking** for an hour._ _After the introduction, he went on **to explain** the plan._"
+        },
+        {
+          "text": "**Like and prefer**: _I like **cycling**._ _I like **to check** my emails before breakfast._ _I'd prefer **to stay** in tonight._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I stopped to smoke last year.",
+          "right": "I stopped smoking last year.",
+          "why": {
+            "en": "To smoke would mean you stopped (walking, working…) in order to smoke.",
+            "es": "I stopped to smoke significa «paré para fumar», no «dejé de fumar»."
+          }
+        },
+        {
+          "wrong": "Remember to see that film; it was brilliant.",
+          "right": "I remember seeing that film; it was brilliant.",
+          "why": {
+            "en": "A memory of a past action takes the -ing form.",
+            "es": "Para un recuerdo del pasado usa remember + -ing."
+          }
+        },
+        {
+          "wrong": "I forgot posting the letter, so it's still on my desk.",
+          "right": "I forgot to post the letter, so it's still on my desk.",
+          "why": {
+            "en": "If you did not do something because it slipped your mind, use forget + to-infinitive. Forget + -ing is about memories of things you did, mostly in I'll never forget…",
+            "es": "No lo hiciste porque se te olvidó: forget to + infinitivo. Forget + -ing es recordar algo que sí hiciste (I'll never forget…)."
+          }
+        },
+        {
+          "wrong": "I would like going to the cinema tonight.",
+          "right": "I would like to go to the cinema tonight.",
+          "why": {
+            "en": "Would like / would prefer are followed by the to-infinitive.",
+            "es": "Con would like va to + infinitivo."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I remember handing in the form, so it must be in the system.",
+          "es": "Recuerdo haber entregado el formulario, así que debe de estar en el sistema."
+        },
+        {
+          "en": "Please remember to switch off the lights when you leave.",
+          "es": "Por favor, acuérdate de apagar las luces al salir."
+        },
+        {
+          "en": "We stopped to ask for directions at a petrol station.",
+          "es": "Paramos a preguntar el camino en una gasolinera."
+        },
+        {
+          "en": "If the Wi-Fi is slow, try moving closer to the router."
+        },
+        {
+          "en": "I tried to call you, but your phone was off."
+        },
+        {
+          "en": "She regrets not studying harder at school."
+        },
+        {
+          "en": "We regret to inform you that your application was unsuccessful."
+        },
+        {
+          "en": "He went on speaking, even though nobody was listening."
+        },
+        {
+          "en": "After graduating, she went on to become a surgeon."
+        },
+        {
+          "en": "I'd rather walk, but I prefer to take the bus when it rains."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "I'll never forget ___ the sea for the first time.",
+          "options": ["to see", "seeing", "see"],
+          "answer": 1,
+          "explanation": {
+            "en": "A memory of a past experience takes forget + -ing."
+          }
+        },
+        {
+          "prompt": "I was tired, so I stopped ___ a coffee.",
+          "options": ["having", "to have", "have"],
+          "answer": 1,
+          "explanation": {
+            "en": "Stopped in order to have a coffee: the to-infinitive shows purpose."
+          }
+        },
+        {
+          "prompt": "The printer isn't working. Try ___ it off and on.",
+          "options": ["switched", "switching", "switch"],
+          "answer": 1,
+          "explanation": {
+            "en": "Try + -ing means experiment with a possible solution."
+          }
+        },
+        {
+          "prompt": "We regret ___ you that the event has been postponed.",
+          "options": ["informing", "to inform", "inform"],
+          "answer": 1,
+          "explanation": {
+            "en": "Regret + to-infinitive is the formal way of announcing bad news."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

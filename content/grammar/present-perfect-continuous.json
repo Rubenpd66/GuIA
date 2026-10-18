@@ -1,0 +1,134 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "present-perfect-continuous",
+      "level": "B1",
+      "category": "tenses",
+      "order": 50,
+      "references": [
+        { "book": "egu", "unit": 9 },
+        { "book": "egu", "unit": 10 },
+        { "book": "egu", "unit": 11 },
+        { "book": "egu", "unit": 12 }
+      ],
+      "title": {
+        "en": "Present perfect continuous",
+        "es": "Present perfect continuous"
+      },
+      "summary": {
+        "en": "Use the **present perfect continuous** to stress an activity that began in the past and continues now, or has just stopped with a visible result: _I've been revising all morning._ It asks \"how long?\" about an activity. Use the **present perfect simple** to stress the result or the number: _I've written three essays._",
+        "es": "Equivale a «llevo + gerundio» («llevo dos horas esperando»). Se centra en la actividad y su duración; el present perfect simple se centra en el resultado o la cantidad."
+      },
+      "form": [
+        "Subject + **have/has been** + verb + **-ing**",
+        "Negative: **haven't/hasn't been** + -ing. Question: **Have/Has** + subject + **been** + -ing?",
+        "Time words: _for_, _since_, _all day_, _lately_, _recently_, _how long_",
+        "State verbs (_know_, _have_ = own, _be_) use the present perfect simple instead"
+      ],
+      "uses": [
+        {
+          "text": "**An activity continuing up to now** → _We've **been waiting** for forty minutes._"
+        },
+        {
+          "text": "**How long?** → _How long have you **been learning** Italian?_ _Since January._"
+        },
+        {
+          "text": "**A recent activity with a visible result** → _Your hands are covered in flour. Have you **been baking**?_"
+        },
+        {
+          "text": "**Activity or result?** → _I've **been painting** the kitchen_ (activity, maybe unfinished) / _I've **painted** the kitchen_ (finished).",
+          "note": {
+            "en": "With numbers and quantities, use the simple form: _I've sent six emails._",
+            "es": "Con cantidades se usa el simple: «I've sent six emails»."
+          }
+        },
+        {
+          "text": "**Repeated activity lately** → _She's **been going** to the gym a lot recently._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I'm waiting here for two hours.",
+          "right": "I've been waiting here for two hours.",
+          "why": {
+            "en": "An activity that started in the past and continues now with for + period needs the present perfect continuous.",
+            "es": "«Llevo dos horas esperando»: present perfect continuous, no presente."
+          }
+        },
+        {
+          "wrong": "I've been knowing her since 2015.",
+          "right": "I've known her since 2015.",
+          "why": {
+            "en": "Know is a state verb, so use the present perfect simple.",
+            "es": "Know es un verbo de estado: present perfect simple."
+          }
+        },
+        {
+          "wrong": "He has been writing five emails this morning.",
+          "right": "He has written five emails this morning.",
+          "why": {
+            "en": "When you state a number, you are talking about results, so use the simple form.",
+            "es": "Si das una cantidad, usa el present perfect simple."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I've been studying English for six years.",
+          "es": "Llevo seis años estudiando inglés."
+        },
+        {
+          "en": "You look exhausted. Have you been working all night?",
+          "es": "Tienes mala cara. ¿Has estado trabajando toda la noche?"
+        },
+        { "en": "It has been raining since breakfast." },
+        { "en": "How long have they been living in Cardiff?" },
+        { "en": "She hasn't been feeling well lately." },
+        { "en": "We've been trying to book a table all week." },
+        { "en": "The road is wet. It's been snowing, hasn't it?" },
+        { "en": "I've been reading a very good novel recently." },
+        { "en": "He's been looking for a new job since the summer." }
+      ],
+      "practice": [
+        {
+          "prompt": "How long ___ for the visa?",
+          "options": [
+            "have you been waiting",
+            "are you waiting",
+            "did you wait"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "How long about an activity continuing now takes the present perfect continuous."
+          }
+        },
+        {
+          "prompt": "I ___ eleven applications so far this month.",
+          "options": ["have been sending", "have sent", "am sending"],
+          "answer": 1,
+          "explanation": {
+            "en": "A number points to a result, so the simple form is better."
+          }
+        },
+        {
+          "prompt": "Your eyes are red. ___ ?",
+          "options": ["Have you been crying", "Did you cry", "Are you crying"],
+          "answer": 0,
+          "explanation": {
+            "en": "A recent activity with a visible result now: present perfect continuous."
+          }
+        },
+        {
+          "prompt": "They ___ each other since university.",
+          "options": ["have been knowing", "are knowing", "have known"],
+          "answer": 2,
+          "explanation": {
+            "en": "Know is a state verb: present perfect simple."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

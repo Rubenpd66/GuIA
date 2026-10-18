@@ -1,0 +1,133 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "advice-should-had-better",
+      "level": "B1",
+      "category": "modals",
+      "order": 110,
+      "references": [
+        { "book": "egu", "unit": 33 },
+        { "book": "egu", "unit": 34 }
+      ],
+      "title": {
+        "en": "Advice: should, ought to and had better",
+        "es": "Consejos: should, ought to y had better"
+      },
+      "summary": {
+        "en": "Use **should** and **ought to** to give advice or say what is a good idea: _You **should** see a doctor._ Use **had better** for stronger, urgent advice with a warning of a bad result: _You'**d better** leave now, or you'll miss the bus._ All three are followed by the infinitive without _to_ (except _ought to_).",
+        "es": "Should = «deberías». Had better = «más te vale», con una amenaza de consecuencias; aunque lleva had, se refiere al presente o futuro, no al pasado. En negativa: shouldn't y had better not."
+      },
+      "form": [
+        "**should / shouldn't** + infinitive: _You should rest._",
+        "**ought to / ought not to** + infinitive: _You ought to apologise._",
+        "**had better (not)** + infinitive, often short: _I'd better go._",
+        "Questions: **Should I…?** _(Ought I to…? is rare)_; avoid questions with _had better_"
+      ],
+      "uses": [
+        {
+          "text": "**Ordinary advice**: _You **should** drink more water._ _I think you **shouldn't** work so late._"
+        },
+        {
+          "text": "**Asking for advice**: _**Should** I accept the job offer?_ _What **should** we buy her?_"
+        },
+        {
+          "text": "**Urgent advice or a warning**: _You'**d better** take an umbrella; it's going to pour._",
+          "note": {
+            "en": "Had better can sound threatening if you say it to a person with more power than you.",
+            "es": "Had better puede sonar a amenaza si se lo dices a tu jefe."
+          }
+        },
+        {
+          "text": "**Obvious expectation**: _The bus **should** be here soon._ (Different meaning: it is probable.)"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "You should to see a dentist.",
+          "right": "You should see a dentist.",
+          "why": {
+            "en": "Should is followed by the infinitive without to.",
+            "es": "Tras should no va to."
+          }
+        },
+        {
+          "wrong": "You had better to leave early.",
+          "right": "You had better leave early.",
+          "why": {
+            "en": "Had better is followed by the bare infinitive.",
+            "es": "Had better + infinitivo sin to."
+          }
+        },
+        {
+          "wrong": "You better not be late.",
+          "right": "You'd better not be late.",
+          "why": {
+            "en": "The negative is had better not, never had not better. In careful writing keep 'd.",
+            "es": "La negación va tras better: had better not."
+          }
+        },
+        {
+          "wrong": "He shoulds study more.",
+          "right": "He should study more.",
+          "why": {
+            "en": "Modal verbs never take -s in the third person.",
+            "es": "Los modales no añaden -s."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "You should talk to your landlord about the damp." },
+        {
+          "en": "I don't think you should lend him so much money.",
+          "es": "No creo que debas prestarle tanto dinero."
+        },
+        { "en": "People ought to recycle more of their plastic." },
+        { "en": "Should I wear a jacket, or will it be warm enough?" },
+        {
+          "en": "We'd better book a table; the restaurant is always full on Saturdays.",
+          "es": "Más vale que reservemos mesa; el restaurante siempre está lleno los sábados."
+        },
+        { "en": "You'd better not forget your passport this time." },
+        { "en": "If I were you, I'd get a second opinion." },
+        { "en": "What should I do if I lose my bank card abroad?" },
+        { "en": "I'd better go now, or I'll miss my train." }
+      ],
+      "practice": [
+        {
+          "prompt": "You look exhausted. You ___ take a few days off.",
+          "options": ["should", "should to", "shoulds"],
+          "answer": 0,
+          "explanation": {
+            "en": "Should + bare infinitive."
+          }
+        },
+        {
+          "prompt": "We ___ hurry, or we'll be late for the interview.",
+          "options": ["had better", "better to", "had better to"],
+          "answer": 0,
+          "explanation": {
+            "en": "Had better + bare infinitive, here with a warning."
+          }
+        },
+        {
+          "prompt": "You ___ eat so much sugar. It isn't good for your teeth.",
+          "options": ["don't should", "shouldn't", "should not to"],
+          "answer": 1,
+          "explanation": {
+            "en": "The negative of should is shouldn't, without do."
+          }
+        },
+        {
+          "prompt": "I'm thinking of changing jobs. What ___ you do in my place?",
+          "options": ["would", "had better", "ought"],
+          "answer": 0,
+          "explanation": {
+            "en": "What would you do in my place? asks for an opinion; had better and ought are not used this way."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "past-simple-vs-continuous",
+      "level": "B1",
+      "category": "tenses",
+      "order": 40,
+      "references": [
+        { "book": "egu", "unit": 5 },
+        { "book": "egu", "unit": 6 }
+      ],
+      "title": {
+        "en": "Past simple or past continuous?",
+        "es": "¿Past simple o past continuous?"
+      },
+      "summary": {
+        "en": "Use the **past simple** for finished actions and events in order: _I opened the door and saw a parcel._ Use the **past continuous** for the background, an action in progress at a past moment, or a longer action interrupted by a shorter one: _I was cooking when the lights went out._",
+        "es": "Se parece a la pareja «pretérito indefinido / imperfecto», pero no es igual: el past continuous solo se usa para acciones en curso en un momento pasado, no para hábitos (para eso: past simple o used to)."
+      },
+      "form": [
+        "Past simple: subject + past form (**opened**, **saw**); questions and negatives with **did**",
+        "Past continuous: subject + **was/were** + verb + **-ing**",
+        "Linking words: **when** (usually + past simple), **while** and **as** (usually + past continuous)",
+        "State verbs (_know_, _want_, _believe_) normally stay in the past simple"
+      ],
+      "uses": [
+        {
+          "text": "**A sequence of finished actions** → past simple: _She **picked up** her bag, **locked** the door and **left**._"
+        },
+        {
+          "text": "**An action in progress at a moment** → past continuous: _At eight o'clock I **was queuing** at the bank._"
+        },
+        {
+          "text": "**A long action interrupted** → past continuous + past simple: _He **was driving** home when his phone **rang**._",
+          "note": {
+            "en": "The longer action is the background; the short one is the event.",
+            "es": "La acción larga es el fondo; la corta es el suceso que la interrumpe."
+          }
+        },
+        {
+          "text": "**Two actions at the same time** → past continuous with _while_: _While she **was cooking**, he **was setting** the table._"
+        },
+        {
+          "text": "**Scene-setting** in a story: _It **was raining** and people **were hurrying** along the street._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "When I was arriving, the manager said hello.",
+          "right": "When I arrived, the manager said hello.",
+          "why": {
+            "en": "A short, completed action (arrive) takes the past simple, not the continuous.",
+            "es": "Una acción puntual y terminada va en past simple."
+          }
+        },
+        {
+          "wrong": "When I was a child, I was playing in the street every day.",
+          "right": "When I was a child, I played in the street every day.",
+          "why": {
+            "en": "A repeated habit in the past is not an action in progress, so use the past simple (or used to).",
+            "es": "Un hábito pasado no es «en curso»: past simple o used to."
+          }
+        },
+        {
+          "wrong": "I was wanting a coffee, so I stopped at the café.",
+          "right": "I wanted a coffee, so I stopped at the café.",
+          "why": {
+            "en": "Want is a state verb and is not normally used in the continuous.",
+            "es": "Want es un verbo de estado: no suele llevar -ing."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I was waiting for the bus when I noticed my wallet was missing.",
+          "es": "Estaba esperando el autobús cuando me di cuenta de que no tenía la cartera."
+        },
+        {
+          "en": "We watched the news and then went to bed.",
+          "es": "Vimos las noticias y luego nos acostamos."
+        },
+        { "en": "What were you doing at ten o'clock last night?" },
+        {
+          "en": "The students were chatting while the teacher was setting up the projector."
+        },
+        { "en": "I fell asleep while I was reading on the train." },
+        { "en": "It was snowing heavily, so the match was cancelled." },
+        {
+          "en": "She didn't hear the alarm because she was wearing headphones."
+        },
+        { "en": "As we were leaving the cinema, it started to rain." },
+        { "en": "He lost his keys on Friday and found them on Monday." }
+      ],
+      "practice": [
+        {
+          "prompt": "I ___ along the High Street when I met my old teacher.",
+          "options": ["walked", "was walking", "have walked"],
+          "answer": 1,
+          "explanation": {
+            "en": "The walking was in progress when the meeting interrupted it."
+          }
+        },
+        {
+          "prompt": "She ___ the email, closed her laptop and went home.",
+          "options": ["was reading", "had been reading", "read"],
+          "answer": 2,
+          "explanation": {
+            "en": "A sequence of finished actions takes the past simple."
+          }
+        },
+        {
+          "prompt": "While we ___ dinner, the power went off.",
+          "options": ["were having", "had", "have had"],
+          "answer": 0,
+          "explanation": {
+            "en": "While introduces the longer action in progress: past continuous."
+          }
+        },
+        {
+          "prompt": "The film ___ at 8.30, so we were late for the start.",
+          "options": ["was beginning", "begun", "began"],
+          "answer": 2,
+          "explanation": {
+            "en": "A single event at a fixed time takes the past simple."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

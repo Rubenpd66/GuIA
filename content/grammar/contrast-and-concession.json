@@ -1,0 +1,136 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "contrast-and-concession",
+      "level": "B2",
+      "category": "linking",
+      "order": 100,
+      "references": [{ "book": "egu", "unit": 113 }],
+      "title": {
+        "en": "Contrast and concession",
+        "es": "Contraste y concesión"
+      },
+      "summary": {
+        "en": "These words join two ideas that seem opposite. **Although, though, even though** + clause; **in spite of / despite** + noun or -ing; **however** starts a new sentence; **whereas / while** compares two facts. Pick the pattern that fits the grammar: _Although it rained, we went out_; _Despite the rain, we went out_; _It rained. However, we went out._",
+        "es": "«Aunque» se dice although + oración; «a pesar de» se dice despite/in spite of + nombre o -ing. Nunca despite of ni in spite that."
+      },
+      "form": [
+        "**Although / though / even though** + subject + verb (_Although she was tired, …_)",
+        "**In spite of / despite** + noun or -ing (_despite the delay_, _in spite of feeling ill_); **despite the fact that** + clause",
+        "**However** + comma, in a new sentence (_However, we decided to stay._); **but** joins two clauses without commas",
+        "**Whereas / while** + clause to contrast two things (_He likes tea, whereas I prefer coffee._)",
+        "**Even though** is stronger than although; **though** can come at the end in speech (_It's nice. Expensive, though._)"
+      ],
+      "uses": [
+        {
+          "text": "**Surprising result**: _**Although** he trained hard, he lost the race._"
+        },
+        {
+          "text": "**Noun or -ing after despite**: _**Despite** the traffic, we arrived early._ _**In spite of** being tired, she stayed up._",
+          "note": {
+            "en": "Despite is never followed by of. In spite takes of.",
+            "es": "Despite no lleva of; in spite sí: in spite of."
+          }
+        },
+        {
+          "text": "**Starting a new sentence**: _The offer was generous. **However**, she turned it down._"
+        },
+        {
+          "text": "**Comparing two things**: _Spain is hot in summer, **whereas** Scotland is cool._"
+        },
+        {
+          "text": "**Stronger emphasis**: _**Even though** I had studied, I felt nervous._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Despite of the rain, we had a picnic.",
+          "right": "Despite the rain, we had a picnic.",
+          "why": {
+            "en": "Despite is not followed by of; in spite of is.",
+            "es": "Despite va sin of."
+          }
+        },
+        {
+          "wrong": "Although the rain, we went out.",
+          "right": "Although it was raining, we went out.",
+          "why": {
+            "en": "Although needs a full clause. Use despite with a noun.",
+            "es": "Although lleva oración completa; con un nombre, despite."
+          }
+        },
+        {
+          "wrong": "Although he was tired, but he kept working.",
+          "right": "Although he was tired, he kept working.",
+          "why": {
+            "en": "Do not use but together with although.",
+            "es": "No uses although y but a la vez, como en «aunque… pero»."
+          }
+        },
+        {
+          "wrong": "It was cheap, however it was poor quality.",
+          "right": "It was cheap. However, it was poor quality.",
+          "why": {
+            "en": "However needs a full stop or semicolon before it and a comma after it.",
+            "es": "However no une dos oraciones con una coma; empieza una nueva."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "Although the film was long, I enjoyed every minute.",
+          "es": "Aunque la película era larga, disfruté cada minuto."
+        },
+        {
+          "en": "In spite of the high price, the flat sold quickly.",
+          "es": "A pesar del precio alto, el piso se vendió rápido."
+        },
+        { "en": "Despite feeling ill, she gave an excellent presentation." },
+        { "en": "Even though I'd slept for ten hours, I was exhausted." },
+        {
+          "en": "The first option is cheaper. However, the second is more reliable."
+        },
+        { "en": "My brother loves cities, whereas I prefer the countryside." },
+        {
+          "en": "Despite the fact that he had little experience, he got the job."
+        },
+        { "en": "It's a good restaurant. Rather noisy, though." },
+        { "en": "While some people enjoy remote work, others find it lonely." }
+      ],
+      "practice": [
+        {
+          "prompt": "___ the heavy traffic, we reached the airport on time.",
+          "options": ["Although", "Despite", "However"],
+          "answer": 1,
+          "explanation": {
+            "en": "Despite is followed by a noun phrase: the heavy traffic."
+          }
+        },
+        {
+          "prompt": "She enjoyed the course ___ it was very demanding.",
+          "options": ["despite", "in spite of", "even though"],
+          "answer": 2,
+          "explanation": {
+            "en": "A full clause follows, so we need even though."
+          }
+        },
+        {
+          "prompt": "The hotel was clean. ___, the staff were rude.",
+          "options": ["However", "Whereas", "Despite"],
+          "answer": 0,
+          "explanation": {
+            "en": "However begins a new sentence to show contrast."
+          }
+        },
+        {
+          "prompt": "Tom prefers trains, ___ Anna always flies.",
+          "options": ["whereas", "despite", "in spite"],
+          "answer": 0,
+          "explanation": { "en": "Whereas compares two different facts." }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

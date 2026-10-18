@@ -1,0 +1,167 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "future-forms",
+      "level": "B1",
+      "category": "future",
+      "order": 80,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 19
+        },
+        {
+          "book": "egu",
+          "unit": 20
+        },
+        {
+          "book": "egu",
+          "unit": 21
+        },
+        {
+          "book": "egu",
+          "unit": 22
+        },
+        {
+          "book": "egu",
+          "unit": 23
+        }
+      ],
+      "title": {
+        "en": "Talking about the future",
+        "es": "Formas de futuro"
+      },
+      "summary": {
+        "en": "English has no single future tense. Use **will** for instant decisions, predictions and promises: _I'll help you._ Use **be going to** for plans and for predictions based on evidence: _Look at those clouds, it's going to rain._ Use the **present continuous** for arrangements: _I'm meeting Sam at six._ Use the **present simple** for timetables: _The flight leaves at nine._",
+        "es": "No equivale solo a nuestro futuro simple. Para planes, intenciones y cosas ya organizadas se usan going to y el present continuous; will es para decisiones del momento, promesas y opiniones."
+      },
+      "form": [
+        "**Will**: subject + will + base verb (_I'll call you_); negative **won't**",
+        "**Be going to**: subject + am/is/are + going to + base verb",
+        "**Present continuous**: subject + am/is/are + -ing, with a future time",
+        "**Present simple**: for timetables and schedules (_The course starts on Monday_)",
+        "After _when_, _if_, _as soon as_ and _before_, use the present simple for the future: _I'll call you when I arrive_"
+      ],
+      "uses": [
+        {
+          "text": "**Instant decision, offer or promise** → _The phone's ringing. I'**ll** get it._"
+        },
+        {
+          "text": "**Plan or intention** → _We'**re going to** repaint the hall in the spring._"
+        },
+        {
+          "text": "**Prediction with evidence now** → _Watch out! You'**re going to** spill that._"
+        },
+        {
+          "text": "**Fixed arrangement** → _I'**m seeing** the dentist on Thursday at ten._",
+          "note": {
+            "en": "A time and a person usually show it is arranged.",
+            "es": "Suele haber hora y persona concretas: algo ya acordado."
+          }
+        },
+        {
+          "text": "**Timetable** → _The shop **opens** at nine tomorrow._"
+        },
+        {
+          "text": "**Opinion or guess about the future** → _I think prices **will** go up next year._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I will call you when I will arrive.",
+          "right": "I'll call you when I arrive.",
+          "why": {
+            "en": "After when, if, as soon as and before, the future is expressed with the present simple.",
+            "es": "Tras when, if, as soon as, before: presente, no will."
+          }
+        },
+        {
+          "wrong": "Tomorrow I go to the dentist.",
+          "right": "Tomorrow I'm going to the dentist.",
+          "why": {
+            "en": "A personal arrangement needs the present continuous or going to, not the present simple.",
+            "es": "Un plan personal no se dice con presente simple como en español."
+          }
+        },
+        {
+          "wrong": "Look at the sky. It will rain.",
+          "right": "Look at the sky. It's going to rain.",
+          "why": {
+            "en": "A prediction based on what you can see now takes be going to.",
+            "es": "Predicción con evidencia presente: be going to."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm flying to Dublin on Friday. I've already got my ticket.",
+          "es": "Voy a Dublín el viernes. Ya tengo el billete."
+        },
+        {
+          "en": "I'll carry that bag for you.",
+          "es": "Te llevo yo esa bolsa."
+        },
+        {
+          "en": "We're going to move to a bigger flat next year."
+        },
+        {
+          "en": "The conference starts at nine and finishes at five."
+        },
+        {
+          "en": "Don't worry, I won't tell anyone."
+        },
+        {
+          "en": "She's going to have a baby in June."
+        },
+        {
+          "en": "I think it'll be a difficult winter for many families."
+        },
+        {
+          "en": "As soon as the results come out, I'll let you know."
+        },
+        {
+          "en": "What are you doing this weekend?"
+        },
+        {
+          "en": "If it rains, we'll cancel the picnic."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "I've bought a new bike. I ___ it to work from now on.",
+          "options": ["am going to ride", "ride", "rode"],
+          "answer": 0,
+          "explanation": {
+            "en": "A plan already made: be going to."
+          }
+        },
+        {
+          "prompt": "There's no milk. OK, I ___ some from the shop.",
+          "options": ["will get", "am getting", "am going to get"],
+          "answer": 0,
+          "explanation": {
+            "en": "A decision made at the moment of speaking: will."
+          }
+        },
+        {
+          "prompt": "I'll text you as soon as the train ___ .",
+          "options": ["will arrive", "arrives", "is arriving"],
+          "answer": 1,
+          "explanation": {
+            "en": "After as soon as, use the present simple for the future."
+          }
+        },
+        {
+          "prompt": "We ___ our new neighbours for dinner on Saturday. It's all arranged.",
+          "options": ["will have", "have", "are having"],
+          "answer": 2,
+          "explanation": {
+            "en": "A fixed arrangement with a time: present continuous."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "gerund-or-infinitive",
+      "level": "B1",
+      "category": "verb-patterns",
+      "order": 140,
+      "references": [
+        { "book": "egu", "unit": 53 },
+        { "book": "egu", "unit": 54 }
+      ],
+      "title": {
+        "en": "Verb patterns: -ing or to-infinitive?",
+        "es": "Patrones verbales: -ing o to + infinitivo"
+      },
+      "summary": {
+        "en": "After many verbs you must learn which pattern follows. Some take the **-ing form** (_enjoy_, _avoid_, _suggest_, _finish_, _keep_), others the **to-infinitive** (_decide_, _hope_, _manage_, _refuse_, _afford_), and some take an object first (_She asked me to wait_). After a **preposition**, always use -ing: _interested in learning_.",
+        "es": "En español casi siempre usamos el infinitivo («disfruto leyendo», «decidí ir»). En inglés, tras enjoy, avoid, suggest o finish va -ing, y tras decide, hope o refuse va to + infinitivo. Hay que aprender cada verbo."
+      },
+      "form": [
+        "Verb + **-ing**: _enjoy, avoid, suggest, finish, keep, mind, practise, consider, imagine_",
+        "Verb + **to-infinitive**: _decide, hope, manage, plan, refuse, afford, agree, promise, seem_",
+        "Verb + object + **to-infinitive**: _ask, tell, want, allow, advise, persuade_",
+        "Modal verbs and _let/make_ + object take the **bare infinitive**: _She made me wait._",
+        "Preposition + **-ing**: _good at cooking, instead of going, before leaving_",
+        "Purpose: **to + infinitive**: _I came to ask for help._"
+      ],
+      "uses": [
+        {
+          "text": "**Verbs followed by -ing**: _I **avoid driving** in the city centre._"
+        },
+        {
+          "text": "**Verbs followed by to-infinitive**: _They **decided to move** abroad._"
+        },
+        {
+          "text": "**Object + to-infinitive**: _The doctor **advised me to rest**._",
+          "note": {
+            "en": "Say want me to do, not want that I do.",
+            "es": "No se dice want that I do: es want me to do."
+          }
+        },
+        {
+          "text": "**Preposition + -ing**: _She is thinking **of changing** jobs._"
+        },
+        {
+          "text": "**Purpose with to**: _I'm saving money **to buy** a flat._ Don't use for + -ing for purpose."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I enjoy to read at night.",
+          "right": "I enjoy reading at night.",
+          "why": {
+            "en": "Enjoy is followed by the -ing form, never by to + infinitive.",
+            "es": "Tras enjoy va -ing, aunque en español usemos infinitivo."
+          }
+        },
+        {
+          "wrong": "He suggested to go by train.",
+          "right": "He suggested going by train.",
+          "why": {
+            "en": "Suggest takes -ing (or a that-clause), not to-infinitive.",
+            "es": "Suggest va con -ing: suggested going."
+          }
+        },
+        {
+          "wrong": "I want that you help me.",
+          "right": "I want you to help me.",
+          "why": {
+            "en": "After want, use object + to-infinitive, not a that-clause.",
+            "es": "«Quiero que me ayudes» es I want you to help me."
+          }
+        },
+        {
+          "wrong": "I'm looking forward to see you.",
+          "right": "I'm looking forward to seeing you.",
+          "why": {
+            "en": "In look forward to, to is a preposition, so it takes -ing.",
+            "es": "En look forward to, to es preposición: va -ing."
+          }
+        },
+        {
+          "wrong": "She went to the shop for buying bread.",
+          "right": "She went to the shop to buy bread.",
+          "why": {
+            "en": "Purpose is expressed with to + infinitive.",
+            "es": "Para expresar finalidad («para comprar») usa to + infinitivo, no for + -ing."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "She finished writing the report before lunch.",
+          "es": "Terminó de escribir el informe antes de comer."
+        },
+        {
+          "en": "We can't afford to buy a bigger flat.",
+          "es": "No podemos permitirnos comprar un piso más grande."
+        },
+        {
+          "en": "He refused to answer any questions.",
+          "es": "Se negó a responder a ninguna pregunta."
+        },
+        { "en": "I'd avoid travelling on Friday evening if I were you." },
+        { "en": "My manager allowed me to work from home." },
+        { "en": "Do you mind opening the window a little?" },
+        { "en": "They managed to catch the last train." },
+        { "en": "She's keen on learning Japanese." },
+        { "en": "Instead of complaining, why don't you speak to him?" },
+        { "en": "He promised to call as soon as he landed." }
+      ],
+      "practice": [
+        {
+          "prompt": "I've finally decided ___ my job.",
+          "options": ["changing", "to change", "change"],
+          "answer": 1,
+          "explanation": {
+            "en": "Decide is followed by the to-infinitive."
+          }
+        },
+        {
+          "prompt": "Would you mind ___ the music down a bit?",
+          "options": ["to turn", "turning", "turn"],
+          "answer": 1,
+          "explanation": {
+            "en": "Mind is followed by the -ing form."
+          }
+        },
+        {
+          "prompt": "She's very good at ___ people to relax.",
+          "options": ["helping", "help", "to help"],
+          "answer": 0,
+          "explanation": {
+            "en": "After a preposition (at), we use the -ing form."
+          }
+        },
+        {
+          "prompt": "Our teacher advised us ___ the text twice.",
+          "options": ["reading", "to read", "read"],
+          "answer": 1,
+          "explanation": {
+            "en": "Advise + object takes the to-infinitive."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

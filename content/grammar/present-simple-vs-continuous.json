@@ -1,0 +1,163 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "present-simple-vs-continuous",
+      "level": "B1",
+      "category": "tenses",
+      "order": 10,
+      "references": [
+        {
+          "book": "egu",
+          "unit": 1
+        },
+        {
+          "book": "egu",
+          "unit": 2
+        },
+        {
+          "book": "egu",
+          "unit": 3
+        },
+        {
+          "book": "egu",
+          "unit": 4
+        }
+      ],
+      "title": {
+        "en": "Present simple or present continuous?",
+        "es": "¿Present simple o present continuous?"
+      },
+      "summary": {
+        "en": "Use the **present simple** for habits, routines, facts and timetables: _She catches the 7.40 every day._ Use the **present continuous** for actions happening now, temporary situations and changing trends: _I'm staying with my sister this month._ A few verbs of state (_know_, _like_, _want_, _believe_) are not normally used in the continuous.",
+        "es": "En español usamos el presente para todo («trabajo aquí», «estoy trabajando»). En inglés hay que elegir: rutina o hecho con present simple; acción en curso o situación temporal con present continuous."
+      },
+      "form": [
+        "Present simple: subject + base verb (+ **-s** for he/she/it); questions and negatives with **do/does**",
+        "Present continuous: subject + **am/is/are** + verb + **-ing**",
+        "Present simple time words: _always_, _usually_, _often_, _every day_, _on Mondays_",
+        "Present continuous time words: _now_, _at the moment_, _this week_, _currently_, _these days_",
+        "State verbs (_know_, _understand_, _need_, _prefer_, _belong_) normally take the present simple"
+      ],
+      "uses": [
+        {
+          "text": "**Habits and routines** → present simple: _I **start** work at nine._"
+        },
+        {
+          "text": "**Facts and timetables** → present simple: _The museum **opens** at ten on Sundays._"
+        },
+        {
+          "text": "**Happening now** → present continuous: _Be quiet, the baby **is sleeping**._"
+        },
+        {
+          "text": "**Temporary situations** → present continuous: _I'**m working** from home this week._",
+          "note": {
+            "en": "Compare: _I work from home_ (it is my normal arrangement).",
+            "es": "Compara: «I work from home» es lo habitual; «I'm working from home» es algo temporal."
+          }
+        },
+        {
+          "text": "**Changing situations** → present continuous: _House prices **are rising** again._"
+        },
+        {
+          "text": "**Annoying repeated habits** → present continuous with _always_: _He's always leaving his dirty cups on the desk._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I am knowing the answer.",
+          "right": "I know the answer.",
+          "why": {
+            "en": "Know is a state verb, so it does not take the continuous form.",
+            "es": "Los verbos de estado (know, want, like, need) no suelen ir en forma -ing."
+          }
+        },
+        {
+          "wrong": "The office is opening at eight every morning.",
+          "right": "The office opens at eight every morning.",
+          "why": {
+            "en": "Timetables and routines take the present simple, not the continuous.",
+            "es": "Horarios y rutinas: present simple, no continuous."
+          }
+        },
+        {
+          "wrong": "What do you do now? I read a magazine.",
+          "right": "What are you doing now? I'm reading a magazine.",
+          "why": {
+            "en": "An action in progress at this moment needs the present continuous.",
+            "es": "Una acción en curso ahora mismo necesita present continuous."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "My brother works in a hospital in Bristol.",
+          "es": "Mi hermano trabaja en un hospital de Bristol."
+        },
+        {
+          "en": "He's covering a colleague's shifts this month.",
+          "es": "Este mes está cubriendo los turnos de un compañero."
+        },
+        {
+          "en": "The last bus leaves at 11.15."
+        },
+        {
+          "en": "Why are you wearing a suit today?"
+        },
+        {
+          "en": "I don't usually take the car to work."
+        },
+        {
+          "en": "More people are shopping online than ever before."
+        },
+        {
+          "en": "She always speaks very quickly when she's nervous."
+        },
+        {
+          "en": "We're looking for a larger flat at the moment."
+        },
+        {
+          "en": "Do you want a coffee, or are you in a hurry?"
+        },
+        {
+          "en": "Water boils at 100 degrees Celsius."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "The train to Manchester ___ at 6.15 every morning.",
+          "options": ["leaves", "is leaving", "leave"],
+          "answer": 0,
+          "explanation": {
+            "en": "A regular timetable takes the present simple with -s for it."
+          }
+        },
+        {
+          "prompt": "Sorry, I can't talk. I ___ a report at the moment.",
+          "options": ["write", "am writing", "writes"],
+          "answer": 1,
+          "explanation": {
+            "en": "At the moment shows an action in progress: present continuous."
+          }
+        },
+        {
+          "prompt": "I ___ which of these laptops is better.",
+          "options": ["am not knowing", "don't know", "doesn't know"],
+          "answer": 1,
+          "explanation": {
+            "en": "Know is a state verb, so it takes the present simple."
+          }
+        },
+        {
+          "prompt": "Our company ___ more staff this year because sales are growing.",
+          "options": ["hires", "is hiring", "hire"],
+          "answer": 1,
+          "explanation": {
+            "en": "A change happening over this period suits the present continuous."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

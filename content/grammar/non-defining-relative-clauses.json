@@ -1,0 +1,139 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "non-defining-relative-clauses",
+      "level": "B2",
+      "category": "relative-clauses",
+      "order": 90,
+      "references": [
+        { "book": "egu", "unit": 95 },
+        { "book": "egu", "unit": 96 }
+      ],
+      "title": {
+        "en": "Non-defining relative clauses",
+        "es": "Oraciones de relativo explicativas"
+      },
+      "summary": {
+        "en": "A **non-defining relative clause** adds extra information about something that is already clear. It is separated by **commas** (or pauses in speech) and can be removed without changing the main idea: _My sister, **who lives in Leeds**, is a vet._ You must use **who**, **which**, **whose**, **where** or **when**, never _that_, and the pronoun cannot be omitted.",
+        "es": "Equivalen a las explicativas españolas entre comas: «mi hermana, que vive en Leeds, es veterinaria». En inglés no se puede usar that."
+      },
+      "form": [
+        "noun, **who / which / whose / where / when** + clause, …",
+        "Commas before and after (or before only if the clause ends the sentence)",
+        "**which** can refer to a whole clause: _He passed, **which** surprised everyone._",
+        "Quantifier + **of which / of whom**: _three colleagues, **two of whom** are new_",
+        "Preposition + **whom / which** in formal style: _the manager **to whom** I wrote_"
+      ],
+      "uses": [
+        {
+          "text": "**Extra information** about a named person or thing: _Mr Evans, **who** teaches physics, is retiring._"
+        },
+        {
+          "text": "**Comment on a whole sentence** with which: _She never replied, **which** annoyed me._",
+          "note": {
+            "en": "This use of which has no equivalent with that.",
+            "es": "Which puede referirse a toda la frase anterior: «lo cual»."
+          }
+        },
+        {
+          "text": "**Places and times**: _We stayed in Seville, **where** my parents were born._ _In July, **when** it's too hot, we stay inside._"
+        },
+        {
+          "text": "**Quantities**: _He has two sons, **both of whom** are doctors._"
+        },
+        {
+          "text": "**Compare** defining and non-defining: _My brother who lives in Paris is a chef_ (I have more than one brother) / _My brother, who lives in Paris, is a chef_ (I have only one)."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "My father, that works in a bank, is retiring.",
+          "right": "My father, who works in a bank, is retiring.",
+          "why": {
+            "en": "That cannot be used in a non-defining clause.",
+            "es": "Con comas no se puede usar that."
+          }
+        },
+        {
+          "wrong": "The tower which we visited, it was built in 1890.",
+          "right": "The tower, which we visited, was built in 1890.",
+          "why": {
+            "en": "Put commas around the extra information and do not repeat the subject.",
+            "es": "No repitas el sujeto: which ya lo sustituye."
+          }
+        },
+        {
+          "wrong": "He passed the test, what surprised everybody.",
+          "right": "He passed the test, which surprised everybody.",
+          "why": {
+            "en": "Use which, not what, to comment on a whole clause.",
+            "es": "«Lo cual» es which, no what."
+          }
+        },
+        {
+          "wrong": "She has two brothers, who one lives in Canada.",
+          "right": "She has two brothers, one of whom lives in Canada.",
+          "why": {
+            "en": "With a quantity use one/two/both of whom.",
+            "es": "«Uno de los cuales» = one of whom."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "Lisbon, which I visited last spring, is built on seven hills.",
+          "es": "Lisboa, que visité la primavera pasada, está construida sobre siete colinas."
+        },
+        {
+          "en": "Dr Patel, whose research focuses on sleep, will give the talk.",
+          "es": "La doctora Patel, cuya investigación trata del sueño, dará la charla."
+        },
+        { "en": "The meeting was cancelled, which meant a free afternoon." },
+        { "en": "We moved to Valencia, where the cost of living is lower." },
+        {
+          "en": "My colleagues, most of whom are under thirty, are very ambitious."
+        },
+        { "en": "The hotel, which had just been renovated, was spotless." },
+        { "en": "In 2010, when I was still studying, I worked as a waiter." },
+        { "en": "She thanked her manager, to whom she owed her promotion." },
+        { "en": "The new phone, which costs a fortune, has a poor battery." }
+      ],
+      "practice": [
+        {
+          "prompt": "Tom, ___ I've known for years, has just moved abroad.",
+          "options": ["that", "whom", "which"],
+          "answer": 1,
+          "explanation": {
+            "en": "Tom is a person and the clause is non-defining, so whom (or who) is used, not that."
+          }
+        },
+        {
+          "prompt": "The train was late, ___ made me miss the interview.",
+          "options": ["what", "that", "which"],
+          "answer": 2,
+          "explanation": {
+            "en": "Which refers to the whole situation of the train being late."
+          }
+        },
+        {
+          "prompt": "She has three cars, two of ___ are electric.",
+          "options": ["them", "which", "that"],
+          "answer": 1,
+          "explanation": {
+            "en": "After a quantity and of, a relative pronoun is needed: of which."
+          }
+        },
+        {
+          "prompt": "Madrid, ___ I grew up, has changed enormously.",
+          "options": ["where", "which", "when"],
+          "answer": 0,
+          "explanation": {
+            "en": "Where refers to the place and means in which."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

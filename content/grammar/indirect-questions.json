@@ -1,0 +1,154 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "indirect-questions",
+      "level": "B1",
+      "category": "questions",
+      "order": 150,
+      "references": [
+        { "book": "egu", "unit": 49 },
+        { "book": "egu", "unit": 50 }
+      ],
+      "title": {
+        "en": "Question word order and indirect questions",
+        "es": "Orden en las preguntas y preguntas indirectas"
+      },
+      "summary": {
+        "en": "In a **direct question** the auxiliary goes before the subject: _Where does she work?_ In an **indirect question** (after _Could you tell me…_, _I wonder…_, _Do you know…_) the order goes back to a statement and there is no _do/does/did_: _Could you tell me where she works?_ When the question word **is the subject**, there is no auxiliary either: _Who called you?_",
+        "es": "En español decimos «¿Sabes dónde vive?» y «¿Dónde vive?» con el mismo orden de verbo. En inglés no: en la pregunta directa va el auxiliar (does she live) y en la indirecta, orden de frase afirmativa (where she lives)."
+      },
+      "form": [
+        "Direct: **question word + auxiliary + subject + verb** (_What did you buy?_)",
+        "Subject questions: **question word + verb** (_Who lives here?_ _What happened?_)",
+        "Indirect: **introduction + question word + subject + verb** (_Do you know what time it starts?_)",
+        "No do/does/did and no inversion in the indirect part; the verb shows the tense (_what time it started_)",
+        "Yes/no questions become **if/whether** (_I wonder if he's free._)",
+        "A question mark is used only when the introduction is a question (_Can you tell me…?_ but _I don't know where she is._)"
+      ],
+      "uses": [
+        {
+          "text": "**Polite requests for information**: _Could you tell me where the station is?_"
+        },
+        {
+          "text": "**After I wonder, I don't know, I'd like to know**: _I wonder how much it costs._"
+        },
+        {
+          "text": "**Yes/no information questions**: _Do you know if the shop is open?_",
+          "note": {
+            "en": "If and whether are both possible. Whether is a little more formal.",
+            "es": "If y whether valen los dos; whether es algo más formal."
+          }
+        },
+        {
+          "text": "**Subject questions have no auxiliary**: _Who wrote this?_ not _Who did write this?_"
+        },
+        {
+          "text": "**Prepositions** often go at the end: _Who are you waiting for?_ In formal writing: _For whom…?_"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Do you know where does he live?",
+          "right": "Do you know where he lives?",
+          "why": {
+            "en": "In the indirect part use statement order, with no do/does.",
+            "es": "Tras Do you know… no hay auxiliar ni inversión: where he lives."
+          }
+        },
+        {
+          "wrong": "I don't know what time is it.",
+          "right": "I don't know what time it is.",
+          "why": {
+            "en": "Keep subject + verb order after the question word.",
+            "es": "El orden es sujeto + verbo: what time it is."
+          }
+        },
+        {
+          "wrong": "Who did call you this morning?",
+          "right": "Who called you this morning?",
+          "why": {
+            "en": "When who is the subject, don't add did.",
+            "es": "Si who es el sujeto, no hace falta did."
+          }
+        },
+        {
+          "wrong": "Can you tell me where is the post office?",
+          "right": "Can you tell me where the post office is?",
+          "why": {
+            "en": "The verb be also goes after the subject in an indirect question.",
+            "es": "El verbo be también va detrás del sujeto: where the post office is."
+          }
+        },
+        {
+          "wrong": "She asked me what did I want.",
+          "right": "She asked me what I wanted.",
+          "why": {
+            "en": "Reported and indirect questions use statement order.",
+            "es": "En la pregunta indirecta no hay did: what I wanted."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "Where do you usually have lunch?",
+          "es": "¿Dónde sueles comer?"
+        },
+        {
+          "en": "Could you tell me where the lifts are?",
+          "es": "¿Podría decirme dónde están los ascensores?"
+        },
+        {
+          "en": "Who gave you this advice?",
+          "es": "¿Quién te dio este consejo?"
+        },
+        { "en": "I'd like to know how long the course lasts." },
+        { "en": "Do you know whether the museum opens on Mondays?" },
+        { "en": "What happened after the meeting?" },
+        { "en": "I wonder why she left so suddenly." },
+        { "en": "Which of these trains goes to Bristol?" },
+        { "en": "Excuse me, do you have any idea what time the bank closes?" },
+        { "en": "Who were you talking to when I came in?" }
+      ],
+      "practice": [
+        {
+          "prompt": "Could you tell me where ___?",
+          "options": [
+            "is the nearest bank",
+            "the nearest bank is",
+            "does the nearest bank is"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "After Could you tell me, use statement order: subject then verb."
+          }
+        },
+        {
+          "prompt": "Who ___ the window last night?",
+          "options": ["did break", "broke", "did broke"],
+          "answer": 1,
+          "explanation": {
+            "en": "Who is the subject, so there is no did: Who broke…?"
+          }
+        },
+        {
+          "prompt": "I'm not sure ___ the interview starts.",
+          "options": ["what time", "what time does", "at what time does"],
+          "answer": 0,
+          "explanation": {
+            "en": "In an indirect question there is no do/does after the question word."
+          }
+        },
+        {
+          "prompt": "Do you know ___ she is coming to the party?",
+          "options": ["if", "that", "what"],
+          "answer": 0,
+          "explanation": {
+            "en": "A yes/no question becomes an indirect question with if or whether."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

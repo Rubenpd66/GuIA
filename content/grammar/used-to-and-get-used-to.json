@@ -1,0 +1,131 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "used-to-and-get-used-to",
+      "level": "B1",
+      "category": "tenses",
+      "order": 70,
+      "references": [
+        { "book": "egu", "unit": 18 },
+        { "book": "egu", "unit": 61 }
+      ],
+      "title": {
+        "en": "Used to, would, be used to and get used to",
+        "es": "Used to, would, be used to y get used to"
+      },
+      "summary": {
+        "en": "**Used to** + infinitive and **would** + infinitive describe past habits that have stopped: _We used to live by the sea._ **Be used to** + -ing means \"be familiar with\": _I'm used to getting up early._ **Get used to** + -ing means \"become familiar with\": _I'm getting used to the noise._",
+        "es": "Cuidado con las dos estructuras parecidas: «used to + infinitivo» es «solía», mientras que «be/get used to + -ing» es «estar acostumbrado / acostumbrarse»."
+      },
+      "form": [
+        "Past habit: **used to** + infinitive. Negative: **didn't use to**. Question: **Did** you **use to**…?",
+        "Past habit (actions only): **would** + infinitive",
+        "Familiar now: **am/is/are used to** + -ing or noun",
+        "Becoming familiar: **get/got/am getting used to** + -ing or noun",
+        "In _be used to_ and _get used to_, **to** is a preposition, so the verb after it ends in **-ing**"
+      ],
+      "uses": [
+        {
+          "text": "**Past habits and states that have changed** → _I **used to** play the violin._ _There **used to** be a cinema here._"
+        },
+        {
+          "text": "**Repeated past actions** → _Every summer we **would** visit my aunt in Wales._",
+          "note": {
+            "en": "Would is only for repeated actions, not states: _I used to have long hair_ (not _would have_).",
+            "es": "Would solo vale para acciones repetidas, no para estados."
+          }
+        },
+        {
+          "text": "**Already familiar** → _She **is used to working** night shifts._"
+        },
+        {
+          "text": "**Becoming familiar** → _It took me a month to **get used to driving** on the left._"
+        },
+        {
+          "text": "**Not familiar** → _He **isn't used to** the cold weather._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I used to going to the gym on Fridays.",
+          "right": "I used to go to the gym on Fridays.",
+          "why": {
+            "en": "For past habits, used to is followed by the base form of the verb.",
+            "es": "«Solía ir»: used to + infinitivo."
+          }
+        },
+        {
+          "wrong": "I'm not used to wake up early.",
+          "right": "I'm not used to waking up early.",
+          "why": {
+            "en": "After be used to, to is a preposition, so the verb takes -ing.",
+            "es": "En «be used to», to es preposición: lleva -ing."
+          }
+        },
+        {
+          "wrong": "Did you used to live in Madrid?",
+          "right": "Did you use to live in Madrid?",
+          "why": {
+            "en": "After did, the main verb returns to the base form: use to.",
+            "es": "Tras did, el verbo vuelve a la forma base: use to."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "My grandfather used to smoke a pipe after dinner.",
+          "es": "Mi abuelo solía fumar en pipa después de cenar."
+        },
+        {
+          "en": "I'm not used to this heat yet.",
+          "es": "Todavía no estoy acostumbrado a este calor."
+        },
+        { "en": "When we were students, we would stay up talking until dawn." },
+        { "en": "She used to be shy, but she's very confident now." },
+        { "en": "It took him a while to get used to living alone." },
+        { "en": "Did you use to walk to school?" },
+        { "en": "They didn't use to have a car." },
+        {
+          "en": "Are you used to working with a team in different time zones?"
+        },
+        { "en": "I'll never get used to the sound of traffic at night." }
+      ],
+      "practice": [
+        {
+          "prompt": "When I was young, we ___ spend every August by the coast.",
+          "options": ["used to", "were used to", "got used to"],
+          "answer": 0,
+          "explanation": {
+            "en": "A past habit that has stopped: used to + base form."
+          }
+        },
+        {
+          "prompt": "After a few weeks, she got used to ___ the bus to work.",
+          "options": ["take", "taking", "took"],
+          "answer": 1,
+          "explanation": {
+            "en": "Get used to is followed by -ing because to is a preposition."
+          }
+        },
+        {
+          "prompt": "I don't mind the noise. I ___ in a busy city.",
+          "options": ["am used to living", "used to living", "use to live"],
+          "answer": 0,
+          "explanation": {
+            "en": "Be used to + -ing means familiar with, and it refers to now."
+          }
+        },
+        {
+          "prompt": "There ___ be a bakery on this corner.",
+          "options": ["would", "is used to", "used to"],
+          "answer": 2,
+          "explanation": {
+            "en": "A past state needs used to; would is only for repeated actions."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

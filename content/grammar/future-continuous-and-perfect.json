@@ -1,0 +1,128 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "future-continuous-and-perfect",
+      "level": "B2",
+      "category": "future",
+      "order": 10,
+      "references": [{ "book": "egu", "unit": 24 }],
+      "title": {
+        "en": "Future continuous and future perfect",
+        "es": "Future continuous y future perfect"
+      },
+      "summary": {
+        "en": "Use the **future continuous** for an action in progress at a future moment: _This time tomorrow I'll be flying to Lima._ Use the **future perfect** for an action that will be finished **by** a future moment: _By Friday I'll have finished the report._ The future continuous is also a polite way to ask about plans: _Will you be using the car tonight?_",
+        "es": "Future continuous: estaré haciendo algo en ese momento. Future perfect: para entonces ya habré terminado. Fíjate en by (para entonces, a más tardar) frente a at / this time (en ese momento)."
+      },
+      "form": [
+        "Future continuous: **will be** + verb + **-ing**",
+        "Future perfect: **will have** + past participle",
+        "Negative: **won't be** + -ing / **won't have** + past participle",
+        "Time words: _this time next week_, _at 8 tomorrow_ (continuous); _by Friday_, _by the time_, _by then_ (perfect)",
+        "After _by the time_, _when_ and _before_ use the present simple, not will"
+      ],
+      "uses": [
+        {
+          "text": "**In progress at a future moment** → _At noon tomorrow I'**ll be sitting** my driving test._"
+        },
+        {
+          "text": "**Finished before a future moment** → _By next June she'**ll have graduated**._"
+        },
+        {
+          "text": "**Polite questions about plans** → _**Will** you **be passing** the post office later?_",
+          "note": {
+            "en": "It sounds less direct than asking \"Are you going to…?\" because it does not ask for a favour outright.",
+            "es": "Suena menos directo que pedir el favor abiertamente."
+          }
+        },
+        {
+          "text": "**Things that will happen anyway** → _I'**ll be seeing** Maria at the meeting, so I'll ask her._"
+        },
+        {
+          "text": "**Predicting duration** → _In September they'**ll have been** married for ten years._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "By Friday I'll be finishing the report.",
+          "right": "By Friday I'll have finished the report.",
+          "why": {
+            "en": "By + a time means finished before that time, so use the future perfect.",
+            "es": "By + momento = terminado antes de ese momento: future perfect."
+          }
+        },
+        {
+          "wrong": "By the time you will arrive, we'll have left.",
+          "right": "By the time you arrive, we'll have left.",
+          "why": {
+            "en": "After by the time, use the present simple for the future.",
+            "es": "Tras by the time: presente simple, no will."
+          }
+        },
+        {
+          "wrong": "Tomorrow at six I'll work in the garden.",
+          "right": "Tomorrow at six I'll be working in the garden.",
+          "why": {
+            "en": "An action in progress at a future moment takes the future continuous.",
+            "es": "Acción en curso en un momento futuro: future continuous."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "This time next week, I'll be lying on a beach in Crete.",
+          "es": "A esta hora la semana que viene estaré tumbado en una playa de Creta."
+        },
+        {
+          "en": "By the end of the month, we'll have saved enough for a deposit.",
+          "es": "A finales de mes habremos ahorrado lo suficiente para la entrada."
+        },
+        { "en": "Don't call at eight. We'll be having dinner." },
+        { "en": "Will you be needing the projector this afternoon?" },
+        {
+          "en": "By 2030, the company will have opened offices in six countries."
+        },
+        { "en": "I won't have finished the course by the time you leave." },
+        { "en": "Will she have heard the news by now?" },
+        { "en": "In ten years, many of us will be working from home." },
+        { "en": "When you wake up, I'll already have left for the airport." }
+      ],
+      "practice": [
+        {
+          "prompt": "Don't phone me at nine tomorrow. I ___ in an interview.",
+          "options": ["will have been", "will be sitting", "will sit"],
+          "answer": 1,
+          "explanation": {
+            "en": "An action in progress at a future moment: future continuous."
+          }
+        },
+        {
+          "prompt": "By the time you get here, we ___ all the food.",
+          "options": ["will have eaten", "will be eating", "will eat"],
+          "answer": 0,
+          "explanation": {
+            "en": "By the time shows completion before then: future perfect."
+          }
+        },
+        {
+          "prompt": "___ the car this evening, or can I borrow it?",
+          "options": ["Will you have used", "Do you use", "Will you be using"],
+          "answer": 2,
+          "explanation": {
+            "en": "A polite question about your plans: future continuous."
+          }
+        },
+        {
+          "prompt": "By next year she ___ here for a decade.",
+          "options": ["will be working", "will have worked", "works"],
+          "answer": 1,
+          "explanation": {
+            "en": "A total period completed by a future point: future perfect."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

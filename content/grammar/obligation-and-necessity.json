@@ -1,0 +1,138 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "obligation-and-necessity",
+      "level": "B1",
+      "category": "modals",
+      "order": 100,
+      "references": [
+        { "book": "egu", "unit": 31 },
+        { "book": "egu", "unit": 32 }
+      ],
+      "title": {
+        "en": "Obligation and necessity",
+        "es": "Obligación y necesidad"
+      },
+      "summary": {
+        "en": "Use **must** and **have to** for obligation, **mustn't** for prohibition, and **don't have to** or **needn't** when something is not necessary. _You **mustn't** park here_ means it is forbidden; _You **don't have to** park here_ means you may choose.",
+        "es": "Aquí está la gran trampa: mustn't es «prohibido» y don't have to es «no hace falta». No son lo mismo. Must suele expresar una obligación que sale del hablante; have to, una norma o circunstancia externa."
+      },
+      "form": [
+        "**must** + infinitive (no past form; use _had to_)",
+        "**have to / has to** + infinitive; questions and negatives with _do_: _Do you have to…?_",
+        "**mustn't** + infinitive: it is forbidden",
+        "**don't / doesn't have to** or **needn't** + infinitive: it is not necessary"
+      ],
+      "uses": [
+        {
+          "text": "**Strong obligation from the speaker**: _I **must** call my mother tonight._"
+        },
+        {
+          "text": "**Rules and external obligation**: _Employees **have to** wear a badge._ _I **had to** show my passport._"
+        },
+        {
+          "text": "**Prohibition**: _You **mustn't** use your phone during the test._"
+        },
+        {
+          "text": "**No obligation**: _You **don't have to** book; there are always free tables._ _You **needn't** wait for me._",
+          "note": {
+            "en": "Needn't is more common in British English and a little more formal.",
+            "es": "Needn't es más británico y algo más formal."
+          }
+        },
+        {
+          "text": "**Past and future**: _We **had to** queue for an hour._ _You'll **have to** pay a fine._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "You mustn't bring a lunch. There's a canteen.",
+          "right": "You don't have to bring a lunch. There's a canteen.",
+          "why": {
+            "en": "Mustn't means it is forbidden. For no need, use don't have to.",
+            "es": "«No hace falta» es don't have to; mustn't significa «prohibido»."
+          }
+        },
+        {
+          "wrong": "Yesterday I must work late.",
+          "right": "Yesterday I had to work late.",
+          "why": {
+            "en": "Must has no past form. Use had to.",
+            "es": "Must no tiene pasado: had to."
+          }
+        },
+        {
+          "wrong": "Does she must wear a uniform?",
+          "right": "Does she have to wear a uniform?",
+          "why": {
+            "en": "Must is a modal and does not take do. Have to does.",
+            "es": "Must no lleva do; have to sí."
+          }
+        },
+        {
+          "wrong": "I have to not forget my keys.",
+          "right": "I mustn't forget my keys.",
+          "why": {
+            "en": "Use mustn't for a strong warning to yourself or others.",
+            "es": "«No debo olvidar» se dice mustn't."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "I must remember to renew my passport before the summer." },
+        {
+          "en": "Drivers have to carry their licence at all times.",
+          "es": "Los conductores tienen que llevar el carnet siempre encima."
+        },
+        { "en": "You mustn't leave valuables in the car." },
+        {
+          "en": "You don't have to wear a tie, but a smart shirt would be good.",
+          "es": "No hace falta que lleves corbata, pero una camisa elegante estaría bien."
+        },
+        { "en": "We needn't hurry; the film doesn't start until eight." },
+        { "en": "She had to leave the meeting early to collect her son." },
+        { "en": "Do you have to work at the weekend?" },
+        {
+          "en": "If the test is positive, you'll have to stay at home for five days."
+        },
+        { "en": "Passengers must not walk across the railway lines." }
+      ],
+      "practice": [
+        {
+          "prompt": "You ___ shout in the library. It's against the rules.",
+          "options": ["don't have to", "mustn't", "needn't"],
+          "answer": 1,
+          "explanation": {
+            "en": "Forbidden = mustn't."
+          }
+        },
+        {
+          "prompt": "It's a free event, so you ___ buy a ticket.",
+          "options": ["mustn't", "don't have to", "must"],
+          "answer": 1,
+          "explanation": {
+            "en": "No need = don't have to."
+          }
+        },
+        {
+          "prompt": "When I was a student, I ___ get up at six for my part-time job.",
+          "options": ["must", "had to", "have to"],
+          "answer": 1,
+          "explanation": {
+            "en": "Must has no past form, so use had to."
+          }
+        },
+        {
+          "prompt": "___ you have to wear a helmet on that building site?",
+          "options": ["Must", "Do", "Are"],
+          "answer": 1,
+          "explanation": {
+            "en": "Have to makes questions with do."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

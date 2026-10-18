@@ -1,0 +1,137 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "comparatives-superlatives",
+      "level": "B1",
+      "category": "adjectives-adverbs",
+      "order": 190,
+      "references": [
+        { "book": "egu", "unit": 105 },
+        { "book": "egu", "unit": 106 },
+        { "book": "egu", "unit": 107 },
+        { "book": "egu", "unit": 108 }
+      ],
+      "title": {
+        "en": "Comparatives and superlatives",
+        "es": "Comparativos y superlativos"
+      },
+      "summary": {
+        "en": "Use the **comparative** to compare two things (_cheaper than_, _more interesting than_) and the **superlative** for the top or bottom of a group (_the cheapest_, _the most interesting_). Short adjectives take **-er / -est**; long ones take **more / most**. Use **as … as** for equality and **not as … as** for a lower level.",
+        "es": "Después del comparativo se usa than («que»), no that ni as: taller than me. Y «el más… de» se dice the most … in/of."
+      },
+      "form": [
+        "One syllable: **-er / -est** (_older, the oldest_); double the final consonant in _big → bigger_; _-y → -ier_ (_easier_)",
+        "Two or more syllables: **more / most** + adjective (_more reliable, the most reliable_)",
+        "Irregular: _good → better → the best_; _bad → worse → the worst_; _far → further_",
+        "**as + adjective + as**; **not as / not so … as**; **the + comparative, the + comparative** (_The sooner, the better_)",
+        "Modifiers: **much / far / a bit / slightly** + comparative"
+      ],
+      "uses": [
+        {
+          "text": "**Compare two things**: _This route is **shorter than** the motorway._"
+        },
+        {
+          "text": "**Superlative**: _the highest mountain **in** Europe_; use **in** with places and groups, **of** with a period or a number (_the best of the three_)."
+        },
+        {
+          "text": "**Equality**: _She's **as tall as** her father._ **Difference**: _The train isn't **as fast as** a plane._",
+          "note": {
+            "en": "Use than after a comparative, as after as + adjective.",
+            "es": "Than va con comparativo; as … as con igualdad."
+          }
+        },
+        {
+          "text": "**Gradual change**: _Prices are getting **higher and higher**._ _The more I practise, the more confident I feel._"
+        },
+        {
+          "text": "**Adverbs** follow the same rules: _She drives **more carefully than** me._ _He worked **the hardest** of all._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "My brother is more tall than me.",
+          "right": "My brother is taller than me.",
+          "why": {
+            "en": "Short adjectives take -er, not more.",
+            "es": "Los adjetivos cortos usan -er, no more."
+          }
+        },
+        {
+          "wrong": "This exam was more difficult that the last one.",
+          "right": "This exam was more difficult than the last one.",
+          "why": {
+            "en": "Use than, not that, after a comparative.",
+            "es": "Después del comparativo se usa than."
+          }
+        },
+        {
+          "wrong": "It's the most big city in the country.",
+          "right": "It's the biggest city in the country.",
+          "why": {
+            "en": "Big is short, so the superlative is -est: the biggest.",
+            "es": "Big es corto: the biggest, no the most big."
+          }
+        },
+        {
+          "wrong": "She is the best student of the class.",
+          "right": "She is the best student in the class.",
+          "why": {
+            "en": "Use in with a group or place: in the class, in the world.",
+            "es": "«De la clase» se dice in the class."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "Flying is faster than going by coach, but it's more expensive.",
+          "es": "Volar es más rápido que ir en autocar, pero es más caro."
+        },
+        {
+          "en": "This is the most comfortable chair I've ever sat in.",
+          "es": "Esta es la silla más cómoda en la que me he sentado."
+        },
+        { "en": "He isn't as patient as his sister." },
+        { "en": "The weather is getting worse and worse." },
+        { "en": "The sooner we leave, the earlier we'll arrive." },
+        { "en": "She speaks more fluently than she did last year." },
+        { "en": "It was by far the best concert of the year." },
+        { "en": "My new flat is slightly smaller than the old one." },
+        { "en": "Of all the candidates, he was the least experienced." }
+      ],
+      "practice": [
+        {
+          "prompt": "Today is ___ than yesterday, so take a coat.",
+          "options": ["more cold", "colder", "the coldest"],
+          "answer": 1,
+          "explanation": {
+            "en": "Cold is short, so the comparative is colder."
+          }
+        },
+        {
+          "prompt": "It's the ___ restaurant in the whole city.",
+          "options": ["more expensive", "most expensive", "expensivest"],
+          "answer": 1,
+          "explanation": {
+            "en": "Expensive is long and the sentence needs a superlative: the most expensive."
+          }
+        },
+        {
+          "prompt": "Her flat is as big ___ mine.",
+          "options": ["than", "as", "that"],
+          "answer": 1,
+          "explanation": { "en": "The structure is as … as." }
+        },
+        {
+          "prompt": "My English is getting ___ every month.",
+          "options": ["good", "better and better", "the best"],
+          "answer": 1,
+          "explanation": {
+            "en": "Better and better shows gradual improvement."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

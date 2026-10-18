@@ -1,0 +1,139 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "zero-first-conditionals",
+      "level": "B1",
+      "category": "conditionals",
+      "order": 120,
+      "references": [
+        { "book": "egu", "unit": 25 },
+        { "book": "egu", "unit": 37 }
+      ],
+      "title": {
+        "en": "Zero and first conditionals",
+        "es": "Condicionales cero y primero"
+      },
+      "summary": {
+        "en": "Use the **zero conditional** for facts and habits: _If you heat ice, it melts._ Use the **first conditional** for real possibilities in the future: _If it rains, we'll stay in._ After _if_, _when_, _as soon as_, _before_, _unless_ and _until_, use the **present** for the future, never _will_.",
+        "es": "En castellano usamos futuro o subjuntivo («si llueve, nos quedaremos»), pero en inglés tras if, when, as soon as o unless va presente: If it rains, we'll stay in. Will va solo en la otra parte de la frase."
+      },
+      "form": [
+        "Zero: **if / when** + present simple, present simple",
+        "First: **if** + present simple, **will / won't** + infinitive (or an imperative, or _can_, _may_, _should_)",
+        "Time clauses: **when / as soon as / until / before / after** + present simple (not _will_)",
+        "**unless** = _if … not_: _Unless you hurry, you'll be late._"
+      ],
+      "uses": [
+        {
+          "text": "**General truths**: _If you mix blue and yellow, you get green._"
+        },
+        {
+          "text": "**Habits and routines**: _If I miss the bus, I walk to work._"
+        },
+        {
+          "text": "**Real future possibility**: _If you **ask** her, she'**ll** probably **help**._"
+        },
+        {
+          "text": "**Future time clauses**: _I'll call you **as soon as** I **arrive**._ _Wait here **until** I **come** back._"
+        },
+        {
+          "text": "**Instructions and offers**: _If you feel dizzy, sit down._ _If you need a lift, I can take you._"
+        },
+        {
+          "text": "**Unless**: _We'll go for a walk **unless** it **snows**._ (Not _unless it doesn't_.)",
+          "note": {
+            "en": "Compare the second conditional for unlikely situations: If I won, I would buy a house. See the lesson on second and third conditionals.",
+            "es": "Para situaciones poco probables o irreales, mira el segundo condicional."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "If it will rain tomorrow, we'll cancel the picnic.",
+          "right": "If it rains tomorrow, we'll cancel the picnic.",
+          "why": {
+            "en": "Do not use will after if. Use the present simple.",
+            "es": "Tras if, presente: «si llueve» es if it rains."
+          }
+        },
+        {
+          "wrong": "I'll phone you when I will get home.",
+          "right": "I'll phone you when I get home.",
+          "why": {
+            "en": "Time clauses with when also take the present simple for the future.",
+            "es": "Con when, as soon as, etc., tampoco va will."
+          }
+        },
+        {
+          "wrong": "Unless you don't hurry, you'll miss the train.",
+          "right": "Unless you hurry, you'll miss the train.",
+          "why": {
+            "en": "Unless already means if … not, so the verb stays positive.",
+            "es": "Unless ya lleva la negación: no uses not."
+          }
+        },
+        {
+          "wrong": "If you will help me, I will finish sooner.",
+          "right": "If you help me, I'll finish sooner.",
+          "why": {
+            "en": "Will after if is only possible in polite requests (If you will wait here…), not in ordinary conditionals.",
+            "es": "No pongas will tras if en condicionales normales."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "If you leave milk out in the sun, it goes off." },
+        {
+          "en": "When the alarm rings, everyone has to leave the building.",
+          "es": "Cuando suena la alarma, todos tienen que salir del edificio."
+        },
+        { "en": "If I get the day off, I'll come and see you." },
+        {
+          "en": "If you don't book soon, you won't find a cheap flight.",
+          "es": "Si no reservas pronto, no encontrarás un vuelo barato."
+        },
+        { "en": "I'll send you the photos as soon as I've uploaded them." },
+        { "en": "Don't open the door unless you know who it is." },
+        { "en": "If the printer jams again, call the technician." },
+        { "en": "We'll start the meeting when everybody has arrived." },
+        { "en": "If it's sunny on Sunday, we might have lunch in the garden." }
+      ],
+      "practice": [
+        {
+          "prompt": "If I ___ the job, I'll move to Leeds.",
+          "options": ["will get", "get", "would get"],
+          "answer": 1,
+          "explanation": {
+            "en": "First conditional: present simple after if."
+          }
+        },
+        {
+          "prompt": "We'll go to the beach unless it ___ tomorrow.",
+          "options": ["rains", "doesn't rain", "will rain"],
+          "answer": 0,
+          "explanation": {
+            "en": "Unless means if not, so use a positive present verb."
+          }
+        },
+        {
+          "prompt": "Please text me as soon as you ___ at the station.",
+          "options": ["will arrive", "arrive", "arrived"],
+          "answer": 1,
+          "explanation": {
+            "en": "After as soon as, use the present simple for the future."
+          }
+        },
+        {
+          "prompt": "If you heat water to 100 degrees, it ___.",
+          "options": ["will boil", "would boil", "boils"],
+          "answer": 2,
+          "explanation": {
+            "en": "A scientific fact uses the zero conditional: present + present."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}
