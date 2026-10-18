@@ -11,13 +11,21 @@ const file = (path: string, kind: string, items: unknown[]): ContentSource => ({
   raw: JSON.stringify({ kind, items }),
 });
 
+/** Copies of the fixture grammar question for the "inversion" lesson, with fresh ids. */
+const grammarQuestions = (count: number, lesson = "inversion") =>
+  Array.from({ length: count }, (_, i) => ({
+    ...(structuredClone(validExercises["core-grammar"]) as object),
+    id: `cg-${lesson}-extra-${i + 1}`,
+    grammarPoint: lesson,
+  }));
+
 function validSet(): ContentSource[] {
   return [
-    file(
-      "exercises/all.json",
-      "exercises",
-      Object.values(structuredClone(validExercises)),
-    ),
+    file("exercises/all.json", "exercises", [
+      ...Object.values(structuredClone(validExercises)),
+      // The lesson needs MIN_QUESTIONS_PER_LESSON questions to avoid a warning.
+      ...grammarQuestions(4),
+    ]),
     file("lessons/grammar.json", "grammar-lessons", [
       structuredClone(validLessons.grammar),
     ]),
@@ -41,7 +49,7 @@ describe("validateContentSet", () => {
     expect(report.warnings).toEqual([]);
     expect(report.files).toBe(6);
     expect(report.items).toEqual({
-      exercises: 18,
+      exercises: 22,
       "grammar-lessons": 1,
       vocabulary: 1,
       "vocabulary-groups": 1,
@@ -164,10 +172,74 @@ describe("vocabulary groups and book coverage", () => {
   });
 });
 
+describe("question bank summary", () => {
+  it("counts Core Grammar questions per lesson", () => {
+    const set = validSet();
+    const second = {
+      ...structuredClone(validLessons.grammar),
+      slug: "articles",
+    };
+    set[1] = file("lessons/grammar.json", "grammar-lessons", [
+      structuredClone(validLessons.grammar),
+      second,
+    ]);
+    const report = validateContentSet(set);
+    expect(report.bank.grammarByLesson).toEqual({ inversion: 5, articles: 0 });
+  });
+
+  it("counts Core Vocabulary items by type", () => {
+    const usage = structuredClone(validExercises["core-vocabulary"]) as {
+      id: string;
+      vocabType: string;
+      items: { id: string; prompt: string }[];
+    };
+    usage.id = "cv-usages-work-01";
+    usage.vocabType = "usage";
+    usage.items.forEach((item, i) => {
+      item.id = `cv-usages-work-01-${i}`;
+      item.prompt = "She decided to ___ after ten years.";
+    });
+    const set = validSet();
+    set.push(file("exercises/usage.json", "exercises", [usage]));
+    const report = validateContentSet(set);
+    expect(report.errors).toEqual([]);
+    expect(report.bank.vocabularyByType).toEqual({
+      synonym: 3,
+      definition: 0,
+      usage: 3,
+      collocation: 0,
+    });
+  });
+
+  it("warns about lessons with fewer than 5 questions", () => {
+    const set = validSet();
+    set[0] = file("exercises/all.json", "exercises", [
+      ...Object.values(structuredClone(validExercises)),
+      ...grammarQuestions(2),
+    ]);
+    const report = validateContentSet(set);
+    expect(report.warnings).toEqual([
+      {
+        path: "lessons/grammar.json",
+        pointer: "items/0",
+        message:
+          'Lesson "inversion" has 3 Core Grammar questions; aim for at least 5',
+      },
+    ]);
+    expect(validateContentSet(validSet()).warnings).toEqual([]);
+  });
+});
+
 describe("formatReport", () => {
   it("summarises files, items, errors and warnings", () => {
     const text = formatReport(validateContentSet(validSet()));
     expect(text).toContain("6 files");
     expect(text).toContain("0 errors");
+    expect(text).toContain(
+      "Core Grammar: 5 questions in 1 lesson (fewest: inversion 5)",
+    );
+    expect(text).toContain(
+      "Core Vocabulary: 3 items (synonym 3, definition 0, usage 0, collocation 0)",
+    );
   });
 });

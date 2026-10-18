@@ -1,7 +1,8 @@
 import type { CefrLevel, LocalizedText } from "@/lib/content/schemas/common";
-import type {
-  CoreGrammarExercise,
-  CoreVocabularyExercise,
+import {
+  VOCAB_TYPES,
+  type CoreGrammarExercise,
+  type CoreVocabularyExercise,
 } from "@/lib/content/schemas/core";
 import { shuffle, type Rng } from "./random";
 
@@ -35,8 +36,7 @@ export type VocabularyTask = {
   items: VocabularyItem[];
 };
 
-export const VOCAB_TYPE_ORDER: readonly CoreVocabularyExercise["vocabType"][] =
-  ["synonym", "definition", "usage", "collocation"];
+export const VOCAB_TYPE_ORDER = VOCAB_TYPES;
 
 /** Shuffles the options and moves the answer index and per-option notes with them. */
 export function shuffleChoice<N>(

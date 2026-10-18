@@ -27,11 +27,20 @@ export const CoreGrammarExercise = z.strictObject({
 });
 export type CoreGrammarExercise = z.infer<typeof CoreGrammarExercise>;
 
+/** The four Core Vocabulary task types, in the order the trainer presents them. */
+export const VOCAB_TYPES = [
+  "synonym",
+  "definition",
+  "usage",
+  "collocation",
+] as const;
+export type VocabType = (typeof VOCAB_TYPES)[number];
+
 export const CoreVocabularyExercise = z
   .strictObject({
     ...exerciseBase,
     examPart: z.literal("core-vocabulary"),
-    vocabType: z.enum(["synonym", "definition", "usage", "collocation"]),
+    vocabType: z.enum(VOCAB_TYPES),
     instructions: NonEmptyText.optional(),
     /** Word bank shared by every item of the task. */
     options: uniqueTexts(vocabularyBank.min, vocabularyBank.max),

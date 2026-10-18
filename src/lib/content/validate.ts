@@ -5,7 +5,11 @@ import {
   ContentFile,
   type ContentKind,
 } from "./schemas/content-file";
+import { VOCAB_TYPES, type VocabType } from "./schemas/core";
 import { findAmericanSpellings, stripBom } from "./text";
+
+/** Below this, "Practise this point" gives a session too short to be useful. */
+export const MIN_QUESTIONS_PER_LESSON = 5;
 
 export type ContentSource = { path: string; raw: string };
 export type ContentIssue = { path: string; pointer: string; message: string };
@@ -16,6 +20,11 @@ export type ValidationReport = {
   items: Record<ContentKind, number>;
   /** Reference-book units that at least one lesson or vocabulary group points to. */
   coverage: Record<BookId, { covered: number; total: number }>;
+  /** Size of the Core question bank: questions per grammar lesson and vocabulary items per type. */
+  bank: {
+    grammarByLesson: Record<string, number>;
+    vocabularyByType: Record<VocabType, number>;
+  };
 };
 
 type ParsedFile = { path: string; file: ContentFile };
@@ -67,13 +76,62 @@ export function validateContentSet(sources: ContentSource[]): ValidationReport {
   }
 
   errors.push(...findDuplicateIds(parsed), ...findBrokenReferences(parsed));
+  const bank = questionBank(parsed);
+  warnings.push(...findThinLessons(parsed, bank.grammarByLesson));
   return {
     errors,
     warnings,
     files: sources.length,
     items,
     coverage: bookCoverage(parsed),
+    bank,
   };
+}
+
+function questionBank(parsed: ParsedFile[]): ValidationReport["bank"] {
+  const grammarByLesson: Record<string, number> = {};
+  const vocabularyByType = Object.fromEntries(
+    VOCAB_TYPES.map((type) => [type, 0]),
+  ) as Record<VocabType, number>;
+  for (const { file } of parsed) {
+    if (file.kind === "grammar-lessons")
+      file.items.forEach((lesson) => (grammarByLesson[lesson.slug] ??= 0));
+  }
+  for (const { file } of parsed) {
+    if (file.kind !== "exercises") continue;
+    for (const exercise of file.items) {
+      if (
+        exercise.examPart === "core-grammar" &&
+        exercise.grammarPoint in grammarByLesson
+      )
+        grammarByLesson[exercise.grammarPoint]! += 1;
+      if (exercise.examPart === "core-vocabulary")
+        vocabularyByType[exercise.vocabType] += exercise.items.length;
+    }
+  }
+  return { grammarByLesson, vocabularyByType };
+}
+
+function findThinLessons(
+  parsed: ParsedFile[],
+  grammarByLesson: Record<string, number>,
+): ContentIssue[] {
+  return parsed.flatMap(({ path, file }) =>
+    file.kind === "grammar-lessons"
+      ? file.items.flatMap((lesson, i) => {
+          const count = grammarByLesson[lesson.slug] ?? 0;
+          return count < MIN_QUESTIONS_PER_LESSON
+            ? [
+                {
+                  path,
+                  pointer: `items/${i}`,
+                  message: `Lesson "${lesson.slug}" has ${count} Core Grammar questions; aim for at least ${MIN_QUESTIONS_PER_LESSON}`,
+                },
+              ]
+            : [];
+        })
+      : [],
+  );
 }
 
 function bookCoverage(parsed: ParsedFile[]): ValidationReport["coverage"] {
@@ -273,8 +331,30 @@ export function formatReport(report: ValidationReport): string {
     const { covered, total } = report.coverage[book];
     lines.push(`${BOOKS[book].title}: ${covered}/${total} units covered`);
   }
+  lines.push(...bankLines(report.bank));
   lines.push(
     `${report.files} files, ${itemCount} items, ${report.errors.length} errors, ${report.warnings.length} warnings`,
   );
   return lines.join("\n");
+}
+
+function bankLines({
+  grammarByLesson,
+  vocabularyByType,
+}: ValidationReport["bank"]): string[] {
+  const lessons = Object.entries(grammarByLesson);
+  const questions = lessons.reduce((sum, [, n]) => sum + n, 0);
+  const fewest = lessons.reduce<[string, number] | undefined>(
+    (min, entry) => (min === undefined || entry[1] < min[1] ? entry : min),
+    undefined,
+  );
+  const items = VOCAB_TYPES.reduce(
+    (sum, type) => sum + vocabularyByType[type],
+    0,
+  );
+  return [
+    `Core Grammar: ${questions} questions in ${lessons.length} ${lessons.length === 1 ? "lesson" : "lessons"}` +
+      (fewest ? ` (fewest: ${fewest[0]} ${fewest[1]})` : ""),
+    `Core Vocabulary: ${items} items (${VOCAB_TYPES.map((type) => `${type} ${vocabularyByType[type]}`).join(", ")})`,
+  ];
 }
