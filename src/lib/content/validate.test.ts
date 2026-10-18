@@ -1,0 +1,137 @@
+import { describe, expect, it } from "vitest";
+import { validExercises, validLessons } from "../../../tests/fixtures/content";
+import {
+  formatReport,
+  validateContentSet,
+  type ContentSource,
+} from "./validate";
+
+const file = (path: string, kind: string, items: unknown[]): ContentSource => ({
+  path,
+  raw: JSON.stringify({ kind, items }),
+});
+
+function validSet(): ContentSource[] {
+  return [
+    file(
+      "exercises/all.json",
+      "exercises",
+      Object.values(structuredClone(validExercises)),
+    ),
+    file("lessons/grammar.json", "grammar-lessons", [
+      structuredClone(validLessons.grammar),
+    ]),
+    file("vocabulary/general.json", "vocabulary", [
+      structuredClone(validLessons.vocabulary),
+    ]),
+    file("can-do/c1.json", "can-do", [structuredClone(validLessons.canDo)]),
+    file("functional/hedging.json", "functional-language", [
+      structuredClone(validLessons.functional),
+    ]),
+  ];
+}
+
+describe("validateContentSet", () => {
+  it("accepts a valid content set and counts its items", () => {
+    const report = validateContentSet(validSet());
+    expect(report.errors).toEqual([]);
+    expect(report.warnings).toEqual([]);
+    expect(report.files).toBe(5);
+    expect(report.items).toEqual({
+      exercises: 18,
+      "grammar-lessons": 1,
+      vocabulary: 1,
+      "can-do": 1,
+      "functional-language": 1,
+    });
+  });
+
+  it("reports schema errors with a pointer to the item", () => {
+    const grammar = structuredClone(validExercises["core-grammar"]) as {
+      options: string[];
+    };
+    grammar.options = grammar.options.slice(0, 2);
+    const report = validateContentSet([
+      file("exercises/bad.json", "exercises", [grammar]),
+    ]);
+    expect(report.errors).toContainEqual(
+      expect.objectContaining({
+        path: "exercises/bad.json",
+        pointer: "items/0/options",
+      }),
+    );
+  });
+
+  it("reports an id used in two files, naming both", () => {
+    const set = validSet();
+    set.push(
+      file("exercises/copy.json", "exercises", [
+        structuredClone(validExercises["core-grammar"]),
+      ]),
+    );
+    const report = validateContentSet(set);
+    expect(report.errors).toHaveLength(1);
+    expect(report.errors[0]?.path).toBe("exercises/copy.json");
+    expect(report.errors[0]?.message).toContain("cg-inversion-hardly-01");
+    expect(report.errors[0]?.message).toContain("exercises/all.json");
+  });
+
+  it("reports a grammar point with no lesson", () => {
+    const set = validSet();
+    const grammar = structuredClone(validExercises["core-grammar"]) as Record<
+      string,
+      unknown
+    >;
+    grammar.id = "cg-mixed-01";
+    grammar.grammarPoint = "mixed-conditionals";
+    set.push(file("exercises/extra.json", "exercises", [grammar]));
+    const report = validateContentSet(set);
+    expect(report.errors).toEqual([
+      expect.objectContaining({
+        path: "exercises/extra.json",
+        pointer: "items/0/grammarPoint",
+      }),
+    ]);
+  });
+
+  it("reports broken JSON", () => {
+    const report = validateContentSet([
+      { path: "broken.json", raw: '{"kind": ' },
+    ]);
+    expect(report.errors).toEqual([
+      expect.objectContaining({ path: "broken.json", pointer: "/" }),
+    ]);
+  });
+
+  it("warns about American spellings in English text only", () => {
+    const set = validSet();
+    const reading = (
+      JSON.parse(set[0]!.raw) as {
+        items: { examPart: string; people?: { text: string }[] }[];
+      }
+    ).items;
+    const opinions = reading.find((item) => item.examPart === "reading-3");
+    opinions!.people![0]!.text += " Even the color of the books matters.";
+    set[0] = file("exercises/all.json", "exercises", reading);
+
+    const lesson = structuredClone(validLessons.grammar);
+    lesson.summary = {
+      en: lesson.summary.en,
+      es: "Da color y énfasis a la frase.",
+    } as typeof lesson.summary;
+    set[1] = file("lessons/grammar.json", "grammar-lessons", [lesson]);
+
+    const report = validateContentSet(set);
+    expect(report.errors).toEqual([]);
+    expect(report.warnings).toHaveLength(1);
+    expect(report.warnings[0]?.message).toContain("colour");
+  });
+});
+
+describe("formatReport", () => {
+  it("summarises files, items, errors and warnings", () => {
+    const text = formatReport(validateContentSet(validSet()));
+    expect(text).toContain("5 files");
+    expect(text).toContain("0 errors");
+  });
+});
