@@ -1,0 +1,165 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "apply",
+      "headword": "apply",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["work"],
+      "definition": "To make a formal request, usually in writing, for a job or a place on a course.",
+      "examples": ["I've applied for three jobs this week."],
+      "collocations": [
+        "apply for a job",
+        "apply to a company",
+        "apply in writing"
+      ]
+    },
+    {
+      "id": "career",
+      "headword": "career",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["work"],
+      "sets": ["false-friends"],
+      "definition": "The series of jobs a person does in one area of work during their working life.",
+      "examples": ["She had a long career in journalism."],
+      "collocations": [
+        "a successful career",
+        "a change of career",
+        "career prospects"
+      ],
+      "falseFriend": {
+        "spanish": "carrera (estudios universitarios)",
+        "trap": {
+          "en": "A university course is a degree, not a career. I'm studying law, not I'm studying the career of law.",
+          "es": "«Estudio la carrera de Derecho» se dice I'm studying law o I'm doing a law degree. Career es la trayectoria profesional."
+        }
+      }
+    },
+    {
+      "id": "colleague",
+      "headword": "colleague",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["work"],
+      "definition": "A person who works in the same place or organisation as you.",
+      "examples": ["I usually have lunch with my colleagues."],
+      "synonyms": ["co-worker"]
+    },
+    {
+      "id": "commute",
+      "headword": "commute",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["work"],
+      "definition": "To travel regularly between home and work.",
+      "examples": ["I commute to Manchester by train every day."],
+      "collocations": ["commute to work", "a long commute", "the daily commute"]
+    },
+    {
+      "id": "day-off",
+      "headword": "day off",
+      "pos": "phrase",
+      "level": "B1",
+      "topics": ["work"],
+      "definition": "A day when you do not go to work, although it is a normal working day.",
+      "examples": ["I'm taking a day off on Friday to move house."],
+      "collocations": ["take a day off", "have a day off"]
+    },
+    {
+      "id": "deadline",
+      "headword": "deadline",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["work"],
+      "definition": "The time or day by which a piece of work must be finished.",
+      "examples": ["We're working late to meet the deadline."],
+      "collocations": ["meet a deadline", "miss a deadline", "a tight deadline"]
+    },
+    {
+      "id": "freelance",
+      "headword": "freelance",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["work"],
+      "definition": "Working for several different organisations rather than being employed by one.",
+      "examples": ["She's a freelance graphic designer."],
+      "collocations": ["freelance work", "go freelance"]
+    },
+    {
+      "id": "overtime",
+      "headword": "overtime",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["work"],
+      "definition": "Time worked beyond your normal hours, or the extra money paid for it.",
+      "examples": ["I did ten hours' overtime last week."],
+      "collocations": ["do overtime", "be paid overtime", "unpaid overtime"]
+    },
+    {
+      "id": "promotion",
+      "headword": "promotion",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["work"],
+      "definition": "A move to a more important job in the same organisation.",
+      "examples": ["She got a promotion after only a year."],
+      "collocations": ["get a promotion", "be up for promotion"]
+    },
+    {
+      "id": "recruit",
+      "headword": "recruit",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["work"],
+      "definition": "To find new people to work for an organisation or join a group.",
+      "examples": ["The hospital is struggling to recruit nurses."],
+      "collocations": ["recruit staff", "recruit volunteers"]
+    },
+    {
+      "id": "redundant",
+      "headword": "redundant",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["work"],
+      "definition": "No longer employed because your job is no longer needed.",
+      "examples": [
+        "Two hundred staff were made redundant when the factory closed."
+      ],
+      "collocations": ["be made redundant", "redundancy pay"],
+      "register": "neutral"
+    },
+    {
+      "id": "resign",
+      "headword": "resign",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["work"],
+      "definition": "To leave a job officially, because you have decided to.",
+      "examples": ["He resigned from the board in protest."],
+      "synonyms": ["quit", "step down"],
+      "register": "formal"
+    },
+    {
+      "id": "shift",
+      "headword": "shift",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["work"],
+      "definition": "A period of work that starts when another group of workers finishes.",
+      "examples": ["Nurses often work night shifts."],
+      "collocations": ["a night shift", "an early shift", "work shifts"]
+    },
+    {
+      "id": "workload",
+      "headword": "workload",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["work"],
+      "definition": "The amount of work a person or organisation has to do.",
+      "examples": ["My workload has doubled since my colleague left."],
+      "collocations": ["a heavy workload", "reduce the workload"]
+    }
+  ]
+}

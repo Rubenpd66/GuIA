@@ -1,0 +1,118 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "inversion",
+      "level": "C1",
+      "category": "emphasis",
+      "order": 20,
+      "references": [],
+      "title": {
+        "en": "Inversion after negative adverbials",
+        "es": "Inversión tras expresiones negativas"
+      },
+      "summary": {
+        "en": "In formal English, some negative or limiting expressions can open a sentence for emphasis. When they do, the word order changes as in a question: **auxiliary + subject + verb**. _Never **have I** seen such a queue._ If the normal sentence has no auxiliary, add _do_, _does_ or _did_: _Rarely **do we** get snow here._ It is typical of formal writing and speeches, so it is a strong choice in the formal email of Writing part 4.",
+        "es": "Es como formar una pregunta, pero sin interrogación. Se usa sobre todo por escrito y en registro formal; en una conversación informal sonaría exagerado."
+      },
+      "form": [
+        "Negative adverbial + **auxiliary** + subject + main verb",
+        "No auxiliary in the normal sentence → add **do / does / did**",
+        "**Not only** + inversion…, **but** (subject) **also**…",
+        "**Hardly / Scarcely** + had + subject + past participle… **when**…; **No sooner** + had… **than**…",
+        "**Not until / Only when / Only after** + clause → inversion in the main clause"
+      ],
+      "uses": [
+        {
+          "text": "**Emphasis in formal notices and writing**: _Under no circumstances **should** passengers leave their bags unattended._"
+        },
+        {
+          "text": "**Two events in quick succession**: _Hardly **had** the meeting started when the fire alarm went off._"
+        },
+        {
+          "text": "**Adding a surprising second point**: _Not only **did** the hotel lose our booking, but it also charged us twice._"
+        },
+        {
+          "text": "**Realising something late**: _Only later **did** I understand what she meant._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Never I have seen such a beautiful sunset.",
+          "right": "Never have I seen such a beautiful sunset.",
+          "why": {
+            "en": "After a negative adverbial at the start, the auxiliary comes before the subject.",
+            "es": "Hay que invertir sujeto y auxiliar, como en una pregunta."
+          }
+        },
+        {
+          "wrong": "Not only she speaks French, but also Arabic.",
+          "right": "Not only does she speak French, but she also speaks Arabic.",
+          "why": {
+            "en": "With no auxiliary in the normal sentence, add does after not only.",
+            "es": "Si no hay auxiliar, se añade do, does o did."
+          }
+        },
+        {
+          "wrong": "Hardly had I arrived than it started to rain.",
+          "right": "Hardly had I arrived when it started to rain.",
+          "why": {
+            "en": "Hardly goes with when; no sooner goes with than.",
+            "es": "Hardly… when y no sooner… than: no los mezcles."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "Never before had the town seen such crowds." },
+        { "en": "Seldom do politicians admit their mistakes so openly." },
+        {
+          "en": "Not only was the food cold, but the service was also painfully slow."
+        },
+        {
+          "en": "Hardly had I closed the door when the phone rang.",
+          "es": "Nada más cerrar la puerta, sonó el teléfono."
+        },
+        {
+          "en": "No sooner had we sat down than the waiter brought the bill."
+        },
+        { "en": "Under no circumstances should you share your password." },
+        { "en": "Only after the third attempt did she pass her driving test." },
+        {
+          "en": "Not until I moved abroad did I appreciate my mother's cooking.",
+          "es": "Hasta que no me fui al extranjero no valoré la cocina de mi madre."
+        },
+        {
+          "en": "Little did we know that the shop was about to close for good."
+        },
+        { "en": "At no point did the manager apologise for the delay." }
+      ],
+      "practice": [
+        {
+          "prompt": "Not only ___ late, but he also forgot the tickets.",
+          "options": ["he arrived", "did he arrive", "he did arrive"],
+          "answer": 1,
+          "explanation": {
+            "en": "Not only at the start: did + subject + verb."
+          }
+        },
+        {
+          "prompt": "No sooner ___ the house than it began to pour.",
+          "options": ["had we left", "we had left", "did we leave"],
+          "answer": 0,
+          "explanation": {
+            "en": "No sooner + had + subject + past participle… than."
+          }
+        },
+        {
+          "prompt": "Under no circumstances ___ the emergency exit be blocked.",
+          "options": ["should", "does", "must not"],
+          "answer": 0,
+          "explanation": {
+            "en": "The expression is already negative, so the auxiliary is positive: should."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

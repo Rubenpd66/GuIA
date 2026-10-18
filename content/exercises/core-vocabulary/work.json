@@ -1,0 +1,307 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-work-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "hire",
+        "quit",
+        "salary",
+        "colleague",
+        "postpone",
+        "fire",
+        "earn",
+        "task",
+        "boss",
+        "career"
+      ],
+      "items": [
+        {
+          "id": "cv-work-synonyms-01-a",
+          "prompt": "employ",
+          "answer": 0,
+          "explanation": {
+            "en": "To employ someone and to hire someone both mean to give them a job."
+          }
+        },
+        {
+          "id": "cv-work-synonyms-01-b",
+          "prompt": "resign",
+          "answer": 1,
+          "explanation": {
+            "en": "To resign is the formal way to say to quit a job."
+          }
+        },
+        {
+          "id": "cv-work-synonyms-01-c",
+          "prompt": "wage",
+          "answer": 2,
+          "explanation": {
+            "en": "Both are money paid for work. A wage is often paid weekly and a salary monthly, but they are close in meaning."
+          }
+        },
+        {
+          "id": "cv-work-synonyms-01-d",
+          "prompt": "co-worker",
+          "answer": 3,
+          "explanation": {
+            "en": "A co-worker is a colleague: someone you work with."
+          }
+        },
+        {
+          "id": "cv-work-synonyms-01-e",
+          "prompt": "delay",
+          "answer": 4,
+          "explanation": {
+            "en": "To delay a meeting is to postpone it: to move it to a later time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-work-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "workload",
+        "deadline",
+        "overtime",
+        "promotion",
+        "commute",
+        "shift",
+        "freelance",
+        "redundant",
+        "career",
+        "recruit"
+      ],
+      "items": [
+        {
+          "id": "cv-work-definitions-01-a",
+          "prompt": "the amount of work someone has to do",
+          "answer": 0,
+          "explanation": {
+            "en": "Workload is the amount of work a person has."
+          }
+        },
+        {
+          "id": "cv-work-definitions-01-b",
+          "prompt": "the date by which a piece of work must be finished",
+          "answer": 1,
+          "explanation": {
+            "en": "A deadline is the latest time to finish something."
+          }
+        },
+        {
+          "id": "cv-work-definitions-01-c",
+          "prompt": "time worked beyond your normal hours",
+          "answer": 2,
+          "explanation": {
+            "en": "Overtime is the extra time you work, or the money paid for it."
+          }
+        },
+        {
+          "id": "cv-work-definitions-01-d",
+          "prompt": "a move to a more important job in the same organisation",
+          "answer": 3,
+          "explanation": { "en": "A promotion moves you to a higher position." }
+        },
+        {
+          "id": "cv-work-definitions-01-e",
+          "prompt": "to travel regularly between home and work",
+          "answer": 4,
+          "explanation": {
+            "en": "To commute is to make the regular journey to and from work."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-work-usage-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "redundant",
+        "recruit",
+        "freelance",
+        "shift",
+        "resign",
+        "overtime",
+        "deadline",
+        "apply",
+        "career",
+        "commute"
+      ],
+      "items": [
+        {
+          "id": "cv-work-usage-01-a",
+          "prompt": "After the merger, forty members of staff were made ___.",
+          "answer": 0,
+          "explanation": {
+            "en": "Be made redundant means to lose your job because it is no longer needed."
+          }
+        },
+        {
+          "id": "cv-work-usage-01-b",
+          "prompt": "We need to ___ two more engineers before the project starts.",
+          "answer": 1,
+          "explanation": {
+            "en": "To recruit is to find and employ new people."
+          }
+        },
+        {
+          "id": "cv-work-usage-01-c",
+          "prompt": "As a ___ translator, she chooses which projects to accept.",
+          "answer": 2,
+          "explanation": {
+            "en": "Freelance workers are not employed by one company, so they choose their projects."
+          }
+        },
+        {
+          "id": "cv-work-usage-01-d",
+          "prompt": "Hospital porters often have to work a night ___.",
+          "answer": 3,
+          "explanation": { "en": "A night shift is a period of work at night." }
+        },
+        {
+          "id": "cv-work-usage-01-e",
+          "prompt": "He decided to ___ after twenty years with the firm.",
+          "answer": 4,
+          "explanation": {
+            "en": "To resign is to leave your job by your own decision."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-work-collocations-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "promotion",
+        "overtime",
+        "workload",
+        "deadline",
+        "living",
+        "career",
+        "colleague",
+        "shift",
+        "boss",
+        "interview"
+      ],
+      "items": [
+        {
+          "id": "cv-work-collocations-01-a",
+          "prompt": "get a …",
+          "answer": 0,
+          "explanation": {
+            "en": "Get a promotion is a very common collocation."
+          }
+        },
+        {
+          "id": "cv-work-collocations-01-b",
+          "prompt": "do …",
+          "answer": 1,
+          "explanation": { "en": "We say do overtime, with no article." }
+        },
+        {
+          "id": "cv-work-collocations-01-c",
+          "prompt": "a heavy …",
+          "answer": 2,
+          "explanation": { "en": "A heavy workload means a lot of work." }
+        },
+        {
+          "id": "cv-work-collocations-01-d",
+          "prompt": "a tight …",
+          "answer": 3,
+          "explanation": { "en": "A tight deadline leaves very little time." }
+        },
+        {
+          "id": "cv-work-collocations-01-e",
+          "prompt": "earn a …",
+          "answer": 4,
+          "explanation": {
+            "en": "Earn a living means to earn enough money to live on."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-work-usage-02",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "career",
+        "apply",
+        "colleagues",
+        "off",
+        "commute",
+        "degree",
+        "race",
+        "attend",
+        "assist",
+        "work"
+      ],
+      "items": [
+        {
+          "id": "cv-work-usage-02-a",
+          "prompt": "She has had a very successful ___ in advertising.",
+          "answer": 0,
+          "explanation": {
+            "en": "A career is your working life in one field. Careful: a university course is a degree.",
+            "es": "Career es la trayectoria profesional, no la carrera universitaria."
+          }
+        },
+        {
+          "id": "cv-work-usage-02-b",
+          "prompt": "I'm going to ___ for the manager's job.",
+          "answer": 1,
+          "explanation": { "en": "You apply for a job." }
+        },
+        {
+          "id": "cv-work-usage-02-c",
+          "prompt": "I usually have lunch with my ___ from the office.",
+          "answer": 2,
+          "explanation": { "en": "Colleagues are the people you work with." }
+        },
+        {
+          "id": "cv-work-usage-02-d",
+          "prompt": "Can I take a day ___ next Friday?",
+          "answer": 3,
+          "explanation": {
+            "en": "Take a day off means not to work on a working day."
+          }
+        },
+        {
+          "id": "cv-work-usage-02-e",
+          "prompt": "It takes me an hour to ___ to work every morning.",
+          "answer": 4,
+          "explanation": {
+            "en": "To commute is to travel between home and work."
+          }
+        }
+      ]
+    }
+  ]
+}

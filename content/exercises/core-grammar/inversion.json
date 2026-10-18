@@ -1,0 +1,177 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-inversion-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "inversion",
+      "prompt": "Rarely ___ such a talented young player.",
+      "options": ["have I seen", "I have seen", "I saw"],
+      "answer": 0,
+      "explanation": {
+        "en": "Rarely at the start of the sentence needs question word order: auxiliary + subject."
+      },
+      "optionNotes": [
+        { "en": "Correct: inversion after rarely." },
+        { "en": "Normal word order is not possible after a fronted rarely." },
+        { "en": "Without an auxiliary, inversion needs did: rarely did I see." }
+      ]
+    },
+    {
+      "id": "cg-inversion-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "media",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "inversion",
+      "prompt": "Not until the results were published ___ how close the vote had been.",
+      "options": ["we realised", "did we realise", "realised we"],
+      "answer": 1,
+      "explanation": {
+        "en": "After a clause beginning Not until, the main clause is inverted with did."
+      },
+      "optionNotes": [
+        {
+          "en": "Normal word order is not possible after Not until at the start."
+        },
+        { "en": "Correct: did + subject + infinitive." },
+        {
+          "en": "English inverts with an auxiliary, not by moving the main verb."
+        }
+      ]
+    },
+    {
+      "id": "cg-inversion-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "technology",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "inversion",
+      "prompt": "Hardly had she started speaking ___ the microphone stopped working.",
+      "options": ["than", "when", "that"],
+      "answer": 1,
+      "explanation": {
+        "en": "Hardly is followed by when; than goes with no sooner."
+      },
+      "optionNotes": [
+        { "en": "Than goes with no sooner, not with hardly." },
+        { "en": "Correct: hardly… when." },
+        { "en": "That does not introduce the second event in this pattern." }
+      ]
+    },
+    {
+      "id": "cg-inversion-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "inversion",
+      "prompt": "No sooner had the film started ___ the power went off.",
+      "options": ["when", "than", "then"],
+      "answer": 1,
+      "explanation": {
+        "en": "No sooner is followed by than."
+      },
+      "optionNotes": [
+        { "en": "When goes with hardly or scarcely, not with no sooner." },
+        { "en": "Correct: no sooner… than." },
+        { "en": "Then is an adverb of time, not part of this pattern." }
+      ]
+    },
+    {
+      "id": "cg-inversion-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "relationships",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "inversion",
+      "prompt": "Little ___ that their conversation was being recorded.",
+      "options": ["did they know", "they knew", "they did know"],
+      "answer": 0,
+      "explanation": {
+        "en": "Little at the start means not at all, and it takes did + subject + verb."
+      },
+      "optionNotes": [
+        { "en": "Correct: inversion after little." },
+        { "en": "Normal word order is not possible after a fronted little." },
+        { "en": "Emphatic did must come before the subject here." }
+      ]
+    },
+    {
+      "id": "cg-inversion-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "inversion",
+      "prompt": "Only when you have read the whole contract ___ sign it.",
+      "options": ["you should", "should you", "you shall"],
+      "answer": 1,
+      "explanation": {
+        "en": "After a clause beginning Only when, the main clause is inverted."
+      },
+      "optionNotes": [
+        {
+          "en": "Normal word order is not possible after Only when at the start."
+        },
+        { "en": "Correct: should + subject + verb." },
+        { "en": "This keeps normal word order, and shall sounds wrong here." }
+      ]
+    },
+    {
+      "id": "cg-inversion-07",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "travel",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "inversion",
+      "prompt": "At no time ___ in any danger, according to the airline.",
+      "options": [
+        "were the passengers",
+        "the passengers were",
+        "passengers were"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "At no time is a negative expression, so the verb be comes before the subject."
+      },
+      "optionNotes": [
+        { "en": "Correct: inversion with be." },
+        { "en": "Normal word order is not possible after at no time." },
+        { "en": "This keeps normal word order and also drops the article." }
+      ]
+    },
+    {
+      "id": "cg-inversion-08",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "education",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "inversion",
+      "prompt": "So difficult ___ that only half the candidates passed.",
+      "options": ["was the exam", "the exam was", "the exam it was"],
+      "answer": 0,
+      "explanation": {
+        "en": "So + adjective at the start for emphasis takes inversion: So difficult was the exam that…"
+      },
+      "optionNotes": [
+        { "en": "Correct: so + adjective + be + subject." },
+        {
+          "en": "After a fronted so + adjective, normal word order is not possible."
+        },
+        { "en": "The extra pronoun it makes the sentence ungrammatical." }
+      ]
+    }
+  ]
+}

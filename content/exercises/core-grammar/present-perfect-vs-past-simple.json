@@ -1,0 +1,210 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-ppps-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "present-perfect-vs-past-simple",
+      "prompt": "The company ___ three new branches since January.",
+      "options": ["opened", "has opened", "is opening"],
+      "answer": 1,
+      "explanation": {
+        "en": "Since January describes a period that continues up to now, so the present perfect is needed.",
+        "es": "Since January llega hasta ahora: present perfect."
+      },
+      "optionNotes": [
+        {
+          "en": "The past simple needs a finished time, and since January is not finished."
+        },
+        { "en": "Correct: an unfinished period introduced by since." },
+        {
+          "en": "The present continuous does not combine with since for completed actions."
+        }
+      ]
+    },
+    {
+      "id": "cg-ppps-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "present-perfect-vs-past-simple",
+      "prompt": "We ___ the Prado when we were in Madrid last year.",
+      "options": ["have visited", "visited", "have been visiting"],
+      "answer": 1,
+      "explanation": {
+        "en": "Last year and when we were in Madrid fix a finished time, so the past simple is needed."
+      },
+      "optionNotes": [
+        {
+          "en": "The present perfect cannot be used with a finished time such as last year."
+        },
+        { "en": "Correct: a finished action at a finished time." },
+        {
+          "en": "The present perfect continuous is for activities continuing up to now."
+        }
+      ]
+    },
+    {
+      "id": "cg-ppps-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "present-perfect-vs-past-simple",
+      "prompt": "Have you ever ___ a speech in front of a large audience?",
+      "options": ["give", "gave", "given"],
+      "answer": 2,
+      "explanation": {
+        "en": "After have, use the past participle: given."
+      },
+      "optionNotes": [
+        {
+          "en": "Give is the infinitive; the present perfect needs the past participle."
+        },
+        { "en": "Gave is the past simple form, not the participle." },
+        { "en": "Correct: have + past participle." }
+      ]
+    },
+    {
+      "id": "cg-ppps-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "present-perfect-vs-past-simple",
+      "prompt": "I ___ to the dentist two weeks ago, but my tooth still hurts.",
+      "options": ["went", "have gone", "have been"],
+      "answer": 0,
+      "explanation": {
+        "en": "Two weeks ago is a finished time, so the past simple is needed."
+      },
+      "optionNotes": [
+        { "en": "Correct: ago always takes the past simple." },
+        { "en": "The present perfect cannot be used with ago." },
+        { "en": "The present perfect cannot be used with ago, even with been." }
+      ]
+    },
+    {
+      "id": "cg-ppps-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "general",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "present-perfect-vs-past-simple",
+      "prompt": "A: Is Tom in? B: Sorry, he's ___ to the shops. He'll be back soon.",
+      "options": ["gone", "been", "went"],
+      "answer": 0,
+      "explanation": {
+        "en": "He has gone means he is still away; he has been means he went and has come back.",
+        "es": "Has gone: todavía no ha vuelto. Has been: fue y ya ha vuelto."
+      },
+      "optionNotes": [
+        { "en": "Correct: he is still at the shops." },
+        {
+          "en": "Been would mean he has already come back, which contradicts the situation."
+        },
+        { "en": "Went is the past simple and cannot follow he's." }
+      ]
+    },
+    {
+      "id": "cg-ppps-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "general",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "present-perfect-vs-past-simple",
+      "prompt": "The weather ___ awful so far this summer.",
+      "options": ["was", "has been", "is being"],
+      "answer": 1,
+      "explanation": {
+        "en": "So far this summer is a period that is not finished, so the present perfect is needed."
+      },
+      "optionNotes": [
+        {
+          "en": "The past simple suggests the summer is over, but so far shows it is not."
+        },
+        { "en": "Correct: an unfinished period with so far." },
+        {
+          "en": "Is being describes temporary behaviour now, not a period up to now."
+        }
+      ]
+    },
+    {
+      "id": "cg-ppps-07",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "present-perfect-vs-past-simple",
+      "prompt": "My grandparents ___ married in 1965.",
+      "options": ["got", "have got", "have been getting"],
+      "answer": 0,
+      "explanation": {
+        "en": "In 1965 is a finished time, so the past simple is needed."
+      },
+      "optionNotes": [
+        { "en": "Correct: a finished event in a stated year." },
+        { "en": "The present perfect cannot be used with a past date." },
+        { "en": "The continuous form does not fit a single finished event." }
+      ]
+    },
+    {
+      "id": "cg-ppps-08",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "present-perfect-vs-past-simple",
+      "prompt": "This is the first time I ___ sushi.",
+      "options": ["have eaten", "ate", "eat"],
+      "answer": 0,
+      "explanation": {
+        "en": "After This is the first time, English uses the present perfect.",
+        "es": "Tras This is the first time se usa present perfect, no presente."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: the fixed pattern This is the first time + present perfect."
+        },
+        { "en": "The past simple would need It was the first time." },
+        {
+          "en": "The present simple is a common Spanish-influenced mistake here."
+        }
+      ]
+    },
+    {
+      "id": "cg-ppps-09",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "present-perfect-vs-past-simple",
+      "prompt": "A: Can I borrow your charger? B: Sorry, I ___ it at the office yesterday.",
+      "options": ["have left", "left", "am leaving"],
+      "answer": 1,
+      "explanation": {
+        "en": "Yesterday is a finished time, so the past simple is needed."
+      },
+      "optionNotes": [
+        { "en": "The present perfect cannot be used with yesterday." },
+        { "en": "Correct: a finished action at a finished time." },
+        {
+          "en": "The present continuous talks about now or the future, not yesterday."
+        }
+      ]
+    }
+  ]
+}

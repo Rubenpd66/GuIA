@@ -1,0 +1,123 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "second-third-conditionals",
+      "level": "B1",
+      "category": "conditionals",
+      "order": 30,
+      "references": [
+        { "book": "egu", "unit": 38 },
+        { "book": "egu", "unit": 39 },
+        { "book": "egu", "unit": 40 }
+      ],
+      "title": {
+        "en": "Second and third conditionals",
+        "es": "Condicionales segundo y tercero"
+      },
+      "summary": {
+        "en": "Use the **second conditional** for situations that are unreal or unlikely now or in the future: _If I **had** more time, I **would learn** the piano._ Use the **third conditional** to imagine a different past, often to talk about regrets or criticise: _If we **had left** earlier, we **wouldn't have missed** the train._ In both, the _if_ clause never contains _would_.",
+        "es": "El segundo condicional equivale a «si tuviera…, haría»; el tercero, a «si hubiera…, habría». El error típico es poner would en las dos partes: en inglés la parte con if va en pasado o en past perfect, nunca con would."
+      },
+      "form": [
+        "Second: **if** + past simple, **would / could / might** + infinitive",
+        "Third: **if** + past perfect, **would / could / might** + **have** + past participle",
+        "With _be_, formal English prefers **were** for every person: _If I **were** you…_",
+        "The _if_ clause can go first or second; use a comma only when it goes first"
+      ],
+      "uses": [
+        {
+          "text": "**Unreal present**: _If I **lived** nearer, I**'d cycle** to work._ (I don't live near.)"
+        },
+        {
+          "text": "**Unlikely future**: _If I **won** the lottery, I**'d travel** round the world._"
+        },
+        {
+          "text": "**Advice** with _If I were you_: _If I **were** you, I**'d apologise**._"
+        },
+        {
+          "text": "**A different past and regret**: _If I**'d studied** harder, I **would have passed**._"
+        },
+        {
+          "text": "**Could** and **might** for possibility: _If we **had** a car, we **could visit** them more often._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "If I would have more money, I would buy a flat.",
+          "right": "If I had more money, I would buy a flat.",
+          "why": {
+            "en": "Would never goes in the if clause.",
+            "es": "Nada de would detrás de if: «si tuviera» es if I had."
+          }
+        },
+        {
+          "wrong": "If I would have known, I would have come.",
+          "right": "If I had known, I would have come.",
+          "why": {
+            "en": "The third conditional takes the past perfect after if.",
+            "es": "«Si lo hubiera sabido» es if I had known."
+          }
+        },
+        {
+          "wrong": "If I was you, I would accept the offer.",
+          "right": "If I were you, I would accept the offer.",
+          "why": {
+            "en": "In the fixed phrase If I were you, use were. Was is common in conversation but often marked as a mistake in exams.",
+            "es": "En la expresión fija If I were you se usa were."
+          }
+        }
+      ],
+      "examples": [
+        { "en": "If I had a garden, I'd grow my own vegetables." },
+        {
+          "en": "What would you do if you lost your job?",
+          "es": "¿Qué harías si perdieras el trabajo?"
+        },
+        {
+          "en": "If she spoke Italian, she could apply for the job in Milan."
+        },
+        { "en": "I wouldn't drive into the city centre if I were you." },
+        {
+          "en": "If we had booked earlier, we would have got cheaper tickets.",
+          "es": "Si hubiéramos reservado antes, habríamos conseguido billetes más baratos."
+        },
+        { "en": "He might have passed if he hadn't been so nervous." },
+        {
+          "en": "If it hadn't rained, the concert wouldn't have been cancelled."
+        },
+        { "en": "Would you mind if I opened the window?" },
+        {
+          "en": "If the trains were more reliable, more people would leave their cars at home."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "If I ___ you, I'd talk to your manager.",
+          "options": ["were", "would be", "am"],
+          "answer": 0,
+          "explanation": {
+            "en": "Advice uses the fixed phrase If I were you."
+          }
+        },
+        {
+          "prompt": "If they ___ the map, they wouldn't have got lost.",
+          "options": ["checked", "had checked", "would check"],
+          "answer": 1,
+          "explanation": {
+            "en": "Third conditional: past perfect after if."
+          }
+        },
+        {
+          "prompt": "She ___ happier if she lived closer to her family.",
+          "options": ["would be", "will be", "is"],
+          "answer": 0,
+          "explanation": {
+            "en": "Second conditional: would + infinitive in the result clause."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

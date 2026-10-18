@@ -1,0 +1,125 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "present-perfect-vs-past-simple",
+      "level": "B1",
+      "category": "tenses",
+      "order": 20,
+      "references": [
+        { "book": "egu", "unit": 13 },
+        { "book": "egu", "unit": 14 }
+      ],
+      "title": {
+        "en": "Present perfect or past simple?",
+        "es": "¿Present perfect o past simple?"
+      },
+      "summary": {
+        "en": "Use the **past simple** for finished actions at a finished time: _yesterday_, _in 2019_, _last summer_, _when I was a child_. Use the **present perfect** when no time is given, when the period is still going on (_today_, _this week_, _so far_), or when a past action matters now. A quick test: if you could answer the question \"When exactly?\", you probably need the past simple.",
+        "es": "En español peninsular decimos «he comido» para hoy y «comí» para ayer, y la regla inglesa se parece, pero es más estricta: con cualquier momento terminado y concreto (yesterday, last year, in 2019, ago) solo vale el past simple."
+      },
+      "form": [
+        "Past simple: subject + past form (**worked**, **went**); questions and negatives with **did**",
+        "Present perfect: subject + **have/has** + past participle (**worked**, **gone**)",
+        "Past simple time words: _yesterday_, _ago_, _last…_, _in 2019_, _when…_",
+        "Present perfect time words: _ever_, _never_, _just_, _already_, _yet_, _so far_, _recently_, _since_"
+      ],
+      "uses": [
+        {
+          "text": "**Finished time** → past simple: _I **saw** her last Tuesday._"
+        },
+        {
+          "text": "**Unfinished time or no time** → present perfect: _I've **seen** her twice this week._"
+        },
+        {
+          "text": "**News with a result now** → present perfect first, then past simple for the details: _The council **has closed** the bridge. It **made** the decision this morning._",
+          "note": {
+            "en": "News reports often open in the present perfect and continue in the past simple.",
+            "es": "Las noticias suelen abrir con present perfect y seguir en past simple."
+          }
+        },
+        {
+          "text": "**Life experience** → present perfect: _Have you ever **tried** surfing?_ As soon as you say when, switch: _Yes, I **tried** it in Portugal two years ago._"
+        },
+        {
+          "text": "**Duration up to now** → present perfect with _for_ or _since_: _We've **lived** here since 2020._ For a finished period, use the past simple: _We **lived** in Leeds for five years_ (we don't live there now)."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I have finished the report yesterday.",
+          "right": "I finished the report yesterday.",
+          "why": {
+            "en": "Yesterday is a finished time, so the present perfect is not possible.",
+            "es": "Con un momento terminado (yesterday, ago, last week) no se usa el present perfect, aunque en español digamos «he terminado»."
+          }
+        },
+        {
+          "wrong": "I live here since 2020.",
+          "right": "I've lived here since 2020.",
+          "why": {
+            "en": "A situation that started in the past and continues now takes the present perfect, not the present simple.",
+            "es": "«Vivo aquí desde 2020» se dice con present perfect."
+          }
+        },
+        {
+          "wrong": "When have you arrived?",
+          "right": "When did you arrive?",
+          "why": {
+            "en": "Questions with when ask about a specific time, so they take the past simple.",
+            "es": "When pregunta por un momento concreto: past simple."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I've lost my keys, so I can't get into the flat.",
+          "es": "He perdido las llaves, así que no puedo entrar en el piso."
+        },
+        {
+          "en": "I lost my keys on the bus last night.",
+          "es": "Perdí las llaves en el autobús anoche."
+        },
+        { "en": "Have you ever been to Scotland?" },
+        { "en": "We went to Edinburgh for a weekend in March." },
+        { "en": "She has worked for the council since 2018." },
+        {
+          "en": "He worked in a bank for ten years before he retrained as a nurse."
+        },
+        {
+          "en": "The train has just left, and the next one isn't for twenty minutes."
+        },
+        { "en": "I haven't had any coffee today." },
+        { "en": "Did you watch the match on Saturday?" },
+        { "en": "Prices have risen sharply this year." }
+      ],
+      "practice": [
+        {
+          "prompt": "I ___ my homework an hour ago.",
+          "options": ["finished", "have finished", "have been finishing"],
+          "answer": 0,
+          "explanation": {
+            "en": "An hour ago is a finished time, so only the past simple works."
+          }
+        },
+        {
+          "prompt": "Look! Someone ___ the window.",
+          "options": ["broke", "has broken", "was breaking"],
+          "answer": 1,
+          "explanation": {
+            "en": "The result is visible now and no time is given: present perfect."
+          }
+        },
+        {
+          "prompt": "How long ___ in this flat? Since last spring.",
+          "options": ["do you live", "did you live", "have you lived"],
+          "answer": 2,
+          "explanation": {
+            "en": "Since last spring shows the situation continues now: present perfect."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

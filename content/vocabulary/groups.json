@@ -1,0 +1,26 @@
+{
+  "kind": "vocabulary-groups",
+  "items": [
+    {
+      "slug": "work",
+      "title": { "en": "Work", "es": "Trabajo" },
+      "summary": {
+        "en": "Jobs, workplaces and careers: one of the topics that appears most often in every part of the exam.",
+        "es": "Empleos, lugares de trabajo y trayectoria profesional: uno de los temas más frecuentes en todas las partes del examen."
+      },
+      "references": [
+        { "book": "evu", "unit": 16 },
+        { "book": "evu", "unit": 17 }
+      ]
+    },
+    {
+      "slug": "false-friends",
+      "title": { "en": "False friends", "es": "Falsos amigos" },
+      "summary": {
+        "en": "Words that look like Spanish words but mean something different. They are a favourite trap in the vocabulary questions.",
+        "es": "Palabras que se parecen al español pero significan otra cosa. Son una trampa habitual en las preguntas de vocabulario."
+      },
+      "references": []
+    }
+  ]
+}

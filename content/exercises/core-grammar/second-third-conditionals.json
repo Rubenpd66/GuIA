@@ -1,0 +1,191 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-cond23-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "culture-leisure",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "second-third-conditionals",
+      "prompt": "If I ___ more free time, I would join a choir.",
+      "options": ["had", "would have", "have had"],
+      "answer": 0,
+      "explanation": {
+        "en": "Second conditional: past simple in the if clause."
+      },
+      "optionNotes": [
+        { "en": "Correct: if + past simple for an unreal present." },
+        { "en": "Would never goes in the if clause." },
+        { "en": "The present perfect does not fit an imagined situation." }
+      ]
+    },
+    {
+      "id": "cg-cond23-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "second-third-conditionals",
+      "prompt": "We would have helped you if you ___ us.",
+      "options": ["asked", "had asked", "would ask"],
+      "answer": 1,
+      "explanation": {
+        "en": "Third conditional: past perfect after if, because the result is would have helped."
+      },
+      "optionNotes": [
+        {
+          "en": "The past simple belongs to the second conditional, not to would have."
+        },
+        { "en": "Correct: if + past perfect, would have + participle." },
+        { "en": "Would never goes in the if clause." }
+      ]
+    },
+    {
+      "id": "cg-cond23-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "second-third-conditionals",
+      "prompt": "If he ___ to bed earlier, he wouldn't be so tired at work.",
+      "options": ["went", "goes", "would go"],
+      "answer": 0,
+      "explanation": {
+        "en": "The result wouldn't be shows an unreal present, so the if clause takes the past simple."
+      },
+      "optionNotes": [
+        { "en": "Correct: second conditional." },
+        {
+          "en": "The present simple belongs to the first conditional, with will."
+        },
+        { "en": "Would never goes in the if clause." }
+      ]
+    },
+    {
+      "id": "cg-cond23-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "second-third-conditionals",
+      "prompt": "A: I can't decide whether to take the job. B: If I ___ you, I'd take it.",
+      "options": ["were", "would be", "am being"],
+      "answer": 0,
+      "explanation": {
+        "en": "Advice uses the fixed phrase If I were you."
+      },
+      "optionNotes": [
+        { "en": "Correct: the fixed phrase for advice." },
+        { "en": "Would never goes in the if clause." },
+        { "en": "The present continuous makes no sense in this phrase." }
+      ]
+    },
+    {
+      "id": "cg-cond23-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "second-third-conditionals",
+      "prompt": "If the bus hadn't been late, I ___ the beginning of the film.",
+      "options": ["wouldn't miss", "wouldn't have missed", "didn't miss"],
+      "answer": 1,
+      "explanation": {
+        "en": "The if clause has the past perfect, so the result needs would have + past participle."
+      },
+      "optionNotes": [
+        { "en": "Would + infinitive belongs to the second conditional." },
+        { "en": "Correct: third conditional result." },
+        { "en": "A result clause needs would, could or might." }
+      ]
+    },
+    {
+      "id": "cg-cond23-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "second-third-conditionals",
+      "prompt": "She could have become a professional dancer if she ___ her knee.",
+      "options": ["didn't injure", "hadn't injured", "wouldn't injure"],
+      "answer": 1,
+      "explanation": {
+        "en": "Could have become imagines a different past, so the if clause takes the past perfect."
+      },
+      "optionNotes": [
+        { "en": "The past simple does not match could have become." },
+        { "en": "Correct: third conditional with could have." },
+        { "en": "Would never goes in the if clause." }
+      ]
+    },
+    {
+      "id": "cg-cond23-07",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "second-third-conditionals",
+      "prompt": "What ___ if you found a wallet in the street?",
+      "options": ["would you do", "will you do", "did you do"],
+      "answer": 0,
+      "explanation": {
+        "en": "Found in the if clause shows an imagined situation, so the question uses would."
+      },
+      "optionNotes": [
+        { "en": "Correct: second conditional question." },
+        {
+          "en": "Will belongs to the first conditional, with a present tense after if."
+        },
+        { "en": "Did you do asks about a real past event." }
+      ]
+    },
+    {
+      "id": "cg-cond23-08",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "second-third-conditionals",
+      "prompt": "If the city ___ more cycle lanes, fewer people would drive.",
+      "options": ["built", "would build", "has built"],
+      "answer": 0,
+      "explanation": {
+        "en": "The result uses would, so the if clause takes the past simple."
+      },
+      "optionNotes": [
+        { "en": "Correct: second conditional." },
+        { "en": "Would never goes in the if clause." },
+        { "en": "The present perfect does not fit an imagined situation." }
+      ]
+    },
+    {
+      "id": "cg-cond23-09",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "second-third-conditionals",
+      "prompt": "I ___ the exam if I had read the instructions more carefully.",
+      "options": ["would pass", "would have passed", "had passed"],
+      "answer": 1,
+      "explanation": {
+        "en": "The if clause has the past perfect, so the result needs would have + past participle."
+      },
+      "optionNotes": [
+        { "en": "Would + infinitive belongs to the second conditional." },
+        { "en": "Correct: third conditional result." },
+        { "en": "The past perfect goes in the if clause, not in the result." }
+      ]
+    }
+  ]
+}
