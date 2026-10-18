@@ -1,26 +1,140 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/*
+ * Passport tokens (spec §6). Light theme = the visa pages; dark theme = the cover.
+ * src/lib/design/theme-tokens.test.ts checks every contrast pair the spec requires.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #eef2ef;
+  --sheet: #f8faf8;
+  --ink: #1a2332;
+  --ink-soft: #4a5466;
+  --line: #4a5466;
+  --hairline: #c9d3ce;
+  --cover: #6b1f33;
+  --on-cover: #eef2ef;
+  --foil: #c9a04a;
+  --entry: #1e6e50;
+  --refusal: #a8261f;
+  --guilloche: #6e978c;
+  --focus: #1a2332;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --paper: #1c1317;
+  --sheet: #2b1d23;
+  --ink: #ece6de;
+  --ink-soft: #b5aba6;
+  --line: #9a8f8b;
+  --hairline: #3d2a31;
+  --cover: #78263d;
+  --on-cover: #f3eee8;
+  --foil: #d6b062;
+  --entry: #6fcb9f;
+  --refusal: #f28b80;
+  --guilloche: #5a4a50;
+  --focus: #d6b062;
+  color-scheme: dark;
+}
+
+@theme {
+  --color-*: initial;
+
+  /* Major third (1.25) on a 17px base. */
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1.5;
+  --text-sm: 0.85rem;
+  --text-sm--line-height: 1.5;
+  --text-base: 1.0625rem;
+  --text-base--line-height: 1.6;
+  --text-lg: 1.328rem;
+  --text-lg--line-height: 1.45;
+  --text-xl: 1.66rem;
+  --text-xl--line-height: 1.3;
+  --text-2xl: 2.075rem;
+  --text-2xl--line-height: 1.2;
+  --text-3xl: 2.594rem;
+  --text-3xl--line-height: 1.12;
+  --text-4xl: 3.242rem;
+  --text-4xl--line-height: 1.05;
+
+  --radius-page: 10px;
+  --radius-control: 6px;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper: var(--paper);
+  --color-sheet: var(--sheet);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-hairline: var(--hairline);
+  --color-cover: var(--cover);
+  --color-on-cover: var(--on-cover);
+  --color-foil: var(--foil);
+  --color-entry: var(--entry);
+  --color-refusal: var(--refusal);
+  --color-guilloche: var(--guilloche);
+  --color-focus: var(--focus);
+
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-literata), ui-serif, Georgia, serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: 1.6;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, var(--foil) 45%, transparent);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Inside the burgundy cover the ink-coloured focus ring would disappear. */
+.on-cover {
+  --focus: var(--foil);
+}
+
+/* Long reading: lessons, Reading texts and model answers. */
+.prose-reading {
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+  line-height: 1.65;
+  max-width: 68ch;
+}
+
+@utility font-expanded {
+  font-stretch: 125%;
+}
+
+@utility font-semi-expanded {
+  font-stretch: 112.5%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
