@@ -760,6 +760,7 @@ export const validLessons = {
   functional: {
     id: "hedging-it-could-be-argued",
     function: "hedging",
+    level: "C1",
     register: "formal",
     phrase: "It could be argued that…",
     example: "It could be argued that the new timetable benefits most members.",

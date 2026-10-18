@@ -2,9 +2,12 @@ import { describe, expect, it } from "vitest";
 import { validExercises, validLessons } from "../../../tests/fixtures/content";
 import {
   buildContentIndex,
+  canDoByLevel,
+  canDoOfLesson,
   entriesOfGroup,
   exercisesOfPart,
   lessonBySlug,
+  phrasesByFunction,
   questionsForLesson,
 } from "./index";
 import { ContentFile } from "./schemas/content-file";
@@ -69,5 +72,73 @@ describe("buildContentIndex", () => {
       entriesOfGroup(index, "false-friends").map((e) => e.headword),
     ).toEqual(["actually", "eventually"]);
     expect(entriesOfGroup(index, "work")).toEqual([]);
+  });
+});
+
+describe("can-do and functional language lookups", () => {
+  const canDo = (
+    id: string,
+    level: string,
+    skill: string,
+    lessons: string[],
+  ) => ({
+    ...structuredClone(validLessons.canDo),
+    id,
+    level,
+    skill,
+    links: { lessons, parts: [] },
+  });
+  const phrase = (id: string, fn: string, level: string, register: string) => ({
+    ...structuredClone(validLessons.functional),
+    id,
+    function: fn,
+    level,
+    register,
+  });
+  const index = buildContentIndex([
+    parse("grammar-lessons", [lesson("inversion", "C1", 1)]),
+    parse("can-do", [
+      canDo("c1-writing", "C1", "writing", ["inversion"]),
+      canDo("c1-reading", "C1", "reading", []),
+      canDo("b1-listening", "B1", "listening", []),
+      canDo("c1-spoken", "C1", "spoken-interaction", ["inversion"]),
+    ]),
+    parse("functional-language", [
+      phrase("op-c1-formal", "opinion", "C1", "formal"),
+      phrase("hedge-b1", "hedging", "B1", "neutral"),
+      phrase("op-b1-informal", "opinion", "B1", "informal"),
+      phrase("op-b1-neutral", "opinion", "B1", "neutral"),
+    ]),
+  ]);
+
+  it("canDoOfLesson returns only statements linking the lesson", () => {
+    expect(canDoOfLesson(index, "inversion").map((c) => c.id)).toEqual([
+      "c1-spoken",
+      "c1-writing",
+    ]);
+    expect(canDoOfLesson(index, "articles")).toEqual([]);
+  });
+
+  it("canDoByLevel groups by level and orders by skill", () => {
+    const byLevel = canDoByLevel(index);
+    expect(byLevel.C1.map((c) => c.id)).toEqual([
+      "c1-spoken",
+      "c1-reading",
+      "c1-writing",
+    ]);
+    expect(byLevel.B1.map((c) => c.id)).toEqual(["b1-listening"]);
+    expect(byLevel.B2).toEqual([]);
+  });
+
+  it("phrasesByFunction keeps enum order and drops empty functions", () => {
+    expect(
+      phrasesByFunction(index).map(({ function: fn, phrases }) => [
+        fn,
+        phrases.map((p) => p.id),
+      ]),
+    ).toEqual([
+      ["opinion", ["op-b1-neutral", "op-b1-informal", "op-c1-formal"]],
+      ["hedging", ["hedge-b1"]],
+    ]);
   });
 });

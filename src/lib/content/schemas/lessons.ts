@@ -150,38 +150,49 @@ export const VocabularyGroup = z.strictObject({
 });
 export type VocabularyGroup = z.infer<typeof VocabularyGroup>;
 
+/** Levels that can-do statements and functional phrases target. */
+export const TARGET_LEVELS = ["B1", "B2", "C1"] as const;
+export type TargetLevel = (typeof TARGET_LEVELS)[number];
+
+export const CAN_DO_SKILLS = [
+  "spoken-interaction",
+  "spoken-production",
+  "listening",
+  "reading",
+  "writing",
+  "strategies",
+] as const;
+
 export const CanDo = z.strictObject({
   id: Slug,
-  level: z.enum(["B1", "B2", "C1"]),
-  skill: z.enum([
-    "spoken-interaction",
-    "spoken-production",
-    "listening",
-    "reading",
-    "writing",
-    "strategies",
-  ]),
+  level: z.enum(TARGET_LEVELS),
+  skill: z.enum(CAN_DO_SKILLS),
   text: LocalizedText,
   links: z.strictObject({ lessons: z.array(Slug), parts: z.array(ExamPartId) }),
 });
 export type CanDo = z.infer<typeof CanDo>;
 
+export const PHRASE_FUNCTIONS = [
+  "opinion",
+  "hedging",
+  "contrast",
+  "addition",
+  "conclusion",
+  "speculation",
+  "comparison",
+  "buying-time",
+  "interrupting",
+  "returning",
+] as const;
+
 export const FunctionalPhrase = z.strictObject({
   id: Slug,
-  function: z.enum([
-    "opinion",
-    "hedging",
-    "contrast",
-    "addition",
-    "conclusion",
-    "speculation",
-    "comparison",
-    "buying-time",
-    "interrupting",
-    "returning",
-  ]),
+  function: z.enum(PHRASE_FUNCTIONS),
+  level: z.enum(TARGET_LEVELS),
   register: Register,
   phrase: NonEmptyText,
   example: NonEmptyText,
+  /** When to use it, if that is not obvious from the example. */
+  note: LocalizedText.optional(),
 });
 export type FunctionalPhrase = z.infer<typeof FunctionalPhrase>;

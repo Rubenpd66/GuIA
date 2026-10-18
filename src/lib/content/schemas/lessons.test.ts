@@ -87,4 +87,28 @@ describe("lesson schemas", () => {
     canDo.links.parts = ["reading-9"];
     expect(CanDo.safeParse(canDo).success).toBe(false);
   });
+
+  it("rejects a functional phrase without level", () => {
+    const phrase: Record<string, unknown> = structuredClone(
+      validLessons.functional,
+    );
+    delete phrase.level;
+    expect(FunctionalPhrase.safeParse(phrase).success).toBe(false);
+    expect(
+      FunctionalPhrase.safeParse({ ...validLessons.functional, level: "A2" })
+        .success,
+    ).toBe(false);
+  });
+
+  it("accepts an optional note on a functional phrase", () => {
+    expect(
+      FunctionalPhrase.safeParse({
+        ...validLessons.functional,
+        note: {
+          en: "Useful to soften a strong claim.",
+          es: "Suaviza una afirmación.",
+        },
+      }).success,
+    ).toBe(true);
+  });
 });
