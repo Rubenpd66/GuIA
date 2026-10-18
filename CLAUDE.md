@@ -17,8 +17,9 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 
 ## Status (update at each phase close)
 
-- Phase 1 (foundations) done. Phase 2 (Core) is split into batches 2a, 2b and 2c. 2a (engine, trainers, progress tools) and 2b (28 B1–B2 lessons, 31 in total; 166 grammar questions at 5+ per lesson; 175 vocabulary items across all 11 topics) are committed and browser-checked. Plans: `docs/superpowers/plans/2026-10-18-phase-2{a,b}-*.md`.
-- Next, batch 2c: A2 review and C1 lessons (about 57 lessons in total), raise each lesson to 9 questions (about 300 grammar), vocabulary entries for the 11 topics plus C1 sets, about 120 functional phrases, can-do statements B1–C1, and about 300 vocabulary items. egu coverage is 76/145. Write the plan and get approval before starting.
+- Phase 1 (foundations) done. Phase 2 (Core) runs in batches 2a–2d. 2a (engine, trainers, progress tools), 2b (B1–B2 lessons, 175 vocabulary items) and 2c (A2 review, remaining egu units, C1 structures) are committed and browser-checked: 65 grammar lessons, 336 grammar questions (5+ per lesson), egu 143/145. Plans: `docs/superpowers/plans/2026-10-18-phase-2{a,b,c}-*.md`.
+- Open egu units: 35 (probably "would"; could go on `used-to-and-get-used-to`) and 41 (unassigned). Ask the user before adding references.
+- Next, batch 2d: vocabulary groups for the 10 remaining topics and the C1 sets (the user supplies evu units), about 240 vocabulary entries, 25 more Vocabulary tasks (300 items), about 120 functional phrases, about 54 can-do statements B1–C1, and the UI that shows them (functional language page, objectives in syllabus and lessons). Write the plan and get approval before starting.
 - Phases 3–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
@@ -43,6 +44,7 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
 - Server data uses `"use cache"` + `cacheLife("max")` (content only changes on deploy).
 - `proxy.ts` replaces middleware. next-intl uses localized `pathnames`, `localeCookie: false`.
 - `notFound()` inside `<Suspense>` returns status 200 with the not-found UI and `noindex` (documented streaming behaviour), not a 404.
+- Content is cached with `cacheLife("max")`, so a running dev server keeps serving old content: restart it (`preview_stop` + `preview_start`) after adding content files, or new slugs show the generic title and not-found UI.
 - Browser checks: the in-app browser pane pauses `requestAnimationFrame` while hidden, so Suspense content never reveals there. Use the Playwright tools (snapshots or `run_code`, no screenshots) and delete `.playwright-mcp/` afterwards.
 - The next-themes "script tag" warning in dev comes from instant validation; it doesn't appear in production.
 - Tailwind 4: tokens in `src/app/globals.css` (`@theme inline`, dark mode via `data-theme`). The contrast test parses that file.
