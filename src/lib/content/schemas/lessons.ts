@@ -69,11 +69,16 @@ export const VocabSet = z.enum(VOCAB_SETS);
 export type VocabSet = z.infer<typeof VocabSet>;
 
 /** A vocabulary page: an exam topic (except "general") or a set. */
-export const VOCAB_GROUPS = [
-  ...TOPICS.filter((topic) => topic !== "general"),
+export type VocabGroup = Exclude<Topic, "general"> | VocabSet;
+export const VOCAB_GROUPS: readonly VocabGroup[] = [
+  ...TOPICS.filter(
+    (topic): topic is Exclude<Topic, "general"> => topic !== "general",
+  ),
   ...VOCAB_SETS,
-] as [string, ...string[]];
-export const VocabGroupSlug = z.enum(VOCAB_GROUPS);
+];
+export const VocabGroupSlug = z.enum(
+  VOCAB_GROUPS as [VocabGroup, ...VocabGroup[]],
+);
 
 export const GrammarLesson = z.strictObject({
   slug: Slug,
