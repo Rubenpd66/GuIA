@@ -1,0 +1,230 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "itinerary",
+      "headword": "itinerary",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["travel"],
+      "definition": "A detailed plan of a journey, showing the places you will visit and when.",
+      "examples": [
+        "Our itinerary includes two nights in Edinburgh and a day trip to the Highlands."
+      ],
+      "collocations": [
+        "plan an itinerary",
+        "a detailed itinerary",
+        "a packed itinerary"
+      ]
+    },
+    {
+      "id": "sightseeing",
+      "headword": "sightseeing",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["travel"],
+      "definition": "The activity of visiting famous or interesting places as a tourist.",
+      "examples": [
+        "We spent the first day sightseeing and the second one on the beach."
+      ],
+      "collocations": [
+        "go sightseeing",
+        "a sightseeing tour",
+        "do some sightseeing"
+      ]
+    },
+    {
+      "id": "check-in",
+      "headword": "check in",
+      "pos": "phrasal-verb",
+      "level": "B1",
+      "topics": ["travel"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To report your arrival at an airport or hotel and get your boarding pass or room key.",
+      "examples": [
+        "You need to check in at least two hours before the flight.",
+        "We checked in at the hotel and went straight to the pool."
+      ],
+      "collocations": [
+        "check in online",
+        "check in at the desk",
+        "check in a suitcase"
+      ]
+    },
+    {
+      "id": "set-off",
+      "headword": "set off",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["travel"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To begin a journey.",
+      "examples": ["We set off at six in the morning to avoid the traffic."],
+      "collocations": [
+        "set off early",
+        "set off on a journey",
+        "set off for the airport"
+      ],
+      "synonyms": ["set out"]
+    },
+    {
+      "id": "delay",
+      "headword": "delay",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["travel"],
+      "definition": "A period of time when something happens later than planned, for example a train or a flight.",
+      "examples": ["There was a two-hour delay because of fog."],
+      "collocations": ["a long delay", "cause delays", "delays to flights"]
+    },
+    {
+      "id": "board",
+      "headword": "board",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["travel"],
+      "definition": "To get on a plane, ship, train or bus.",
+      "examples": [
+        "Passengers are asked to board through gate twelve.",
+        "The flight is now boarding."
+      ],
+      "collocations": ["board a plane", "boarding pass", "start boarding"]
+    },
+    {
+      "id": "package-holiday",
+      "headword": "package holiday",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["travel"],
+      "definition": "A holiday in which the travel, the accommodation and often the meals are sold together at one price.",
+      "examples": [
+        "We booked a package holiday to Crete because it was cheaper than arranging everything ourselves."
+      ],
+      "collocations": ["book a package holiday", "a cheap package holiday"]
+    },
+    {
+      "id": "stopover",
+      "headword": "stopover",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["travel"],
+      "definition": "A short stay in a place between two parts of a long journey.",
+      "examples": [
+        "We had a ten-hour stopover in Dubai, so we left the airport and saw the city."
+      ],
+      "collocations": [
+        "a stopover in Istanbul",
+        "a long stopover",
+        "break the journey with a stopover"
+      ]
+    },
+    {
+      "id": "off-the-beaten-track",
+      "headword": "off the beaten track",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["travel"],
+      "sets": ["idioms"],
+      "definition": "In a place that is far from the usual tourist routes and therefore quiet and unspoilt.",
+      "examples": [
+        "We stayed in a tiny village off the beaten track, where we hardly saw another tourist."
+      ],
+      "collocations": [
+        "somewhere off the beaten track",
+        "a hotel off the beaten track"
+      ]
+    },
+    {
+      "id": "get-away",
+      "headword": "get away",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["travel"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To go away on holiday or for a short break, especially to rest after working hard.",
+      "examples": [
+        "I desperately need to get away for a few days.",
+        "They got away to the coast for the weekend."
+      ],
+      "collocations": ["get away from it all", "a weekend getaway"]
+    },
+    {
+      "id": "jet-lag",
+      "headword": "jet lag",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["travel"],
+      "definition": "The tired, confused feeling you get after a long flight across several time zones.",
+      "examples": [
+        "It took me three days to get over the jet lag after flying back from Mexico."
+      ],
+      "collocations": [
+        "suffer from jet lag",
+        "get over jet lag",
+        "be jet-lagged"
+      ]
+    },
+    {
+      "id": "campsite",
+      "headword": "campsite",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["travel"],
+      "sets": ["false-friends"],
+      "definition": "A place where you can put up a tent or park a caravan, usually with toilets and showers.",
+      "examples": ["The campsite was next to a lake and cost very little."],
+      "collocations": [
+        "stay on a campsite",
+        "a campsite by the sea",
+        "book a campsite"
+      ],
+      "falseFriend": {
+        "spanish": "camping (lugar)",
+        "trap": {
+          "en": "Camping is the activity of sleeping in a tent. The place where you do it is a campsite.",
+          "es": "«Vamos a un camping» es We're going to a campsite. Camping es la actividad: We're going camping."
+        }
+      }
+    },
+    {
+      "id": "overbooked",
+      "headword": "overbooked",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["travel"],
+      "definition": "Having sold more tickets or rooms than are actually available.",
+      "examples": [
+        "The flight was overbooked, so they offered me money to take a later one."
+      ],
+      "collocations": ["an overbooked flight", "the hotel was overbooked"]
+    },
+    {
+      "id": "resort",
+      "headword": "resort",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["travel"],
+      "definition": "A place where many people go for a holiday, usually with hotels, beaches or other facilities.",
+      "examples": [
+        "Benidorm is a popular seaside resort with British tourists."
+      ],
+      "collocations": ["a seaside resort", "a ski resort", "a holiday resort"]
+    },
+    {
+      "id": "return-ticket",
+      "headword": "return ticket",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["travel"],
+      "definition": "A ticket that lets you travel to a place and come back again. In American English it is called a round-trip ticket.",
+      "examples": [
+        "A return ticket to Leeds is cheaper if you travel after nine o'clock."
+      ],
+      "collocations": [
+        "buy a return ticket",
+        "a cheap return ticket",
+        "a day return"
+      ]
+    }
+  ]
+}

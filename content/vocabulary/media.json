@@ -1,0 +1,258 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "headline",
+      "headword": "headline",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["media"],
+      "definition": "The title of a newspaper or online article, printed in large letters at the top.",
+      "examples": [
+        "The headline said the minister had resigned, but the story was more complicated.",
+        "I only had time to read the headlines on my phone this morning."
+      ],
+      "collocations": [
+        "make the headlines",
+        "a front-page headline",
+        "hit the headlines"
+      ]
+    },
+    {
+      "id": "tabloid",
+      "headword": "tabloid",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["media"],
+      "definition": "A newspaper with small pages, short articles and lots of photos, which often focuses on celebrities and scandal.",
+      "examples": [
+        "The tabloids ran the story on their front pages for a week.",
+        "He never reads the tabloids, because he finds them too sensational."
+      ],
+      "collocations": [
+        "the tabloid press",
+        "a tabloid newspaper",
+        "tabloid journalism"
+      ]
+    },
+    {
+      "id": "broadcast",
+      "headword": "broadcast",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["media"],
+      "definition": "To send out a programme on television or radio, or online, so that people can watch or listen to it.",
+      "examples": [
+        "The match will be broadcast live on radio and television.",
+        "The speech was broadcast to millions of viewers around the world."
+      ],
+      "collocations": [
+        "broadcast live",
+        "broadcast a programme",
+        "a live broadcast"
+      ]
+    },
+    {
+      "id": "coverage",
+      "headword": "coverage",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["media"],
+      "definition": "The amount and kind of attention that newspapers, television and other news sources give to an event or a subject.",
+      "examples": [
+        "The election received wide coverage in the national press.",
+        "Many viewers complained about the one-sided coverage of the strike."
+      ],
+      "collocations": ["media coverage", "live coverage", "extensive coverage"]
+    },
+    {
+      "id": "press",
+      "headword": "the press",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["media"],
+      "definition": "Newspapers and magazines, and the journalists who write for them.",
+      "examples": [
+        "Freedom of the press is essential in a democracy.",
+        "The actress refused to speak to the press after the trial."
+      ],
+      "collocations": [
+        "freedom of the press",
+        "the national press",
+        "press conference"
+      ]
+    },
+    {
+      "id": "subscribe",
+      "headword": "subscribe",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["media"],
+      "definition": "To pay regularly in order to receive a newspaper, magazine, channel or online service.",
+      "examples": [
+        "I subscribe to a weekly magazine about science.",
+        "Many people have cancelled the channels they subscribed to because of rising prices."
+      ],
+      "collocations": [
+        "subscribe to a newsletter",
+        "subscribe to a channel",
+        "an annual subscription"
+      ]
+    },
+    {
+      "id": "censorship",
+      "headword": "censorship",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["media"],
+      "definition": "The official control of what people can see, read or say, by removing material considered offensive or dangerous.",
+      "examples": [
+        "The film was banned in several countries because of government censorship.",
+        "Online platforms are often accused of censorship when they delete posts."
+      ],
+      "collocations": [
+        "strict censorship",
+        "press censorship",
+        "lift censorship"
+      ]
+    },
+    {
+      "id": "biased",
+      "headword": "biased",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["media"],
+      "definition": "Showing support for one side in an unfair way, so that the information is not balanced.",
+      "examples": [
+        "Critics say the channel is biased against the government.",
+        "A biased report only gives you half of the story."
+      ],
+      "collocations": [
+        "a biased report",
+        "politically biased",
+        "biased towards"
+      ]
+    },
+    {
+      "id": "go-viral",
+      "headword": "go viral",
+      "pos": "phrase",
+      "level": "C1",
+      "topics": ["media"],
+      "definition": "To spread very quickly and widely on the internet because lots of people share it.",
+      "examples": [
+        "Her short video went viral and was seen by millions overnight.",
+        "Nobody expected the joke to go viral."
+      ],
+      "collocations": ["a viral video", "suddenly go viral", "a viral campaign"]
+    },
+    {
+      "id": "fake-news",
+      "headword": "fake news",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["media"],
+      "definition": "False stories that look like real news and are spread online to mislead people.",
+      "examples": [
+        "Schools should teach students how to spot fake news.",
+        "A lot of fake news spreads because people share articles without reading them."
+      ],
+      "collocations": [
+        "spread fake news",
+        "fight fake news",
+        "a fake news story"
+      ]
+    },
+    {
+      "id": "clickbait",
+      "headword": "clickbait",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["media"],
+      "definition": "An online headline or picture designed to make you click on a link, although the content is often disappointing.",
+      "examples": [
+        "I fell for the clickbait again, and the article said nothing new.",
+        "The site is full of clickbait headlines about celebrities."
+      ],
+      "collocations": [
+        "a clickbait headline",
+        "pure clickbait",
+        "avoid clickbait"
+      ],
+      "register": "informal"
+    },
+    {
+      "id": "source",
+      "headword": "source",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["media"],
+      "definition": "A person, document or organisation that provides information, especially for a news story.",
+      "examples": [
+        "The journalist refused to name her source.",
+        "Always check where the information comes from before you trust a source."
+      ],
+      "collocations": [
+        "a reliable source",
+        "an anonymous source",
+        "a source close to the minister"
+      ]
+    },
+    {
+      "id": "tune-in",
+      "headword": "tune in (to)",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["media"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To watch or listen to a particular television or radio programme.",
+      "examples": [
+        "Millions of people tuned in to watch the final.",
+        "Tune in tomorrow at nine for the full interview."
+      ],
+      "collocations": ["tune in to the radio", "tune in every week"]
+    },
+    {
+      "id": "sensationalist",
+      "headword": "sensationalist",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["media"],
+      "definition": "Describing news or reports that exaggerate in order to shock people and attract attention.",
+      "examples": [
+        "The programme was criticised for its sensationalist coverage of the accident.",
+        "He accused the paper of sensationalist reporting."
+      ],
+      "collocations": [
+        "sensationalist reporting",
+        "a sensationalist headline",
+        "sensationalist journalism"
+      ]
+    },
+    {
+      "id": "editorial",
+      "headword": "editorial",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["media"],
+      "sets": ["false-friends"],
+      "definition": "An article in a newspaper that gives the opinion of the editor or the newspaper on a current issue.",
+      "examples": [
+        "The editorial argued that the government should cut fuel taxes.",
+        "I always read the editorial before the other articles."
+      ],
+      "collocations": [
+        "write an editorial",
+        "a leading editorial",
+        "an editorial comment"
+      ],
+      "falseFriend": {
+        "spanish": "editorial (empresa que publica libros)",
+        "trap": {
+          "en": "A company that publishes books is a publisher or a publishing house, not an editorial. In English an editorial is a newspaper opinion article.",
+          "es": "La empresa que publica libros es a publisher o a publishing house. Editorial, en inglés, es el artículo de opinión de un periódico."
+        }
+      }
+    }
+  ]
+}

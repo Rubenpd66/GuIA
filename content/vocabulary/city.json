@@ -1,0 +1,237 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "flat",
+      "headword": "flat",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["city"],
+      "definition": "A set of rooms for living in on one floor of a larger building. In American English it is called an apartment.",
+      "examples": ["We share a two-bedroom flat near the station."],
+      "collocations": ["rent a flat", "a block of flats", "share a flat"]
+    },
+    {
+      "id": "neighbourhood",
+      "headword": "neighbourhood",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["city"],
+      "definition": "A part of a town or city where people live, especially when you think about the people and atmosphere there.",
+      "examples": [
+        "It's a friendly neighbourhood with a market and plenty of small cafés."
+      ],
+      "collocations": [
+        "a quiet neighbourhood",
+        "a rough neighbourhood",
+        "the local neighbourhood"
+      ]
+    },
+    {
+      "id": "suburb",
+      "headword": "suburb",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["city"],
+      "sets": ["false-friends"],
+      "definition": "An area on the edge of a large town or city where there are mostly houses, often rather quiet and comfortable.",
+      "examples": [
+        "They moved to a leafy suburb so the children could have a garden."
+      ],
+      "collocations": [
+        "live in the suburbs",
+        "a quiet suburb",
+        "the outer suburbs"
+      ],
+      "falseFriend": {
+        "spanish": "suburbio (barrio marginal)",
+        "trap": {
+          "en": "In Spanish, suburbio often suggests a poor, rough area. In British English a suburb is usually a pleasant residential area, and it is not a negative word.",
+          "es": "Suburb no tiene el matiz de «barrio pobre» que tiene «suburbio». Suele ser una zona residencial tranquila a las afueras."
+        }
+      }
+    },
+    {
+      "id": "landlord",
+      "headword": "landlord",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["city"],
+      "definition": "A person who owns a house or flat and lets it to other people in return for rent.",
+      "examples": [
+        "Our landlord has promised to repair the heating before winter."
+      ],
+      "collocations": [
+        "a private landlord",
+        "pay the landlord",
+        "the landlord and the tenant"
+      ]
+    },
+    {
+      "id": "tenant",
+      "headword": "tenant",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["city"],
+      "definition": "A person who pays rent to live in a house or flat that belongs to someone else.",
+      "examples": ["The tenants complained about the damp in the bathroom."],
+      "collocations": ["a new tenant", "a tenancy agreement", "evict a tenant"]
+    },
+    {
+      "id": "pavement",
+      "headword": "pavement",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["city"],
+      "definition": "The path at the side of a road where people walk. In American English it is called a sidewalk.",
+      "examples": [
+        "Please don't cycle on the pavement; it's dangerous for pedestrians."
+      ],
+      "collocations": [
+        "walk along the pavement",
+        "a narrow pavement",
+        "park on the pavement"
+      ]
+    },
+    {
+      "id": "rush-hour",
+      "headword": "rush hour",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["city"],
+      "definition": "The part of the day when roads and public transport are busiest because people are travelling to or from work.",
+      "examples": ["Avoid the underground during the rush hour if you can."],
+      "collocations": [
+        "in the rush hour",
+        "the morning rush hour",
+        "rush-hour traffic"
+      ]
+    },
+    {
+      "id": "traffic-jam",
+      "headword": "traffic jam",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["city"],
+      "definition": "A long line of vehicles that cannot move, or can only move very slowly.",
+      "examples": [
+        "We got stuck in a traffic jam for an hour on the way into town."
+      ],
+      "collocations": [
+        "be stuck in a traffic jam",
+        "a huge traffic jam",
+        "cause a traffic jam"
+      ]
+    },
+    {
+      "id": "fare",
+      "headword": "fare",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["city"],
+      "definition": "The money you pay for a journey on a bus, train, taxi or other form of public transport.",
+      "examples": [
+        "Bus fares have gone up again this year.",
+        "The taxi fare from the airport was higher than I expected."
+      ],
+      "collocations": [
+        "pay a fare",
+        "a single fare",
+        "bus fares",
+        "a reduced fare"
+      ]
+    },
+    {
+      "id": "residential",
+      "headword": "residential",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["city"],
+      "definition": "Used for people's homes rather than for shops, offices or factories.",
+      "examples": [
+        "The council wants to keep traffic out of residential streets."
+      ],
+      "collocations": [
+        "a residential area",
+        "a residential street",
+        "residential parking"
+      ]
+    },
+    {
+      "id": "run-down",
+      "headword": "run-down",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["city"],
+      "definition": "In bad condition because no one has looked after it or spent money on it.",
+      "examples": [
+        "The town centre looked run-down after most of the shops had closed."
+      ],
+      "collocations": [
+        "a run-down area",
+        "a run-down building",
+        "look run-down"
+      ],
+      "synonyms": ["shabby", "dilapidated"]
+    },
+    {
+      "id": "up-and-coming",
+      "headword": "up-and-coming",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["city"],
+      "definition": "Becoming popular and successful, or likely to do so soon.",
+      "examples": [
+        "Young artists are moving into this up-and-coming part of the city."
+      ],
+      "collocations": [
+        "an up-and-coming area",
+        "an up-and-coming neighbourhood"
+      ]
+    },
+    {
+      "id": "tower-block",
+      "headword": "tower block",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["city"],
+      "definition": "A very tall building divided into many flats or offices.",
+      "examples": [
+        "They live on the twelfth floor of a tower block with views over the river."
+      ],
+      "collocations": [
+        "live in a tower block",
+        "a council tower block",
+        "a block of flats"
+      ]
+    },
+    {
+      "id": "housing-estate",
+      "headword": "housing estate",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["city"],
+      "definition": "A large group of houses or flats built together in the same area, usually planned at the same time.",
+      "examples": ["She grew up on a housing estate on the edge of Sheffield."],
+      "collocations": [
+        "live on a housing estate",
+        "a new housing estate",
+        "a council estate"
+      ]
+    },
+    {
+      "id": "ring-road",
+      "headword": "ring road",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["city"],
+      "definition": "A main road that goes around a town or city so that traffic does not have to pass through the centre.",
+      "examples": ["Take the ring road if you want to avoid the town centre."],
+      "collocations": [
+        "the ring road around the city",
+        "join the ring road",
+        "a congested ring road"
+      ]
+    }
+  ]
+}

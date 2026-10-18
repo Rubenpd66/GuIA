@@ -1,0 +1,262 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "audience",
+      "headword": "audience",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["culture-leisure"],
+      "definition": "The people who watch or listen to a performance, film or talk.",
+      "examples": [
+        "The audience stood up and applauded for nearly five minutes.",
+        "The play is aimed at a young audience."
+      ],
+      "collocations": [
+        "a live audience",
+        "a large audience",
+        "audience reaction"
+      ]
+    },
+    {
+      "id": "exhibition",
+      "headword": "exhibition",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "A public display of paintings, photographs or other objects, usually in a gallery or museum.",
+      "examples": [
+        "We went to an exhibition of early photography at the weekend.",
+        "The exhibition runs until the end of March."
+      ],
+      "collocations": [
+        "go to an exhibition",
+        "an exhibition opens",
+        "a touring exhibition"
+      ]
+    },
+    {
+      "id": "venue",
+      "headword": "venue",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "A place where an event such as a concert, match or conference takes place.",
+      "examples": [
+        "The old cinema has been turned into a music venue.",
+        "Tickets are cheap, but the venue is a long way from the centre."
+      ],
+      "collocations": ["a concert venue", "book a venue", "a sports venue"]
+    },
+    {
+      "id": "gig",
+      "headword": "gig",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "A live concert given by a band or a musician, especially a small one.",
+      "examples": [
+        "My cousin's band is playing a gig in Leeds on Saturday.",
+        "It was the best gig I've been to all year."
+      ],
+      "collocations": ["go to a gig", "play a gig", "a live gig"],
+      "register": "informal"
+    },
+    {
+      "id": "rehearse",
+      "headword": "rehearse",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "To practise a play, a piece of music or a speech so that you are ready to perform it in front of other people.",
+      "examples": [
+        "The actors have been rehearsing the final scene all week.",
+        "She rehearsed her speech in front of the mirror."
+      ],
+      "collocations": [
+        "rehearse a scene",
+        "rehearse for a show",
+        "rehearse carefully"
+      ]
+    },
+    {
+      "id": "heritage",
+      "headword": "heritage",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "The buildings, traditions and customs that a country or community has had for a long time and that are considered important.",
+      "examples": [
+        "The town is proud of its industrial heritage.",
+        "Many old churches are protected as part of the national heritage."
+      ],
+      "collocations": [
+        "cultural heritage",
+        "a heritage site",
+        "preserve our heritage"
+      ]
+    },
+    {
+      "id": "masterpiece",
+      "headword": "masterpiece",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "An extremely good painting, book, film or piece of music, often the best work of an artist.",
+      "examples": [
+        "Many critics regard the film as a masterpiece.",
+        "The gallery owns several masterpieces from the seventeenth century."
+      ],
+      "collocations": ["a literary masterpiece", "an undisputed masterpiece"]
+    },
+    {
+      "id": "sold-out",
+      "headword": "sold out",
+      "pos": "phrase",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "Used when all the tickets for an event have been bought, so no more are available.",
+      "examples": [
+        "I tried to get tickets, but the show was sold out in ten minutes.",
+        "The tour has sold out in every city."
+      ],
+      "collocations": [
+        "a sold-out show",
+        "sell out quickly",
+        "completely sold out"
+      ]
+    },
+    {
+      "id": "unwind",
+      "headword": "unwind",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "To relax and stop feeling tense or worried after a period of work or stress.",
+      "examples": [
+        "I like to unwind with a book after a busy day.",
+        "A long walk by the river is the best way to unwind."
+      ],
+      "collocations": [
+        "unwind after work",
+        "a chance to unwind",
+        "time to unwind"
+      ],
+      "synonyms": ["relax", "wind down"]
+    },
+    {
+      "id": "take-up",
+      "headword": "take up",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To start doing an activity or hobby regularly.",
+      "examples": [
+        "After he retired, he took up painting.",
+        "I'd like to take up a new sport this autumn."
+      ],
+      "collocations": ["take up a hobby", "take up the guitar", "take up yoga"]
+    },
+    {
+      "id": "pastime",
+      "headword": "pastime",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "Something you do regularly for pleasure in your free time.",
+      "examples": [
+        "Fishing is his favourite pastime.",
+        "Reading used to be the national pastime on long train journeys."
+      ],
+      "collocations": [
+        "a favourite pastime",
+        "a popular pastime",
+        "a harmless pastime"
+      ],
+      "synonyms": ["hobby", "leisure activity"]
+    },
+    {
+      "id": "cast",
+      "headword": "cast",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "All the actors who perform in a play, film or television series.",
+      "examples": [
+        "The cast spent three months rehearsing before the opening night.",
+        "It's a great film, but the supporting cast is even better."
+      ],
+      "collocations": ["a strong cast", "an all-star cast", "join the cast"]
+    },
+    {
+      "id": "fancy",
+      "headword": "fancy",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["culture-leisure"],
+      "definition": "To want to do or have something; to feel like doing something.",
+      "examples": [
+        "Do you fancy going to the cinema tonight?",
+        "I don't fancy a long walk in this weather."
+      ],
+      "collocations": ["fancy a drink", "fancy going out", "fancy a change"],
+      "register": "informal"
+    },
+    {
+      "id": "keen-on",
+      "headword": "be keen on",
+      "pos": "phrase",
+      "level": "B1",
+      "topics": ["culture-leisure"],
+      "definition": "To like something a lot or to be very interested in an activity.",
+      "examples": [
+        "My sister is very keen on contemporary dance.",
+        "I'm not that keen on musicals, to be honest."
+      ],
+      "collocations": [
+        "keen on music",
+        "not particularly keen on",
+        "keen on doing"
+      ]
+    },
+    {
+      "id": "critic",
+      "headword": "critic",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "definition": "A person whose job is to give opinions on books, films, plays or music, usually in a newspaper or online.",
+      "examples": [
+        "The film critic gave the new thriller only two stars.",
+        "Critics praised the exhibition but complained about the ticket prices."
+      ],
+      "collocations": ["a film critic", "an art critic", "critics agree"]
+    },
+    {
+      "id": "spectacle",
+      "headword": "spectacle",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["culture-leisure"],
+      "sets": ["false-friends"],
+      "definition": "Something very impressive or unusual to look at, such as a large public event or a dramatic scene.",
+      "examples": [
+        "The fireworks over the harbour were an unforgettable spectacle.",
+        "The opening ceremony was a huge spectacle of light and music."
+      ],
+      "collocations": [
+        "a magnificent spectacle",
+        "make a spectacle of yourself",
+        "a public spectacle"
+      ],
+      "falseFriend": {
+        "spanish": "espectáculo (función de teatro, circo, etc.)",
+        "trap": {
+          "en": "A theatre or circus performance is a show, not a spectacle. A spectacle is something striking to look at, and make a spectacle of yourself means to behave in an embarrassing way in public.",
+          "es": "Un espectáculo de teatro o de circo es a show. Spectacle es algo muy llamativo de ver; make a spectacle of yourself es hacer el ridículo en público."
+        }
+      }
+    }
+  ]
+}

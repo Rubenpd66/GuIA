@@ -1,0 +1,243 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "assess",
+      "headword": "assess",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["education"],
+      "definition": "To judge how well a student has learnt something, or to judge the quality or level of something.",
+      "examples": [
+        "Teachers assess pupils through projects as well as exams.",
+        "The panel will assess every application before the interviews."
+      ],
+      "collocations": [
+        "assess a student's progress",
+        "continuous assessment",
+        "assess the situation"
+      ]
+    },
+    {
+      "id": "assignment",
+      "headword": "assignment",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["education"],
+      "definition": "A piece of work that a student is given to do as part of a course.",
+      "examples": [
+        "The history assignment has to be handed in by Monday morning."
+      ],
+      "collocations": [
+        "hand in an assignment",
+        "a written assignment",
+        "set an assignment"
+      ]
+    },
+    {
+      "id": "college",
+      "headword": "college",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["education"],
+      "definition": "In Britain, a place where students aged sixteen or over study for exams or practical qualifications, or one of the parts of some universities.",
+      "examples": [
+        "After school she went to college to train as an electrician."
+      ],
+      "collocations": [
+        "go to college",
+        "a sixth-form college",
+        "a further education college"
+      ],
+      "falseFriend": {
+        "spanish": "colegio (de primaria o secundaria)",
+        "trap": {
+          "en": "A college is not a primary or secondary school. Children aged five to sixteen go to school.",
+          "es": "«Colegio» es school. College es para mayores de dieciséis años: formación profesional o bachillerato, o parte de una universidad."
+        }
+      }
+    },
+    {
+      "id": "compulsory",
+      "headword": "compulsory",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["education"],
+      "definition": "Required by a rule or law, so that you have no choice.",
+      "examples": [
+        "Maths is compulsory until the age of sixteen in most schools."
+      ],
+      "collocations": [
+        "compulsory education",
+        "compulsory subject",
+        "make it compulsory"
+      ],
+      "synonyms": ["mandatory"]
+    },
+    {
+      "id": "coursework",
+      "headword": "coursework",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["education"],
+      "definition": "Work that students do during a course, which counts towards their final mark instead of, or as well as, an exam.",
+      "examples": [
+        "Forty per cent of the mark comes from coursework, and the rest from the final exam."
+      ],
+      "collocations": ["hand in coursework", "coursework deadline"]
+    },
+    {
+      "id": "curriculum",
+      "headword": "curriculum",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["education"],
+      "definition": "The subjects and topics that a school or course teaches.",
+      "examples": [
+        "Many parents want financial skills to be added to the school curriculum."
+      ],
+      "collocations": [
+        "the national curriculum",
+        "a broad curriculum",
+        "on the curriculum"
+      ],
+      "falseFriend": {
+        "spanish": "currículum (vitae)",
+        "trap": {
+          "en": "A curriculum is what is taught in a school. The document you send to an employer is a CV.",
+          "es": "El «currículum» que mandas a una empresa es a CV. Curriculum es el plan de estudios de un centro."
+        }
+      }
+    },
+    {
+      "id": "dissertation",
+      "headword": "dissertation",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["education"],
+      "definition": "A long piece of written work on a subject you have researched, usually done at the end of a degree.",
+      "examples": [
+        "She is writing her dissertation on urban transport in the nineteenth century."
+      ],
+      "collocations": [
+        "write a dissertation",
+        "a dissertation on",
+        "dissertation supervisor"
+      ],
+      "register": "formal"
+    },
+    {
+      "id": "drop-out",
+      "headword": "drop out",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["education"],
+      "definition": "To leave school, college or a course before you have finished it.",
+      "examples": [
+        "He dropped out of university after the first year because of the cost.",
+        "The number of students who drop out has fallen."
+      ],
+      "collocations": ["drop out of school", "drop out of a course"]
+    },
+    {
+      "id": "enrol",
+      "headword": "enrol",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["education"],
+      "definition": "To officially join a course, school or university, or to put someone's name on its list of students.",
+      "examples": [
+        "I've enrolled on an evening course in Italian.",
+        "Parents must enrol their children before the end of May."
+      ],
+      "collocations": ["enrol on a course", "enrol at a university", "enrol in"]
+    },
+    {
+      "id": "graduate",
+      "headword": "graduate",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["education"],
+      "definition": "To finish a university degree successfully.",
+      "examples": ["She graduated in 2019 with a degree in biology."],
+      "collocations": [
+        "graduate from university",
+        "graduate in economics",
+        "a recent graduate"
+      ]
+    },
+    {
+      "id": "lecture",
+      "headword": "lecture",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["education"],
+      "definition": "A talk given to a large group of students or the public to teach them about a subject.",
+      "examples": ["The lecture on climate policy lasted an hour and a half."],
+      "collocations": ["give a lecture", "attend a lecture", "a lecture hall"],
+      "falseFriend": {
+        "spanish": "lectura",
+        "trap": {
+          "en": "A lecture is a talk given by a speaker. The act of reading, or something you read, is reading.",
+          "es": "«Lectura» es reading. Lecture es una conferencia o una clase magistral en la universidad."
+        }
+      }
+    },
+    {
+      "id": "plagiarism",
+      "headword": "plagiarism",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["education"],
+      "definition": "The act of using another person's words or ideas as if they were your own, without saying where they came from.",
+      "examples": [
+        "The university takes plagiarism very seriously and uses software to detect it."
+      ],
+      "collocations": ["commit plagiarism", "accuse someone of plagiarism"],
+      "register": "formal"
+    },
+    {
+      "id": "revise",
+      "headword": "revise",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["education"],
+      "definition": "To study again what you have already learnt, to prepare for an exam.",
+      "examples": [
+        "I can't go out tonight; I need to revise for my chemistry test."
+      ],
+      "collocations": [
+        "revise for an exam",
+        "revision notes",
+        "revision timetable"
+      ]
+    },
+    {
+      "id": "scholarship",
+      "headword": "scholarship",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["education"],
+      "definition": "Money given to a student by an organisation to help pay for their studies.",
+      "examples": ["He won a scholarship to study engineering abroad."],
+      "collocations": [
+        "win a scholarship",
+        "apply for a scholarship",
+        "a full scholarship"
+      ]
+    },
+    {
+      "id": "tuition",
+      "headword": "tuition",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["education"],
+      "definition": "Teaching, or the money you pay for being taught, especially at a university.",
+      "examples": [
+        "Tuition fees have risen sharply over the past decade.",
+        "She gets private tuition in maths twice a week."
+      ],
+      "collocations": ["tuition fees", "private tuition"]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "under-the-weather",
+      "headword": "under the weather",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "sets": ["idioms"],
+      "definition": "Slightly ill or not feeling well, but not seriously sick.",
+      "examples": [
+        "I'm feeling a bit under the weather, so I'll skip the party tonight.",
+        "She looked under the weather after the long flight."
+      ],
+      "register": "informal"
+    },
+    {
+      "id": "once-in-a-blue-moon",
+      "headword": "once in a blue moon",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["idioms"],
+      "definition": "Very rarely; almost never.",
+      "examples": [
+        "My brother lives abroad, so we only meet once in a blue moon.",
+        "He cooks once in a blue moon, usually when he has guests."
+      ],
+      "synonyms": ["very rarely"]
+    },
+    {
+      "id": "break-the-ice",
+      "headword": "break the ice",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["relationships"],
+      "sets": ["idioms"],
+      "definition": "To say or do something that makes people feel more relaxed when they meet for the first time.",
+      "examples": [
+        "The trainer began with a quick quiz to break the ice.",
+        "A joke about the weather is often enough to break the ice."
+      ],
+      "collocations": ["an icebreaker", "help to break the ice"]
+    },
+    {
+      "id": "hit-the-nail-on-the-head",
+      "headword": "hit the nail on the head",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["idioms"],
+      "definition": "To describe a situation or a problem in exactly the right way.",
+      "examples": [
+        "You hit the nail on the head when you said the team lacks leadership.",
+        "Her short comment hit the nail on the head."
+      ]
+    },
+    {
+      "id": "the-last-straw",
+      "headword": "the last straw",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["idioms"],
+      "definition": "The final problem in a series of annoying events, after which you cannot accept the situation any longer.",
+      "examples": [
+        "When the train was cancelled again, that was the last straw and I bought a car.",
+        "Losing my keys was the last straw after such a terrible morning."
+      ],
+      "collocations": ["be the last straw", "the final straw"]
+    },
+    {
+      "id": "bite-the-bullet",
+      "headword": "bite the bullet",
+      "pos": "idiom",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["idioms"],
+      "definition": "To decide to do something unpleasant or difficult that you have been avoiding.",
+      "examples": [
+        "I finally bit the bullet and booked an appointment with the dentist.",
+        "The company will have to bite the bullet and cut some jobs."
+      ]
+    },
+    {
+      "id": "back-to-square-one",
+      "headword": "back to square one",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["idioms"],
+      "definition": "Back at the very beginning, because earlier efforts have failed and you must start again.",
+      "examples": [
+        "The deal collapsed, so we're back to square one.",
+        "After the software crashed, I was back to square one with my essay."
+      ],
+      "collocations": ["be back to square one", "go back to square one"],
+      "register": "informal"
+    },
+    {
+      "id": "call-it-a-day",
+      "headword": "call it a day",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["work"],
+      "sets": ["idioms"],
+      "definition": "To stop working, or stop an activity, for the rest of the day.",
+      "examples": [
+        "We've been decorating since nine, so let's call it a day.",
+        "It's nearly six; shall we call it a day?"
+      ],
+      "register": "informal"
+    },
+    {
+      "id": "spill-the-beans",
+      "headword": "spill the beans",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["relationships"],
+      "sets": ["idioms"],
+      "definition": "To tell someone a secret by mistake or too early.",
+      "examples": [
+        "Don't spill the beans about the surprise party!",
+        "Someone spilled the beans, and now everyone knows about the wedding."
+      ],
+      "register": "informal"
+    },
+    {
+      "id": "a-blessing-in-disguise",
+      "headword": "a blessing in disguise",
+      "pos": "idiom",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["idioms"],
+      "definition": "Something that seems bad at first but later turns out to be good.",
+      "examples": [
+        "Missing that flight was a blessing in disguise, as it crashed into a storm later.",
+        "Losing the job turned out to be a blessing in disguise; she started her own business."
+      ],
+      "collocations": ["turn out to be a blessing in disguise"]
+    },
+    {
+      "id": "not-my-cup-of-tea",
+      "headword": "not my cup of tea",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["culture-leisure"],
+      "sets": ["idioms"],
+      "definition": "Not something you particularly like or enjoy.",
+      "examples": [
+        "Horror films are not really my cup of tea.",
+        "Camping is more my sister's cup of tea than mine."
+      ],
+      "register": "informal"
+    },
+    {
+      "id": "get-the-hang-of",
+      "headword": "get the hang of",
+      "pos": "idiom",
+      "level": "B2",
+      "topics": ["education"],
+      "sets": ["idioms"],
+      "definition": "To learn how to do something, especially something that was confusing at first.",
+      "examples": [
+        "It took me a week to get the hang of the new software.",
+        "Once you get the hang of it, parking is easy."
+      ],
+      "collocations": ["get the hang of it"],
+      "register": "informal"
+    },
+    {
+      "id": "on-the-ball",
+      "headword": "on the ball",
+      "pos": "idiom",
+      "level": "C1",
+      "topics": ["work"],
+      "sets": ["idioms"],
+      "definition": "Quick to understand what is happening and to react well.",
+      "examples": [
+        "Our new assistant is really on the ball; she spotted the error at once.",
+        "You need to be on the ball in this job because things change quickly."
+      ],
+      "collocations": ["be on the ball", "stay on the ball"],
+      "register": "informal"
+    },
+    {
+      "id": "a-storm-in-a-teacup",
+      "headword": "a storm in a teacup",
+      "pos": "idiom",
+      "level": "C1",
+      "topics": ["media"],
+      "sets": ["idioms"],
+      "definition": "A lot of fuss and excitement about something unimportant.",
+      "examples": [
+        "The newspapers called it a scandal, but it was just a storm in a teacup.",
+        "The argument over the office kettle was a storm in a teacup."
+      ]
+    }
+  ]
+}

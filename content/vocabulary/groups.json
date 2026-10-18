@@ -3,22 +3,250 @@
   "items": [
     {
       "slug": "work",
-      "title": { "en": "Work", "es": "Trabajo" },
+      "title": {
+        "en": "Work",
+        "es": "Trabajo"
+      },
       "summary": {
         "en": "Jobs, workplaces and careers: one of the topics that appears most often in every part of the exam.",
         "es": "Empleos, lugares de trabajo y trayectoria profesional: uno de los temas más frecuentes en todas las partes del examen."
       },
       "references": [
-        { "book": "evu", "unit": 16 },
-        { "book": "evu", "unit": 17 }
+        {
+          "book": "evu",
+          "unit": 16
+        },
+        {
+          "book": "evu",
+          "unit": 17
+        }
       ]
     },
     {
       "slug": "false-friends",
-      "title": { "en": "False friends", "es": "Falsos amigos" },
+      "title": {
+        "en": "False friends",
+        "es": "Falsos amigos"
+      },
       "summary": {
         "en": "Words that look like Spanish words but mean something different. They are a favourite trap in the vocabulary questions.",
         "es": "Palabras que se parecen al español pero significan otra cosa. Son una trampa habitual en las preguntas de vocabulario."
+      },
+      "references": []
+    },
+    {
+      "slug": "education",
+      "title": {
+        "en": "Education",
+        "es": "Educación"
+      },
+      "summary": {
+        "en": "Schools, universities, courses and exams: from enrolling to graduating.",
+        "es": "Colegios, universidades, cursos y exámenes: de la matrícula a la graduación."
+      },
+      "references": []
+    },
+    {
+      "slug": "technology",
+      "title": {
+        "en": "Technology",
+        "es": "Tecnología"
+      },
+      "summary": {
+        "en": "Devices, the internet and how technology changes work and daily life.",
+        "es": "Dispositivos, internet y cómo la tecnología cambia el trabajo y la vida diaria."
+      },
+      "references": []
+    },
+    {
+      "slug": "environment",
+      "title": {
+        "en": "Environment",
+        "es": "Medio ambiente"
+      },
+      "summary": {
+        "en": "Climate, pollution, energy and wildlife: a frequent topic in the opinion tasks.",
+        "es": "Clima, contaminación, energía y naturaleza: un tema frecuente en las tareas de opinión."
+      },
+      "references": []
+    },
+    {
+      "slug": "health-sport",
+      "title": {
+        "en": "Health and sport",
+        "es": "Salud y deporte"
+      },
+      "summary": {
+        "en": "Illness, treatment, fitness and sport, at the doctor's and at the gym.",
+        "es": "Enfermedades, tratamientos, forma física y deporte, en el médico y en el gimnasio."
+      },
+      "references": []
+    },
+    {
+      "slug": "travel",
+      "title": {
+        "en": "Travel",
+        "es": "Viajes"
+      },
+      "summary": {
+        "en": "Transport, holidays and accommodation, from booking to coming home.",
+        "es": "Transporte, vacaciones y alojamiento, de la reserva a la vuelta a casa."
+      },
+      "references": []
+    },
+    {
+      "slug": "city",
+      "title": {
+        "en": "City life",
+        "es": "La ciudad"
+      },
+      "summary": {
+        "en": "Neighbourhoods, housing, services and getting around town.",
+        "es": "Barrios, vivienda, servicios y cómo moverse por la ciudad."
+      },
+      "references": []
+    },
+    {
+      "slug": "culture-leisure",
+      "title": {
+        "en": "Culture and leisure",
+        "es": "Cultura y ocio"
+      },
+      "summary": {
+        "en": "Films, music, books, exhibitions and free time.",
+        "es": "Cine, música, libros, exposiciones y tiempo libre."
+      },
+      "references": []
+    },
+    {
+      "slug": "relationships",
+      "title": {
+        "en": "Relationships",
+        "es": "Relaciones personales"
+      },
+      "summary": {
+        "en": "Family, friends, partners and colleagues: how people get on and fall out.",
+        "es": "Familia, amigos, pareja y compañeros: cómo nos llevamos y cómo discutimos."
+      },
+      "references": []
+    },
+    {
+      "slug": "shopping-consumption",
+      "title": {
+        "en": "Shopping and consumption",
+        "es": "Compras y consumo"
+      },
+      "summary": {
+        "en": "Shops, money, advertising and the way we buy.",
+        "es": "Tiendas, dinero, publicidad y nuestra forma de comprar."
+      },
+      "references": []
+    },
+    {
+      "slug": "media",
+      "title": {
+        "en": "Media",
+        "es": "Medios de comunicación"
+      },
+      "summary": {
+        "en": "News, television, social media and the press.",
+        "es": "Noticias, televisión, redes sociales y prensa."
+      },
+      "references": []
+    },
+    {
+      "slug": "collocations",
+      "title": {
+        "en": "Collocations",
+        "es": "Combinaciones de palabras"
+      },
+      "summary": {
+        "en": "Words that naturally go together. Getting them right is one of the clearest signs of a C level.",
+        "es": "Palabras que suelen ir juntas. Acertarlas es una de las señales más claras de un nivel C."
+      },
+      "references": []
+    },
+    {
+      "slug": "vague-language",
+      "title": {
+        "en": "Vague language",
+        "es": "Lenguaje aproximativo"
+      },
+      "summary": {
+        "en": "Ways to be approximate and natural in speech: sort of, around, and so on.",
+        "es": "Formas de ser aproximado y natural al hablar: sort of, around, and so on."
+      },
+      "references": []
+    },
+    {
+      "slug": "formal-informal",
+      "title": {
+        "en": "Formal and informal",
+        "es": "Formal e informal"
+      },
+      "summary": {
+        "en": "Pairs of words for the same idea in different registers, key for the two emails of Writing part 4.",
+        "es": "Parejas de palabras para la misma idea en registros distintos, clave para los dos emails de Writing 4."
+      },
+      "references": []
+    },
+    {
+      "slug": "idioms",
+      "title": {
+        "en": "Idioms",
+        "es": "Expresiones idiomáticas"
+      },
+      "summary": {
+        "en": "Common idioms that British speakers still use today, with their meaning and register.",
+        "es": "Expresiones idiomáticas que los británicos siguen usando hoy, con su significado y registro."
+      },
+      "references": []
+    },
+    {
+      "slug": "nuance",
+      "title": {
+        "en": "Shades of meaning",
+        "es": "Matices de significado"
+      },
+      "summary": {
+        "en": "Near-synonyms that are not interchangeable: the difference between a B2 and a C1 answer.",
+        "es": "Casi sinónimos que no son intercambiables: la diferencia entre una respuesta B2 y una C1."
+      },
+      "references": []
+    },
+    {
+      "slug": "phrasal-verbs",
+      "title": {
+        "en": "Phrasal verbs",
+        "es": "Phrasal verbs"
+      },
+      "summary": {
+        "en": "Everyday phrasal verbs by meaning, and their more formal one-word equivalents.",
+        "es": "Phrasal verbs cotidianos por significado, y sus equivalentes formales de una palabra."
+      },
+      "references": []
+    },
+    {
+      "slug": "word-formation",
+      "title": {
+        "en": "Word formation",
+        "es": "Formación de palabras"
+      },
+      "summary": {
+        "en": "Prefixes and suffixes to build nouns, adjectives and opposites from one root.",
+        "es": "Prefijos y sufijos para formar sustantivos, adjetivos y contrarios a partir de una raíz."
+      },
+      "references": []
+    },
+    {
+      "slug": "linking-words",
+      "title": {
+        "en": "Linking words",
+        "es": "Conectores"
+      },
+      "summary": {
+        "en": "Words that link ideas in writing and speech, by function and register.",
+        "es": "Palabras que enlazan ideas al escribir y al hablar, por función y registro."
       },
       "references": []
     }

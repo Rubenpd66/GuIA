@@ -1,0 +1,195 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "decision",
+      "headword": "decision",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["collocations"],
+      "definition": "A choice you make after thinking about different possibilities. In English you make a decision; you do not take or do one in the same way.",
+      "examples": [
+        "It was a difficult decision, but I think we made the right one.",
+        "The committee will announce its decision on Monday."
+      ],
+      "collocations": [
+        "make a decision",
+        "reach a decision",
+        "a snap decision",
+        "put off a decision"
+      ]
+    },
+    {
+      "id": "research",
+      "headword": "research",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["collocations"],
+      "definition": "Careful study of a subject to discover new facts. It is uncountable, so it has no plural and no a/an.",
+      "examples": [
+        "She is doing research into sleep and memory.",
+        "The research suggests that short breaks improve concentration."
+      ],
+      "collocations": [
+        "do research",
+        "carry out research",
+        "conduct research",
+        "recent research shows"
+      ]
+    },
+    {
+      "id": "traffic",
+      "headword": "traffic",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["collocations"],
+      "definition": "The vehicles moving along a road. We describe the amount with heavy or light, not strong or big.",
+      "examples": [
+        "We were late because of the heavy traffic on the ring road.",
+        "The traffic is usually light on Sunday mornings."
+      ],
+      "collocations": [
+        "heavy traffic",
+        "light traffic",
+        "get stuck in traffic",
+        "a traffic jam"
+      ]
+    },
+    {
+      "id": "risk",
+      "headword": "risk",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["collocations"],
+      "definition": "The possibility that something bad will happen. Verbs that go with it are take, run and pose.",
+      "examples": [
+        "Investors who take big risks can lose all their money.",
+        "Smoking poses a serious risk to your health."
+      ],
+      "collocations": [
+        "take a risk",
+        "run the risk of",
+        "pose a risk",
+        "at risk"
+      ]
+    },
+    {
+      "id": "attention",
+      "headword": "attention",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["collocations"],
+      "definition": "Careful interest in someone or something. You pay attention, not do or put attention.",
+      "examples": [
+        "Please pay attention to the instructions on the screen.",
+        "The advert caught my attention straight away."
+      ],
+      "collocations": [
+        "pay attention",
+        "attract attention",
+        "catch someone's attention",
+        "draw attention to"
+      ]
+    },
+    {
+      "id": "effort",
+      "headword": "effort",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["collocations"],
+      "definition": "Physical or mental energy that you use to do something difficult.",
+      "examples": [
+        "He made a real effort to arrive on time all week.",
+        "It took a lot of effort to learn the vocabulary for the exam."
+      ],
+      "collocations": [
+        "make an effort",
+        "put effort into",
+        "a great deal of effort",
+        "a joint effort"
+      ]
+    },
+    {
+      "id": "mistake",
+      "headword": "mistake",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["collocations"],
+      "definition": "Something you do or think that is wrong. You make a mistake; you do not do one.",
+      "examples": [
+        "I made a silly mistake when I filled in the form.",
+        "It would be a big mistake to ignore the warning."
+      ],
+      "collocations": [
+        "make a mistake",
+        "a common mistake",
+        "a serious mistake",
+        "learn from your mistakes"
+      ]
+    },
+    {
+      "id": "progress",
+      "headword": "progress",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["collocations"],
+      "definition": "Development towards a better or more advanced state. It is uncountable: you make progress, never makes progresses.",
+      "examples": [
+        "The students have made steady progress this term.",
+        "There has been very little progress in the talks."
+      ],
+      "collocations": [
+        "make progress",
+        "steady progress",
+        "track your progress",
+        "in progress"
+      ]
+    },
+    {
+      "id": "appointment",
+      "headword": "appointment",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["collocations"],
+      "definition": "An arranged time to see someone, especially a doctor, dentist or other professional.",
+      "examples": [
+        "I've made an appointment to see the dentist on Thursday.",
+        "Sorry, I have to cancel my appointment because of a meeting."
+      ],
+      "collocations": [
+        "make an appointment",
+        "keep an appointment",
+        "cancel an appointment",
+        "by appointment only"
+      ]
+    },
+    {
+      "id": "profit",
+      "headword": "profit",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["collocations"],
+      "definition": "Money that a business earns after paying all its costs.",
+      "examples": [
+        "The bakery made a small profit in its first year.",
+        "The company reported a sharp fall in profits."
+      ],
+      "collocations": [
+        "make a profit",
+        "turn a profit",
+        "a healthy profit",
+        "profit margin"
+      ]
+    }
+  ]
+}

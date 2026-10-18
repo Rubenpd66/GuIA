@@ -1,0 +1,209 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "biodegradable",
+      "headword": "biodegradable",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["environment"],
+      "definition": "Able to break down naturally in the soil or water without harming the environment.",
+      "examples": [
+        "The café has replaced plastic cups with biodegradable ones."
+      ],
+      "collocations": ["biodegradable packaging", "biodegradable waste"]
+    },
+    {
+      "id": "carbon-footprint",
+      "headword": "carbon footprint",
+      "pos": "phrase",
+      "level": "B2",
+      "topics": ["environment"],
+      "definition": "The amount of carbon dioxide that a person, company or activity produces.",
+      "examples": [
+        "Cycling to work is one way to reduce your carbon footprint."
+      ],
+      "collocations": [
+        "reduce your carbon footprint",
+        "a large carbon footprint"
+      ]
+    },
+    {
+      "id": "deforestation",
+      "headword": "deforestation",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["environment"],
+      "definition": "The cutting down of large areas of forest, so that the land can be used for something else.",
+      "examples": [
+        "Deforestation in the Amazon destroys the homes of thousands of species."
+      ],
+      "collocations": [
+        "tackle deforestation",
+        "rapid deforestation",
+        "cause deforestation"
+      ]
+    },
+    {
+      "id": "drought",
+      "headword": "drought",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["environment"],
+      "definition": "A long period with very little or no rain, when there is not enough water.",
+      "examples": ["The summer drought left many reservoirs almost empty."],
+      "collocations": [
+        "suffer a drought",
+        "a severe drought",
+        "drought conditions"
+      ]
+    },
+    {
+      "id": "emissions",
+      "headword": "emissions",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["environment"],
+      "definition": "Gases or other substances that are sent into the air, especially by vehicles and factories.",
+      "examples": ["The city wants to cut emissions from traffic by a third."],
+      "collocations": [
+        "reduce emissions",
+        "carbon emissions",
+        "emissions targets"
+      ]
+    },
+    {
+      "id": "endangered",
+      "headword": "endangered",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["environment"],
+      "definition": "Of an animal or plant, at risk of disappearing completely from the wild.",
+      "examples": [
+        "The Iberian lynx was once one of the most endangered cats in the world."
+      ],
+      "collocations": ["an endangered species", "critically endangered"]
+    },
+    {
+      "id": "global-warming",
+      "headword": "global warming",
+      "pos": "phrase",
+      "level": "B1",
+      "topics": ["environment"],
+      "definition": "The slow rise in the temperature of the Earth, caused mainly by pollution from human activity.",
+      "examples": [
+        "Scientists link the melting of glaciers to global warming."
+      ],
+      "collocations": ["fight global warming", "the effects of global warming"]
+    },
+    {
+      "id": "habitat",
+      "headword": "habitat",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["environment"],
+      "definition": "The natural place where an animal or plant normally lives.",
+      "examples": [
+        "New roads have destroyed the natural habitat of many birds."
+      ],
+      "collocations": ["a natural habitat", "protect habitats", "habitat loss"]
+    },
+    {
+      "id": "landfill",
+      "headword": "landfill",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["environment"],
+      "definition": "A large area where rubbish is buried under the ground, or the method of getting rid of rubbish this way.",
+      "examples": ["Most of our household waste still ends up in landfill."],
+      "collocations": [
+        "a landfill site",
+        "end up in landfill",
+        "reduce landfill"
+      ]
+    },
+    {
+      "id": "organic",
+      "headword": "organic",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["environment"],
+      "definition": "Produced without artificial chemicals, such as fertilisers or pesticides.",
+      "examples": ["We buy organic vegetables from a farm near our village."],
+      "collocations": ["organic food", "organic farming", "organic produce"],
+      "falseFriend": {
+        "spanish": "ecológico (alimentos, agricultura)",
+        "trap": {
+          "en": "Ecological means connected with the relationship between living things and their environment. Food grown without chemicals is organic.",
+          "es": "Un «tomate ecológico» es an organic tomato. Ecological se usa para hablar del equilibrio entre seres vivos y su entorno, no de comida."
+        }
+      }
+    },
+    {
+      "id": "pollution",
+      "headword": "pollution",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["environment"],
+      "definition": "Harmful substances in the air, water or soil that make them dirty or dangerous.",
+      "examples": ["Air pollution is a serious problem in many large cities."],
+      "collocations": ["air pollution", "noise pollution", "cause pollution"]
+    },
+    {
+      "id": "recycle",
+      "headword": "recycle",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["environment"],
+      "definition": "To treat used materials, such as paper or glass, so that they can be used again.",
+      "examples": ["We recycle all our glass bottles and cardboard."],
+      "collocations": ["recycle paper", "a recycling bin", "recycled plastic"]
+    },
+    {
+      "id": "renewable",
+      "headword": "renewable",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["environment"],
+      "definition": "Of energy or resources, able to be replaced naturally, so they never run out.",
+      "examples": [
+        "Wind and solar are the cheapest forms of renewable energy."
+      ],
+      "collocations": [
+        "renewable energy",
+        "renewable sources",
+        "renewable resources"
+      ]
+    },
+    {
+      "id": "sustainable",
+      "headword": "sustainable",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["environment"],
+      "definition": "Able to continue for a long time without damaging the environment or using up natural resources.",
+      "examples": [
+        "The company wants to build more sustainable homes using local timber."
+      ],
+      "collocations": [
+        "sustainable development",
+        "sustainable tourism",
+        "a sustainable way of living"
+      ]
+    },
+    {
+      "id": "wildlife",
+      "headword": "wildlife",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["environment"],
+      "definition": "Animals and plants that live naturally in the wild, not kept by people.",
+      "examples": ["The national park is famous for its wildlife."],
+      "collocations": [
+        "protect wildlife",
+        "a wildlife reserve",
+        "wildlife documentary"
+      ]
+    }
+  ]
+}

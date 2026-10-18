@@ -1,0 +1,189 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "purchase",
+      "headword": "purchase",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "sets": ["formal-informal"],
+      "definition": "To buy something, used especially in official writing, notices and business emails.",
+      "examples": [
+        "Customers who purchase two items will receive a discount.",
+        "Please keep your receipt as proof of purchase."
+      ],
+      "collocations": [
+        "purchase a ticket",
+        "proof of purchase",
+        "an online purchase"
+      ],
+      "synonyms": ["buy"],
+      "register": "formal"
+    },
+    {
+      "id": "obtain",
+      "headword": "obtain",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["formal-informal"],
+      "definition": "To get something, especially by asking for it or making an effort.",
+      "examples": [
+        "You must obtain permission before entering the laboratory.",
+        "Further information can be obtained from the main office."
+      ],
+      "collocations": [
+        "obtain permission",
+        "obtain a visa",
+        "obtain information"
+      ],
+      "synonyms": ["get"],
+      "register": "formal"
+    },
+    {
+      "id": "require",
+      "headword": "require",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["formal-informal"],
+      "definition": "To need something, or to make it necessary by rule or law.",
+      "examples": [
+        "This position requires at least two years of experience.",
+        "All visitors are required to sign in at reception."
+      ],
+      "collocations": ["be required to do", "require attention", "if required"],
+      "synonyms": ["need"],
+      "register": "formal"
+    },
+    {
+      "id": "commence",
+      "headword": "commence",
+      "pos": "verb",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["formal-informal"],
+      "definition": "To begin, used mainly in official announcements, contracts and ceremonies.",
+      "examples": [
+        "The ceremony will commence at noon.",
+        "Building work is due to commence in March."
+      ],
+      "collocations": ["commence work", "shall commence on"],
+      "synonyms": ["start", "begin"],
+      "register": "formal"
+    },
+    {
+      "id": "sufficient",
+      "headword": "sufficient",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["formal-informal"],
+      "definition": "As much as is needed for a particular purpose.",
+      "examples": [
+        "There is sufficient evidence to support the claim.",
+        "Ten minutes should be sufficient to complete the form."
+      ],
+      "collocations": [
+        "sufficient funds",
+        "sufficient time",
+        "more than sufficient"
+      ],
+      "synonyms": ["enough"],
+      "register": "formal"
+    },
+    {
+      "id": "reside",
+      "headword": "reside",
+      "pos": "verb",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["formal-informal"],
+      "definition": "To have your home in a particular place, used in official forms and documents.",
+      "examples": [
+        "Applicants must reside in the city for at least a year.",
+        "The family currently resides in Edinburgh."
+      ],
+      "collocations": [
+        "reside in",
+        "country of residence",
+        "permanent residence"
+      ],
+      "synonyms": ["live"],
+      "register": "formal"
+    },
+    {
+      "id": "terminate",
+      "headword": "terminate",
+      "pos": "verb",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["formal-informal"],
+      "definition": "To bring something to an end, especially a contract, an agreement or a service.",
+      "examples": [
+        "The landlord may terminate the agreement with one month's notice.",
+        "Your account will be terminated if you break the rules."
+      ],
+      "collocations": [
+        "terminate a contract",
+        "terminate an agreement",
+        "terminate employment"
+      ],
+      "synonyms": ["end", "cancel"],
+      "register": "formal"
+    },
+    {
+      "id": "enquire",
+      "headword": "enquire",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["formal-informal"],
+      "definition": "To ask for information about something, especially in writing or in a polite, official way.",
+      "examples": [
+        "I am writing to enquire about the evening courses.",
+        "Several customers have enquired whether the shop will open on Sundays."
+      ],
+      "collocations": ["enquire about", "enquire whether", "make an enquiry"],
+      "synonyms": ["ask"],
+      "register": "formal"
+    },
+    {
+      "id": "attempt",
+      "headword": "attempt",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["formal-informal"],
+      "definition": "To try to do something, usually something difficult.",
+      "examples": [
+        "Do not attempt to repair the machine yourself.",
+        "She attempted to open the window, but it was stuck."
+      ],
+      "collocations": ["attempt to do", "a failed attempt", "make an attempt"],
+      "synonyms": ["try"],
+      "register": "formal"
+    },
+    {
+      "id": "additional",
+      "headword": "additional",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["formal-informal"],
+      "definition": "Added to what already exists; more than what you have or expected.",
+      "examples": [
+        "An additional charge applies for luggage over twenty kilos.",
+        "We would be grateful for any additional information you can provide."
+      ],
+      "collocations": [
+        "additional information",
+        "an additional fee",
+        "additional support"
+      ],
+      "synonyms": ["extra"],
+      "register": "formal"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "however",
+      "headword": "however",
+      "pos": "adverb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Introduces a statement that contrasts with what was said before. It usually starts a new sentence and is followed by a comma.",
+      "examples": [
+        "The hotel was cheap. However, the rooms were very small.",
+        "The route is longer; however, it is much more scenic."
+      ],
+      "synonyms": ["but", "yet"],
+      "register": "neutral"
+    },
+    {
+      "id": "although",
+      "headword": "although",
+      "pos": "conjunction",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Introduces a clause that contrasts with the main clause. Do not use but in the same sentence.",
+      "examples": [
+        "Although it was raining, we walked to the station.",
+        "I enjoyed the film, although the ending was predictable."
+      ],
+      "synonyms": ["though", "even though"],
+      "register": "neutral"
+    },
+    {
+      "id": "whereas",
+      "headword": "whereas",
+      "pos": "conjunction",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Compares two things or people by showing how they are different.",
+      "examples": [
+        "My sister loves city life, whereas I prefer the countryside.",
+        "Revenue grew in Spain, whereas it fell in Italy."
+      ],
+      "synonyms": ["while"],
+      "register": "formal"
+    },
+    {
+      "id": "nevertheless",
+      "headword": "nevertheless",
+      "pos": "adverb",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Introduces a point that is true in spite of what has just been said; stronger and more formal than however.",
+      "examples": [
+        "The results were disappointing. Nevertheless, the team has not given up.",
+        "The task is difficult; nevertheless, it can be done."
+      ],
+      "synonyms": ["nonetheless", "even so"],
+      "register": "formal"
+    },
+    {
+      "id": "moreover",
+      "headword": "moreover",
+      "pos": "adverb",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Adds a further point that supports or strengthens the previous one; common in essays and reports.",
+      "examples": [
+        "The scheme is expensive. Moreover, it has not reduced traffic.",
+        "The flat is close to work; moreover, the rent is reasonable."
+      ],
+      "synonyms": ["furthermore", "in addition"],
+      "register": "formal"
+    },
+    {
+      "id": "on-the-other-hand",
+      "headword": "on the other hand",
+      "pos": "phrase",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Introduces a second, opposite point of view or fact when you are comparing two sides of something.",
+      "examples": [
+        "Living in the centre is convenient. On the other hand, it can be noisy.",
+        "Flying is faster; on the other hand, the train is greener."
+      ],
+      "synonyms": ["by contrast"],
+      "register": "neutral"
+    },
+    {
+      "id": "therefore",
+      "headword": "therefore",
+      "pos": "adverb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Introduces a result or conclusion that follows logically from the previous statement.",
+      "examples": [
+        "The road is closed; therefore, buses are being diverted.",
+        "Sales fell last year. We have therefore decided to cut costs."
+      ],
+      "synonyms": ["consequently", "so"],
+      "register": "formal"
+    },
+    {
+      "id": "as-a-result",
+      "headword": "as a result",
+      "pos": "phrase",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Shows that what follows happened because of what has just been mentioned.",
+      "examples": [
+        "She trained hard all summer. As a result, she won the regional title.",
+        "The shop lost a lot of customers and, as a result, had to close."
+      ],
+      "collocations": ["as a direct result of"],
+      "register": "neutral"
+    },
+    {
+      "id": "besides",
+      "headword": "besides",
+      "pos": "adverb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Adds another reason, often a stronger one, in informal speech. Do not confuse it with beside, which means next to.",
+      "examples": [
+        "I don't fancy going out; besides, I have an early start tomorrow.",
+        "It's too expensive, and besides, we don't really need it."
+      ],
+      "synonyms": ["anyway"],
+      "register": "informal"
+    },
+    {
+      "id": "whats-more",
+      "headword": "what's more",
+      "pos": "phrase",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Adds a further, often surprising or stronger, point in speech or informal writing.",
+      "examples": [
+        "The hotel was spotless and, what's more, it was cheap.",
+        "He passed the test first time. What's more, he got full marks."
+      ],
+      "synonyms": ["on top of that"],
+      "register": "informal"
+    },
+    {
+      "id": "mind-you",
+      "headword": "mind you",
+      "pos": "phrase",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Adds a comment that slightly weakens or qualifies what you have just said; typical of casual British speech.",
+      "examples": [
+        "The food was awful. Mind you, we did arrive very late.",
+        "It's a lovely flat. Mind you, I wouldn't want to climb those stairs daily."
+      ],
+      "register": "informal"
+    },
+    {
+      "id": "provided-that",
+      "headword": "provided that",
+      "pos": "conjunction",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Introduces a condition that must be met for the main statement to be true; stronger than if.",
+      "examples": [
+        "You can borrow the car, provided that you bring it back by six.",
+        "The scheme will go ahead provided that enough people sign up."
+      ],
+      "synonyms": ["as long as", "on condition that"],
+      "register": "formal"
+    },
+    {
+      "id": "despite",
+      "headword": "despite",
+      "pos": "preposition",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["linking-words"],
+      "definition": "Shows that something happened although there was an obstacle. It is followed by a noun or an -ing form, never directly by a clause, and without of.",
+      "examples": [
+        "Despite the heavy traffic, we arrived on time.",
+        "He kept working despite feeling ill."
+      ],
+      "synonyms": ["in spite of"],
+      "register": "neutral"
+    }
+  ]
+}

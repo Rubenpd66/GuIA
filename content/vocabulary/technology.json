@@ -1,0 +1,203 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "automate",
+      "headword": "automate",
+      "pos": "verb",
+      "level": "C1",
+      "topics": ["technology"],
+      "definition": "To make a process work by machine or computer, with little or no human control.",
+      "examples": ["The bank has automated most of its customer enquiries."],
+      "collocations": [
+        "automate a process",
+        "automate tasks",
+        "fully automated"
+      ]
+    },
+    {
+      "id": "back-up",
+      "headword": "back up",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["technology"],
+      "definition": "To make a spare copy of computer files so that you do not lose them.",
+      "examples": [
+        "Remember to back up your photos before you update the phone.",
+        "I lost a whole essay because I hadn't backed it up."
+      ],
+      "collocations": ["back up your files", "back up regularly"],
+      "sets": ["phrasal-verbs"]
+    },
+    {
+      "id": "breakthrough",
+      "headword": "breakthrough",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["technology"],
+      "definition": "An important discovery or development that solves a problem or allows great progress.",
+      "examples": ["Researchers announced a breakthrough in battery design."],
+      "collocations": [
+        "make a breakthrough",
+        "a major breakthrough",
+        "a scientific breakthrough"
+      ]
+    },
+    {
+      "id": "cutting-edge",
+      "headword": "cutting-edge",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["technology"],
+      "definition": "Using the newest and most advanced ideas or methods.",
+      "examples": [
+        "The hospital uses cutting-edge technology to scan patients."
+      ],
+      "collocations": ["cutting-edge technology", "cutting-edge research"],
+      "synonyms": ["state-of-the-art"]
+    },
+    {
+      "id": "device",
+      "headword": "device",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["technology"],
+      "definition": "A small machine or piece of equipment made for a particular purpose, such as a phone or tablet.",
+      "examples": ["Most people now read the news on a mobile device."],
+      "collocations": [
+        "a mobile device",
+        "an electronic device",
+        "switch off your devices"
+      ]
+    },
+    {
+      "id": "gadget",
+      "headword": "gadget",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["technology"],
+      "definition": "A small, clever tool or machine that does something useful or entertaining.",
+      "examples": [
+        "My brother loves buying every new gadget as soon as it comes out."
+      ],
+      "collocations": ["a clever gadget", "kitchen gadgets"],
+      "register": "informal"
+    },
+    {
+      "id": "hack",
+      "headword": "hack",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["technology"],
+      "definition": "To get into someone else's computer system or account without permission.",
+      "examples": [
+        "Someone hacked her email account and sent spam to all her contacts."
+      ],
+      "collocations": ["hack into a system", "get hacked", "a hacker"]
+    },
+    {
+      "id": "install",
+      "headword": "install",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["technology"],
+      "definition": "To put a program on a computer so that it is ready to use, or to fit a piece of equipment.",
+      "examples": [
+        "You need to install the latest version before you can log in."
+      ],
+      "collocations": ["install software", "install an app", "install a system"]
+    },
+    {
+      "id": "log-in",
+      "headword": "log in",
+      "pos": "phrasal-verb",
+      "level": "B1",
+      "topics": ["technology"],
+      "definition": "To enter a username and password to start using a website or computer system.",
+      "examples": [
+        "I can't log in because I've forgotten my password.",
+        "Please log in to your account to see your orders."
+      ],
+      "collocations": ["log in to an account", "log out", "login details"],
+      "synonyms": ["sign in"]
+    },
+    {
+      "id": "malfunction",
+      "headword": "malfunction",
+      "pos": "verb",
+      "level": "C1",
+      "topics": ["technology"],
+      "definition": "To stop working correctly.",
+      "examples": [
+        "The ticket machine malfunctioned, so we had to queue at the desk."
+      ],
+      "collocations": ["a malfunctioning device", "a technical malfunction"],
+      "register": "formal"
+    },
+    {
+      "id": "obsolete",
+      "headword": "obsolete",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["technology"],
+      "definition": "No longer used because something newer and better has replaced it.",
+      "examples": ["Many shops fear that cash will soon become obsolete."],
+      "collocations": [
+        "become obsolete",
+        "technically obsolete",
+        "render obsolete"
+      ],
+      "synonyms": ["out of date"]
+    },
+    {
+      "id": "privacy",
+      "headword": "privacy",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["technology"],
+      "definition": "The right to keep your personal information and activities secret from other people.",
+      "examples": [
+        "Many users worry about their privacy when they share photos online."
+      ],
+      "collocations": [
+        "protect your privacy",
+        "invade someone's privacy",
+        "a privacy setting"
+      ]
+    },
+    {
+      "id": "software",
+      "headword": "software",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["technology"],
+      "definition": "The programs that a computer uses to do different jobs.",
+      "examples": [
+        "The company has developed new software for booking appointments."
+      ],
+      "collocations": ["install software", "software update", "design software"]
+    },
+    {
+      "id": "upload",
+      "headword": "upload",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["technology"],
+      "definition": "To send a file from your own computer or phone to the internet or another system.",
+      "examples": ["She uploaded the holiday photos to a shared album."],
+      "collocations": ["upload a file", "upload a video", "upload to the cloud"]
+    },
+    {
+      "id": "user-friendly",
+      "headword": "user-friendly",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["technology"],
+      "definition": "Easy to understand and to use, even for someone with little experience.",
+      "examples": [
+        "The new banking app is much more user-friendly than the old website."
+      ],
+      "collocations": ["a user-friendly interface", "user-friendly design"]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "sort-of",
+      "headword": "sort of",
+      "pos": "phrase",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["vague-language"],
+      "definition": "Used to make a statement less exact or less strong, when you are not completely sure or do not want to sound too direct.",
+      "examples": [
+        "I was sort of hoping you would come with us.",
+        "It's sort of a cross between a café and a bookshop."
+      ],
+      "synonyms": ["kind of", "a bit", "rather"],
+      "register": "informal"
+    },
+    {
+      "id": "kind-of",
+      "headword": "kind of",
+      "pos": "phrase",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["vague-language"],
+      "definition": "Used in speech to soften an opinion or description, or to say that something is partly true.",
+      "examples": [
+        "The ending was kind of disappointing, to be honest.",
+        "Are you nervous? Kind of, yes."
+      ],
+      "synonyms": ["sort of", "slightly"],
+      "register": "informal"
+    },
+    {
+      "id": "ish",
+      "headword": "-ish",
+      "pos": "phrase",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["vague-language"],
+      "definition": "An ending added to a word, mostly a colour, an age or a time, to mean 'approximately' or 'rather'. It can also be used on its own as a reply.",
+      "examples": [
+        "Let's meet at seven-ish outside the cinema.",
+        "She's thirtyish and works as a translator.",
+        "Is the soup hot? Warmish, I'd say."
+      ],
+      "collocations": ["sevenish", "greenish", "tallish"],
+      "synonyms": ["approximately", "rather"],
+      "register": "informal"
+    },
+    {
+      "id": "or-so",
+      "headword": "or so",
+      "pos": "phrase",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["vague-language"],
+      "definition": "Placed after a number or an amount to show that it is not exact.",
+      "examples": [
+        "The journey takes an hour or so.",
+        "We've lived here for ten years or so."
+      ],
+      "collocations": ["a week or so", "twenty people or so", "a mile or so"],
+      "synonyms": ["approximately", "about"]
+    },
+    {
+      "id": "around",
+      "headword": "around",
+      "pos": "preposition",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["vague-language"],
+      "definition": "Used before a number, a time or a date to mean 'about' or 'approximately'.",
+      "examples": [
+        "The meeting should finish at around four o'clock.",
+        "There were around fifty people at the talk."
+      ],
+      "collocations": [
+        "around midday",
+        "around fifty",
+        "around the end of the month"
+      ],
+      "synonyms": ["about", "approximately", "roughly"]
+    },
+    {
+      "id": "and-stuff-like-that",
+      "headword": "and stuff like that",
+      "pos": "phrase",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["vague-language"],
+      "definition": "Added at the end of a list when you do not want to name everything, usually in relaxed conversation.",
+      "examples": [
+        "At weekends I go for a run, see friends and stuff like that.",
+        "She teaches maths, physics and stuff like that."
+      ],
+      "synonyms": ["and so on", "and that sort of thing"],
+      "register": "informal"
+    },
+    {
+      "id": "roughly",
+      "headword": "roughly",
+      "pos": "adverb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["vague-language"],
+      "definition": "Used to say that a number, amount or description is close to correct but not exact.",
+      "examples": [
+        "The new office is roughly twice the size of the old one.",
+        "Roughly speaking, about a third of the class failed the test."
+      ],
+      "collocations": ["roughly speaking", "roughly the same", "roughly equal"],
+      "synonyms": ["approximately", "around"]
+    },
+    {
+      "id": "a-bit",
+      "headword": "a bit",
+      "pos": "phrase",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["vague-language"],
+      "definition": "Used before an adjective or adverb to mean 'slightly', often to make a complaint or a criticism sound less harsh.",
+      "examples": [
+        "The room is a bit small for ten people.",
+        "Could you speak a bit more slowly, please?"
+      ],
+      "collocations": ["a bit tired", "a bit too much", "wait a bit"],
+      "synonyms": ["slightly", "a little"]
+    },
+    {
+      "id": "or-something",
+      "headword": "or something",
+      "pos": "phrase",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["vague-language"],
+      "definition": "Added to a statement or suggestion when you are not sure of the exact detail, or when you want to sound casual.",
+      "examples": [
+        "I think he works in marketing or something.",
+        "Do you fancy a coffee or something?"
+      ],
+      "synonyms": ["or similar", "or whatever"],
+      "register": "informal"
+    },
+    {
+      "id": "and-so-on",
+      "headword": "and so on",
+      "pos": "phrase",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["vague-language"],
+      "definition": "Used at the end of a list to show that other similar things could be mentioned.",
+      "examples": [
+        "The course covers grammar, vocabulary, pronunciation and so on.",
+        "You have to fill in your name, address, date of birth and so on."
+      ],
+      "synonyms": ["and so forth", "et cetera"]
+    }
+  ]
+}

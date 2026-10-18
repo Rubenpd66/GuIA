@@ -1,0 +1,249 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "afford",
+      "headword": "afford",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["shopping-consumption"],
+      "definition": "To have enough money to buy or do something.",
+      "examples": [
+        "We can't afford a holiday abroad this year.",
+        "Houses in the city centre are too expensive for most young people to afford."
+      ],
+      "collocations": [
+        "can afford to buy",
+        "cannot afford it",
+        "afford the rent"
+      ]
+    },
+    {
+      "id": "bargain",
+      "headword": "bargain",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "definition": "Something you buy for much less than its usual price.",
+      "examples": [
+        "At only twenty pounds, the coat was a bargain.",
+        "I found a few real bargains at the charity shop."
+      ],
+      "collocations": ["a real bargain", "hunt for bargains", "bargain price"]
+    },
+    {
+      "id": "refund",
+      "headword": "refund",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "definition": "Money that a shop gives back to you when you return something you have bought.",
+      "examples": [
+        "The camera stopped working, so I asked for a refund.",
+        "You can get a full refund if you return the item within 28 days."
+      ],
+      "collocations": [
+        "ask for a refund",
+        "get a full refund",
+        "a refund policy"
+      ]
+    },
+    {
+      "id": "consumer",
+      "headword": "consumer",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "definition": "A person who buys goods and services for their own use.",
+      "examples": [
+        "Consumers are becoming more aware of where their clothes are made.",
+        "The new law is designed to protect consumers from misleading adverts."
+      ],
+      "collocations": ["consumer rights", "consumer goods", "consumer spending"]
+    },
+    {
+      "id": "overpriced",
+      "headword": "overpriced",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "definition": "Costing more than it is worth.",
+      "examples": [
+        "The food at the airport is overpriced and not very good.",
+        "I thought the trainers were overpriced, so I didn't buy them."
+      ],
+      "collocations": ["hopelessly overpriced", "overpriced for what it is"]
+    },
+    {
+      "id": "out-of-stock",
+      "headword": "out of stock",
+      "pos": "phrase",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "definition": "Not available in a shop at the moment because all of the items have been sold.",
+      "examples": [
+        "I wanted the blue jacket, but it was out of stock in my size.",
+        "The website says the laptop will be back in stock next week."
+      ],
+      "collocations": [
+        "currently out of stock",
+        "back in stock",
+        "be out of stock"
+      ]
+    },
+    {
+      "id": "second-hand",
+      "headword": "second-hand",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "definition": "Already owned and used by someone else before you buy it.",
+      "examples": [
+        "Most of our furniture is second-hand, and it's in good condition.",
+        "She buys second-hand clothes to save money and reduce waste."
+      ],
+      "collocations": [
+        "a second-hand car",
+        "second-hand books",
+        "buy second-hand"
+      ]
+    },
+    {
+      "id": "guarantee",
+      "headword": "guarantee",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "definition": "A written promise from a company that it will repair or replace a product if something goes wrong in a certain period.",
+      "examples": [
+        "The washing machine comes with a two-year guarantee.",
+        "Keep the receipt, because you will need it to claim under the guarantee."
+      ],
+      "collocations": [
+        "a two-year guarantee",
+        "under guarantee",
+        "a money-back guarantee"
+      ]
+    },
+    {
+      "id": "checkout",
+      "headword": "checkout",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "definition": "The place in a shop, or the final stage on a website, where you pay for what you are buying.",
+      "examples": [
+        "There was a long queue at the checkout, so I used the self-service one.",
+        "Delivery costs only appear at the checkout, which is annoying."
+      ],
+      "collocations": [
+        "a self-service checkout",
+        "go to the checkout",
+        "the online checkout"
+      ]
+    },
+    {
+      "id": "shop-around",
+      "headword": "shop around",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To compare prices and quality in several shops before deciding what to buy.",
+      "examples": [
+        "It's worth shopping around before you buy a new phone.",
+        "We shopped around for months before we chose a sofa."
+      ],
+      "collocations": ["shop around for insurance", "worth shopping around"]
+    },
+    {
+      "id": "stock-up",
+      "headword": "stock up (on)",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To buy a large quantity of something so that you will not run out of it.",
+      "examples": [
+        "We stocked up on tinned food before the storm.",
+        "I always stock up on coffee when it's on offer."
+      ],
+      "collocations": ["stock up on supplies", "stock up for winter"]
+    },
+    {
+      "id": "splash-out",
+      "headword": "splash out (on)",
+      "pos": "phrasal-verb",
+      "level": "C1",
+      "topics": ["shopping-consumption"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To spend a lot of money on something enjoyable that you do not really need.",
+      "examples": [
+        "For our anniversary, we splashed out on dinner at a top restaurant.",
+        "I don't usually spend much, but I splashed out on a leather jacket."
+      ],
+      "collocations": ["splash out on a treat", "splash out on a holiday"],
+      "register": "informal"
+    },
+    {
+      "id": "rip-off",
+      "headword": "rip-off",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["shopping-consumption"],
+      "definition": "Something that costs far too much money, so that you feel you have been cheated.",
+      "examples": [
+        "Twelve pounds for a sandwich is a complete rip-off.",
+        "The tourist menu was a rip-off, so we ate somewhere else."
+      ],
+      "collocations": ["a total rip-off", "a rip-off price", "feel ripped off"],
+      "register": "informal"
+    },
+    {
+      "id": "fabric",
+      "headword": "fabric",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "sets": ["false-friends"],
+      "definition": "Cloth that is used for making clothes, curtains and other things.",
+      "examples": [
+        "I like this dress because the fabric is soft and doesn't crease.",
+        "The shop sells fabric by the metre."
+      ],
+      "collocations": ["soft fabric", "cotton fabric", "a fabric softener"],
+      "falseFriend": {
+        "spanish": "fábrica (lugar donde se fabrica)",
+        "trap": {
+          "en": "A place where goods are made is a factory, not a fabric. Fabric is the cloth that clothes are made from.",
+          "es": "Una fábrica es a factory. Fabric es la tela de la que está hecha la ropa."
+        }
+      }
+    },
+    {
+      "id": "extravagant",
+      "headword": "extravagant",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["shopping-consumption"],
+      "sets": ["false-friends"],
+      "definition": "Spending or costing much more money than is sensible or necessary.",
+      "examples": [
+        "Buying a new car every year seems extravagant to me.",
+        "He's generous but extravagant, and he is always short of money by the end of the month."
+      ],
+      "collocations": [
+        "an extravagant lifestyle",
+        "extravagant gifts",
+        "feel extravagant"
+      ],
+      "falseFriend": {
+        "spanish": "extravagante (raro, excéntrico)",
+        "trap": {
+          "en": "Extravagant is about spending too much money, not about being strange. A strange or eccentric person is eccentric or unusual.",
+          "es": "Extravagant se refiere a gastar demasiado dinero, no a ser raro. Para «extravagante» en el sentido de excéntrico se usa eccentric u odd."
+        }
+      }
+    }
+  ]
+}

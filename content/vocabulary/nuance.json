@@ -1,0 +1,231 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "economic",
+      "headword": "economic",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "Connected with the economy, trade and money in a country. Do not confuse it with economical, which means cheap to use or not wasteful.",
+      "examples": [
+        "The government has announced a new economic plan.",
+        "Rising prices are causing economic problems for many families."
+      ],
+      "collocations": [
+        "economic growth",
+        "economic policy",
+        "the economic situation"
+      ]
+    },
+    {
+      "id": "economical",
+      "headword": "economical",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["shopping-consumption"],
+      "sets": ["nuance"],
+      "definition": "Using little money, fuel or time; good value. It describes things or people who do not waste resources, not the economy of a country (that is economic).",
+      "examples": [
+        "A small hybrid car is more economical than a big saloon.",
+        "It is more economical to buy vegetables in bulk."
+      ],
+      "collocations": [
+        "an economical car",
+        "an economical way of doing something"
+      ]
+    },
+    {
+      "id": "affect",
+      "headword": "affect",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "To have an influence on someone or something; to change it. It is usually a verb, while effect is usually a noun.",
+      "examples": [
+        "The strike will affect thousands of commuters.",
+        "Poor sleep affects my concentration."
+      ],
+      "collocations": ["affect the result", "badly affected", "be affected by"]
+    },
+    {
+      "id": "effect",
+      "headword": "effect",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "A change that is the result of something. Use effect as a noun (the effect of noise on sleep); the verb that means to influence is affect.",
+      "examples": [
+        "The new law had a positive effect on small businesses.",
+        "The medicine began to take effect after twenty minutes."
+      ],
+      "collocations": [
+        "have an effect on",
+        "side effect",
+        "take effect",
+        "cause and effect"
+      ]
+    },
+    {
+      "id": "raise",
+      "headword": "raise",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "To lift something or to increase it; it always has an object (raise prices). Compare rise, which has no object and happens by itself.",
+      "examples": [
+        "The council plans to raise parking charges next year.",
+        "Please raise your hand if you have a question."
+      ],
+      "collocations": [
+        "raise money",
+        "raise a question",
+        "raise awareness",
+        "raise a child"
+      ]
+    },
+    {
+      "id": "rise",
+      "headword": "rise",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "To go up or increase by itself, with no object (prices rise). Its forms are rise, rose, risen; compare raise, which needs someone or something to do the lifting.",
+      "examples": [
+        "House prices have risen sharply over the last decade.",
+        "The sun rises later in winter."
+      ],
+      "collocations": [
+        "rise sharply",
+        "a rise in prices",
+        "rise to the challenge"
+      ]
+    },
+    {
+      "id": "rob",
+      "headword": "rob",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "To take money or property from a person or place, often using force. The object is the victim or place (rob a bank); what you take is stolen.",
+      "examples": [
+        "Two men robbed a post office in the town centre.",
+        "He was robbed of his wallet on the underground."
+      ],
+      "collocations": ["rob a bank", "be robbed of", "armed robbery"]
+    },
+    {
+      "id": "steal",
+      "headword": "steal",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "To take something that belongs to someone else without permission. The object is the thing taken (steal a bike); the person or place is robbed.",
+      "examples": [
+        "Someone stole my bicycle from outside the library.",
+        "She had her phone stolen on the bus."
+      ],
+      "collocations": ["steal money", "have something stolen", "steal a car"]
+    },
+    {
+      "id": "lend",
+      "headword": "lend",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "To give something to someone for a short time, expecting to get it back. The owner lends; the other person borrows.",
+      "examples": [
+        "Could you lend me your charger until tomorrow?",
+        "The bank agreed to lend them money for the flat."
+      ],
+      "collocations": ["lend someone something", "lend a hand"]
+    },
+    {
+      "id": "borrow",
+      "headword": "borrow",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "To take something from someone for a short time, with their permission, and give it back later. You borrow from someone; they lend to you.",
+      "examples": [
+        "Can I borrow your umbrella? I'll bring it back on Monday.",
+        "They had to borrow money from the bank to start the business."
+      ],
+      "collocations": ["borrow from", "borrow a book", "borrow money"]
+    },
+    {
+      "id": "historic",
+      "headword": "historic",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "Important enough to be remembered in history, or famous because of its past. It is not the same as historical, which only means connected with history.",
+      "examples": [
+        "The two leaders signed a historic agreement.",
+        "We spent the morning in the historic centre of York."
+      ],
+      "collocations": [
+        "a historic moment",
+        "a historic building",
+        "a historic occasion"
+      ]
+    },
+    {
+      "id": "historical",
+      "headword": "historical",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "Connected with the study of the past or with something that really happened in the past. It does not suggest importance; for that, use historic.",
+      "examples": [
+        "She writes historical novels set in the nineteenth century.",
+        "There is little historical evidence for the story."
+      ],
+      "collocations": [
+        "historical evidence",
+        "a historical novel",
+        "historical records"
+      ]
+    },
+    {
+      "id": "imply",
+      "headword": "imply",
+      "pos": "verb",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "To suggest something without saying it directly. The speaker or writer implies; the listener or reader infers.",
+      "examples": [
+        "Are you implying that I made a mistake?",
+        "His silence seemed to imply that he disagreed."
+      ],
+      "collocations": ["imply that", "strongly imply"]
+    },
+    {
+      "id": "infer",
+      "headword": "infer",
+      "pos": "verb",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["nuance"],
+      "definition": "To reach a conclusion from the evidence or hints you have, even if nobody said it directly. The listener or reader infers; the speaker or writer implies.",
+      "examples": [
+        "From her tone, I inferred that she was not happy.",
+        "We can infer from the figures that sales are falling."
+      ],
+      "collocations": ["infer from", "infer that"],
+      "register": "formal"
+    }
+  ]
+}

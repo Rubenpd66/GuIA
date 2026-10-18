@@ -1,0 +1,224 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "carry-out",
+      "headword": "carry out",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["work"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To do a planned piece of work, such as a test, a survey or an order.",
+      "examples": [
+        "The team carried out a survey of local shoppers.",
+        "Police are carrying out an investigation."
+      ],
+      "collocations": [
+        "carry out research",
+        "carry out a plan",
+        "carry out repairs"
+      ],
+      "synonyms": ["perform", "conduct"]
+    },
+    {
+      "id": "bring-up",
+      "headword": "bring up",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["relationships"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To mention a subject for the first time in a conversation; also, to look after a child until adulthood.",
+      "examples": [
+        "I didn't want to bring up money during dinner.",
+        "She was brought up by her grandparents."
+      ],
+      "collocations": ["bring up a topic", "bring up children"],
+      "synonyms": ["raise", "mention"]
+    },
+    {
+      "id": "turn-down",
+      "headword": "turn down",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["work"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To say no to an offer, request or invitation; also, to lower the volume or heat of something.",
+      "examples": [
+        "He turned down the job because the salary was too low.",
+        "Could you turn the music down? I'm trying to study."
+      ],
+      "collocations": ["turn down an offer", "turn down an invitation"],
+      "synonyms": ["refuse", "decline"]
+    },
+    {
+      "id": "work-out-solve",
+      "headword": "work out",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To find an answer by thinking or calculating; also, to end in a particular way, or to exercise.",
+      "examples": [
+        "I can't work out how much we each owe.",
+        "Everything worked out well in the end."
+      ],
+      "collocations": ["work out a solution", "work out the cost"],
+      "synonyms": ["calculate", "solve"]
+    },
+    {
+      "id": "sort-out",
+      "headword": "sort out",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To deal with a problem successfully or to put things in order.",
+      "examples": [
+        "The airline sorted out the mix-up with my booking.",
+        "I need to sort out my paperwork before the deadline."
+      ],
+      "collocations": ["sort out a problem", "sort out a misunderstanding"],
+      "synonyms": ["resolve", "organise"],
+      "register": "informal"
+    },
+    {
+      "id": "look-into",
+      "headword": "look into",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["work"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To examine the facts about a problem or situation in order to understand it.",
+      "examples": [
+        "The manager promised to look into the complaint.",
+        "We are looking into cheaper energy suppliers."
+      ],
+      "collocations": ["look into a complaint", "look into the matter"],
+      "synonyms": ["investigate"]
+    },
+    {
+      "id": "find-out",
+      "headword": "find out",
+      "pos": "phrasal-verb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To get information about something, or to discover a fact that was not known before.",
+      "examples": [
+        "I'll find out what time the museum closes.",
+        "She found out that her flight had been cancelled."
+      ],
+      "collocations": ["find out the truth", "find out about"],
+      "synonyms": ["discover", "learn"]
+    },
+    {
+      "id": "point-out",
+      "headword": "point out",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To tell someone a fact that they have not noticed or have forgotten.",
+      "examples": [
+        "She pointed out that the shop was already closed.",
+        "Let me point out one problem with this plan."
+      ],
+      "collocations": ["point out a mistake", "point out that"],
+      "synonyms": ["indicate", "mention"]
+    },
+    {
+      "id": "get-over",
+      "headword": "get over",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To recover from an illness or a bad experience, or to deal with a difficulty.",
+      "examples": [
+        "It took him weeks to get over the flu.",
+        "She still hasn't got over the shock of losing her job."
+      ],
+      "collocations": ["get over an illness", "get over a disappointment"],
+      "synonyms": ["recover from", "overcome"]
+    },
+    {
+      "id": "fill-in",
+      "headword": "fill in",
+      "pos": "phrasal-verb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To write the necessary information on a form; also, to give someone details they missed.",
+      "examples": [
+        "Please fill in the form in capital letters.",
+        "Can you fill me in on what happened at the meeting?"
+      ],
+      "collocations": ["fill in a form", "fill someone in"],
+      "synonyms": ["complete"]
+    },
+    {
+      "id": "step-down",
+      "headword": "step down",
+      "pos": "phrasal-verb",
+      "level": "C1",
+      "topics": ["work"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To leave an important job or position, usually of your own choice.",
+      "examples": [
+        "The chairman will step down at the end of the year.",
+        "She stepped down as team captain after the final."
+      ],
+      "collocations": [
+        "step down as chairman",
+        "announce that you are stepping down"
+      ],
+      "synonyms": ["resign"]
+    },
+    {
+      "id": "rule-out",
+      "headword": "rule out",
+      "pos": "phrasal-verb",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To decide or say that something is impossible or will not be considered.",
+      "examples": [
+        "Doctors have ruled out a serious infection.",
+        "The minister did not rule out raising taxes."
+      ],
+      "collocations": ["rule out the possibility", "rule out a suspect"],
+      "synonyms": ["exclude", "eliminate"]
+    },
+    {
+      "id": "bring-about",
+      "headword": "bring about",
+      "pos": "phrasal-verb",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To make something happen, especially a change.",
+      "examples": [
+        "The internet has brought about huge changes in the way we shop.",
+        "Strong public pressure brought about a change in the law."
+      ],
+      "collocations": ["bring about change", "bring about a reform"],
+      "synonyms": ["cause"],
+      "register": "formal"
+    },
+    {
+      "id": "put-forward",
+      "headword": "put forward",
+      "pos": "phrasal-verb",
+      "level": "C1",
+      "topics": ["work"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To suggest an idea, plan or name for other people to consider.",
+      "examples": [
+        "She put forward a proposal to open the library on Sundays.",
+        "Three candidates have been put forward for the post."
+      ],
+      "collocations": ["put forward a proposal", "put forward an argument"],
+      "synonyms": ["propose", "suggest"]
+    }
+  ]
+}

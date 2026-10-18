@@ -1,0 +1,368 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "actually",
+      "headword": "actually",
+      "pos": "adverb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "Used to say what is really true, often when it is different from what someone expects or thinks.",
+      "examples": [
+        "I thought the film would be boring, but it was actually quite funny.",
+        "Actually, I'd rather not go out tonight."
+      ],
+      "synonyms": ["in fact", "really"],
+      "falseFriend": {
+        "spanish": "actualmente",
+        "trap": {
+          "en": "Actually does not mean 'at the present time'. For that, use currently, at the moment or nowadays: I'm currently living in Leeds.",
+          "es": "Actually no es «actualmente». Significa «en realidad» o «de hecho». Para «actualmente» di currently, at the moment o nowadays."
+        }
+      }
+    },
+    {
+      "id": "eventually",
+      "headword": "eventually",
+      "pos": "adverb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "After a long time, or after a lot of delay or effort; in the end.",
+      "examples": [
+        "After three hours on the motorway, we eventually reached the coast.",
+        "She eventually found a flat she could afford."
+      ],
+      "synonyms": ["finally", "in the end"],
+      "falseFriend": {
+        "spanish": "eventualmente",
+        "trap": {
+          "en": "Eventually is not 'possibly' or 'occasionally'. It means that something happens at last, after a delay. For 'possibly', use possibly or perhaps; for 'occasionally', use from time to time.",
+          "es": "Eventually no es «eventualmente» (posiblemente, de forma ocasional). Es «al final» o «con el tiempo»: algo ocurre por fin, tras una espera."
+        }
+      }
+    },
+    {
+      "id": "sensible",
+      "headword": "sensible",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "Showing good judgement and likely to make practical, reasonable choices.",
+      "examples": [
+        "It would be sensible to book the train tickets early.",
+        "He's a very sensible driver and never takes risks."
+      ],
+      "collocations": [
+        "a sensible decision",
+        "a sensible choice",
+        "sensible shoes"
+      ],
+      "synonyms": ["reasonable", "practical"],
+      "falseFriend": {
+        "spanish": "sensible",
+        "trap": {
+          "en": "Sensible does not mean easily hurt or emotional. That is sensitive: She is very sensitive to criticism.",
+          "es": "Sensible en inglés es «sensato», no «sensible». Para «sensible» (que se ofende o siente mucho) usa sensitive."
+        }
+      }
+    },
+    {
+      "id": "embarrassed",
+      "headword": "embarrassed",
+      "pos": "adjective",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "Feeling uncomfortable or ashamed because of something that has happened in front of other people.",
+      "examples": [
+        "I was so embarrassed when I forgot my manager's name.",
+        "He felt embarrassed about his poor English."
+      ],
+      "collocations": [
+        "feel embarrassed",
+        "embarrassed about something",
+        "an embarrassing moment"
+      ],
+      "falseFriend": {
+        "spanish": "embarazada",
+        "trap": {
+          "en": "Embarrassed has nothing to do with pregnancy. A pregnant woman is pregnant or expecting a baby.",
+          "es": "I'm embarrassed es «me da vergüenza», no «estoy embarazada». Embarazada se dice pregnant."
+        }
+      }
+    },
+    {
+      "id": "assist",
+      "headword": "assist",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["false-friends", "formal-informal"],
+      "definition": "To help someone do something, especially in a formal or professional way.",
+      "examples": [
+        "A volunteer will assist you with your registration.",
+        "Please contact reception if we can assist you in any way."
+      ],
+      "collocations": [
+        "assist someone with something",
+        "assist in an investigation"
+      ],
+      "synonyms": ["help"],
+      "register": "formal",
+      "falseFriend": {
+        "spanish": "asistir (a una reunión)",
+        "trap": {
+          "en": "Assist means help. To be present at a meeting, class or event, use attend: I attended the conference, not I assisted the conference.",
+          "es": "«Asistir a una reunión» es attend. Assist significa «ayudar», y es más formal que help."
+        }
+      }
+    },
+    {
+      "id": "attend",
+      "headword": "attend",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "To be present at an event, meeting, class or place where something takes place.",
+      "examples": [
+        "Over two hundred people attended the opening ceremony.",
+        "She attends evening classes twice a week."
+      ],
+      "collocations": ["attend a meeting", "attend a lecture", "attend school"],
+      "synonyms": ["go to"],
+      "falseFriend": {
+        "spanish": "atender",
+        "trap": {
+          "en": "Attend is not 'to serve or look after someone'. For a customer, say serve or deal with: The shop assistant served me quickly. Attend a meeting means to go to it.",
+          "es": "Attend es «asistir a», no «atender». «Atender a un cliente» es serve o deal with a customer."
+        }
+      }
+    },
+    {
+      "id": "library",
+      "headword": "library",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["education"],
+      "sets": ["false-friends"],
+      "definition": "A building or room where books and other materials are kept for people to read or borrow.",
+      "examples": [
+        "I borrowed three novels from the local library.",
+        "The university library is open until midnight during exams."
+      ],
+      "collocations": [
+        "borrow a book from the library",
+        "a public library",
+        "a library card"
+      ],
+      "falseFriend": {
+        "spanish": "librería",
+        "trap": {
+          "en": "A library lends books; a shop that sells them is a bookshop (in the US, a bookstore).",
+          "es": "Library es «biblioteca», no «librería». Una librería, donde se compran libros, es a bookshop."
+        }
+      }
+    },
+    {
+      "id": "realise",
+      "headword": "realise",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "To understand or notice something suddenly, often something you had not seen before.",
+      "examples": [
+        "I realised halfway to work that I had left my phone at home.",
+        "He didn't realise how late it was."
+      ],
+      "collocations": [
+        "realise your mistake",
+        "suddenly realise",
+        "it dawned on me"
+      ],
+      "synonyms": ["notice", "become aware"],
+      "falseFriend": {
+        "spanish": "realizar",
+        "trap": {
+          "en": "Realise means to become aware of something. To carry out a task or a plan, use do, carry out or complete: We carried out a survey.",
+          "es": "Realise es «darse cuenta», no «realizar». «Realizar un estudio» es carry out a study o do a study."
+        }
+      }
+    },
+    {
+      "id": "carpet",
+      "headword": "carpet",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "A thick covering for a whole floor, usually fixed in place and made of wool or a similar material.",
+      "examples": [
+        "We're going to replace the carpet in the living room.",
+        "Red wine spilt on a pale carpet is almost impossible to remove."
+      ],
+      "collocations": [
+        "a fitted carpet",
+        "vacuum the carpet",
+        "a carpet cleaner"
+      ],
+      "falseFriend": {
+        "spanish": "carpeta",
+        "trap": {
+          "en": "A carpet is on the floor. The thing you keep papers in is a folder (or a file).",
+          "es": "Carpet es «moqueta» o «alfombra», no «carpeta». Una carpeta de papeles es a folder."
+        }
+      }
+    },
+    {
+      "id": "exit",
+      "headword": "exit",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "A way out of a building, room or motorway; also the act of leaving a place.",
+      "examples": [
+        "The nearest exit is at the end of the corridor.",
+        "Take the next exit for the airport."
+      ],
+      "collocations": ["an emergency exit", "the way out", "a fire exit"],
+      "falseFriend": {
+        "spanish": "éxito",
+        "trap": {
+          "en": "Exit means the way out. Do not use it for achievement: the word you want is success.",
+          "es": "Exit es «salida», no «éxito». «Éxito» es success."
+        }
+      }
+    },
+    {
+      "id": "compromise",
+      "headword": "compromise",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "An agreement in which each side gives up something it wanted so that both can accept the result.",
+      "examples": [
+        "After a long discussion, we reached a compromise on the budget.",
+        "Neither side was willing to compromise."
+      ],
+      "collocations": [
+        "reach a compromise",
+        "make a compromise",
+        "compromise on something"
+      ],
+      "falseFriend": {
+        "spanish": "compromiso",
+        "trap": {
+          "en": "Compromise is not a commitment or an obligation. For a duty or promise use commitment; for an arranged meeting use appointment. A compromise means both sides give way a little.",
+          "es": "Compromise es «llegar a un acuerdo cediendo cada parte», no «compromiso» como obligación (commitment) ni cita (appointment)."
+        }
+      }
+    },
+    {
+      "id": "support",
+      "headword": "support",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "To help someone by giving encouragement, money or practical help, or to agree with an idea or a cause.",
+      "examples": [
+        "My parents supported me throughout my studies.",
+        "Most residents support the plan for a new cycle lane."
+      ],
+      "collocations": [
+        "support a cause",
+        "support a family",
+        "emotional support"
+      ],
+      "falseFriend": {
+        "spanish": "soportar",
+        "trap": {
+          "en": "Support does not mean to put up with something unpleasant. For that, use stand or put up with: I can't stand the noise.",
+          "es": "Support es «apoyar» o «mantener», no «soportar» (aguantar). «No soporto el ruido» es I can't stand the noise."
+        }
+      }
+    },
+    {
+      "id": "success",
+      "headword": "success",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "The achievement of what you wanted to do; something that turns out well.",
+      "examples": [
+        "The festival was a huge success this year.",
+        "Hard work is the key to success."
+      ],
+      "collocations": [
+        "a great success",
+        "achieve success",
+        "the secret of success"
+      ],
+      "falseFriend": {
+        "spanish": "suceso",
+        "trap": {
+          "en": "Success is not an event or incident. For something that happened, say event, incident or occurrence.",
+          "es": "Success es «éxito», no «suceso». Un suceso (algo que ocurre) es an event o an incident."
+        }
+      }
+    },
+    {
+      "id": "discuss",
+      "headword": "discuss",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "To talk about a subject with someone in order to share ideas or reach a decision.",
+      "examples": [
+        "We need to discuss the schedule before the meeting.",
+        "The committee will discuss the proposal next week."
+      ],
+      "collocations": [
+        "discuss a problem",
+        "discuss options",
+        "discuss something with someone"
+      ],
+      "falseFriend": {
+        "spanish": "discutir",
+        "trap": {
+          "en": "Discuss is a calm exchange of ideas. A heated quarrel is to argue or to have an argument. Also, discuss takes a direct object: discuss the plan, not discuss about the plan.",
+          "es": "Discuss es «hablar de algo», no «discutir» (pelearse), que se dice argue. Además, no lleva about: discuss the plan."
+        }
+      }
+    },
+    {
+      "id": "argument",
+      "headword": "argument",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["false-friends"],
+      "definition": "An angry disagreement between people; also a set of reasons given to support an opinion.",
+      "examples": [
+        "My brother and I had an argument about whose turn it was to cook.",
+        "There is a strong argument for working from home two days a week."
+      ],
+      "collocations": [
+        "have an argument",
+        "win an argument",
+        "a heated argument"
+      ],
+      "falseFriend": {
+        "spanish": "argumento (de una película)",
+        "trap": {
+          "en": "In everyday English an argument is usually a quarrel. The story of a film or book is the plot.",
+          "es": "Argument suele ser «discusión» o «riña». El argumento de una película o novela es the plot."
+        }
+      }
+    }
+  ]
+}

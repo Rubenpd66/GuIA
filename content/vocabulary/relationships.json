@@ -1,0 +1,256 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "parents",
+      "headword": "parents",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["relationships"],
+      "sets": ["false-friends"],
+      "definition": "Your mother and father.",
+      "examples": [
+        "My parents moved to the coast when they retired.",
+        "Her parents are very supportive of her career."
+      ],
+      "collocations": [
+        "live with your parents",
+        "single parents",
+        "strict parents"
+      ],
+      "falseFriend": {
+        "spanish": "parientes",
+        "trap": {
+          "en": "Parents are only your mother and father. Aunts, uncles, cousins and grandparents are relatives.",
+          "es": "Parents son solo el padre y la madre. Los parientes en general (tíos, primos, abuelos) son relatives."
+        }
+      }
+    },
+    {
+      "id": "get-on",
+      "headword": "get on (with)",
+      "pos": "phrasal-verb",
+      "level": "B1",
+      "topics": ["relationships"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To have a friendly relationship with someone.",
+      "examples": [
+        "I get on really well with my flatmates.",
+        "The two brothers have never got on."
+      ],
+      "collocations": [
+        "get on well",
+        "get on badly",
+        "get on with your neighbours"
+      ]
+    },
+    {
+      "id": "fall-out",
+      "headword": "fall out (with)",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["relationships"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To have an argument with someone and stop being friendly with them.",
+      "examples": [
+        "She fell out with her best friend over money.",
+        "They fell out years ago and haven't spoken since."
+      ],
+      "collocations": [
+        "fall out over something",
+        "fall out badly",
+        "a family falling-out"
+      ]
+    },
+    {
+      "id": "make-up",
+      "headword": "make up (with)",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["relationships"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To become friends again after an argument.",
+      "examples": [
+        "They had a huge row on Monday, but they'd made up by Wednesday.",
+        "It's time you made up with your sister."
+      ],
+      "collocations": ["kiss and make up", "make up after a row"]
+    },
+    {
+      "id": "split-up",
+      "headword": "split up (with)",
+      "pos": "phrasal-verb",
+      "level": "B1",
+      "topics": ["relationships"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To end a romantic relationship or marriage.",
+      "examples": [
+        "My neighbours split up last year after ten years together.",
+        "He split up with his girlfriend before moving abroad."
+      ],
+      "collocations": ["split up with someone", "a couple splitting up"]
+    },
+    {
+      "id": "look-up-to",
+      "headword": "look up to",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["relationships"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To respect and admire someone, often because of their achievements or character.",
+      "examples": [
+        "I've always looked up to my older cousin.",
+        "Young players look up to him as a role model."
+      ],
+      "collocations": ["look up to a teacher", "someone to look up to"]
+    },
+    {
+      "id": "let-down",
+      "headword": "let down",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["relationships"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To disappoint someone by failing to do what they hoped or expected you would do.",
+      "examples": [
+        "I promised to help him move, and I felt awful when I let him down.",
+        "Don't worry, I won't let you down."
+      ],
+      "collocations": [
+        "let a friend down",
+        "feel let down",
+        "never let you down"
+      ]
+    },
+    {
+      "id": "in-laws",
+      "headword": "in-laws",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["relationships"],
+      "definition": "The family of your husband or wife, especially his or her parents.",
+      "examples": [
+        "We're spending Christmas with my in-laws this year.",
+        "She gets on very well with her in-laws."
+      ],
+      "collocations": [
+        "visit the in-laws",
+        "my mother-in-law",
+        "stay with the in-laws"
+      ]
+    },
+    {
+      "id": "sibling",
+      "headword": "sibling",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["relationships"],
+      "definition": "A brother or a sister.",
+      "examples": [
+        "Only children often form close friendships to make up for having no siblings.",
+        "Sibling rivalry can continue well into adult life."
+      ],
+      "collocations": [
+        "sibling rivalry",
+        "an older sibling",
+        "have no siblings"
+      ]
+    },
+    {
+      "id": "supportive",
+      "headword": "supportive",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["relationships"],
+      "definition": "Giving help, encouragement or understanding to someone, especially at a difficult time.",
+      "examples": [
+        "My friends were very supportive when I lost my job.",
+        "It helps to have a supportive partner."
+      ],
+      "collocations": [
+        "a supportive family",
+        "supportive of someone",
+        "extremely supportive"
+      ]
+    },
+    {
+      "id": "grow-apart",
+      "headword": "grow apart",
+      "pos": "phrasal-verb",
+      "level": "C1",
+      "topics": ["relationships"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To slowly become less close to someone because you no longer share the same interests or experiences.",
+      "examples": [
+        "We were inseparable at school, but we grew apart after university.",
+        "Many couples grow apart without ever having a serious argument."
+      ],
+      "collocations": ["gradually grow apart", "grow apart from a friend"]
+    },
+    {
+      "id": "close-knit",
+      "headword": "close-knit",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["relationships"],
+      "definition": "Describing a group of people who know each other well and are very friendly and supportive towards one another.",
+      "examples": [
+        "She grew up in a close-knit community in the Welsh valleys.",
+        "The team is small and close-knit, so everyone helps each other."
+      ],
+      "collocations": [
+        "a close-knit family",
+        "a close-knit group",
+        "a close-knit village"
+      ]
+    },
+    {
+      "id": "bond",
+      "headword": "bond",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["relationships"],
+      "definition": "A strong feeling of friendship, love or shared experience that unites people.",
+      "examples": [
+        "There is a special bond between twins.",
+        "Working through the crisis together strengthened the bond between them."
+      ],
+      "collocations": [
+        "a strong bond",
+        "form a bond",
+        "the bond between mother and child"
+      ]
+    },
+    {
+      "id": "mutual",
+      "headword": "mutual",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["relationships"],
+      "definition": "Felt or done by two or more people in the same way, or shared by them.",
+      "examples": [
+        "The feeling is mutual: we both think the other is unreasonable.",
+        "I met my husband through a mutual friend."
+      ],
+      "collocations": [
+        "mutual respect",
+        "a mutual friend",
+        "by mutual agreement"
+      ]
+    },
+    {
+      "id": "gossip",
+      "headword": "gossip",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["relationships"],
+      "definition": "Casual talk about other people's private lives, which may not be true or kind.",
+      "examples": [
+        "There's always a lot of gossip in a small office.",
+        "I don't want to hear any gossip about my neighbours."
+      ],
+      "collocations": ["spread gossip", "office gossip", "a piece of gossip"],
+      "register": "informal"
+    }
+  ]
+}

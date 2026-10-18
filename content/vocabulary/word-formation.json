@@ -1,0 +1,221 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "decide",
+      "headword": "decide",
+      "pos": "verb",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["word-formation"],
+      "definition": "To choose between possibilities after thinking. Word family: decision (noun), decisive (adjective), indecisive (adjective), decisively (adverb).",
+      "examples": [
+        "It was a difficult decision, but she made it quickly.",
+        "A decisive goal in the last minute won the match.",
+        "I'm hopelessly indecisive when I read a long menu."
+      ],
+      "collocations": [
+        "make a decision",
+        "a decisive victory",
+        "indecisive leadership",
+        "act decisively"
+      ]
+    },
+    {
+      "id": "compete",
+      "headword": "compete",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["word-formation"],
+      "definition": "To try to win or to be better than others. Word family: competition (noun), competitor (person), competitive (adjective), uncompetitive (adjective).",
+      "examples": [
+        "Small shops struggle to compete with online retailers.",
+        "He is a very competitive person and hates losing.",
+        "Our prices are uncompetitive compared with those abroad."
+      ],
+      "collocations": [
+        "fierce competition",
+        "a competitive market",
+        "a serious competitor"
+      ]
+    },
+    {
+      "id": "employ",
+      "headword": "employ",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["work"],
+      "sets": ["word-formation"],
+      "definition": "To pay someone to work for you. Word family: employer, employee, employment, unemployment, unemployed, employable.",
+      "examples": [
+        "The factory employs about two hundred people.",
+        "Unemployment fell for the third month in a row.",
+        "A good CV makes you more employable."
+      ],
+      "collocations": [
+        "full-time employment",
+        "the unemployment rate",
+        "a fair employer",
+        "an unemployed graduate"
+      ]
+    },
+    {
+      "id": "create",
+      "headword": "create",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["word-formation"],
+      "definition": "To make something new exist. Word family: creation (noun), creator (noun), creative (adjective), creativity (noun), creatively (adverb).",
+      "examples": [
+        "The new factory will create fifty jobs.",
+        "She has a very creative approach to problem solving.",
+        "Creativity matters more than speed in this role."
+      ],
+      "collocations": [
+        "create jobs",
+        "a creative solution",
+        "encourage creativity"
+      ]
+    },
+    {
+      "id": "depend",
+      "headword": "depend",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["word-formation"],
+      "definition": "To be decided by something else; to need. Word family: dependence (noun), dependent (adjective), independent, independence, dependable (reliable).",
+      "examples": [
+        "Whether we go depends on the weather.",
+        "Many students gain independence when they leave home.",
+        "He is a dependable colleague who never misses a deadline."
+      ],
+      "collocations": [
+        "depend on",
+        "heavily dependent on",
+        "financial independence",
+        "an independent opinion"
+      ]
+    },
+    {
+      "id": "succeed",
+      "headword": "succeed",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["word-formation"],
+      "definition": "To achieve what you wanted to do. Word family: success (noun), successful (adjective), successfully (adverb), unsuccessful (adjective).",
+      "examples": [
+        "She succeeded in passing the exam at her first attempt.",
+        "Their first campaign was unsuccessful, but the second one worked.",
+        "The surgeon successfully repaired the damaged knee."
+      ],
+      "collocations": [
+        "a successful career",
+        "an unsuccessful attempt",
+        "succeed in doing something"
+      ]
+    },
+    {
+      "id": "produce",
+      "headword": "produce",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["word-formation"],
+      "definition": "To make or grow something, usually in large amounts. Word family: product (noun), production (noun), producer (noun), productive (adjective), productivity (noun).",
+      "examples": [
+        "The region produces most of the country's olive oil.",
+        "Productivity rose after the office moved to a four-day week.",
+        "It was a very productive meeting."
+      ],
+      "collocations": [
+        "mass production",
+        "a productive day",
+        "increase productivity",
+        "a dairy product"
+      ]
+    },
+    {
+      "id": "relate",
+      "headword": "relate",
+      "pos": "verb",
+      "level": "C1",
+      "topics": ["general"],
+      "sets": ["word-formation"],
+      "definition": "To be connected with something. Word family: relation (noun), relationship (noun), relative (noun and adjective), related (adjective), unrelated (adjective), relatively (adverb).",
+      "examples": [
+        "The two incidents seem to be unrelated.",
+        "The city is relatively quiet at this time of year.",
+        "Their relationship has improved a lot."
+      ],
+      "collocations": [
+        "a close relationship",
+        "stress-related illness",
+        "relatively cheap"
+      ]
+    },
+    {
+      "id": "behave",
+      "headword": "behave",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["word-formation"],
+      "definition": "To act in a particular way. Word family: behaviour (noun), misbehave (verb), well-behaved (adjective), behavioural (adjective).",
+      "examples": [
+        "The children behaved perfectly during the long journey.",
+        "The teacher praised the pupils for their good behaviour.",
+        "The study looked at changes in consumer behaviour."
+      ],
+      "collocations": [
+        "good behaviour",
+        "anti-social behaviour",
+        "behave yourself",
+        "a well-behaved dog"
+      ]
+    },
+    {
+      "id": "able",
+      "headword": "able",
+      "pos": "adjective",
+      "level": "B1",
+      "topics": ["general"],
+      "sets": ["word-formation"],
+      "definition": "Having the skill, time or chance to do something. Word family: ability (noun), unable (adjective), disabled, enable (verb), inability (noun).",
+      "examples": [
+        "She was unable to attend because of illness.",
+        "The new app enables users to pay by phone.",
+        "He has a remarkable ability to stay calm."
+      ],
+      "collocations": [
+        "be able to",
+        "be unable to",
+        "enable someone to do something",
+        "the ability to learn"
+      ]
+    },
+    {
+      "id": "reason",
+      "headword": "reason",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["general"],
+      "sets": ["word-formation"],
+      "definition": "A cause or explanation. Word family: reasonable (adjective), unreasonable (adjective), reasonably (adverb), reasoning (noun), reason (verb).",
+      "examples": [
+        "That is a perfectly reasonable request.",
+        "The prices are reasonably low for the area.",
+        "I don't follow your reasoning."
+      ],
+      "collocations": [
+        "a reasonable price",
+        "an unreasonable demand",
+        "the main reason",
+        "reasonably priced"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "injury",
+      "headword": "injury",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["health-sport"],
+      "definition": "Physical harm to a part of the body, usually caused by an accident or by playing sport.",
+      "examples": ["He missed the whole season because of a knee injury."],
+      "collocations": [
+        "suffer an injury",
+        "a serious injury",
+        "a sports injury"
+      ]
+    },
+    {
+      "id": "sprain",
+      "headword": "sprain",
+      "pos": "verb",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "definition": "To hurt a joint, such as your ankle or wrist, by twisting it suddenly.",
+      "examples": ["I sprained my ankle when I missed the last step."],
+      "collocations": ["sprain your ankle", "sprain your wrist", "a bad sprain"]
+    },
+    {
+      "id": "prescription",
+      "headword": "prescription",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "sets": ["false-friends"],
+      "definition": "A piece of paper or an electronic record from a doctor that allows you to get a particular medicine.",
+      "examples": [
+        "The doctor gave me a prescription for antibiotics.",
+        "You can only buy this cream with a prescription."
+      ],
+      "collocations": [
+        "a prescription for something",
+        "on prescription",
+        "collect a prescription"
+      ],
+      "falseFriend": {
+        "spanish": "receta (médica)",
+        "trap": {
+          "en": "A recipe is instructions for cooking. A doctor's note for medicine is a prescription.",
+          "es": "La «receta del médico» es a prescription. Recipe solo se usa para cocinar."
+        }
+      }
+    },
+    {
+      "id": "constipated",
+      "headword": "constipated",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "sets": ["false-friends"],
+      "definition": "Unable to empty your bowels easily.",
+      "examples": ["Eating more fibre helps if you often feel constipated."],
+      "falseFriend": {
+        "spanish": "constipado (resfriado)",
+        "trap": {
+          "en": "Constipated has nothing to do with a cold. If you have a cold, say I've got a cold or I've got a blocked nose.",
+          "es": "«Estoy constipado» (resfriado) NO es I'm constipated, que significa «estreñido». Di I've got a cold."
+        }
+      }
+    },
+    {
+      "id": "work-out",
+      "headword": "work out",
+      "pos": "phrasal-verb",
+      "level": "B1",
+      "topics": ["health-sport"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To do physical exercise in order to keep fit or build muscle.",
+      "examples": [
+        "I work out at the gym three times a week.",
+        "She works out every morning before breakfast."
+      ],
+      "collocations": ["work out at the gym", "work out regularly"]
+    },
+    {
+      "id": "check-up",
+      "headword": "check-up",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "definition": "A routine medical or dental examination to see whether you are healthy.",
+      "examples": ["I'm due for a dental check-up next month."],
+      "collocations": [
+        "have a check-up",
+        "a routine check-up",
+        "a medical check-up"
+      ]
+    },
+    {
+      "id": "side-effect",
+      "headword": "side effect",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "definition": "An unwanted effect of a medicine, in addition to the way it is meant to help you.",
+      "examples": [
+        "The tablets can cause side effects such as headaches and drowsiness."
+      ],
+      "collocations": [
+        "a common side effect",
+        "suffer from side effects",
+        "cause side effects"
+      ]
+    },
+    {
+      "id": "allergic",
+      "headword": "allergic",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "definition": "Having a bad physical reaction, such as a rash or sneezing, to a certain food, substance or animal.",
+      "examples": [
+        "My brother is allergic to nuts, so he always checks the labels."
+      ],
+      "collocations": ["allergic to something", "an allergic reaction"]
+    },
+    {
+      "id": "cut-down-on",
+      "headword": "cut down on",
+      "pos": "phrasal-verb",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To eat, drink or do less of something, usually because it is bad for you.",
+      "examples": [
+        "My doctor told me to cut down on salt and fried food.",
+        "I'm trying to cut down on coffee."
+      ],
+      "collocations": [
+        "cut down on sugar",
+        "cut down on alcohol",
+        "cut down on smoking"
+      ]
+    },
+    {
+      "id": "come-down-with",
+      "headword": "come down with",
+      "pos": "phrasal-verb",
+      "level": "C1",
+      "topics": ["health-sport"],
+      "sets": ["phrasal-verbs"],
+      "definition": "To start to suffer from an illness, usually a mild one.",
+      "examples": ["Half the office has come down with the flu this week."],
+      "collocations": ["come down with a cold", "come down with flu"],
+      "synonyms": ["catch", "go down with"]
+    },
+    {
+      "id": "sore",
+      "headword": "sore",
+      "pos": "adjective",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "definition": "Painful and uncomfortable, especially after exercise or because of an infection.",
+      "examples": [
+        "My legs are sore after yesterday's run.",
+        "I woke up with a sore throat."
+      ],
+      "collocations": ["a sore throat", "sore muscles", "feel sore"]
+    },
+    {
+      "id": "stamina",
+      "headword": "stamina",
+      "pos": "noun",
+      "level": "C1",
+      "topics": ["health-sport"],
+      "definition": "The physical or mental strength that lets you keep doing something difficult for a long time.",
+      "examples": [
+        "Marathon runners need great stamina as well as good technique."
+      ],
+      "collocations": [
+        "build up stamina",
+        "have plenty of stamina",
+        "physical stamina"
+      ],
+      "synonyms": ["endurance"]
+    },
+    {
+      "id": "accident-and-emergency",
+      "headword": "A&E",
+      "pos": "noun",
+      "level": "B2",
+      "topics": ["health-sport"],
+      "definition": "The part of a hospital in Britain that treats people who need urgent help, for example after an accident. Its full name is accident and emergency.",
+      "examples": ["We spent four hours in A&E after he fell off his bike."],
+      "collocations": ["go to A&E", "be taken to A&E", "an A&E department"],
+      "synonyms": ["casualty"]
+    },
+    {
+      "id": "chemists",
+      "headword": "chemist's",
+      "pos": "noun",
+      "level": "B1",
+      "topics": ["health-sport"],
+      "definition": "A shop where you can buy medicine, toiletries and other health products. In Britain it is also called a pharmacy.",
+      "examples": ["I'll pop into the chemist's to pick up some cough syrup."],
+      "collocations": [
+        "go to the chemist's",
+        "the chemist's on the high street"
+      ],
+      "synonyms": ["pharmacy"]
+    },
+    {
+      "id": "intoxicated",
+      "headword": "intoxicated",
+      "pos": "adjective",
+      "level": "C1",
+      "topics": ["health-sport"],
+      "sets": ["false-friends"],
+      "definition": "Affected by alcohol or drugs so that you cannot think or behave normally.",
+      "examples": [
+        "The driver was clearly intoxicated and was arrested at the scene."
+      ],
+      "collocations": ["heavily intoxicated", "driving while intoxicated"],
+      "synonyms": ["drunk"],
+      "register": "formal",
+      "falseFriend": {
+        "spanish": "intoxicado (por comida en mal estado)",
+        "trap": {
+          "en": "Intoxicated means drunk or under the influence of drugs. If bad food made you ill, you have food poisoning.",
+          "es": "«Me intoxiqué con el marisco» se dice I got food poisoning. Intoxicated significa «ebrio» o «bajo los efectos de drogas»."
+        }
+      }
+    }
+  ]
+}
