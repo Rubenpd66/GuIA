@@ -85,13 +85,14 @@ Cada token es una variable CSS (`--paper`, `--ink`…) que Tailwind expone como 
 | `hairline` | #C9D3CE | #3D2A31 | divisores decorativos |
 | `cover` | #6B1F33 (tapa burdeos) | #78263D | marca, navegación, botón principal |
 | `on-cover` | #EEF2EF | #F3EEE8 | texto sobre `cover` |
-| `foil` | #C9A04A (oro) | #D6B062 | solo sobre la tapa y para el nivel C |
+| `foil` | #C9A04A (oro) | #D6B062 | solo sobre la tapa |
+| `foil-ink` | #86651C | #D6B062 | oro legible sobre papel: sellos y casilla del nivel C |
 | `entry` | #1E6E50 | #6FCB9F | acierto, sellos de entrada |
 | `refusal` | #A8261F | #F28B80 | error |
 | `guilloche` | #6E978C | #5A4A50 | patrón decorativo, nunca detrás de texto |
 | `focus` | #1A2332 | #D6B062 | anillo de foco (sobre `cover`: `foil`) |
 
-Pares obligatorios (lo comprueba un test): `ink` e `ink-soft` ≥ 4.5:1 sobre `paper` y `sheet`; `on-cover` y `foil` ≥ 4.5:1 sobre `cover`; `entry` y `refusal` ≥ 4.5:1 sobre `paper` y `sheet`; `line` y `focus` ≥ 3:1 sobre `paper` y `sheet`.
+Pares obligatorios (lo comprueba un test): `ink` e `ink-soft` ≥ 4.5:1 sobre `paper` y `sheet`; `on-cover` y `foil` ≥ 4.5:1 sobre `cover`; `foil-ink` ≥ 4.5:1 sobre `paper` y `sheet`; `entry` y `refusal` ≥ 4.5:1 sobre `paper` y `sheet`; `line` y `focus` ≥ 3:1 sobre `paper` y `sheet`.
 
 **Tipografía** (`next/font/google`, autoalojada).
 - Archivo (variable, ejes `wght` y `wdth`): interfaz en anchura normal; titulares y sellos en anchura expandida (`font-stretch` 112–125 %).

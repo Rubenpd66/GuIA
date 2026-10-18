@@ -47,10 +47,10 @@ export default async function HomePage() {
             <li
               key={level}
               className={cx(
-                "flex size-20 items-center justify-center rounded-full border-2 border-dashed text-xl font-extrabold font-expanded",
+                "flex size-16 items-center justify-center rounded-full border-2 border-dashed text-lg font-extrabold font-expanded sm:size-20 sm:text-xl",
                 i % 2 === 0 ? "-rotate-6" : "rotate-3",
                 level === "C"
-                  ? "border-foil text-ink"
+                  ? "border-foil-ink text-ink"
                   : "border-line text-ink-soft",
               )}
             >

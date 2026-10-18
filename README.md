@@ -10,14 +10,14 @@ Plataforma web no oficial para preparar el Aptis ESOL General con objetivo C, pe
 
 ## Scripts
 
-| Comando | Qué hace |
-|---|---|
-| `npm run dev` | Servidor de desarrollo en http://localhost:3000 |
-| `npm run build` | Valida el contenido y genera la build de producción |
-| `npm run check` | Tipos, lint, tests y validación del contenido |
-| `npm test` | Tests unitarios (Vitest) |
-| `npm run validate:content` | Valida todos los JSON de `content/` |
-| `npm run format` | Formatea el código con Prettier |
+| Comando                    | Qué hace                                            |
+| -------------------------- | --------------------------------------------------- |
+| `npm run dev`              | Servidor de desarrollo en http://localhost:3000     |
+| `npm run build`            | Valida el contenido y genera la build de producción |
+| `npm run check`            | Tipos, lint, tests y validación del contenido       |
+| `npm test`                 | Tests unitarios (Vitest)                            |
+| `npm run validate:content` | Valida todos los JSON de `content/`                 |
+| `npm run format`           | Formatea el código con Prettier                     |
 
 ## Documentación
 

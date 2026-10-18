@@ -6,7 +6,7 @@ export type StampLevel = "A2" | "B1" | "B2" | "C";
 
 const TONES = {
   entry: "text-entry",
-  foil: "text-foil",
+  foil: "text-foil-ink",
   ink: "text-ink",
 } as const;
 

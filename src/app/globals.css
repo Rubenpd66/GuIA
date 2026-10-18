@@ -16,6 +16,7 @@
   --cover: #6b1f33;
   --on-cover: #eef2ef;
   --foil: #c9a04a;
+  --foil-ink: #86651c;
   --entry: #1e6e50;
   --refusal: #a8261f;
   --guilloche: #6e978c;
@@ -33,6 +34,7 @@
   --cover: #78263d;
   --on-cover: #f3eee8;
   --foil: #d6b062;
+  --foil-ink: #d6b062;
   --entry: #6fcb9f;
   --refusal: #f28b80;
   --guilloche: #5a4a50;
@@ -75,6 +77,7 @@
   --color-cover: var(--cover);
   --color-on-cover: var(--on-cover);
   --color-foil: var(--foil);
+  --color-foil-ink: var(--foil-ink);
   --color-entry: var(--entry);
   --color-refusal: var(--refusal);
   --color-guilloche: var(--guilloche);

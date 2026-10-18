@@ -6,6 +6,8 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
+  // Development only: keep the Next.js badge away from the spine's language and theme controls.
+  devIndicators: { position: "top-right" },
   turbopack: {
     // Ignore stray lockfiles in parent folders.
     root: process.cwd(),

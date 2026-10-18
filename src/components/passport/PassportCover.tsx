@@ -11,12 +11,12 @@ export function PassportCover({ className }: { className?: string }) {
     <div
       aria-hidden="true"
       className={cx(
-        "relative isolate flex aspect-[5/7] w-56 flex-col items-center justify-between overflow-hidden rounded-[14px] bg-cover px-6 py-8 text-foil sm:w-64",
+        "relative isolate flex aspect-[5/7] w-60 flex-col items-center justify-between overflow-hidden rounded-[14px] bg-cover px-4 py-8 text-foil sm:w-64 sm:px-6",
         "shadow-[inset_12px_0_0_-8px_color-mix(in_srgb,var(--cover)_60%,black)]",
         className,
       )}
     >
-      <p className="text-center text-xs leading-relaxed font-semibold tracking-[0.18em]">
+      <p className="text-center text-xs leading-relaxed font-semibold tracking-[0.12em] whitespace-nowrap sm:tracking-[0.18em]">
         PASAPORTE DE IDIOMAS
         <br />
         LANGUAGE PASSPORT

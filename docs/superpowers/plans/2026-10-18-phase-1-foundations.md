@@ -353,3 +353,18 @@ expect(guillochePath({ cx: 50, cy: 50, R: 5, r: 3, d: 5, steps: 200 })).toBe(p)
   - Aviso de no afiliación visible en todas las páginas; sin desbordamiento horizontal a 375 px.
 - [ ] **Step 3:** corregir lo encontrado y repetir el paso 1.
 - [ ] **Step 4: Commit** `chore: phase 1 verification fixes` (si hubo cambios).
+
+---
+
+## Desviaciones durante la ejecución (2026-10-18)
+
+- `create-next-app@16.4.2` integra Tailwind con `@tailwindcss/turbopack` (no PostCSS) y activa `cacheComponents` y `partialPrefetching`. Se mantienen.
+- `@types/node` sube a 24: Vitest 5 exige ≥ 22.
+- `vitest.config.ts` pasa a `vitest.config.mts` (ESM en un proyecto CommonJS).
+- `typecheck` ejecuta `next typegen` antes de `tsc` para generar `PageProps`, `LayoutProps` y `next/root-params`.
+- `readContentDir` vive en `src/lib/content/fs.ts` (testeable) y el script solo lo invoca.
+- `dynamicParams` no existe con Cache Components: las partes desconocidas llaman a `notFound()` dentro de `<Suspense>` (navegación instantánea). Como el streaming ya empezó, responden 200 con `<meta name="robots" content="noindex">` y la página 404.
+- La ruta comodín `[...rest]` exporta `instant = false`: solo pinta el 404.
+- La página `/design` lee `globals.css` dentro de una función con `"use cache"`.
+- Nuevo token `foil-ink` (#86651C / #D6B062): el oro normal sobre papel quedaba en 2.16:1.
+- next-themes provoca en `next dev` el aviso «Encountered a script tag…» por la validación de navegación instantánea de Next 16.4; no aparece en producción (comprobado con `next start`).

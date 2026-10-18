@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { PageHeader } from "@/components/ui/PageHeader";
@@ -37,9 +38,25 @@ export async function generateMetadata({
   return isExamPart(part) ? { title: await titleOf(part) } : {};
 }
 
-export default async function PracticePartPage({
-  params,
-}: PageProps<"/[locale]/practice/[part]">) {
+type Params = PageProps<"/[locale]/practice/[part]">["params"];
+
+/** Reading the part inside Suspense keeps client navigation to this route instant. */
+export default function PracticePartPage({ params }: { params: Params }) {
+  return (
+    <Suspense
+      fallback={
+        <div
+          aria-hidden="true"
+          className="h-24 max-w-md rounded-control bg-hairline"
+        />
+      }
+    >
+      <PracticePart params={params} />
+    </Suspense>
+  );
+}
+
+async function PracticePart({ params }: { params: Params }) {
   const { part } = await params;
   // Unknown parts are not prerendered and must not render a trainer.
   if (!isExamPart(part)) notFound();

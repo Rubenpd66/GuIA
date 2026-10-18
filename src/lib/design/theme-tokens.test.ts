@@ -17,6 +17,8 @@ const PAIRS = [
   ["ink-soft", "sheet", 4.5],
   ["on-cover", "cover", 4.5],
   ["foil", "cover", 4.5],
+  ["foil-ink", "paper", 4.5],
+  ["foil-ink", "sheet", 4.5],
   ["entry", "paper", 4.5],
   ["entry", "sheet", 4.5],
   ["refusal", "paper", 4.5],

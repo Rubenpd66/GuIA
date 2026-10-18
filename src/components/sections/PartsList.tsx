@@ -38,11 +38,11 @@ export async function PartsList({ headingLevel }: { headingLevel: 2 | 3 }) {
                     href={{ pathname: "/practice/[part]", params: { part } }}
                     className="flex min-h-14 items-baseline gap-3 py-3 transition-colors duration-150 hover:text-cover dark:hover:text-foil"
                   >
-                    <span className="w-14 shrink-0 text-sm font-semibold text-ink-soft tabular-nums">
-                      {number === null
-                        ? ""
-                        : t("Practice.partNumber", { number })}
-                    </span>
+                    {number === null ? null : (
+                      <span className="w-14 shrink-0 text-sm font-semibold text-ink-soft tabular-nums">
+                        {t("Practice.partNumber", { number })}
+                      </span>
+                    )}
                     <span className="font-medium">{t(`Parts.${part}`)}</span>
                   </Link>
                 </li>

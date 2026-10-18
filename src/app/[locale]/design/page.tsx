@@ -19,6 +19,7 @@ const TOKENS = [
   "cover",
   "on-cover",
   "foil",
+  "foil-ink",
   "entry",
   "refusal",
   "guilloche",

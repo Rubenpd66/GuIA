@@ -42,7 +42,7 @@ export function MoreDialog({
         onClick={(event) => {
           if (event.target === event.currentTarget) close();
         }}
-        className="fixed inset-x-0 top-auto bottom-0 m-0 max-h-[85dvh] w-full max-w-none rounded-t-page bg-paper p-0 text-ink backdrop:bg-[color-mix(in_srgb,var(--ink)_45%,transparent)]"
+        className="fixed inset-x-0 top-auto bottom-0 m-0 max-h-[85dvh] w-full max-w-none rounded-t-page bg-sheet p-0 text-ink backdrop:bg-[color-mix(in_srgb,var(--ink)_45%,transparent)]"
       >
         <div className="px-4 pt-3 pb-[calc(1rem+env(safe-area-inset-bottom))]">
           <div className="flex items-center justify-between">
