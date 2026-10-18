@@ -6,6 +6,8 @@ import { validExercises, validLessons } from "../../../tests/fixtures/content";
 import { readContentDir } from "./fs";
 import { validateContentSet } from "./validate";
 
+const BOM = String.fromCharCode(0xfeff);
+
 let dir: string;
 
 beforeEach(async () => {
@@ -20,7 +22,7 @@ describe("readContentDir", () => {
   it("reads nested JSON files, including Windows-saved ones with BOM and CRLF", async () => {
     await mkdir(join(dir, "exercises"));
     const windowsJson =
-      "﻿" +
+      BOM +
       JSON.stringify(
         { kind: "exercises", items: Object.values(validExercises) },
         null,

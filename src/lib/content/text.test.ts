@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { countGaps, countWords, findAmericanSpellings, stripBom } from "./text";
 
+const BOM = String.fromCharCode(0xfeff);
+
 describe("countWords", () => {
   it("counts contractions and hyphenated words as one word", () => {
     expect(countWords("It's a well-known fact — honestly.")).toBe(5);
@@ -26,7 +28,7 @@ describe("countGaps", () => {
 
 describe("stripBom", () => {
   it("removes a leading byte order mark only", () => {
-    expect(stripBom('﻿{"a":1}')).toBe('{"a":1}');
+    expect(stripBom(BOM + '{"a":1}')).toBe('{"a":1}');
     expect(stripBom('{"a":1}')).toBe('{"a":1}');
   });
 });
