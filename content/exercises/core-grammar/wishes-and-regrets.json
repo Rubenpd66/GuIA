@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-wish-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "wishes-and-regrets",
+      "prompt": "I'm tired of the cold. I wish it ___ summer.",
+      "options": ["were", "is", "would be"],
+      "answer": 0,
+      "explanation": {
+        "en": "Wish + past simple for an unreal present.",
+        "es": "Deseo sobre el presente: pasado (I wish it were)."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: were for an unreal present."
+        },
+        {
+          "en": "The present simple does not express a wish."
+        },
+        {
+          "en": "Would is not used for a state after wish it."
+        }
+      ]
+    },
+    {
+      "id": "cg-wish-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "wishes-and-regrets",
+      "prompt": "I wish I ___ accepted the offer last year; the company has done brilliantly.",
+      "options": ["had", "have", "would have"],
+      "answer": 0,
+      "explanation": {
+        "en": "Wish + past perfect for a regret about the past."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: had accepted."
+        },
+        {
+          "en": "Have accepted is present perfect."
+        },
+        {
+          "en": "Would have is not used after wish."
+        }
+      ]
+    },
+    {
+      "id": "cg-wish-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "wishes-and-regrets",
+      "prompt": "I wish you ___ leave your shoes in the hall; I keep tripping over them.",
+      "options": ["wouldn't", "don't", "won't"],
+      "answer": 0,
+      "explanation": {
+        "en": "Wish + would for a habit that annoys you.",
+        "es": "Quejas sobre otros: wish + would."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: complaint about someone else's habit."
+        },
+        {
+          "en": "Present simple does not follow wish."
+        },
+        {
+          "en": "Won't does not follow wish."
+        }
+      ]
+    },
+    {
+      "id": "cg-wish-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "wishes-and-regrets",
+      "prompt": "I'd rather you ___ the receipt; I might need it.",
+      "options": ["kept", "to keep", "keeping"],
+      "answer": 0,
+      "explanation": {
+        "en": "Would rather + subject + past simple for a present or future preference.",
+        "es": "Con otro sujeto: would rather + pasado."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: past simple."
+        },
+        {
+          "en": "To keep cannot follow would rather you."
+        },
+        {
+          "en": "Keeping cannot follow would rather you."
+        }
+      ]
+    },
+    {
+      "id": "cg-wish-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "wishes-and-regrets",
+      "prompt": "If only we ___ the earlier train; we would be home by now.",
+      "options": ["had caught", "caught", "would catch"],
+      "answer": 0,
+      "explanation": {
+        "en": "If only + past perfect for a regret about the past."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: past perfect."
+        },
+        {
+          "en": "Past simple would refer to the present."
+        },
+        {
+          "en": "Would is not used after if only for your own actions."
+        }
+      ]
+    }
+  ]
+}

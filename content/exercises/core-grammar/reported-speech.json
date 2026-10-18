@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-reported-speech-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "reported-speech",
+      "prompt": "When I met Ben in 2015, he told me he ___ in Leeds at the time.",
+      "options": ["lives", "was living", "has lived"],
+      "answer": 1,
+      "explanation": {
+        "en": "After a past reporting verb about a past situation, use the past continuous.",
+        "es": "Verbo en pasado: backshift (was living)."
+      },
+      "optionNotes": [
+        {
+          "en": "The present simple does not fit a situation in 2015."
+        },
+        {
+          "en": "Correct: backshifted past continuous."
+        },
+        {
+          "en": "The present perfect links to now, not to 2015."
+        }
+      ]
+    },
+    {
+      "id": "cg-reported-speech-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "reported-speech",
+      "prompt": "The tutor asked us ___ our essays by Friday.",
+      "options": ["handing in", "to hand in", "that hand in"],
+      "answer": 1,
+      "explanation": {
+        "en": "Ask + object takes the to-infinitive for requests."
+      },
+      "optionNotes": [
+        {
+          "en": "The -ing form does not follow ask + object."
+        },
+        {
+          "en": "Correct: ask + object + to-infinitive."
+        },
+        {
+          "en": "A that-clause is not used for a request in this pattern."
+        }
+      ]
+    },
+    {
+      "id": "cg-reported-speech-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "reported-speech",
+      "prompt": "She asked me ___ I wanted to join them for dinner.",
+      "options": ["whether", "that", "what"],
+      "answer": 0,
+      "explanation": {
+        "en": "A yes/no question is reported with if or whether.",
+        "es": "Una pregunta de sí/no se transmite con if/whether."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: whether introduces a yes/no question."
+        },
+        {
+          "en": "That introduces statements, not questions."
+        },
+        {
+          "en": "What would need a missing object, which does not fit."
+        }
+      ]
+    },
+    {
+      "id": "cg-reported-speech-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "reported-speech",
+      "prompt": "The pilot told the passengers ___ their seat belts fastened.",
+      "options": ["keeping", "to keep", "that keep"],
+      "answer": 1,
+      "explanation": {
+        "en": "Tell + object takes the to-infinitive for instructions.",
+        "es": "Tell + persona + to + infinitivo."
+      },
+      "optionNotes": [
+        {
+          "en": "The -ing form does not follow tell + object."
+        },
+        {
+          "en": "Correct: instruction pattern."
+        },
+        {
+          "en": "That keep is not grammatical here."
+        }
+      ]
+    },
+    {
+      "id": "cg-reported-speech-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "media",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "reported-speech",
+      "prompt": "\"Did you see the programme?\" she asked. She asked me ___ the programme.",
+      "options": ["if I had seen", "had I seen", "if had I seen"],
+      "answer": 0,
+      "explanation": {
+        "en": "Reported yes/no questions use if, statement order and backshift.",
+        "es": "if + sujeto + had seen; sin inversión."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: if + subject + past perfect."
+        },
+        {
+          "en": "Inversion is not used without if in a reported question."
+        },
+        {
+          "en": "Do not combine if with inversion."
+        }
+      ]
+    }
+  ]
+}

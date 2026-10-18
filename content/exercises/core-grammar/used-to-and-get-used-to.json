@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-used-to-and-get-used-to-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "used-to-and-get-used-to",
+      "prompt": "There ___ be a cinema on this street, but it closed years ago.",
+      "options": ["used to", "is used to", "got used to"],
+      "answer": 0,
+      "explanation": {
+        "en": "A past state that no longer exists: used to + base form.",
+        "es": "\"Solía haber un cine\": used to + infinitivo."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: a past state that has changed."
+        },
+        {
+          "en": "Is used to needs -ing or a noun, not a base verb."
+        },
+        {
+          "en": "Got used to needs -ing or a noun, not a base verb."
+        }
+      ]
+    },
+    {
+      "id": "cg-used-to-and-get-used-to-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "used-to-and-get-used-to",
+      "prompt": "I'm still not used to ___ in an open-plan office.",
+      "options": ["work", "working", "worked"],
+      "answer": 1,
+      "explanation": {
+        "en": "After be used to, the verb takes -ing.",
+        "es": "En be used to, to es preposición: lleva -ing."
+      },
+      "optionNotes": [
+        {
+          "en": "The base form follows used to for past habits, not be used to."
+        },
+        {
+          "en": "Correct: -ing after be used to."
+        },
+        {
+          "en": "The past form is never used after to here."
+        }
+      ]
+    },
+    {
+      "id": "cg-used-to-and-get-used-to-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "used-to-and-get-used-to",
+      "prompt": "It was hard at first, but now I'm completely ___ the pace of life here.",
+      "options": ["used to", "use to", "used"],
+      "answer": 0,
+      "explanation": {
+        "en": "Be used to + noun means familiar with."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: be used to + noun."
+        },
+        {
+          "en": "Use to is only for past habits and has no be before it."
+        },
+        {
+          "en": "Used alone needs the preposition to."
+        }
+      ]
+    },
+    {
+      "id": "cg-used-to-and-get-used-to-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "used-to-and-get-used-to",
+      "prompt": "It took her months to get used to ___ at five every morning for swimming practice.",
+      "options": ["get up", "getting up", "got up"],
+      "answer": 1,
+      "explanation": {
+        "en": "Get used to takes -ing.",
+        "es": "Get used to lleva -ing."
+      },
+      "optionNotes": [
+        {
+          "en": "After to as a preposition, use -ing, not the base form."
+        },
+        {
+          "en": "Correct: -ing after get used to."
+        },
+        {
+          "en": "The past form is not possible after to here."
+        }
+      ]
+    },
+    {
+      "id": "cg-used-to-and-get-used-to-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "used-to-and-get-used-to",
+      "prompt": "When we were kids, we ___ build dens in the woods every Saturday.",
+      "options": ["were used to", "got used to", "would"],
+      "answer": 2,
+      "explanation": {
+        "en": "Would + base verb can describe repeated past actions.",
+        "es": "Would + infinitivo: acciones repetidas en el pasado."
+      },
+      "optionNotes": [
+        {
+          "en": "Be used to means familiar with and needs -ing."
+        },
+        {
+          "en": "Get used to means become familiar with and needs -ing."
+        },
+        {
+          "en": "Correct: would for a repeated past action."
+        }
+      ]
+    }
+  ]
+}

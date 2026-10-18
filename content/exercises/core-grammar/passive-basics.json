@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-passive-basics-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "passive-basics",
+      "prompt": "The monthly report ___ by the finance team.",
+      "options": ["is prepared", "prepares", "is preparing"],
+      "answer": 0,
+      "explanation": {
+        "en": "The report receives the action and the team is the agent, so the present simple passive is needed.",
+        "es": "El informe recibe la acción: pasiva (is prepared)."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: be + past participle, with the doer introduced by by."
+        },
+        {
+          "en": "Active form: the report cannot prepare anything."
+        },
+        {
+          "en": "Active continuous form, and it does not fit a regular monthly task."
+        }
+      ]
+    },
+    {
+      "id": "cg-passive-basics-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "passive-basics",
+      "prompt": "The old cinema ___ into a library last year.",
+      "options": ["was converted", "converted", "has been converted"],
+      "answer": 0,
+      "explanation": {
+        "en": "Last year is a finished time and the cinema did not convert itself, so use the past simple passive."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: past simple passive with a finished time."
+        },
+        {
+          "en": "Active past simple: the cinema would be doing the converting."
+        },
+        {
+          "en": "The present perfect cannot be used with last year."
+        }
+      ]
+    },
+    {
+      "id": "cg-passive-basics-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "passive-basics",
+      "prompt": "Sorry, you can't go in yet. The shop ___ at the moment.",
+      "options": ["is being cleaned", "is cleaned", "has cleaned"],
+      "answer": 0,
+      "explanation": {
+        "en": "At the moment points to an action in progress, so use the present continuous passive.",
+        "es": "«Se está limpiando» es is being cleaned."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: is/are being + past participle."
+        },
+        {
+          "en": "The present simple passive describes a habit, not something happening now."
+        },
+        {
+          "en": "Active present perfect: the shop is not the one cleaning."
+        }
+      ]
+    },
+    {
+      "id": "cg-passive-basics-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "passive-basics",
+      "prompt": "Customers ___ immediately if their data has been exposed.",
+      "options": ["must be informed", "must informed", "must be inform"],
+      "answer": 0,
+      "explanation": {
+        "en": "After a modal, the passive is be + past participle.",
+        "es": "Con un modal: must be informed."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: modal + be + past participle."
+        },
+        {
+          "en": "The modal needs be before the participle."
+        },
+        {
+          "en": "The participle (informed) is needed, not the base form."
+        }
+      ]
+    },
+    {
+      "id": "cg-passive-basics-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "environment",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "passive-basics",
+      "prompt": "Several rare birds ___ near the reservoir since the building work began.",
+      "options": ["have been seen", "were seen", "are seen"],
+      "answer": 0,
+      "explanation": {
+        "en": "Since introduces a period up to now, so use the present perfect passive.",
+        "es": "Since + período hasta ahora: have been seen."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: present perfect passive with since."
+        },
+        {
+          "en": "The past simple passive does not combine with since."
+        },
+        {
+          "en": "The present simple passive does not combine with since for a period up to now."
+        }
+      ]
+    }
+  ]
+}

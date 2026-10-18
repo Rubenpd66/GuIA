@@ -1,0 +1,197 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-technology-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "technology",
+      "difficulty": 3,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "device",
+        "fault",
+        "advanced",
+        "outdated",
+        "set up",
+        "delete",
+        "browse",
+        "reliable",
+        "wireless",
+        "upload"
+      ],
+      "items": [
+        {
+          "id": "cv-technology-synonyms-01-a",
+          "prompt": "gadget",
+          "answer": 0,
+          "explanation": {
+            "en": "A gadget is a small device."
+          }
+        },
+        {
+          "id": "cv-technology-synonyms-01-b",
+          "prompt": "glitch",
+          "answer": 1,
+          "explanation": {
+            "en": "A glitch is a small fault in a system.",
+            "es": "Glitch es un fallo técnico leve."
+          }
+        },
+        {
+          "id": "cv-technology-synonyms-01-c",
+          "prompt": "cutting-edge",
+          "answer": 2,
+          "explanation": {
+            "en": "Cutting-edge technology is the most advanced available."
+          }
+        },
+        {
+          "id": "cv-technology-synonyms-01-d",
+          "prompt": "obsolete",
+          "answer": 3,
+          "explanation": {
+            "en": "Obsolete means no longer used because something better exists."
+          }
+        },
+        {
+          "id": "cv-technology-synonyms-01-e",
+          "prompt": "install",
+          "answer": 4,
+          "explanation": {
+            "en": "To install software is to set it up so it works."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-technology-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 2,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "charge",
+        "log",
+        "password",
+        "connection",
+        "delete",
+        "download",
+        "battery",
+        "online",
+        "screen",
+        "browse"
+      ],
+      "items": [
+        {
+          "id": "cv-technology-usages-01-a",
+          "prompt": "My phone is almost dead, so I need to ___ it.",
+          "answer": 0,
+          "explanation": {
+            "en": "To charge a phone is to put electricity into its battery."
+          }
+        },
+        {
+          "id": "cv-technology-usages-01-b",
+          "prompt": "You need to ___ in with your email address first.",
+          "answer": 1,
+          "explanation": {
+            "en": "We log in to an account.",
+            "es": "Log in = iniciar sesión."
+          }
+        },
+        {
+          "id": "cv-technology-usages-01-c",
+          "prompt": "I can't open the video because my internet ___ is so slow.",
+          "answer": 3,
+          "explanation": {
+            "en": "A connection is a link to the internet."
+          }
+        },
+        {
+          "id": "cv-technology-usages-01-d",
+          "prompt": "Please ___ the old photos you do not need to free up some space.",
+          "answer": 4,
+          "explanation": {
+            "en": "To delete is to remove something from a device."
+          }
+        },
+        {
+          "id": "cv-technology-usages-01-e",
+          "prompt": "Choose a strong ___ with letters and numbers.",
+          "answer": 2,
+          "explanation": {
+            "en": "A password is a secret word that protects your account."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-technology-collocations-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "technology",
+      "difficulty": 3,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "update",
+        "virus",
+        "breach",
+        "intelligence",
+        "signal",
+        "password",
+        "upload",
+        "charger",
+        "folder",
+        "wallpaper"
+      ],
+      "items": [
+        {
+          "id": "cv-technology-collocations-01-a",
+          "prompt": "software …",
+          "answer": 0,
+          "explanation": {
+            "en": "A software update improves a program."
+          }
+        },
+        {
+          "id": "cv-technology-collocations-01-b",
+          "prompt": "a computer …",
+          "answer": 1,
+          "explanation": {
+            "en": "A computer virus is a harmful program."
+          }
+        },
+        {
+          "id": "cv-technology-collocations-01-c",
+          "prompt": "a data …",
+          "answer": 2,
+          "explanation": {
+            "en": "A data breach happens when private information is stolen or leaked."
+          }
+        },
+        {
+          "id": "cv-technology-collocations-01-d",
+          "prompt": "artificial …",
+          "answer": 3,
+          "explanation": {
+            "en": "Artificial intelligence is computers doing tasks that need human thinking."
+          }
+        },
+        {
+          "id": "cv-technology-collocations-01-e",
+          "prompt": "a weak mobile …",
+          "answer": 4,
+          "explanation": {
+            "en": "A weak signal means poor phone coverage.",
+            "es": "Mobile = móvil en inglés británico."
+          }
+        }
+      ]
+    }
+  ]
+}

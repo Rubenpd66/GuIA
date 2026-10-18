@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-participle-clauses-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "participle-clauses",
+      "prompt": "___ along the river, we passed several old mills.",
+      "options": ["Walk", "Walking", "Walked"],
+      "answer": 1,
+      "explanation": {
+        "en": "An active action at the same time takes the -ing form."
+      },
+      "optionNotes": [
+        {
+          "en": "The base form cannot start a participle clause."
+        },
+        {
+          "en": "Correct: active, simultaneous action."
+        },
+        {
+          "en": "The -ed form would have a passive meaning."
+        }
+      ]
+    },
+    {
+      "id": "cg-participle-clauses-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "participle-clauses",
+      "prompt": "The novel, ___ in 1925, is still widely read.",
+      "options": ["publishing", "published", "having published"],
+      "answer": 1,
+      "explanation": {
+        "en": "The novel was published (passive), so use the -ed participle.",
+        "es": "La novela fue publicada: participio -ed."
+      },
+      "optionNotes": [
+        {
+          "en": "Active -ing would mean the novel published something."
+        },
+        {
+          "en": "Correct: passive meaning."
+        },
+        {
+          "en": "Having published is active."
+        }
+      ]
+    },
+    {
+      "id": "cg-participle-clauses-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "participle-clauses",
+      "prompt": "___ a bit rough this morning, I think I'll stay in bed.",
+      "options": ["Feel", "Feeling", "To feeling"],
+      "answer": 1,
+      "explanation": {
+        "en": "A participle clause giving a reason uses -ing."
+      },
+      "optionNotes": [
+        {
+          "en": "The base form cannot begin a participle clause."
+        },
+        {
+          "en": "Correct: -ing for a reason."
+        },
+        {
+          "en": "To feeling is not a possible form."
+        }
+      ]
+    },
+    {
+      "id": "cg-participle-clauses-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "participle-clauses",
+      "prompt": "The residents ___ near the factory have complained about the smell.",
+      "options": ["living", "lived", "having lived"],
+      "answer": 0,
+      "explanation": {
+        "en": "A reduced relative clause with active meaning takes -ing: residents who live.",
+        "es": "Equivale a who live: living."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: reduced relative clause, active."
+        },
+        {
+          "en": "The -ed form is not used for an active, ongoing situation."
+        },
+        {
+          "en": "Having lived stresses an earlier, finished action."
+        }
+      ]
+    },
+    {
+      "id": "cg-participle-clauses-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "participle-clauses",
+      "prompt": "___ by the delay, the passengers demanded a refund.",
+      "options": ["Annoying", "Annoyed", "Having annoyed"],
+      "answer": 1,
+      "explanation": {
+        "en": "The passengers were annoyed (passive meaning), so use the -ed participle.",
+        "es": "Los pasajeros están molestos: annoyed."
+      },
+      "optionNotes": [
+        {
+          "en": "Annoying would mean the passengers annoyed someone."
+        },
+        {
+          "en": "Correct: passive meaning."
+        },
+        {
+          "en": "Having annoyed is active."
+        }
+      ]
+    }
+  ]
+}

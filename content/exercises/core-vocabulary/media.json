@@ -1,0 +1,196 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-media-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "media",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "headline",
+        "broadcast",
+        "subscription",
+        "censorship",
+        "documentary",
+        "journalist",
+        "tabloid",
+        "editor",
+        "viral",
+        "audience"
+      ],
+      "items": [
+        {
+          "id": "cv-media-definitions-01-a",
+          "prompt": "the title of a news story, printed in large letters",
+          "answer": 0,
+          "explanation": {
+            "en": "A headline is the title at the top of a news story."
+          }
+        },
+        {
+          "id": "cv-media-definitions-01-b",
+          "prompt": "a programme sent out on television or radio",
+          "answer": 1,
+          "explanation": {
+            "en": "A broadcast is a programme sent out on TV or radio."
+          }
+        },
+        {
+          "id": "cv-media-definitions-01-c",
+          "prompt": "a regular payment that gives you a magazine or an online service",
+          "answer": 2,
+          "explanation": {
+            "en": "You pay a subscription to receive something regularly.",
+            "es": "Subscription es 'suscripción'."
+          }
+        },
+        {
+          "id": "cv-media-definitions-01-d",
+          "prompt": "official control over what people may publish or say",
+          "answer": 3,
+          "explanation": {
+            "en": "Censorship is when authorities stop information from being published."
+          }
+        },
+        {
+          "id": "cv-media-definitions-01-e",
+          "prompt": "a film that presents real facts about a subject",
+          "answer": 4,
+          "explanation": {
+            "en": "A documentary is about real events and people, not fiction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-media-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "media",
+      "difficulty": 2,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "channel",
+        "episode",
+        "article",
+        "advert",
+        "review",
+        "press",
+        "screen",
+        "subtitles",
+        "remote",
+        "series"
+      ],
+      "items": [
+        {
+          "id": "cv-media-usages-01-a",
+          "prompt": "The match is on a different ___ tonight; try number seven.",
+          "answer": 0,
+          "explanation": {
+            "en": "A channel is a TV station."
+          }
+        },
+        {
+          "id": "cv-media-usages-01-b",
+          "prompt": "Did you see last night's ___ of that crime drama?",
+          "answer": 1,
+          "explanation": {
+            "en": "An episode is one programme in a series."
+          }
+        },
+        {
+          "id": "cv-media-usages-01-c",
+          "prompt": "There was an interesting ___ about robots in today's paper.",
+          "answer": 2,
+          "explanation": {
+            "en": "An article is a piece of writing in a newspaper or magazine.",
+            "es": "Article en prensa es 'artículo' periodístico."
+          }
+        },
+        {
+          "id": "cv-media-usages-01-d",
+          "prompt": "The ___ for the new trainers comes on between every programme.",
+          "answer": 3,
+          "explanation": {
+            "en": "An advert (advertisement) tries to sell a product."
+          }
+        },
+        {
+          "id": "cv-media-usages-01-e",
+          "prompt": "She wrote a glowing ___ of the film for the local paper.",
+          "answer": 4,
+          "explanation": {
+            "en": "A review gives an opinion about a film, book or show."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-media-collocations-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "media",
+      "difficulty": 3,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "news",
+        "page",
+        "conference",
+        "rating",
+        "viral",
+        "scoop",
+        "channel",
+        "remote",
+        "column",
+        "newspaper"
+      ],
+      "items": [
+        {
+          "id": "cv-media-collocations-01-a",
+          "prompt": "breaking …",
+          "answer": 0,
+          "explanation": {
+            "en": "Breaking news is news that has just happened."
+          }
+        },
+        {
+          "id": "cv-media-collocations-01-b",
+          "prompt": "the front …",
+          "answer": 1,
+          "explanation": {
+            "en": "The front page is the most important page of a newspaper."
+          }
+        },
+        {
+          "id": "cv-media-collocations-01-c",
+          "prompt": "hold a press …",
+          "answer": 2,
+          "explanation": {
+            "en": "A press conference is a meeting where journalists ask questions."
+          }
+        },
+        {
+          "id": "cv-media-collocations-01-d",
+          "prompt": "go …",
+          "answer": 4,
+          "explanation": {
+            "en": "Something goes viral when it spreads very fast online."
+          }
+        },
+        {
+          "id": "cv-media-collocations-01-e",
+          "prompt": "write a weekly … for a newspaper",
+          "answer": 8,
+          "explanation": {
+            "en": "A column is a regular article by the same writer."
+          }
+        }
+      ]
+    }
+  ]
+}

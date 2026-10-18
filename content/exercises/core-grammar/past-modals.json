@@ -1,0 +1,137 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-pastmod-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "past-modals",
+      "prompt": "The film was dreadful and the seats were uncomfortable. We ___ gone.",
+      "options": ["shouldn't have", "mustn't have", "hadn't"],
+      "answer": 0,
+      "explanation": {
+        "en": "Criticism of a past action: shouldn't have + participle."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: it was a mistake to go."
+        },
+        {
+          "en": "Mustn't have is not used for past criticism."
+        },
+        {
+          "en": "Hadn't gone does not fit the meaning of regret here."
+        }
+      ]
+    },
+    {
+      "id": "cg-pastmod-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "past-modals",
+      "prompt": "Why didn't you phone me? I ___ picked you up from the station.",
+      "options": ["would have", "had", "will have"],
+      "answer": 0,
+      "explanation": {
+        "en": "Imagined past result: would have + participle."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: would have picked."
+        },
+        {
+          "en": "Had does not fit."
+        },
+        {
+          "en": "Will have refers to the future."
+        }
+      ]
+    },
+    {
+      "id": "cg-pastmod-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "past-modals",
+      "prompt": "We arrived at the airport three hours early, so we ___ rushed.",
+      "options": ["needn't have", "didn't need", "can't have"],
+      "answer": 0,
+      "explanation": {
+        "en": "Needn't have + participle: we did it, but it was not necessary.",
+        "es": "Needn't have: lo hicimos sin necesidad."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: we rushed, but it was unnecessary."
+        },
+        {
+          "en": "Didn't need is followed by to, not by a participle."
+        },
+        {
+          "en": "Can't have is a deduction, not about necessity."
+        }
+      ]
+    },
+    {
+      "id": "cg-pastmod-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "technology",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "past-modals",
+      "prompt": "Yesterday we ___ to bring a laptop, so I left mine at home.",
+      "options": ["didn't need", "needn't", "needn't have"],
+      "answer": 0,
+      "explanation": {
+        "en": "Didn't need to + infinitive: it was not necessary, and no action followed.",
+        "es": "Didn't need to no dice si lo hiciste; needn't have sí."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: it was not necessary."
+        },
+        {
+          "en": "Needn't is not followed by to."
+        },
+        {
+          "en": "Needn't have needs a participle and means you did it."
+        }
+      ]
+    },
+    {
+      "id": "cg-pastmod-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "past-modals",
+      "prompt": "The car swerved at the last second. She ___ been killed.",
+      "options": ["could have", "can have", "couldn't have"],
+      "answer": 0,
+      "explanation": {
+        "en": "A possible past result that did not happen: could have."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: it was possible but did not happen."
+        },
+        {
+          "en": "Can have is not used for past possibility."
+        },
+        {
+          "en": "Couldn't have would mean it was impossible."
+        }
+      ]
+    }
+  ]
+}

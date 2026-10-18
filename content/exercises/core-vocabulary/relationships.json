@@ -1,0 +1,197 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-relationships-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 2,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "quarrel",
+        "friend",
+        "timid",
+        "respect",
+        "impolite",
+        "wedding",
+        "jealous",
+        "neighbour",
+        "stranger",
+        "cheerful"
+      ],
+      "items": [
+        {
+          "id": "cv-relationships-synonyms-01-a",
+          "prompt": "argument",
+          "answer": 0,
+          "explanation": {
+            "en": "A quarrel is an angry argument, often between people who know each other."
+          }
+        },
+        {
+          "id": "cv-relationships-synonyms-01-b",
+          "prompt": "mate",
+          "answer": 1,
+          "explanation": {
+            "en": "In British informal English, a mate is a friend."
+          }
+        },
+        {
+          "id": "cv-relationships-synonyms-01-c",
+          "prompt": "shy",
+          "answer": 2,
+          "explanation": {
+            "en": "A timid person is shy and nervous with other people."
+          }
+        },
+        {
+          "id": "cv-relationships-synonyms-01-d",
+          "prompt": "admire",
+          "answer": 3,
+          "explanation": {
+            "en": "If you admire someone you respect their qualities or achievements."
+          }
+        },
+        {
+          "id": "cv-relationships-synonyms-01-e",
+          "prompt": "rude",
+          "answer": 4,
+          "explanation": {
+            "en": "Impolite means not showing good manners; it is a more formal word than rude."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-relationships-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "acquaintance",
+        "sibling",
+        "divorce",
+        "jealous",
+        "engaged",
+        "relative",
+        "colleague",
+        "widow",
+        "stranger",
+        "reunion"
+      ],
+      "items": [
+        {
+          "id": "cv-relationships-definitions-01-a",
+          "prompt": "someone you know a little but who is not a close friend",
+          "answer": 0,
+          "explanation": {
+            "en": "An acquaintance is not a friend, only a person you know slightly.",
+            "es": "Acquaintance es un conocido, no un amigo cercano."
+          }
+        },
+        {
+          "id": "cv-relationships-definitions-01-b",
+          "prompt": "a brother or a sister",
+          "answer": 1,
+          "explanation": {
+            "en": "Sibling is a neutral word for a brother or sister."
+          }
+        },
+        {
+          "id": "cv-relationships-definitions-01-c",
+          "prompt": "the legal ending of a marriage",
+          "answer": 2,
+          "explanation": {
+            "en": "A divorce ends a marriage legally."
+          }
+        },
+        {
+          "id": "cv-relationships-definitions-01-d",
+          "prompt": "unhappy because someone else has something that you want",
+          "answer": 3,
+          "explanation": {
+            "en": "Jealous describes the unhappy feeling about what another person has."
+          }
+        },
+        {
+          "id": "cv-relationships-definitions-01-e",
+          "prompt": "having formally agreed to marry someone",
+          "answer": 4,
+          "explanation": {
+            "en": "Engaged people plan to get married.",
+            "es": "Engaged = comprometido para casarse, no \"ocupado\"."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-relationships-collocations-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 2,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "friends",
+        "love",
+        "common",
+        "touch",
+        "married",
+        "family",
+        "trust",
+        "lonely",
+        "partner",
+        "wedding"
+      ],
+      "items": [
+        {
+          "id": "cv-relationships-collocations-01-a",
+          "prompt": "make new …",
+          "answer": 0,
+          "explanation": {
+            "en": "Make friends is the usual collocation, always in the plural."
+          }
+        },
+        {
+          "id": "cv-relationships-collocations-01-b",
+          "prompt": "fall in …",
+          "answer": 1,
+          "explanation": {
+            "en": "Fall in love is a fixed phrase."
+          }
+        },
+        {
+          "id": "cv-relationships-collocations-01-c",
+          "prompt": "have a lot in …",
+          "answer": 2,
+          "explanation": {
+            "en": "If two people have a lot in common, they share interests or opinions."
+          }
+        },
+        {
+          "id": "cv-relationships-collocations-01-d",
+          "prompt": "keep in …",
+          "answer": 3,
+          "explanation": {
+            "en": "Keep in touch means to continue to contact someone."
+          }
+        },
+        {
+          "id": "cv-relationships-collocations-01-e",
+          "prompt": "get …",
+          "answer": 4,
+          "explanation": {
+            "en": "Get married is the usual way to say casarse.",
+            "es": "Se dice get married (to someone), sin \"with\"."
+          }
+        }
+      ]
+    }
+  ]
+}

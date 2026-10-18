@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-articles-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "articles",
+      "prompt": "Maria is ___ electrician, and she works for the city council.",
+      "options": ["a", "an", "the"],
+      "answer": 1,
+      "explanation": {
+        "en": "Electrician begins with a vowel sound, and a job title takes a/an."
+      },
+      "optionNotes": [
+        {
+          "en": "A is used before a consonant sound."
+        },
+        {
+          "en": "Correct: an before a vowel sound."
+        },
+        {
+          "en": "The is for something already identified."
+        }
+      ]
+    },
+    {
+      "id": "cg-articles-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "articles",
+      "prompt": "Research shows that, in general, ___ children need plenty of sleep to concentrate at school.",
+      "options": ["The", "A", "(no article)"],
+      "answer": 2,
+      "explanation": {
+        "en": "Children in general takes no article.",
+        "es": "En general no se usa the, aunque en español digamos «los niños»."
+      },
+      "optionNotes": [
+        {
+          "en": "The would refer to a specific group of children."
+        },
+        {
+          "en": "A cannot be used with a plural noun."
+        },
+        {
+          "en": "Correct: a general statement about a plural noun."
+        }
+      ]
+    },
+    {
+      "id": "cg-articles-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "articles",
+      "prompt": "A: Was the hotel nice? B: Yes, we stayed in a small place by the sea. ___ hotel had a lovely terrace.",
+      "options": ["A", "The", "(no article)"],
+      "answer": 1,
+      "explanation": {
+        "en": "The hotel was mentioned before, so it is now known: the."
+      },
+      "optionNotes": [
+        {
+          "en": "A is for first mention, not for something already mentioned."
+        },
+        {
+          "en": "Correct: second mention."
+        },
+        {
+          "en": "A singular countable noun cannot go without an article here."
+        }
+      ]
+    },
+    {
+      "id": "cg-articles-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "environment",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "articles",
+      "prompt": "The river system known as ___ Amazon carries more water than any other in the world.",
+      "options": ["a", "the", "(no article)"],
+      "answer": 1,
+      "explanation": {
+        "en": "Rivers take the.",
+        "es": "Los ríos llevan the: the Amazon, the Thames."
+      },
+      "optionNotes": [
+        {
+          "en": "A would mean one of several rivers with this name."
+        },
+        {
+          "en": "Correct: rivers take the."
+        },
+        {
+          "en": "Names of rivers are not used without an article."
+        }
+      ]
+    },
+    {
+      "id": "cg-articles-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "general",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "articles",
+      "prompt": "After ten years here, Anna wants to become ___ European citizen.",
+      "options": ["an", "a", "the"],
+      "answer": 1,
+      "explanation": {
+        "en": "European begins with the sound /j/ (like y), which is a consonant sound, so a is used.",
+        "es": "Cuenta el sonido, no la letra: a European, a university."
+      },
+      "optionNotes": [
+        {
+          "en": "An is used before vowel sounds, and European starts with /j/."
+        },
+        {
+          "en": "Correct: a before a consonant sound."
+        },
+        {
+          "en": "The would refer to one specific citizen."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-future-continuous-and-perfect-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "future-continuous-and-perfect",
+      "prompt": "By the end of this year, the firm ___ its profits.",
+      "options": ["will have doubled", "has doubled", "doubles"],
+      "answer": 0,
+      "explanation": {
+        "en": "By + a future time shows completion before it: future perfect.",
+        "es": "By + momento futuro: future perfect."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: completed before the end of the year."
+        },
+        {
+          "en": "By the end of this year looks forward to a future point, so the present perfect does not work: use will have + past participle."
+        },
+        {
+          "en": "The present simple does not fit a prediction of completion."
+        }
+      ]
+    },
+    {
+      "id": "cg-future-continuous-and-perfect-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "future-continuous-and-perfect",
+      "prompt": "Don't call after eight. We ___ on the plane to Delhi.",
+      "options": ["will be sitting", "will have sat", "sit"],
+      "answer": 0,
+      "explanation": {
+        "en": "An action in progress at a future moment: future continuous."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: in progress at a future moment."
+        },
+        {
+          "en": "The future perfect would mean the sitting is finished before eight."
+        },
+        {
+          "en": "The present simple does not fit a future moment."
+        }
+      ]
+    },
+    {
+      "id": "cg-future-continuous-and-perfect-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "future-continuous-and-perfect",
+      "prompt": "'Could I borrow your drill?' 'Sure, I ___ it until Sunday, so help yourself.'",
+      "options": ["won't be using", "won't have used", "don't use"],
+      "answer": 0,
+      "explanation": {
+        "en": "The future continuous says what will be happening, or not happening, at that time."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: not in use over a future period."
+        },
+        {
+          "en": "The future perfect would mean completion before a point, not a period."
+        },
+        {
+          "en": "The present simple does not fit a future arrangement here."
+        }
+      ]
+    },
+    {
+      "id": "cg-future-continuous-and-perfect-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "future-continuous-and-perfect",
+      "prompt": "By the time the exam begins, I ___ all my notes twice.",
+      "options": ["will read", "will have read", "will be reading"],
+      "answer": 1,
+      "explanation": {
+        "en": "By the time + a count of completed actions: future perfect.",
+        "es": "By the time + acción completada: future perfect."
+      },
+      "optionNotes": [
+        {
+          "en": "Will read does not show completion before then."
+        },
+        {
+          "en": "Correct: completed before the exam begins."
+        },
+        {
+          "en": "The future continuous would mean the reading is in progress."
+        }
+      ]
+    },
+    {
+      "id": "cg-future-continuous-and-perfect-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "future-continuous-and-perfect",
+      "prompt": "By next March, I ___ in this company for exactly ten years.",
+      "options": ["will have worked", "worked", "work"],
+      "answer": 0,
+      "explanation": {
+        "en": "By + a future time with a total period: future perfect.",
+        "es": "By + momento futuro con periodo total: future perfect."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: total period completed by a future point."
+        },
+        {
+          "en": "The past simple cannot refer to a future point."
+        },
+        {
+          "en": "The present simple does not show completion by next March."
+        }
+      ]
+    }
+  ]
+}

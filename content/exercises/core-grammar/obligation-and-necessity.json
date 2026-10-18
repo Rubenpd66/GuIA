@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-oblig-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "obligation-and-necessity",
+      "prompt": "You ___ wear a uniform here; we have a casual dress code.",
+      "options": ["mustn't", "don't have to", "must"],
+      "answer": 1,
+      "explanation": {
+        "en": "No obligation is don't have to; mustn't would mean it is forbidden.",
+        "es": "Mustn't es «prohibido»; «no hace falta» es don't have to."
+      },
+      "optionNotes": [
+        {
+          "en": "Mustn't means forbidden, which does not fit a casual dress code."
+        },
+        {
+          "en": "Correct: it is not necessary."
+        },
+        {
+          "en": "Must would mean it is compulsory."
+        }
+      ]
+    },
+    {
+      "id": "cg-oblig-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "obligation-and-necessity",
+      "prompt": "Cyclists ___ ride on the pavement in the town centre. It is against the law.",
+      "options": ["don't have to", "mustn't", "needn't"],
+      "answer": 1,
+      "explanation": {
+        "en": "A legal prohibition is mustn't."
+      },
+      "optionNotes": [
+        {
+          "en": "This would mean it is not necessary."
+        },
+        {
+          "en": "Correct: it is forbidden."
+        },
+        {
+          "en": "Needn't means it is not necessary."
+        }
+      ]
+    },
+    {
+      "id": "cg-oblig-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "obligation-and-necessity",
+      "prompt": "Sorry, I can't stay. I ___ be at the airport by nine to meet my sister.",
+      "options": ["have to", "don't have to", "mustn't"],
+      "answer": 0,
+      "explanation": {
+        "en": "Have to expresses an obligation caused by circumstances."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: an external obligation."
+        },
+        {
+          "en": "This would mean it is not necessary, which contradicts can't stay."
+        },
+        {
+          "en": "Mustn't means forbidden, which does not fit."
+        }
+      ]
+    },
+    {
+      "id": "cg-oblig-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "obligation-and-necessity",
+      "prompt": "Last year all first-year students ___ attend an induction week.",
+      "options": ["must", "had to", "have to"],
+      "answer": 1,
+      "explanation": {
+        "en": "Must has no past form, so use had to.",
+        "es": "Must no tiene pasado: had to."
+      },
+      "optionNotes": [
+        {
+          "en": "Must cannot refer to the past."
+        },
+        {
+          "en": "Correct: had to for a past obligation."
+        },
+        {
+          "en": "Have to is present; last year needs the past."
+        }
+      ]
+    },
+    {
+      "id": "cg-oblig-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "obligation-and-necessity",
+      "prompt": "If the flight is cancelled, we'll ___ find another way to get there.",
+      "options": ["have to", "must", "had to"],
+      "answer": 0,
+      "explanation": {
+        "en": "Must has no form after will; use will have to.",
+        "es": "«Tendremos que» es we'll have to, no we'll must."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: will have to + infinitive."
+        },
+        {
+          "en": "Must cannot follow will."
+        },
+        {
+          "en": "Had is past and cannot follow will."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-condition-and-purpose-linkers-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "condition-and-purpose-linkers",
+      "prompt": "She took an evening course ___ improve her chances of promotion.",
+      "options": ["for", "to", "so"],
+      "answer": 1,
+      "explanation": {
+        "en": "To + infinitive expresses purpose.",
+        "es": "No digas for improve."
+      },
+      "optionNotes": [
+        {
+          "en": "For is followed by a noun or -ing."
+        },
+        {
+          "en": "Correct: to + infinitive."
+        },
+        {
+          "en": "So needs that before a clause."
+        }
+      ]
+    },
+    {
+      "id": "cg-condition-and-purpose-linkers-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "condition-and-purpose-linkers",
+      "prompt": "Take a jumper ___ it gets cold on the boat.",
+      "options": ["unless", "in case", "so as"],
+      "answer": 1,
+      "explanation": {
+        "en": "In case expresses a precaution.",
+        "es": "In case = por si acaso."
+      },
+      "optionNotes": [
+        {
+          "en": "Unless means if not and does not fit the meaning."
+        },
+        {
+          "en": "Correct: a precaution."
+        },
+        {
+          "en": "So as needs an infinitive."
+        }
+      ]
+    },
+    {
+      "id": "cg-condition-and-purpose-linkers-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "condition-and-purpose-linkers",
+      "prompt": "A: Can I borrow your car? B: Sure, ___ you bring it back by six.",
+      "options": ["in case", "so that", "as long as"],
+      "answer": 2,
+      "explanation": {
+        "en": "As long as sets a condition."
+      },
+      "optionNotes": [
+        {
+          "en": "In case would mean as a precaution."
+        },
+        {
+          "en": "So that expresses purpose, not condition."
+        },
+        {
+          "en": "Correct: condition."
+        }
+      ]
+    },
+    {
+      "id": "cg-condition-and-purpose-linkers-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "condition-and-purpose-linkers",
+      "prompt": "You won't get a refund ___ you have the receipt.",
+      "options": ["unless", "as long as", "in case"],
+      "answer": 0,
+      "explanation": {
+        "en": "Unless means if not.",
+        "es": "Unless ya significa «si no»."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: unless = if not."
+        },
+        {
+          "en": "As long as would reverse the meaning."
+        },
+        {
+          "en": "In case does not fit."
+        }
+      ]
+    },
+    {
+      "id": "cg-condition-and-purpose-linkers-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "technology",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "condition-and-purpose-linkers",
+      "prompt": "He turned off notifications ___ not to be distracted while studying.",
+      "options": ["so that", "so as", "for"],
+      "answer": 1,
+      "explanation": {
+        "en": "So as not to + infinitive.",
+        "es": "So as not to, nunca so that not to."
+      },
+      "optionNotes": [
+        {
+          "en": "So that is followed by a clause, not by not to."
+        },
+        {
+          "en": "Correct: so as not to."
+        },
+        {
+          "en": "For does not combine with not to."
+        }
+      ]
+    }
+  ]
+}

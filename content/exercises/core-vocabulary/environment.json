@@ -1,0 +1,195 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-environment-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "environment",
+      "difficulty": 2,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "waste",
+        "conserve",
+        "toxic",
+        "damage",
+        "environment",
+        "recycle",
+        "flood",
+        "fuel",
+        "species",
+        "emissions"
+      ],
+      "items": [
+        {
+          "id": "cv-environment-synonyms-01-a",
+          "prompt": "rubbish",
+          "answer": 0,
+          "explanation": {
+            "en": "Rubbish is the everyday British word; waste is the more general word for things we throw away."
+          }
+        },
+        {
+          "id": "cv-environment-synonyms-01-b",
+          "prompt": "protect",
+          "answer": 1,
+          "explanation": {
+            "en": "To conserve nature or energy is to protect it and use it carefully."
+          }
+        },
+        {
+          "id": "cv-environment-synonyms-01-c",
+          "prompt": "poisonous",
+          "answer": 2,
+          "explanation": {
+            "en": "Toxic substances are poisonous and can harm people or animals."
+          }
+        },
+        {
+          "id": "cv-environment-synonyms-01-d",
+          "prompt": "harm",
+          "answer": 3,
+          "explanation": {
+            "en": "To damage the planet is to harm it."
+          }
+        },
+        {
+          "id": "cv-environment-synonyms-01-e",
+          "prompt": "surroundings",
+          "answer": 4,
+          "explanation": {
+            "en": "The environment is the natural world, or the place around us in which we live."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-environment-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "drought",
+        "landfill",
+        "wildlife",
+        "renewable",
+        "pollution",
+        "climate",
+        "habitat",
+        "erosion",
+        "harvest",
+        "species"
+      ],
+      "items": [
+        {
+          "id": "cv-environment-definitions-01-a",
+          "prompt": "a long period with very little or no rain",
+          "answer": 0,
+          "explanation": {
+            "en": "A drought can damage crops and cause water shortages."
+          }
+        },
+        {
+          "id": "cv-environment-definitions-01-b",
+          "prompt": "a large site where rubbish is buried in the ground",
+          "answer": 1,
+          "explanation": {
+            "en": "Landfill sites are a problem because rubbish stays there for many years."
+          }
+        },
+        {
+          "id": "cv-environment-definitions-01-c",
+          "prompt": "animals and plants that live in natural conditions",
+          "answer": 2,
+          "explanation": {
+            "en": "Wildlife means wild animals and plants in general. A species is one particular type."
+          }
+        },
+        {
+          "id": "cv-environment-definitions-01-d",
+          "prompt": "able to be replaced naturally, so it never runs out",
+          "answer": 3,
+          "explanation": {
+            "en": "Wind and solar power are renewable forms of energy."
+          }
+        },
+        {
+          "id": "cv-environment-definitions-01-e",
+          "prompt": "harmful substances in the air, water or land",
+          "answer": 4,
+          "explanation": {
+            "en": "Pollution is the damage caused when harmful substances enter nature.",
+            "es": "Pollution es contaminación; no confundir con \"polución\" en su sentido médico."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-environment-collocations-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 3,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "species",
+        "footprint",
+        "fuels",
+        "gases",
+        "awareness",
+        "weather",
+        "climate",
+        "waste",
+        "energy",
+        "forest"
+      ],
+      "items": [
+        {
+          "id": "cv-environment-collocations-01-a",
+          "prompt": "endangered …",
+          "answer": 0,
+          "explanation": {
+            "en": "An endangered species is at risk of disappearing for ever."
+          }
+        },
+        {
+          "id": "cv-environment-collocations-01-b",
+          "prompt": "carbon …",
+          "answer": 1,
+          "explanation": {
+            "en": "Your carbon footprint is the amount of carbon dioxide linked to your way of life."
+          }
+        },
+        {
+          "id": "cv-environment-collocations-01-c",
+          "prompt": "fossil …",
+          "answer": 2,
+          "explanation": {
+            "en": "Coal, oil and gas are fossil fuels."
+          }
+        },
+        {
+          "id": "cv-environment-collocations-01-d",
+          "prompt": "greenhouse …",
+          "answer": 3,
+          "explanation": {
+            "en": "Greenhouse gases, such as carbon dioxide, trap heat in the atmosphere."
+          }
+        },
+        {
+          "id": "cv-environment-collocations-01-e",
+          "prompt": "raise …",
+          "answer": 4,
+          "explanation": {
+            "en": "We raise awareness of a problem so that more people know about it."
+          }
+        }
+      ]
+    }
+  ]
+}

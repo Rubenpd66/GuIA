@@ -1,0 +1,197 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-education-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "scholarship",
+        "plagiarism",
+        "assignment",
+        "campus",
+        "syllabus",
+        "curriculum",
+        "tuition",
+        "lecture",
+        "graduate",
+        "revise"
+      ],
+      "items": [
+        {
+          "id": "cv-education-definitions-01-a",
+          "prompt": "money given to a student to help pay for their studies",
+          "answer": 0,
+          "explanation": {
+            "en": "A scholarship is money awarded to a student, often for good results."
+          }
+        },
+        {
+          "id": "cv-education-definitions-01-b",
+          "prompt": "copying someone else's work and presenting it as your own",
+          "answer": 1,
+          "explanation": {
+            "en": "Plagiarism is a serious offence at university.",
+            "es": "Plagiarism es 'plagio'."
+          }
+        },
+        {
+          "id": "cv-education-definitions-01-c",
+          "prompt": "a piece of work that a teacher asks students to complete",
+          "answer": 2,
+          "explanation": {
+            "en": "An assignment is a task set by a teacher."
+          }
+        },
+        {
+          "id": "cv-education-definitions-01-d",
+          "prompt": "the land and buildings that belong to a university",
+          "answer": 3,
+          "explanation": {
+            "en": "A campus is the site of a university or college."
+          }
+        },
+        {
+          "id": "cv-education-definitions-01-e",
+          "prompt": "a list of the topics that will be covered in one course",
+          "answer": 4,
+          "explanation": {
+            "en": "A syllabus covers a single course. The curriculum is everything a school teaches."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-education-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 2,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "pass",
+        "fail",
+        "attend",
+        "degree",
+        "term",
+        "subject",
+        "graduate",
+        "revise",
+        "tuition",
+        "lecture"
+      ],
+      "items": [
+        {
+          "id": "cv-education-usages-01-a",
+          "prompt": "I have to ___ for my history exam this weekend.",
+          "answer": 7,
+          "explanation": {
+            "en": "In British English, revise means to study again before an exam.",
+            "es": "Revise no es 'revisar': significa repasar para un examen."
+          }
+        },
+        {
+          "id": "cv-education-usages-01-b",
+          "prompt": "Tom tries to ___ every lecture, even the early ones.",
+          "answer": 2,
+          "explanation": {
+            "en": "You attend a class, a lecture or a meeting.",
+            "es": "Attend significa asistir, no 'atender'."
+          }
+        },
+        {
+          "id": "cv-education-usages-01-c",
+          "prompt": "She has a ___ in law from the University of Leeds.",
+          "answer": 3,
+          "explanation": {
+            "en": "A degree is a qualification from a university."
+          }
+        },
+        {
+          "id": "cv-education-usages-01-d",
+          "prompt": "Helen hopes to ___ from university next summer.",
+          "answer": 6,
+          "explanation": {
+            "en": "To graduate is to finish a university course successfully."
+          }
+        },
+        {
+          "id": "cv-education-usages-01-e",
+          "prompt": "The autumn ___ starts in the first week of September.",
+          "answer": 4,
+          "explanation": {
+            "en": "A term is one of the periods into which the school year is divided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-education-collocations-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 3,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "exam",
+        "notes",
+        "marks",
+        "deadline",
+        "essay",
+        "homework",
+        "place",
+        "project",
+        "tuition",
+        "grade"
+      ],
+      "items": [
+        {
+          "id": "cv-education-collocations-01-a",
+          "prompt": "sit an …",
+          "answer": 0,
+          "explanation": {
+            "en": "In British English we sit an exam, which means to take it."
+          }
+        },
+        {
+          "id": "cv-education-collocations-01-b",
+          "prompt": "take careful …",
+          "answer": 1,
+          "explanation": {
+            "en": "We take notes during a lesson or lecture."
+          }
+        },
+        {
+          "id": "cv-education-collocations-01-c",
+          "prompt": "get full …",
+          "answer": 2,
+          "explanation": {
+            "en": "Get full marks means to have no mistakes in a test."
+          }
+        },
+        {
+          "id": "cv-education-collocations-01-d",
+          "prompt": "meet the …",
+          "answer": 3,
+          "explanation": {
+            "en": "We meet a deadline when we finish work in time."
+          }
+        },
+        {
+          "id": "cv-education-collocations-01-e",
+          "prompt": "write a two-thousand-word …",
+          "answer": 4,
+          "explanation": {
+            "en": "We write an essay; we do not write homework or a deadline."
+          }
+        }
+      ]
+    }
+  ]
+}

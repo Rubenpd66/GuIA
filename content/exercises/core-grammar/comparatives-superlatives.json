@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-comparatives-superlatives-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "comparatives-superlatives",
+      "prompt": "This laptop is ___ than the one I bought last year.",
+      "options": ["cheaper", "more cheap", "cheapest"],
+      "answer": 0,
+      "explanation": {
+        "en": "Cheap is short, so the comparative is cheaper."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: -er with a short adjective."
+        },
+        {
+          "en": "Short adjectives do not take more."
+        },
+        {
+          "en": "The superlative does not combine with than."
+        }
+      ]
+    },
+    {
+      "id": "cg-comparatives-superlatives-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "comparatives-superlatives",
+      "prompt": "Swimming is ___ for your back than running.",
+      "options": ["better", "more good", "the best"],
+      "answer": 0,
+      "explanation": {
+        "en": "The comparative of good is better.",
+        "es": "Good es irregular: better."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: irregular comparative."
+        },
+        {
+          "en": "Good has an irregular comparative, not more good."
+        },
+        {
+          "en": "The superlative does not combine with than."
+        }
+      ]
+    },
+    {
+      "id": "cg-comparatives-superlatives-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "comparatives-superlatives",
+      "prompt": "A: Is the new tram line quieter? B: Yes, it isn't as crowded ___ the old one.",
+      "options": ["than", "as", "that"],
+      "answer": 1,
+      "explanation": {
+        "en": "The structure is not as … as.",
+        "es": "Not as … as, no «not as … than»."
+      },
+      "optionNotes": [
+        {
+          "en": "Than follows a comparative, not as + adjective."
+        },
+        {
+          "en": "Correct: as … as."
+        },
+        {
+          "en": "That is not used in comparisons."
+        }
+      ]
+    },
+    {
+      "id": "cg-comparatives-superlatives-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "comparatives-superlatives",
+      "prompt": "Of the three candidates, Priya was ___ experienced.",
+      "options": ["less", "the least", "the less"],
+      "answer": 1,
+      "explanation": {
+        "en": "With of the three we need a superlative: the least."
+      },
+      "optionNotes": [
+        {
+          "en": "Less is a comparative for two things."
+        },
+        {
+          "en": "Correct: superlative for a group of three."
+        },
+        {
+          "en": "The less would need a second part, as in the less … the more."
+        }
+      ]
+    },
+    {
+      "id": "cg-comparatives-superlatives-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "comparatives-superlatives",
+      "prompt": "Flats in the centre are ___ more expensive than they were five years ago.",
+      "options": ["very", "much", "most"],
+      "answer": 1,
+      "explanation": {
+        "en": "Much, not very, can modify a comparative.",
+        "es": "Very no se usa con comparativos: much more."
+      },
+      "optionNotes": [
+        {
+          "en": "Very cannot modify a comparative."
+        },
+        {
+          "en": "Correct: much + comparative."
+        },
+        {
+          "en": "Most does not modify a comparative."
+        }
+      ]
+    }
+  ]
+}

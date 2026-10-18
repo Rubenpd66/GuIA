@@ -1,0 +1,197 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-city-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "suburb",
+        "pavement",
+        "roundabout",
+        "skyscraper",
+        "landmark",
+        "resident",
+        "junction",
+        "council",
+        "pedestrian",
+        "congestion"
+      ],
+      "items": [
+        {
+          "id": "cv-city-definitions-01-a",
+          "prompt": "a residential area on the edge of a city",
+          "answer": 0,
+          "explanation": {
+            "en": "A suburb is a housing area away from the centre."
+          }
+        },
+        {
+          "id": "cv-city-definitions-01-b",
+          "prompt": "the path at the side of a road for people on foot",
+          "answer": 1,
+          "explanation": {
+            "en": "In British English, pavement is the path beside the road.",
+            "es": "Pavement es la acera en inglés británico; en inglés de EE. UU. es la calzada."
+          }
+        },
+        {
+          "id": "cv-city-definitions-01-c",
+          "prompt": "a circular junction where traffic goes around a central island",
+          "answer": 2,
+          "explanation": {
+            "en": "Traffic goes round a roundabout in one direction."
+          }
+        },
+        {
+          "id": "cv-city-definitions-01-d",
+          "prompt": "a very tall building with many floors",
+          "answer": 3,
+          "explanation": {
+            "en": "A skyscraper is a very high building in a city."
+          }
+        },
+        {
+          "id": "cv-city-definitions-01-e",
+          "prompt": "a well-known building or place that helps people find their way",
+          "answer": 4,
+          "explanation": {
+            "en": "A landmark is easy to recognise, such as a tower or a church."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-city-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 2,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "queue",
+        "timetable",
+        "platform",
+        "return",
+        "delay",
+        "fare",
+        "rush",
+        "single",
+        "ticket",
+        "crossing"
+      ],
+      "items": [
+        {
+          "id": "cv-city-usages-01-a",
+          "prompt": "We waited in a long ___ outside the museum.",
+          "answer": 0,
+          "explanation": {
+            "en": "In British English a queue is a line of people waiting."
+          }
+        },
+        {
+          "id": "cv-city-usages-01-b",
+          "prompt": "Check the bus ___ to see when the next one leaves.",
+          "answer": 1,
+          "explanation": {
+            "en": "A timetable lists the times of buses and trains.",
+            "es": "En inglés británico, timetable es el horario de transporte (schedule es más americano)."
+          }
+        },
+        {
+          "id": "cv-city-usages-01-c",
+          "prompt": "The trains are packed during the morning ___ hour.",
+          "answer": 6,
+          "explanation": {
+            "en": "The rush hour is the busy time when most people travel to and from work."
+          }
+        },
+        {
+          "id": "cv-city-usages-01-d",
+          "prompt": "A ___ ticket takes you there and back again.",
+          "answer": 3,
+          "explanation": {
+            "en": "A return ticket is for a journey in both directions.",
+            "es": "Return = billete de ida y vuelta."
+          }
+        },
+        {
+          "id": "cv-city-usages-01-e",
+          "prompt": "Our train arrived forty minutes late, and the ___ was blamed on a signal failure.",
+          "answer": 4,
+          "explanation": {
+            "en": "A delay is a period of time when something is late."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-city-collocations-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 4,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "jam",
+        "hour",
+        "transport",
+        "crossing",
+        "pollution",
+        "rent",
+        "tenant",
+        "centre",
+        "estate",
+        "deposit"
+      ],
+      "items": [
+        {
+          "id": "cv-city-collocations-01-a",
+          "prompt": "a traffic …",
+          "answer": 0,
+          "explanation": {
+            "en": "A traffic jam is a line of vehicles that cannot move."
+          }
+        },
+        {
+          "id": "cv-city-collocations-01-b",
+          "prompt": "rush …",
+          "answer": 1,
+          "explanation": {
+            "en": "Rush hour is the busy time when people travel to or from work."
+          }
+        },
+        {
+          "id": "cv-city-collocations-01-c",
+          "prompt": "public …",
+          "answer": 2,
+          "explanation": {
+            "en": "Public transport means buses, trains and trams."
+          }
+        },
+        {
+          "id": "cv-city-collocations-01-d",
+          "prompt": "a pedestrian …",
+          "answer": 3,
+          "explanation": {
+            "en": "A pedestrian crossing is a place where people can cross the road."
+          }
+        },
+        {
+          "id": "cv-city-collocations-01-e",
+          "prompt": "air …",
+          "answer": 4,
+          "explanation": {
+            "en": "Air pollution is dirty air caused by traffic or factories."
+          }
+        }
+      ]
+    }
+  ]
+}

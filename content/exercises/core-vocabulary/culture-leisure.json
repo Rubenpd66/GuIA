@@ -1,0 +1,196 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-culture-leisure-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "hobby",
+        "show",
+        "famous",
+        "location",
+        "funny",
+        "boring",
+        "ticket",
+        "festival",
+        "audience",
+        "crowded"
+      ],
+      "items": [
+        {
+          "id": "cv-culture-leisure-synonyms-01-a",
+          "prompt": "pastime",
+          "answer": 0,
+          "explanation": {
+            "en": "A pastime is an activity you do for fun."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-synonyms-01-b",
+          "prompt": "performance",
+          "answer": 1,
+          "explanation": {
+            "en": "A performance is a show for an audience."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-synonyms-01-c",
+          "prompt": "renowned",
+          "answer": 2,
+          "explanation": {
+            "en": "Renowned means well known and respected."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-synonyms-01-d",
+          "prompt": "venue",
+          "answer": 3,
+          "explanation": {
+            "en": "A venue is the place where an event happens."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-synonyms-01-e",
+          "prompt": "amusing",
+          "answer": 4,
+          "explanation": {
+            "en": "Amusing means funny or entertaining."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-culture-leisure-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "exhibition",
+        "concert",
+        "free",
+        "reviews",
+        "ticket",
+        "stage",
+        "audience",
+        "cast",
+        "plot",
+        "hobby"
+      ],
+      "items": [
+        {
+          "id": "cv-culture-leisure-usages-01-a",
+          "prompt": "We saw a wonderful ___ of modern sculpture at the town gallery.",
+          "answer": 0,
+          "explanation": {
+            "en": "An exhibition shows art or objects to the public.",
+            "es": "Exhibition = exposición."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-usages-01-b",
+          "prompt": "The orchestra played Beethoven's fifth symphony at a ___ in the town hall.",
+          "answer": 1,
+          "explanation": {
+            "en": "A concert is a live music event."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-usages-01-c",
+          "prompt": "I'm learning to play the guitar in my ___ time.",
+          "answer": 2,
+          "explanation": {
+            "en": "Free time is time when you do not work or study.",
+            "es": "In my free time = en mi tiempo libre."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-usages-01-d",
+          "prompt": "The film got excellent ___ from critics.",
+          "answer": 3,
+          "explanation": {
+            "en": "Reviews are opinions written by critics."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-usages-01-e",
+          "prompt": "The play was sold out, so we couldn't get a ___.",
+          "answer": 4,
+          "explanation": {
+            "en": "A ticket gives you the right to go to an event."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-culture-leisure-collocations-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "ovation",
+        "role",
+        "office",
+        "tour",
+        "hobby",
+        "ticket",
+        "stage",
+        "trophy",
+        "queue",
+        "gallery"
+      ],
+      "items": [
+        {
+          "id": "cv-culture-leisure-collocations-01-a",
+          "prompt": "give a standing …",
+          "answer": 0,
+          "explanation": {
+            "en": "A standing ovation is when the audience stands to applaud."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-collocations-01-b",
+          "prompt": "take a leading …",
+          "answer": 1,
+          "explanation": {
+            "en": "A leading role is the main part in a play or film."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-collocations-01-c",
+          "prompt": "the box …",
+          "answer": 2,
+          "explanation": {
+            "en": "The box office is where you buy theatre or cinema tickets."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-collocations-01-d",
+          "prompt": "a guided …",
+          "answer": 3,
+          "explanation": {
+            "en": "A guided tour has a guide who explains things."
+          }
+        },
+        {
+          "id": "cv-culture-leisure-collocations-01-e",
+          "prompt": "take up a new …",
+          "answer": 4,
+          "explanation": {
+            "en": "To take up a hobby is to start doing it."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-future-forms-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "future-forms",
+      "prompt": "'I can't open this jar.' 'Give it to me, I ___ it for you.'",
+      "options": ["will open", "am opening", "am going to open"],
+      "answer": 0,
+      "explanation": {
+        "en": "An offer made at the moment of speaking takes will."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: an instant offer."
+        },
+        {
+          "en": "The present continuous is for fixed arrangements, not spontaneous offers."
+        },
+        {
+          "en": "Be going to is for plans already made, not decisions made now."
+        }
+      ]
+    },
+    {
+      "id": "cg-future-forms-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "future-forms",
+      "prompt": "We ___ to Seville in August; we've already booked the flights.",
+      "options": ["are going", "went", "have gone"],
+      "answer": 0,
+      "explanation": {
+        "en": "A booked plan can use the present continuous or going to.",
+        "es": "Un plan ya organizado: present continuous."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: a plan already arranged."
+        },
+        {
+          "en": "The past simple refers to a finished event."
+        },
+        {
+          "en": "The present perfect does not refer to a future plan."
+        }
+      ]
+    },
+    {
+      "id": "cg-future-forms-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "general",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "future-forms",
+      "prompt": "Careful! That cup is on the edge of the table. It ___ over.",
+      "options": ["fell", "is going to fall", "falls"],
+      "answer": 1,
+      "explanation": {
+        "en": "A prediction based on present evidence takes be going to.",
+        "es": "Predicción con evidencia presente: be going to."
+      },
+      "optionNotes": [
+        {
+          "en": "Past simple: the cup has not fallen yet; we are predicting from what we can see now."
+        },
+        {
+          "en": "Correct: prediction from evidence."
+        },
+        {
+          "en": "The present simple is for timetables and habits."
+        }
+      ]
+    },
+    {
+      "id": "cg-future-forms-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "future-forms",
+      "prompt": "The meeting ___ at ten tomorrow, so don't be late.",
+      "options": ["starts", "start", "starting"],
+      "answer": 0,
+      "explanation": {
+        "en": "A scheduled event uses the present simple."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: a timetable with a singular subject."
+        },
+        {
+          "en": "Meeting is singular, so the verb needs -s."
+        },
+        {
+          "en": "A gerund cannot be the main verb."
+        }
+      ]
+    },
+    {
+      "id": "cg-future-forms-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "future-forms",
+      "prompt": "Please call me as soon as you ___ the station.",
+      "options": ["will reach", "reach", "are going to reach"],
+      "answer": 1,
+      "explanation": {
+        "en": "After as soon as, the present simple expresses the future.",
+        "es": "Tras as soon as: presente, no will."
+      },
+      "optionNotes": [
+        {
+          "en": "Will is not used after as soon as."
+        },
+        {
+          "en": "Correct: present simple after as soon as."
+        },
+        {
+          "en": "Be going to is not used after as soon as."
+        }
+      ]
+    }
+  ]
+}

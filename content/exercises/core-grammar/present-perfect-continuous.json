@@ -1,0 +1,137 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-present-perfect-continuous-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "present-perfect-continuous",
+      "prompt": "I ___ for this exam since September.",
+      "options": ["have been preparing", "am preparing", "prepare"],
+      "answer": 0,
+      "explanation": {
+        "en": "Since September shows an activity continuing up to now: present perfect continuous.",
+        "es": "\"Llevo preparándolo desde septiembre\": present perfect continuous."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: activity continuing up to now with since."
+        },
+        {
+          "en": "The present continuous does not combine with since."
+        },
+        {
+          "en": "The present simple does not connect the past to now."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-perfect-continuous-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "present-perfect-continuous",
+      "prompt": "'You're out of breath!' 'Yes, I ___ up the stairs.'",
+      "options": ["have been running", "am running", "run"],
+      "answer": 0,
+      "explanation": {
+        "en": "A recent activity with a visible result now: present perfect continuous."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: recent activity with a result now."
+        },
+        {
+          "en": "You are standing still talking, so the action is not in progress now."
+        },
+        {
+          "en": "The present simple would describe a habit."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-perfect-continuous-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "present-perfect-continuous",
+      "prompt": "I ___ Mr Patel for years; he's a very reliable client.",
+      "options": ["have been knowing", "have known", "know"],
+      "answer": 1,
+      "explanation": {
+        "en": "Know is a state verb, so use the present perfect simple.",
+        "es": "Know es un verbo de estado: present perfect simple."
+      },
+      "optionNotes": [
+        {
+          "en": "State verbs are not used in the continuous."
+        },
+        {
+          "en": "Correct: state verb with for years."
+        },
+        {
+          "en": "The present simple does not express how long up to now."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-perfect-continuous-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "present-perfect-continuous",
+      "prompt": "The engineers ___ twelve prototypes so far, and none has passed the safety test.",
+      "options": ["have built", "built", "are building"],
+      "answer": 0,
+      "explanation": {
+        "en": "A number and so far point to a result up to now: present perfect simple."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: a count of results up to now."
+        },
+        {
+          "en": "The past simple needs a finished time, and so far is not finished."
+        },
+        {
+          "en": "The present continuous does not fit a count of completed prototypes."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-perfect-continuous-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 5,
+      "register": "spoken",
+      "grammarPoint": "present-perfect-continuous",
+      "prompt": "'Your suitcase is all dusty!' 'I know. It ___ in the loft since we got back from Canada.'",
+      "options": ["has been sitting", "was sitting", "sat"],
+      "answer": 0,
+      "explanation": {
+        "en": "Since shows a situation continuing up to now, so use the present perfect."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: situation continuing up to now with since."
+        },
+        {
+          "en": "The past continuous refers to a past moment, not up to now."
+        },
+        {
+          "en": "The past simple does not combine with since for a continuing situation."
+        }
+      ]
+    }
+  ]
+}

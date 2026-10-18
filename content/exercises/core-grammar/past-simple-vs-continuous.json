@@ -1,0 +1,136 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-past-simple-vs-continuous-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "past-simple-vs-continuous",
+      "prompt": "She was jogging in the park when she ___ her ankle on a tree root.",
+      "options": ["was twisting", "twisted", "had been twisting"],
+      "answer": 1,
+      "explanation": {
+        "en": "A short event that interrupts a longer action takes the past simple."
+      },
+      "optionNotes": [
+        {
+          "en": "A short, sudden event does not take the continuous here."
+        },
+        {
+          "en": "Correct: the interrupting event."
+        },
+        {
+          "en": "The past perfect continuous would put the twisting before the jogging."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-simple-vs-continuous-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "past-simple-vs-continuous",
+      "prompt": "We ___ in Lisbon for three days and then took a train to Porto.",
+      "options": ["stayed", "were staying", "stay"],
+      "answer": 0,
+      "explanation": {
+        "en": "A finished stay followed by another action takes the past simple."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: a completed action in a sequence."
+        },
+        {
+          "en": "The continuous suggests an action in progress, not a completed stay."
+        },
+        {
+          "en": "The present simple cannot describe a finished past event."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-simple-vs-continuous-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "past-simple-vs-continuous",
+      "prompt": "'Why didn't you answer my call?' 'Sorry, I ___ a shower.'",
+      "options": ["took", "was taking", "have taken"],
+      "answer": 1,
+      "explanation": {
+        "en": "The shower was in progress at the moment of the call, so use the past continuous."
+      },
+      "optionNotes": [
+        {
+          "en": "The past simple would present the shower as a complete event."
+        },
+        {
+          "en": "Correct: an action in progress at a past moment."
+        },
+        {
+          "en": "The present perfect cannot refer to a specific past moment."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-simple-vs-continuous-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "past-simple-vs-continuous",
+      "prompt": "When the director walked in, we ___ about the budget, so nobody noticed her at first.",
+      "options": ["argued", "were arguing", "are arguing"],
+      "answer": 1,
+      "explanation": {
+        "en": "We were in the middle of arguing when she arrived: past continuous."
+      },
+      "optionNotes": [
+        {
+          "en": "The past simple would mean the argument began after she walked in."
+        },
+        {
+          "en": "Correct: background action in progress."
+        },
+        {
+          "en": "The sentence is in the past, so the present is wrong."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-simple-vs-continuous-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "past-simple-vs-continuous",
+      "prompt": "I didn't see the warning because I ___ at my phone.",
+      "options": ["looked", "was looking", "had looked"],
+      "answer": 1,
+      "explanation": {
+        "en": "The reason for not seeing was an action in progress at that moment.",
+        "es": "Aquí se expresa lo que estabas haciendo en ese momento: past continuous."
+      },
+      "optionNotes": [
+        {
+          "en": "Looking at the phone as a finished event cannot explain not seeing the warning."
+        },
+        {
+          "en": "Correct: an action in progress at that moment."
+        },
+        {
+          "en": "The past perfect would place the looking before the moment, which breaks the reason."
+        }
+      ]
+    }
+  ]
+}

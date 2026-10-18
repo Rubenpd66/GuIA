@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-gerund-or-infinitive-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "gerund-or-infinitive",
+      "prompt": "She avoided ___ the question during the interview.",
+      "options": ["to answer", "answering", "answer"],
+      "answer": 1,
+      "explanation": {
+        "en": "Avoid is followed by the -ing form.",
+        "es": "Avoid + -ing, no infinitivo."
+      },
+      "optionNotes": [
+        {
+          "en": "Avoid is not followed by to + infinitive."
+        },
+        {
+          "en": "Correct: avoid + -ing."
+        },
+        {
+          "en": "The base form cannot follow avoid."
+        }
+      ]
+    },
+    {
+      "id": "cg-gerund-or-infinitive-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "gerund-or-infinitive",
+      "prompt": "We've agreed ___ the launch until September.",
+      "options": ["postponing", "to postpone", "postpone"],
+      "answer": 1,
+      "explanation": {
+        "en": "Agree is followed by the to-infinitive."
+      },
+      "optionNotes": [
+        {
+          "en": "Agree does not take the -ing form."
+        },
+        {
+          "en": "Correct: agree + to-infinitive."
+        },
+        {
+          "en": "The base form needs to after agree."
+        }
+      ]
+    },
+    {
+      "id": "cg-gerund-or-infinitive-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "gerund-or-infinitive",
+      "prompt": "I'm really looking forward to ___ you at the wedding.",
+      "options": ["see", "seeing", "seen"],
+      "answer": 1,
+      "explanation": {
+        "en": "In look forward to, to is a preposition, so it is followed by -ing.",
+        "es": "To es preposición aquí: looking forward to seeing."
+      },
+      "optionNotes": [
+        {
+          "en": "After the preposition to, the base form is not possible."
+        },
+        {
+          "en": "Correct: preposition + -ing."
+        },
+        {
+          "en": "The past participle does not fit this structure."
+        }
+      ]
+    },
+    {
+      "id": "cg-gerund-or-infinitive-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "gerund-or-infinitive",
+      "prompt": "My physio told me ___ running for six weeks.",
+      "options": ["stop", "to stop", "stopping"],
+      "answer": 1,
+      "explanation": {
+        "en": "Tell + object takes the to-infinitive."
+      },
+      "optionNotes": [
+        {
+          "en": "After tell + object we need to."
+        },
+        {
+          "en": "Correct: tell + object + to-infinitive."
+        },
+        {
+          "en": "The -ing form does not follow tell + object."
+        }
+      ]
+    },
+    {
+      "id": "cg-gerund-or-infinitive-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "gerund-or-infinitive",
+      "prompt": "Instead of ___ a taxi, we decided to walk to the hotel.",
+      "options": ["take", "taking", "to take"],
+      "answer": 1,
+      "explanation": {
+        "en": "After a preposition (of), use the -ing form.",
+        "es": "Tras preposición, siempre -ing."
+      },
+      "optionNotes": [
+        {
+          "en": "The base form cannot follow a preposition."
+        },
+        {
+          "en": "Correct: preposition + -ing."
+        },
+        {
+          "en": "To + infinitive does not follow instead of."
+        }
+      ]
+    }
+  ]
+}

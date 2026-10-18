@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-past-perfect-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "past-perfect",
+      "prompt": "When we reached the airport, our flight ___ .",
+      "options": ["had left", "has left", "leaves"],
+      "answer": 0,
+      "explanation": {
+        "en": "The flight left before we arrived: past perfect.",
+        "es": "El vuelo salió antes de llegar nosotros: past perfect."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: the earlier of two past events."
+        },
+        {
+          "en": "The present perfect cannot be used with a past moment."
+        },
+        {
+          "en": "The present simple does not fit a past situation."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-perfect-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "past-perfect",
+      "prompt": "She felt confident in the interview because she ___ a lot of research beforehand.",
+      "options": ["was doing", "had done", "has done"],
+      "answer": 1,
+      "explanation": {
+        "en": "The research came before the interview: past perfect."
+      },
+      "optionNotes": [
+        {
+          "en": "The past continuous would put the research in progress at the interview."
+        },
+        {
+          "en": "Correct: earlier action completed before the interview."
+        },
+        {
+          "en": "The present perfect does not fit a past situation."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-perfect-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "past-perfect",
+      "prompt": "'Did you buy the tickets?' 'No, by the time I got online, they ___ .'",
+      "options": ["had sold out", "sold out", "have sold out"],
+      "answer": 0,
+      "explanation": {
+        "en": "By the time + past simple needs the past perfect for the earlier event."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: the earlier event."
+        },
+        {
+          "en": "The past simple does not make the order of events clear after by the time."
+        },
+        {
+          "en": "The present perfect does not fit a past moment."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-perfect-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "past-perfect",
+      "prompt": "He felt dizzy because he ___ anything since breakfast.",
+      "options": ["didn't eat", "hadn't eaten", "hasn't eaten"],
+      "answer": 1,
+      "explanation": {
+        "en": "The lack of food began before and continued up to the dizziness: past perfect.",
+        "es": "Since + situación pasada necesita past perfect, no past simple."
+      },
+      "optionNotes": [
+        {
+          "en": "The past simple cannot combine with since for a continuing situation."
+        },
+        {
+          "en": "Correct: past perfect with since."
+        },
+        {
+          "en": "The present perfect belongs to the present, but the sentence is in the past."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-perfect-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "past-perfect",
+      "prompt": "If she ___ the instructions, she wouldn't have broken the machine.",
+      "options": ["read", "had read", "would read"],
+      "answer": 1,
+      "explanation": {
+        "en": "Third conditional: if + past perfect, would have + past participle.",
+        "es": "Tercer condicional: if + past perfect."
+      },
+      "optionNotes": [
+        {
+          "en": "Past simple would make a second conditional, not a third."
+        },
+        {
+          "en": "Correct: third conditional."
+        },
+        {
+          "en": "Would is not used in the if-clause."
+        }
+      ]
+    }
+  ]
+}

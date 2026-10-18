@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-passive-reporting-and-causative-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "passive-reporting-and-causative",
+      "prompt": "The lost manuscript is believed ___ in a monastery in the 1600s.",
+      "options": ["to hide", "to have been hidden", "having hidden"],
+      "answer": 1,
+      "explanation": {
+        "en": "The belief is about an earlier event and the manuscript receives the action: perfect passive infinitive.",
+        "es": "Hecho anterior y pasivo: to have been hidden."
+      },
+      "optionNotes": [
+        {
+          "en": "Active and present: it suggests the manuscript hides something."
+        },
+        {
+          "en": "Correct: earlier event, passive."
+        },
+        {
+          "en": "The -ing form does not follow is believed."
+        }
+      ]
+    },
+    {
+      "id": "cg-passive-reporting-and-causative-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "passive-reporting-and-causative",
+      "prompt": "I'm going to ___ the flat valued before we put it on the market.",
+      "options": ["have", "make", "let"],
+      "answer": 0,
+      "explanation": {
+        "en": "Have + object + past participle means arranging for someone to do something.",
+        "es": "Have + objeto + participio: encargar algo."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: causative have."
+        },
+        {
+          "en": "Make would need a bare infinitive, not a participle."
+        },
+        {
+          "en": "Let would need a bare infinitive, not a participle."
+        }
+      ]
+    },
+    {
+      "id": "cg-passive-reporting-and-causative-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "passive-reporting-and-causative",
+      "prompt": "The firm is said ___ heavy losses at the moment.",
+      "options": ["to be making", "to have been made", "making"],
+      "answer": 0,
+      "explanation": {
+        "en": "At the moment points to a situation in progress: to be + -ing."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: continuous infinitive for an ongoing situation."
+        },
+        {
+          "en": "A passive perfect form does not fit: the firm is making losses, not receiving them."
+        },
+        {
+          "en": "The -ing form alone cannot follow is said."
+        }
+      ]
+    },
+    {
+      "id": "cg-passive-reporting-and-causative-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "passive-reporting-and-causative",
+      "prompt": "It ___ that regular sleep improves concentration.",
+      "options": ["is widely thought", "thinks widely", "is widely thinking"],
+      "answer": 0,
+      "explanation": {
+        "en": "The reporting passive uses be + past participle: it is thought that…",
+        "es": "«Se piensa que…» es it is thought that."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: it + passive + that-clause."
+        },
+        {
+          "en": "Active form: it cannot think."
+        },
+        {
+          "en": "Continuous active form with the wrong meaning."
+        }
+      ]
+    },
+    {
+      "id": "cg-passive-reporting-and-causative-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "passive-reporting-and-causative",
+      "prompt": "She ___ her purse stolen at the market, so she had to cancel her cards.",
+      "options": ["had", "was", "did"],
+      "answer": 0,
+      "explanation": {
+        "en": "Have + object + past participle can describe something unpleasant that happens to you.",
+        "es": "Had her purse stolen: algo que te ocurre."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: causative pattern in the past."
+        },
+        {
+          "en": "Was cannot be followed by an object plus a participle."
+        },
+        {
+          "en": "Did cannot be followed by an object plus a participle."
+        }
+      ]
+    }
+  ]
+}

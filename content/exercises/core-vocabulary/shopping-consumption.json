@@ -1,0 +1,195 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-shopping-consumption-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 2,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "purchase",
+        "inexpensive",
+        "customer",
+        "discount",
+        "product",
+        "receipt",
+        "refund",
+        "queue",
+        "brand",
+        "guarantee"
+      ],
+      "items": [
+        {
+          "id": "cv-shopping-consumption-synonyms-01-a",
+          "prompt": "buy",
+          "answer": 0,
+          "explanation": {
+            "en": "Purchase is a more formal verb for buy."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-synonyms-01-b",
+          "prompt": "cheap",
+          "answer": 1,
+          "explanation": {
+            "en": "Inexpensive means low in price, without the negative sense that cheap can have."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-synonyms-01-c",
+          "prompt": "shopper",
+          "answer": 2,
+          "explanation": {
+            "en": "A customer is a person who buys from a shop."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-synonyms-01-d",
+          "prompt": "reduction",
+          "answer": 3,
+          "explanation": {
+            "en": "A discount is a reduction in the normal price."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-synonyms-01-e",
+          "prompt": "item",
+          "answer": 4,
+          "explanation": {
+            "en": "A product is something that is made or grown to be sold."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-shopping-consumption-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "refund",
+        "receipt",
+        "bargain",
+        "guarantee",
+        "queue",
+        "brand",
+        "voucher",
+        "retailer",
+        "trolley",
+        "wholesale"
+      ],
+      "items": [
+        {
+          "id": "cv-shopping-consumption-definitions-01-a",
+          "prompt": "money given back to you when you return something you bought",
+          "answer": 0,
+          "explanation": {
+            "en": "You ask for a refund when you take an unwanted item back."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-definitions-01-b",
+          "prompt": "a piece of paper that shows you have paid for something",
+          "answer": 1,
+          "explanation": {
+            "en": "Keep your receipt as proof of purchase.",
+            "es": "Receipt es el justificante de compra; \"recipe\" es una receta."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-definitions-01-c",
+          "prompt": "something you buy for much less than its usual price",
+          "answer": 2,
+          "explanation": {
+            "en": "A bargain is a good deal: you pay little for good value."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-definitions-01-d",
+          "prompt": "a written promise to repair or replace a product if it breaks",
+          "answer": 3,
+          "explanation": {
+            "en": "Many electrical products come with a two-year guarantee."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-definitions-01-e",
+          "prompt": "a line of people waiting for something, such as a till",
+          "answer": 4,
+          "explanation": {
+            "en": "British English uses queue where American English uses line."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-shopping-consumption-collocations-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "shopping",
+        "card",
+        "sale",
+        "order",
+        "service",
+        "price",
+        "bill",
+        "cash",
+        "bargain",
+        "receipt"
+      ],
+      "items": [
+        {
+          "id": "cv-shopping-consumption-collocations-01-a",
+          "prompt": "do the …",
+          "answer": 0,
+          "explanation": {
+            "en": "Do the shopping means to buy food and household things."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-collocations-01-b",
+          "prompt": "pay by credit …",
+          "answer": 1,
+          "explanation": {
+            "en": "We pay by credit card, but we pay in cash."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-collocations-01-c",
+          "prompt": "closing-down …",
+          "answer": 2,
+          "explanation": {
+            "en": "A closing-down sale sells everything cheaply before a shop shuts."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-collocations-01-d",
+          "prompt": "place an …",
+          "answer": 3,
+          "explanation": {
+            "en": "Place an order means to ask a company to supply goods."
+          }
+        },
+        {
+          "id": "cv-shopping-consumption-collocations-01-e",
+          "prompt": "customer …",
+          "answer": 4,
+          "explanation": {
+            "en": "Customer service is the help a company gives to its buyers."
+          }
+        }
+      ]
+    }
+  ]
+}

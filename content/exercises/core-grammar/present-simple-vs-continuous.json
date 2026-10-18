@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-present-simple-vs-continuous-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "present-simple-vs-continuous",
+      "prompt": "Our manager ___ a new project to the team every Monday morning.",
+      "options": ["announces", "is announcing", "announce"],
+      "answer": 0,
+      "explanation": {
+        "en": "A weekly routine takes the present simple, with -s for she/he/it.",
+        "es": "Una rutina semanal va en present simple."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: routine, third person singular -s."
+        },
+        {
+          "en": "The continuous is for actions happening now, not repeated routines."
+        },
+        {
+          "en": "Missing the -s needed after a singular subject."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-simple-vs-continuous-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "present-simple-vs-continuous",
+      "prompt": "Sorry, I can't hear you. The builders ___ next door.",
+      "options": ["drill", "are drilling", "drills"],
+      "answer": 1,
+      "explanation": {
+        "en": "The noise is happening now, so the present continuous is needed."
+      },
+      "optionNotes": [
+        {
+          "en": "The present simple describes habits, not what is happening at this moment."
+        },
+        {
+          "en": "Correct: an action in progress now."
+        },
+        {
+          "en": "Builders is plural, so the -s form is wrong too."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-simple-vs-continuous-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "present-simple-vs-continuous",
+      "prompt": "This bag ___ to my colleague, so please don't take it.",
+      "options": ["is belonging", "belongs", "belong"],
+      "answer": 1,
+      "explanation": {
+        "en": "Belong is a state verb and normally takes the present simple.",
+        "es": "Belong es un verbo de estado: no se usa con -ing."
+      },
+      "optionNotes": [
+        {
+          "en": "State verbs are not normally used in the continuous."
+        },
+        {
+          "en": "Correct: state verb, third person singular."
+        },
+        {
+          "en": "Bag is singular, so the verb needs -s."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-simple-vs-continuous-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "present-simple-vs-continuous",
+      "prompt": "Pedro ___ his sister's laptop this week because his own is being repaired.",
+      "options": ["uses", "is using", "use"],
+      "answer": 1,
+      "explanation": {
+        "en": "This week and the reason show a temporary situation, so the present continuous fits.",
+        "es": "Situación temporal: present continuous."
+      },
+      "optionNotes": [
+        {
+          "en": "The present simple suggests a permanent habit, not a temporary arrangement."
+        },
+        {
+          "en": "Correct: a temporary situation."
+        },
+        {
+          "en": "Pedro is singular, so use needs -s."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-simple-vs-continuous-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 5,
+      "register": "spoken",
+      "grammarPoint": "present-simple-vs-continuous",
+      "prompt": "'What ___ ?' 'I'm a nurse, but I'm not working this month.'",
+      "options": ["are you doing", "do you do", "did you do"],
+      "answer": 1,
+      "explanation": {
+        "en": "What do you do? asks about someone's regular job, so the present simple is used.",
+        "es": "\"What do you do?\" pregunta por la profesión; \"What are you doing?\", por lo que haces ahora."
+      },
+      "optionNotes": [
+        {
+          "en": "This asks what you are busy with now, not your job."
+        },
+        {
+          "en": "Correct: asks about a permanent occupation."
+        },
+        {
+          "en": "The past simple asks about a finished action."
+        }
+      ]
+    }
+  ]
+}

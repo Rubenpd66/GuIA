@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-advice-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "advice-should-had-better",
+      "prompt": "You look pale. I think you ___ see a doctor.",
+      "options": ["should", "should to", "shoulds"],
+      "answer": 0,
+      "explanation": {
+        "en": "Should + bare infinitive.",
+        "es": "Tras should no va to."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: advice."
+        },
+        {
+          "en": "Should is followed by the infinitive without to."
+        },
+        {
+          "en": "Modals never take -s."
+        }
+      ]
+    },
+    {
+      "id": "cg-advice-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "advice-should-had-better",
+      "prompt": "I'm not sure about this job offer. What do you think I ___ do?",
+      "options": ["should", "ought", "shoulds"],
+      "answer": 0,
+      "explanation": {
+        "en": "Should is used to ask for advice; ought needs to."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: should + bare infinitive."
+        },
+        {
+          "en": "Ought needs to: ought to do."
+        },
+        {
+          "en": "Modals never take -s."
+        }
+      ]
+    },
+    {
+      "id": "cg-advice-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "environment",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "advice-should-had-better",
+      "prompt": "People ___ throw away so much food. It is a waste.",
+      "options": ["don't should", "shouldn't", "should to not"],
+      "answer": 1,
+      "explanation": {
+        "en": "The negative of should is shouldn't.",
+        "es": "Should no usa do: shouldn't."
+      },
+      "optionNotes": [
+        {
+          "en": "Modals do not use do in the negative."
+        },
+        {
+          "en": "Correct: shouldn't + bare infinitive."
+        },
+        {
+          "en": "Not goes after should and there is no to."
+        }
+      ]
+    },
+    {
+      "id": "cg-advice-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "advice-should-had-better",
+      "prompt": "You ___ to apologise to her; you were very rude.",
+      "options": ["should", "ought", "must"],
+      "answer": 1,
+      "explanation": {
+        "en": "Ought is always followed by to, and the sentence already has to."
+      },
+      "optionNotes": [
+        {
+          "en": "Should is never followed by to, so should to is wrong."
+        },
+        {
+          "en": "Correct: ought to apologise."
+        },
+        {
+          "en": "Must is never followed by to, so must to is wrong."
+        }
+      ]
+    },
+    {
+      "id": "cg-advice-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 5,
+      "register": "spoken",
+      "grammarPoint": "advice-should-had-better",
+      "prompt": "It's nearly nine. We'd ___ go, or we'll miss the start.",
+      "options": ["better", "good", "sooner"],
+      "answer": 0,
+      "explanation": {
+        "en": "Had better is a fixed expression for urgent advice.",
+        "es": "Más vale que: had better (con 'd en la conversación)."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: we had better go."
+        },
+        {
+          "en": "Good does not form this expression."
+        },
+        {
+          "en": "Sooner does not form this expression."
+        }
+      ]
+    }
+  ]
+}

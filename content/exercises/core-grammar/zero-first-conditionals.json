@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-cond01-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "zero-first-conditionals",
+      "prompt": "If you ___ too much coffee, you often can't sleep.",
+      "options": ["drink", "will drink", "would drink"],
+      "answer": 0,
+      "explanation": {
+        "en": "Zero conditional: present simple in both clauses."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: present simple for a general truth."
+        },
+        {
+          "en": "Will does not go in the if clause."
+        },
+        {
+          "en": "Would does not go in the if clause."
+        }
+      ]
+    },
+    {
+      "id": "cg-cond01-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "zero-first-conditionals",
+      "prompt": "I'll text you as soon as the plane ___.",
+      "options": ["lands", "will land", "would land"],
+      "answer": 0,
+      "explanation": {
+        "en": "After as soon as, use the present simple for the future.",
+        "es": "Tras as soon as, presente: as soon as the plane lands."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: present simple for the future."
+        },
+        {
+          "en": "Will cannot follow as soon as."
+        },
+        {
+          "en": "Would belongs to unreal situations."
+        }
+      ]
+    },
+    {
+      "id": "cg-cond01-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "zero-first-conditionals",
+      "prompt": "If you ___ that cake, Mum will be furious.",
+      "options": ["eat", "will eat", "would eat"],
+      "answer": 0,
+      "explanation": {
+        "en": "First conditional: present simple after if."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: present simple."
+        },
+        {
+          "en": "Will does not go after if."
+        },
+        {
+          "en": "Would does not go after if."
+        }
+      ]
+    },
+    {
+      "id": "cg-cond01-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "zero-first-conditionals",
+      "prompt": "You can't board the plane ___ you show your passport at the gate.",
+      "options": ["unless", "if", "when"],
+      "answer": 0,
+      "explanation": {
+        "en": "Unless means if not.",
+        "es": "Unless = «a menos que»: el verbo no lleva negación."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: you won't get a refund if you don't have it."
+        },
+        {
+          "en": "If would make the sentence say the opposite."
+        },
+        {
+          "en": "When does not express a condition here."
+        }
+      ]
+    },
+    {
+      "id": "cg-cond01-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "zero-first-conditionals",
+      "prompt": "We'll go ahead with the launch when everyone ___ approved the design.",
+      "options": ["has", "will have", "would have"],
+      "answer": 0,
+      "explanation": {
+        "en": "In time clauses, use the present perfect, not will.",
+        "es": "Con when, presente: when everyone has approved."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: present perfect after when."
+        },
+        {
+          "en": "Will cannot follow when."
+        },
+        {
+          "en": "Would does not fit a real future."
+        }
+      ]
+    }
+  ]
+}

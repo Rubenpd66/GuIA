@@ -1,0 +1,199 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-health-sport-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "unwell",
+        "remedy",
+        "competition",
+        "pain",
+        "exhausted",
+        "injury",
+        "fitness",
+        "symptom",
+        "stadium",
+        "diet"
+      ],
+      "items": [
+        {
+          "id": "cv-health-sport-synonyms-01-a",
+          "prompt": "ill",
+          "answer": 0,
+          "explanation": {
+            "en": "Unwell is a polite, slightly formal way to say ill."
+          }
+        },
+        {
+          "id": "cv-health-sport-synonyms-01-b",
+          "prompt": "cure",
+          "answer": 1,
+          "explanation": {
+            "en": "A remedy is something that treats an illness or a problem."
+          }
+        },
+        {
+          "id": "cv-health-sport-synonyms-01-c",
+          "prompt": "contest",
+          "answer": 2,
+          "explanation": {
+            "en": "A competition is an event in which people try to win.",
+            "es": "Competition = competición o concurso, no solo \"competencia\"."
+          }
+        },
+        {
+          "id": "cv-health-sport-synonyms-01-d",
+          "prompt": "ache",
+          "answer": 3,
+          "explanation": {
+            "en": "An ache is a continuous, mild pain."
+          }
+        },
+        {
+          "id": "cv-health-sport-synonyms-01-e",
+          "prompt": "tired",
+          "answer": 4,
+          "explanation": {
+            "en": "Exhausted means extremely tired."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-health-sport-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "symptom",
+        "injury",
+        "diet",
+        "referee",
+        "prescription",
+        "vaccine",
+        "stadium",
+        "stretcher",
+        "allergy",
+        "pitch"
+      ],
+      "items": [
+        {
+          "id": "cv-health-sport-definitions-01-a",
+          "prompt": "a sign that you have an illness",
+          "answer": 0,
+          "explanation": {
+            "en": "A cough or a fever can be a symptom of flu."
+          }
+        },
+        {
+          "id": "cv-health-sport-definitions-01-b",
+          "prompt": "damage to part of the body caused by an accident",
+          "answer": 1,
+          "explanation": {
+            "en": "Footballers often miss matches because of an injury."
+          }
+        },
+        {
+          "id": "cv-health-sport-definitions-01-c",
+          "prompt": "the food that a person usually eats",
+          "answer": 2,
+          "explanation": {
+            "en": "Diet does not always mean a plan to lose weight.",
+            "es": "Diet no siempre es \"régimen\": también es la alimentación habitual."
+          }
+        },
+        {
+          "id": "cv-health-sport-definitions-01-d",
+          "prompt": "the official who makes sure players follow the rules",
+          "answer": 3,
+          "explanation": {
+            "en": "A referee controls a match and can show a red card."
+          }
+        },
+        {
+          "id": "cv-health-sport-definitions-01-e",
+          "prompt": "a note from a doctor that allows you to get medicine",
+          "answer": 4,
+          "explanation": {
+            "en": "In the UK you take a prescription to the chemist's.",
+            "es": "Prescription = receta médica, no \"prescripción\"."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-health-sport-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "sprained",
+        "allergic",
+        "recover",
+        "referee",
+        "stretch",
+        "symptoms",
+        "workout",
+        "vaccinated",
+        "treatment",
+        "pitch"
+      ],
+      "items": [
+        {
+          "id": "cv-health-sport-usages-01-a",
+          "prompt": "I fell badly and ___ my ankle, so I cannot run this week.",
+          "answer": 0,
+          "explanation": {
+            "en": "To sprain a joint is to twist it and damage the ligaments.",
+            "es": "Sprain = torcerse (un tobillo, una muñeca)."
+          }
+        },
+        {
+          "id": "cv-health-sport-usages-01-b",
+          "prompt": "My brother is ___ to peanuts, so he reads every food label.",
+          "answer": 1,
+          "explanation": {
+            "en": "We say allergic to something.",
+            "es": "Se dice allergic to, no \"allergic of\"."
+          }
+        },
+        {
+          "id": "cv-health-sport-usages-01-c",
+          "prompt": "It usually takes about six weeks to ___ fully from a broken leg.",
+          "answer": 2,
+          "explanation": {
+            "en": "To recover is to get well again after an illness or injury."
+          }
+        },
+        {
+          "id": "cv-health-sport-usages-01-d",
+          "prompt": "The ___ blew his whistle and stopped the match.",
+          "answer": 3,
+          "explanation": {
+            "en": "The referee is the official who controls a match."
+          }
+        },
+        {
+          "id": "cv-health-sport-usages-01-e",
+          "prompt": "Before running, it is wise to ___ your legs to avoid cramp.",
+          "answer": 4,
+          "explanation": {
+            "en": "To stretch is to extend your muscles gently before exercise."
+          }
+        }
+      ]
+    }
+  ]
+}

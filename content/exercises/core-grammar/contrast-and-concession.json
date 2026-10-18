@@ -1,0 +1,137 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-contrast-and-concession-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "contrast-and-concession",
+      "prompt": "___ the late train, he arrived at the meeting on time.",
+      "options": ["Despite", "Although", "However"],
+      "answer": 0,
+      "explanation": {
+        "en": "Despite is followed by a noun phrase."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: despite + noun phrase."
+        },
+        {
+          "en": "Although needs a full clause."
+        },
+        {
+          "en": "However starts a new sentence and needs a comma."
+        }
+      ]
+    },
+    {
+      "id": "cg-contrast-and-concession-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "media",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "contrast-and-concession",
+      "prompt": "A: Was the film any good? B: The acting was great. ___, the plot was really weak.",
+      "options": ["Although", "However", "Despite"],
+      "answer": 1,
+      "explanation": {
+        "en": "However starts a new sentence to show contrast."
+      },
+      "optionNotes": [
+        {
+          "en": "Although would join two clauses and not start a sentence this way."
+        },
+        {
+          "en": "Correct: However plus a comma."
+        },
+        {
+          "en": "Despite needs a noun or -ing."
+        }
+      ]
+    },
+    {
+      "id": "cg-contrast-and-concession-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "contrast-and-concession",
+      "prompt": "She passed the exam ___ she had hardly studied.",
+      "options": ["despite", "however", "even though"],
+      "answer": 2,
+      "explanation": {
+        "en": "A full clause follows, so even though is needed.",
+        "es": "Even though + oración; despite + nombre."
+      },
+      "optionNotes": [
+        {
+          "en": "Despite is not followed by a clause."
+        },
+        {
+          "en": "However cannot join two clauses."
+        },
+        {
+          "en": "Correct: even though + clause."
+        }
+      ]
+    },
+    {
+      "id": "cg-contrast-and-concession-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "contrast-and-concession",
+      "prompt": "Madrid is hot and dry in July, ___ Bilbao is much cooler and wetter.",
+      "options": ["whereas", "however", "despite"],
+      "answer": 0,
+      "explanation": {
+        "en": "Whereas contrasts two facts in one sentence."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: whereas links the contrast."
+        },
+        {
+          "en": "However needs a full stop before it."
+        },
+        {
+          "en": "Despite needs a noun or -ing."
+        }
+      ]
+    },
+    {
+      "id": "cg-contrast-and-concession-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "contrast-and-concession",
+      "prompt": "___ of feeling exhausted, he finished the marathon.",
+      "options": ["Although", "Despite", "In spite"],
+      "answer": 2,
+      "explanation": {
+        "en": "In spite is followed by of.",
+        "es": "Despite no lleva of; in spite sí."
+      },
+      "optionNotes": [
+        {
+          "en": "Although is not followed by of."
+        },
+        {
+          "en": "Despite is never followed by of."
+        },
+        {
+          "en": "Correct: in spite of."
+        }
+      ]
+    }
+  ]
+}

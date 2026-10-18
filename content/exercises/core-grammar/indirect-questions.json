@@ -1,0 +1,144 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-indirect-questions-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "indirect-questions",
+      "prompt": "Excuse me, do you know what time ___ today?",
+      "options": [
+        "the museum closes",
+        "does the museum close",
+        "closes the museum"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "In an indirect question use statement order, with no do/does.",
+        "es": "Tras Do you know… orden de afirmativa: the museum closes."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: subject + verb after the question word."
+        },
+        {
+          "en": "Direct-question word order is not used inside an indirect question."
+        },
+        {
+          "en": "The verb must not come before the subject."
+        }
+      ]
+    },
+    {
+      "id": "cg-indirect-questions-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "indirect-questions",
+      "prompt": "Who ___ this morning's meeting?",
+      "options": ["chaired", "did chaired", "was chair"],
+      "answer": 0,
+      "explanation": {
+        "en": "Who is the subject, so the verb follows directly with no did.",
+        "es": "Si who es el sujeto, no se usa did."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: question word as subject + past simple."
+        },
+        {
+          "en": "When who is the subject, there is no did; and after did the verb would be in the base form anyway, never chaired.",
+          "es": "Si «who» es el sujeto no se usa did; y tras did nunca va el verbo en pasado."
+        },
+        {
+          "en": "Was chair is not a verb form that fits here."
+        }
+      ]
+    },
+    {
+      "id": "cg-indirect-questions-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "indirect-questions",
+      "prompt": "I wonder ___ the exam results will be published.",
+      "options": ["when", "when will", "that when"],
+      "answer": 0,
+      "explanation": {
+        "en": "I wonder introduces an indirect question, which keeps statement order."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: question word + subject + verb."
+        },
+        {
+          "en": "Inversion (will the results) belongs to direct questions."
+        },
+        {
+          "en": "That cannot be placed before a question word."
+        }
+      ]
+    },
+    {
+      "id": "cg-indirect-questions-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "indirect-questions",
+      "prompt": "Do you know if ___ to the party on Saturday?",
+      "options": ["Sam is coming", "is Sam coming", "does Sam coming"],
+      "answer": 0,
+      "explanation": {
+        "en": "After if, use statement order.",
+        "es": "Tras if, orden de afirmativa."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: if + subject + verb."
+        },
+        {
+          "en": "Inversion is for direct questions."
+        },
+        {
+          "en": "Does cannot be followed by an -ing form."
+        }
+      ]
+    },
+    {
+      "id": "cg-indirect-questions-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "indirect-questions",
+      "prompt": "Nobody could explain ___ the files had disappeared.",
+      "options": ["how", "how had", "how did"],
+      "answer": 0,
+      "explanation": {
+        "en": "The clause after explain is not a question, so no inversion or auxiliary is needed.",
+        "es": "Aquí no hay inversión: how the files had disappeared."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: how + subject + verb."
+        },
+        {
+          "en": "Had cannot come before the subject here."
+        },
+        {
+          "en": "Did cannot be added to the indirect clause."
+        }
+      ]
+    }
+  ]
+}

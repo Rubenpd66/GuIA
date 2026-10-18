@@ -1,0 +1,137 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-deduct-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "modals-of-deduction",
+      "prompt": "The office is dark and the doors are locked. Everyone ___ gone home.",
+      "options": ["must have", "must", "can"],
+      "answer": 0,
+      "explanation": {
+        "en": "Past deduction: must have + past participle."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: certain deduction about the past."
+        },
+        {
+          "en": "Must needs have before the participle."
+        },
+        {
+          "en": "Can does not express deduction here and needs have."
+        }
+      ]
+    },
+    {
+      "id": "cg-deduct-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "modals-of-deduction",
+      "prompt": "I can't find my keys anywhere. I ___ left them at the gym.",
+      "options": ["might have", "might", "might to"],
+      "answer": 0,
+      "explanation": {
+        "en": "Past possibility: might have + past participle."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: possible but not certain."
+        },
+        {
+          "en": "Might needs have before the participle."
+        },
+        {
+          "en": "No to after a modal."
+        }
+      ]
+    },
+    {
+      "id": "cg-deduct-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "modals-of-deduction",
+      "prompt": "Sam has just messaged me from his desk, so he ___ be on the train.",
+      "options": ["must", "can't", "may"],
+      "answer": 1,
+      "explanation": {
+        "en": "Can't expresses a strong negative deduction.",
+        "es": "«No puede ser» es can't, no mustn't."
+      },
+      "optionNotes": [
+        {
+          "en": "Must says it is certainly true, the opposite."
+        },
+        {
+          "en": "Correct: impossible given the facts."
+        },
+        {
+          "en": "May says it is possible, which contradicts the fact."
+        }
+      ]
+    },
+    {
+      "id": "cg-deduct-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "modals-of-deduction",
+      "prompt": "The footprints are enormous, so the animal ___ been a small dog.",
+      "options": ["can't have", "must have", "might"],
+      "answer": 0,
+      "explanation": {
+        "en": "Past impossibility: can't have + past participle."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: it is almost impossible."
+        },
+        {
+          "en": "Must have says it was certainly a small dog."
+        },
+        {
+          "en": "Might needs have before the participle."
+        }
+      ]
+    },
+    {
+      "id": "cg-deduct-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "modals-of-deduction",
+      "prompt": "He ___ have been waiting long; his coffee is still too hot to drink.",
+      "options": ["can't", "hasn't", "doesn't"],
+      "answer": 0,
+      "explanation": {
+        "en": "Can't have been + -ing: a deduction about the recent past.",
+        "es": "Can't have been waiting: «no puede llevar mucho esperando»."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: a strong negative deduction."
+        },
+        {
+          "en": "Hasn't cannot be followed by have; deduction about the past needs a modal + have + past participle."
+        },
+        {
+          "en": "Doesn't cannot be followed by have."
+        }
+      ]
+    }
+  ]
+}

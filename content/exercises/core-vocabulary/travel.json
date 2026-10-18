@@ -1,0 +1,199 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-travel-synonyms-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "baggage",
+        "leave",
+        "journey",
+        "lodging",
+        "tourist",
+        "passport",
+        "resort",
+        "ferry",
+        "itinerary",
+        "customs"
+      ],
+      "items": [
+        {
+          "id": "cv-travel-synonyms-01-a",
+          "prompt": "luggage",
+          "answer": 0,
+          "explanation": {
+            "en": "Luggage is the usual British word; baggage means the same, especially in American English."
+          }
+        },
+        {
+          "id": "cv-travel-synonyms-01-b",
+          "prompt": "depart",
+          "answer": 1,
+          "explanation": {
+            "en": "To depart is the formal way to say leave a place."
+          }
+        },
+        {
+          "id": "cv-travel-synonyms-01-c",
+          "prompt": "voyage",
+          "answer": 2,
+          "explanation": {
+            "en": "A voyage is a long journey, usually by sea."
+          }
+        },
+        {
+          "id": "cv-travel-synonyms-01-d",
+          "prompt": "accommodation",
+          "answer": 3,
+          "explanation": {
+            "en": "Lodging is a place to stay, and so is accommodation.",
+            "es": "Accommodation no lleva plural en inglés británico."
+          }
+        },
+        {
+          "id": "cv-travel-synonyms-01-e",
+          "prompt": "holidaymaker",
+          "answer": 4,
+          "explanation": {
+            "en": "A holidaymaker is a tourist: a person on holiday away from home."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-travel-definitions-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "itinerary",
+        "customs",
+        "delay",
+        "souvenir",
+        "hostel",
+        "passport",
+        "resort",
+        "platform",
+        "check-in",
+        "boarding"
+      ],
+      "items": [
+        {
+          "id": "cv-travel-definitions-01-a",
+          "prompt": "a detailed plan of the places you will visit on a journey",
+          "answer": 0,
+          "explanation": {
+            "en": "An itinerary lists where you will go and when."
+          }
+        },
+        {
+          "id": "cv-travel-definitions-01-b",
+          "prompt": "the place at a border where officials check the goods you bring in",
+          "answer": 1,
+          "explanation": {
+            "en": "Customs officers can ask you to open your bags.",
+            "es": "Customs (aduana) es siempre plural en este sentido."
+          }
+        },
+        {
+          "id": "cv-travel-definitions-01-c",
+          "prompt": "a time when a train or flight leaves later than planned",
+          "answer": 2,
+          "explanation": {
+            "en": "A delay makes you wait longer than expected."
+          }
+        },
+        {
+          "id": "cv-travel-definitions-01-d",
+          "prompt": "an object you buy to remember a place you have visited",
+          "answer": 3,
+          "explanation": {
+            "en": "A souvenir is something you keep as a memory of a trip.",
+            "es": "Souvenir es el recuerdo que compras en un viaje."
+          }
+        },
+        {
+          "id": "cv-travel-definitions-01-e",
+          "prompt": "a cheap place to stay, often with shared rooms",
+          "answer": 4,
+          "explanation": {
+            "en": "A hostel is a cheap place for travellers, often with shared dormitories.",
+            "es": "Hostel no es \"hostal\": suele tener habitaciones compartidas."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-travel-usages-01",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "book",
+        "delayed",
+        "platform",
+        "abroad",
+        "passport",
+        "cancelled",
+        "luggage",
+        "fare",
+        "resort",
+        "tourist"
+      ],
+      "items": [
+        {
+          "id": "cv-travel-usages-01-a",
+          "prompt": "We need to ___ our hotel soon because August is very busy.",
+          "answer": 0,
+          "explanation": {
+            "en": "To book is to reserve a room or a seat in advance."
+          }
+        },
+        {
+          "id": "cv-travel-usages-01-b",
+          "prompt": "Our flight was ___ by two hours because of fog.",
+          "answer": 1,
+          "explanation": {
+            "en": "A delayed flight leaves later than planned; a cancelled one does not leave at all."
+          }
+        },
+        {
+          "id": "cv-travel-usages-01-c",
+          "prompt": "The train to Leeds leaves from ___ nine.",
+          "answer": 2,
+          "explanation": {
+            "en": "Trains arrive at and leave from a platform."
+          }
+        },
+        {
+          "id": "cv-travel-usages-01-d",
+          "prompt": "She has never been ___; she has not left the country once.",
+          "answer": 3,
+          "explanation": {
+            "en": "Abroad means in or to another country, and it has no preposition.",
+            "es": "Se dice go abroad, no \"go to abroad\"."
+          }
+        },
+        {
+          "id": "cv-travel-usages-01-e",
+          "prompt": "Remember to show your ___ at the check-in desk.",
+          "answer": 4,
+          "explanation": {
+            "en": "At an airport desk you show your passport as identification."
+          }
+        }
+      ]
+    }
+  ]
+}

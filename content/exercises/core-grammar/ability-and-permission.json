@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-abil-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "ability-and-permission",
+      "prompt": "Our new colleague ___ speak four languages, which is very useful.",
+      "options": ["can", "is can", "cans"],
+      "answer": 0,
+      "explanation": {
+        "en": "Can + bare infinitive for general ability."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: can for present ability."
+        },
+        {
+          "en": "Can is a modal, so it needs no be."
+        },
+        {
+          "en": "Modals never take -s."
+        }
+      ]
+    },
+    {
+      "id": "cg-abil-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "ability-and-permission",
+      "prompt": "Despite the storm, the pilot ___ land the plane safely.",
+      "options": ["could", "was able to", "can"],
+      "answer": 1,
+      "explanation": {
+        "en": "One particular success in the past needs was able to; could is for general past ability.",
+        "es": "Un logro concreto en pasado: was able to, no could."
+      },
+      "optionNotes": [
+        {
+          "en": "Could does not describe a single successful event in an affirmative sentence."
+        },
+        {
+          "en": "Correct: was able to for one achievement in the past."
+        },
+        {
+          "en": "Can is present; the sentence is about the past."
+        }
+      ]
+    },
+    {
+      "id": "cg-abil-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "ability-and-permission",
+      "prompt": "Hi, it's me. ___ you pick up some milk on your way home?",
+      "options": ["Could", "Are", "Do"],
+      "answer": 0,
+      "explanation": {
+        "en": "Could you...? is a polite request."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: a polite request."
+        },
+        {
+          "en": "Are you + infinitive does not make a request."
+        },
+        {
+          "en": "Do you pick up asks about a habit, not a favour."
+        }
+      ]
+    },
+    {
+      "id": "cg-abil-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "ability-and-permission",
+      "prompt": "Since the operation, she hasn't ___ run more than a mile.",
+      "options": ["can", "been able to", "could"],
+      "answer": 1,
+      "explanation": {
+        "en": "The present perfect needs be able to, because can has no participle.",
+        "es": "Can no tiene participio: «no ha podido» es hasn't been able to."
+      },
+      "optionNotes": [
+        {
+          "en": "Can has no past participle."
+        },
+        {
+          "en": "Correct: hasn't been able to."
+        },
+        {
+          "en": "Could cannot follow hasn't."
+        }
+      ]
+    },
+    {
+      "id": "cg-abil-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "ability-and-permission",
+      "prompt": "I hope that by next summer I'll ___ speak Italian without notes.",
+      "options": ["be able to", "can", "could"],
+      "answer": 0,
+      "explanation": {
+        "en": "After will, can needs be able to.",
+        "es": "Tras will, can no existe: will be able to."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: will be able to."
+        },
+        {
+          "en": "Can cannot follow will."
+        },
+        {
+          "en": "Could does not fit this future meaning after I'll."
+        }
+      ]
+    }
+  ]
+}

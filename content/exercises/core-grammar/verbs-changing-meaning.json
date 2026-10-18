@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-verbs-changing-meaning-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "verbs-changing-meaning",
+      "prompt": "I'm trying to give up sugar, so I've stopped ___ it in my tea.",
+      "options": ["to put", "putting", "put"],
+      "answer": 1,
+      "explanation": {
+        "en": "Stop + -ing means give up an activity.",
+        "es": "Stop + -ing = dejar de hacer algo."
+      },
+      "optionNotes": [
+        {
+          "en": "Stop + to would mean stopping in order to put sugar in."
+        },
+        {
+          "en": "Correct: stop + -ing."
+        },
+        {
+          "en": "The base form cannot follow stopped."
+        }
+      ]
+    },
+    {
+      "id": "cg-verbs-changing-meaning-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "verbs-changing-meaning",
+      "prompt": "Please remember ___ the office before you leave tonight.",
+      "options": ["locking", "to lock", "lock"],
+      "answer": 1,
+      "explanation": {
+        "en": "Remember + to-infinitive is about something you must do.",
+        "es": "Remember to = no olvidar hacer algo."
+      },
+      "optionNotes": [
+        {
+          "en": "Remember + -ing is a memory of the past, which does not fit before you leave."
+        },
+        {
+          "en": "Correct: remember + to-infinitive."
+        },
+        {
+          "en": "The base form needs to."
+        }
+      ]
+    },
+    {
+      "id": "cg-verbs-changing-meaning-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "verbs-changing-meaning",
+      "prompt": "I'll never forget ___ the sunrise from the top of Mount Teide.",
+      "options": ["to watch", "watching", "watch"],
+      "answer": 1,
+      "explanation": {
+        "en": "Forget + -ing refers to a memory of a past experience.",
+        "es": "Never forget + -ing = recordar una vivencia."
+      },
+      "optionNotes": [
+        {
+          "en": "Forget + to-infinitive means failing to do something."
+        },
+        {
+          "en": "Correct: a memory of a past experience."
+        },
+        {
+          "en": "The base form cannot follow forget."
+        }
+      ]
+    },
+    {
+      "id": "cg-verbs-changing-meaning-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "verbs-changing-meaning",
+      "prompt": "I regret ___ so rudely to the waiter; he didn't deserve it.",
+      "options": ["to speak", "speaking", "speak"],
+      "answer": 1,
+      "explanation": {
+        "en": "Regret + -ing expresses sorrow about a past action."
+      },
+      "optionNotes": [
+        {
+          "en": "Regret + to-infinitive is for announcing bad news formally."
+        },
+        {
+          "en": "Correct: regret about the past."
+        },
+        {
+          "en": "The base form cannot follow regret."
+        }
+      ]
+    },
+    {
+      "id": "cg-verbs-changing-meaning-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "verbs-changing-meaning",
+      "prompt": "I forgot ___ the invoice, so the client never received it.",
+      "options": ["to send", "sending", "send"],
+      "answer": 0,
+      "explanation": {
+        "en": "Forget + to-infinitive means you did not do it. The client never received it.",
+        "es": "Forgot to send = no lo envié."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: the sending never happened."
+        },
+        {
+          "en": "Forget + -ing means you did it but cannot recall it, which contradicts the sentence."
+        },
+        {
+          "en": "The base form needs to."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-countable-uncountable-quantifiers-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "countable-uncountable-quantifiers",
+      "prompt": "There isn't ___ milk left, so I'll pop to the shop.",
+      "options": ["much", "many", "few"],
+      "answer": 0,
+      "explanation": {
+        "en": "Milk is uncountable, so much is used in a negative sentence."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: much goes with uncountable nouns."
+        },
+        {
+          "en": "Many goes with plural countable nouns."
+        },
+        {
+          "en": "Few goes with plural countable nouns."
+        }
+      ]
+    },
+    {
+      "id": "cg-countable-uncountable-quantifiers-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "countable-uncountable-quantifiers",
+      "prompt": "A: Is the road busy? B: Not really, there aren't ___ cars at this time.",
+      "options": ["much", "many", "a little"],
+      "answer": 1,
+      "explanation": {
+        "en": "Cars are countable, so many is used."
+      },
+      "optionNotes": [
+        {
+          "en": "Much is for uncountable nouns."
+        },
+        {
+          "en": "Correct: many goes with plural countable nouns."
+        },
+        {
+          "en": "A little is for uncountable nouns."
+        }
+      ]
+    },
+    {
+      "id": "cg-countable-uncountable-quantifiers-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "countable-uncountable-quantifiers",
+      "prompt": "She asked her tutor for ___ about which course to choose.",
+      "options": ["an advice", "some advice", "advices"],
+      "answer": 1,
+      "explanation": {
+        "en": "Advice is uncountable: no a/an and no plural.",
+        "es": "Advice es incontable: no lleva -s ni a. «Un consejo» = a piece of advice."
+      },
+      "optionNotes": [
+        {
+          "en": "Uncountable nouns cannot take an."
+        },
+        {
+          "en": "Correct: some with an uncountable noun."
+        },
+        {
+          "en": "Advice has no plural."
+        }
+      ]
+    },
+    {
+      "id": "cg-countable-uncountable-quantifiers-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "media",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "countable-uncountable-quantifiers",
+      "prompt": "The news from the capital ___ encouraging this morning.",
+      "options": ["is", "are", "were"],
+      "answer": 0,
+      "explanation": {
+        "en": "News is uncountable and takes a singular verb.",
+        "es": "News termina en -s pero es singular."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: singular verb with news."
+        },
+        {
+          "en": "News is not plural, so are does not fit."
+        },
+        {
+          "en": "Were is plural and past, and news is singular."
+        }
+      ]
+    },
+    {
+      "id": "cg-countable-uncountable-quantifiers-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "general",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "countable-uncountable-quantifiers",
+      "prompt": "I can't lend you anything, I'm afraid. I have very ___ savings.",
+      "options": ["much", "little", "few"],
+      "answer": 2,
+      "explanation": {
+        "en": "Savings is a plural countable noun, so few is used.",
+        "es": "Savings es plural en inglés: few savings."
+      },
+      "optionNotes": [
+        {
+          "en": "Much goes with uncountable nouns, and savings is plural."
+        },
+        {
+          "en": "Little goes with uncountable nouns."
+        },
+        {
+          "en": "Correct: few goes with plural countable nouns."
+        }
+      ]
+    }
+  ]
+}

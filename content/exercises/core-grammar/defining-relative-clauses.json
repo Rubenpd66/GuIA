@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-defining-relative-clauses-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "defining-relative-clauses",
+      "prompt": "The colleague ___ sits opposite me is from Poland.",
+      "options": ["who", "which", "whose"],
+      "answer": 0,
+      "explanation": {
+        "en": "Who refers to a person and is the subject of sits."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: who for a person as subject."
+        },
+        {
+          "en": "Which is for things, not people."
+        },
+        {
+          "en": "Whose shows possession, but nothing belongs to the colleague here."
+        }
+      ]
+    },
+    {
+      "id": "cg-defining-relative-clauses-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "defining-relative-clauses",
+      "prompt": "The software ___ the company bought last year keeps crashing.",
+      "options": ["who", "which", "whose"],
+      "answer": 1,
+      "explanation": {
+        "en": "Which refers to a thing.",
+        "es": "No uses who para cosas."
+      },
+      "optionNotes": [
+        {
+          "en": "Who is for people."
+        },
+        {
+          "en": "Correct: which for a thing."
+        },
+        {
+          "en": "Whose would need a possessed noun, such as whose price."
+        }
+      ]
+    },
+    {
+      "id": "cg-defining-relative-clauses-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "defining-relative-clauses",
+      "prompt": "A: Who's Dani? B: He's the guy ___ sister I went to school with.",
+      "options": ["who", "that", "whose"],
+      "answer": 2,
+      "explanation": {
+        "en": "Whose shows possession: his sister.",
+        "es": "«Cuyo/a» = whose."
+      },
+      "optionNotes": [
+        {
+          "en": "Who would need a verb next, not a noun."
+        },
+        {
+          "en": "That cannot show possession."
+        },
+        {
+          "en": "Correct: whose means of whom."
+        }
+      ]
+    },
+    {
+      "id": "cg-defining-relative-clauses-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "culture-leisure",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "defining-relative-clauses",
+      "prompt": "I'll never forget the summer ___ we cycled across Brittany.",
+      "options": ["when", "where", "who"],
+      "answer": 0,
+      "explanation": {
+        "en": "When refers to a time."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: when after a time noun."
+        },
+        {
+          "en": "Where is for places."
+        },
+        {
+          "en": "Who is for people."
+        }
+      ]
+    },
+    {
+      "id": "cg-defining-relative-clauses-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "defining-relative-clauses",
+      "prompt": "Here is the report on ___ the final decision was based.",
+      "options": ["that", "which", "whose"],
+      "answer": 1,
+      "explanation": {
+        "en": "After a preposition we use which, not that.",
+        "es": "Con preposición delante, which (no that): on which."
+      },
+      "optionNotes": [
+        {
+          "en": "That cannot follow a preposition."
+        },
+        {
+          "en": "Correct: preposition + which."
+        },
+        {
+          "en": "Whose needs a noun after it."
+        }
+      ]
+    }
+  ]
+}
