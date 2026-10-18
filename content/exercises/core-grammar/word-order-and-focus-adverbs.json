@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-word-order-and-focus-adverbs-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "word-order-and-focus-adverbs",
+      "prompt": "The manager ___ in the office before nine.",
+      "options": ["always is", "is being always", "is always"],
+      "answer": 2,
+      "explanation": {
+        "en": "Frequency adverbs go after the verb be.",
+        "es": "Con be, always va después del verbo."
+      },
+      "optionNotes": [
+        {
+          "en": "Always goes after be, not before it."
+        },
+        {
+          "en": "Be cannot take the continuous form with always in this position."
+        },
+        {
+          "en": "Correct: is + always."
+        }
+      ]
+    },
+    {
+      "id": "cg-word-order-and-focus-adverbs-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "word-order-and-focus-adverbs",
+      "prompt": "We haven't booked the hotel ___, so let's do it now.",
+      "options": ["already", "yet", "even"],
+      "answer": 1,
+      "explanation": {
+        "en": "Yet goes at the end of a negative sentence.",
+        "es": "«Todavía no» = not … yet."
+      },
+      "optionNotes": [
+        {
+          "en": "Already does not normally end a negative sentence like this."
+        },
+        {
+          "en": "Correct: not … yet."
+        },
+        {
+          "en": "Even adds surprise and does not fit this meaning."
+        }
+      ]
+    },
+    {
+      "id": "cg-word-order-and-focus-adverbs-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "word-order-and-focus-adverbs",
+      "prompt": "Our neighbours ___ in the same flat they bought in 1998.",
+      "options": ["already live", "still live", "yet live"],
+      "answer": 1,
+      "explanation": {
+        "en": "Still shows the situation has continued for a long time."
+      },
+      "optionNotes": [
+        {
+          "en": "Already means sooner than expected, which does not fit 1998."
+        },
+        {
+          "en": "Correct: still before the main verb."
+        },
+        {
+          "en": "Yet is not used in positive statements like this."
+        }
+      ]
+    },
+    {
+      "id": "cg-word-order-and-focus-adverbs-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "culture-leisure",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "word-order-and-focus-adverbs",
+      "prompt": "It was a very quiet shop; there wasn't ___ a single customer all morning.",
+      "options": ["ever", "still", "even"],
+      "answer": 2,
+      "explanation": {
+        "en": "Even adds surprise: not one customer."
+      },
+      "optionNotes": [
+        {
+          "en": "Ever does not fit before a single in this expression."
+        },
+        {
+          "en": "Still would mean continuing, which does not fit."
+        },
+        {
+          "en": "Correct: not even a single customer."
+        }
+      ]
+    },
+    {
+      "id": "cg-word-order-and-focus-adverbs-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "word-order-and-focus-adverbs",
+      "prompt": "Passengers ___ leave luggage unattended.",
+      "options": ["never must", "must not never", "must never"],
+      "answer": 2,
+      "explanation": {
+        "en": "Adverbs go after a modal verb and before the main verb.",
+        "es": "Never va después del modal: must never."
+      },
+      "optionNotes": [
+        {
+          "en": "Never goes after the modal, not before it."
+        },
+        {
+          "en": "A double negative is not possible."
+        },
+        {
+          "en": "Correct: modal + never + verb."
+        }
+      ]
+    }
+  ]
+}

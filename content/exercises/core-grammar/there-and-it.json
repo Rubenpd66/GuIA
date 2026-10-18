@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-there-and-it-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "city",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "there-and-it",
+      "prompt": "___ two libraries and a sports centre in our neighbourhood.",
+      "options": ["There are", "It is", "Are there"],
+      "answer": 0,
+      "explanation": {
+        "en": "A plural thing that exists is introduced with there are.",
+        "es": "«Hay» = there are; it is no sirve para decir que algo existe."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: there are + plural noun."
+        },
+        {
+          "en": "It is cannot introduce a plural list; it would need are."
+        },
+        {
+          "en": "Are there starts a question, but this is a statement."
+        }
+      ]
+    },
+    {
+      "id": "cg-there-and-it-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "there-and-it",
+      "prompt": "A: What's Seville like? B: Fantastic. ___ very hot in summer, though.",
+      "options": ["It's", "There's", "Is"],
+      "answer": 0,
+      "explanation": {
+        "en": "It refers to the city already mentioned, so we use it's before an adjective."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: it stands for Seville."
+        },
+        {
+          "en": "There's is followed by a noun, not by a bare adjective."
+        },
+        {
+          "en": "English needs a subject: Is very hot is incomplete."
+        }
+      ]
+    },
+    {
+      "id": "cg-there-and-it-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "there-and-it",
+      "prompt": "___ important to read the contract carefully before you sign it.",
+      "options": ["It is", "There is", "This is"],
+      "answer": 0,
+      "explanation": {
+        "en": "It is + adjective + to + verb is the pattern for a general comment.",
+        "es": "«Es importante leer…» = It is important to read…"
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: it is + adjective + to-infinitive."
+        },
+        {
+          "en": "There is is for existence and cannot be followed by an adjective here."
+        },
+        {
+          "en": "This is would refer to a specific thing, not the general idea of reading."
+        }
+      ]
+    },
+    {
+      "id": "cg-there-and-it-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "media",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "there-and-it",
+      "prompt": "Sorry I'm late. ___ a huge queue at the ticket machine.",
+      "options": ["It was", "There was", "Was"],
+      "answer": 1,
+      "explanation": {
+        "en": "Existence in the past takes there was.",
+        "es": "«Había una cola» = there was a queue."
+      },
+      "optionNotes": [
+        {
+          "en": "It was cannot introduce a new noun phrase."
+        },
+        {
+          "en": "Correct: there was + singular noun."
+        },
+        {
+          "en": "Was needs a subject; a sentence cannot begin with the verb."
+        }
+      ]
+    },
+    {
+      "id": "cg-there-and-it-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "environment",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "there-and-it",
+      "prompt": "Scientists say that ___ been a sharp rise in sea temperatures over the last decade.",
+      "options": ["it has", "there has", "there have"],
+      "answer": 1,
+      "explanation": {
+        "en": "The perfect form of there is is there has been, and the noun rise is singular."
+      },
+      "optionNotes": [
+        {
+          "en": "It has been a sharp rise is not possible; it cannot introduce a new noun."
+        },
+        {
+          "en": "Correct: there has been + singular noun."
+        },
+        {
+          "en": "There have does not agree with the singular noun rise."
+        }
+      ]
+    }
+  ]
+}

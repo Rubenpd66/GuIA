@@ -1,0 +1,136 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-cleft-sentences-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "cleft-sentences",
+      "prompt": "It was the lack of funding, not the weather, ___ forced the festival to close.",
+      "options": ["what", "that", "where"],
+      "answer": 1,
+      "explanation": {
+        "en": "In an it-cleft, the focused part is followed by that (or who for people)."
+      },
+      "optionNotes": [
+        {
+          "en": "What cannot follow the focused noun phrase here."
+        },
+        {
+          "en": "Correct: it was… that…"
+        },
+        {
+          "en": "Where only fits a place, and the focus here is a reason."
+        }
+      ]
+    },
+    {
+      "id": "cg-cleft-sentences-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "environment",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "cleft-sentences",
+      "prompt": "___ worries the council most is the cost of repairing the flood barriers.",
+      "options": ["What", "That", "It"],
+      "answer": 0,
+      "explanation": {
+        "en": "The what-pattern begins with what: What worries… is…"
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: what-cleft."
+        },
+        {
+          "en": "That cannot open a cleft sentence like this."
+        },
+        {
+          "en": "It would need the form It is… that…, not a verb straight after it."
+        }
+      ]
+    },
+    {
+      "id": "cg-cleft-sentences-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "cleft-sentences",
+      "prompt": "All I want ___ to know what time you'll be home.",
+      "options": ["are", "is", "does"],
+      "answer": 1,
+      "explanation": {
+        "en": "All I want + be + the focus. The verb be is singular and agrees with to know."
+      },
+      "optionNotes": [
+        {
+          "en": "Are is plural, but the complement is a single infinitive."
+        },
+        {
+          "en": "Correct: all I want is…"
+        },
+        {
+          "en": "Does cannot replace be in this pattern."
+        }
+      ]
+    },
+    {
+      "id": "cg-cleft-sentences-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "education",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "cleft-sentences",
+      "prompt": "It was not until the third semester ___ students were allowed to choose their modules.",
+      "options": ["than", "what", "that"],
+      "answer": 2,
+      "explanation": {
+        "en": "It was not until + time + that + clause.",
+        "es": "No existe «fue hasta que»: aquí se usa that."
+      },
+      "optionNotes": [
+        {
+          "en": "Than is for comparisons, not clefts."
+        },
+        {
+          "en": "What cannot introduce the clause after a time expression."
+        },
+        {
+          "en": "Correct: not until… that…"
+        }
+      ]
+    },
+    {
+      "id": "cg-cleft-sentences-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "shopping-consumption",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "cleft-sentences",
+      "prompt": "The main reason ___ customers return our products is that the sizes are inconsistent.",
+      "options": ["why", "what", "how"],
+      "answer": 0,
+      "explanation": {
+        "en": "The reason (why) + clause + be that…: why links the reason to the clause."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: the reason why…"
+        },
+        {
+          "en": "What does not follow the noun reason."
+        },
+        {
+          "en": "How asks about manner, not reason."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-adjectives-and-adverbs-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "adjectives-and-adverbs",
+      "prompt": "Your presentation was very ___, and everyone enjoyed it.",
+      "options": ["interestingly", "interesting", "interest"],
+      "answer": 1,
+      "explanation": {
+        "en": "After be we use an adjective."
+      },
+      "optionNotes": [
+        {
+          "en": "Interestingly is an adverb and cannot follow was here."
+        },
+        {
+          "en": "Correct: adjective after was."
+        },
+        {
+          "en": "Interest is a noun."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjectives-and-adverbs-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "adjectives-and-adverbs",
+      "prompt": "I haven't been sleeping well ___, so I'm a bit tired.",
+      "options": ["late", "lately", "latest"],
+      "answer": 1,
+      "explanation": {
+        "en": "Lately means recently. Late means not on time or after the usual hour.",
+        "es": "Lately = últimamente; late = tarde."
+      },
+      "optionNotes": [
+        {
+          "en": "Late does not mean recently."
+        },
+        {
+          "en": "Correct: lately = recently."
+        },
+        {
+          "en": "Latest is a superlative adjective."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjectives-and-adverbs-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "adjectives-and-adverbs",
+      "prompt": "The hotel staff dealt with our complaint very ___.",
+      "options": ["professional", "professionally", "professionalism"],
+      "answer": 1,
+      "explanation": {
+        "en": "We need an adverb to describe how they dealt with it."
+      },
+      "optionNotes": [
+        {
+          "en": "Professional is an adjective; it cannot describe the verb."
+        },
+        {
+          "en": "Correct: adverb describing the verb dealt."
+        },
+        {
+          "en": "Professionalism is a noun."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjectives-and-adverbs-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "environment",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "adjectives-and-adverbs",
+      "prompt": "The new recycling plans sound ___, but nobody knows how they will be paid for.",
+      "options": ["ambitiously", "ambitious", "ambition"],
+      "answer": 1,
+      "explanation": {
+        "en": "Sound is a linking verb and takes an adjective.",
+        "es": "Tras sound / look / feel va adjetivo, no adverbio."
+      },
+      "optionNotes": [
+        {
+          "en": "Ambitiously is an adverb and cannot follow sound here."
+        },
+        {
+          "en": "Correct: adjective after sound."
+        },
+        {
+          "en": "Ambition is a noun."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjectives-and-adverbs-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "adjectives-and-adverbs",
+      "prompt": "The new neighbours seem ___, but we haven't spoken to them yet.",
+      "options": ["friendly", "friendlily", "friendliness"],
+      "answer": 0,
+      "explanation": {
+        "en": "Friendly is an adjective even though it ends in -ly, and seem takes an adjective.",
+        "es": "Friendly termina en -ly pero es adjetivo."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: friendly is an adjective."
+        },
+        {
+          "en": "Friendlily is not a normal English word."
+        },
+        {
+          "en": "Friendliness is a noun."
+        }
+      ]
+    }
+  ]
+}

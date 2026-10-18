@@ -1,0 +1,137 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-inverted-conditionals-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "inverted-conditionals",
+      "prompt": "___ the airline informed passengers of the strike earlier, many would have rebooked their flights.",
+      "options": ["Had", "Should", "Were"],
+      "answer": 0,
+      "explanation": {
+        "en": "Would have rebooked is a third conditional, so the inverted form uses had."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: Had + subject + past participle = If the airline had informed…"
+        },
+        {
+          "en": "Should is for a possible future, not an unreal past."
+        },
+        {
+          "en": "Were is for an unreal present and does not fit informed."
+        }
+      ]
+    },
+    {
+      "id": "cg-inverted-conditionals-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "inverted-conditionals",
+      "prompt": "___ you require a reference, please contact the personnel office.",
+      "options": ["Had", "Should", "Were"],
+      "answer": 1,
+      "explanation": {
+        "en": "Should + subject + base verb is the formal way to say if you require."
+      },
+      "optionNotes": [
+        {
+          "en": "Had needs a past participle, not require."
+        },
+        {
+          "en": "Correct: Should you require…"
+        },
+        {
+          "en": "Were needs to + infinitive or an adjective, not require."
+        }
+      ]
+    },
+    {
+      "id": "cg-inverted-conditionals-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "inverted-conditionals",
+      "prompt": "___ it was your birthday, I'd have brought a present.",
+      "options": ["Have I known", "Had I known", "Did I know"],
+      "answer": 1,
+      "explanation": {
+        "en": "Had I known = If I had known: a third conditional without if.",
+        "es": "Es «de haberlo sabido»: Had I known."
+      },
+      "optionNotes": [
+        {
+          "en": "Have I known is a present perfect question and does not work here."
+        },
+        {
+          "en": "Correct: Had + subject + past participle."
+        },
+        {
+          "en": "Did I know needs a different result clause (would bring)."
+        }
+      ]
+    },
+    {
+      "id": "cg-inverted-conditionals-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "environment",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "inverted-conditionals",
+      "prompt": "Were the council ___ the plan, thousands of residents would lose their homes.",
+      "options": ["approve", "to approve", "approved"],
+      "answer": 1,
+      "explanation": {
+        "en": "Were + subject + to + infinitive replaces if + past simple."
+      },
+      "optionNotes": [
+        {
+          "en": "After were, the verb needs to: Were the council to approve."
+        },
+        {
+          "en": "Correct: Were… to approve…"
+        },
+        {
+          "en": "Approved after were would make a passive with no sense here."
+        }
+      ]
+    },
+    {
+      "id": "cg-inverted-conditionals-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "technology",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "inverted-conditionals",
+      "prompt": "Had it not been ___ the backup, the company would have lost everything.",
+      "options": ["for", "of", "by"],
+      "answer": 0,
+      "explanation": {
+        "en": "Had it not been for + noun is the fixed pattern for but for.",
+        "es": "«De no ser por» = Had it not been for."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: it had not been for…"
+        },
+        {
+          "en": "Of is not used in this fixed phrase."
+        },
+        {
+          "en": "By does not fit this fixed phrase."
+        }
+      ]
+    }
+  ]
+}

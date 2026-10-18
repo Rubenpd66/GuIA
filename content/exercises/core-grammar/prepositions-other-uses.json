@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-prepositions-other-uses-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "prepositions-other-uses",
+      "prompt": "Don't talk to me now; I'm ___ the middle of a film.",
+      "options": ["at", "in", "on"],
+      "answer": 1,
+      "explanation": {
+        "en": "We say in the middle of."
+      },
+      "optionNotes": [
+        {
+          "en": "At the middle is not used in this fixed expression."
+        },
+        {
+          "en": "Correct: in the middle of."
+        },
+        {
+          "en": "On the middle is not possible here."
+        }
+      ]
+    },
+    {
+      "id": "cg-prepositions-other-uses-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "prepositions-other-uses",
+      "prompt": "Most visitors come to the island ___ ferry.",
+      "options": ["with", "on", "by"],
+      "answer": 2,
+      "explanation": {
+        "en": "Means of transport without an article takes by.",
+        "es": "«En ferry» es by ferry."
+      },
+      "optionNotes": [
+        {
+          "en": "With is not used for transport."
+        },
+        {
+          "en": "On needs an article: on the ferry."
+        },
+        {
+          "en": "Correct: by + means of transport."
+        }
+      ]
+    },
+    {
+      "id": "cg-prepositions-other-uses-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "prepositions-other-uses",
+      "prompt": "I stayed ___ work until seven yesterday.",
+      "options": ["on", "at", "in"],
+      "answer": 1,
+      "explanation": {
+        "en": "We say at work."
+      },
+      "optionNotes": [
+        {
+          "en": "On work is not used for place."
+        },
+        {
+          "en": "Correct: at work."
+        },
+        {
+          "en": "In work means having a job, not being at the workplace."
+        }
+      ]
+    },
+    {
+      "id": "cg-prepositions-other-uses-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "media",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "prepositions-other-uses",
+      "prompt": "Their wedding photos were published ___ a glossy magazine.",
+      "options": ["in", "on", "at"],
+      "answer": 0,
+      "explanation": {
+        "en": "We say in a magazine.",
+        "es": "«En una revista» es in a magazine."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: in a magazine."
+        },
+        {
+          "en": "On is used for TV and radio, not magazines."
+        },
+        {
+          "en": "At is not used with publications."
+        }
+      ]
+    },
+    {
+      "id": "cg-prepositions-other-uses-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "prepositions-other-uses",
+      "prompt": "The train left five minutes early, so we weren't ___ time to catch it.",
+      "options": ["by", "at", "in"],
+      "answer": 2,
+      "explanation": {
+        "en": "In time means early enough to do something.",
+        "es": "In time = a tiempo para hacer algo; on time = puntual."
+      },
+      "optionNotes": [
+        {
+          "en": "By time is not an expression; in time means early enough to do something."
+        },
+        {
+          "en": "At time is not an expression here."
+        },
+        {
+          "en": "Correct: in time to catch it."
+        }
+      ]
+    }
+  ]
+}

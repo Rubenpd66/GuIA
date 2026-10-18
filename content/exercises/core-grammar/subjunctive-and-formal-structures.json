@@ -1,0 +1,137 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-subjunctive-and-formal-structures-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "subjunctive-and-formal-structures",
+      "prompt": "The regulations require that all contractors ___ a safety induction before starting work.",
+      "options": ["to complete", "complete", "completing"],
+      "answer": 1,
+      "explanation": {
+        "en": "After require that, use the base form of the verb."
+      },
+      "optionNotes": [
+        {
+          "en": "A that-clause does not take a to-infinitive."
+        },
+        {
+          "en": "Correct: base form complete."
+        },
+        {
+          "en": "The -ing form cannot be the verb of a that-clause."
+        }
+      ]
+    },
+    {
+      "id": "cg-subjunctive-and-formal-structures-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "subjunctive-and-formal-structures",
+      "prompt": "It is vital that the patient not ___ any solid food for twelve hours.",
+      "options": ["eats", "to eat", "eat"],
+      "answer": 2,
+      "explanation": {
+        "en": "After It is vital that, use not + base form."
+      },
+      "optionNotes": [
+        {
+          "en": "Eats is wrong after not."
+        },
+        {
+          "en": "A that-clause does not take a to-infinitive."
+        },
+        {
+          "en": "Correct: not + base form."
+        }
+      ]
+    },
+    {
+      "id": "cg-subjunctive-and-formal-structures-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "subjunctive-and-formal-structures",
+      "prompt": "My parents insist on ___ us to the airport, even though we've booked a taxi.",
+      "options": ["driving", "to drive", "drive"],
+      "answer": 0,
+      "explanation": {
+        "en": "Insist on + -ing.",
+        "es": "«Insisten en llevarnos» = insist on driving."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: preposition on + -ing."
+        },
+        {
+          "en": "Insist on cannot take a to-infinitive."
+        },
+        {
+          "en": "After a preposition the verb needs -ing."
+        }
+      ]
+    },
+    {
+      "id": "cg-subjunctive-and-formal-structures-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "general",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "subjunctive-and-formal-structures",
+      "prompt": "The union proposed that the strike ___ until the talks resumed.",
+      "options": ["suspend", "be suspended", "suspending"],
+      "answer": 1,
+      "explanation": {
+        "en": "The strike is suspended by someone, so use the passive base form after proposed that."
+      },
+      "optionNotes": [
+        {
+          "en": "Suspend is active, but the strike does not suspend itself here."
+        },
+        {
+          "en": "Correct: be suspended."
+        },
+        {
+          "en": "The -ing form cannot be the verb of a that-clause."
+        }
+      ]
+    },
+    {
+      "id": "cg-subjunctive-and-formal-structures-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "education",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "subjunctive-and-formal-structures",
+      "prompt": "I am happy to resubmit the essay, if ___.",
+      "options": ["needing be", "need be", "need being"],
+      "answer": 1,
+      "explanation": {
+        "en": "If need be is a fixed phrase meaning if necessary.",
+        "es": "Es una frase hecha («si hace falta»): if need be."
+      },
+      "optionNotes": [
+        {
+          "en": "The fixed phrase does not use needing."
+        },
+        {
+          "en": "Correct: if need be."
+        },
+        {
+          "en": "Need being is not part of the phrase."
+        }
+      ]
+    }
+  ]
+}

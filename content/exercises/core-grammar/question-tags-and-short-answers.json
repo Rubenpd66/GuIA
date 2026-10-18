@@ -1,0 +1,140 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-question-tags-and-short-answers-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "question-tags-and-short-answers",
+      "prompt": "Sofia's coming to the party, ___?",
+      "options": ["isn't she", "is she", "doesn't she"],
+      "answer": 0,
+      "explanation": {
+        "en": "A positive statement takes a negative tag with the same auxiliary.",
+        "es": "El tag repite el auxiliar: is → isn't she."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: positive statement, negative tag."
+        },
+        {
+          "en": "A positive tag after a positive statement is not the normal pattern."
+        },
+        {
+          "en": "Doesn't she needs the auxiliary do, but the statement uses is."
+        }
+      ]
+    },
+    {
+      "id": "cg-question-tags-and-short-answers-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "question-tags-and-short-answers",
+      "prompt": "'Do you think they'll accept our offer?' 'I'm afraid ___.'",
+      "options": ["yes", "it", "so"],
+      "answer": 2,
+      "explanation": {
+        "en": "After afraid we use so to replace the clause.",
+        "es": "No existe «I'm afraid yes»: se dice I'm afraid so."
+      },
+      "optionNotes": [
+        {
+          "en": "Yes is not used after afraid in this way."
+        },
+        {
+          "en": "It cannot replace the whole clause here."
+        },
+        {
+          "en": "Correct: I'm afraid so."
+        }
+      ]
+    },
+    {
+      "id": "cg-question-tags-and-short-answers-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "question-tags-and-short-answers",
+      "prompt": "'I haven't had lunch yet.' '___ have I. Shall we get something?'",
+      "options": ["So", "Neither", "Too"],
+      "answer": 1,
+      "explanation": {
+        "en": "Neither + auxiliary + subject agrees with a negative statement.",
+        "es": "Yo tampoco = Neither have I."
+      },
+      "optionNotes": [
+        {
+          "en": "So agrees with positive statements."
+        },
+        {
+          "en": "Correct: Neither have I."
+        },
+        {
+          "en": "Too does not start this kind of reply."
+        }
+      ]
+    },
+    {
+      "id": "cg-question-tags-and-short-answers-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "question-tags-and-short-answers",
+      "prompt": "Nobody has complained about the noise, ___?",
+      "options": ["have they", "haven't they", "did they"],
+      "answer": 0,
+      "explanation": {
+        "en": "Nobody makes the statement negative, so the tag is positive with they.",
+        "es": "Nobody es negativo: tag positivo con they."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: positive tag with the same auxiliary, have."
+        },
+        {
+          "en": "Haven't they would follow a positive statement."
+        },
+        {
+          "en": "Did they changes the tense."
+        }
+      ]
+    },
+    {
+      "id": "cg-question-tags-and-short-answers-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "question-tags-and-short-answers",
+      "prompt": "'Has the manager approved the plan?' 'Yes, she ___.'",
+      "options": ["did", "is", "has"],
+      "answer": 2,
+      "explanation": {
+        "en": "A short answer repeats the auxiliary from the question.",
+        "es": "Se responde con el auxiliar de la pregunta: has."
+      },
+      "optionNotes": [
+        {
+          "en": "Did is a different auxiliary from the question."
+        },
+        {
+          "en": "Is does not match has approved."
+        },
+        {
+          "en": "Correct: Yes, she has."
+        }
+      ]
+    }
+  ]
+}

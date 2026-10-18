@@ -1,0 +1,137 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-adjective-patterns-and-perception-verbs-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "adjective-patterns-and-perception-verbs",
+      "prompt": "I'm so pleased ___ that you got the job!",
+      "options": ["hearing", "hear", "to hear"],
+      "answer": 2,
+      "explanation": {
+        "en": "Pleased takes a to-infinitive when it names the reaction to news."
+      },
+      "optionNotes": [
+        {
+          "en": "Pleased is followed by a to-infinitive for a reaction, not -ing."
+        },
+        {
+          "en": "The bare infinitive cannot follow pleased."
+        },
+        {
+          "en": "Correct: pleased + to-infinitive."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjective-patterns-and-perception-verbs-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "adjective-patterns-and-perception-verbs",
+      "prompt": "Many people are afraid of ___ on aeroplanes.",
+      "options": ["to fly", "flying", "fly"],
+      "answer": 1,
+      "explanation": {
+        "en": "Of is a preposition, so afraid of is followed by an -ing form."
+      },
+      "optionNotes": [
+        {
+          "en": "Of is a preposition, so to + infinitive cannot follow it."
+        },
+        {
+          "en": "Correct: afraid of + -ing."
+        },
+        {
+          "en": "The base form cannot follow a preposition."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjective-patterns-and-perception-verbs-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "media",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "adjective-patterns-and-perception-verbs",
+      "prompt": "The final results are likely ___ published on the website next week.",
+      "options": ["being", "of being", "to be"],
+      "answer": 2,
+      "explanation": {
+        "en": "Likely is followed by a to-infinitive: likely to be published."
+      },
+      "optionNotes": [
+        {
+          "en": "Likely takes a to-infinitive, not -ing."
+        },
+        {
+          "en": "Likely is not followed by of."
+        },
+        {
+          "en": "Correct: likely + to-infinitive."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjective-patterns-and-perception-verbs-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "adjective-patterns-and-perception-verbs",
+      "prompt": "It was very thoughtful ___ the manager to send a card to the whole team.",
+      "options": ["of", "for", "from"],
+      "answer": 0,
+      "explanation": {
+        "en": "To judge someone's behaviour, use adjective + of + person + to-infinitive.",
+        "es": "«Qué detalle por parte del jefe» es _thoughtful **of** the manager_."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: we judge a person's behaviour with adjective + of + person."
+        },
+        {
+          "en": "For is used for tasks (it's important for staff to…), not for judging a person."
+        },
+        {
+          "en": "From does not combine with adjectives in this pattern."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjective-patterns-and-perception-verbs-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "adjective-patterns-and-perception-verbs",
+      "prompt": "A passer-by saw the thief ___ a bag from the café table and ran after him.",
+      "options": ["to snatch", "snatched", "snatch"],
+      "answer": 2,
+      "explanation": {
+        "en": "After see, hear and watch with an object, use the bare infinitive or -ing, never to or a past form.",
+        "es": "Tras _see_ + objeto no se usa **to**."
+      },
+      "optionNotes": [
+        {
+          "en": "After see with an object, we do not use to."
+        },
+        {
+          "en": "A finite past form cannot follow see + object."
+        },
+        {
+          "en": "Correct: see + object + bare infinitive for a short, complete action."
+        }
+      ]
+    }
+  ]
+}

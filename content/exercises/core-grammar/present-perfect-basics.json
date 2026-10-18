@@ -1,0 +1,137 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-present-perfect-basics-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "present-perfect-basics",
+      "prompt": "She has ___ in the finance department for three years.",
+      "options": ["work", "worked", "working"],
+      "answer": 1,
+      "explanation": {
+        "en": "After has we need the past participle: worked."
+      },
+      "optionNotes": [
+        {
+          "en": "Work is the base form; the present perfect needs the participle."
+        },
+        {
+          "en": "Correct: has + past participle."
+        },
+        {
+          "en": "Working would need been (has been working)."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-perfect-basics-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "present-perfect-basics",
+      "prompt": "A: Have you spoken to Joe? B: Yes, I've ___ finished talking to him.",
+      "options": ["yet", "just", "ever"],
+      "answer": 1,
+      "explanation": {
+        "en": "Just shows the action happened a moment ago and goes between have and the participle."
+      },
+      "optionNotes": [
+        {
+          "en": "Yet is used in questions and negatives, and goes at the end."
+        },
+        {
+          "en": "Correct: just = a moment ago."
+        },
+        {
+          "en": "Ever is used in questions about experience."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-perfect-basics-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "present-perfect-basics",
+      "prompt": "Dan ___ a member of the club since March.",
+      "options": ["is", "has been", "was"],
+      "answer": 1,
+      "explanation": {
+        "en": "A situation that began in the past and continues now, with since, takes the present perfect.",
+        "es": "«Es socio desde marzo» = has been a member since March."
+      },
+      "optionNotes": [
+        {
+          "en": "The present simple does not combine with since for a situation that began earlier."
+        },
+        {
+          "en": "Correct: present perfect + since."
+        },
+        {
+          "en": "Was would mean he is no longer a member."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-perfect-basics-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "present-perfect-basics",
+      "prompt": "Have you ever ___ a night train across Europe?",
+      "options": ["take", "took", "taken"],
+      "answer": 2,
+      "explanation": {
+        "en": "After have we use the past participle: taken."
+      },
+      "optionNotes": [
+        {
+          "en": "Take is the base form."
+        },
+        {
+          "en": "Took is the past simple."
+        },
+        {
+          "en": "Correct: past participle of take."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-perfect-basics-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "present-perfect-basics",
+      "prompt": "The shop has ___ closed, so we'll have to come back tomorrow.",
+      "options": ["yet", "already", "ever"],
+      "answer": 1,
+      "explanation": {
+        "en": "Already goes between has and the participle and shows something happened earlier than expected.",
+        "es": "Yet no se usa en frases afirmativas."
+      },
+      "optionNotes": [
+        {
+          "en": "Yet is not used in positive statements."
+        },
+        {
+          "en": "Correct: already in a positive statement."
+        },
+        {
+          "en": "Ever is not used in positive statements about a single fact."
+        }
+      ]
+    }
+  ]
+}

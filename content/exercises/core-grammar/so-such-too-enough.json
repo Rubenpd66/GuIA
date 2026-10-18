@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-so-such-too-enough-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "so-such-too-enough",
+      "prompt": "It was ___ a hot day that we stayed in the shade until the evening.",
+      "options": ["so", "such", "too"],
+      "answer": 1,
+      "explanation": {
+        "en": "Such comes before a/an + adjective + noun and introduces a result.",
+        "es": "So no va delante de a + sustantivo: such a hot day."
+      },
+      "optionNotes": [
+        {
+          "en": "So cannot go directly before a/an + noun."
+        },
+        {
+          "en": "Correct: such a hot day that …"
+        },
+        {
+          "en": "Too does not combine with a hot day that."
+        }
+      ]
+    },
+    {
+      "id": "cg-so-such-too-enough-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "so-such-too-enough",
+      "prompt": "I can't hear you; the music is ___ loud.",
+      "options": ["too", "enough", "such"],
+      "answer": 0,
+      "explanation": {
+        "en": "Too shows that the noise is a problem.",
+        "es": "Too = demasiado (con problema)."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: too + adjective expresses a problem."
+        },
+        {
+          "en": "Enough goes after the adjective and means sufficient."
+        },
+        {
+          "en": "Such needs a noun after it."
+        }
+      ]
+    },
+    {
+      "id": "cg-so-such-too-enough-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "so-such-too-enough",
+      "prompt": "We didn't have ___ time to finish the whole presentation.",
+      "options": ["too", "so", "enough"],
+      "answer": 2,
+      "explanation": {
+        "en": "Enough goes before a noun and means as much as needed."
+      },
+      "optionNotes": [
+        {
+          "en": "Too time is not possible; it would need much."
+        },
+        {
+          "en": "So cannot go directly before an uncountable noun like time."
+        },
+        {
+          "en": "Correct: enough + noun."
+        }
+      ]
+    },
+    {
+      "id": "cg-so-such-too-enough-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 4,
+      "register": "spoken",
+      "grammarPoint": "so-such-too-enough",
+      "prompt": "Is your laptop fast ___ to run this video editor?",
+      "options": ["enough", "so", "too"],
+      "answer": 0,
+      "explanation": {
+        "en": "Enough follows the adjective and is followed by to + verb.",
+        "es": "Enough va detrás del adjetivo: fast enough."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: adjective + enough + to + verb."
+        },
+        {
+          "en": "So does not combine with to + verb in this way."
+        },
+        {
+          "en": "Too fast would mean it is faster than needed, which makes no sense here."
+        }
+      ]
+    },
+    {
+      "id": "cg-so-such-too-enough-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "so-such-too-enough",
+      "prompt": "The water was ___ cold for us to swim in.",
+      "options": ["such", "too", "so"],
+      "answer": 1,
+      "explanation": {
+        "en": "Too + adjective + for someone + to + verb means a problem for that person.",
+        "es": "«Demasiado fría para bañarnos»: too cold for us to swim."
+      },
+      "optionNotes": [
+        {
+          "en": "Such needs a noun after it."
+        },
+        {
+          "en": "Correct: too cold for us to swim in."
+        },
+        {
+          "en": "So + adjective is followed by that, not for … to."
+        }
+      ]
+    }
+  ]
+}

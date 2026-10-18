@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-plural-and-compound-nouns-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "plural-and-compound-nouns",
+      "prompt": "I need a new pair of ___ for the wedding.",
+      "options": ["trouser", "trousers", "trousers'"],
+      "answer": 1,
+      "explanation": {
+        "en": "Trousers has no singular form, so we say a pair of trousers.",
+        "es": "_A pair of trousers_ = un pantalón."
+      },
+      "optionNotes": [
+        {
+          "en": "Trouser is only used before another noun (trouser pocket)."
+        },
+        {
+          "en": "Correct: a pair of + the plural noun."
+        },
+        {
+          "en": "The apostrophe makes it possessive, which does not fit here."
+        }
+      ]
+    },
+    {
+      "id": "cg-plural-and-compound-nouns-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "plural-and-compound-nouns",
+      "prompt": "The people who live in this block ___ planning a street party for the summer.",
+      "options": ["is", "are", "has"],
+      "answer": 1,
+      "explanation": {
+        "en": "People is a plural noun and takes are.",
+        "es": "_People_ es siempre plural: _people are_, aunque en español digamos «la gente es»."
+      },
+      "optionNotes": [
+        {
+          "en": "People is always plural."
+        },
+        {
+          "en": "Correct: people takes a plural verb."
+        },
+        {
+          "en": "Has is singular, so it does not fit people."
+        }
+      ]
+    },
+    {
+      "id": "cg-plural-and-compound-nouns-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "plural-and-compound-nouns",
+      "prompt": "Politics ___ a subject I try to avoid at family dinners.",
+      "options": ["are", "have", "is"],
+      "answer": 2,
+      "explanation": {
+        "en": "Politics, as a subject, takes a singular verb.",
+        "es": "«La política es» → _politics is_."
+      },
+      "optionNotes": [
+        {
+          "en": "Names of subjects in -ics are singular, so are does not fit."
+        },
+        {
+          "en": "Have is plural; subjects in -ics are singular."
+        },
+        {
+          "en": "Correct: a singular verb after a subject name in -ics."
+        }
+      ]
+    },
+    {
+      "id": "cg-plural-and-compound-nouns-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "plural-and-compound-nouns",
+      "prompt": "We took a ___ coach tour of the Highlands last spring.",
+      "options": ["three-days", "three days", "three-day"],
+      "answer": 2,
+      "explanation": {
+        "en": "A number plus a singular noun, joined by a hyphen, works like an adjective.",
+        "es": "No se pone -s: _a three-day tour_, no _a three-days tour_."
+      },
+      "optionNotes": [
+        {
+          "en": "A noun used like an adjective is singular, even after a number."
+        },
+        {
+          "en": "Without a hyphen and with -s, it does not work before the noun."
+        },
+        {
+          "en": "Correct: number + singular noun with a hyphen."
+        }
+      ]
+    },
+    {
+      "id": "cg-plural-and-compound-nouns-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "plural-and-compound-nouns",
+      "prompt": "The two main ___ for the grant are experience and research potential.",
+      "options": ["criterions", "criterias", "criteria"],
+      "answer": 2,
+      "explanation": {
+        "en": "The plural of criterion is criteria, and it takes a plural verb (are)."
+      },
+      "optionNotes": [
+        {
+          "en": "Criterion has an irregular plural."
+        },
+        {
+          "en": "Criterion has an irregular plural, not -s."
+        },
+        {
+          "en": "Correct: the plural of criterion."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-reporting-verbs-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "media",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "reporting-verbs",
+      "prompt": "The newspaper apologised ___ the error on its front page.",
+      "options": ["for printing", "to print", "that printing"],
+      "answer": 0,
+      "explanation": {
+        "en": "Apologise is followed by for + -ing."
+      },
+      "optionNotes": [
+        { "en": "Correct: apologise for + -ing." },
+        { "en": "Apologise is not followed by a to-infinitive." },
+        { "en": "That introduces a clause with a subject, not an -ing form." }
+      ]
+    },
+    {
+      "id": "cg-reporting-verbs-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "reporting-verbs",
+      "prompt": "The doctor promised ___ me as soon as she got the results.",
+      "options": ["to call", "calling", "that call"],
+      "answer": 0,
+      "explanation": {
+        "en": "Promise is followed by a to-infinitive (or a that-clause with a subject)."
+      },
+      "optionNotes": [
+        { "en": "Correct: promise + to-infinitive." },
+        { "en": "Promise is not followed by an -ing form." },
+        { "en": "A that-clause needs a subject and a correct verb form." }
+      ]
+    },
+    {
+      "id": "cg-reporting-verbs-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "education",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "reporting-verbs",
+      "prompt": "The head teacher warned the pupils ___ their phones into the exam hall.",
+      "options": ["not to bring", "bringing not", "of bringing"],
+      "answer": 0,
+      "explanation": {
+        "en": "Warn + object + (not) to-infinitive.",
+        "es": "Warn + objeto + not to + infinitivo."
+      },
+      "optionNotes": [
+        { "en": "Correct: warn someone not to do something." },
+        { "en": "Not cannot follow the -ing form like this." },
+        {
+          "en": "Warn someone of takes a noun, and does not take a bare -ing form here."
+        }
+      ]
+    },
+    {
+      "id": "cg-reporting-verbs-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "reporting-verbs",
+      "prompt": "The union accused the company ___ its promises to the workforce.",
+      "options": ["of breaking", "for breaking", "with breaking"],
+      "answer": 0,
+      "explanation": {
+        "en": "Accuse someone of + -ing.",
+        "es": "Acusar de: accuse of."
+      },
+      "optionNotes": [
+        { "en": "Correct: accuse someone of doing something." },
+        { "en": "For goes with blame or criticise, not accuse." },
+        { "en": "With is not used after accuse in this pattern." }
+      ]
+    },
+    {
+      "id": "cg-reporting-verbs-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "reporting-verbs",
+      "prompt": "The councillor firmly denied ___ any role in the decision.",
+      "options": ["to have played", "having played", "that having played"],
+      "answer": 1,
+      "explanation": {
+        "en": "Deny is followed by an -ing form, and having + past participle shows an earlier event.",
+        "es": "Deny + -ing, nunca to + infinitivo."
+      },
+      "optionNotes": [
+        { "en": "Deny is not followed by a to-infinitive." },
+        { "en": "Correct: deny + perfect gerund." },
+        { "en": "A that-clause cannot contain an -ing form like this." }
+      ]
+    }
+  ]
+}

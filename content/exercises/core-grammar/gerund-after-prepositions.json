@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-gerund-after-prepositions-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "gerund-after-prepositions",
+      "prompt": "Thanks for ___ me a lift to the station.",
+      "options": ["giving", "to give", "give"],
+      "answer": 0,
+      "explanation": {
+        "en": "After thanks for, use the -ing form.",
+        "es": "Tras una preposición, -ing: _thanks for giving_."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: for is a preposition, so the verb takes -ing."
+        },
+        {
+          "en": "To + infinitive cannot follow a preposition."
+        },
+        {
+          "en": "The base form cannot follow a preposition."
+        }
+      ]
+    },
+    {
+      "id": "cg-gerund-after-prepositions-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "gerund-after-prepositions",
+      "prompt": "She doubled her client list by ___ extra workshops in the evenings.",
+      "options": ["to run", "run", "running"],
+      "answer": 2,
+      "explanation": {
+        "en": "By is a preposition, so it is followed by an -ing form."
+      },
+      "optionNotes": [
+        {
+          "en": "To + infinitive cannot follow the preposition by."
+        },
+        {
+          "en": "The base form cannot follow a preposition."
+        },
+        {
+          "en": "Correct: by + -ing says how she did it."
+        }
+      ]
+    },
+    {
+      "id": "cg-gerund-after-prepositions-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "gerund-after-prepositions",
+      "prompt": "Instead of ___ for the exam at the last minute, she made a revision timetable in October.",
+      "options": ["to cram", "cramming", "cram"],
+      "answer": 1,
+      "explanation": {
+        "en": "Instead of ends in a preposition, so the verb that follows is an -ing form."
+      },
+      "optionNotes": [
+        {
+          "en": "To + infinitive cannot follow instead of."
+        },
+        {
+          "en": "Correct: instead of is a prepositional phrase, so it takes -ing."
+        },
+        {
+          "en": "The base form cannot follow a preposition."
+        }
+      ]
+    },
+    {
+      "id": "cg-gerund-after-prepositions-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "gerund-after-prepositions",
+      "prompt": "Local residents have objected to ___ a car park on the playing field.",
+      "options": ["build", "building", "be building"],
+      "answer": 1,
+      "explanation": {
+        "en": "In object to, the word to is a preposition, not part of an infinitive, so we use -ing.",
+        "es": "_Object to_ lleva -ing porque **to** es preposición."
+      },
+      "optionNotes": [
+        {
+          "en": "Object to is followed by a noun or -ing, not the base form."
+        },
+        {
+          "en": "Correct: in object to, to is a preposition, so the verb takes -ing."
+        },
+        {
+          "en": "This is not a possible form after a preposition."
+        }
+      ]
+    },
+    {
+      "id": "cg-gerund-after-prepositions-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "gerund-after-prepositions",
+      "prompt": "After a year in Madrid, I'm still not used to ___ at six every morning for training.",
+      "options": ["wake up", "to wake up", "waking up"],
+      "answer": 2,
+      "explanation": {
+        "en": "Be used to means be accustomed to, and to is a preposition, so the verb takes -ing.",
+        "es": "_Be used to_ + -ing = estar acostumbrado a; no confundir con _used to_ + infinitivo."
+      },
+      "optionNotes": [
+        {
+          "en": "Be used to takes -ing, not the base form."
+        },
+        {
+          "en": "To + infinitive does not follow be used to."
+        },
+        {
+          "en": "Correct: be used to + -ing means be accustomed to."
+        }
+      ]
+    }
+  ]
+}

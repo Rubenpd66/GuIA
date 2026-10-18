@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-phrasal-verbs-advanced-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "phrasal-verbs-advanced",
+      "prompt": "Several supermarkets have decided to ___ plastic bags altogether.",
+      "options": ["do away with", "do up with", "do out with"],
+      "answer": 0,
+      "explanation": {
+        "en": "Do away with means get rid of or abolish something, typically in formal writing.",
+        "es": "Do away with = eliminar o suprimir algo."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: do away with means abolish."
+        },
+        {
+          "en": "Do up means fasten or renovate; it does not take with."
+        },
+        {
+          "en": "Do out with is not a phrasal verb."
+        }
+      ]
+    },
+    {
+      "id": "cg-phrasal-verbs-advanced-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "phrasal-verbs-advanced",
+      "prompt": "I get hundreds of emails a day and I just can't ___ them.",
+      "options": ["keep up with", "keep away with", "keep off with"],
+      "answer": 0,
+      "explanation": {
+        "en": "Keep up with means manage to deal with something that arrives quickly or in large amounts."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: keep up with = manage the pace."
+        },
+        {
+          "en": "Keep away from exists, but keep away with does not."
+        },
+        {
+          "en": "Keep off means not touch or not talk about; it does not take with."
+        }
+      ]
+    },
+    {
+      "id": "cg-phrasal-verbs-advanced-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "phrasal-verbs-advanced",
+      "prompt": "We are looking forward ___ your revised proposal next week.",
+      "options": ["to receive", "to receiving", "for receiving"],
+      "answer": 1,
+      "explanation": {
+        "en": "To in look forward to is a preposition, so the next verb takes -ing.",
+        "es": "Ese to es preposición: receiving, no receive."
+      },
+      "optionNotes": [
+        {
+          "en": "Infinitive after to is a common mistake: this to is a preposition."
+        },
+        {
+          "en": "Correct: look forward to + -ing."
+        },
+        {
+          "en": "Look forward takes to, not for."
+        }
+      ]
+    },
+    {
+      "id": "cg-phrasal-verbs-advanced-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "shopping-consumption",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "phrasal-verbs-advanced",
+      "prompt": "The designers ___ a clever way to cut the cost of packaging.",
+      "options": ["came up with", "came up to", "came along with"],
+      "answer": 0,
+      "explanation": {
+        "en": "Come up with means to think of an idea or plan.",
+        "es": "Idear o ocurrírsele algo es come up with."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: come up with = think of."
+        },
+        {
+          "en": "Come up to means to approach someone."
+        },
+        {
+          "en": "Come along with means to go together with someone."
+        }
+      ]
+    },
+    {
+      "id": "cg-phrasal-verbs-advanced-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "relationships",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "phrasal-verbs-advanced",
+      "prompt": "They had planned a large wedding, but the arrangements ___ when the venue closed.",
+      "options": ["fell off", "fell through", "fell out"],
+      "answer": 1,
+      "explanation": {
+        "en": "Fall through means a plan or agreement fails to happen."
+      },
+      "optionNotes": [
+        {
+          "en": "Fall off means to drop away from something, or to decrease."
+        },
+        {
+          "en": "Correct: fall through = fail to happen."
+        },
+        {
+          "en": "Fall out means to quarrel with someone."
+        }
+      ]
+    }
+  ]
+}

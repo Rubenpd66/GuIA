@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-verb-prepositions-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "verb-prepositions",
+      "prompt": "Can you wait ___ me outside? I won't be long.",
+      "options": ["to", "(no preposition)", "for"],
+      "answer": 2,
+      "explanation": {
+        "en": "Wait takes for before its object.",
+        "es": "«Esperar a alguien» → _wait **for**_ someone."
+      },
+      "optionNotes": [
+        {
+          "en": "Wait is not followed by to before a person."
+        },
+        {
+          "en": "Wait needs a preposition before its object."
+        },
+        {
+          "en": "Correct: wait for."
+        }
+      ]
+    },
+    {
+      "id": "cg-verb-prepositions-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "verb-prepositions",
+      "prompt": "The manager asked the team to concentrate ___ the main goals this quarter.",
+      "options": ["in", "on", "at"],
+      "answer": 1,
+      "explanation": {
+        "en": "We say concentrate on something.",
+        "es": "Aunque digamos «concentrarse en», en inglés es _concentrate **on**_."
+      },
+      "optionNotes": [
+        {
+          "en": "Concentrate does not take in."
+        },
+        {
+          "en": "Correct: concentrate on."
+        },
+        {
+          "en": "Concentrate does not take at."
+        }
+      ]
+    },
+    {
+      "id": "cg-verb-prepositions-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "technology",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "verb-prepositions",
+      "prompt": "The new system consists ___ three separate modules.",
+      "options": ["from", "with", "of"],
+      "answer": 2,
+      "explanation": {
+        "en": "We say consist of when we list the parts of something."
+      },
+      "optionNotes": [
+        {
+          "en": "Consist does not take from."
+        },
+        {
+          "en": "Consist does not take with."
+        },
+        {
+          "en": "Correct: consist of."
+        }
+      ]
+    },
+    {
+      "id": "cg-verb-prepositions-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "verb-prepositions",
+      "prompt": "He married ___ his university friend in 2012, and they now live in Bristol.",
+      "options": ["to", "with", "(no preposition)"],
+      "answer": 2,
+      "explanation": {
+        "en": "Marry takes no preposition: married his friend. Compare: be married to someone.",
+        "es": "«Casarse con» → _marry_ + persona, sin preposición."
+      },
+      "optionNotes": [
+        {
+          "en": "Marry is followed directly by its object."
+        },
+        {
+          "en": "Marry is followed directly by its object."
+        },
+        {
+          "en": "Correct: marry someone, with no preposition."
+        }
+      ]
+    },
+    {
+      "id": "cg-verb-prepositions-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "verb-prepositions",
+      "prompt": "The festival organisers don't approve ___ people bringing their own food.",
+      "options": ["for", "of", "to"],
+      "answer": 1,
+      "explanation": {
+        "en": "We say approve of something, and an -ing form follows of."
+      },
+      "optionNotes": [
+        {
+          "en": "Approve does not take for."
+        },
+        {
+          "en": "Correct: approve of."
+        },
+        {
+          "en": "Approve does not take to."
+        }
+      ]
+    }
+  ]
+}

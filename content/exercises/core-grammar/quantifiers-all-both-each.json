@@ -1,0 +1,136 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-quantifiers-all-both-each-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "quantifiers-all-both-each",
+      "prompt": "We've known ___ since primary school.",
+      "options": ["us each", "each other", "one the other"],
+      "answer": 1,
+      "explanation": {
+        "en": "Use each other (or one another) when two people do the same thing to one another."
+      },
+      "optionNotes": [
+        {
+          "en": "This word order is not possible."
+        },
+        {
+          "en": "Correct: each other for a reciprocal action."
+        },
+        {
+          "en": "This is not a natural English form."
+        }
+      ]
+    },
+    {
+      "id": "cg-quantifiers-all-both-each-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "quantifiers-all-both-each",
+      "prompt": "I've visited Spain several times, and I've loved ___ time.",
+      "options": ["all", "whole", "each"],
+      "answer": 2,
+      "explanation": {
+        "en": "Each + singular noun looks at the occasions one by one."
+      },
+      "optionNotes": [
+        {
+          "en": "All is not used before time in this way."
+        },
+        {
+          "en": "Whole needs the or a possessive before it."
+        },
+        {
+          "en": "Correct: each time looks at the visits one by one."
+        }
+      ]
+    },
+    {
+      "id": "cg-quantifiers-all-both-each-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "quantifiers-all-both-each",
+      "prompt": "I tried on three jackets, but ___ of them fitted properly.",
+      "options": ["neither", "none", "every"],
+      "answer": 1,
+      "explanation": {
+        "en": "None of them means not one of the three. Neither is only for two.",
+        "es": "_Neither_ es solo para dos; con tres o más, _none_."
+      },
+      "optionNotes": [
+        {
+          "en": "Neither is only for two things; there are three jackets."
+        },
+        {
+          "en": "Correct: none of means not one out of the group."
+        },
+        {
+          "en": "Every cannot be followed by of them."
+        }
+      ]
+    },
+    {
+      "id": "cg-quantifiers-all-both-each-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "quantifiers-all-both-each",
+      "prompt": "___ of the two proposals has its merits, but I think the second is stronger.",
+      "options": ["Both", "Every", "Each"],
+      "answer": 2,
+      "explanation": {
+        "en": "Each of the two + singular verb. Both would need a plural verb, and every does not combine with of the."
+      },
+      "optionNotes": [
+        {
+          "en": "Both would need a plural verb (have), but the verb is has."
+        },
+        {
+          "en": "Every cannot be followed by of the two."
+        },
+        {
+          "en": "Correct: each of + plural noun with a singular verb."
+        }
+      ]
+    },
+    {
+      "id": "cg-quantifiers-all-both-each-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "quantifiers-all-both-each",
+      "prompt": "The government says that ___ the coastline is protected by law, but campaigners disagree.",
+      "options": ["Whole", "All", "Every"],
+      "answer": 1,
+      "explanation": {
+        "en": "All the + a singular noun means the whole of it. Every does not go with the, and whole needs the before it."
+      },
+      "optionNotes": [
+        {
+          "en": "Whole needs the or a possessive before it."
+        },
+        {
+          "en": "Correct: all the + singular noun."
+        },
+        {
+          "en": "Every cannot be followed by the."
+        }
+      ]
+    }
+  ]
+}

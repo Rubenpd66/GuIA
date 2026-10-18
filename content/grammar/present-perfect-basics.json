@@ -7,8 +7,14 @@
       "category": "tenses",
       "order": 80,
       "references": [
-        { "book": "egu", "unit": 7 },
-        { "book": "egu", "unit": 8 }
+        {
+          "book": "egu",
+          "unit": 7
+        },
+        {
+          "book": "egu",
+          "unit": 8
+        }
       ],
       "title": {
         "en": "Present perfect: form and basic uses",
@@ -98,14 +104,30 @@
           "en": "Has the manager arrived yet?",
           "es": "¿Ha llegado ya el director?"
         },
-        { "en": "We've already booked the hotel for the conference." },
-        { "en": "She hasn't answered my email yet." },
-        { "en": "I've just heard some great news." },
-        { "en": "They've lived in Bilbao for six years." },
-        { "en": "Have you ever been to Scotland?" },
-        { "en": "He's gone to the bank; he'll be back in ten minutes." },
-        { "en": "My computer has stopped working again." },
-        { "en": "How long have you been a member of the gym?" }
+        {
+          "en": "We've already booked the hotel for the conference."
+        },
+        {
+          "en": "She hasn't answered my email yet."
+        },
+        {
+          "en": "I've just heard some great news."
+        },
+        {
+          "en": "They've lived in Bilbao for six years."
+        },
+        {
+          "en": "Have you ever been to Norway?"
+        },
+        {
+          "en": "He's gone to the bank; he'll be back in ten minutes."
+        },
+        {
+          "en": "My computer has stopped working again."
+        },
+        {
+          "en": "How long have you been a member of the gym?"
+        }
       ],
       "practice": [
         {

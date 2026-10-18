@@ -1,0 +1,140 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-mixed-conditionals-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "mixed-conditionals",
+      "prompt": "If she ___ her knee last year, she would be competing in the final next week.",
+      "options": ["hadn't injured", "didn't injure", "wouldn't injure"],
+      "answer": 0,
+      "explanation": {
+        "en": "A past condition (last year) with a present or future result: past perfect in the if clause."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: past perfect + would + infinitive."
+        },
+        {
+          "en": "The past simple does not mark an unreal past in the if clause."
+        },
+        {
+          "en": "Would never goes in the if clause."
+        }
+      ]
+    },
+    {
+      "id": "cg-mixed-conditionals-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "mixed-conditionals",
+      "prompt": "If he weren't so careless with details, the report ___ so many errors last month.",
+      "options": [
+        "wouldn't contain",
+        "wouldn't have contained",
+        "hadn't contained"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "A general trait (weren't) with a past result (last month): would have + past participle."
+      },
+      "optionNotes": [
+        {
+          "en": "Wouldn't contain refers to the present, but last month is past."
+        },
+        {
+          "en": "Correct: would not have contained."
+        },
+        {
+          "en": "Hadn't contained cannot be a result clause."
+        }
+      ]
+    },
+    {
+      "id": "cg-mixed-conditionals-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "mixed-conditionals",
+      "prompt": "If I'd listened to my dad, I ___ in debt now.",
+      "options": ["wouldn't have been", "hadn't been", "wouldn't be"],
+      "answer": 2,
+      "explanation": {
+        "en": "A past condition with a present result (now): would + infinitive.",
+        "es": "«Si le hubiera hecho caso, ahora no estaría»: wouldn't be."
+      },
+      "optionNotes": [
+        {
+          "en": "Would have been refers to the past, but now is present."
+        },
+        {
+          "en": "Hadn't been cannot be the result clause."
+        },
+        {
+          "en": "Correct: wouldn't be."
+        }
+      ]
+    },
+    {
+      "id": "cg-mixed-conditionals-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "education",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "mixed-conditionals",
+      "prompt": "If universities ___ more funding in the 1990s, they would be better equipped today.",
+      "options": ["had received", "received", "would receive"],
+      "answer": 0,
+      "explanation": {
+        "en": "In the 1990s is past, so the if clause uses the past perfect."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: had received."
+        },
+        {
+          "en": "The past simple does not make an unreal past condition."
+        },
+        {
+          "en": "Would never goes in the if clause."
+        }
+      ]
+    },
+    {
+      "id": "cg-mixed-conditionals-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "mixed-conditionals",
+      "prompt": "If the mayor weren't so cautious, the new park ___ years ago.",
+      "options": ["would be built", "had been built", "would have been built"],
+      "answer": 2,
+      "explanation": {
+        "en": "A general trait with a past result (years ago): would have been + past participle."
+      },
+      "optionNotes": [
+        {
+          "en": "Would be built looks to the present or future, but years ago is past."
+        },
+        {
+          "en": "Had been built cannot be a result clause."
+        },
+        {
+          "en": "Correct: would have been built."
+        }
+      ]
+    }
+  ]
+}

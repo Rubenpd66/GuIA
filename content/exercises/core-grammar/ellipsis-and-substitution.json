@@ -1,0 +1,137 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-ellipsis-and-substitution-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "ellipsis-and-substitution",
+      "prompt": "Customers were asked to return the faulty devices, and most ___ within a week.",
+      "options": ["so did", "did so", "did it so"],
+      "answer": 1,
+      "explanation": {
+        "en": "Did so replaces the verb phrase returned the devices."
+      },
+      "optionNotes": [
+        {
+          "en": "So did would mean also did, which does not fit."
+        },
+        {
+          "en": "Correct: did so."
+        },
+        {
+          "en": "Did it so is not a possible form."
+        }
+      ]
+    },
+    {
+      "id": "cg-ellipsis-and-substitution-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "ellipsis-and-substitution",
+      "prompt": "'Is the library open late on Fridays?' 'I think ___, but check the website.'",
+      "options": ["it", "yes", "so"],
+      "answer": 2,
+      "explanation": {
+        "en": "After think, use so to replace the whole clause.",
+        "es": "«Creo que sí» = I think so, no I think yes."
+      },
+      "optionNotes": [
+        {
+          "en": "It cannot replace a whole clause after think."
+        },
+        {
+          "en": "Yes is not used after think in English."
+        },
+        {
+          "en": "Correct: I think so."
+        }
+      ]
+    },
+    {
+      "id": "cg-ellipsis-and-substitution-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "travel",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "ellipsis-and-substitution",
+      "prompt": "She did not join the excursion, although she had been invited ___.",
+      "options": ["to", "for", "it"],
+      "answer": 0,
+      "explanation": {
+        "en": "The infinitive is shortened to to after invited."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: invited to (join)."
+        },
+        {
+          "en": "For does not stand for the infinitive."
+        },
+        {
+          "en": "It cannot replace the infinitive here."
+        }
+      ]
+    },
+    {
+      "id": "cg-ellipsis-and-substitution-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "media",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "ellipsis-and-substitution",
+      "prompt": "The first draft was too long, so I wrote a shorter ___ for the newsletter.",
+      "options": ["ones", "one", "it"],
+      "answer": 1,
+      "explanation": {
+        "en": "One replaces a singular countable noun (draft).",
+        "es": "En inglés hace falta one: no se dice «a shorter»."
+      },
+      "optionNotes": [
+        {
+          "en": "Ones is plural, but a shorter ___ is singular."
+        },
+        {
+          "en": "Correct: a shorter one."
+        },
+        {
+          "en": "It cannot take an adjective like shorter."
+        }
+      ]
+    },
+    {
+      "id": "cg-ellipsis-and-substitution-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "ellipsis-and-substitution",
+      "prompt": "Not all employees support the new policy, but several ___.",
+      "options": ["have", "do", "are"],
+      "answer": 1,
+      "explanation": {
+        "en": "The auxiliary of the first clause (do support) is repeated alone."
+      },
+      "optionNotes": [
+        {
+          "en": "Have does not match the verb support."
+        },
+        {
+          "en": "Correct: several do."
+        },
+        {
+          "en": "Are does not match the verb support."
+        }
+      ]
+    }
+  ]
+}

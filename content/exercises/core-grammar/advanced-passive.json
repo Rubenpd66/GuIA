@@ -1,0 +1,115 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-advanced-passive-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "advanced-passive",
+      "prompt": "She resented ___ a junior role by a manager half her age.",
+      "options": ["being offered", "offering", "to have offered"],
+      "answer": 0,
+      "explanation": {
+        "en": "Resent is followed by a gerund; here she receives the action, so it is passive: being offered."
+      },
+      "optionNotes": [
+        { "en": "Correct: passive gerund." },
+        {
+          "en": "Offering is active, but the manager is the one who offers, and the phrase by a manager shows the passive."
+        },
+        { "en": "Resent is not followed by a to-infinitive." }
+      ]
+    },
+    {
+      "id": "cg-advanced-passive-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "advanced-passive",
+      "prompt": "Did you hear? Our neighbours ___ burgled while they were on holiday.",
+      "options": ["got", "became", "were got"],
+      "answer": 0,
+      "explanation": {
+        "en": "In informal speech, get + past participle describes something that happens to us.",
+        "es": "Get + participio, sin be: got burgled."
+      },
+      "optionNotes": [
+        { "en": "Correct: get-passive." },
+        { "en": "Become is not used to form a passive." },
+        { "en": "Get replaces be, so were got is wrong." }
+      ]
+    },
+    {
+      "id": "cg-advanced-passive-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "culture-leisure",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "advanced-passive",
+      "prompt": "The treaty is understood ___ in secret, long before the public announcement.",
+      "options": ["to have been signed", "to be signed", "having been signed"],
+      "answer": 0,
+      "explanation": {
+        "en": "An event earlier than the main verb needs the perfect passive infinitive.",
+        "es": "Hecho anterior: to have been + participio."
+      },
+      "optionNotes": [
+        { "en": "Correct: the signing happened before the announcement." },
+        {
+          "en": "To be signed refers to a present or future event, not an earlier one."
+        },
+        { "en": "Understood is followed by an infinitive here, not a gerund." }
+      ]
+    },
+    {
+      "id": "cg-advanced-passive-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "education",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "advanced-passive",
+      "prompt": "At the end of the course, every participant ___ a certificate by the organisers.",
+      "options": ["was given", "was given to", "gave"],
+      "answer": 0,
+      "explanation": {
+        "en": "With a person as the subject of a two-object verb, use be + given + the thing."
+      },
+      "optionNotes": [
+        { "en": "Correct: person as subject, thing as the remaining object." },
+        {
+          "en": "Given to would need the certificate as subject: a certificate was given to every participant."
+        },
+        { "en": "Gave is active, but by the organisers shows a passive." }
+      ]
+    },
+    {
+      "id": "cg-advanced-passive-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "shopping-consumption",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "advanced-passive",
+      "prompt": "___ twice about the risks, the investors went ahead anyway.",
+      "options": ["Having been warned", "Having warned", "To have been warned"],
+      "answer": 0,
+      "explanation": {
+        "en": "A participle clause showing an earlier event with a passive meaning: having been + past participle."
+      },
+      "optionNotes": [
+        { "en": "Correct: perfect passive participle." },
+        { "en": "Having warned is active and needs an object." },
+        {
+          "en": "A to-infinitive does not open a participle clause in this way."
+        }
+      ]
+    }
+  ]
+}

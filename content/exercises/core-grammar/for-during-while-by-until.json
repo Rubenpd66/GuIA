@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-for-during-while-by-until-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "for-during-while-by-until",
+      "prompt": "I've been waiting for the bus ___ twenty minutes.",
+      "options": ["during", "while", "for"],
+      "answer": 2,
+      "explanation": {
+        "en": "Twenty minutes is a length of time, so we use for.",
+        "es": "«Durante veinte minutos» es for twenty minutes."
+      },
+      "optionNotes": [
+        {
+          "en": "During goes with an event or period, not with a length of time."
+        },
+        {
+          "en": "While needs a subject and verb."
+        },
+        {
+          "en": "Correct: for + length of time."
+        }
+      ]
+    },
+    {
+      "id": "cg-for-during-while-by-until-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "for-during-while-by-until",
+      "prompt": "Please do not use your phone ___ the performance.",
+      "options": ["during", "while", "for"],
+      "answer": 0,
+      "explanation": {
+        "en": "During goes with a noun for an event.",
+        "es": "Durante la función: during the performance."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: during + noun."
+        },
+        {
+          "en": "While needs a subject and verb after it."
+        },
+        {
+          "en": "For needs a length of time."
+        }
+      ]
+    },
+    {
+      "id": "cg-for-during-while-by-until-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "for-during-while-by-until",
+      "prompt": "You can download the file ___ you are connected to the internet.",
+      "options": ["during", "while", "by"],
+      "answer": 1,
+      "explanation": {
+        "en": "While joins two situations at the same time and is followed by a clause."
+      },
+      "optionNotes": [
+        {
+          "en": "During cannot be followed by a subject and verb."
+        },
+        {
+          "en": "Correct: while + clause."
+        },
+        {
+          "en": "By shows a deadline, not simultaneous situations."
+        }
+      ]
+    },
+    {
+      "id": "cg-for-during-while-by-until-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "for-during-while-by-until",
+      "prompt": "___ the time we reached the station, the last train had gone.",
+      "options": ["By", "Until", "During"],
+      "answer": 0,
+      "explanation": {
+        "en": "By the time + clause shows that one thing had happened before another.",
+        "es": "By the time = «para cuando»."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: By the time we reached the station."
+        },
+        {
+          "en": "Until the time does not fit; it means up to that point."
+        },
+        {
+          "en": "During is not followed by the time we reached."
+        }
+      ]
+    },
+    {
+      "id": "cg-for-during-while-by-until-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "for-during-while-by-until",
+      "prompt": "The ticket office won't open ___ half past nine.",
+      "options": ["for", "during", "until"],
+      "answer": 2,
+      "explanation": {
+        "en": "Not … until means not before that time.",
+        "es": "«No abre hasta las nueve y media»: won't open until."
+      },
+      "optionNotes": [
+        {
+          "en": "For needs a length of time."
+        },
+        {
+          "en": "During needs a period or event."
+        },
+        {
+          "en": "Correct: won't open until half past nine."
+        }
+      ]
+    }
+  ]
+}

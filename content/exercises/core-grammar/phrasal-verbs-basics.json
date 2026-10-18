@@ -1,0 +1,128 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-phrasal-verbs-basics-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "phrasal-verbs-basics",
+      "prompt": "These batteries are flat. Shall I ___ for you?",
+      "options": ["throw them away", "throw away them", "throw off them"],
+      "answer": 0,
+      "explanation": {
+        "en": "With a pronoun, a separable phrasal verb splits: throw them away.",
+        "es": "Con pronombre, va en medio: throw them away, nunca throw away them."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: the pronoun goes between the verb and the particle."
+        },
+        {
+          "en": "A pronoun cannot come after the particle of a separable verb.",
+          "es": "El pronombre no puede ir detrás de la partícula."
+        },
+        {
+          "en": "Throw off has a different meaning (to escape from or get rid of an illness)."
+        }
+      ]
+    },
+    {
+      "id": "cg-phrasal-verbs-basics-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "phrasal-verbs-basics",
+      "prompt": "She ___ in Seville but moved to Leeds when she was eighteen.",
+      "options": ["grew on", "grew up", "grew out"],
+      "answer": 1,
+      "explanation": {
+        "en": "Grow up means to spend your childhood somewhere and become an adult.",
+        "es": "«Criarse» es grow up, no grow solo."
+      },
+      "optionNotes": [
+        {
+          "en": "Grow on means to become more pleasant over time (the city grew on me)."
+        },
+        { "en": "Correct: grow up, with no object." },
+        { "en": "Grow out of means to become too old or big for something." }
+      ]
+    },
+    {
+      "id": "cg-phrasal-verbs-basics-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "phrasal-verbs-basics",
+      "prompt": "We ___ at dawn to beat the traffic and reached the coast by nine.",
+      "options": ["set up", "set in", "set off"],
+      "answer": 2,
+      "explanation": {
+        "en": "Set off means to start a journey."
+      },
+      "optionNotes": [
+        {
+          "en": "Set up means to arrange or establish something, which does not fit a journey."
+        },
+        {
+          "en": "Set in describes weather or a feeling that begins and lasts, not a person leaving."
+        },
+        { "en": "Correct: set off = start a journey." }
+      ]
+    },
+    {
+      "id": "cg-phrasal-verbs-basics-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "phrasal-verbs-basics",
+      "prompt": "Who is going to ___ the dog while you're away?",
+      "options": ["look after", "look up", "look into"],
+      "answer": 0,
+      "explanation": {
+        "en": "Look after means to take care of someone or something.",
+        "es": "Cuidar de alguien es look after."
+      },
+      "optionNotes": [
+        { "en": "Correct: look after = take care of." },
+        {
+          "en": "Look up means to search for information, for example in a dictionary."
+        },
+        { "en": "Look into means to investigate a problem." }
+      ]
+    },
+    {
+      "id": "cg-phrasal-verbs-basics-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "phrasal-verbs-basics",
+      "prompt": "The match ___ because of the snow, so we all went home.",
+      "options": ["called off", "was called off", "was called out"],
+      "answer": 1,
+      "explanation": {
+        "en": "The match receives the action, so the passive is needed: was called off.",
+        "es": "El partido recibe la acción: pasiva, was called off."
+      },
+      "optionNotes": [
+        {
+          "en": "Active call off needs an object, but the match is the thing being cancelled."
+        },
+        { "en": "Correct: passive of call off (cancel)." },
+        {
+          "en": "Call out means to shout, or to summon someone; it does not mean cancel."
+        }
+      ]
+    }
+  ]
+}

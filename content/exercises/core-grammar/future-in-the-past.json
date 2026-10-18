@@ -1,0 +1,114 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-future-in-the-past-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "media",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "future-in-the-past",
+      "prompt": "The director had no idea that his low-budget film ___ a worldwide hit.",
+      "options": ["would become", "will become", "becomes"],
+      "answer": 0,
+      "explanation": {
+        "en": "Looking forward from a past moment with hindsight: would + infinitive.",
+        "es": "Tras un verbo en pasado, el futuro es would, no will."
+      },
+      "optionNotes": [
+        { "en": "Correct: would describes the future seen from the past." },
+        { "en": "Will does not follow a past tense verb (had no idea)." },
+        { "en": "The present simple does not fit a story told in the past." }
+      ]
+    },
+    {
+      "id": "cg-future-in-the-past-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "future-in-the-past",
+      "prompt": "I ___ mention it at the meeting, but then Jo brought it up himself.",
+      "options": ["was going to", "was about", "would have"],
+      "answer": 0,
+      "explanation": {
+        "en": "A plan that did not happen: was going to + infinitive.",
+        "es": "Un plan que no se cumplió: was going to."
+      },
+      "optionNotes": [
+        { "en": "Correct: was going to + infinitive." },
+        { "en": "Be about must be followed by to: was about to mention." },
+        {
+          "en": "Would have is followed by a past participle, not the base form."
+        }
+      ]
+    },
+    {
+      "id": "cg-future-in-the-past-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "general",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "future-in-the-past",
+      "prompt": "The minister ___ have addressed the conference on Tuesday, but she has been taken ill.",
+      "options": ["was to", "was about to", "used to"],
+      "answer": 0,
+      "explanation": {
+        "en": "Was/were to have + past participle is a formal way to say a plan did not happen."
+      },
+      "optionNotes": [
+        { "en": "Correct: was to have + past participle." },
+        {
+          "en": "Was about to refers to something that was almost happening, and cannot be followed by have + participle."
+        },
+        { "en": "Used to describes past habits, not planned events." }
+      ]
+    },
+    {
+      "id": "cg-future-in-the-past-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "travel",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "future-in-the-past",
+      "prompt": "The ferry was just ___ when a passenger realised he had left his passport on the quay.",
+      "options": ["about to leave", "about leaving", "about leave"],
+      "answer": 0,
+      "explanation": {
+        "en": "Be about to + infinitive describes something that was about to happen.",
+        "es": "Be about to + infinitivo: estar a punto de."
+      },
+      "optionNotes": [
+        { "en": "Correct: was about to leave." },
+        { "en": "Be about is never followed by an -ing form." },
+        { "en": "The infinitive needs to after about." }
+      ]
+    },
+    {
+      "id": "cg-future-in-the-past-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "relationships",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "future-in-the-past",
+      "prompt": "He left the village in 1990. He ___ it again.",
+      "options": ["is never seeing", "would never see", "never will see"],
+      "answer": 1,
+      "explanation": {
+        "en": "In a narrative told in the past, would + infinitive looks forward from that moment."
+      },
+      "optionNotes": [
+        { "en": "The present continuous does not fit a past narrative." },
+        { "en": "Correct: would never see." },
+        {
+          "en": "Will is a present or real-future form, and does not fit a story in the past."
+        }
+      ]
+    }
+  ]
+}

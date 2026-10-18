@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-like-as-as-if-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "like-as-as-if",
+      "prompt": "Before moving into management, he worked ___ a software tester for years.",
+      "options": ["like", "as", "as if"],
+      "answer": 1,
+      "explanation": {
+        "en": "He really was a tester, so as gives his role.",
+        "es": "Trabajaba de tester: as. Like significaría que se parecía a uno."
+      },
+      "optionNotes": [
+        {
+          "en": "Like would mean similar to a tester."
+        },
+        {
+          "en": "Correct: as + job."
+        },
+        {
+          "en": "As if needs a clause."
+        }
+      ]
+    },
+    {
+      "id": "cg-like-as-as-if-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "like-as-as-if",
+      "prompt": "That smells ___ fresh bread.",
+      "options": ["like", "as", "as if"],
+      "answer": 0,
+      "explanation": {
+        "en": "Smell + noun phrase takes like."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: smells like + noun."
+        },
+        {
+          "en": "As would give a role, which does not fit."
+        },
+        {
+          "en": "As if needs a clause."
+        }
+      ]
+    },
+    {
+      "id": "cg-like-as-as-if-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "like-as-as-if",
+      "prompt": "___ the flight was delayed, we had lunch at the airport.",
+      "options": ["Despite", "Like", "As"],
+      "answer": 2,
+      "explanation": {
+        "en": "As at the start of a clause can mean because.",
+        "es": "As al inicio puede ser «como» (porque)."
+      },
+      "optionNotes": [
+        {
+          "en": "Despite is followed by a noun or -ing, not a clause."
+        },
+        {
+          "en": "Like does not introduce a reason clause."
+        },
+        {
+          "en": "Correct: As + clause gives the reason."
+        }
+      ]
+    },
+    {
+      "id": "cg-like-as-as-if-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "like-as-as-if",
+      "prompt": "He spends money ___ he were a millionaire.",
+      "options": ["so that", "as if", "as for"],
+      "answer": 1,
+      "explanation": {
+        "en": "As if + past subjunctive shows an unreal comparison.",
+        "es": "Como si fuera = as if he were."
+      },
+      "optionNotes": [
+        {
+          "en": "So that expresses purpose."
+        },
+        {
+          "en": "Correct: as if he were."
+        },
+        {
+          "en": "As for introduces a topic."
+        }
+      ]
+    },
+    {
+      "id": "cg-like-as-as-if-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "like-as-as-if",
+      "prompt": "Please complete the form ___ shown in the example.",
+      "options": ["as", "than", "so"],
+      "answer": 0,
+      "explanation": {
+        "en": "As introduces the way something is done."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: as shown."
+        },
+        {
+          "en": "Than is for comparisons."
+        },
+        {
+          "en": "So does not introduce this clause."
+        }
+      ]
+    }
+  ]
+}

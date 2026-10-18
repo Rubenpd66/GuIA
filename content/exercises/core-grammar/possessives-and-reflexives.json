@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-possessives-and-reflexives-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "possessives-and-reflexives",
+      "prompt": "Carlos is proud of ___ daughter, who has just graduated.",
+      "options": ["her", "his", "their"],
+      "answer": 1,
+      "explanation": {
+        "en": "The possessive agrees with the owner (Carlos is a man), not with the daughter.",
+        "es": "Concuerda con el poseedor: Carlos → his, aunque «hija» sea femenino."
+      },
+      "optionNotes": [
+        {
+          "en": "Her would mean the daughter of another woman."
+        },
+        {
+          "en": "Correct: the owner is Carlos, so his."
+        },
+        {
+          "en": "Their would need more than one owner."
+        }
+      ]
+    },
+    {
+      "id": "cg-possessives-and-reflexives-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "possessives-and-reflexives",
+      "prompt": "I twisted ___ ankle playing football, so I can't run this week.",
+      "options": ["the", "my", "mine"],
+      "answer": 1,
+      "explanation": {
+        "en": "Body parts take a possessive determiner in English.",
+        "es": "En español decimos «el tobillo»; en inglés, my ankle."
+      },
+      "optionNotes": [
+        {
+          "en": "The is the Spanish pattern but is not used with your own body parts."
+        },
+        {
+          "en": "Correct: possessive determiner before a noun."
+        },
+        {
+          "en": "Mine is a pronoun and cannot come before a noun."
+        }
+      ]
+    },
+    {
+      "id": "cg-possessives-and-reflexives-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "technology",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "possessives-and-reflexives",
+      "prompt": "Nobody helped him; he built the whole website ___.",
+      "options": ["himself", "him", "itself"],
+      "answer": 0,
+      "explanation": {
+        "en": "Himself is used for emphasis, to show he did it alone."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: reflexive pronoun for emphasis."
+        },
+        {
+          "en": "Him is an object pronoun and does not work here."
+        },
+        {
+          "en": "Itself would refer to the website, not to the person."
+        }
+      ]
+    },
+    {
+      "id": "cg-possessives-and-reflexives-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "possessives-and-reflexives",
+      "prompt": "Which of these coats is yours? — This one is ___.",
+      "options": ["my", "me", "mine"],
+      "answer": 2,
+      "explanation": {
+        "en": "No noun follows the gap, so we need the possessive pronoun mine."
+      },
+      "optionNotes": [
+        {
+          "en": "My must be followed by a noun."
+        },
+        {
+          "en": "Me is an object pronoun, not a possessive."
+        },
+        {
+          "en": "Correct: possessive pronoun standing alone."
+        }
+      ]
+    },
+    {
+      "id": "cg-possessives-and-reflexives-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "possessives-and-reflexives",
+      "prompt": "Ana introduced me to a friend of ___ from university.",
+      "options": ["her", "hers", "she"],
+      "answer": 1,
+      "explanation": {
+        "en": "After a friend of we use the possessive pronoun: a friend of hers.",
+        "es": "«Una amiga suya» = a friend of hers."
+      },
+      "optionNotes": [
+        {
+          "en": "After of, we use hers, not the determiner her."
+        },
+        {
+          "en": "Correct: a friend of + possessive pronoun."
+        },
+        {
+          "en": "She is a subject pronoun and is never used after of."
+        }
+      ]
+    }
+  ]
+}

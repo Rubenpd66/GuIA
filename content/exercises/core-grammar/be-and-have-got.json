@@ -1,0 +1,138 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-be-and-have-got-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "be-and-have-got",
+      "prompt": "My new manager ___ forty-five, but she looks much younger.",
+      "options": ["has", "is", "makes"],
+      "answer": 1,
+      "explanation": {
+        "en": "Age takes be: she is forty-five.",
+        "es": "«Tiene 45 años» = is 45, no has."
+      },
+      "optionNotes": [
+        {
+          "en": "Has would be a literal translation of the Spanish; English uses be for age."
+        },
+        {
+          "en": "Correct: be is used for age."
+        },
+        {
+          "en": "Makes does not express age."
+        }
+      ]
+    },
+    {
+      "id": "cg-be-and-have-got-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "be-and-have-got",
+      "prompt": "I think my brother ___ a fever; he's been shivering all morning.",
+      "options": ["is", "has", "have"],
+      "answer": 1,
+      "explanation": {
+        "en": "A fever is an illness you have, so the verb is has (third person singular)."
+      },
+      "optionNotes": [
+        {
+          "en": "Is would describe the brother, not say what he has."
+        },
+        {
+          "en": "Correct: has + illness, with a third person singular subject."
+        },
+        {
+          "en": "Have does not agree with my brother."
+        }
+      ]
+    },
+    {
+      "id": "cg-be-and-have-got-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "be-and-have-got",
+      "prompt": "Everyone agrees that people ___ happier when they spend time outdoors.",
+      "options": ["is", "are", "has"],
+      "answer": 1,
+      "explanation": {
+        "en": "People is plural, so the verb is are.",
+        "es": "People es plural en inglés: people are."
+      },
+      "optionNotes": [
+        {
+          "en": "People is not singular, despite the Spanish «la gente»."
+        },
+        {
+          "en": "Correct: plural verb with people, followed by an adjective."
+        },
+        {
+          "en": "Has cannot be followed by an adjective like happier."
+        }
+      ]
+    },
+    {
+      "id": "cg-be-and-have-got-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "be-and-have-got",
+      "prompt": "When we stayed in Lisbon, we ___ breakfast on the terrace every morning.",
+      "options": ["had", "had got", "have got"],
+      "answer": 0,
+      "explanation": {
+        "en": "A repeated action takes have, and the past of have is had. Have got is used only for possession."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: had for a habit in the past."
+        },
+        {
+          "en": "Had got is not used for actions or habits."
+        },
+        {
+          "en": "Have got is present, and it does not fit a past habit."
+        }
+      ]
+    },
+    {
+      "id": "cg-be-and-have-got-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "be-and-have-got",
+      "prompt": "Excuse me, ___ you got these trainers in a size forty-two?",
+      "options": ["Do", "Have", "Are"],
+      "answer": 1,
+      "explanation": {
+        "en": "The question form of have got puts have before the subject: Have you got…?",
+        "es": "No se dice Do you got: have got se invierte con have."
+      },
+      "optionNotes": [
+        {
+          "en": "Do you got is not possible; with do the verb is have, not have got."
+        },
+        {
+          "en": "Correct: Have you got…? is the standard British question."
+        },
+        {
+          "en": "Are you got is not a form of any tense."
+        }
+      ]
+    }
+  ]
+}

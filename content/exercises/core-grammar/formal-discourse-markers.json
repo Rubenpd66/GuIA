@@ -1,0 +1,135 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-formal-discourse-markers-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "formal-discourse-markers",
+      "prompt": "The proposal was well received; ___, funding has not yet been approved.",
+      "options": ["consequently", "furthermore", "nevertheless"],
+      "answer": 2,
+      "explanation": {
+        "en": "A positive reception and the lack of funding are in contrast, so use nevertheless."
+      },
+      "optionNotes": [
+        {
+          "en": "Consequently introduces a result, which is not the case here."
+        },
+        {
+          "en": "Furthermore adds a similar point, not a contrast."
+        },
+        {
+          "en": "Correct: nevertheless shows contrast."
+        }
+      ]
+    },
+    {
+      "id": "cg-formal-discourse-markers-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "environment",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "formal-discourse-markers",
+      "prompt": "The council cut parking charges, ___ encouraging more people to drive into the centre.",
+      "options": ["thereby", "moreover", "nevertheless"],
+      "answer": 0,
+      "explanation": {
+        "en": "Thereby + -ing shows the result of the action in the same clause."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: thereby encouraging."
+        },
+        {
+          "en": "Moreover starts a new sentence and is not followed by -ing."
+        },
+        {
+          "en": "Nevertheless introduces contrast and starts a new sentence."
+        }
+      ]
+    },
+    {
+      "id": "cg-formal-discourse-markers-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "technology",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "formal-discourse-markers",
+      "prompt": "___ what you've just told me, I think we should postpone the launch.",
+      "options": ["In light of", "In spite of", "Instead of"],
+      "answer": 0,
+      "explanation": {
+        "en": "In light of + noun phrase means considering new information."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: considering what you've just told me."
+        },
+        {
+          "en": "In spite of would suggest the information makes no difference."
+        },
+        {
+          "en": "Instead of means replacing one thing with another."
+        }
+      ]
+    },
+    {
+      "id": "cg-formal-discourse-markers-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "education",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "formal-discourse-markers",
+      "prompt": "The scholarship covers tuition fees. ___, successful applicants receive a monthly living allowance.",
+      "options": ["Moreover", "Nevertheless", "Consequently"],
+      "answer": 0,
+      "explanation": {
+        "en": "A second benefit is added, so use moreover."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: moreover adds a point."
+        },
+        {
+          "en": "Nevertheless shows contrast, but there is none."
+        },
+        {
+          "en": "Consequently shows a result, and the allowance is not a result."
+        }
+      ]
+    },
+    {
+      "id": "cg-formal-discourse-markers-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "formal-discourse-markers",
+      "prompt": "___ the objections raised by residents, the plan was approved.",
+      "options": ["Thereby", "Nonetheless", "Notwithstanding"],
+      "answer": 2,
+      "explanation": {
+        "en": "Notwithstanding + noun phrase means in spite of."
+      },
+      "optionNotes": [
+        {
+          "en": "Thereby is followed by an -ing form."
+        },
+        {
+          "en": "Nonetheless is a linker for a new sentence, not followed by a noun phrase."
+        },
+        {
+          "en": "Correct: notwithstanding + noun."
+        }
+      ]
+    }
+  ]
+}

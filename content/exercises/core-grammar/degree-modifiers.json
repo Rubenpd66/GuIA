@@ -1,0 +1,116 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-degree-modifiers-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "environment",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "degree-modifiers",
+      "prompt": "The lake was ___ freezing when we dived in, so we got out at once.",
+      "options": ["absolutely", "very", "fairly"],
+      "answer": 0,
+      "explanation": {
+        "en": "Freezing is an extreme adjective, so it takes absolutely, not very.",
+        "es": "Freezing ya es «helado»: absolutely, no very."
+      },
+      "optionNotes": [
+        { "en": "Correct: absolutely goes with extreme adjectives." },
+        { "en": "Very is used with gradable adjectives, such as cold." },
+        {
+          "en": "Fairly means moderately, which contradicts an extreme adjective."
+        }
+      ]
+    },
+    {
+      "id": "cg-degree-modifiers-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "degree-modifiers",
+      "prompt": "Taking the train is ___ quicker than driving at rush hour.",
+      "options": ["far", "very", "quite"],
+      "answer": 0,
+      "explanation": {
+        "en": "Comparatives take far, much or a lot, not very.",
+        "es": "Muy más rápido se dice far / much quicker."
+      },
+      "optionNotes": [
+        { "en": "Correct: far + comparative." },
+        { "en": "Very does not modify comparatives." },
+        { "en": "Quite does not combine directly with a comparative." }
+      ]
+    },
+    {
+      "id": "cg-degree-modifiers-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "travel",
+      "difficulty": 4,
+      "register": "spoken",
+      "grammarPoint": "degree-modifiers",
+      "prompt": "The hotel was fine, but the service was ___ slow, to be honest.",
+      "options": ["completely", "absolutely", "rather"],
+      "answer": 2,
+      "explanation": {
+        "en": "Slow is gradable, and rather suggests more than expected, often a mild complaint."
+      },
+      "optionNotes": [
+        {
+          "en": "Completely goes with extreme adjectives, not gradable ones like slow."
+        },
+        {
+          "en": "Absolutely goes with extreme adjectives, not gradable ones like slow."
+        },
+        { "en": "Correct: rather with a gradable adjective." }
+      ]
+    },
+    {
+      "id": "cg-degree-modifiers-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "degree-modifiers",
+      "prompt": "The quarterly results were ___ better than we had expected.",
+      "options": ["slightly", "absolutely", "very"],
+      "answer": 0,
+      "explanation": {
+        "en": "Comparatives take modifiers such as slightly, much, far or a lot.",
+        "es": "Con comparativos no se usa very."
+      },
+      "optionNotes": [
+        { "en": "Correct: slightly + comparative." },
+        { "en": "Absolutely does not modify comparatives." },
+        { "en": "Very does not modify comparatives." }
+      ]
+    },
+    {
+      "id": "cg-degree-modifiers-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "C1",
+      "topic": "technology",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "degree-modifiers",
+      "prompt": "The plan isn't ___ perfect, but it is a big improvement on the last one.",
+      "options": ["fairly", "very", "entirely"],
+      "answer": 2,
+      "explanation": {
+        "en": "Perfect is ungradable, so it takes entirely, completely or absolutely, not very or fairly."
+      },
+      "optionNotes": [
+        {
+          "en": "Fairly means moderately, so it does not combine with an ungradable adjective."
+        },
+        { "en": "Very does not combine with an ungradable adjective." },
+        { "en": "Correct: not entirely perfect." }
+      ]
+    }
+  ]
+}

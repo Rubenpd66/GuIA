@@ -1,0 +1,139 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-noun-and-adjective-prepositions-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "noun-and-adjective-prepositions",
+      "prompt": "Your flat is very similar ___ mine, even the kitchen.",
+      "options": ["from", "with", "to"],
+      "answer": 2,
+      "explanation": {
+        "en": "Similar takes to.",
+        "es": "«Parecido a» → _similar **to**_."
+      },
+      "optionNotes": [
+        {
+          "en": "Similar is not followed by from."
+        },
+        {
+          "en": "Similar is not followed by with."
+        },
+        {
+          "en": "Correct: similar to."
+        }
+      ]
+    },
+    {
+      "id": "cg-noun-and-adjective-prepositions-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "noun-and-adjective-prepositions",
+      "prompt": "She is allergic ___ penicillin, so she has to tell every doctor.",
+      "options": ["of", "with", "to"],
+      "answer": 2,
+      "explanation": {
+        "en": "We say allergic to something.",
+        "es": "«Alérgico a» → _allergic **to**_."
+      },
+      "optionNotes": [
+        {
+          "en": "Allergic does not take of."
+        },
+        {
+          "en": "Allergic does not take with."
+        },
+        {
+          "en": "Correct: allergic to."
+        }
+      ]
+    },
+    {
+      "id": "cg-noun-and-adjective-prepositions-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "noun-and-adjective-prepositions",
+      "prompt": "There has been a sharp rise ___ the price of fuel since the summer.",
+      "options": ["on", "in", "of"],
+      "answer": 1,
+      "explanation": {
+        "en": "We say a rise in prices, a rise in demand. Rise of is followed by an amount: a rise of 5%."
+      },
+      "optionNotes": [
+        {
+          "en": "On is not used after rise in this meaning."
+        },
+        {
+          "en": "Correct: a rise in the price of something."
+        },
+        {
+          "en": "A rise of is followed by an amount, not a noun phrase like the price."
+        }
+      ]
+    },
+    {
+      "id": "cg-noun-and-adjective-prepositions-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "noun-and-adjective-prepositions",
+      "prompt": "There is a serious lack ___ qualified teachers in some rural areas.",
+      "options": ["in", "for", "of"],
+      "answer": 2,
+      "explanation": {
+        "en": "We say a lack of something.",
+        "es": "«Falta de» → _lack **of**_."
+      },
+      "optionNotes": [
+        {
+          "en": "Lack is not followed by in."
+        },
+        {
+          "en": "Lack is not followed by for."
+        },
+        {
+          "en": "Correct: a lack of."
+        }
+      ]
+    },
+    {
+      "id": "cg-noun-and-adjective-prepositions-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "noun-and-adjective-prepositions",
+      "prompt": "The cause ___ the accident on the factory floor is still being investigated.",
+      "options": ["to", "of", "by"],
+      "answer": 1,
+      "explanation": {
+        "en": "We say the cause of something.",
+        "es": "«La causa del accidente» → _the cause **of**_."
+      },
+      "optionNotes": [
+        {
+          "en": "Cause is not followed by to."
+        },
+        {
+          "en": "Correct: the cause of."
+        },
+        {
+          "en": "By is not used after cause."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-adjectives-ed-ing-and-order-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "adjectives-ed-ing-and-order",
+      "prompt": "Most staff were ___ by the complicated instructions for the new software.",
+      "options": ["confusing", "confused", "confuse"],
+      "answer": 1,
+      "explanation": {
+        "en": "The staff feel the confusion, so we need the -ed adjective.",
+        "es": "Las personas sienten la confusión: confused."
+      },
+      "optionNotes": [
+        {
+          "en": "Confusing describes the thing that causes the feeling, here the instructions."
+        },
+        {
+          "en": "Correct: -ed describes the people who feel confused."
+        },
+        {
+          "en": "Confuse is the base verb, not an adjective."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjectives-ed-ing-and-order-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "adjectives-ed-ing-and-order",
+      "prompt": "I'm really ___ in learning to cook, so I've signed up for a class.",
+      "options": ["interesting", "interested", "interest"],
+      "answer": 1,
+      "explanation": {
+        "en": "The speaker has the feeling, so we need interested.",
+        "es": "«Interesado» es interested; interesting es lo que despierta interés."
+      },
+      "optionNotes": [
+        {
+          "en": "Interesting would describe the cooking, not the speaker."
+        },
+        {
+          "en": "Correct: the -ed form for the person who feels the interest."
+        },
+        {
+          "en": "Interest is a noun or verb and does not fit after really."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjectives-ed-ing-and-order-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "adjectives-ed-ing-and-order",
+      "prompt": "We found a ___ apartment close to the old town.",
+      "options": [
+        "modern lovely small",
+        "small modern lovely",
+        "lovely small modern"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The order is opinion (lovely), size (small), age (modern)."
+      },
+      "optionNotes": [
+        {
+          "en": "Age (modern) cannot come before size (small), and the opinion adjective must come first."
+        },
+        {
+          "en": "Opinion must come first, so lovely cannot be last."
+        },
+        {
+          "en": "Correct: opinion, then size, then age."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjectives-ed-ing-and-order-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "adjectives-ed-ing-and-order",
+      "prompt": "She wore a ___ scarf that her grandmother had given her.",
+      "options": [
+        "green Italian silk",
+        "Italian green silk",
+        "silk Italian green"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The order is colour (green), origin (Italian), material (silk).",
+        "es": "El color va antes del origen, y el material justo antes del sustantivo."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: colour, origin, material."
+        },
+        {
+          "en": "Origin comes after colour, not before it."
+        },
+        {
+          "en": "Material must be the last adjective before the noun."
+        }
+      ]
+    },
+    {
+      "id": "cg-adjectives-ed-ing-and-order-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "adjectives-ed-ing-and-order",
+      "prompt": "The test results were so ___ that the doctor decided to repeat them.",
+      "options": ["surprising", "surprised", "surprise"],
+      "answer": 0,
+      "explanation": {
+        "en": "The results cause the surprise, so we need the -ing adjective.",
+        "es": "Los resultados causan la sorpresa: surprising."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: -ing describes the thing that causes the feeling."
+        },
+        {
+          "en": "Surprised describes a person who feels surprise, and results are not people."
+        },
+        {
+          "en": "Surprise is a noun or verb, not an adjective."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-articles-with-names-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "articles-with-names",
+      "prompt": "We spent a week in ___ Canary Islands last summer.",
+      "options": ["a", "the", "(no article)"],
+      "answer": 1,
+      "explanation": {
+        "en": "Groups of islands, like mountain ranges, take the."
+      },
+      "optionNotes": [
+        {
+          "en": "A cannot go before a plural name."
+        },
+        {
+          "en": "Correct: groups of islands take the."
+        },
+        {
+          "en": "Plural place names take the."
+        }
+      ]
+    },
+    {
+      "id": "cg-articles-with-names-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "articles-with-names",
+      "prompt": "She's visiting ___ Louvre on Friday, so she's booked her ticket online.",
+      "options": ["(no article)", "a", "the"],
+      "answer": 2,
+      "explanation": {
+        "en": "Many museums, galleries and theatres take the: the Louvre, the Tate, the Globe."
+      },
+      "optionNotes": [
+        {
+          "en": "Many museums and galleries take the."
+        },
+        {
+          "en": "A is used for one of several, not for a famous named museum."
+        },
+        {
+          "en": "Correct: museums and galleries usually take the."
+        }
+      ]
+    },
+    {
+      "id": "cg-articles-with-names-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "articles-with-names",
+      "prompt": "Our hotel was on ___ Princes Street, with a view of the castle.",
+      "options": ["the", "(no article)", "a"],
+      "answer": 1,
+      "explanation": {
+        "en": "Street names have no article.",
+        "es": "Aunque en español digamos «la calle Princes», en inglés no se usa _the_."
+      },
+      "optionNotes": [
+        {
+          "en": "Streets have no article in English."
+        },
+        {
+          "en": "Correct: street names take no article."
+        },
+        {
+          "en": "A does not go before a street name."
+        }
+      ]
+    },
+    {
+      "id": "cg-articles-with-names-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "articles-with-names",
+      "prompt": "We're having dinner with ___ Wilsons on Saturday; they've just moved next door.",
+      "options": ["a", "the", "(no article)"],
+      "answer": 1,
+      "explanation": {
+        "en": "The + plural surname refers to a family or couple."
+      },
+      "optionNotes": [
+        {
+          "en": "A would mean one person called Wilson, not the whole family."
+        },
+        {
+          "en": "Correct: the + plural surname means the whole family."
+        },
+        {
+          "en": "A plural family name needs the."
+        }
+      ]
+    },
+    {
+      "id": "cg-articles-with-names-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 5,
+      "register": "written",
+      "grammarPoint": "articles-with-names",
+      "prompt": "My sister is studying medicine at ___ University of Manchester.",
+      "options": ["(no article)", "a", "the"],
+      "answer": 2,
+      "explanation": {
+        "en": "With the structure the … of …, we use the: the University of Manchester. Compare: Manchester University."
+      },
+      "optionNotes": [
+        {
+          "en": "With the University of + place, the is needed."
+        },
+        {
+          "en": "A does not fit a specific named university."
+        },
+        {
+          "en": "Correct: the University of + place takes the."
+        }
+      ]
+    }
+  ]
+}
