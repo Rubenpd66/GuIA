@@ -210,7 +210,9 @@
     "focusHint": "Press Tab to move through this page and see the focus ring on each control.",
     "primary": "Main action",
     "secondary": "Secondary action",
-    "ghost": "Quiet action"
+    "ghost": "Quiet action",
+    "sortable": "Sortable list",
+    "sortableHint": "Put the sentences in order by dragging the handle, with the buttons or with the keyboard."
   },
   "Stamp": {
     "label": "{level} stamp: {caption}"
@@ -384,5 +386,18 @@
     "reading": "Reading",
     "writing": "Writing",
     "strategies": "Strategies"
+  },
+  "Reading": {
+    "sortable": {
+      "instructions": "To move a sentence with the keyboard: press Space to pick it up, the up and down arrows to move it and Space to drop it. Escape puts it back.",
+      "handle": "Move sentence {position} of {total}",
+      "up": "Move sentence {position} up",
+      "down": "Move sentence {position} down",
+      "picked": "Sentence picked up: position {position} of {total}.",
+      "moved": "Position {position} of {total}.",
+      "dropped": "Sentence dropped at position {position} of {total}.",
+      "cancelled": "Move cancelled: the sentence is back at position {position} of {total}.",
+      "fixed": "Fixed"
+    }
   }
 }

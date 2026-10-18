@@ -210,7 +210,9 @@
     "focusHint": "Recorre esta página con la tecla Tab para ver el anillo de foco en cada control.",
     "primary": "Acción principal",
     "secondary": "Acción secundaria",
-    "ghost": "Acción discreta"
+    "ghost": "Acción discreta",
+    "sortable": "Lista ordenable",
+    "sortableHint": "Ordena las frases arrastrando el asa, con los botones o con el teclado."
   },
   "Stamp": {
     "label": "Sello {level}: {caption}"
@@ -384,5 +386,18 @@
     "reading": "Comprensión lectora",
     "writing": "Expresión escrita",
     "strategies": "Estrategias"
+  },
+  "Reading": {
+    "sortable": {
+      "instructions": "Para mover una frase con el teclado: pulsa Espacio para cogerla, las flechas arriba y abajo para moverla y Espacio para soltarla. Escape la devuelve a su sitio.",
+      "handle": "Mover la frase {position} de {total}",
+      "up": "Subir la frase {position}",
+      "down": "Bajar la frase {position}",
+      "picked": "Frase cogida: posición {position} de {total}.",
+      "moved": "Posición {position} de {total}.",
+      "dropped": "Frase soltada en la posición {position} de {total}.",
+      "cancelled": "Movimiento cancelado: la frase vuelve a la posición {position} de {total}.",
+      "fixed": "Fija"
+    }
   }
 }

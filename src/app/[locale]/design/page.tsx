@@ -3,6 +3,7 @@ import { join } from "node:path";
 import type { Metadata } from "next";
 import { getFormatter, getTranslations } from "next-intl/server";
 import { Guilloche } from "@/components/passport/Guilloche";
+import { SortableListDemo } from "@/components/reading/SortableListDemo";
 import { Stamp, type StampLevel } from "@/components/passport/Stamp";
 import { Button } from "@/components/ui/Button";
 import { PageHeader } from "@/components/ui/PageHeader";
@@ -143,6 +144,16 @@ export default async function DesignPage() {
           <Button size="lg">{t("Design.secondary")}</Button>
         </div>
         <p className="mt-4 text-sm text-ink-soft">{t("Design.focusHint")}</p>
+      </section>
+
+      <section aria-labelledby="design-sortable" className="mt-16 max-w-[68ch]">
+        <h2 id="design-sortable" className={H2}>
+          {t("Design.sortable")}
+        </h2>
+        <p className="mt-1 text-ink-soft">{t("Design.sortableHint")}</p>
+        <div className="mt-5">
+          <SortableListDemo />
+        </div>
       </section>
 
       <section aria-labelledby="design-stamps" className="mt-16">
