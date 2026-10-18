@@ -5,6 +5,7 @@ import {
   FunctionalPhrase,
   GrammarLesson,
   VocabularyEntry,
+  VocabularyGroup,
 } from "./lessons";
 
 describe("lesson schemas", () => {
@@ -38,6 +39,47 @@ describe("lesson schemas", () => {
       slug: "present perfect",
     };
     expect(GrammarLesson.safeParse(lesson).success).toBe(false);
+  });
+
+  it("checks book references against each book's number of units", () => {
+    const ok = structuredClone(validLessons.grammar);
+    ok.references = [
+      { book: "egu", unit: 145 },
+      { book: "evu", unit: 101 },
+    ];
+    expect(GrammarLesson.safeParse(ok).success).toBe(true);
+
+    const beyond = structuredClone(validLessons.grammar);
+    beyond.references = [{ book: "egu", unit: 146 }];
+    expect(GrammarLesson.safeParse(beyond).success).toBe(false);
+
+    const unknownBook = structuredClone(validLessons.grammar);
+    unknownBook.references = [{ book: "oxford", unit: 1 }];
+    expect(GrammarLesson.safeParse(unknownBook).success).toBe(false);
+  });
+
+  it("rejects an unknown grammar category", () => {
+    const lesson = {
+      ...structuredClone(validLessons.grammar),
+      category: "misc",
+    };
+    expect(GrammarLesson.safeParse(lesson).success).toBe(false);
+  });
+
+  it("accepts vocabulary groups for topics and sets, but not the general topic", () => {
+    expect(
+      VocabularyGroup.safeParse(validLessons.vocabularyGroup).success,
+    ).toBe(true);
+    const topic = {
+      ...structuredClone(validLessons.vocabularyGroup),
+      slug: "work",
+    };
+    expect(VocabularyGroup.safeParse(topic).success).toBe(true);
+    const general = {
+      ...structuredClone(validLessons.vocabularyGroup),
+      slug: "general",
+    };
+    expect(VocabularyGroup.safeParse(general).success).toBe(false);
   });
 
   it("rejects can-do links to unknown exam parts", () => {

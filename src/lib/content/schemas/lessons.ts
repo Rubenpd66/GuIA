@@ -1,19 +1,87 @@
 import { z } from "zod";
+import { BOOKS, type BookId } from "@/config/books";
 import {
   CefrLevel,
   ExamPartId,
   LocalizedText,
   NonEmptyText,
   Slug,
+  TOPICS,
   Topic,
   choiceItem,
 } from "./common";
 
 const Register = z.enum(["formal", "informal", "neutral"]);
 
+/** A "Further study" pointer: book and unit number only, never the book's content. */
+export const Reference = z
+  .strictObject({
+    book: z.enum(Object.keys(BOOKS) as [BookId, ...BookId[]]),
+    unit: z.int().min(1),
+  })
+  .superRefine((reference, ctx) => {
+    const { units } = BOOKS[reference.book];
+    if (reference.unit > units) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["unit"],
+        message: `${BOOKS[reference.book].title} has ${units} units`,
+        input: reference.unit,
+      });
+    }
+  });
+export type Reference = z.infer<typeof Reference>;
+
+export const GRAMMAR_CATEGORIES = [
+  "tenses",
+  "future",
+  "modals",
+  "conditionals",
+  "passive",
+  "reported-speech",
+  "questions",
+  "verb-patterns",
+  "nouns-articles",
+  "pronouns-determiners",
+  "relative-clauses",
+  "adjectives-adverbs",
+  "linking",
+  "prepositions",
+  "phrasal-verbs",
+  "emphasis",
+] as const;
+export const GrammarCategory = z.enum(GRAMMAR_CATEGORIES);
+export type GrammarCategory = z.infer<typeof GrammarCategory>;
+
+/** Vocabulary sets that cut across topics (mostly B2–C1). */
+export const VOCAB_SETS = [
+  "collocations",
+  "vague-language",
+  "false-friends",
+  "formal-informal",
+  "idioms",
+  "nuance",
+  "phrasal-verbs",
+  "word-formation",
+  "linking-words",
+] as const;
+export const VocabSet = z.enum(VOCAB_SETS);
+export type VocabSet = z.infer<typeof VocabSet>;
+
+/** A vocabulary page: an exam topic (except "general") or a set. */
+export const VOCAB_GROUPS = [
+  ...TOPICS.filter((topic) => topic !== "general"),
+  ...VOCAB_SETS,
+] as [string, ...string[]];
+export const VocabGroupSlug = z.enum(VOCAB_GROUPS);
+
 export const GrammarLesson = z.strictObject({
   slug: Slug,
   level: CefrLevel,
+  category: GrammarCategory,
+  /** Position within its level on the grammar index. */
+  order: z.int().min(1),
+  references: z.array(Reference).default([]),
   title: LocalizedText,
   summary: LocalizedText,
   form: z.array(NonEmptyText).min(1),
@@ -57,6 +125,7 @@ export const VocabularyEntry = z.strictObject({
   ]),
   level: CefrLevel,
   topics: z.array(Topic).min(1),
+  sets: z.array(VocabSet).optional(),
   definition: NonEmptyText,
   examples: z.array(NonEmptyText).min(1),
   collocations: z.array(NonEmptyText).optional(),
@@ -67,6 +136,14 @@ export const VocabularyEntry = z.strictObject({
     .optional(),
 });
 export type VocabularyEntry = z.infer<typeof VocabularyEntry>;
+
+export const VocabularyGroup = z.strictObject({
+  slug: VocabGroupSlug,
+  title: LocalizedText,
+  summary: LocalizedText,
+  references: z.array(Reference).default([]),
+});
+export type VocabularyGroup = z.infer<typeof VocabularyGroup>;
 
 export const CanDo = z.strictObject({
   id: Slug,

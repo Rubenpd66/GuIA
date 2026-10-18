@@ -660,6 +660,9 @@ export const validLessons = {
   grammar: {
     slug: "inversion",
     level: "C1",
+    category: "emphasis",
+    order: 1,
+    references: [] as { book: string; unit: number }[],
     title: {
       en: "Inversion after negative adverbials",
       es: "Inversión tras adverbios negativos",
@@ -725,6 +728,7 @@ export const validLessons = {
     pos: "adverb",
     level: "B2",
     topics: ["general"],
+    sets: ["false-friends"],
     definition: "In the end, especially after a long time or a lot of effort.",
     examples: ["After three hours of waiting, the bus eventually arrived."],
     register: "neutral",
@@ -735,6 +739,14 @@ export const validLessons = {
         es: "No significa «posiblemente» ni «de vez en cuando».",
       },
     },
+  },
+  vocabularyGroup: {
+    slug: "false-friends",
+    title: { en: "False friends", es: "Falsos amigos" },
+    summary: {
+      en: "Words that look like Spanish words but mean something different.",
+    },
+    references: [] as { book: string; unit: number }[],
   },
   canDo: {
     id: "c1-writing-emphasis",

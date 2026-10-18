@@ -24,6 +24,9 @@ function validSet(): ContentSource[] {
     file("vocabulary/general.json", "vocabulary", [
       structuredClone(validLessons.vocabulary),
     ]),
+    file("vocabulary/groups.json", "vocabulary-groups", [
+      structuredClone(validLessons.vocabularyGroup),
+    ]),
     file("can-do/c1.json", "can-do", [structuredClone(validLessons.canDo)]),
     file("functional/hedging.json", "functional-language", [
       structuredClone(validLessons.functional),
@@ -36,11 +39,12 @@ describe("validateContentSet", () => {
     const report = validateContentSet(validSet());
     expect(report.errors).toEqual([]);
     expect(report.warnings).toEqual([]);
-    expect(report.files).toBe(5);
+    expect(report.files).toBe(6);
     expect(report.items).toEqual({
       exercises: 18,
       "grammar-lessons": 1,
       vocabulary: 1,
+      "vocabulary-groups": 1,
       "can-do": 1,
       "functional-language": 1,
     });
@@ -128,10 +132,42 @@ describe("validateContentSet", () => {
   });
 });
 
+describe("vocabulary groups and book coverage", () => {
+  it("reports a vocabulary set with no group", () => {
+    const set = validSet().filter((f) => f.path !== "vocabulary/groups.json");
+    const report = validateContentSet(set);
+    expect(report.errors).toEqual([
+      expect.objectContaining({
+        path: "vocabulary/general.json",
+        pointer: "items/0/sets/0",
+      }),
+    ]);
+  });
+
+  it("does not need a group for the general topic", () => {
+    const report = validateContentSet(validSet());
+    expect(report.errors).toEqual([]);
+  });
+
+  it("counts the book units covered by lesson references", () => {
+    const set = validSet();
+    const lesson = structuredClone(validLessons.grammar);
+    lesson.references = [
+      { book: "egu", unit: 12 },
+      { book: "egu", unit: 13 },
+    ];
+    set[1] = file("lessons/grammar.json", "grammar-lessons", [lesson]);
+    const report = validateContentSet(set);
+    expect(report.coverage.egu).toEqual({ covered: 2, total: 145 });
+    expect(report.coverage.evu).toEqual({ covered: 0, total: 101 });
+    expect(formatReport(report)).toContain("English Grammar in Use: 2/145");
+  });
+});
+
 describe("formatReport", () => {
   it("summarises files, items, errors and warnings", () => {
     const text = formatReport(validateContentSet(validSet()));
-    expect(text).toContain("5 files");
+    expect(text).toContain("6 files");
     expect(text).toContain("0 errors");
   });
 });

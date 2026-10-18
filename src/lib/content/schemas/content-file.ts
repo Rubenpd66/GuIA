@@ -5,6 +5,7 @@ import {
   FunctionalPhrase,
   GrammarLesson,
   VocabularyEntry,
+  VocabularyGroup,
 } from "./lessons";
 
 /** Every JSON file under `content/` has this shape: `{ "kind": ..., "items": [...] }`. */
@@ -17,6 +18,10 @@ export const ContentFile = z.discriminatedUnion("kind", [
   z.strictObject({
     kind: z.literal("vocabulary"),
     items: z.array(VocabularyEntry),
+  }),
+  z.strictObject({
+    kind: z.literal("vocabulary-groups"),
+    items: z.array(VocabularyGroup),
   }),
   z.strictObject({ kind: z.literal("can-do"), items: z.array(CanDo) }),
   z.strictObject({
@@ -31,6 +36,7 @@ export const CONTENT_KINDS: readonly ContentKind[] = [
   "exercises",
   "grammar-lessons",
   "vocabulary",
+  "vocabulary-groups",
   "can-do",
   "functional-language",
 ];

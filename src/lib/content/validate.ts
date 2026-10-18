@@ -1,3 +1,5 @@
+import { BOOKS, BOOK_IDS, type BookId } from "@/config/books";
+import { coveredUnits } from "./coverage";
 import {
   CONTENT_KINDS,
   ContentFile,
@@ -12,6 +14,8 @@ export type ValidationReport = {
   warnings: ContentIssue[];
   files: number;
   items: Record<ContentKind, number>;
+  /** Reference-book units that at least one lesson or vocabulary group points to. */
+  coverage: Record<BookId, { covered: number; total: number }>;
 };
 
 type ParsedFile = { path: string; file: ContentFile };
@@ -63,7 +67,30 @@ export function validateContentSet(sources: ContentSource[]): ValidationReport {
   }
 
   errors.push(...findDuplicateIds(parsed), ...findBrokenReferences(parsed));
-  return { errors, warnings, files: sources.length, items };
+  return {
+    errors,
+    warnings,
+    files: sources.length,
+    items,
+    coverage: bookCoverage(parsed),
+  };
+}
+
+function bookCoverage(parsed: ParsedFile[]): ValidationReport["coverage"] {
+  const references = parsed.flatMap(({ file }) =>
+    file.kind === "grammar-lessons" || file.kind === "vocabulary-groups"
+      ? file.items.flatMap((item) => item.references)
+      : [],
+  );
+  return Object.fromEntries(
+    BOOK_IDS.map((book) => [
+      book,
+      {
+        covered: coveredUnits(references, book).length,
+        total: BOOKS[book].units,
+      },
+    ]),
+  ) as ValidationReport["coverage"];
 }
 
 function idsOf({
@@ -85,6 +112,12 @@ function idsOf({
       return file.items.map((lesson, i) => ({
         namespace: "grammar lesson",
         id: lesson.slug,
+        pointer: `items/${i}/slug`,
+      }));
+    case "vocabulary-groups":
+      return file.items.map((group, i) => ({
+        namespace: "vocabulary group",
+        id: group.slug,
         pointer: `items/${i}/slug`,
       }));
     case "vocabulary":
@@ -122,10 +155,13 @@ function findDuplicateIds(parsed: ParsedFile[]): ContentIssue[] {
 function findBrokenReferences(parsed: ParsedFile[]): ContentIssue[] {
   const grammarSlugs = new Set<string>();
   const canDoIds = new Set<string>();
+  const vocabularyGroups = new Set<string>();
   for (const { file } of parsed) {
     if (file.kind === "grammar-lessons")
       file.items.forEach((l) => grammarSlugs.add(l.slug));
     if (file.kind === "can-do") file.items.forEach((c) => canDoIds.add(c.id));
+    if (file.kind === "vocabulary-groups")
+      file.items.forEach((g) => vocabularyGroups.add(g.slug));
   }
 
   const issues: ContentIssue[] = [];
@@ -141,6 +177,26 @@ function findBrokenReferences(parsed: ParsedFile[]): ContentIssue[] {
             pointer: `items/${i}/grammarPoint`,
             message: `No grammar lesson with slug "${exercise.grammarPoint}"`,
           });
+        }
+      });
+    }
+    if (file.kind === "vocabulary") {
+      file.items.forEach((entry, i) => {
+        const groups = [
+          ...entry.topics.map((slug, j) => ({ slug, pointer: `topics/${j}` })),
+          ...(entry.sets ?? []).map((slug, j) => ({
+            slug,
+            pointer: `sets/${j}`,
+          })),
+        ];
+        for (const { slug, pointer } of groups) {
+          if (slug !== "general" && !vocabularyGroups.has(slug)) {
+            issues.push({
+              path,
+              pointer: `items/${i}/${pointer}`,
+              message: `No vocabulary group with slug "${slug}"`,
+            });
+          }
         }
       });
     }
@@ -213,6 +269,10 @@ export function formatReport(report: ValidationReport): string {
     ),
   ];
   const itemCount = Object.values(report.items).reduce((sum, n) => sum + n, 0);
+  for (const book of BOOK_IDS) {
+    const { covered, total } = report.coverage[book];
+    lines.push(`${BOOKS[book].title}: ${covered}/${total} units covered`);
+  }
   lines.push(
     `${report.files} files, ${itemCount} items, ${report.errors.length} errors, ${report.warnings.length} warnings`,
   );
