@@ -1,0 +1,204 @@
+{
+  "Metadata": {
+    "title": "Sello: prepare for Aptis ESOL General",
+    "description": "Lessons, practice for all 18 parts and timed mock exams to prepare for Aptis ESOL General and reach C. Unofficial website."
+  },
+  "Nav": {
+    "home": "Sello home",
+    "mainNav": "Main navigation",
+    "skipToContent": "Skip to content",
+    "more": "More",
+    "moreTitle": "More sections",
+    "close": "Close",
+    "dashboard": "Dashboard",
+    "placementTest": "Placement test",
+    "syllabus": "Syllabus",
+    "practice": "Practice",
+    "mockExam": "Mock exam",
+    "flashcards": "Flashcards",
+    "mistakes": "Mistakes",
+    "examGuide": "Exam guide",
+    "settings": "Settings"
+  },
+  "Theme": {
+    "toggle": "Switch between light and dark mode",
+    "choose": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "Match my device"
+  },
+  "Locale": {
+    "label": "Language",
+    "es": "Español",
+    "en": "English",
+    "esShort": "ES",
+    "enShort": "EN"
+  },
+  "Footer": {
+    "disclaimer": "Sello is an independent, unofficial website. It is not affiliated with or endorsed by the British Council. Aptis ESOL General is a British Council exam.",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy"
+  },
+  "Home": {
+    "title": "Prepare for Aptis ESOL General and reach C",
+    "lead": "Lessons, practice for all 18 parts and timed mock exams, designed for Spanish speakers.",
+    "placementTest": "Take the placement test",
+    "startStudying": "Start studying",
+    "partsTitle": "The 18 parts of the exam",
+    "partsLead": "Each part is a border: master it and you earn its stamp.",
+    "levelsTitle": "Your passport",
+    "levelsLead": "Every level you reach gets stamped: A2, B1, B2 and C."
+  },
+  "Sections": {
+    "dashboard": {
+      "title": "Dashboard",
+      "lead": "Your estimated level for each skill, your streak and your next recommended task."
+    },
+    "placementTest": {
+      "title": "Placement test",
+      "lead": "About 20 minutes of grammar, vocabulary, reading and listening to estimate your level and build your study plan."
+    },
+    "syllabus": {
+      "title": "Syllabus",
+      "lead": "Grammar, vocabulary and strategies for every part of the exam, from A2 to C1."
+    },
+    "grammar": {
+      "title": "Grammar",
+      "lead": "Lessons from A2 to C1 with the typical mistakes Spanish speakers make and self-marking practice."
+    },
+    "vocabulary": {
+      "title": "Vocabulary",
+      "lead": "Collocations, false friends, register and the vocabulary of the topics the exam usually covers."
+    },
+    "reading": {
+      "title": "Reading",
+      "lead": "All four reading parts, with strategies and original texts."
+    },
+    "listening": {
+      "title": "Listening",
+      "lead": "Audio with British voices, transcripts and practice in picking up attitude and intention."
+    },
+    "writing": {
+      "title": "Writing",
+      "lead": "An editor with a live word count, annotated B2 and C models, and formal and informal templates."
+    },
+    "speaking": {
+      "title": "Speaking",
+      "lead": "Recording, timers and model answers for all four parts."
+    },
+    "practice": {
+      "title": "Practice",
+      "lead": "A trainer for each of the 18 parts of the exam."
+    },
+    "mockExam": {
+      "title": "Mock exam",
+      "lead": "The full exam with real timings and a report for each skill at the end."
+    },
+    "flashcards": {
+      "title": "Flashcards",
+      "lead": "Vocabulary with spaced repetition: each word comes back just before you forget it."
+    },
+    "mistakes": {
+      "title": "Mistakes",
+      "lead": "Your mistakes, saved so you can practise them again later."
+    },
+    "examGuide": {
+      "title": "Exam guide",
+      "lead": "Format, timings, scoring and tips for every part."
+    },
+    "settings": {
+      "title": "Settings",
+      "lead": "Language and theme. Later on, also the listening voice, your exam date and a backup of your progress."
+    }
+  },
+  "Coming": {
+    "title": "Coming soon",
+    "body": "This section arrives in phase {phase}.",
+    "back": "Back to home"
+  },
+  "Parts": {
+    "core-grammar": "Grammar",
+    "core-vocabulary": "Vocabulary",
+    "reading-1": "Sentence comprehension",
+    "reading-2": "Text cohesion",
+    "reading-3": "Opinion matching",
+    "reading-4": "Long text comprehension",
+    "listening-1": "Information recognition",
+    "listening-2": "Information matching",
+    "listening-3": "Opinion matching",
+    "listening-4": "Monologue comprehension",
+    "writing-1": "Word-level writing",
+    "writing-2": "Short text writing",
+    "writing-3": "Three written responses",
+    "writing-4": "Formal and informal writing",
+    "speaking-1": "Personal information",
+    "speaking-2": "Describe a photo",
+    "speaking-3": "Compare two pictures",
+    "speaking-4": "Discuss an abstract topic"
+  },
+  "Skills": {
+    "core": "Core",
+    "reading": "Reading",
+    "listening": "Listening",
+    "writing": "Writing",
+    "speaking": "Speaking"
+  },
+  "Practice": {
+    "partNumber": "Part {number}",
+    "title": "{skill}, part {number}: {name}",
+    "coreTitle": "Core: {name}"
+  },
+  "Settings": {
+    "theme": "Theme",
+    "language": "Language",
+    "laterTitle": "Coming later",
+    "voice": "Listening voice and speed",
+    "examDate": "Exam date",
+    "backup": "Export and import your progress",
+    "phase": "Phase {phase}"
+  },
+  "Legal": {
+    "title": "Legal notice",
+    "lead": "Who is behind Sello and what you can expect from its content.",
+    "unofficialTitle": "Unofficial website",
+    "unofficialBody": "Sello is an independent project to help you prepare for Aptis ESOL General. It is not affiliated with or endorsed by the British Council, and it does not use its brand, logo or materials.",
+    "contentTitle": "Original content",
+    "contentBody": "All lessons, texts, audio and questions are original. They follow the format of the exam but do not copy official or third-party materials.",
+    "estimatesTitle": "Estimated levels",
+    "estimatesBody": "The levels and scores shown in the app are our own estimates, not official results.",
+    "ownerTitle": "Owner",
+    "ownerBody": "The owner’s details will be added before the website is published."
+  },
+  "Privacy": {
+    "title": "Privacy",
+    "lead": "What data Sello stores and where.",
+    "storedTitle": "What we store",
+    "storedBody": "Only your theme preference (light, dark or match my device), in your browser’s local storage. It never leaves your device.",
+    "notStoredTitle": "What we don’t store",
+    "notStoredBody": "We don’t use cookies, analytics or user accounts.",
+    "futureTitle": "When progress tracking arrives",
+    "futureBody": "When the app starts saving your progress, it will stay in your browser too, and this page will explain what is stored and how to delete it."
+  },
+  "NotFound": {
+    "title": "This page doesn’t exist",
+    "body": "The address may be mistyped, or the page may have moved.",
+    "home": "Go to the home page"
+  },
+  "Design": {
+    "title": "Design system",
+    "lead": "Colours, type and passport components. An internal page for reviewing the design.",
+    "colours": "Colours",
+    "type": "Type",
+    "buttons": "Buttons",
+    "stamps": "Stamps",
+    "guilloche": "Guilloche",
+    "focus": "Focus",
+    "focusHint": "Press Tab to move through this page and see the focus ring on each control.",
+    "primary": "Main action",
+    "secondary": "Secondary action",
+    "ghost": "Quiet action"
+  },
+  "Stamp": {
+    "label": "{level} stamp: {caption}"
+  }
+}
