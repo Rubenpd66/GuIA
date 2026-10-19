@@ -56,7 +56,8 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - PWA: `src/app/manifest.ts`, `public/sw.js` (network first for pages, RSC and banks; cache first for `/_next/static`; inline offline page), `ServiceWorker` registers it in production and offers a reload on update. Icons from `scripts/make-icons.ts`.
   - Deploy: `npx vercel deploy --prod --yes` from this folder (in PowerShell use `npx.cmd`: the execution policy blocks `npx.ps1`). `vercel link` wrote a token to `.env.local` (ignored by git).
 - **Next: phase 9** (Supabase accounts, admin, security, GDPR; AI feedback and payments moved to phase 10, redesign and content SEO to the end of phase 10). Plan written at `docs/superpowers/plans/2026-10-20-phase-9-accounts-security.md` in batches 9a–9d, awaiting the user's answers to its 5 questions (Supabase project and test project, sign-in methods, email provider, admin scope, Turnstile). Do not start code before that approval.
-- Phase 9 follows the spec.
+- Phase 9 is approved and in progress (plan above). Done and committed: 9a (Supabase clients, session proxy, `user_data` table with RLS in `sello` and `sello-dev`, sync merge rules). In 9b the auth server actions, callback route and `useUser` exist; still to do: `/acceso` and `/cuenta` pages, nav link, sync engine, es/en messages, then the user setup guide (Auth URLs, Google OAuth, `SUPABASE_SECRET_KEY` in Vercel only). Then 9c (admin) and 9d (headers/CSP, legal pages, audit, E2E).
+- Skills added in the last session (global): Strix (`penetration-testing-with-strix`, `owasp-top-10-testing`, `find-security-vulnerabilities-in-code`…; for the 9d audit, ask before running a scan), claude-mem (`mem-search`, `make-plan`, `do`, `handoff`…), thermos (`thermos`, `thermo-nuclear-review`, `thermo-nuclear-code-quality-review`: branch reviews). Headroom is a Python CLI/proxy, not a skill: not installed (needs the user's OK).
 
 ## Commands
 

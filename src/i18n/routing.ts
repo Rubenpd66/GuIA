@@ -37,6 +37,8 @@ export const routing = defineRouting({
     "/mistakes": { es: "/errores", en: "/mistakes" },
     "/exam-guide": { es: "/guia", en: "/exam-guide" },
     "/settings": { es: "/ajustes", en: "/settings" },
+    "/sign-in": { es: "/acceso", en: "/sign-in" },
+    "/account": { es: "/cuenta", en: "/account" },
     "/legal-notice": { es: "/aviso-legal", en: "/legal-notice" },
     "/privacy": { es: "/privacidad", en: "/privacy" },
     "/design": "/design",
