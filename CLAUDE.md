@@ -55,7 +55,7 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - Legal: owner details in `SITE.owner` (name, NIF, address, email, published at the user's request); privacy page lists local storage, microphone and Vercel logs.
   - PWA: `src/app/manifest.ts`, `public/sw.js` (network first for pages, RSC and banks; cache first for `/_next/static`; inline offline page), `ServiceWorker` registers it in production and offers a reload on update. Icons from `scripts/make-icons.ts`.
   - Deploy: `npx vercel deploy --prod --yes` from this folder (in PowerShell use `npx.cmd`: the execution policy blocks `npx.ps1`). `vercel link` wrote a token to `.env.local` (ignored by git).
-- **Next: phase 9** (optional: AI feedback for Writing/Speaking and Supabase accounts). Write its plan and wait for approval; it needs keys, a server function and cost limits, so use the `security-audit` skill.
+- **Next: phase 9** (Supabase accounts, admin, security, GDPR; AI feedback and payments moved to phase 10, redesign and content SEO to the end of phase 10). Plan written at `docs/superpowers/plans/2026-10-20-phase-9-accounts-security.md` in batches 9a–9d, awaiting the user's answers to its 5 questions (Supabase project and test project, sign-in methods, email provider, admin scope, Turnstile). Do not start code before that approval.
 - Phase 9 follows the spec.
 
 ## Commands
