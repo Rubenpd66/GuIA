@@ -871,7 +871,10 @@
     "passportLead": "Every part of the exam has its own box. The stamp shows your estimated level and changes as you practise.",
     "stampLabel": "{level} stamp: {part}",
     "emptySlot": "No stamp yet: {part}",
-    "flashcardsDue": "{count, plural, =0 {Flashcards: nothing due today} one {Flashcards: # card for today} other {Flashcards: # cards for today}}"
+    "flashcardsDue": "{count, plural, =0 {Flashcards: nothing due today} one {Flashcards: # card for today} other {Flashcards: # cards for today}}",
+    "levelUpTitle": "New stamp!",
+    "levelUpBody": "{level} in {part}{more, plural, =0 {.} one { and # more part.} other { and # more parts.}}",
+    "levelUpClose": "Close"
   },
   "Mistakes": {
     "lead": "{count, plural, one {You have # saved mistake.} other {You have # saved mistakes.}} Each one leaves the bank once you get it right {streak} times in a row when reviewing.",
@@ -937,7 +940,8 @@
     "section": "Section {current} of {total}",
     "untimed": "No time limit: answer at your own pace, but with no help.",
     "timed": "You have {minutes, plural, one {# minute} other {# minutes}}, as in the exam.",
-    "startSection": "Start the section"
+    "startSection": "Start the section",
+    "speakingTimed": "Each question has its own preparation and answer time, as in the exam."
   },
   "Placement": {
     "introTitle": "How it works",
@@ -956,6 +960,32 @@
     "percent": "{value}%",
     "notEstimated": "Writing and Speaking are not estimated yet: do one task of each to get your level.",
     "planTitle": "Your plan: practise these first",
+    "toDashboard": "Go to the dashboard"
+  },
+  "Mock": {
+    "setupTitle": "Set up your mock exam",
+    "setupBody": "The full exam with the real time for each component. Take it all at once or choose components, and carry on later if you close the page.",
+    "components": "Components",
+    "minutes": "{count} min",
+    "setupNote": "If you reload in the middle of a section, the clock keeps running from its start: no time is given back. That section's answers are lost, except your Writing texts.",
+    "start": "Start the mock exam (about {count} min)",
+    "inProgress": "Mock exam in progress. It is saved at the end of every section.",
+    "discard": "Abandon the mock exam",
+    "discardConfirm": "Abandon this mock exam? The sections you finished stay in your progress.",
+    "discardButton": "Abandon",
+    "cancel": "Cancel",
+    "reportTitle": "Mock exam report",
+    "estimateNote": "Share of right answers and the app's estimated level, not an official score: the conversion to the exam's 0–50 scale is not public. Writing and Speaking come from your self-assessment.",
+    "stampLabel": "{level} stamp: {skill}",
+    "noStamp": "No stamp",
+    "percent": "{value}%",
+    "selfAssessed": "Self-assessed",
+    "partsTitle": "By part",
+    "score": "{correct} of {total}",
+    "gvTitle": "What Grammar and Vocabulary do",
+    "gvBody": "In the exam, Core has no level of its own, but it can decide the result when a skill falls just below a level. A good Core result helps those skills go up.",
+    "weakTitle": "Practise these first",
+    "again": "New mock exam",
     "toDashboard": "Go to the dashboard"
   }
 }

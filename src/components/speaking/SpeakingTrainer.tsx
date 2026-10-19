@@ -33,7 +33,13 @@ import { SpeakingModels } from "./SpeakingModels";
 /** app decision: reading time before the clock starts when there is no synthetic voice. */
 const SILENT_READING_MS = 5000;
 
-type Session = { id: number; mode: TrainerMode; task: SpeakingExercise };
+/** A session as the trainer starts it; the mock exam builds its own. */
+export type SpeakingSessionData = {
+  id: number;
+  mode: TrainerMode;
+  task: SpeakingExercise;
+};
+type Session = SpeakingSessionData;
 
 // Only called from event handlers and effects; the purity lint misreads them as render code.
 const now = () => Date.now();
@@ -108,16 +114,19 @@ type SpeakingSessionProps = {
   part: SpeakingPart;
   session: Session;
   phrases: FunctionalPhrase[];
-  onNewSession: () => void;
-  onChangeSettings: () => void;
+  onNewSession?: () => void;
+  onChangeSettings?: () => void;
+  /** Set by the mock exam: called once the self-assessment is saved, instead of the summary. */
+  onSaved?: (result: { correct: number; total: number }) => void;
 };
 
-function SpeakingSession({
+export function SpeakingSession({
   part,
   session,
   phrases,
   onNewSession,
   onChangeSettings,
+  onSaved,
 }: SpeakingSessionProps) {
   const t = useTranslations("Speaking.trainer");
   const tSpeaking = useTranslations("Speaking");
@@ -211,7 +220,8 @@ function SpeakingSession({
         total,
       }),
     );
-    setSaved({ correct, total });
+    if (onSaved) onSaved({ correct, total });
+    else setSaved({ correct, total });
   };
 
   const images =

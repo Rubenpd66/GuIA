@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { LevelUpNotice } from "@/components/dashboard/LevelUpNotice";
 import { BottomNav } from "./BottomNav";
 import { SiteFooter } from "./SiteFooter";
 import { SpineNav } from "./SpineNav";
@@ -19,6 +20,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <div className="max-w-5xl">{children}</div>
         </main>
         <SiteFooter />
+        <LevelUpNotice />
       </div>
       <BottomNav />
     </div>

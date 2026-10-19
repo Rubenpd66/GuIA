@@ -42,12 +42,7 @@ export function Stamp({
       viewBox="0 0 120 120"
       role="img"
       aria-label={label}
-      className={cx(
-        "size-28",
-        TONES[tone],
-        animate && "stamp-drop",
-        className,
-      )}
+      className={cx("size-28", TONES[tone], animate && "stamp-drop", className)}
     >
       <g transform={`rotate(${rotate} 60 60)`} opacity="0.92">
         <g fill="none" stroke="currentColor" strokeLinejoin="round">

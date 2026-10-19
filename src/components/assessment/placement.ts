@@ -11,15 +11,12 @@ import type {
   Listening1Exercise,
   Listening2Exercise,
 } from "@/lib/content/schemas/listening";
-import { bandOf } from "@/lib/estimate/level";
-import type { Skill } from "@/lib/exam/format";
-import { SKILL_OF_PART } from "@/lib/exam/format";
 import { shuffle, type Rng } from "@/lib/trainer/random";
 import {
   buildGrammarSession,
   buildVocabularySession,
 } from "@/lib/trainer/session";
-import type { Step, StepResult } from "./steps";
+import { levelsBySkill, type Step, type StepResult } from "./steps";
 
 export type PlacementBank = {
   grammar: CoreGrammarExercise[];
@@ -96,21 +93,7 @@ export function buildPlacementSteps(bank: PlacementBank, rng: Rng): Step[] {
 }
 
 /** The placement result per skill: the share of right answers across its sections. */
-export function placementLevels(results: readonly StepResult[]) {
-  const bySkill = new Map<Skill, { correct: number; total: number }>();
-  for (const { part, correct, total } of results) {
-    const skill = SKILL_OF_PART[part];
-    const sum = bySkill.get(skill) ?? { correct: 0, total: 0 };
-    bySkill.set(skill, {
-      correct: sum.correct + correct,
-      total: sum.total + total,
-    });
-  }
-  return [...bySkill].map(([skill, { correct, total }]) => {
-    const ratio = total ? correct / total : 0;
-    return { skill, ratio, level: bandOf(ratio) };
-  });
-}
+export const placementLevels = levelsBySkill;
 
 /** The three tested parts with the lowest scores, to practise first. */
 export function placementPlan(results: readonly StepResult[], count = 3) {

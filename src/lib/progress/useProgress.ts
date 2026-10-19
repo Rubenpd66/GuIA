@@ -1,6 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { announceLevelUps, partsLeveledUp } from "@/lib/estimate/levelUps";
 import { EMPTY_PROGRESS, parseProgress } from "./progress";
 import type { Progress } from "./schema";
 
@@ -37,14 +38,22 @@ function subscribe(onChange: () => void) {
   };
 }
 
-/** Saves progress and updates every component that reads it. Fails silently if storage is blocked. */
-export function saveProgress(progress: Progress) {
+/**
+ * Saves progress and updates every component that reads it. Fails silently if storage is
+ * blocked. A save that raises a part's stamp announces it, unless `quiet` (imports).
+ */
+export function saveProgress(
+  progress: Progress,
+  { quiet = false }: { quiet?: boolean } = {},
+) {
+  const before = getSnapshot();
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
   } catch {
     // Private browsing or blocked storage: progress lives only for this page view.
   }
   listeners.forEach((listener) => listener());
+  if (!quiet) announceLevelUps(partsLeveledUp(before, progress));
 }
 
 export function clearProgress() {

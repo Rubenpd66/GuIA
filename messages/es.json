@@ -871,7 +871,10 @@
     "passportLead": "Cada parte del examen tiene su casilla. El sello muestra tu nivel estimado y cambia cuando practicas.",
     "stampLabel": "Sello {level}: {part}",
     "emptySlot": "Sin sello todavía: {part}",
-    "flashcardsDue": "{count, plural, =0 {Flashcards: nada pendiente hoy} one {Flashcards: # tarjeta para hoy} other {Flashcards: # tarjetas para hoy}}"
+    "flashcardsDue": "{count, plural, =0 {Flashcards: nada pendiente hoy} one {Flashcards: # tarjeta para hoy} other {Flashcards: # tarjetas para hoy}}",
+    "levelUpTitle": "¡Nuevo sello!",
+    "levelUpBody": "{level} en {part}{more, plural, =0 {.} one { y # parte más.} other { y # partes más.}}",
+    "levelUpClose": "Cerrar"
   },
   "Mistakes": {
     "lead": "{count, plural, one {Tienes # error guardado.} other {Tienes # errores guardados.}} Cada uno sale del banco cuando lo aciertas {streak} veces seguidas en el repaso.",
@@ -937,7 +940,8 @@
     "section": "Sección {current} de {total}",
     "untimed": "Sin límite de tiempo: responde a tu ritmo, pero sin ayudas.",
     "timed": "Tienes {minutes, plural, one {# minuto} other {# minutos}}, como en el examen.",
-    "startSection": "Empezar la sección"
+    "startSection": "Empezar la sección",
+    "speakingTimed": "Cada pregunta tiene su tiempo de preparación y de respuesta, como en el examen."
   },
   "Placement": {
     "introTitle": "Cómo funciona",
@@ -956,6 +960,32 @@
     "percent": "{value} %",
     "notEstimated": "Writing y Speaking quedan sin estimar: haz una tarea de cada uno para tener tu nivel.",
     "planTitle": "Tu plan: practica primero",
+    "toDashboard": "Ir al panel"
+  },
+  "Mock": {
+    "setupTitle": "Prepara tu simulacro",
+    "setupBody": "El examen completo con los tiempos reales de cada componente. Puedes hacerlo entero o elegir componentes, y continuar más tarde si cierras la página.",
+    "components": "Componentes",
+    "minutes": "{count} min",
+    "setupNote": "Si recargas a mitad de una sección, el reloj sigue corriendo desde su inicio: no se regala tiempo. Las respuestas de esa sección se pierden, salvo los textos de Writing.",
+    "start": "Empezar el simulacro (unos {count} min)",
+    "inProgress": "Simulacro en curso. Se guarda al terminar cada sección.",
+    "discard": "Abandonar el simulacro",
+    "discardConfirm": "¿Abandonar este simulacro? Las secciones terminadas siguen en tu progreso.",
+    "discardButton": "Abandonar",
+    "cancel": "Cancelar",
+    "reportTitle": "Informe del simulacro",
+    "estimateNote": "Porcentaje de aciertos y nivel estimado por la app, no una nota oficial: la conversión a la escala 0–50 del examen no es pública. Writing y Speaking salen de tu autoevaluación.",
+    "stampLabel": "Sello {level}: {skill}",
+    "noStamp": "Sin sello",
+    "percent": "{value} %",
+    "selfAssessed": "Autoevaluación",
+    "partsTitle": "Por partes",
+    "score": "{correct} de {total}",
+    "gvTitle": "El papel de Grammar y Vocabulary",
+    "gvBody": "En el examen, Core no tiene nivel propio, pero puede decidir cuando una destreza se queda justo por debajo de un nivel. Un buen resultado en Core ayuda a que esas destrezas suban.",
+    "weakTitle": "Practica primero",
+    "again": "Nuevo simulacro",
     "toDashboard": "Ir al panel"
   }
 }

@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { flashcardsStore } from "@/lib/flashcards/store";
+import { mockStore } from "@/lib/mock/store";
 import { examDateStore } from "@/lib/progress/examDate";
 import { exportProgress, importProgress } from "@/lib/progress/progress";
 import {
@@ -32,6 +33,7 @@ export function ProgressManager() {
     const extras = {
       examDate: examDateStore.read(),
       flashcards: flashcardsStore.read(),
+      mock: mockStore.read(),
     };
     const blob = new Blob([exportProgress(progress, Date.now(), extras)], {
       type: "application/json",
@@ -47,11 +49,12 @@ export function ProgressManager() {
   async function upload(file: File) {
     const result = importProgress(await file.text());
     if (result.ok) {
-      saveProgress(result.progress);
+      saveProgress(result.progress, { quiet: true });
       if ("examDate" in result.extras)
         examDateStore.save(result.extras.examDate ?? null);
       if (result.extras.flashcards)
         flashcardsStore.save(result.extras.flashcards);
+      if ("mock" in result.extras) mockStore.save(result.extras.mock ?? null);
       setMessage({ tone: "ok", text: t("imported") });
     } else {
       setMessage({ tone: "error", text: t(IMPORT_ERRORS[result.error]) });

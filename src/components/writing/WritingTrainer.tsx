@@ -26,13 +26,15 @@ import { ModelAnswers } from "./ModelAnswers";
 import { PhrasePanel } from "./PhrasePanel";
 import { WritingEditor } from "./WritingEditor";
 
-type Session = {
+/** A session as the trainer starts it; the mock exam builds its own. */
+export type WritingSessionData = {
   id: number;
   mode: TrainerMode;
   task: WritingExercise;
   startedAt: number;
   deadline: number | null;
 };
+type Session = WritingSessionData;
 
 // Only called from event handlers; the purity lint misreads `start` as render code here.
 const now = () => Date.now();
@@ -121,16 +123,19 @@ type WritingSessionProps = {
   part: WritingPart;
   session: Session;
   phrases: FunctionalPhrase[];
-  onNewSession: () => void;
-  onChangeSettings: () => void;
+  onNewSession?: () => void;
+  onChangeSettings?: () => void;
+  /** Set by the mock exam: called once the self-assessment is saved, instead of the summary. */
+  onSaved?: (result: { correct: number; total: number }) => void;
 };
 
-function WritingSession({
+export function WritingSession({
   part,
   session,
   phrases,
   onNewSession,
   onChangeSettings,
+  onSaved,
 }: WritingSessionProps) {
   const t = useTranslations("Writing.trainer");
   const tTrainer = useTranslations("Trainer");
@@ -175,7 +180,8 @@ function WritingSession({
       }),
     );
     clearDrafts(items.map((item) => item.key));
-    setSaved({ correct, total });
+    if (onSaved) onSaved({ correct, total });
+    else setSaved({ correct, total });
   };
 
   return (
