@@ -4,7 +4,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { useActionState, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { ButtonLink } from "@/components/ui/ButtonLink";
-import { Link, useRouter } from "@/i18n/navigation";
+import { Link, getPathname } from "@/i18n/navigation";
 import {
   deleteMyAccount,
   signOut,
@@ -22,7 +22,6 @@ import { AuthForm, fieldClass } from "./AuthForm";
 export function AccountPanel() {
   const t = useTranslations("Account");
   const locale = useLocale();
-  const router = useRouter();
   const user = useUser();
   const sync = useSyncStatus();
   const confirmDialog = useRef<HTMLDialogElement>(null);
@@ -34,7 +33,8 @@ export function AccountPanel() {
         releaseOwner();
         await clearCachedPages();
         if (!keepLocal) clearLocalStudyData();
-        router.push("/");
+        // A full load, so nothing filtered for this session stays in memory.
+        window.location.assign(getPathname({ href: "/", locale }));
       }
       return result;
     },
@@ -74,7 +74,8 @@ export function AccountPanel() {
           action={async () => {
             await signOut();
             await clearCachedPages();
-            router.push("/");
+            // A full load, so nothing filtered for this session stays in memory.
+            window.location.assign(getPathname({ href: "/", locale }));
           }}
           className="mt-4"
         >

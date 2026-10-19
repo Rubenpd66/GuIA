@@ -146,6 +146,7 @@ export function validateContentSet(sources: ContentSource[]): ValidationReport {
   errors.push(
     ...findDuplicateIds(parsed),
     ...findBrokenReferences(parsed),
+    ...strayPlacementFlags(parsed),
     ...listening.errors,
   );
   const bank = questionBank(parsed);
@@ -153,7 +154,6 @@ export function validateContentSet(sources: ContentSource[]): ValidationReport {
     ...findThinLessons(parsed, bank.grammarByLesson),
     ...listening.warnings,
     ...speakingModelWarnings(parsed),
-    ...strayPlacementFlags(parsed),
   );
   return {
     errors,
@@ -281,7 +281,6 @@ function checkListening(parsed: ParsedFile[]) {
   return { errors, warnings };
 }
 
-/** Speaking: model answers that would not fit the time (a warning; the pace is an app decision). */
 /** A flag outside the placement parts never reaches the test, yet would make the task free. */
 function strayPlacementFlags(parsed: ParsedFile[]): ContentIssue[] {
   return parsed.flatMap(({ path, file }) =>
@@ -293,7 +292,7 @@ function strayPlacementFlags(parsed: ParsedFile[]): ContentIssue[] {
                 {
                   path,
                   pointer: `items/${i}/placement`,
-                  message: `"placement" has no effect on ${exercise.examPart}; it would only make the task free`,
+                  message: `"placement" has no effect on ${exercise.examPart} and would make this paid task free for everyone`,
                 },
               ]
             : [],
@@ -301,6 +300,7 @@ function strayPlacementFlags(parsed: ParsedFile[]): ContentIssue[] {
   );
 }
 
+/** Speaking: model answers that would not fit the time (a warning; the pace is an app decision). */
 function speakingModelWarnings(parsed: ParsedFile[]): ContentIssue[] {
   const warnings: ContentIssue[] = [];
   for (const { path, file } of parsed) {

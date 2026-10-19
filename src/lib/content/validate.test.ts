@@ -141,7 +141,7 @@ describe("validateContentSet", () => {
     ]);
   });
 
-  it("warns about a placement flag on a part the placement test never uses", () => {
+  it("rejects a placement flag on a part the placement test never uses", () => {
     const set = validSet();
     set.push(
       file("exercises/flagged.json", "exercises", [
@@ -152,9 +152,10 @@ describe("validateContentSet", () => {
         },
       ]),
     );
-    const { warnings } = validateContentSet(set);
-    expect(warnings).toHaveLength(1);
-    expect(warnings[0]!.message).toContain("writing-2");
+    // An error, not a warning: the flag would hand a paid task to every visitor.
+    const { errors } = validateContentSet(set);
+    expect(errors).toHaveLength(1);
+    expect(errors[0]!.message).toContain("writing-2");
   });
 
   it("warns about American spellings in English text only", () => {

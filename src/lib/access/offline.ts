@@ -14,3 +14,16 @@ export async function clearCachedPages(
     // Storage blocked or unavailable: nothing was cached.
   }
 }
+
+/**
+ * Calls `onChange` whenever the signed-in user is replaced or signs out, however that happens
+ * (button, expiry, another tab). The first report only sets the starting point.
+ */
+export function sessionWatcher(onChange: () => void) {
+  let last: string | null | undefined;
+  return (user: { id: string } | null) => {
+    const id = user?.id ?? null;
+    if (last !== undefined && last !== id) onChange();
+    last = id;
+  };
+}

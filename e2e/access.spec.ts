@@ -154,6 +154,39 @@ test.describe("a B1 subscriber", () => {
       await expect(
         page.getByText(firstMistake("adjective-patterns-and-perception-verbs")),
       ).toHaveCount(0);
+
+      // Banks and trainers: B1 and below, plus the public placement pool, and nothing else.
+      type Task = { id: string; cefrLevel: string; placement?: true };
+      const bank = (await (
+        await page.request.get("/banks/mock")
+      ).json()) as Record<string, Task[]>;
+      const tooHigh = Object.values(bank)
+        .flat()
+        .filter(
+          (task) => ["B2", "C1"].includes(task.cefrLevel) && !task.placement,
+        );
+      expect(tooHigh.map((task) => task.id)).toEqual([]);
+      expect(
+        Object.values(bank)
+          .flat()
+          .some((t) => t.cefrLevel === "B1"),
+      ).toBe(true);
+
+      const questions = readdirSync("content/exercises/core-grammar").flatMap(
+        (file) =>
+          content<{ items: Task[] }>(`exercises/core-grammar/${file}`).items,
+      );
+      const b1 = questions.find(
+        (q) => q.cefrLevel === "B1" && !q.placement,
+      )!.id;
+      const b2 = questions.find(
+        (q) => q.cefrLevel === "B2" && !q.placement,
+      )!.id;
+      const trainer = await (
+        await page.request.get("/es/practica/core-grammar")
+      ).text();
+      expect(trainer.includes(b1), "B1 question missing").toBe(true);
+      expect(trainer.includes(b2), "B2 question in the response").toBe(false);
     } finally {
       await admin.auth.admin.deleteUser(userId);
     }

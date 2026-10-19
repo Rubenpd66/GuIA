@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useActionState, useEffect, type ReactNode } from "react";
 import { Button } from "@/components/ui/Button";
-import { useRouter } from "@/i18n/navigation";
+import { getPathname } from "@/i18n/navigation";
 import type { AuthResult } from "@/lib/auth/actions";
 
 export const fieldClass =
@@ -27,14 +27,20 @@ export function AuthForm({
   children,
 }: Props) {
   const t = useTranslations("Account.messages");
-  const router = useRouter();
   const [state, formAction, pending] = useActionState<AuthResult, FormData>(
     action,
     { status: "idle" },
   );
   useEffect(() => {
-    if (goToAccount && state.status === "ok") router.push("/account");
-  }, [goToAccount, state, router]);
+    // A full load, so banks loaded before signing in are fetched again for this plan.
+    if (goToAccount && state.status === "ok")
+      window.location.assign(
+        getPathname({
+          href: "/account",
+          locale: locale === "en" ? "en" : "es",
+        }),
+      );
+  }, [goToAccount, state, locale]);
 
   return (
     <form action={formAction} className="space-y-4">
