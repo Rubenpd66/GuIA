@@ -1,0 +1,143 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "past-of-be-was-were",
+      "level": "A2",
+      "category": "tenses",
+      "order": 110,
+      "references": [],
+      "title": {
+        "en": "Past of be: was and were",
+        "es": "Pasado de be: was y were"
+      },
+      "summary": {
+        "en": "The past of **be** has two forms: **was** (I, he, she, it) and **were** (you, we, they). Use it to say where or how someone or something was, or what it was like: _I was at home. The shops were closed. How was the film?_ Questions and negatives do not use _did_: _Were you ill? I wasn't ill._",
+        "es": "Was (I, he, she, it) y were (you, we, they) cubren «era, fue, estaba, estuvo». Preguntas y negativas se hacen con el propio verbo, sin did."
+      },
+      "form": [
+        "**I / he / she / it + was**: _I was tired. It was cold._",
+        "**You / we / they + were**: _We were late. They were friendly._",
+        "Negatives: **wasn't / weren't**: _He wasn't at work. They weren't happy._",
+        "Questions: **Was / Were** + subject: _Was she ill? Were you at the party?_",
+        "Short answers: _Yes, I was. / No, we weren't._ Time words: **yesterday, last night, two days ago, in 2019**."
+      ],
+      "uses": [
+        {
+          "text": "**Where someone or something was** → _We were in Lisbon last weekend._"
+        },
+        {
+          "text": "**How someone felt or what something was like** → _I was very nervous. The food was excellent._"
+        },
+        {
+          "text": "**Saying where and when you were born** → _I was born in Zaragoza in 1994._",
+          "note": {
+            "en": "Born is always used with was or were, as an adjective.",
+            "es": "Con born se usa siempre was/were: «nací» = I was born."
+          }
+        },
+        {
+          "text": "**There was / there were** → _There was a long queue. There were two messages for you._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "We was at the cinema.",
+          "right": "We were at the cinema.",
+          "why": {
+            "en": "We, you and they take were.",
+            "es": "We, you y they llevan were."
+          }
+        },
+        {
+          "wrong": "I born in Seville.",
+          "right": "I was born in Seville.",
+          "why": {
+            "en": "Born needs was or were: I was born.",
+            "es": "«Nací» = I was born; hace falta was."
+          }
+        },
+        {
+          "wrong": "Did you were at home?",
+          "right": "Were you at home?",
+          "why": {
+            "en": "The past of be makes its own questions. Do not add did.",
+            "es": "Be hace sus preguntas solo: Were you…? Sin did."
+          }
+        },
+        {
+          "wrong": "I didn't was ill.",
+          "right": "I wasn't ill.",
+          "why": {
+            "en": "The past negative of be is wasn't or weren't.",
+            "es": "La negativa es wasn't / weren't, sin didn't."
+          }
+        },
+        {
+          "wrong": "The shops was closed.",
+          "right": "The shops were closed.",
+          "why": {
+            "en": "Shops is plural (they), so use were.",
+            "es": "Shops es plural: were."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I was at the dentist's yesterday morning.",
+          "es": "Ayer por la mañana estuve en el dentista."
+        },
+        {
+          "en": "The hotel was clean, but the rooms were small.",
+          "es": "El hotel estaba limpio, pero las habitaciones eran pequeñas."
+        },
+        { "en": "Were you at work on Friday? No, I was on holiday." },
+        {
+          "en": "How was your weekend? It was great, thanks.",
+          "es": "¿Qué tal el fin de semana? Genial, gracias."
+        },
+        { "en": "My grandparents were born in a small village." },
+        { "en": "She wasn't happy with the result." },
+        { "en": "We weren't in the office when the call came." },
+        { "en": "There was a problem with the printer this morning." },
+        { "en": "Was the exam difficult? Not really." },
+        { "en": "They were very kind to us last summer." }
+      ],
+      "practice": [
+        {
+          "prompt": "We ___ very tired after the long journey.",
+          "options": ["were", "was", "are"],
+          "answer": 0,
+          "explanation": {
+            "en": "We takes were, and the journey is finished."
+          }
+        },
+        {
+          "prompt": "___ your sister at the party last night?",
+          "options": ["Was", "Were", "Did"],
+          "answer": 0,
+          "explanation": {
+            "en": "Your sister is she, so the question starts with was."
+          }
+        },
+        {
+          "prompt": "The tickets ___ expensive, so we bought two.",
+          "options": ["weren't", "wasn't", "didn't"],
+          "answer": 0,
+          "explanation": {
+            "en": "Tickets is plural, so the negative is weren't."
+          }
+        },
+        {
+          "prompt": "My father ___ born in 1962.",
+          "options": ["was", "were", "is"],
+          "answer": 0,
+          "explanation": {
+            "en": "My father is he, and born uses the past form was."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

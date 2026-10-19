@@ -1,0 +1,128 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-going-to-plans-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "going-to-plans",
+      "prompt": "I'm going ___ a new laptop next month.",
+      "options": ["to buy", "buy", "buying"],
+      "answer": 0,
+      "explanation": {
+        "en": "Going to is followed by to + base verb.",
+        "es": "Después de going: to + verbo base."
+      },
+      "optionNotes": [
+        { "en": "Correct: going to + buy." },
+        { "en": "To is missing: it must be going to buy." },
+        { "en": "Going to is not followed by an -ing form." }
+      ]
+    },
+    {
+      "id": "cg-going-to-plans-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "going-to-plans",
+      "prompt": "My brother and his wife ___ going to live in Bristol next year.",
+      "options": ["are", "is", "do"],
+      "answer": 0,
+      "explanation": {
+        "en": "The subject is plural (they), so use are."
+      },
+      "optionNotes": [
+        { "en": "Correct: plural subject + are going to." },
+        { "en": "Is does not agree with two people." },
+        { "en": "Do is not used to build going to." }
+      ]
+    },
+    {
+      "id": "cg-going-to-plans-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "going-to-plans",
+      "prompt": "She ___ going to come to the meeting. She has a bad cold.",
+      "options": ["isn't", "doesn't", "not"],
+      "answer": 0,
+      "explanation": {
+        "en": "The negative of going to is isn't going to.",
+        "es": "La negativa es isn't going to, no doesn't."
+      },
+      "optionNotes": [
+        { "en": "Correct: she + isn't + going to." },
+        { "en": "Doesn't would be followed by the base verb: doesn't come." },
+        { "en": "Not alone is missing the verb be." }
+      ]
+    },
+    {
+      "id": "cg-going-to-plans-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "going-to-plans",
+      "prompt": "A: ___ you going to go to the party? B: Yes, I am. Are you?",
+      "options": ["Are", "Do", "Have"],
+      "answer": 0,
+      "explanation": {
+        "en": "Questions with going to begin with am, is or are."
+      },
+      "optionNotes": [
+        { "en": "Correct: are + you + going to." },
+        { "en": "Do cannot be followed by going to." },
+        { "en": "Have is not used to form this structure." }
+      ]
+    },
+    {
+      "id": "cg-going-to-plans-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "environment",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "going-to-plans",
+      "prompt": "Look at those black clouds. It's ___ to rain.",
+      "options": ["going", "go", "goes"],
+      "answer": 0,
+      "explanation": {
+        "en": "It's is it is, so the structure is it is going to + base verb."
+      },
+      "optionNotes": [
+        { "en": "Correct: it's going to rain." },
+        { "en": "Go is not an -ing form." },
+        { "en": "Goes does not follow it is." }
+      ]
+    },
+    {
+      "id": "cg-going-to-plans-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "going-to-plans",
+      "prompt": "Next year, I ___ to study medicine in Madrid.",
+      "options": ["am going", "am go", "going"],
+      "answer": 0,
+      "explanation": {
+        "en": "Going to needs am, is or are and the -ing form going.",
+        "es": "I am going to + verbo: «voy a estudiar»."
+      },
+      "optionNotes": [
+        { "en": "Correct: I am going to study." },
+        { "en": "Go needs -ing in this structure: going." },
+        { "en": "Going alone needs am in front of it." }
+      ]
+    }
+  ]
+}

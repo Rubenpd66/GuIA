@@ -1,0 +1,143 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "question-words-and-order",
+      "level": "A2",
+      "category": "questions",
+      "order": 170,
+      "references": [],
+      "title": {
+        "en": "Question words and word order",
+        "es": "Palabras interrogativas y orden de la pregunta"
+      },
+      "summary": {
+        "en": "Most questions follow this order: **question word + auxiliary + subject + base verb**: _Where do you live? What time does the film start?_ With the verb **be**, put be before the subject: _Where is the station?_ If the question word is the subject, there is no auxiliary: _Who lives here?_",
+        "es": "Orden: palabra interrogativa + auxiliar (do/does/did, am/is/are) + sujeto + verbo base. El sujeto va después del auxiliar. Si who/what es el sujeto, no hay do."
+      },
+      "form": [
+        "**Question word**: what, where, when, who, why, which, how; and **what time, how much, how many, how old, how often, how long**.",
+        "**With do / does / did**: _Where does she work? Who did you meet?_ The main verb stays in the base form.",
+        "**With be**: _How old is your sister? Where were you?_",
+        "**With other auxiliaries**: _What are you doing? Why have they left?_",
+        "**Who or what as subject**: no do or did: _Who called you? What happened?_"
+      ],
+      "uses": [
+        {
+          "text": "**Facts about people** → _What's your name? How old are you? Where do you come from?_"
+        },
+        {
+          "text": "**Time and place** → _When does the course start? What time is the meeting?_"
+        },
+        {
+          "text": "**Reasons and ways** → _Why are you learning Italian? How do you get to work?_"
+        },
+        {
+          "text": "**Quantity and frequency** → _How much is it? How many people are coming? How often do you swim?_",
+          "note": {
+            "en": "Use how many with plural nouns and how much with uncountable ones or prices.",
+            "es": "How many + plural; how much + incontable o precio."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Where you live?",
+          "right": "Where do you live?",
+          "why": {
+            "en": "Questions need an auxiliary before the subject.",
+            "es": "Falta el auxiliar do antes del sujeto."
+          }
+        },
+        {
+          "wrong": "What time starts the film?",
+          "right": "What time does the film start?",
+          "why": {
+            "en": "Put does before the subject and keep the verb in the base form.",
+            "es": "No se puede poner el sujeto al final: does the film start."
+          }
+        },
+        {
+          "wrong": "Where does she lives?",
+          "right": "Where does she live?",
+          "why": {
+            "en": "After does the main verb has no -s.",
+            "es": "Tras does, verbo sin -s."
+          }
+        },
+        {
+          "wrong": "How many years have you?",
+          "right": "How old are you?",
+          "why": {
+            "en": "English asks about age with be: how old + be.",
+            "es": "La edad se pregunta con be: How old are you?"
+          }
+        },
+        {
+          "wrong": "Who did call you?",
+          "right": "Who called you?",
+          "why": {
+            "en": "When who is the subject, do not use did.",
+            "es": "Si who es el sujeto, no se usa did."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "Where do you usually have lunch?",
+          "es": "¿Dónde sueles comer?"
+        },
+        {
+          "en": "What time does the shop open on Sundays?",
+          "es": "¿A qué hora abre la tienda los domingos?"
+        },
+        { "en": "When is your birthday?" },
+        {
+          "en": "How old is your brother?",
+          "es": "¿Cuántos años tiene tu hermano?"
+        },
+        { "en": "Who did you meet at the airport?" },
+        { "en": "Who lives in the flat above you?" },
+        { "en": "Why are you learning French?" },
+        { "en": "How much do the tickets cost?" },
+        { "en": "Which bus goes to the city centre?" },
+        { "en": "How often does your sister call you?" }
+      ],
+      "practice": [
+        {
+          "prompt": "Where ___ your parents live?",
+          "options": ["do", "does", "are"],
+          "answer": 0,
+          "explanation": {
+            "en": "Your parents is plural, so the question uses do + base verb."
+          }
+        },
+        {
+          "prompt": "What time ___ the train leave?",
+          "options": ["does", "do", "is"],
+          "answer": 0,
+          "explanation": {
+            "en": "The train is it, so use does and the base verb leave."
+          }
+        },
+        {
+          "prompt": "How ___ is the course? Is it expensive?",
+          "options": ["much", "many", "long"],
+          "answer": 0,
+          "explanation": {
+            "en": "Price questions use how much."
+          }
+        },
+        {
+          "prompt": "___ called you this morning? It wasn't me.",
+          "options": ["Who", "Who did", "What did"],
+          "answer": 0,
+          "explanation": {
+            "en": "Who is the subject here, so there is no did."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "going-to-plans",
+      "level": "A2",
+      "category": "future",
+      "order": 130,
+      "references": [],
+      "title": {
+        "en": "Going to: plans and intentions",
+        "es": "Going to: planes e intenciones"
+      },
+      "summary": {
+        "en": "Use **be going to + base verb** to talk about plans you have already decided and about things you can see are about to happen: _I'm going to study law. Look at those clouds, it's going to rain._ Always use **am / is / are**: _She is going to call you._ Choosing between going to and will comes later, in Future forms.",
+        "es": "Be going to + verbo base sirve para planes ya decididos y para predicciones basadas en lo que ves. Necesita siempre am/is/are. La comparación con will está en la lección Future forms."
+      },
+      "form": [
+        "**Subject + am / is / are + going to + base verb**: _We are going to move house._",
+        "Negatives: **am not / isn't / aren't going to**: _I'm not going to wait._",
+        "Questions: **Am / Is / Are** + subject + **going to** + base verb: _Are you going to come? What is she going to do?_",
+        "With a place, going to is a normal verb of movement: _I'm going to the market._ You can also say _I'm going to go to the market._",
+        "Time words: **tomorrow, tonight, next week, this summer, in June**."
+      ],
+      "uses": [
+        {
+          "text": "**Plans and intentions** → _We're going to rent a car on holiday._"
+        },
+        {
+          "text": "**Predictions with evidence** → _Be careful! You're going to fall._",
+          "note": {
+            "en": "You can see or feel the reason now.",
+            "es": "Hay una señal clara ahora: nubes, un cielo oscuro, un vaso en el borde de la mesa."
+          }
+        },
+        {
+          "text": "**Questions about plans** → _What are you going to do this weekend?_"
+        },
+        {
+          "text": "**Refusing or deciding not to** → _I'm not going to answer that._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I going to buy a flat.",
+          "right": "I'm going to buy a flat.",
+          "why": {
+            "en": "Going to always needs am, is or are.",
+            "es": "Hace falta am/is/are antes de going to."
+          }
+        },
+        {
+          "wrong": "She is going to buys a car.",
+          "right": "She is going to buy a car.",
+          "why": {
+            "en": "After to use the base verb, with no -s.",
+            "es": "Detrás de to, verbo base: sin -s."
+          }
+        },
+        {
+          "wrong": "They aren't going to coming.",
+          "right": "They aren't going to come.",
+          "why": {
+            "en": "Going to is followed by the base verb, not by -ing.",
+            "es": "Después de going to, verbo base, no -ing."
+          }
+        },
+        {
+          "wrong": "Do you going to see him?",
+          "right": "Are you going to see him?",
+          "why": {
+            "en": "Questions with going to start with am, is or are.",
+            "es": "La pregunta empieza con am/is/are, no con do."
+          }
+        },
+        {
+          "wrong": "I am go to call her.",
+          "right": "I am going to call her.",
+          "why": {
+            "en": "The form is going, with -ing.",
+            "es": "Es going, con -ing: «voy a llamarla»."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm going to start a new course in September.",
+          "es": "Voy a empezar un curso nuevo en septiembre."
+        },
+        {
+          "en": "We're going to visit my cousins at the weekend.",
+          "es": "Vamos a visitar a mis primos el fin de semana."
+        },
+        { "en": "Are you going to watch the match tonight?" },
+        {
+          "en": "What are you going to wear to the wedding?",
+          "es": "¿Qué te vas a poner para la boda?"
+        },
+        { "en": "He isn't going to take the job because the pay is low." },
+        { "en": "Look at the sky! It's going to rain." },
+        { "en": "My brother and his wife are going to live in Bristol." },
+        { "en": "I'm not going to eat anything before the exam." },
+        { "en": "Is she going to meet us at the station?" },
+        { "en": "They're going to paint the whole flat next month." }
+      ],
+      "practice": [
+        {
+          "prompt": "I'm going ___ my driving test next week.",
+          "options": ["to take", "take", "taking"],
+          "answer": 0,
+          "explanation": {
+            "en": "Going to is always followed by to + base verb."
+          }
+        },
+        {
+          "prompt": "___ you going to tell your boss about the problem?",
+          "options": ["Are", "Do", "Will"],
+          "answer": 0,
+          "explanation": {
+            "en": "Questions with going to start with are, is or am."
+          }
+        },
+        {
+          "prompt": "My friends ___ going to book a table for Saturday.",
+          "options": ["are", "is", "do"],
+          "answer": 0,
+          "explanation": {
+            "en": "My friends is plural, so use are."
+          }
+        },
+        {
+          "prompt": "She ___ going to study medicine. She wants to be a vet.",
+          "options": ["isn't", "doesn't", "not"],
+          "answer": 0,
+          "explanation": {
+            "en": "The negative of going to uses isn't, not doesn't."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

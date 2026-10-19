@@ -1,0 +1,151 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "and-but-so-because",
+      "level": "A2",
+      "category": "linking",
+      "order": 180,
+      "references": [],
+      "title": {
+        "en": "And, but, so and because",
+        "es": "And, but, so y because"
+      },
+      "summary": {
+        "en": "Four small words join ideas: **and** adds (_I opened the window and sat down_), **but** shows a contrast (_It was sunny but cold_), **so** gives a result (_I was tired, so I went to bed_) and **because** gives a reason (_I went to bed because I was tired_). Each links two clauses, so each part has its own subject and verb.",
+        "es": "And suma, but contrasta, so da el resultado («así que») y because da la razón («porque»). Después de so y because va una frase completa, con sujeto y verbo."
+      },
+      "form": [
+        "**And** joins similar ideas: _We had coffee and talked for an hour._",
+        "**But** joins contrasting ideas, usually after a comma: _I like the flat, but it's expensive._",
+        "**So** + result, after a comma: _The shop was closed, so we went home._",
+        "**Because** + reason: _We went home because the shop was closed._ After **because of** use a noun: _because of the rain_.",
+        "**Because** can start a short answer: _Why are you late? Because the bus broke down._"
+      ],
+      "uses": [
+        {
+          "text": "**Adding** → _She speaks French and Italian._"
+        },
+        {
+          "text": "**Contrasting** → _He is very young, but he is a good manager._"
+        },
+        {
+          "text": "**Saying what happened as a result** → _It was raining, so we stayed in._",
+          "note": {
+            "en": "So comes before the result.",
+            "es": "So va delante del resultado."
+          }
+        },
+        {
+          "text": "**Giving the reason** → _I'm learning English because I want a better job._",
+          "note": {
+            "en": "Because comes before the reason.",
+            "es": "Because va delante de la razón."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I was ill, because I stayed at home.",
+          "right": "I was ill, so I stayed at home.",
+          "why": {
+            "en": "Staying at home is the result, so use so. Use because before the reason: I stayed at home because I was ill.",
+            "es": "El resultado lleva so; la razón lleva because."
+          }
+        },
+        {
+          "wrong": "Because I was ill. I stayed at home.",
+          "right": "Because I was ill, I stayed at home.",
+          "why": {
+            "en": "A because clause cannot stand alone before a main clause. Join the two with a comma or put because second.",
+            "es": "La frase con because no puede quedar suelta: une las dos partes."
+          }
+        },
+        {
+          "wrong": "I don't go out because of I'm tired.",
+          "right": "I don't go out because I'm tired.",
+          "why": {
+            "en": "Because of is followed by a noun. Before a clause use because.",
+            "es": "Because of + nombre; because + frase completa."
+          }
+        },
+        {
+          "wrong": "I wanted to call you, so I didn't have your number.",
+          "right": "I wanted to call you, but I didn't have your number.",
+          "why": {
+            "en": "The second idea is a contrast, not a result, so use but.",
+            "es": "La segunda idea contrasta: usa but."
+          }
+        },
+        {
+          "wrong": "I took my umbrella so it was raining.",
+          "right": "I took my umbrella because it was raining.",
+          "why": {
+            "en": "The rain is the reason, so use because. So would put the result after it.",
+            "es": "La lluvia es la razón: because. So va delante del resultado."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I went to the market and bought some fruit.",
+          "es": "Fui al mercado y compré fruta."
+        },
+        {
+          "en": "The hotel was cheap, but it was very noisy.",
+          "es": "El hotel era barato, pero muy ruidoso."
+        },
+        { "en": "Our flight was late, so we missed the last train." },
+        {
+          "en": "He didn't answer the phone because he was in a meeting.",
+          "es": "No contestó al teléfono porque estaba en una reunión."
+        },
+        { "en": "I'm tired, so I'm going to bed early tonight." },
+        { "en": "We wanted to go to the beach, but it was raining." },
+        { "en": "She stayed at home because she had a headache." },
+        {
+          "en": "Why are you learning Spanish? Because I want to work in Madrid."
+        },
+        { "en": "They cancelled the match because of the weather." },
+        {
+          "en": "My brother speaks German and French, but he doesn't speak Italian."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "I like swimming, ___ I don't like running.",
+          "options": ["but", "so", "because"],
+          "answer": 0,
+          "explanation": {
+            "en": "The two ideas contrast, so use but."
+          }
+        },
+        {
+          "prompt": "It was very cold, ___ I put on my coat.",
+          "options": ["so", "but", "because"],
+          "answer": 0,
+          "explanation": {
+            "en": "Putting on a coat is the result of the cold, so use so."
+          }
+        },
+        {
+          "prompt": "She is happy ___ she passed her driving test.",
+          "options": ["because", "so", "but"],
+          "answer": 0,
+          "explanation": {
+            "en": "Passing the test is the reason, so use because."
+          }
+        },
+        {
+          "prompt": "We're staying at home tonight ___ it's raining heavily.",
+          "options": ["because", "but", "and"],
+          "answer": 0,
+          "explanation": {
+            "en": "The rain is the reason for staying at home, so use because."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

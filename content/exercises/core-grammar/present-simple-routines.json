@@ -1,0 +1,166 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-present-simple-routines-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "present-simple-routines",
+      "prompt": "My sister ___ in a hospital in Valencia.",
+      "options": ["works", "work", "working"],
+      "answer": 0,
+      "explanation": {
+        "en": "A permanent situation with she needs the present simple with -s.",
+        "es": "Con she, el present simple lleva -s: works."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: she + verb with -s."
+        },
+        {
+          "en": "Work has no -s, so it does not agree with my sister."
+        },
+        {
+          "en": "Working alone is not a full verb; it needs is."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-simple-routines-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "present-simple-routines",
+      "prompt": "A: ___ you go to the gym on Saturdays? B: No, I usually stay at home.",
+      "options": ["Do", "Does", "Are"],
+      "answer": 0,
+      "explanation": {
+        "en": "A question about a habit with you starts with do.",
+        "es": "Para preguntar por un hábito con you se usa do."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: do + you + base verb."
+        },
+        {
+          "en": "Does is used with he, she and it, not with you."
+        },
+        {
+          "en": "Are would need an -ing form: Are you going…?"
+        }
+      ]
+    },
+    {
+      "id": "cg-present-simple-routines-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "present-simple-routines",
+      "prompt": "The bus to the airport ___ at half past six every morning.",
+      "options": ["leaves", "leave", "leaving"],
+      "answer": 0,
+      "explanation": {
+        "en": "The bus is it, so the verb takes -s. Every morning shows a regular event."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: it + verb with -s."
+        },
+        {
+          "en": "Leave has no -s, so it does not agree with the bus."
+        },
+        {
+          "en": "Leaving cannot be the only verb in the sentence."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-simple-routines-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "present-simple-routines",
+      "prompt": "He doesn't ___ coffee in the evening because he can't sleep afterwards.",
+      "options": ["drinks", "drink", "drinking"],
+      "answer": 1,
+      "explanation": {
+        "en": "After doesn't the main verb stays in the base form.",
+        "es": "Tras doesn't, el verbo va sin -s: drink."
+      },
+      "optionNotes": [
+        {
+          "en": "The -s is already in doesn't, so it is not repeated."
+        },
+        {
+          "en": "Correct: doesn't + base verb."
+        },
+        {
+          "en": "Doesn't is not followed by an -ing form."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-simple-routines-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "present-simple-routines",
+      "prompt": "How often ___ your brother call you?",
+      "options": ["does", "do", "is"],
+      "answer": 0,
+      "explanation": {
+        "en": "Your brother is he, so the question needs does + base verb."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: does + subject + base verb."
+        },
+        {
+          "en": "Do is for I, you, we and they, not for one brother."
+        },
+        {
+          "en": "Is would be followed by an -ing form, not by call."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-simple-routines-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "city",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "present-simple-routines",
+      "prompt": "Sofia ___ to work by train because she doesn't have a car.",
+      "options": ["goes", "going", "go"],
+      "answer": 0,
+      "explanation": {
+        "en": "Verbs ending in -o add -es with he, she and it: goes.",
+        "es": "Los verbos acabados en -o añaden -es: goes."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: go + es with she."
+        },
+        {
+          "en": "Going needs is before it: Sofia is going to work. Here we talk about a habit.",
+          "es": "Going necesita is delante. Aquí se habla de una costumbre."
+        },
+        {
+          "en": "Go has no -s, so it does not agree with Sofia."
+        }
+      ]
+    }
+  ]
+}

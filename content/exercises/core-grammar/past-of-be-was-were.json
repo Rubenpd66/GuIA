@@ -1,0 +1,128 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-past-of-be-was-were-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "past-of-be-was-were",
+      "prompt": "I ___ at home yesterday evening.",
+      "options": ["was", "were", "am"],
+      "answer": 0,
+      "explanation": {
+        "en": "I takes was in the past.",
+        "es": "Con I, el pasado de be es was."
+      },
+      "optionNotes": [
+        { "en": "Correct: I + was." },
+        { "en": "Were is used with you, we and they." },
+        { "en": "Am is present, but yesterday evening is past." }
+      ]
+    },
+    {
+      "id": "cg-past-of-be-was-were-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "past-of-be-was-were",
+      "prompt": "The museum ___ closed when we arrived, so we had a coffee instead.",
+      "options": ["was", "were", "is"],
+      "answer": 0,
+      "explanation": {
+        "en": "The museum is it, so the past form is was."
+      },
+      "optionNotes": [
+        { "en": "Correct: singular subject + was." },
+        { "en": "Were does not agree with the singular museum." },
+        { "en": "Is is present, but when we arrived refers to the past." }
+      ]
+    },
+    {
+      "id": "cg-past-of-be-was-were-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "past-of-be-was-were",
+      "prompt": "A: ___ you at the party on Friday? B: No, I was ill.",
+      "options": ["Were", "Was", "Did"],
+      "answer": 0,
+      "explanation": {
+        "en": "Questions with you in the past use were, and not did.",
+        "es": "«¿Estuviste…?» = Were you…? Sin did."
+      },
+      "optionNotes": [
+        { "en": "Correct: were + you." },
+        { "en": "Was is for I, he, she and it, not for you." },
+        { "en": "Did is not used before the verb be." }
+      ]
+    },
+    {
+      "id": "cg-past-of-be-was-were-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "past-of-be-was-were",
+      "prompt": "My grandparents ___ born in a small village in the north.",
+      "options": ["were", "was", "been"],
+      "answer": 0,
+      "explanation": {
+        "en": "Grandparents is plural (they), so we use were with born."
+      },
+      "optionNotes": [
+        { "en": "Correct: they + were born." },
+        { "en": "Was does not agree with the plural grandparents." },
+        { "en": "Been cannot be the only verb before born." }
+      ]
+    },
+    {
+      "id": "cg-past-of-be-was-were-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "past-of-be-was-were",
+      "prompt": "There ___ any tickets left, so we went home.",
+      "options": ["weren't", "wasn't", "didn't were"],
+      "answer": 0,
+      "explanation": {
+        "en": "Tickets is plural, so the past negative of there are is there weren't.",
+        "es": "Tickets es plural: there weren't."
+      },
+      "optionNotes": [
+        { "en": "Correct: plural noun + weren't." },
+        { "en": "Wasn't does not agree with the plural tickets." },
+        { "en": "Did is never used with the verb be." }
+      ]
+    },
+    {
+      "id": "cg-past-of-be-was-were-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 4,
+      "register": "spoken",
+      "grammarPoint": "past-of-be-was-were",
+      "prompt": "A: How ___ your holiday in Portugal? B: Lovely, thanks. The weather was perfect.",
+      "options": ["was", "were", "did"],
+      "answer": 0,
+      "explanation": {
+        "en": "Holiday is singular, so the question is How was…?"
+      },
+      "optionNotes": [
+        { "en": "Correct: how was + singular noun." },
+        { "en": "Were would need a plural subject, such as the holidays." },
+        { "en": "Did cannot be used before your holiday here." }
+      ]
+    }
+  ]
+}

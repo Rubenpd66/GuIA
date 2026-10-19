@@ -1,0 +1,169 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-past-simple-regular-irregular-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "past-simple-regular-irregular",
+      "prompt": "We ___ a lovely film at the cinema last night.",
+      "options": ["saw", "seen", "see"],
+      "answer": 0,
+      "explanation": {
+        "en": "See is irregular. The past simple form is saw.",
+        "es": "See es irregular: saw."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: saw is the past simple of see."
+        },
+        {
+          "en": "Seen is the participle and needs have in front of it."
+        },
+        {
+          "en": "See is the base form; last night needs the past."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-simple-regular-irregular-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "past-simple-regular-irregular",
+      "prompt": "I ___ my keys this morning, so I was late for work.",
+      "options": ["lost", "losing", "lose"],
+      "answer": 0,
+      "explanation": {
+        "en": "Lose is irregular and its past form is lost.",
+        "es": "Lose es irregular: lost, no «losed»."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: lost is the past simple."
+        },
+        {
+          "en": "Losing needs a form of be before it, and this morning is finished.",
+          "es": "Losing necesita be delante, y la mañana ya ha terminado."
+        },
+        {
+          "en": "Lose is the base form, but this morning is finished."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-simple-regular-irregular-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "past-simple-regular-irregular",
+      "prompt": "He ___ English at university for three years before moving abroad.",
+      "options": ["studied", "study", "studies"],
+      "answer": 0,
+      "explanation": {
+        "en": "After a consonant, y changes to i before -ed.",
+        "es": "Consonante + y: study pasa a studied."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: study becomes studied."
+        },
+        {
+          "en": "Study is the base form, but he moved abroad in the past.",
+          "es": "Study es la forma base, pero se fue al extranjero en el pasado."
+        },
+        {
+          "en": "Studies is present, but the story is in the past.",
+          "es": "Studies es presente, pero la historia es pasada."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-simple-regular-irregular-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "past-simple-regular-irregular",
+      "prompt": "A: Did you enjoy the concert? B: Yes, we ___ a great time.",
+      "options": ["had", "having", "have"],
+      "answer": 0,
+      "explanation": {
+        "en": "Have is irregular. Its past form is had."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: had is the past simple of have."
+        },
+        {
+          "en": "Having needs a form of be before it: we were having a great time.",
+          "es": "Having necesita be delante: we were having a great time."
+        },
+        {
+          "en": "Have is present, but the concert has finished."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-simple-regular-irregular-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "past-simple-regular-irregular",
+      "prompt": "He didn't ___ the email until Monday, so the client was angry.",
+      "options": ["send", "sent", "sends"],
+      "answer": 0,
+      "explanation": {
+        "en": "After didn't the verb is in the base form.",
+        "es": "Tras didn't, verbo base: send."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: didn't + base verb."
+        },
+        {
+          "en": "Sent is already past, so it is not used after didn't."
+        },
+        {
+          "en": "Sends is a present form with -s."
+        }
+      ]
+    },
+    {
+      "id": "cg-past-simple-regular-irregular-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 4,
+      "register": "spoken",
+      "grammarPoint": "past-simple-regular-irregular",
+      "prompt": "What time ___ you get home last night? I called you at eleven.",
+      "options": ["did", "do", "were"],
+      "answer": 0,
+      "explanation": {
+        "en": "A question about a finished action in the past uses did + base verb."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: did + you + base verb."
+        },
+        {
+          "en": "Do is present, but last night is past."
+        },
+        {
+          "en": "Were cannot be followed by the base verb get."
+        }
+      ]
+    }
+  ]
+}

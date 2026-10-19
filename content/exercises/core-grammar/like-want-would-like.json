@@ -1,0 +1,130 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-like-want-would-like-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "like-want-would-like",
+      "prompt": "Good morning. I ___ a coffee and a sandwich, please.",
+      "options": ["would like", "am liking", "want like"],
+      "answer": 0,
+      "explanation": {
+        "en": "When you order, would like is the polite form.",
+        "es": "Al pedir en un café: I'd like… (quisiera)."
+      },
+      "optionNotes": [
+        { "en": "Correct: would like + noun." },
+        { "en": "Like is not normally used with -ing for a general wish." },
+        { "en": "Want like is not a possible combination." }
+      ]
+    },
+    {
+      "id": "cg-like-want-would-like-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "like-want-would-like",
+      "prompt": "My brother ___ playing football at weekends.",
+      "options": ["likes", "like", "is like"],
+      "answer": 0,
+      "explanation": {
+        "en": "A general liking with he takes like + -s, followed by -ing."
+      },
+      "optionNotes": [
+        { "en": "Correct: he + likes + -ing." },
+        { "en": "Like has no -s, so it does not agree with my brother." },
+        {
+          "en": "Is like would mean something different and is not followed by playing here."
+        }
+      ]
+    },
+    {
+      "id": "cg-like-want-would-like-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "like-want-would-like",
+      "prompt": "A: ___ you like some more tea? B: Yes, please. Just a little.",
+      "options": ["Would", "Do", "Are"],
+      "answer": 0,
+      "explanation": {
+        "en": "An offer uses Would you like…?",
+        "es": "Para ofrecer algo con cortesía: Would you like…?"
+      },
+      "optionNotes": [
+        { "en": "Correct: would + you + like." },
+        { "en": "Do you like asks about your tastes, not about an offer now." },
+        { "en": "Are cannot be followed by like in this way." }
+      ]
+    },
+    {
+      "id": "cg-like-want-would-like-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "like-want-would-like",
+      "prompt": "She wants ___ a doctor when she is older.",
+      "options": ["to be", "be", "being"],
+      "answer": 0,
+      "explanation": {
+        "en": "Want is followed by to + base verb."
+      },
+      "optionNotes": [
+        { "en": "Correct: want + to be." },
+        { "en": "To is missing after wants." },
+        { "en": "Want is not followed by an -ing form." }
+      ]
+    },
+    {
+      "id": "cg-like-want-would-like-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "like-want-would-like",
+      "prompt": "I don't ___ to go out tonight. I'm too tired.",
+      "options": ["want", "wants", "wanting"],
+      "answer": 0,
+      "explanation": {
+        "en": "After don't use the base verb: want."
+      },
+      "optionNotes": [
+        { "en": "Correct: don't + base verb." },
+        { "en": "Wants has -s, but don't is already the auxiliary." },
+        { "en": "Don't is not followed by an -ing form." }
+      ]
+    },
+    {
+      "id": "cg-like-want-would-like-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "like-want-would-like",
+      "prompt": "Mr Evans would like ___ the manager about the delay.",
+      "options": ["to speak to", "speak to", "speaking to"],
+      "answer": 0,
+      "explanation": {
+        "en": "Would like is followed by to + base verb.",
+        "es": "Would like + to + verbo."
+      },
+      "optionNotes": [
+        { "en": "Correct: would like + to speak." },
+        { "en": "To is missing after would like." },
+        { "en": "Would like is not followed by an -ing form here." }
+      ]
+    }
+  ]
+}

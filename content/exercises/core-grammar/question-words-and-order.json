@@ -1,0 +1,129 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-question-words-and-order-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "question-words-and-order",
+      "prompt": "___ is your birthday? It's in March.",
+      "options": ["When", "Where", "Who"],
+      "answer": 0,
+      "explanation": {
+        "en": "The answer is a month, so the question word is when.",
+        "es": "La respuesta es una fecha: when."
+      },
+      "optionNotes": [
+        { "en": "Correct: when asks about time." },
+        { "en": "Where asks about a place." },
+        { "en": "Who asks about a person." }
+      ]
+    },
+    {
+      "id": "cg-question-words-and-order-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "question-words-and-order",
+      "prompt": "___ do you usually have lunch? In the canteen.",
+      "options": ["Where", "When", "How much"],
+      "answer": 0,
+      "explanation": {
+        "en": "The answer is a place, so the question word is where."
+      },
+      "optionNotes": [
+        { "en": "Correct: where asks about a place." },
+        { "en": "When would be answered with a time." },
+        { "en": "How much asks about price or quantity." }
+      ]
+    },
+    {
+      "id": "cg-question-words-and-order-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "question-words-and-order",
+      "prompt": "A: ___ does the film start? B: At eight o'clock.",
+      "options": ["What time", "How many", "Which"],
+      "answer": 0,
+      "explanation": {
+        "en": "To ask for a clock time, use what time.",
+        "es": "«¿A qué hora?» = What time…?"
+      },
+      "optionNotes": [
+        { "en": "Correct: what time asks for the hour." },
+        { "en": "How many asks about a number of things." },
+        { "en": "Which asks you to choose between known options." }
+      ]
+    },
+    {
+      "id": "cg-question-words-and-order-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "question-words-and-order",
+      "prompt": "How much ___ the tickets cost for the evening show?",
+      "options": ["do", "does", "is"],
+      "answer": 0,
+      "explanation": {
+        "en": "Tickets is plural, so the auxiliary is do. Cost stays in the base form."
+      },
+      "optionNotes": [
+        { "en": "Correct: do + plural subject + cost." },
+        { "en": "Does needs a singular subject." },
+        { "en": "Is cannot be followed by the base verb cost." }
+      ]
+    },
+    {
+      "id": "cg-question-words-and-order-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "question-words-and-order",
+      "prompt": "Who ___ you meet at the airport yesterday?",
+      "options": ["did", "do", "were"],
+      "answer": 0,
+      "explanation": {
+        "en": "Who is the object here, and yesterday needs the past, so use did + base verb.",
+        "es": "Pasado + sujeto you: did you meet."
+      },
+      "optionNotes": [
+        { "en": "Correct: did + you + base verb." },
+        { "en": "Do is present, but yesterday is past." },
+        { "en": "Were cannot be followed by the base verb meet." }
+      ]
+    },
+    {
+      "id": "cg-question-words-and-order-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "question-words-and-order",
+      "prompt": "How often ___ your sister visit your grandparents?",
+      "options": ["does", "do", "is"],
+      "answer": 0,
+      "explanation": {
+        "en": "Your sister is she, so use does + base verb.",
+        "es": "Con she/sister: does + visit (sin -s)."
+      },
+      "optionNotes": [
+        { "en": "Correct: does + singular subject + base verb." },
+        { "en": "Do is used with I, you, we and they." },
+        { "en": "Is would need an -ing form: is visiting." }
+      ]
+    }
+  ]
+}

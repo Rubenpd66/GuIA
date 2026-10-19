@@ -1,0 +1,165 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-present-continuous-now-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "present-continuous-now",
+      "prompt": "Please be quiet. The baby ___ right now.",
+      "options": ["is sleeping", "sleeps", "sleeping"],
+      "answer": 0,
+      "explanation": {
+        "en": "Right now shows an action in progress, so use is + -ing.",
+        "es": "«Right now» indica una acción en curso: is sleeping."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: is + verb-ing for an action happening now."
+        },
+        {
+          "en": "Sleeps is for a habit or a fact, not for right now."
+        },
+        {
+          "en": "Sleeping needs is in front of it."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-continuous-now-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "present-continuous-now",
+      "prompt": "At the moment, Tom ___ a report for his manager.",
+      "options": ["is writing", "writes", "are writing"],
+      "answer": 0,
+      "explanation": {
+        "en": "At the moment points to the present continuous, and Tom needs is."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: is + writing, with the final e dropped."
+        },
+        {
+          "en": "Writes would describe a routine, not this moment."
+        },
+        {
+          "en": "Are does not agree with a singular subject, Tom."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-continuous-now-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "present-continuous-now",
+      "prompt": "A: Where ___ you going? B: To the station. I'm meeting a friend.",
+      "options": ["are", "do", "is"],
+      "answer": 0,
+      "explanation": {
+        "en": "The question is Where are you going? With you, be is are.",
+        "es": "«¿Adónde vas?» = Where are you going?"
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: are + you + verb-ing."
+        },
+        {
+          "en": "Do would need the base verb: Where do you go?"
+        },
+        {
+          "en": "Is goes with he, she and it, not with you."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-continuous-now-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "environment",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "present-continuous-now",
+      "prompt": "It ___ at the moment, so we can walk to the cinema.",
+      "options": ["isn't raining", "doesn't raining", "not raining"],
+      "answer": 0,
+      "explanation": {
+        "en": "The negative of the present continuous is isn't + verb-ing."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: isn't + raining."
+        },
+        {
+          "en": "Doesn't is followed by the base verb, never by -ing."
+        },
+        {
+          "en": "Not raining needs is before it."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-continuous-now-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "present-continuous-now",
+      "prompt": "The students ___ an exam in Room 4 now.",
+      "options": ["are taking", "is taking", "are take"],
+      "answer": 0,
+      "explanation": {
+        "en": "Students is plural, so use are, and the main verb ends in -ing."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: are + taking."
+        },
+        {
+          "en": "Is does not agree with the plural subject students."
+        },
+        {
+          "en": "After are the verb needs -ing, not the base form."
+        }
+      ]
+    },
+    {
+      "id": "cg-present-continuous-now-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "present-continuous-now",
+      "prompt": "Look at those children! They ___ in the fountain.",
+      "options": ["are swimming", "swim", "is swimming"],
+      "answer": 0,
+      "explanation": {
+        "en": "Swim doubles the m before -ing, and they takes are.",
+        "es": "Swim duplica la m: swimming."
+      },
+      "optionNotes": [
+        {
+          "en": "Correct: are + swimming, with a double m."
+        },
+        {
+          "en": "They swim is a habit; look tells you it is happening now.",
+          "es": "They swim es una costumbre; look indica que pasa ahora."
+        },
+        {
+          "en": "Is does not agree with they."
+        }
+      ]
+    }
+  ]
+}

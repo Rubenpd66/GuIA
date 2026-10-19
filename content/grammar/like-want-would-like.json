@@ -1,0 +1,143 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "like-want-would-like",
+      "level": "A2",
+      "category": "verb-patterns",
+      "order": 150,
+      "references": [],
+      "title": {
+        "en": "Like, want and would like",
+        "es": "Like, want y would like"
+      },
+      "summary": {
+        "en": "Use **like** for things you enjoy in general (_I like cooking_), **want** for what you wish to have or do (_I want to go home_), and **would like** for polite requests and offers (_I'd like a coffee, please. Would you like some tea?_). Patterns: like + noun or -ing; want and would like + noun or **to** + verb.",
+        "es": "Like = gustar en general; want = querer; would like = «quisiera», para pedir u ofrecer con educación. Like admite -ing; want y would like llevan to + verbo."
+      },
+      "form": [
+        "**Like** + noun or -ing: _I like pizza. She likes swimming._ (do / does in questions and negatives)",
+        "**Want** + noun or **to** + verb: _I want a coffee. I want to leave._",
+        "**Would like** + noun or **to** + verb: _I'd like a ticket. I'd like to book a table._",
+        "Questions: **Would you like…?** _What would you like?_ **Do you want…?** is more direct.",
+        "**Want / would like + object + to + verb**: _I want you to come. I'd like him to help._"
+      ],
+      "uses": [
+        {
+          "text": "**Things you like in general** → _My brother likes playing football at weekends._"
+        },
+        {
+          "text": "**Wants and wishes** → _I don't want to go out tonight._"
+        },
+        {
+          "text": "**Polite requests (in a shop, café or hotel)** → _I'd like a single room for two nights, please._",
+          "note": {
+            "en": "I want a coffee can sound rude when you order. Say I'd like…",
+            "es": "«I want a coffee» al pedir suena brusco. Mejor: I'd like…"
+          }
+        },
+        {
+          "text": "**Offers and invitations** → _Would you like some more tea? Would you like to come with us?_"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I want that you help me.",
+          "right": "I want you to help me.",
+          "why": {
+            "en": "After want, use an object + to + verb, never that.",
+            "es": "«Quiero que me ayudes» = I want you to help me. Nada de that."
+          }
+        },
+        {
+          "wrong": "I would like go to the cinema.",
+          "right": "I would like to go to the cinema.",
+          "why": {
+            "en": "Would like is followed by to + verb.",
+            "es": "Would like lleva to + verbo."
+          }
+        },
+        {
+          "wrong": "Do you would like some tea?",
+          "right": "Would you like some tea?",
+          "why": {
+            "en": "Would is the auxiliary, so it goes before the subject. Do is not needed.",
+            "es": "Would ya es el auxiliar: no se añade do."
+          }
+        },
+        {
+          "wrong": "I like to swimming.",
+          "right": "I like swimming.",
+          "why": {
+            "en": "Use like + -ing, or like to + base verb, but not both.",
+            "es": "O like + -ing, o like to + verbo; no las dos cosas."
+          }
+        },
+        {
+          "wrong": "He want a new job.",
+          "right": "He wants a new job.",
+          "why": {
+            "en": "Like and want take -s with he, she and it.",
+            "es": "Con he/she/it, -s: wants."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I like reading detective novels on the train.",
+          "es": "Me gusta leer novelas policiacas en el tren."
+        },
+        {
+          "en": "My parents don't like spicy food.",
+          "es": "A mis padres no les gusta la comida picante."
+        },
+        { "en": "What do you want to do this evening?" },
+        {
+          "en": "I'd like a table for four, please.",
+          "es": "Quisiera una mesa para cuatro, por favor."
+        },
+        { "en": "Would you like some water? Yes, please." },
+        { "en": "She wants to be a nurse when she's older." },
+        { "en": "We'd like to see the manager, please." },
+        { "en": "I don't want to wait any longer." },
+        { "en": "Would you like to join us for dinner?" },
+        { "en": "My boss wants me to finish the report today." }
+      ],
+      "practice": [
+        {
+          "prompt": "Excuse me, I ___ a cup of tea, please.",
+          "options": ["would like", "am liking", "do like"],
+          "answer": 0,
+          "explanation": {
+            "en": "In a café, would like is the polite way to ask."
+          }
+        },
+        {
+          "prompt": "My sister ___ cooking for her friends.",
+          "options": ["likes", "like", "is like"],
+          "answer": 0,
+          "explanation": {
+            "en": "A general liking with she takes the verb with -s."
+          }
+        },
+        {
+          "prompt": "I want ___ to the dentist tomorrow.",
+          "options": ["to go", "go", "going"],
+          "answer": 0,
+          "explanation": {
+            "en": "Want is followed by to + base verb."
+          }
+        },
+        {
+          "prompt": "___ you like a glass of water?",
+          "options": ["Would", "Do", "Are"],
+          "answer": 0,
+          "explanation": {
+            "en": "Would you like…? is the polite way to offer something."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

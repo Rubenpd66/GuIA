@@ -1,0 +1,147 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "past-simple-regular-irregular",
+      "level": "A2",
+      "category": "tenses",
+      "order": 120,
+      "references": [],
+      "title": {
+        "en": "Past simple: regular and irregular verbs",
+        "es": "Past simple: verbos regulares e irregulares"
+      },
+      "summary": {
+        "en": "Use the **past simple** for finished actions at a time in the past: _We visited Rome last year. I bought a new phone on Saturday._ Regular verbs add **-ed**; irregular verbs have their own form (_go → went, see → saw_). Questions and negatives use **did / didn't** + base verb: _Did you see it? I didn't see it._",
+        "es": "Se usa para acciones terminadas en el pasado. Los regulares llevan -ed; los irregulares hay que aprenderlos. En preguntas y negativas, did/didn't + verbo base (sin -ed)."
+      },
+      "form": [
+        "**Regular verbs**: base + **-ed** (_work → worked_); only **-d** after e (_like → liked_); consonant + y becomes **-ied** (_study → studied_); double the last letter after a short vowel (_stop → stopped_).",
+        "Sounds of **-ed**: _worked_ /t/, _played_ /d/, _wanted_ /ɪd/.",
+        "**Irregular verbs**: learn the form: _go → went, see → saw, have → had, make → made, take → took, buy → bought, get → got, come → came, eat → ate_.",
+        "Questions: **Did** + subject + base verb: _Did you call her? What did he say?_",
+        "Negatives: **didn't** + base verb: _I didn't go. They didn't answer._"
+      ],
+      "uses": [
+        {
+          "text": "**A finished action at a stated time** → _I phoned her yesterday. We moved here in 2018._"
+        },
+        {
+          "text": "**A series of past actions** → _He got up, had a shower and left the house._"
+        },
+        {
+          "text": "**How long ago** → _I finished the course two weeks ago._",
+          "note": {
+            "en": "Time words: yesterday, last week, in May, three years ago.",
+            "es": "Palabras típicas: yesterday, last week, in May, three years ago."
+          }
+        },
+        {
+          "text": "**With yesterday, last… or ago, always use the past simple.**",
+          "note": {
+            "en": "Spanish can use a perfect form here; English cannot.",
+            "es": "En español dices «ayer he visto»; en inglés, con yesterday, solo past simple."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I goed to Madrid last week.",
+          "right": "I went to Madrid last week.",
+          "why": {
+            "en": "Go is irregular. Its past form is went.",
+            "es": "Go es irregular: went, no «goed»."
+          }
+        },
+        {
+          "wrong": "Did you saw the match?",
+          "right": "Did you see the match?",
+          "why": {
+            "en": "After did the verb returns to the base form.",
+            "es": "Después de did, verbo base: see."
+          }
+        },
+        {
+          "wrong": "She didn't went to work.",
+          "right": "She didn't go to work.",
+          "why": {
+            "en": "After didn't use the base verb; the past is already in didn't.",
+            "es": "El pasado ya está en didn't; el verbo va en base."
+          }
+        },
+        {
+          "wrong": "Yesterday I have seen a good film.",
+          "right": "Yesterday I saw a good film.",
+          "why": {
+            "en": "With yesterday use the past simple, not have + participle.",
+            "es": "Con yesterday no se usa have + participio."
+          }
+        },
+        {
+          "wrong": "He studyed all night.",
+          "right": "He studied all night.",
+          "why": {
+            "en": "Change y to i before -ed after a consonant.",
+            "es": "Consonante + y: la y cambia a i antes de -ed."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "We arrived at the hotel just after midnight.",
+          "es": "Llegamos al hotel justo después de medianoche."
+        },
+        {
+          "en": "I lost my wallet on the bus yesterday.",
+          "es": "Ayer perdí la cartera en el autobús."
+        },
+        { "en": "She studied biology at a university in Scotland." },
+        {
+          "en": "Did you enjoy the concert? Yes, we had a great time.",
+          "es": "¿Te gustó el concierto? Sí, lo pasamos genial."
+        },
+        { "en": "What did the doctor say?" },
+        { "en": "I didn't sleep well last night." },
+        { "en": "They stopped the car and asked for directions." },
+        { "en": "He wrote the report in two days and sent it to the manager." },
+        { "en": "We didn't buy anything because the shops were closed." },
+        { "en": "When did you meet your partner?" }
+      ],
+      "practice": [
+        {
+          "prompt": "I ___ a delicious pizza for dinner last night.",
+          "options": ["ate", "eated", "eat"],
+          "answer": 0,
+          "explanation": {
+            "en": "Eat is irregular. Its past form is ate."
+          }
+        },
+        {
+          "prompt": "___ you call your parents on Sunday?",
+          "options": ["Did", "Do", "Were"],
+          "answer": 0,
+          "explanation": {
+            "en": "A question about a finished action in the past starts with did."
+          }
+        },
+        {
+          "prompt": "They didn't ___ the news until the next day.",
+          "options": ["hear", "heard", "hearing"],
+          "answer": 0,
+          "explanation": {
+            "en": "After didn't the verb stays in the base form."
+          }
+        },
+        {
+          "prompt": "The film ___ at eight and finished at ten.",
+          "options": ["started", "start", "starts"],
+          "answer": 0,
+          "explanation": {
+            "en": "A finished event in the past needs the -ed form."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

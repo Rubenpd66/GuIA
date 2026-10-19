@@ -1,0 +1,150 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "present-simple-routines",
+      "level": "A2",
+      "category": "tenses",
+      "order": 90,
+      "references": [],
+      "title": {
+        "en": "Present simple: routines and facts",
+        "es": "Present simple: rutinas y hechos"
+      },
+      "summary": {
+        "en": "Use the **present simple** for habits, routines, facts and things that stay the same: _I start work at nine. She lives in Leeds._ Add **-s** for he, she and it. Make questions with **do / does** and negatives with **don't / doesn't**, and then use the base verb: _Does she work here? She doesn't work here._",
+        "es": "Se usa para hábitos, rutinas y hechos. Con he/she/it, el verbo lleva -s. En preguntas y negativas usa do/does y don't/doesn't, y el verbo vuelve a la forma base (sin -s)."
+      },
+      "form": [
+        "**I / you / we / they** + base verb: _I work, they live._",
+        "**He / she / it** + verb + **-s**: _She works._ Add **-es** after -s, -sh, -ch, -x and -o (_watches, goes_); consonant + y becomes **-ies** (_studies_).",
+        "Questions: **Do / Does** + subject + base verb: _Do you work here? Does he work here?_",
+        "Negatives: **don't / doesn't** + base verb: _I don't work. She doesn't work._",
+        "Frequency adverbs go **before** the main verb but **after** be: _I always walk to work. She is never late._"
+      ],
+      "uses": [
+        {
+          "text": "**Habits and routines** → _I get up at seven. We have dinner at nine._",
+          "note": {
+            "en": "Time words: every day, on Mondays, twice a week, in the evening.",
+            "es": "Palabras típicas: every day, on Mondays, twice a week, in the evening."
+          }
+        },
+        {
+          "text": "**Facts and permanent situations** → _My brother lives in Bilbao. The shop opens at ten._"
+        },
+        {
+          "text": "**How often?** → always, usually, often, sometimes, never: _He sometimes cycles to work._"
+        },
+        {
+          "text": "**Short answers** → repeat do / does: _Do you like jazz? Yes, I do. / No, I don't._",
+          "note": {
+            "en": "Do not repeat the main verb in a short answer.",
+            "es": "En la respuesta corta no se repite el verbo principal."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "She work in a bank.",
+          "right": "She works in a bank.",
+          "why": {
+            "en": "With he, she and it the verb needs -s.",
+            "es": "Con he/she/it, el verbo lleva -s."
+          }
+        },
+        {
+          "wrong": "Does she works here?",
+          "right": "Does she work here?",
+          "why": {
+            "en": "After does the verb goes back to the base form. The -s is already in does.",
+            "es": "Después de does, verbo sin -s: la -s ya está en does."
+          }
+        },
+        {
+          "wrong": "I no like fish.",
+          "right": "I don't like fish.",
+          "why": {
+            "en": "English negatives use don't or doesn't, not no.",
+            "es": "La negación es don't / doesn't, no «no»."
+          }
+        },
+        {
+          "wrong": "He doesn't has a car.",
+          "right": "He doesn't have a car.",
+          "why": {
+            "en": "After doesn't use the base verb: have, not has.",
+            "es": "Tras doesn't, verbo base: have, no has."
+          }
+        },
+        {
+          "wrong": "I go always to the gym.",
+          "right": "I always go to the gym.",
+          "why": {
+            "en": "Frequency adverbs go before the main verb, not after it.",
+            "es": "El adverbio de frecuencia va antes del verbo, no después."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I usually leave home at half past seven.",
+          "es": "Normalmente salgo de casa a las siete y media."
+        },
+        {
+          "en": "My sister teaches maths at a secondary school.",
+          "es": "Mi hermana da clases de matemáticas en un instituto."
+        },
+        { "en": "The library closes at eight on weekdays." },
+        {
+          "en": "Do you take the bus or the train to work?",
+          "es": "¿Vas al trabajo en autobús o en tren?"
+        },
+        { "en": "Does your brother live near you?" },
+        {
+          "en": "We don't watch much television in the evening.",
+          "es": "No vemos mucho la tele por la noche."
+        },
+        { "en": "She doesn't eat meat, but she eats fish." },
+        { "en": "I never drink coffee after lunch." },
+        { "en": "Tom is always the first person in the office." },
+        { "en": "How often do you visit your grandparents?" }
+      ],
+      "practice": [
+        {
+          "prompt": "My neighbour ___ the piano every evening.",
+          "options": ["plays", "play", "is play"],
+          "answer": 0,
+          "explanation": {
+            "en": "A routine with he, she or it takes the verb with -s."
+          }
+        },
+        {
+          "prompt": "___ your parents live in the city centre?",
+          "options": ["Do", "Does", "Are"],
+          "answer": 0,
+          "explanation": {
+            "en": "Your parents is plural (they), so the question uses do."
+          }
+        },
+        {
+          "prompt": "Maria doesn't ___ in the morning.",
+          "options": ["eats", "eat", "eating"],
+          "answer": 1,
+          "explanation": {
+            "en": "After doesn't the verb stays in the base form."
+          }
+        },
+        {
+          "prompt": "I ___ walk to the office when it rains.",
+          "options": ["never", "doesn't", "no"],
+          "answer": 0,
+          "explanation": {
+            "en": "Never already makes the sentence negative and goes before the verb."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

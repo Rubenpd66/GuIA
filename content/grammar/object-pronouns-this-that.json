@@ -1,0 +1,147 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "object-pronouns-this-that",
+      "level": "A2",
+      "category": "pronouns-determiners",
+      "order": 160,
+      "references": [],
+      "title": {
+        "en": "Object pronouns and this, that, these, those",
+        "es": "Pronombres objeto y this, that, these, those"
+      },
+      "summary": {
+        "en": "**Object pronouns** (**me, you, him, her, it, us, them**) replace a noun after a verb or a preposition: _I like her. Wait for us._ **This / these** point to things near you; **that / those** point to things far from you: _This bag is mine. Those shoes are expensive._ English always needs the object: _I can't find them._",
+        "es": "Me, you, him, her, it, us, them van después del verbo o de una preposición. This/these = cerca; that/those = lejos. En inglés el objeto no se omite: «no los encuentro» = I can't find them."
+      },
+      "form": [
+        "Subject → object: **I → me, you → you, he → him, she → her, it → it, we → us, they → them**.",
+        "After a verb: _Call me. I saw him._ After a preposition: _with her, for them, to us_.",
+        "With two objects the person goes first, with no to: _She gave me a book._ With to, the thing goes first: _She gave a book to me._",
+        "**This (singular), these (plural)** = near; **that (singular), those (plural)** = far: _this phone, these keys, that building, those trees_.",
+        "Alone, they work as pronouns: _What's this? These are mine. That's my brother._"
+      ],
+      "uses": [
+        {
+          "text": "**Avoid repeating a noun** → _My cousin Pablo lives in Madrid. I visit him every summer._"
+        },
+        {
+          "text": "**After prepositions** → _This message is for you. Come with us._"
+        },
+        {
+          "text": "**Near and far** → _How much is this jacket? How much are those shoes over there?_",
+          "note": {
+            "en": "Think of the distance from the speaker, in space or time.",
+            "es": "Piensa en la distancia respecto a ti, en el espacio o en el tiempo."
+          }
+        },
+        {
+          "text": "**Introductions** → _Mum, this is my friend Carla._",
+          "note": {
+            "en": "Use this is to introduce someone face to face and on the phone.",
+            "es": "This is sirve para presentar a alguien: «te presento a…»."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I like she.",
+          "right": "I like her.",
+          "why": {
+            "en": "After a verb use the object form: her, not she.",
+            "es": "Tras el verbo va la forma objeto: her."
+          }
+        },
+        {
+          "wrong": "Help I, please.",
+          "right": "Help me, please.",
+          "why": {
+            "en": "I is a subject. After a verb use me.",
+            "es": "I es sujeto: tras el verbo, me."
+          }
+        },
+        {
+          "wrong": "This shoes are expensive.",
+          "right": "These shoes are expensive.",
+          "why": {
+            "en": "Shoes is plural, so use these. This is for singular nouns.",
+            "es": "Shoes es plural: these."
+          }
+        },
+        {
+          "wrong": "Have you seen my keys? I can't find.",
+          "right": "Have you seen my keys? I can't find them.",
+          "why": {
+            "en": "English does not drop the object. Always say them, it, him…",
+            "es": "En inglés no se omite el objeto: I can't find them."
+          }
+        },
+        {
+          "wrong": "She gave to me a present.",
+          "right": "She gave me a present.",
+          "why": {
+            "en": "Without to, the person comes straight after the verb.",
+            "es": "Sin to, la persona va justo detrás del verbo."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I met Sofia at the gym. I like her a lot.",
+          "es": "Conocí a Sofía en el gimnasio. Me cae muy bien."
+        },
+        {
+          "en": "Can you help me with this bag?",
+          "es": "¿Me ayudas con esta bolsa?"
+        },
+        { "en": "Our teacher gave us some useful advice." },
+        { "en": "I bought the tickets and sent them to my parents." },
+        {
+          "en": "Look at these photos on my phone. They're from our trip.",
+          "es": "Mira estas fotos del móvil. Son de nuestro viaje."
+        },
+        { "en": "How much are those shoes in the window?" },
+        { "en": "Is this seat free? Yes, sit here with us." },
+        { "en": "That's my brother over there, next to the door." },
+        { "en": "Don't call him now. He's in a meeting." },
+        { "en": "I'm looking for my glasses. Have you seen them?" }
+      ],
+      "practice": [
+        {
+          "prompt": "My cousin Pablo lives in Madrid. I visit ___ every summer.",
+          "options": ["him", "he", "his"],
+          "answer": 0,
+          "explanation": {
+            "en": "After a verb, he becomes him."
+          }
+        },
+        {
+          "prompt": "Can you help ___ with this heavy box?",
+          "options": ["me", "I", "my"],
+          "answer": 0,
+          "explanation": {
+            "en": "The object form of I is me."
+          }
+        },
+        {
+          "prompt": "I love ___ trees over there. They are beautiful.",
+          "options": ["those", "that", "this"],
+          "answer": 0,
+          "explanation": {
+            "en": "Trees is plural and far away, so use those."
+          }
+        },
+        {
+          "prompt": "My neighbours are very kind. I often talk to ___.",
+          "options": ["them", "they", "their"],
+          "answer": 0,
+          "explanation": {
+            "en": "After the preposition to, they becomes them."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

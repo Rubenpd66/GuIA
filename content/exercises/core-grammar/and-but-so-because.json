@@ -1,0 +1,133 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-and-but-so-because-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "and-but-so-because",
+      "prompt": "I like tea, ___ I don't like coffee.",
+      "options": ["but", "so", "because"],
+      "answer": 0,
+      "explanation": {
+        "en": "The two ideas are opposite, so use but.",
+        "es": "Dos ideas opuestas: but."
+      },
+      "optionNotes": [
+        { "en": "Correct: but shows a contrast." },
+        {
+          "en": "So gives a result, and not liking coffee is not a result of liking tea."
+        },
+        { "en": "Because gives a reason, and liking tea is not the reason." }
+      ]
+    },
+    {
+      "id": "cg-and-but-so-because-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "and-but-so-because",
+      "prompt": "I was tired, ___ I went to bed early.",
+      "options": ["so", "but", "because"],
+      "answer": 0,
+      "explanation": {
+        "en": "Going to bed is the result of being tired, so use so.",
+        "es": "Así que me acosté pronto = so."
+      },
+      "optionNotes": [
+        { "en": "Correct: so introduces the result." },
+        { "en": "But would show a contrast, and there is none here." },
+        { "en": "Because would make going to bed the reason for being tired." }
+      ]
+    },
+    {
+      "id": "cg-and-but-so-because-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "and-but-so-because",
+      "prompt": "She stayed at home ___ she had a headache.",
+      "options": ["because", "so", "but"],
+      "answer": 0,
+      "explanation": {
+        "en": "The headache is the reason she stayed at home, so use because."
+      },
+      "optionNotes": [
+        { "en": "Correct: because introduces the reason." },
+        {
+          "en": "So would be followed by a result, but the headache is a cause."
+        },
+        { "en": "But would suggest a contrast that does not exist." }
+      ]
+    },
+    {
+      "id": "cg-and-but-so-because-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "and-but-so-because",
+      "prompt": "We wanted to go to the beach, ___ it was raining.",
+      "options": ["but", "because", "so"],
+      "answer": 0,
+      "explanation": {
+        "en": "The rain stopped our plan, so the sentence needs a contrast: but.",
+        "es": "El plan choca con la lluvia: but."
+      },
+      "optionNotes": [
+        { "en": "Correct: but links a plan and an obstacle." },
+        { "en": "Because would say the rain was the reason we wanted to go." },
+        { "en": "So would say the rain was the result of wanting to go." }
+      ]
+    },
+    {
+      "id": "cg-and-but-so-because-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "and-but-so-because",
+      "prompt": "I went to the market ___ bought some fruit and vegetables.",
+      "options": ["and", "so", "but"],
+      "answer": 0,
+      "explanation": {
+        "en": "Two actions in a row are joined with and."
+      },
+      "optionNotes": [
+        { "en": "Correct: and adds a second action." },
+        { "en": "So needs a subject and verb after it, and means result." },
+        { "en": "But would show a contrast, which does not fit buying fruit." }
+      ]
+    },
+    {
+      "id": "cg-and-but-so-because-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 4,
+      "register": "spoken",
+      "grammarPoint": "and-but-so-because",
+      "prompt": "A: Why are you learning Spanish? B: ___ I want to work in Madrid.",
+      "options": ["Because", "So", "But"],
+      "answer": 0,
+      "explanation": {
+        "en": "A short answer to a Why question starts with because.",
+        "es": "Para responder a «¿Por qué?»: Because…"
+      },
+      "optionNotes": [
+        { "en": "Correct: because gives the reason." },
+        { "en": "So gives a result, not an answer to why." },
+        { "en": "But would introduce a contrast with the question." }
+      ]
+    }
+  ]
+}

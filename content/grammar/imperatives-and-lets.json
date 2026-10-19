@@ -1,0 +1,146 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "imperatives-and-lets",
+      "level": "A2",
+      "category": "verb-patterns",
+      "order": 140,
+      "references": [],
+      "title": {
+        "en": "Imperatives and let's",
+        "es": "Imperativos y let's"
+      },
+      "summary": {
+        "en": "Use the **imperative** (the base verb with no subject) to give instructions, directions and warnings: _Open the window. Turn left at the lights._ Make it negative with **don't**: _Don't touch that._ Use **let's** + base verb to suggest something to do together: _Let's have lunch._ Add **please** to sound polite.",
+        "es": "El imperativo es el verbo base, sin sujeto. La negación es don't + verbo. Para proponer algo en grupo («vamos a…»), let's + verbo base. Con please suena más amable."
+      },
+      "form": [
+        "**Affirmative**: base verb, no subject: _Come in. Sit down. Be careful._",
+        "**Negative**: **Don't** + base verb: _Don't worry. Don't be late._",
+        "**Polite**: _Please wait here. / Wait here, please._",
+        "**Let's** + base verb (suggestion for we): _Let's go. Let's take a taxi._",
+        "**Let's not** + base verb: _Let's not argue about it._"
+      ],
+      "uses": [
+        {
+          "text": "**Instructions** → _Add the eggs and mix well._"
+        },
+        {
+          "text": "**Directions** → _Go straight on, then take the second road on the right._"
+        },
+        {
+          "text": "**Warnings and signs** → _Mind the step. Don't park here._"
+        },
+        {
+          "text": "**Offers and invitations** → _Come in. Have a seat. Help yourself._",
+          "note": {
+            "en": "In offers the imperative is friendly, not rude.",
+            "es": "En ofrecimientos el imperativo es amable, no brusco."
+          }
+        },
+        {
+          "text": "**Suggestions for a group** → _It's late. Let's go home._"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "No touch the screen.",
+          "right": "Don't touch the screen.",
+          "why": {
+            "en": "Negative imperatives use don't, not no.",
+            "es": "Para prohibir: don't + verbo, no «no»."
+          }
+        },
+        {
+          "wrong": "Let's to go to the beach.",
+          "right": "Let's go to the beach.",
+          "why": {
+            "en": "Let's is followed by the base verb, without to.",
+            "es": "Después de let's no va to."
+          }
+        },
+        {
+          "wrong": "Don't to be late.",
+          "right": "Don't be late.",
+          "why": {
+            "en": "Use don't + base verb, with no to. Be also takes don't.",
+            "es": "Sin to. Con be también se usa don't: Don't be late."
+          }
+        },
+        {
+          "wrong": "We let's go now.",
+          "right": "Let's go now.",
+          "why": {
+            "en": "Let's already includes us, so you do not add we.",
+            "es": "Let's ya incluye «nosotros»: no añadas we."
+          }
+        },
+        {
+          "wrong": "Not open the door.",
+          "right": "Don't open the door.",
+          "why": {
+            "en": "Not alone cannot start a negative imperative.",
+            "es": "Not solo no basta: hace falta don't."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please sit down and fill in this form.",
+          "es": "Siéntese y rellene este formulario, por favor."
+        },
+        {
+          "en": "Turn right at the bank and walk for two minutes.",
+          "es": "Gira a la derecha en el banco y camina dos minutos."
+        },
+        { "en": "Don't forget to lock the door when you leave." },
+        { "en": "Be careful! The floor is wet." },
+        { "en": "Don't be nervous. The interview is easy." },
+        {
+          "en": "It's a lovely day. Let's go to the beach!",
+          "es": "Hace un día precioso. ¡Vamos a la playa!"
+        },
+        { "en": "Let's not wait for him. He's always late." },
+        { "en": "Come in and make yourself at home." },
+        { "en": "Let's have a coffee before the meeting." },
+        { "en": "Please don't use your phone during the film." }
+      ],
+      "practice": [
+        {
+          "prompt": "___ your seat belt, please. We're going to take off.",
+          "options": ["Fasten", "Fastening", "To fasten"],
+          "answer": 0,
+          "explanation": {
+            "en": "The imperative is just the base verb."
+          }
+        },
+        {
+          "prompt": "___ park here. It's a private car park.",
+          "options": ["Don't", "No", "Not"],
+          "answer": 0,
+          "explanation": {
+            "en": "A negative imperative needs don't."
+          }
+        },
+        {
+          "prompt": "I'm hungry. ___ have lunch now.",
+          "options": ["Let's", "Let", "We"],
+          "answer": 0,
+          "explanation": {
+            "en": "Let's + base verb is a suggestion for a group."
+          }
+        },
+        {
+          "prompt": "Don't ___ so worried. Everything is fine.",
+          "options": ["be", "to be", "being"],
+          "answer": 0,
+          "explanation": {
+            "en": "After don't use the base verb be, with no to."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

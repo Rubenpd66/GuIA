@@ -1,0 +1,143 @@
+{
+  "kind": "grammar-lessons",
+  "items": [
+    {
+      "slug": "present-continuous-now",
+      "level": "A2",
+      "category": "tenses",
+      "order": 100,
+      "references": [],
+      "title": {
+        "en": "Present continuous: actions happening now",
+        "es": "Present continuous: acciones que ocurren ahora"
+      },
+      "summary": {
+        "en": "Use the **present continuous** for actions happening now or around now: _I'm cooking dinner. They're waiting outside._ Form it with **am / is / are + verb-ing**. It answers the question _What are you doing?_ You will compare it with the present simple in a later lesson.",
+        "es": "Se usa para lo que está pasando ahora. Se forma con am/is/are + verbo con -ing. Responde a «¿Qué estás haciendo?»."
+      },
+      "form": [
+        "**Subject + am / is / are + verb-ing**: _I am studying. She is working. We are waiting._",
+        "Spelling: drop a final silent **e** (_write → writing_); double a final single consonant after one short vowel (_run → running, sit → sitting_); _lie → lying_.",
+        "Questions: **Am / Is / Are** + subject + verb-ing: _Are you listening? What is he doing?_",
+        "Negatives: **am not / isn't / aren't** + verb-ing: _I'm not working. It isn't raining._",
+        "Time words: **now, right now, at the moment, today, tonight**."
+      ],
+      "uses": [
+        {
+          "text": "**Something happening at this moment** → _Be quiet! The baby is sleeping._"
+        },
+        {
+          "text": "**Around now, not exactly this second** → _I'm reading a good book at the moment._"
+        },
+        {
+          "text": "**Talking on the phone about the present** → _I'm waiting at the station. Where are you?_"
+        },
+        {
+          "text": "**Not for states** → _know, like, want, need_ stay in the present simple: _I know the answer._",
+          "note": {
+            "en": "Verbs of knowing, liking and wanting do not usually take -ing.",
+            "es": "Verbos como know, like, want o need normalmente no llevan -ing."
+          }
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I am work now.",
+          "right": "I am working now.",
+          "why": {
+            "en": "After am, is or are the verb needs -ing.",
+            "es": "Después de am/is/are, el verbo lleva -ing."
+          }
+        },
+        {
+          "wrong": "She working at the moment.",
+          "right": "She is working at the moment.",
+          "why": {
+            "en": "The -ing form needs am, is or are in front of it.",
+            "es": "El -ing necesita am/is/are delante; no basta con el gerundio."
+          }
+        },
+        {
+          "wrong": "What you are doing?",
+          "right": "What are you doing?",
+          "why": {
+            "en": "In questions the verb be goes before the subject.",
+            "es": "En preguntas, be va antes del sujeto."
+          }
+        },
+        {
+          "wrong": "I'm knowing the answer.",
+          "right": "I know the answer.",
+          "why": {
+            "en": "Know is a state verb and does not normally use -ing.",
+            "es": "Know es un verbo de estado: no se usa con -ing."
+          }
+        },
+        {
+          "wrong": "He is siting on the sofa.",
+          "right": "He is sitting on the sofa.",
+          "why": {
+            "en": "Double the final t after a short vowel before -ing.",
+            "es": "Se duplica la t final antes de -ing."
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm making a cup of tea. Would you like one?",
+          "es": "Estoy preparando un té. ¿Quieres uno?"
+        },
+        {
+          "en": "Look! They're carrying a very big sofa up the stairs.",
+          "es": "¡Mira! Están subiendo un sofá enorme por las escaleras."
+        },
+        { "en": "It isn't raining now, so we can sit in the garden." },
+        {
+          "en": "What are you doing? I'm checking my emails.",
+          "es": "¿Qué haces? Estoy mirando el correo."
+        },
+        { "en": "Is Jack working today? No, he's visiting his parents." },
+        { "en": "The children are playing in the park at the moment." },
+        { "en": "I'm not feeling very well, so I'm going home." },
+        { "en": "We're waiting for the bus. It's late again." },
+        { "en": "Why are you laughing? Nobody is telling a joke." },
+        { "en": "She's learning Italian this term." }
+      ],
+      "practice": [
+        {
+          "prompt": "Please don't make noise. The students ___ an exam.",
+          "options": ["are taking", "takes", "is taking"],
+          "answer": 0,
+          "explanation": {
+            "en": "The students is plural, so use are + -ing for something happening now."
+          }
+        },
+        {
+          "prompt": "A: What ___ you doing? B: I'm cleaning the kitchen.",
+          "options": ["are", "do", "is"],
+          "answer": 0,
+          "explanation": {
+            "en": "With you use are + -ing: What are you doing?"
+          }
+        },
+        {
+          "prompt": "It's very quiet. Everybody ___ at the moment.",
+          "options": ["is working", "working", "is work"],
+          "answer": 0,
+          "explanation": {
+            "en": "The -ing form needs is, and work needs -ing."
+          }
+        },
+        {
+          "prompt": "My brother ___ at the moment. He's in the garden.",
+          "options": ["isn't studying", "doesn't studying", "not studying"],
+          "answer": 0,
+          "explanation": {
+            "en": "The negative is isn't + -ing."
+          }
+        }
+      ],
+      "canDo": []
+    }
+  ]
+}

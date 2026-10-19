@@ -1,0 +1,129 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-imperatives-and-lets-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 1,
+      "register": "spoken",
+      "grammarPoint": "imperatives-and-lets",
+      "prompt": "___ the door, please. It's very cold in here.",
+      "options": ["Close", "Closing", "To close"],
+      "answer": 0,
+      "explanation": {
+        "en": "The imperative is the base verb with no subject.",
+        "es": "El imperativo es el verbo base: Close."
+      },
+      "optionNotes": [
+        { "en": "Correct: base verb as an instruction." },
+        { "en": "The -ing form cannot start an instruction like this." },
+        { "en": "To close is an infinitive, not an imperative." }
+      ]
+    },
+    {
+      "id": "cg-imperatives-and-lets-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "imperatives-and-lets",
+      "prompt": "___ touch the machine. It is dangerous.",
+      "options": ["Don't", "Not", "No"],
+      "answer": 0,
+      "explanation": {
+        "en": "A negative instruction begins with don't + base verb.",
+        "es": "Para prohibir: Don't + verbo base."
+      },
+      "optionNotes": [
+        { "en": "Correct: don't + touch." },
+        { "en": "Not cannot start an imperative without don't." },
+        { "en": "No is not used before a verb in English." }
+      ]
+    },
+    {
+      "id": "cg-imperatives-and-lets-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "imperatives-and-lets",
+      "prompt": "It's a lovely day. ___ go to the beach!",
+      "options": ["Let's", "Let", "We"],
+      "answer": 0,
+      "explanation": {
+        "en": "Let's + base verb makes a suggestion for a group.",
+        "es": "«Vamos a…» = Let's + verbo base."
+      },
+      "optionNotes": [
+        { "en": "Correct: let's + go." },
+        { "en": "Let alone needs an object, as in Let me go." },
+        { "en": "We go would be a statement, not a suggestion." }
+      ]
+    },
+    {
+      "id": "cg-imperatives-and-lets-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 3,
+      "register": "written",
+      "grammarPoint": "imperatives-and-lets",
+      "prompt": "Please ___ late for the interview. The manager doesn't like waiting.",
+      "options": ["don't be", "be not", "not be"],
+      "answer": 0,
+      "explanation": {
+        "en": "Even with the verb be, a negative imperative uses don't."
+      },
+      "optionNotes": [
+        { "en": "Correct: don't + be." },
+        { "en": "Be not is not used in modern everyday English." },
+        { "en": "Not be cannot start a negative instruction without don't." }
+      ]
+    },
+    {
+      "id": "cg-imperatives-and-lets-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "media",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "imperatives-and-lets",
+      "prompt": "I'm tired. Let's not ___ the film tonight.",
+      "options": ["watch", "to watch", "watching"],
+      "answer": 0,
+      "explanation": {
+        "en": "Let's not is followed by the base verb, with no to.",
+        "es": "Después de let's not, verbo base, sin to."
+      },
+      "optionNotes": [
+        { "en": "Correct: let's not + watch." },
+        { "en": "To is not used after let's not." },
+        { "en": "Let's not is not followed by an -ing form." }
+      ]
+    },
+    {
+      "id": "cg-imperatives-and-lets-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "imperatives-and-lets",
+      "prompt": "Please ___ your mobile phones before the performance starts.",
+      "options": ["turn off", "turning off", "to turn off"],
+      "answer": 0,
+      "explanation": {
+        "en": "A polite written instruction uses please + base verb."
+      },
+      "optionNotes": [
+        { "en": "Correct: please + base verb." },
+        { "en": "The -ing form cannot follow please in an instruction." },
+        { "en": "To is not used in an imperative." }
+      ]
+    }
+  ]
+}

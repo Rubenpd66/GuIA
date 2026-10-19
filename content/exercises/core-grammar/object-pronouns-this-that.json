@@ -1,0 +1,129 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cg-object-pronouns-this-that-01",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 1,
+      "register": "written",
+      "grammarPoint": "object-pronouns-this-that",
+      "prompt": "My cousin Pablo lives in Madrid. I visit ___ every summer.",
+      "options": ["him", "he", "his"],
+      "answer": 0,
+      "explanation": {
+        "en": "After a verb the object form of he is him.",
+        "es": "Después del verbo: him, no he."
+      },
+      "optionNotes": [
+        { "en": "Correct: object pronoun him." },
+        { "en": "He is a subject pronoun and cannot follow visit." },
+        { "en": "His is a possessive and needs a noun after it." }
+      ]
+    },
+    {
+      "id": "cg-object-pronouns-this-that-02",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 2,
+      "register": "spoken",
+      "grammarPoint": "object-pronouns-this-that",
+      "prompt": "A: Can you help ___ with this bag? B: Of course. It looks heavy.",
+      "options": ["me", "I", "my"],
+      "answer": 0,
+      "explanation": {
+        "en": "The object form of I is me."
+      },
+      "optionNotes": [
+        { "en": "Correct: object pronoun me after help." },
+        { "en": "I is a subject pronoun and cannot follow help." },
+        { "en": "My is a possessive and needs a noun." }
+      ]
+    },
+    {
+      "id": "cg-object-pronouns-this-that-03",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 2,
+      "register": "written",
+      "grammarPoint": "object-pronouns-this-that",
+      "prompt": "I met Sofia at the gym last year. I like ___ a lot.",
+      "options": ["her", "she", "hers"],
+      "answer": 0,
+      "explanation": {
+        "en": "After a verb the object form of she is her.",
+        "es": "«Me cae bien» = I like her, no I like she."
+      },
+      "optionNotes": [
+        { "en": "Correct: object pronoun her." },
+        { "en": "She is a subject pronoun." },
+        { "en": "Hers means belonging to her and does not fit here." }
+      ]
+    },
+    {
+      "id": "cg-object-pronouns-this-that-04",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "object-pronouns-this-that",
+      "prompt": "Excuse me, how much are ___ shoes over there?",
+      "options": ["those", "that", "this"],
+      "answer": 0,
+      "explanation": {
+        "en": "Shoes is plural and the speaker is pointing at them from a distance, so use those.",
+        "es": "Plural y lejos: those."
+      },
+      "optionNotes": [
+        { "en": "Correct: plural and far away." },
+        { "en": "That is singular and cannot go with shoes." },
+        { "en": "This is singular and near, so it does not match." }
+      ]
+    },
+    {
+      "id": "cg-object-pronouns-this-that-05",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "technology",
+      "difficulty": 3,
+      "register": "spoken",
+      "grammarPoint": "object-pronouns-this-that",
+      "prompt": "Look at ___ photos on my phone. They are from our trip to Greece.",
+      "options": ["these", "this", "that"],
+      "answer": 0,
+      "explanation": {
+        "en": "Photos is plural and near, so use these."
+      },
+      "optionNotes": [
+        { "en": "Correct: plural and near." },
+        { "en": "This is singular and cannot go with photos." },
+        { "en": "That is singular and cannot go with photos." }
+      ]
+    },
+    {
+      "id": "cg-object-pronouns-this-that-06",
+      "examPart": "core-grammar",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 4,
+      "register": "written",
+      "grammarPoint": "object-pronouns-this-that",
+      "prompt": "I'm looking for my keys. Have you seen ___?",
+      "options": ["them", "it", "they"],
+      "answer": 0,
+      "explanation": {
+        "en": "Keys is plural, so the object pronoun is them. English does not leave the object out.",
+        "es": "Keys es plural: them."
+      },
+      "optionNotes": [
+        { "en": "Correct: plural object pronoun." },
+        { "en": "It is singular and does not match keys." },
+        { "en": "They is a subject pronoun and cannot follow seen." }
+      ]
+    }
+  ]
+}
