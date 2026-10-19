@@ -344,6 +344,7 @@ describe("formatReport", () => {
     const text = formatReport(validateContentSet(validSet()));
     expect(text).toMatch(/^By level \(A2 B1 B2 C1\): core-grammar 0\/0\/0\/5/m);
     expect(text).toMatch(/^Mock gaps: A2 core-grammar 0\/25/m);
+    expect(text).toMatch(/^Placement gaps: core-grammar A2 0\/3/m);
     const full = Object.fromEntries(
       EXAM_PARTS.map((part) => [part, { A2: 99, B1: 0, B2: 0, C1: 0 }]),
     ) as ValidationReport["bank"]["byLevel"];

@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "r1-environment-01",
+      "placement": true,
       "examPart": "reading-1",
       "cefrLevel": "B2",
       "topic": "environment",

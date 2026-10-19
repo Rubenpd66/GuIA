@@ -79,6 +79,8 @@ export const exerciseBase = {
   cefrLevel: CefrLevel,
   topic: Topic,
   difficulty: Difficulty,
+  /** In the placement test's fixed pool, which is open to everyone whatever their plan. */
+  placement: z.literal(true).optional(),
 };
 
 /** Returns a message when the text falls outside the word range, or undefined when it fits. */

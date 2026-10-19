@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "cv-city-definitions-01",
+      "placement": true,
       "examPart": "core-vocabulary",
       "cefrLevel": "B2",
       "topic": "city",

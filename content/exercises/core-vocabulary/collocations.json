@@ -67,6 +67,7 @@
     },
     {
       "id": "cv-collocations-collocations-02",
+      "placement": true,
       "examPart": "core-vocabulary",
       "cefrLevel": "C1",
       "topic": "general",

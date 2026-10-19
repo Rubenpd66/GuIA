@@ -90,6 +90,7 @@
     },
     {
       "id": "l1-education-02",
+      "placement": true,
       "examPart": "listening-1",
       "cefrLevel": "A2",
       "topic": "education",

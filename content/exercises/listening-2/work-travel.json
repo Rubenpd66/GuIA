@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "l2-work-01",
+      "placement": true,
       "examPart": "listening-2",
       "cefrLevel": "B1",
       "topic": "work",

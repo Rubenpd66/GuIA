@@ -13,6 +13,7 @@ import { createRng } from "@/lib/trainer/random";
 import {
   buildPlacementSteps,
   placementLevels,
+  placementGaps,
   placementPlan,
   type PlacementBank,
 } from "./placement";
@@ -104,6 +105,42 @@ describe("placement result", () => {
       "reading-3",
       "listening-1",
       "core-grammar",
+    ]);
+  });
+});
+
+describe("placementGaps", () => {
+  it("reports what a placement pool lacks", () => {
+    const empty: PlacementBank = {
+      grammar: [],
+      vocabulary: [],
+      reading: [],
+      listening1: [],
+      listening2: [],
+    };
+    expect(placementGaps(empty).length).toBeGreaterThan(0);
+    const enough: PlacementBank = {
+      grammar: (
+        [
+          ["A2", 3],
+          ["B1", 4],
+          ["B2", 4],
+          ["C1", 4],
+        ] as const
+      ).flatMap(([level, count]) =>
+        many(grammar, count, { cefrLevel: level }).map((q, i) => ({
+          ...q,
+          id: `${level}-${i}`,
+        })),
+      ),
+      vocabulary: bank.vocabulary.slice(0, 4),
+      reading: bank.reading.slice(0, 1),
+      listening1: bank.listening1.slice(0, 3),
+      listening2: bank.listening2.slice(0, 1),
+    };
+    expect(placementGaps(enough)).toEqual([]);
+    expect(placementGaps({ ...enough, listening2: [] })).toEqual([
+      "listening-2 0/1",
     ]);
   });
 });

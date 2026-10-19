@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "cg-abil-01",
+      "placement": true,
       "examPart": "core-grammar",
       "cefrLevel": "B1",
       "topic": "work",

@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "cg-ellipsis-and-substitution-01",
+      "placement": true,
       "examPart": "core-grammar",
       "cefrLevel": "C1",
       "topic": "shopping-consumption",

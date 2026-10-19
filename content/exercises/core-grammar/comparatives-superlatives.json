@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "cg-comparatives-superlatives-01",
+      "placement": true,
       "examPart": "core-grammar",
       "cefrLevel": "B1",
       "topic": "shopping-consumption",

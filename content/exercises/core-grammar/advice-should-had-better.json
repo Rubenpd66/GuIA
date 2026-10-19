@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "cg-advice-01",
+      "placement": true,
       "examPart": "core-grammar",
       "cefrLevel": "B1",
       "topic": "health-sport",

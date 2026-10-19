@@ -11,6 +11,10 @@ import { exercisesOfPart, type ContentIndex } from "./index";
 const parts = <P extends ExamPart>(content: ContentIndex, list: P[]) =>
   list.flatMap((part) => exercisesOfPart(content, part));
 
+/** Only the placement test's fixed pool, so the open test never hands out paid material. */
+const placementOf = <P extends ExamPart>(content: ContentIndex, part: P) =>
+  exercisesOfPart(content, part).filter((exercise) => exercise.placement);
+
 export type Banks = {
   placement: PlacementBank;
   mock: MockBank;
@@ -21,14 +25,14 @@ export const BANKS: {
   [K in keyof Banks]: (content: ContentIndex) => Banks[K];
 } = {
   placement: (content) => ({
-    grammar: exercisesOfPart(content, "core-grammar"),
-    vocabulary: exercisesOfPart(content, "core-vocabulary"),
+    grammar: placementOf(content, "core-grammar"),
+    vocabulary: placementOf(content, "core-vocabulary"),
     reading: [
-      ...exercisesOfPart(content, "reading-1"),
-      ...exercisesOfPart(content, "reading-3"),
+      ...placementOf(content, "reading-1"),
+      ...placementOf(content, "reading-3"),
     ],
-    listening1: exercisesOfPart(content, "listening-1"),
-    listening2: exercisesOfPart(content, "listening-2"),
+    listening1: placementOf(content, "listening-1"),
+    listening2: placementOf(content, "listening-2"),
   }),
   mock: (content) => ({
     grammar: exercisesOfPart(content, "core-grammar"),

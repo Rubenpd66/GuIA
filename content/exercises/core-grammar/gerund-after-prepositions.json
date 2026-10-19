@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "cg-gerund-after-prepositions-01",
+      "placement": true,
       "examPart": "core-grammar",
       "cefrLevel": "B2",
       "topic": "relationships",

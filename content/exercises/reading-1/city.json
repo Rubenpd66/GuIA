@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "r1-city-01",
+      "placement": true,
       "examPart": "reading-1",
       "cefrLevel": "B1",
       "topic": "city",

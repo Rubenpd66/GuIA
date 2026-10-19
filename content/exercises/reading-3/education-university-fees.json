@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "r3-education-university-fees-01",
+      "placement": true,
       "examPart": "reading-3",
       "cefrLevel": "C1",
       "topic": "education",

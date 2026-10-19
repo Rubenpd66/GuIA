@@ -27,7 +27,7 @@ export type PlacementBank = {
 };
 
 /** app decision: grammar questions per level, easiest first, so the test gets harder as it goes. */
-const GRAMMAR_BY_LEVEL: [CefrLevel, number][] = [
+export const GRAMMAR_BY_LEVEL: [CefrLevel, number][] = [
   ["A2", 3],
   ["B1", 4],
   ["B2", 4],
@@ -90,6 +90,28 @@ export function buildPlacementSteps(bank: PlacementBank, rng: Rng): Step[] {
       session: { ...empty, tasks: l2 },
     });
   return steps;
+}
+
+/** What the pool lacks for one full test, as "<section> have/need"; empty when it is enough. */
+export function placementGaps(bank: PlacementBank): string[] {
+  const vocabularyItems = bank.vocabulary.reduce(
+    (sum, task) => sum + task.items.length,
+    0,
+  );
+  const checks: [string, number, number][] = [
+    ...GRAMMAR_BY_LEVEL.map(([level, need]): [string, number, number] => [
+      `core-grammar ${level}`,
+      bank.grammar.filter((q) => q.cefrLevel === level).length,
+      need,
+    ]),
+    ["core-vocabulary", vocabularyItems, PLACEMENT.vocabularyItems],
+    ["reading", bank.reading.length, 1],
+    ["listening-1", bank.listening1.length, PLACEMENT.listening1Tasks],
+    ["listening-2", bank.listening2.length, PLACEMENT.listening2Tasks],
+  ];
+  return checks
+    .filter(([, have, need]) => have < need)
+    .map(([name, have, need]) => `${name} ${have}/${need}`);
 }
 
 /** The placement result per skill: the share of right answers across its sections. */

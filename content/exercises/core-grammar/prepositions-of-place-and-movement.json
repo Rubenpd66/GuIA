@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "cg-prepositions-of-place-and-movement-01",
+      "placement": true,
       "examPart": "core-grammar",
       "cefrLevel": "A2",
       "topic": "travel",

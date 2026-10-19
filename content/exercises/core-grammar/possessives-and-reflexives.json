@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "cg-possessives-and-reflexives-01",
+      "placement": true,
       "examPart": "core-grammar",
       "cefrLevel": "A2",
       "topic": "relationships",

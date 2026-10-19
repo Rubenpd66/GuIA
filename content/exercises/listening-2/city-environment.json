@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "l2-city-01",
+      "placement": true,
       "examPart": "listening-2",
       "cefrLevel": "B2",
       "topic": "city",

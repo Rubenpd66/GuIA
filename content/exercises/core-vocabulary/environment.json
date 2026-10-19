@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "cv-environment-synonyms-01",
+      "placement": true,
       "examPart": "core-vocabulary",
       "cefrLevel": "B1",
       "topic": "environment",

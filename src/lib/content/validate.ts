@@ -10,6 +10,9 @@ import type { Script } from "./schemas/listening";
 import { countWords, findAmericanSpellings, stripBom } from "./text";
 import { modelWordRange } from "@/lib/trainer/speaking";
 import { MOCK_NEEDS } from "@/lib/trainer/config";
+import { placementGaps } from "@/components/assessment/placement";
+import { BANKS } from "./banks";
+import { buildContentIndex } from "./index";
 import { EXAM_PARTS, type ExamPart } from "@/lib/exam/format";
 import { CEFR_LEVELS, type CefrLevel } from "./schemas/common";
 
@@ -48,6 +51,8 @@ export type ValidationReport = {
   items: Record<ContentKind, number>;
   /** Reference-book units that at least one lesson or vocabulary group points to. */
   coverage: Record<BookId, { covered: number; total: number }>;
+  /** What the placement test's flagged pool lacks for one full test (see `placementGaps`). */
+  placementGaps: string[];
   /** Size of the Core question bank: questions per grammar lesson and vocabulary items per type. */
   bank: {
     grammarByLesson: Record<string, number>;
@@ -155,6 +160,9 @@ export function validateContentSet(sources: ContentSource[]): ValidationReport {
     files: sources.length,
     items,
     coverage: bookCoverage(parsed),
+    placementGaps: placementGaps(
+      BANKS.placement(buildContentIndex(parsed.map(({ file }) => file))),
+    ),
     bank,
   };
 }
@@ -535,6 +543,9 @@ export function formatReport(report: ValidationReport): string {
         (part) =>
           `${part} ${CEFR_LEVELS.map((l) => report.bank.byLevel[part][l]).join("/")}`,
       ).join(" · "),
+  );
+  lines.push(
+    `Placement gaps: ${report.placementGaps.length ? report.placementGaps.join(", ") : "none"}`,
   );
   const gaps = mockGaps(report.bank.byLevel);
   lines.push(

@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "cg-for-during-while-by-until-01",
+      "placement": true,
       "examPart": "core-grammar",
       "cefrLevel": "B1",
       "topic": "travel",

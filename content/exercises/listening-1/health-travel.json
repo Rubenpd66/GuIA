@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "l1-health-01",
+      "placement": true,
       "examPart": "listening-1",
       "cefrLevel": "B1",
       "topic": "health-sport",
@@ -28,6 +29,7 @@
     },
     {
       "id": "l1-health-02",
+      "placement": true,
       "examPart": "listening-1",
       "cefrLevel": "B2",
       "topic": "health-sport",
