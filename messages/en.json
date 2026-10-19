@@ -616,7 +616,9 @@
       },
       "model": {
         "b2": "B2 model",
-        "c": "C model"
+        "c": "C model",
+        "basic": "Simple model",
+        "rich": "Richer model"
       },
       "modelWords": "{count} words",
       "kind": {
@@ -762,7 +764,9 @@
       "download": "Download",
       "model": {
         "b2": "B2 model",
-        "c": "C model"
+        "c": "C model",
+        "basic": "Simple model",
+        "rich": "Richer model"
       },
       "modelWords": "{count} words",
       "role": {

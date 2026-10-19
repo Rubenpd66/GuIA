@@ -283,7 +283,7 @@ export function WritingSession({
               }
             />
             {reviewing && item.models ? (
-              <ModelAnswers models={item.models} />
+              <ModelAnswers models={item.models} level={task.cefrLevel} />
             ) : null}
             {reviewing && item.sampleAnswers ? (
               <p className="text-sm">

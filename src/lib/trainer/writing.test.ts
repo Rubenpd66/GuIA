@@ -12,6 +12,7 @@ import { createRng } from "./random";
 import {
   annotatedSegments,
   buildWritingSession,
+  modelLabelKey,
   wordStatus,
   writingItems,
 } from "./writing";
@@ -144,5 +145,17 @@ describe("buildWritingSession", () => {
       });
       expect(task!.id).toBe("w2-4");
     }
+  });
+});
+
+describe("modelLabelKey", () => {
+  it("never calls an A2 task's plainer model a B2 model", () => {
+    expect(modelLabelKey("b2", "A2")).toBe("basic");
+    expect(modelLabelKey("c", "A2")).toBe("rich");
+  });
+
+  it("keeps the B2 and C labels from B1 up", () => {
+    expect(modelLabelKey("b2", "B1")).toBe("b2");
+    expect(modelLabelKey("c", "C1")).toBe("c");
   });
 });

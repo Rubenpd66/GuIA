@@ -152,3 +152,15 @@ export function buildWritingSession({
   const drafted = pool.find((task) => draftedIds.includes(task.id));
   return drafted ? [drafted] : shuffle(pool, rng).slice(0, 1);
 }
+
+/**
+ * The message key for a model answer's label. A2 tasks keep the schema's `b2` / `c` slots, but
+ * their models are written at A2, so calling them "B2" would overstate the learner's level.
+ */
+export function modelLabelKey(
+  model: "b2" | "c",
+  level: CefrLevel,
+): "b2" | "c" | "basic" | "rich" {
+  if (level !== "A2") return model;
+  return model === "b2" ? "basic" : "rich";
+}

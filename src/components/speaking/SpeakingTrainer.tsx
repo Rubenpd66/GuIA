@@ -300,6 +300,7 @@ export function SpeakingSession({
                   key={j}
                   id={`${item.key}-${j}`}
                   question={question}
+                  level={task.cefrLevel}
                   speech={speech}
                 />
               ))}
@@ -440,6 +441,7 @@ export function SpeakingSession({
               key={j}
               id={`${turn.key}-${j}`}
               question={question}
+              level={task.cefrLevel}
               speech={speech}
             />
           ))}
