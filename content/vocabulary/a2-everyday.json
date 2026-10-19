@@ -1,0 +1,937 @@
+{
+  "kind": "vocabulary",
+  "items": [
+    {
+      "id": "v-a2-boss",
+      "headword": "boss",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["work"],
+      "definition": "The person who is in charge of you at work.",
+      "examples": [
+        "My boss asked me to finish the report before lunch.",
+        "She is a very fair boss and always listens to the team."
+      ],
+      "collocations": ["a good boss", "ask your boss", "my boss's office"],
+      "register": "informal"
+    },
+    {
+      "id": "v-a2-salary",
+      "headword": "salary",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["work"],
+      "definition": "The money you receive every month for your job.",
+      "examples": [
+        "The salary is good, but the hours are long.",
+        "He asked for a higher salary after two years in the company."
+      ],
+      "collocations": ["a high salary", "a monthly salary", "earn a salary"]
+    },
+    {
+      "id": "v-a2-interview",
+      "headword": "interview",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["work"],
+      "definition": "A formal meeting where someone asks you questions to decide if you are right for a job.",
+      "examples": [
+        "I have a job interview on Thursday morning.",
+        "She felt nervous before the interview but it went well."
+      ],
+      "collocations": [
+        "a job interview",
+        "have an interview",
+        "go to an interview"
+      ]
+    },
+    {
+      "id": "v-a2-customer",
+      "headword": "customer",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["work"],
+      "definition": "A person who buys goods or services from a shop or a company.",
+      "examples": [
+        "The shop assistant helped a customer find the right size.",
+        "Our customers can pay by card or in cash."
+      ],
+      "collocations": [
+        "a regular customer",
+        "customer service",
+        "serve a customer"
+      ],
+      "synonyms": ["client"]
+    },
+    {
+      "id": "v-a2-part-time",
+      "headword": "part-time",
+      "pos": "adjective",
+      "level": "A2",
+      "topics": ["work"],
+      "definition": "Working or studying for only some hours of the day or the week, not all of them.",
+      "examples": [
+        "My sister has a part-time job at a café on Saturdays.",
+        "I work part-time so that I can look after my children."
+      ],
+      "collocations": ["a part-time job", "work part-time", "part-time staff"]
+    },
+    {
+      "id": "v-a2-staff",
+      "headword": "staff",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["work"],
+      "definition": "All the people who work for a company, a shop or a school.",
+      "examples": [
+        "The staff at the hotel were friendly and helpful.",
+        "There is a meeting for all staff on Friday."
+      ],
+      "collocations": ["a member of staff", "staff room", "kitchen staff"]
+    },
+    {
+      "id": "v-a2-employee",
+      "headword": "employee",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["work"],
+      "definition": "A person who is paid to work for a company or another person.",
+      "examples": [
+        "The company has more than two hundred employees.",
+        "Every new employee gets a short training course."
+      ],
+      "collocations": [
+        "a new employee",
+        "a full-time employee",
+        "employees and managers"
+      ]
+    },
+    {
+      "id": "v-a2-manager",
+      "headword": "manager",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["work"],
+      "definition": "A person who is in charge of a shop, a team or a department.",
+      "examples": [
+        "The manager of the supermarket is looking for two new cashiers.",
+        "I need to speak to the manager about my holiday dates."
+      ],
+      "collocations": [
+        "a shop manager",
+        "the hotel manager",
+        "speak to the manager"
+      ]
+    },
+    {
+      "id": "v-a2-subject",
+      "headword": "subject",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["education"],
+      "definition": "An area of study at school or university, such as history or maths.",
+      "examples": [
+        "Geography is my favourite subject because we study other countries.",
+        "How many subjects do you take this year?"
+      ],
+      "collocations": [
+        "a school subject",
+        "my favourite subject",
+        "study a subject"
+      ]
+    },
+    {
+      "id": "v-a2-homework",
+      "headword": "homework",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["education"],
+      "definition": "Work that a teacher asks students to do at home.",
+      "examples": [
+        "I have a lot of homework to do this weekend.",
+        "Have you done your English homework yet?"
+      ],
+      "collocations": ["do your homework", "set homework", "hand in homework"]
+    },
+    {
+      "id": "v-a2-exam",
+      "headword": "exam",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["education"],
+      "definition": "A written or spoken test of what you know.",
+      "examples": [
+        "I have a maths exam tomorrow, so I am studying tonight.",
+        "She passed all her exams with good marks."
+      ],
+      "collocations": ["take an exam", "pass an exam", "revise for an exam"]
+    },
+    {
+      "id": "v-a2-timetable",
+      "headword": "timetable",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["education"],
+      "definition": "A list that shows the times of lessons, trains or buses.",
+      "examples": [
+        "My timetable is full on Mondays: I have six lessons.",
+        "Check the bus timetable before you leave."
+      ],
+      "collocations": [
+        "a school timetable",
+        "a train timetable",
+        "check the timetable"
+      ]
+    },
+    {
+      "id": "v-a2-degree",
+      "headword": "degree",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["education"],
+      "definition": "A qualification that you get when you finish a course at university.",
+      "examples": [
+        "She has a degree in chemistry from Manchester.",
+        "My brother is studying for a degree in law."
+      ],
+      "collocations": [
+        "a university degree",
+        "do a degree",
+        "a degree in biology"
+      ]
+    },
+    {
+      "id": "v-a2-pupil",
+      "headword": "pupil",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["education"],
+      "definition": "A child or young person who goes to school.",
+      "examples": [
+        "There are thirty pupils in my daughter's class.",
+        "The teacher asked the pupils to open their books."
+      ],
+      "collocations": [
+        "a primary school pupil",
+        "a class of pupils",
+        "pupils and teachers"
+      ],
+      "synonyms": ["student"]
+    },
+    {
+      "id": "v-a2-classroom",
+      "headword": "classroom",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["education"],
+      "definition": "A room in a school where a teacher gives lessons.",
+      "examples": [
+        "The classroom was warm and the windows were open.",
+        "Please leave the classroom quietly when the bell rings."
+      ],
+      "collocations": [
+        "in the classroom",
+        "a bright classroom",
+        "a classroom with twenty desks"
+      ]
+    },
+    {
+      "id": "v-a2-fail",
+      "headword": "fail",
+      "pos": "verb",
+      "level": "A2",
+      "topics": ["education"],
+      "definition": "To not pass a test or an exam.",
+      "examples": [
+        "He failed his driving test the first time.",
+        "If you do not study, you may fail the exam."
+      ],
+      "collocations": ["fail an exam", "fail a test", "fail a course"]
+    },
+    {
+      "id": "v-a2-luggage",
+      "headword": "luggage",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["travel"],
+      "definition": "The bags and suitcases you take with you on a journey.",
+      "examples": [
+        "Our luggage was very heavy, so we took a taxi.",
+        "Can I leave my luggage at the hotel until the afternoon?"
+      ],
+      "collocations": ["heavy luggage", "hand luggage", "pick up your luggage"],
+      "synonyms": ["baggage"]
+    },
+    {
+      "id": "v-a2-passport",
+      "headword": "passport",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["travel"],
+      "definition": "An official document that you show when you travel to another country.",
+      "examples": [
+        "I forgot my passport and could not board the plane.",
+        "Your passport must be valid for at least six months."
+      ],
+      "collocations": [
+        "show your passport",
+        "renew a passport",
+        "a valid passport"
+      ]
+    },
+    {
+      "id": "v-a2-journey",
+      "headword": "journey",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["travel"],
+      "definition": "The act of travelling from one place to another, especially a long way.",
+      "examples": [
+        "The journey from Madrid to Paris takes about fourteen hours by car.",
+        "Have a safe journey and send me a message when you arrive."
+      ],
+      "collocations": [
+        "a long journey",
+        "a train journey",
+        "enjoy your journey"
+      ]
+    },
+    {
+      "id": "v-a2-trip",
+      "headword": "trip",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["travel"],
+      "definition": "A short journey to a place and back, for example for pleasure or work.",
+      "examples": [
+        "We are planning a weekend trip to the coast.",
+        "My boss is on a business trip in Germany this week."
+      ],
+      "collocations": ["go on a trip", "a day trip", "a business trip"]
+    },
+    {
+      "id": "v-a2-flight",
+      "headword": "flight",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["travel"],
+      "definition": "A journey in a plane, or a plane that makes a particular journey.",
+      "examples": [
+        "Our flight to Dublin leaves at ten past seven.",
+        "It is a short flight, only about an hour."
+      ],
+      "collocations": ["catch a flight", "miss a flight", "a direct flight"]
+    },
+    {
+      "id": "v-a2-platform",
+      "headword": "platform",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["travel"],
+      "definition": "The raised area next to the railway line where you wait for a train.",
+      "examples": [
+        "The train to York leaves from platform four.",
+        "We waited on the platform for twenty minutes."
+      ],
+      "collocations": [
+        "on the platform",
+        "platform number",
+        "a crowded platform"
+      ]
+    },
+    {
+      "id": "v-a2-abroad",
+      "headword": "abroad",
+      "pos": "adverb",
+      "level": "A2",
+      "topics": ["travel"],
+      "definition": "In or to a foreign country.",
+      "examples": [
+        "She wants to study abroad for a year.",
+        "We usually go abroad in the summer."
+      ],
+      "collocations": ["go abroad", "live abroad", "work abroad"]
+    },
+    {
+      "id": "v-a2-tourist",
+      "headword": "tourist",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["travel"],
+      "definition": "A person who visits a place for pleasure, not to live or work there.",
+      "examples": [
+        "The old town is full of tourists in August.",
+        "A group of tourists asked me the way to the castle."
+      ],
+      "collocations": [
+        "a tourist attraction",
+        "a tourist information office",
+        "tourists and locals"
+      ]
+    },
+    {
+      "id": "v-a2-junction",
+      "headword": "junction",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["city"],
+      "definition": "A place where two or more roads meet.",
+      "examples": [
+        "Turn left at the next junction and you will see the station.",
+        "There is often a traffic jam at this junction in the morning."
+      ],
+      "collocations": ["a busy junction", "at the junction", "a road junction"]
+    },
+    {
+      "id": "v-a2-bridge",
+      "headword": "bridge",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["city"],
+      "definition": "A structure that carries a road, a path or a railway over a river or a road.",
+      "examples": [
+        "We walked across the old stone bridge to the market.",
+        "The bridge is closed for repairs until next month."
+      ],
+      "collocations": [
+        "cross a bridge",
+        "an old bridge",
+        "a bridge over the river"
+      ]
+    },
+    {
+      "id": "v-a2-square",
+      "headword": "square",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["city"],
+      "definition": "An open area in a town with buildings around it, often with cafés or a market.",
+      "examples": [
+        "We had coffee in the main square and watched people go by.",
+        "There is a Christmas market in the square every December."
+      ],
+      "collocations": [
+        "the main square",
+        "a market square",
+        "meet in the square"
+      ]
+    },
+    {
+      "id": "v-a2-crowded",
+      "headword": "crowded",
+      "pos": "adjective",
+      "level": "A2",
+      "topics": ["city"],
+      "definition": "Full of people.",
+      "examples": [
+        "The metro was so crowded that I could not find a seat.",
+        "I do not like crowded beaches, so I go early in the morning."
+      ],
+      "collocations": ["a crowded street", "a crowded train", "very crowded"],
+      "synonyms": ["packed"]
+    },
+    {
+      "id": "v-a2-pedestrian",
+      "headword": "pedestrian",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["city"],
+      "definition": "A person who is walking, not travelling in a vehicle.",
+      "examples": [
+        "Drivers must stop for pedestrians at a crossing.",
+        "The city centre is now a pedestrian area, so there are no cars."
+      ],
+      "collocations": [
+        "a pedestrian crossing",
+        "a pedestrian street",
+        "pedestrians and cyclists"
+      ]
+    },
+    {
+      "id": "v-a2-bus-stop",
+      "headword": "bus stop",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["city"],
+      "definition": "A place by the road where a bus stops to pick up and drop off passengers.",
+      "examples": [
+        "The bus stop is just opposite the post office.",
+        "I waited at the bus stop for half an hour in the rain."
+      ],
+      "collocations": [
+        "wait at the bus stop",
+        "the next bus stop",
+        "get off at this stop"
+      ]
+    },
+    {
+      "id": "v-a2-town-hall",
+      "headword": "town hall",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["city"],
+      "definition": "The building where the local government of a town or city works.",
+      "examples": [
+        "You can get a copy of your birth certificate at the town hall.",
+        "The wedding photographs were taken in front of the town hall."
+      ],
+      "collocations": [
+        "the town hall square",
+        "go to the town hall",
+        "an old town hall"
+      ]
+    },
+    {
+      "id": "v-a2-notice",
+      "headword": "notice",
+      "pos": "verb",
+      "level": "A2",
+      "topics": ["city"],
+      "definition": "To see or become aware of something.",
+      "examples": [
+        "I did not notice the sign, so I took the wrong road.",
+        "Did you notice that the café on the corner has closed?"
+      ],
+      "collocations": [
+        "notice a change",
+        "notice a mistake",
+        "not notice anything"
+      ],
+      "falseFriend": {
+        "spanish": "noticia",
+        "trap": {
+          "en": "Notice is a verb meaning to see something. The word for noticia is news (uncountable), never notice.",
+          "es": "Notice no es \"noticia\" (eso es news): notice es darse cuenta de algo."
+        }
+      }
+    },
+    {
+      "id": "v-a2-receipt",
+      "headword": "receipt",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["shopping-consumption"],
+      "definition": "A piece of paper that shows you have paid for something.",
+      "examples": [
+        "Keep the receipt in case you need to return the jumper.",
+        "The assistant gave me a receipt with my change."
+      ],
+      "collocations": [
+        "keep the receipt",
+        "ask for a receipt",
+        "show your receipt"
+      ]
+    },
+    {
+      "id": "v-a2-discount",
+      "headword": "discount",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["shopping-consumption"],
+      "definition": "A lower price than the usual price.",
+      "examples": [
+        "Students get a ten per cent discount in this shop.",
+        "There is a big discount on winter coats at the moment."
+      ],
+      "collocations": [
+        "get a discount",
+        "a student discount",
+        "offer a discount"
+      ]
+    },
+    {
+      "id": "v-a2-cashier",
+      "headword": "cashier",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["shopping-consumption"],
+      "definition": "A person whose job is to take payments from customers in a shop.",
+      "examples": [
+        "The cashier scanned my shopping and told me the total.",
+        "She works as a cashier at the supermarket on weekends."
+      ],
+      "collocations": [
+        "a supermarket cashier",
+        "pay the cashier",
+        "a friendly cashier"
+      ]
+    },
+    {
+      "id": "v-a2-trolley",
+      "headword": "trolley",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["shopping-consumption"],
+      "definition": "A large basket on wheels that you push around a supermarket.",
+      "examples": [
+        "I put the milk and the bread in the trolley and went to the till.",
+        "You need a pound coin to unlock a trolley."
+      ],
+      "collocations": ["a shopping trolley", "push a trolley", "a full trolley"]
+    },
+    {
+      "id": "v-a2-queue",
+      "headword": "queue",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["shopping-consumption"],
+      "definition": "A line of people who are waiting for something, one behind the other.",
+      "examples": [
+        "There was a long queue at the post office this morning.",
+        "In Britain, people usually wait in a queue and do not push."
+      ],
+      "collocations": ["join the queue", "wait in a queue", "a long queue"]
+    },
+    {
+      "id": "v-a2-try-on",
+      "headword": "try on",
+      "pos": "phrasal-verb",
+      "level": "A2",
+      "topics": ["shopping-consumption"],
+      "definition": "To put on a piece of clothing to see if it fits you and if you like it.",
+      "examples": [
+        "Can I try on these shoes, please? I am not sure about the size.",
+        "She tried on three dresses before she chose the blue one."
+      ],
+      "collocations": [
+        "try on a jacket",
+        "try something on",
+        "a changing room to try on clothes"
+      ]
+    },
+    {
+      "id": "v-a2-large",
+      "headword": "large",
+      "pos": "adjective",
+      "level": "A2",
+      "topics": ["shopping-consumption"],
+      "definition": "Big in size or amount.",
+      "examples": [
+        "I would like a large coffee and a small cake, please.",
+        "This jumper is too large for me; do you have a medium?"
+      ],
+      "collocations": ["a large size", "a large number of", "extra large"],
+      "synonyms": ["big"],
+      "falseFriend": {
+        "spanish": "largo",
+        "trap": {
+          "en": "Large means big, not long. For largo, say long.",
+          "es": "Large es \"grande\", no \"largo\". Largo se dice long."
+        }
+      }
+    },
+    {
+      "id": "v-a2-headache",
+      "headword": "headache",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["health-sport"],
+      "definition": "A pain in your head.",
+      "examples": [
+        "I have a terrible headache and the bright light makes it worse.",
+        "Do you have anything for a headache?"
+      ],
+      "collocations": ["have a headache", "a bad headache", "get a headache"]
+    },
+    {
+      "id": "v-a2-medicine",
+      "headword": "medicine",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["health-sport"],
+      "definition": "Something you take, such as a tablet or a liquid, to treat an illness.",
+      "examples": [
+        "Take this medicine after meals, three times a day.",
+        "The pharmacist explained how to use the medicine."
+      ],
+      "collocations": [
+        "take medicine",
+        "cough medicine",
+        "a bottle of medicine"
+      ]
+    },
+    {
+      "id": "v-a2-cough",
+      "headword": "cough",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["health-sport"],
+      "definition": "An illness or a reaction in your throat that makes you push air out noisily.",
+      "examples": [
+        "I have had a dry cough all week and my throat hurts.",
+        "The cough kept me awake last night."
+      ],
+      "collocations": ["a dry cough", "a bad cough", "have a cough"]
+    },
+    {
+      "id": "v-a2-fever",
+      "headword": "fever",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["health-sport"],
+      "definition": "A body temperature that is higher than normal because you are ill.",
+      "examples": [
+        "She has a high fever and feels hot and shivery.",
+        "If the fever does not go down, call a doctor."
+      ],
+      "collocations": ["a high fever", "have a fever", "a fever of 39 degrees"],
+      "synonyms": ["a high temperature"]
+    },
+    {
+      "id": "v-a2-match",
+      "headword": "match",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["health-sport"],
+      "definition": "A sports game between two teams or two players.",
+      "examples": [
+        "We are playing a football match against the other school on Saturday.",
+        "Did you watch the tennis match last night?"
+      ],
+      "collocations": ["play a match", "win a match", "a football match"]
+    },
+    {
+      "id": "v-a2-gym",
+      "headword": "gym",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["health-sport"],
+      "definition": "A place with equipment where people do exercise.",
+      "examples": [
+        "I go to the gym three times a week after work.",
+        "She has a gym membership but she hardly ever uses it."
+      ],
+      "collocations": ["go to the gym", "a gym membership", "join a gym"]
+    },
+    {
+      "id": "v-a2-healthy",
+      "headword": "healthy",
+      "pos": "adjective",
+      "level": "A2",
+      "topics": ["health-sport"],
+      "definition": "Not ill, or good for your body.",
+      "examples": [
+        "My grandfather is eighty, but he is still very healthy.",
+        "Try to eat a healthy breakfast with fruit and eggs."
+      ],
+      "collocations": ["a healthy diet", "healthy food", "stay healthy"]
+    },
+    {
+      "id": "v-a2-neighbour",
+      "headword": "neighbour",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["relationships"],
+      "definition": "A person who lives next to you or very near you.",
+      "examples": [
+        "Our neighbour waters our plants when we are on holiday.",
+        "I have never spoken to my neighbours in the flat upstairs."
+      ],
+      "collocations": [
+        "a next-door neighbour",
+        "a noisy neighbour",
+        "get on with your neighbours"
+      ]
+    },
+    {
+      "id": "v-a2-wedding",
+      "headword": "wedding",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["relationships"],
+      "definition": "A ceremony in which two people get married.",
+      "examples": [
+        "We are going to my cousin's wedding in July.",
+        "The wedding was in a small church by the sea."
+      ],
+      "collocations": ["go to a wedding", "a wedding dress", "wedding photos"]
+    },
+    {
+      "id": "v-a2-cousin",
+      "headword": "cousin",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["relationships"],
+      "definition": "A child of your aunt or uncle.",
+      "examples": [
+        "My cousin lives in Glasgow, so we only meet at Christmas.",
+        "I have six cousins, and we all get on well."
+      ],
+      "collocations": ["a first cousin", "my cousin's house", "visit a cousin"]
+    },
+    {
+      "id": "v-a2-invite",
+      "headword": "invite",
+      "pos": "verb",
+      "level": "A2",
+      "topics": ["relationships"],
+      "definition": "To ask someone to come to a party, a meal or another event.",
+      "examples": [
+        "She invited all her colleagues to her birthday party.",
+        "We invited our new neighbours to dinner on Saturday."
+      ],
+      "collocations": [
+        "invite someone to dinner",
+        "invite friends round",
+        "be invited to a party"
+      ]
+    },
+    {
+      "id": "v-a2-polite",
+      "headword": "polite",
+      "pos": "adjective",
+      "level": "A2",
+      "topics": ["relationships"],
+      "definition": "Showing good manners and respect to other people.",
+      "examples": [
+        "It is polite to say thank you when someone helps you.",
+        "The waiter was always polite, even when the restaurant was full."
+      ],
+      "collocations": [
+        "a polite person",
+        "polite to everyone",
+        "a polite reply"
+      ]
+    },
+    {
+      "id": "v-a2-miss",
+      "headword": "miss",
+      "pos": "verb",
+      "level": "A2",
+      "topics": ["relationships"],
+      "definition": "To feel sad because someone or something is not with you any more; also, to arrive too late for a bus, train or event.",
+      "examples": [
+        "I miss my friends from the old school.",
+        "We ran to the station, but we missed the last train."
+      ],
+      "collocations": ["miss someone a lot", "miss the bus", "miss a lesson"]
+    },
+    {
+      "id": "v-a2-ignore",
+      "headword": "ignore",
+      "pos": "verb",
+      "level": "A2",
+      "topics": ["relationships"],
+      "definition": "To know that something or someone is there but to pay no attention to it or them.",
+      "examples": [
+        "I sent her three messages, but she ignored them all.",
+        "He ignored the warning and walked across the road."
+      ],
+      "collocations": [
+        "ignore a message",
+        "ignore advice",
+        "completely ignore someone"
+      ],
+      "falseFriend": {
+        "spanish": "ignorar",
+        "trap": {
+          "en": "Ignore means to pay no attention on purpose. It does not mean not to know something: for that, say not know.",
+          "es": "Ignore es hacer como si algo no existiera, no \"ignorar\" (no saber). Para no saber se dice not know."
+        }
+      }
+    },
+    {
+      "id": "v-a2-concert",
+      "headword": "concert",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["culture-leisure"],
+      "definition": "An event where musicians play or sing for an audience.",
+      "examples": [
+        "We went to a concert in the park last Saturday.",
+        "The concert starts at eight, so let's meet at seven."
+      ],
+      "collocations": ["go to a concert", "a rock concert", "a live concert"]
+    },
+    {
+      "id": "v-a2-ticket",
+      "headword": "ticket",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["culture-leisure"],
+      "definition": "A piece of paper or a code that lets you enter a place or travel.",
+      "examples": [
+        "I bought two tickets for the cinema online.",
+        "You need a ticket to get into the museum."
+      ],
+      "collocations": ["buy a ticket", "a one-way ticket", "tickets for a show"]
+    },
+    {
+      "id": "v-a2-novel",
+      "headword": "novel",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["culture-leisure"],
+      "definition": "A long written story, usually about people who are not real.",
+      "examples": [
+        "I am reading a novel about a family in the 1920s.",
+        "She wrote her first novel when she was twenty."
+      ],
+      "collocations": ["write a novel", "a crime novel", "a best-selling novel"]
+    },
+    {
+      "id": "v-a2-hobby",
+      "headword": "hobby",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["culture-leisure"],
+      "definition": "An activity you enjoy doing in your free time.",
+      "examples": [
+        "My hobby is photography, and I take pictures every weekend.",
+        "Cooking started as a hobby, but now it is my job."
+      ],
+      "collocations": ["take up a hobby", "have a hobby", "a favourite hobby"]
+    },
+    {
+      "id": "v-a2-painting",
+      "headword": "painting",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["culture-leisure"],
+      "definition": "A picture that someone has made with paint.",
+      "examples": [
+        "There is a beautiful painting of the sea above the sofa.",
+        "The museum has a famous painting by a Dutch artist."
+      ],
+      "collocations": [
+        "an oil painting",
+        "a painting of a landscape",
+        "hang a painting"
+      ]
+    },
+    {
+      "id": "v-a2-festival",
+      "headword": "festival",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["culture-leisure"],
+      "definition": "A series of public events, often music, films or food, that lasts for several days.",
+      "examples": [
+        "We camped for three days at a music festival.",
+        "The town holds a film festival every September."
+      ],
+      "collocations": [
+        "a music festival",
+        "a film festival",
+        "go to a festival"
+      ]
+    },
+    {
+      "id": "v-a2-theatre",
+      "headword": "theatre",
+      "pos": "noun",
+      "level": "A2",
+      "topics": ["culture-leisure"],
+      "definition": "A building where people go to watch plays; also plays as an art form.",
+      "examples": [
+        "We booked seats at the theatre for Friday evening.",
+        "She studies theatre and wants to be an actor."
+      ],
+      "collocations": [
+        "go to the theatre",
+        "a theatre ticket",
+        "a local theatre"
+      ]
+    }
+  ]
+}

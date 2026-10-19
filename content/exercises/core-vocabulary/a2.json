@@ -1,0 +1,512 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "cv-a2-synonym-1",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 1,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "salary",
+        "employee",
+        "customer",
+        "boss",
+        "staff",
+        "interview",
+        "part-time",
+        "overtime"
+      ],
+      "items": [
+        {
+          "id": "cv-a2-synonym-1-a",
+          "prompt": "pay",
+          "answer": 0,
+          "explanation": {
+            "en": "Pay and salary both mean the money you get for your work; a salary is usually paid monthly."
+          }
+        },
+        {
+          "id": "cv-a2-synonym-1-b",
+          "prompt": "worker",
+          "answer": 1,
+          "explanation": {
+            "en": "An employee is a person who works for a company and is paid by it."
+          }
+        },
+        {
+          "id": "cv-a2-synonym-1-c",
+          "prompt": "client",
+          "answer": 2,
+          "explanation": {
+            "en": "A customer buys goods or services from a shop or a company, so client is a close synonym."
+          }
+        },
+        {
+          "id": "cv-a2-synonym-1-d",
+          "prompt": "chief",
+          "answer": 3,
+          "explanation": {
+            "en": "Your boss is the person in charge of you at work.",
+            "es": "Boss es informal; chief suena más serio."
+          }
+        },
+        {
+          "id": "cv-a2-synonym-1-e",
+          "prompt": "personnel",
+          "answer": 4,
+          "explanation": {
+            "en": "Personnel is the formal word for all the people who work somewhere; staff is the everyday word.",
+            "es": "Staff es colectivo: a member of staff, no \"a staff\"."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-a2-synonym-2",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 2,
+      "vocabType": "synonym",
+      "instructions": "Choose the word that is closest in meaning to the word on the left.",
+      "options": [
+        "luggage",
+        "trip",
+        "abroad",
+        "tourist",
+        "journey",
+        "passport",
+        "platform",
+        "flight"
+      ],
+      "items": [
+        {
+          "id": "cv-a2-synonym-2-a",
+          "prompt": "baggage",
+          "answer": 0,
+          "explanation": {
+            "en": "Luggage is the usual British word; baggage means the same.",
+            "es": "Luggage no tiene plural: two pieces of luggage."
+          }
+        },
+        {
+          "id": "cv-a2-synonym-2-b",
+          "prompt": "day out",
+          "answer": 1,
+          "explanation": {
+            "en": "A trip is a short journey to a place and back, like a day out."
+          }
+        },
+        {
+          "id": "cv-a2-synonym-2-c",
+          "prompt": "overseas",
+          "answer": 2,
+          "explanation": {
+            "en": "Abroad means in or to another country, like overseas.",
+            "es": "Se dice go abroad, sin preposición."
+          }
+        },
+        {
+          "id": "cv-a2-synonym-2-d",
+          "prompt": "visitor (on holiday)",
+          "answer": 3,
+          "explanation": {
+            "en": "A tourist is a visitor who is on holiday in a place."
+          }
+        },
+        {
+          "id": "cv-a2-synonym-2-e",
+          "prompt": "voyage",
+          "answer": 4,
+          "explanation": {
+            "en": "A voyage is a long journey, and journey is the everyday word."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-a2-definition-1",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 1,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "timetable",
+        "homework",
+        "exam",
+        "pupil",
+        "classroom",
+        "subject",
+        "degree",
+        "fail",
+        "lecture"
+      ],
+      "items": [
+        {
+          "id": "cv-a2-definition-1-a",
+          "prompt": "a list that shows when each lesson takes place",
+          "answer": 0,
+          "explanation": {
+            "en": "A timetable shows the day and time of every lesson."
+          }
+        },
+        {
+          "id": "cv-a2-definition-1-b",
+          "prompt": "work that a teacher asks you to do at home",
+          "answer": 1,
+          "explanation": {
+            "en": "Homework is done at home, after lessons.",
+            "es": "Homework no tiene plural."
+          }
+        },
+        {
+          "id": "cv-a2-definition-1-c",
+          "prompt": "a test of what you know, on paper or spoken",
+          "answer": 2,
+          "explanation": {
+            "en": "You take an exam to show what you have learnt."
+          }
+        },
+        {
+          "id": "cv-a2-definition-1-d",
+          "prompt": "a child or young person who goes to school",
+          "answer": 3,
+          "explanation": {
+            "en": "Pupil is the usual word for a child at school; student is also used for older learners."
+          }
+        },
+        {
+          "id": "cv-a2-definition-1-e",
+          "prompt": "the room where a teacher gives lessons",
+          "answer": 4,
+          "explanation": {
+            "en": "A classroom is the room in a school where lessons happen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-a2-definition-2",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "A2",
+      "topic": "city",
+      "difficulty": 2,
+      "vocabType": "definition",
+      "instructions": "Choose the word that matches each definition.",
+      "options": [
+        "junction",
+        "pedestrian",
+        "square",
+        "bridge",
+        "crowded",
+        "bus stop",
+        "town hall",
+        "notice",
+        "suburb",
+        "pavement"
+      ],
+      "items": [
+        {
+          "id": "cv-a2-definition-2-a",
+          "prompt": "a place where two or more roads meet",
+          "answer": 0,
+          "explanation": {
+            "en": "You stop or slow down at a junction before you go on."
+          }
+        },
+        {
+          "id": "cv-a2-definition-2-b",
+          "prompt": "a person who walks in the street, not in a car",
+          "answer": 1,
+          "explanation": {
+            "en": "Pedestrians use the pavement and the crossings."
+          }
+        },
+        {
+          "id": "cv-a2-definition-2-c",
+          "prompt": "a large open area in a town, with buildings around it",
+          "answer": 2,
+          "explanation": {
+            "en": "Many towns have a main square with cafés and a market."
+          }
+        },
+        {
+          "id": "cv-a2-definition-2-d",
+          "prompt": "a structure that takes a road or a railway over a river",
+          "answer": 3,
+          "explanation": {
+            "en": "A bridge lets you cross a river without getting wet."
+          }
+        },
+        {
+          "id": "cv-a2-definition-2-e",
+          "prompt": "full of people, with no space to move",
+          "answer": 4,
+          "explanation": {
+            "en": "A crowded train or street has too many people."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-a2-usage-1",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 2,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "receipt",
+        "discount",
+        "cashier",
+        "trolley",
+        "queue",
+        "try on",
+        "large",
+        "refund",
+        "bargain",
+        "sold out"
+      ],
+      "items": [
+        {
+          "id": "cv-a2-usage-1-a",
+          "prompt": "Keep the ___ in case you want to take the jumper back to the shop.",
+          "answer": 0,
+          "explanation": {
+            "en": "A receipt is the paper that proves you paid."
+          }
+        },
+        {
+          "id": "cv-a2-usage-1-b",
+          "prompt": "There is a twenty per cent ___ on all winter coats this week.",
+          "answer": 1,
+          "explanation": {
+            "en": "A discount is a lower price than usual."
+          }
+        },
+        {
+          "id": "cv-a2-usage-1-c",
+          "prompt": "The ___ scanned my shopping at the till and told me the total.",
+          "answer": 2,
+          "explanation": {
+            "en": "A cashier takes the money at a shop till."
+          }
+        },
+        {
+          "id": "cv-a2-usage-1-d",
+          "prompt": "I put the milk and the bread in the ___ and went to the till.",
+          "answer": 3,
+          "explanation": {
+            "en": "In a British supermarket you push a trolley.",
+            "es": "Trolley es el carro de la compra; en inglés americano, cart."
+          }
+        },
+        {
+          "id": "cv-a2-usage-1-e",
+          "prompt": "We waited in a long ___ at the post office to send the parcel.",
+          "answer": 4,
+          "explanation": {
+            "en": "A queue is a line of people who wait, one behind another.",
+            "es": "Queue se pronuncia /kjuː/."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-a2-usage-2",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "vocabType": "usage",
+      "instructions": "Complete each sentence with the best word.",
+      "options": [
+        "headache",
+        "medicine",
+        "fever",
+        "cough",
+        "match",
+        "gym",
+        "healthy",
+        "sore",
+        "injury",
+        "sprain"
+      ],
+      "items": [
+        {
+          "id": "cv-a2-usage-2-a",
+          "prompt": "I have a terrible ___ and the bright light makes it worse.",
+          "answer": 0,
+          "explanation": {
+            "en": "A headache is a pain in your head."
+          }
+        },
+        {
+          "id": "cv-a2-usage-2-b",
+          "prompt": "Take this ___ after your meals, three times a day.",
+          "answer": 1,
+          "explanation": {
+            "en": "Medicine is what you take to treat an illness.",
+            "es": "Medicine es el medicamento, no el médico (doctor)."
+          }
+        },
+        {
+          "id": "cv-a2-usage-2-c",
+          "prompt": "She has a high ___ and feels hot and shivery.",
+          "answer": 2,
+          "explanation": {
+            "en": "A fever is a body temperature higher than normal."
+          }
+        },
+        {
+          "id": "cv-a2-usage-2-d",
+          "prompt": "I have had a dry ___ all week and my throat hurts.",
+          "answer": 3,
+          "explanation": {
+            "en": "A dry cough makes you push air out noisily without any liquid."
+          }
+        },
+        {
+          "id": "cv-a2-usage-2-e",
+          "prompt": "Our team is playing a football ___ against the other school on Saturday.",
+          "answer": 4,
+          "explanation": {
+            "en": "A match is a game between two teams or players."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-a2-collocation-1",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 2,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "wedding",
+        "neighbour",
+        "cousin",
+        "miss",
+        "invite",
+        "ignore",
+        "polite",
+        "argument"
+      ],
+      "items": [
+        {
+          "id": "cv-a2-collocation-1-a",
+          "prompt": "go to a …",
+          "answer": 0,
+          "explanation": {
+            "en": "We say go to a wedding."
+          }
+        },
+        {
+          "id": "cv-a2-collocation-1-b",
+          "prompt": "a next-door …",
+          "answer": 1,
+          "explanation": {
+            "en": "A next-door neighbour lives in the house or flat beside yours.",
+            "es": "Neighbour se escribe con -our en inglés británico."
+          }
+        },
+        {
+          "id": "cv-a2-collocation-1-c",
+          "prompt": "a first …",
+          "answer": 2,
+          "explanation": {
+            "en": "A first cousin is the child of your aunt or uncle."
+          }
+        },
+        {
+          "id": "cv-a2-collocation-1-d",
+          "prompt": "… the last train",
+          "answer": 3,
+          "explanation": {
+            "en": "We miss a train when we arrive too late.",
+            "es": "Se dice miss the train, no \"lose the train\"."
+          }
+        },
+        {
+          "id": "cv-a2-collocation-1-e",
+          "prompt": "… a friend to dinner",
+          "answer": 4,
+          "explanation": {
+            "en": "We invite someone to dinner, to a party or to an event.",
+            "es": "Invite someone to + evento."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-a2-collocation-2",
+      "examPart": "core-vocabulary",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "vocabType": "collocation",
+      "instructions": "Choose the word that is most often used with the words on the left.",
+      "options": [
+        "ticket",
+        "novel",
+        "hobby",
+        "painting",
+        "festival",
+        "concert",
+        "theatre",
+        "exhibition"
+      ],
+      "items": [
+        {
+          "id": "cv-a2-collocation-2-a",
+          "prompt": "a return …",
+          "answer": 0,
+          "explanation": {
+            "en": "A return ticket lets you travel there and back."
+          }
+        },
+        {
+          "id": "cv-a2-collocation-2-b",
+          "prompt": "write a …",
+          "answer": 1,
+          "explanation": {
+            "en": "Authors write a novel, which is a long story."
+          }
+        },
+        {
+          "id": "cv-a2-collocation-2-c",
+          "prompt": "take up a …",
+          "answer": 2,
+          "explanation": {
+            "en": "We take up a hobby when we start a new free-time activity.",
+            "es": "Take up = empezar una afición."
+          }
+        },
+        {
+          "id": "cv-a2-collocation-2-d",
+          "prompt": "an oil …",
+          "answer": 3,
+          "explanation": {
+            "en": "An oil painting is made with oil paints."
+          }
+        },
+        {
+          "id": "cv-a2-collocation-2-e",
+          "prompt": "a film …",
+          "answer": 4,
+          "explanation": {
+            "en": "A film festival shows many films over several days."
+          }
+        }
+      ]
+    }
+  ]
+}
