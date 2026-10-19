@@ -1,5 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { PRICES, TIERS, canAccess, levelsFor, tierFor } from "./tiers";
+import {
+  PRICES,
+  TIERS,
+  canAccess,
+  formatPrice,
+  levelsFor,
+  tierFor,
+} from "./tiers";
 
 describe("tiers", () => {
   it("unlocks a tier's level and every level below", () => {
@@ -29,5 +36,13 @@ describe("tiers", () => {
       b2: { month: 1499, year: 14390 },
       c1: { month: 1999, year: 19190 },
     });
+  });
+});
+
+describe("formatPrice", () => {
+  it("formats euro cents the way each locale writes prices", () => {
+    // Intl keeps the number and the sign together with a no-break space.
+    expect(formatPrice(999, "es")).toBe("9,99 €");
+    expect(formatPrice(9590, "en")).toBe("€95.90");
   });
 });

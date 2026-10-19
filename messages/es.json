@@ -1111,5 +1111,19 @@
     "consentBody": "Las cookies técnicas imprescindibles no necesitan consentimiento, por eso no hay banner. No usamos cookies de analítica, de publicidad ni de terceros. Si algún día las añadimos, te pediremos permiso antes.",
     "controlTitle": "Cómo borrarlas",
     "controlBody": "Cierra la sesión desde la página de tu cuenta o borra las cookies de este sitio en tu navegador. Volverás a estar sin sesión y Sello seguirá funcionando en este navegador."
+  },
+  "Locked": {
+    "title": "Disponible desde el plan {plan}",
+    "body": "Este contenido forma parte de un plan de pago. El nivel A2 es gratis.",
+    "more": "{count, plural, one {# elemento más} other {# elementos más}} en planes superiores.",
+    "cta": "Ver planes",
+    "signIn": "Ya tengo cuenta",
+    "mark": "Bloqueado"
+  },
+  "Plans": {
+    "title": "Planes",
+    "lead": "Cada plan abre su nivel y todos los anteriores. Precios mensuales con IVA incluido.",
+    "free": "Gratis, sin cuenta",
+    "price": "{month} al mes o {year} al año"
   }
 }

@@ -39,6 +39,7 @@ export const routing = defineRouting({
     "/settings": { es: "/ajustes", en: "/settings" },
     "/sign-in": { es: "/acceso", en: "/sign-in" },
     "/account": { es: "/cuenta", en: "/account" },
+    "/plans": { es: "/planes", en: "/plans" },
     "/legal-notice": { es: "/aviso-legal", en: "/legal-notice" },
     "/privacy": { es: "/privacidad", en: "/privacy" },
     "/terms": { es: "/terminos", en: "/terms" },

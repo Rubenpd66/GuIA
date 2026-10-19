@@ -32,3 +32,10 @@ export const PRICES: Record<PaidTier, { month: number; year: number }> = {
   b2: { month: 1499, year: 14390 },
   c1: { month: 1999, year: 19190 },
 };
+
+export function formatPrice(cents: number, locale: "es" | "en"): string {
+  return new Intl.NumberFormat(locale === "es" ? "es-ES" : "en-GB", {
+    style: "currency",
+    currency: "EUR",
+  }).format(cents / 100);
+}

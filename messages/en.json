@@ -1111,5 +1111,19 @@
     "consentBody": "Strictly necessary technical cookies need no consent, which is why there is no banner. We use no analytics, advertising or third-party cookies. If we ever add them, we will ask your permission first.",
     "controlTitle": "How to delete them",
     "controlBody": "Sign out from your account page or clear this site's cookies in your browser. You will be signed out and Sello will keep working in this browser."
+  },
+  "Locked": {
+    "title": "Available from the {plan} plan",
+    "body": "This content is part of a paid plan. Level A2 is free.",
+    "more": "{count, plural, one {# more item} other {# more items}} in higher plans.",
+    "cta": "See plans",
+    "signIn": "I already have an account",
+    "mark": "Locked"
+  },
+  "Plans": {
+    "title": "Plans",
+    "lead": "Each plan opens its level and every level below. Monthly prices include VAT.",
+    "free": "Free, no account needed",
+    "price": "{month} a month or {year} a year"
   }
 }
