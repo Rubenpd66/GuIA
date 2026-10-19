@@ -34,7 +34,6 @@ export function LocaleSwitcher({ variant = "compact" }: LocaleSwitcherProps) {
                 hrefLang={locale}
                 lang={locale}
                 aria-current={active ? "true" : undefined}
-                aria-label={variant === "compact" ? t(locale) : undefined}
                 className={
                   variant === "compact"
                     ? cx(
@@ -46,7 +45,15 @@ export function LocaleSwitcher({ variant = "compact" }: LocaleSwitcherProps) {
                     : buttonClasses(active ? "primary" : "secondary")
                 }
               >
-                {variant === "compact" ? t(`${locale}Short`) : t(locale)}
+                {variant === "compact" ? (
+                  // The visible "EN" stays part of the name (WCAG 2.5.3); the full name follows.
+                  <>
+                    {t(`${locale}Short`)}
+                    <span className="sr-only"> {t(locale)}</span>
+                  </>
+                ) : (
+                  t(locale)
+                )}
               </Link>
             </li>
           );

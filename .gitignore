@@ -43,3 +43,8 @@ next-env.d.ts
 # graphify
 graphify-out/
 *.graphify-bak
+
+# playwright
+/test-results/
+/playwright-report/
+/.playwright-mcp/
