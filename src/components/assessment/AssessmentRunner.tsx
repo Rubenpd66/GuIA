@@ -27,7 +27,10 @@ type AssessmentRunnerProps = {
   steps: Step[];
   /** Time limit of a section in seconds, or null for no clock. */
   secondsOf: (step: Step) => number | null;
-  /** Where to pick up after a reload; a section in progress keeps its original clock. */
+  /**
+   * Where to pick up after a reload; a section in progress keeps its original clock.
+   * shortcut: its answers and Listening play counts start again; save them per section if that matters.
+   */
   resume?: RunnerProgress;
   /** Called on every change, so the caller can save it. */
   onProgress?: (progress: RunnerProgress) => void;

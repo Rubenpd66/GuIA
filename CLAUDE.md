@@ -41,8 +41,15 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - UI: `SpeakingTrainer` (all four parts), `AnswerTimer`, `RecordingPlayer`, `SpeakingModels` (listen with `useSpeech`, which now takes an `onEnd`), `MicCheck`; `/speaking` page; `Checklist` now lives in `src/components/trainer/` and is shared with Writing.
   - App decisions: own 4-criterion rubric, exam reads the question with the synthetic voice (5 s silent reading without a voice, and a cap if the voice never ends), recording and time start and stop on their own, no retries; study waits for the learner, allows retries and shows structure, tips, phrases and models.
   - Bank: 10/6/5/5 tasks in `content/exercises/speaking-{1,2,3,4}/`, reviewed one by one.
-- **Next: phase 7** (dashboard, mistakes bank, flashcards, placement test, mock exam, stamp animation). Plan written at `docs/superpowers/plans/2026-10-19-phase-7-mock-dashboard.md` in batches 7a–7d, awaiting the user's approval of its 4 questions (app level bands, mock exam whole or by component with no 0–50 scale, SM-2 flashcards, run the batches without stopping). Do not start code before that approval.
-- Phases 7–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
+- Phase 7 is done, committed and browser-checked in batches 7a–7d (375/1280, light/dark, ES/EN, keyboard, fake clock, reload mid-section). Plan: `docs/superpowers/plans/2026-10-19-phase-7-mock-dashboard.md`.
+  - Estimates in `src/lib/estimate/`: `level.ts` (app bands C ≥ 85 %, B2 ≥ 70 %, B1 ≥ 55 %, A2 ≥ 40 %; last 10 attempts, recent and exam weigh more; enough data = 2 attempts, one exam attempt or 10 Core items), `activity.ts` (local days, streak, minutes this week), `next.ts` (suggestions: mock when the exam is ≤ 14 days away, untried part, weakest part, mistakes), `levelUps.ts` (new-stamp notice, held during placement/mock and on import).
+  - Stores via `src/lib/storage/localStore.ts`: `sello:exam-date`, `sello:flashcards`, `sello:mock`. All three travel in export/import (`src/lib/progress/extras.ts`; damaged extras are dropped, old files still import). Days use the `LocalDay` schema.
+  - Pages: `/dashboard` (passport of 18 stamps, skill levels, pace, weak points, next task, countdown), `/mistakes`, `/flashcards` (SM-2 in `src/lib/flashcards/`, vocabulary + functional phrases, new cards per day in Settings), `/placement-test`, `/mock-exam`.
+  - Placement and mock reuse the trainers' exported sessions (`GrammarSession`, `VocabularySession`, `ReadingSession`, `ListeningSession`, `WritingSession`/`SpeakingSession` with `onSaved`) through `src/components/assessment/AssessmentRunner.tsx` and `steps.ts`. Mock state is rebuilt from its seed; a reload keeps the section clock but restarts its answers and Listening plays (marked `shortcut:`).
+  - Stamp animation: `Stamp animate` (CSS `stamp-drop` in `globals.css`, a fade with reduced motion).
+  - Fixed in passing: `useSpeech` read speech support during render, which broke hydration on Settings.
+- **Next: phase 8** (polish: accessibility, Lighthouse ≥ 90 on mobile, PWA, SEO, Playwright tests in the repo, Vercel deploy). Write its plan and wait for approval before code. It still needs the owner's details for the legal notice and a favicon.ico, and adding Playwright as a dev dependency needs the user's OK.
+- Phases 8–9 follow the spec.
 
 ## Commands
 
