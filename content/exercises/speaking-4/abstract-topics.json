@@ -1,0 +1,704 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "s4-work-life-balance-01",
+      "examPart": "speaking-4",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 5,
+      "image": {
+        "sceneId": "open-plan-office",
+        "alt": {
+          "en": "Three people work at computers in an open-plan office, one of them on the phone, with city buildings visible through a large window.",
+          "es": "Tres personas trabajan con ordenadores en una oficina diáfana, una de ellas al teléfono, con edificios de la ciudad al otro lado de una gran ventana."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Tell me about a time when work took up much more of your time than you had planned.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "A few years ago I was working for a small marketing agency, and we had a huge deadline for a new client."
+                },
+                {
+                  "role": "development",
+                  "text": "The project turned out to be much bigger than we'd expected, so for about two weeks I stayed at the office until nine or ten every night."
+                },
+                {
+                  "role": "example",
+                  "text": "I even missed my sister's birthday dinner because I was still finishing a presentation. In the end the client loved it, though."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "The episode that comes to mind is a pitch I worked on about three years ago, when I was at a small design agency."
+                },
+                {
+                  "role": "development",
+                  "text": "What began as a fortnight of slightly longer days turned into a month of working evenings and the odd Sunday, mostly because we'd underestimated the client."
+                },
+                {
+                  "role": "example",
+                  "text": "I remember cancelling a weekend away at the last minute, and I still recall the look on my partner's face when I told her."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Looking back, it wasn't so much the hours that wore me down as the sense that there was no end in sight."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How did you feel about it?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "At the time I felt quite proud, because the client was important and I wanted to do a good job."
+                },
+                {
+                  "role": "development",
+                  "text": "But after the first week I was exhausted. I was tired all the time, I couldn't concentrate, and I felt guilty about my family. I also got a bit angry with my boss for not hiring more people."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "When it was finally over, I mostly felt relieved, and I promised myself I'd never let it happen again."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Honestly, my feelings were mixed, and they changed as the weeks went on."
+                },
+                {
+                  "role": "development",
+                  "text": "To begin with I was energised, even a little flattered that I'd been trusted with such a big account. It was only later that the tiredness set in, along with a creeping resentment towards the agency."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Not that anyone forced me, mind you; I think I was partly trying to prove something to myself."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "What I felt most when it ended wasn't joy but a rather hollow relief."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think people should keep work and private life completely separate, or is that unrealistic? Why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Moving on to the wider question, I think it depends on the person and the job."
+                },
+                {
+                  "role": "development",
+                  "text": "On the one hand, keeping work and home separate is healthier, because everyone needs time to rest and to see family and friends. On the other hand, many jobs today are flexible, and some people like answering a few emails in the evening if it means they can leave early on another day."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So I'd say a clear separation is a good goal, but it shouldn't be an absolute rule. The important thing is that the employee decides, not the company."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Turning to the bigger picture, I'd say a strict separation is an admirable ideal but a slightly unrealistic one."
+                },
+                {
+                  "role": "development",
+                  "text": "Admittedly, there's a strong case for it: constant availability tends to erode both concentration and relationships. That said, in a world where teams span several time zones, rigid boundaries can be as frustrating as none at all."
+                },
+                {
+                  "role": "speculation",
+                  "text": "It may well be that what matters is not the wall between the two, but who controls the door."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Rather than one rule for everyone, I'd argue for genuine choice, backed by employers who respect it."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-learning-at-school-01",
+      "examPart": "speaking-4",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 4,
+      "image": {
+        "sceneId": "school-classroom",
+        "alt": {
+          "en": "A teacher stands at a whiteboard while pupils sit at their desks and one pupil raises a hand.",
+          "es": "Un profesor junto a la pizarra y varios alumnos sentados en sus pupitres, uno de ellos con la mano levantada."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Tell me about a time when a teacher or a lesson changed the way you thought about learning.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "When I was about fifteen, I had a history teacher called Mr Evans who completely changed how I saw the subject."
+                },
+                {
+                  "role": "development",
+                  "text": "Before that, history was just dates and names to memorise, and I found it really boring. But he asked us to act out important events, so in one lesson I had to play a king who was arguing with his advisers."
+                },
+                {
+                  "role": "example",
+                  "text": "We prepared for days, and I read much more than I'd ever read for homework, because I wanted to be convincing."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "That was the first time I realised that learning can actually be fun."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "The lesson that stands out was a history class when I was fifteen, with a teacher who refused to teach from the textbook."
+                },
+                {
+                  "role": "development",
+                  "text": "Instead of handing us facts, he made each of us defend one side of a real historical dispute. I got the side I found indefensible, which was the whole point."
+                },
+                {
+                  "role": "example",
+                  "text": "I spent that weekend in the library hunting for arguments, which no homework had ever made me do."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It was the first time I understood that knowing something and arguing about it are different things."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How did you feel about it, and did it change anything for you?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "At first I was a bit nervous, because I hated speaking in front of the class."
+                },
+                {
+                  "role": "development",
+                  "text": "But once we started, I forgot about being shy, and I actually felt excited. I was also surprised that my classmates listened to me seriously."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Afterwards I felt proud of myself, and from then on I started to take history much more seriously. It showed me that I could do more than I thought."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I remember being quietly horrified at first, because I'd always been the pupil who hid at the back."
+                },
+                {
+                  "role": "development",
+                  "text": "Yet once I was up there defending my side, the nerves gave way to something closer to exhilaration. What struck me most was that nobody laughed; they argued back, which felt oddly like being taken seriously."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I can't claim it transformed me overnight, but it certainly planted the idea that I had something worth saying."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think schools should focus more on exams and facts, or on skills such as creativity and teamwork? Why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Thinking about education more generally, I believe schools need a bit of both."
+                },
+                {
+                  "role": "development",
+                  "text": "On the one hand, exams and facts matter, because you can't think critically about history or science if you don't know the basics. On the other hand, most jobs today need skills like teamwork, creativity and communication, and exams hardly measure them."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So in my opinion schools should keep some exams but give students more projects, like the one in my history class. That way they'd learn to think, not just to remember."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Stepping back to the wider debate, I don't think it's a case of either-or, though I'd tilt towards skills."
+                },
+                {
+                  "role": "development",
+                  "text": "Admittedly, a solid grounding in facts is indispensable; it's hard to evaluate an argument about something you know nothing about. That said, an education that rewards memorisation above all else risks producing people who can pass tests but can't solve problems."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Were schools to assess how pupils reason rather than what they recall, I suspect motivation would improve too."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So the aim should be knowledge in the service of thinking, not knowledge for its own sake."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-online-regret-01",
+      "examPart": "speaking-4",
+      "cefrLevel": "C1",
+      "topic": "shopping-consumption",
+      "difficulty": 4,
+      "image": {
+        "sceneId": "online-shopping",
+        "alt": {
+          "en": "A person on a sofa orders something on a laptop, with several delivery boxes by the door.",
+          "es": "Una persona sentada en un sofá hace un pedido en el portátil, con varias cajas de reparto junto a la puerta."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Tell me about a time when you bought something online that you later regretted.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Last winter I bought a jacket online because it was in a sale and the photos looked amazing."
+                },
+                {
+                  "role": "development",
+                  "text": "I ordered it late at night without really thinking, which is something I do too often. When it arrived a few days later, the colour was completely different, and the material felt cheap."
+                },
+                {
+                  "role": "example",
+                  "text": "To make matters worse, it was too small, so I had to repackage it, find a post office and wait two weeks for the refund."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I learnt that a bargain isn't a bargain if you don't really need it."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "A couple of months ago I fell for an advert for a coffee machine that, on paper, ticked every box."
+                },
+                {
+                  "role": "development",
+                  "text": "It was heavily discounted, the reviews were glowing, and, crucially, it was the middle of the night, which is when my judgement is at its worst. It turned out to be loud, fiddly and slow."
+                },
+                {
+                  "role": "example",
+                  "text": "Sending it back meant printing a label, finding a collection point and chasing the refund for nearly three weeks."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Only afterwards did I notice that most of those glowing reviews had been posted within the same fortnight."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How did you feel when it arrived?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "When the box arrived I was excited at first, but that feeling disappeared as soon as I tried the jacket on."
+                },
+                {
+                  "role": "development",
+                  "text": "I felt disappointed, and also a bit annoyed with myself, because I'd ignored the reviews that said it was smaller than normal."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "What I hated most was the feeling that I'd wasted money and time. Afterwards I felt a bit silly, but I was relieved when the money finally came back."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Initially I was, if anything, rather pleased with myself, convinced I'd snapped up a bargain."
+                },
+                {
+                  "role": "development",
+                  "text": "That glow didn't last. Within a day I was irritated, less with the machine than with my own gullibility, because I knew better than to trust a page of five-star reviews."
+                },
+                {
+                  "role": "speculation",
+                  "text": "There's something faintly humiliating about being nudged into a purchase by design rather than by need, and I suspect that's what stung."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "By the time the refund came through I felt more sheepish than angry."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think online shopping has made our lives better, or has it encouraged us to buy too much? Why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "As for the bigger question, I think online shopping has both good and bad sides."
+                },
+                {
+                  "role": "development",
+                  "text": "On the one hand, it's very convenient. You can compare prices, read reviews and get things delivered to your door, which is a huge help for people who are busy or live far from shops. On the other hand, it's so easy to click 'buy' that we end up spending money on things we don't need."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So I'd say it's better for our lives overall, but only if we learn to control ourselves."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Coming to the wider issue, I'd say it has done both, and the trade-off is more subtle than it first appears."
+                },
+                {
+                  "role": "development",
+                  "text": "There's no denying the benefits: choice, convenience, and access for people who can't easily get to a shop. That said, the same frictionless design that makes shopping easy also makes overspending effortless."
+                },
+                {
+                  "role": "speculation",
+                  "text": "One could argue that a little inconvenience is actually good for us, as it forces a pause before we spend."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So, on balance, a better life, provided we deliberately build in some friction of our own."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-family-day-01",
+      "examPart": "speaking-4",
+      "cefrLevel": "B2",
+      "topic": "relationships",
+      "difficulty": 4,
+      "image": {
+        "sceneId": "family-picnic",
+        "alt": {
+          "en": "A family of four sit on a picnic blanket in a park with a basket and food, a child holds a ball and there is a tree behind them.",
+          "es": "Una familia de cuatro personas en una manta de pícnic en un parque, con una cesta y comida, un niño con una pelota y un árbol detrás."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Tell me about a time when your family spent a whole day together doing something special.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Last summer my whole family got together to celebrate my grandfather's seventieth birthday."
+                },
+                {
+                  "role": "development",
+                  "text": "We went to a big park near my aunt's house, and more than twenty of us came, from my little cousins to my grandparents' oldest friends."
+                },
+                {
+                  "role": "example",
+                  "text": "Everyone brought something to eat, so there was far too much food. We played football, and my grandfather, who never stops telling stories, spent the afternoon talking about his youth."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It was a really simple day, but it's one of my best memories."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "What springs to mind is a day last summer when we celebrated my grandfather's seventieth birthday in a park near my aunt's house."
+                },
+                {
+                  "role": "development",
+                  "text": "Twenty-odd relatives turned up, some of whom I hadn't seen in years, and what could have been an awkward reunion turned into a lazy afternoon of food, football and stories."
+                },
+                {
+                  "role": "example",
+                  "text": "My grandfather, who is usually fairly reserved, held court for hours about his first job, and even the teenagers put their phones away to listen."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Nothing was planned, and perhaps that's why it worked so well."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How did you feel about that day, and did anything surprise you?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I felt really happy that day, but also a bit emotional."
+                },
+                {
+                  "role": "development",
+                  "text": "Sometimes we only see each other at weddings or funerals, so it was lovely to meet in a relaxed way. I was surprised how much I enjoyed talking to my cousins, who I thought had nothing in common with me."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I went home tired but very grateful, and I thought I should see my family more often."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I was surprised by how moved I felt, which I certainly hadn't anticipated."
+                },
+                {
+                  "role": "development",
+                  "text": "Family gatherings can feel like an obligation, so I'd gone along half expecting to check my watch. Instead, watching my grandfather's face as he spoke, I was struck by how fleeting these moments are."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I drove home content, but with a nagging sense that I ought not to leave it another three years."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think families spend enough time together nowadays, or are modern lives too busy? Why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Looking at the bigger picture, I don't think most families spend enough time together."
+                },
+                {
+                  "role": "development",
+                  "text": "On the one hand, people work long hours, and children have lots of activities, so it's hard to find a free day. On the other hand, we also waste a lot of time on our phones, and that is something we can change. Technology also helps us stay in touch with relatives who live far away."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So modern life is busy, but I believe the problem is more about priorities than about time."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "On the broader question, it's tempting to blame busy schedules, but I think that's only half the story."
+                },
+                {
+                  "role": "development",
+                  "text": "Admittedly, long working hours and families scattered across countries make it harder than it used to be. That said, it's often the little habits that get in the way: the phone at the dinner table, the always-postponed visit."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd venture that quality matters at least as much as quantity; one unhurried afternoon can mean more than a week of distracted evenings."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "What we need isn't more hours, but more presence."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-commute-trouble-01",
+      "examPart": "speaking-4",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 5,
+      "image": {
+        "sceneId": "crowded-bus",
+        "alt": {
+          "en": "Commuters stand close together on a crowded bus holding the rails, and one of them is reading a phone.",
+          "es": "Pasajeros de pie y muy juntos en un autobús lleno, agarrados a las barras, y uno de ellos mira el móvil."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Tell me about a time when your journey to work or school went badly wrong.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "A few months ago I had a job interview in the city centre, and I left home early to be safe."
+                },
+                {
+                  "role": "development",
+                  "text": "Unfortunately, it was raining heavily, and my bus was so crowded that I could hardly move. Then, halfway there, it broke down, and the driver told us to get off and wait for another one."
+                },
+                {
+                  "role": "example",
+                  "text": "Nobody knew when the next bus would come, so in the end I ran the last kilometre in the rain, and I arrived ten minutes late, completely wet."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Luckily the interviewer was very understanding."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "What comes to mind is the morning of an important interview, which, naturally, is when everything went wrong."
+                },
+                {
+                  "role": "development",
+                  "text": "The bus was so packed I couldn't lift my arm to check the time, and halfway in it simply ground to a halt. We were told to wait for a replacement that, as far as anyone could tell, didn't exist."
+                },
+                {
+                  "role": "example",
+                  "text": "I ended up half-running the last two kilometres in the rain and walked into reception looking as if I'd swum there."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Remarkably, the interviewer found it funny."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How did you feel, and how did you deal with it?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "At first I was really stressed, because I hate being late, especially for an interview."
+                },
+                {
+                  "role": "development",
+                  "text": "I tried to stay calm and called the company to explain, and they said it was fine. After that I felt a little better, although I was still angry with the bus company, which had no information for passengers."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "In the end I felt proud that I'd arrived at all, and the interview went quite well."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "My first reaction was panic, I won't pretend otherwise."
+                },
+                {
+                  "role": "development",
+                  "text": "Having said that, once I'd rung ahead and accepted that the situation was out of my hands, a strange calm took over. What irritated me most wasn't the delay itself but the total absence of information; nobody seemed to know anything."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "By the time I got there, I was soaked but oddly composed, and the adrenaline probably helped me in the interview."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think cities should spend more on public transport, or on making it easier to drive? Why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Thinking about transport in cities more broadly, I believe public transport should be the priority."
+                },
+                {
+                  "role": "development",
+                  "text": "On the one hand, buses and trains carry many more people than cars, they reduce pollution and traffic, and they're cheaper for most families. On the other hand, some people really need a car, for example those who live in the suburbs or work irregular hours, so roads can't be ignored completely."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "My view is that cities should invest mainly in public transport, but make it reliable, because an unreliable bus like mine only pushes people back into their cars."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Turning to the wider question, I'd come down on the side of public transport, though not without reservations."
+                },
+                {
+                  "role": "development",
+                  "text": "Admittedly, cars offer a flexibility no timetable can match, and for shift workers they're a necessity. That said, a city designed around cars tends to choke itself: the more roads it builds, the more traffic they attract."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Rarely do people swap their cars for buses simply because they're told to; they do so when the service is genuinely dependable."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So the money should go on frequency and reliability first."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

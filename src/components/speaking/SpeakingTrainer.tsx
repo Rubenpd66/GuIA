@@ -9,6 +9,7 @@ import { PhrasePanel } from "@/components/writing/PhrasePanel";
 import { useSpeech } from "@/lib/audio/useSpeech";
 import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
 import type { FunctionalPhrase } from "@/lib/content/schemas/lessons";
+import { countWords } from "@/lib/content/text";
 import { recordAttempt } from "@/lib/progress/progress";
 import { readProgress, saveProgress } from "@/lib/progress/useProgress";
 import { useRecorder } from "@/lib/speaking/useRecorder";
@@ -150,18 +151,21 @@ function SpeakingSession({
       return;
     }
     const voice = speechRef.current;
-    if (voice.supported) {
-      const text = turn.questions.map((q) => q.prompt).join(" ");
-      voice.play(turn.key, [{ speaker: "woman", text }], () =>
-        dispatch({ type: "read-end", at: now() }),
-      );
-      return () => voice.stop();
-    }
+    const text = turn.questions.map((q) => q.prompt).join(" ");
+    const readEnd = () => dispatch({ type: "read-end", at: now() });
+    // Without a voice, silent reading time; with one, a cap in case the voice never reports its end.
     const id = window.setTimeout(
-      () => dispatch({ type: "read-end", at: now() }),
-      SILENT_READING_MS,
+      readEnd,
+      voice.supported
+        ? SILENT_READING_MS + (countWords(text) / 2) * 1000
+        : SILENT_READING_MS,
     );
-    return () => window.clearTimeout(id);
+    if (voice.supported)
+      voice.play(turn.key, [{ speaker: "woman", text }], readEnd);
+    return () => {
+      window.clearTimeout(id);
+      voice.stop();
+    };
   }, [state.phase, state.turn, mode, turn]);
 
   // The microphone records exactly while the answer time runs.

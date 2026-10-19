@@ -1,0 +1,605 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "s1-weekends-01",
+      "examPart": "speaking-1",
+      "cefrLevel": "B1",
+      "topic": "culture-leisure",
+      "difficulty": 1,
+      "questions": [
+        {
+          "prompt": "When do you usually get up at the weekend?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Well, I usually get up around nine at the weekend."
+                },
+                {
+                  "role": "development",
+                  "text": "During the week I have to be up at six, so I really enjoy sleeping a bit longer."
+                },
+                {
+                  "role": "example",
+                  "text": "On Sundays, for example, I often stay in bed until ten and read the news on my phone. It's my favourite part of the week."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "To be honest, I'm a bit of a night owl, so weekends mean a proper lie-in, nine-ish at the earliest."
+                },
+                {
+                  "role": "development",
+                  "text": "What I love about it is not hearing the alarm clock after a week of getting up at the crack of dawn."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "If I've been out late on Saturday, I've been known to stay in bed until noon, with no regrets whatsoever."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What do you usually do on Saturday afternoons?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "On Saturday afternoons I usually meet my friends in the city centre."
+                },
+                {
+                  "role": "development",
+                  "text": "We like walking around, having a coffee and sometimes doing a bit of shopping."
+                },
+                {
+                  "role": "example",
+                  "text": "Last Saturday, for example, we went to a new café near the river and talked for hours. I really enjoy it because I don't see them much during the week."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Saturday afternoons are usually reserved for my friends. We tend to drift around the old town, pop into a few shops and end up in the same café as always."
+                },
+                {
+                  "role": "development",
+                  "text": "It's the perfect way to unwind after a hectic week."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Mind you, if the weather's miserable, we'll just stay in and binge-watch a series instead."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Would you like to do something different next weekend?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, I think I would. I usually stay in the city, so I'd like to go somewhere new."
+                },
+                {
+                  "role": "development",
+                  "text": "Maybe I could take a short trip to the mountains or to the coast."
+                },
+                {
+                  "role": "example",
+                  "text": "I'd go by train with a friend, and we could walk, take photos and have a nice lunch. I'm sure it would be a good change."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Actually, I've been meaning to get out of the city for ages. If I had more time, I'd drive up to the mountains and spend the whole weekend hiking."
+                },
+                {
+                  "role": "development",
+                  "text": "There's nothing like fresh air to clear your head."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Failing that, I'd settle for a day trip to a small village I've never visited."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s1-home-01",
+      "examPart": "speaking-1",
+      "cefrLevel": "B1",
+      "topic": "general",
+      "difficulty": 1,
+      "questions": [
+        {
+          "prompt": "Do you live in a house or a flat?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I live in a flat in the city centre, on the third floor."
+                },
+                {
+                  "role": "development",
+                  "text": "It's quite small, but it has two bedrooms and a nice balcony. I share it with my partner."
+                },
+                {
+                  "role": "example",
+                  "text": "The best thing is the location. For example, I can walk to the shops, the metro and my favourite park in just five minutes."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I live in a third-floor flat right in the heart of town. It's not huge, but it's bright and it has a lovely little balcony."
+                },
+                {
+                  "role": "development",
+                  "text": "What I like most about it is that everything is on my doorstep: shops, the metro, even a park."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I've been living there for about six years now, and it feels like home."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What is your favourite room at home, and why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "My favourite room is the living room, because it's where we spend most of our time."
+                },
+                {
+                  "role": "development",
+                  "text": "It has a big sofa, lots of light and a small shelf with my favourite books."
+                },
+                {
+                  "role": "example",
+                  "text": "In the evenings, for example, I like to sit there with a cup of tea and listen to some music. It's very calm and comfortable."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Without a doubt, the living room. It's the heart of the home, and it gets the sun all afternoon, which makes it wonderfully cosy."
+                },
+                {
+                  "role": "development",
+                  "text": "What I love about it is the old armchair by the window, which is the perfect spot to curl up with a good book."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I could happily spend whole days there."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "If you could change one thing about your home, what would it be?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "If I could change one thing, I'd make the kitchen bigger."
+                },
+                {
+                  "role": "development",
+                  "text": "At the moment it's really small, so it's difficult to cook when friends come to visit."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, last month I invited six people for dinner and we hardly fitted in. A bigger kitchen with a table would be perfect."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "If I could wave a magic wand, I'd knock down the wall between the kitchen and the living room."
+                },
+                {
+                  "role": "development",
+                  "text": "The kitchen is a bit cramped, and I'd love an open-plan space where I could chat to guests while I'm cooking."
+                },
+                {
+                  "role": "speculation",
+                  "text": "It would make entertaining so much easier, and the whole place would feel twice as big."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s1-evenings-01",
+      "examPart": "speaking-1",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 1,
+      "questions": [
+        {
+          "prompt": "What time do you usually have dinner?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "We usually have dinner quite late, at about nine o'clock."
+                },
+                {
+                  "role": "development",
+                  "text": "I finish work around six, and I often do some shopping or cook something special first."
+                },
+                {
+                  "role": "example",
+                  "text": "At the weekend it can be even later. For example, when we go out with friends, we sometimes don't eat until ten or half past."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Around eight, give or take. I'm not a big fan of eating late, as it tends to keep me awake."
+                },
+                {
+                  "role": "development",
+                  "text": "During the week we keep it simple, but on Fridays we usually go for a proper meal out."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "That's when dinner can stretch on until ten or so, but it's all part of the fun."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What do you usually do in the evenings?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "In the evenings I usually relax at home after work."
+                },
+                {
+                  "role": "development",
+                  "text": "First I cook dinner, and then I watch a series or talk to my family on the phone."
+                },
+                {
+                  "role": "example",
+                  "text": "Sometimes I go for a walk around the neighbourhood, especially when the weather is nice. I try not to do any work after nine, because I want to sleep well."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Once I've switched off from work, I tend to potter around the kitchen and cook something simple."
+                },
+                {
+                  "role": "development",
+                  "text": "After that, I'm usually glued to a series or catching up with a friend on the phone."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I've been trying to get into the habit of going for a stroll before bed, as it helps me wind down and sleep like a log."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you prefer staying in or going out in the evening?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I prefer staying in on weekdays, but at the weekend I like going out."
+                },
+                {
+                  "role": "development",
+                  "text": "After a long day I'm tired and I just want to be comfortable at home."
+                },
+                {
+                  "role": "example",
+                  "text": "On Fridays, though, I love meeting friends for dinner or a drink, for example in a small bar near my flat. It's a nice way to start the weekend."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "It depends on the day, really. In the week I'm happy to stay in, as I'm usually worn out by the evening."
+                },
+                {
+                  "role": "development",
+                  "text": "But come Friday, I'm itching to get out and see people."
+                },
+                {
+                  "role": "speculation",
+                  "text": "There's something about a lively restaurant or a good concert that you just can't get on the sofa, although I wouldn't say no to a quiet night in now and then."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s1-keeping-fit-01",
+      "examPart": "speaking-1",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "questions": [
+        {
+          "prompt": "Do you play any sport or do any exercise?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, I go running two or three times a week."
+                },
+                {
+                  "role": "development",
+                  "text": "I started last year because I was feeling tired all the time, and now I really enjoy it."
+                },
+                {
+                  "role": "example",
+                  "text": "I usually run in the park near my house for about forty minutes. It helps me relax after work, and I sleep much better."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I do, yes. I took up running about a year ago, and I've been hooked ever since."
+                },
+                {
+                  "role": "development",
+                  "text": "I'm out three times a week, rain or shine, usually along the river."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "What started as a way of shaking off the stress of work has become the highlight of my week, and I feel in far better shape than I did twelve months ago."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you prefer exercising alone or with other people?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I prefer exercising with other people, because it's more fun."
+                },
+                {
+                  "role": "development",
+                  "text": "When I'm alone, I get bored quickly and sometimes I stop earlier than I planned."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, I go to a yoga class with two friends every Tuesday. We help each other to keep going, and afterwards we have a coffee together."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "On the whole, I'd say I'm a team player. Exercising with others keeps me motivated, and time just flies."
+                },
+                {
+                  "role": "development",
+                  "text": "When I'm on my own, I tend to make excuses and cut the session short."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "That said, I do enjoy a solo run now and then, since it gives me a chance to clear my head."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Is there a sport you'd like to try one day?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, I'd really like to try climbing."
+                },
+                {
+                  "role": "development",
+                  "text": "I've seen videos of people climbing indoors, and it looks challenging but exciting."
+                },
+                {
+                  "role": "example",
+                  "text": "There's a new climbing centre in my city, so I'm thinking of going there next month with a friend. I'm a bit afraid of heights, but I think I'll get used to it."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I've always fancied having a go at climbing. It looks like a great all-round workout, and it's as much about problem-solving as it is about strength."
+                },
+                {
+                  "role": "development",
+                  "text": "There's an indoor wall opening nearby, so I might finally take the plunge."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'm not exactly fearless when it comes to heights, but that's all the more reason to give it a try."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s1-screens-01",
+      "examPart": "speaking-1",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 2,
+      "questions": [
+        {
+          "prompt": "How much time do you spend on your phone every day?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I probably spend about three hours a day on my phone, which is quite a lot."
+                },
+                {
+                  "role": "development",
+                  "text": "I use it for messages, social media and the news, and I also check my emails."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, I often look at it on the bus and again before bed. I know it's too much, but it's hard to stop."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Embarrassingly, I'm on my phone for about three hours a day, if I'm honest."
+                },
+                {
+                  "role": "development",
+                  "text": "A lot of that is work emails and messages, but I do waste time scrolling through social media, too."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I've been trying to cut down lately, but it's easier said than done when it's always within arm's reach."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What do you usually watch or listen to when you're at home?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "At home I usually listen to music while I'm cooking or cleaning."
+                },
+                {
+                  "role": "development",
+                  "text": "In the evening I like watching series, especially crime dramas and comedies."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, I'm watching a Scandinavian detective series at the moment. I also listen to podcasts about history when I'm tidying up the flat."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "It varies, but music is always on in the background when I'm pottering about the house."
+                },
+                {
+                  "role": "development",
+                  "text": "In the evenings I'm usually hooked on some crime drama or other, the kind where you can't stop at just one episode."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "And I've recently got into history podcasts, which are perfect for the washing-up."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Would you like to spend less time on screens?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, I would. I spend too many hours in front of a screen, both at work and at home."
+                },
+                {
+                  "role": "development",
+                  "text": "My eyes get tired and I sometimes have a headache in the evening."
+                },
+                {
+                  "role": "example",
+                  "text": "So I'd like to read more books and go for more walks. For example, I could put my phone in a drawer after dinner and talk to my family instead."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Definitely. Between work and leisure, I'm glued to a screen for most of my waking hours, and my eyes are paying the price."
+                },
+                {
+                  "role": "development",
+                  "text": "If I had more willpower, I'd leave my phone in another room after dinner."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd much rather spend that time reading a proper book or chatting face to face, which is what I'd call a real treat."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

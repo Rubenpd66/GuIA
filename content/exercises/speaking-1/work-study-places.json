@@ -1,0 +1,605 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "s1-working-day-01",
+      "examPart": "speaking-1",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 1,
+      "questions": [
+        {
+          "prompt": "What time does your working or studying day usually start?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "My day usually starts at half past eight, when I get to the office."
+                },
+                {
+                  "role": "development",
+                  "text": "I get up at seven, have a quick breakfast and take the bus."
+                },
+                {
+                  "role": "example",
+                  "text": "On Mondays I'm often a bit earlier, for example, because we have a team meeting at eight. I prefer starting early, because I can finish before it gets dark."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'm at my desk by half past eight, more or less on the dot."
+                },
+                {
+                  "role": "development",
+                  "text": "That means getting up at seven, grabbing a quick bite and catching the bus before the rush hour gets going."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Mondays are the exception, as we have a team meeting at eight. Still, I don't mind early starts, because I'm at my best in the morning."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What do you like most about your job or your studies?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "What I like most is the people. My colleagues are friendly and always ready to help."
+                },
+                {
+                  "role": "development",
+                  "text": "I also enjoy the variety, because every day is a bit different."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, yesterday I spent the morning on a report and the afternoon talking to customers. It never gets boring, and I always learn something new."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "What I like most about my job is the people I work with. We get on really well, and there's a real sense of teamwork."
+                },
+                {
+                  "role": "development",
+                  "text": "On top of that, no two days are the same, which keeps me on my toes."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "One minute I'm buried in a report, the next I'm dealing with a customer, so I'm never bored."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Would you like to be doing the same thing in five years' time?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'm not sure. I like my job, but I'd like to learn more and have more responsibility."
+                },
+                {
+                  "role": "development",
+                  "text": "In five years, I hope to be a team leader or maybe a manager."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, I'm taking an evening course in management at the moment. If I don't get a promotion, I might look for a different company."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Probably not, to be honest. I'm happy where I am, but I wouldn't want to be stuck in a rut."
+                },
+                {
+                  "role": "development",
+                  "text": "In five years' time, I'd like to be managing a small team, or perhaps even running my own business."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I've been taking evening classes in management, so I'm keeping my options open and we'll see what comes up."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s1-studying-01",
+      "examPart": "speaking-1",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 2,
+      "questions": [
+        {
+          "prompt": "What do you study, or what did you study?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'm studying English at the moment, in an evening class twice a week."
+                },
+                {
+                  "role": "development",
+                  "text": "Before that, I studied business at university, so I know a lot about marketing."
+                },
+                {
+                  "role": "example",
+                  "text": "I decided to improve my English because I need it for my job. For example, I often have to write emails and join video calls with clients abroad."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "At the moment I'm brushing up my English in an evening class, but my degree was in business administration."
+                },
+                {
+                  "role": "development",
+                  "text": "I took the language course because it's become essential at work: emails, video calls, the lot."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I'd like to be able to hold my own in any meeting, which is why I've been practising every single day."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How do you usually prepare for a test or an exam?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I usually start preparing about three weeks before the exam."
+                },
+                {
+                  "role": "development",
+                  "text": "First I make a study plan, and then I read my notes and do practice exercises every day."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, before my last English test I did one listening exercise each morning and wrote a short text at the weekend. I also try to sleep well the night before."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I like to plan well ahead, so I draw up a timetable about three weeks before the big day."
+                },
+                {
+                  "role": "development",
+                  "text": "Then I work my way through my notes and do as many practice tests as I can."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "The night before, I take it easy and get a proper night's sleep, since cramming at the last minute never works for me."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Would you like to learn something new next year?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, I'd like to learn to play the guitar."
+                },
+                {
+                  "role": "development",
+                  "text": "I've always loved music, but I've never had time to take lessons."
+                },
+                {
+                  "role": "example",
+                  "text": "Next year I'll have more free time, so I'm planning to join a class near my house. I'd like to play a few songs for my friends by the end of the year."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd love to. I've always wanted to learn the guitar, but I've never got round to it."
+                },
+                {
+                  "role": "development",
+                  "text": "Next year, I'm hoping to sign up for lessons once things calm down at work."
+                },
+                {
+                  "role": "speculation",
+                  "text": "If I stick with it, I might even be able to play a couple of songs at a family party by December, which would be a real feather in my cap."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s1-getting-around-01",
+      "examPart": "speaking-1",
+      "cefrLevel": "A2",
+      "topic": "city",
+      "difficulty": 1,
+      "questions": [
+        {
+          "prompt": "How do you usually get to work or to your classes?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I usually go by metro. It takes about twenty-five minutes."
+                },
+                {
+                  "role": "development",
+                  "text": "I don't have a car, and the metro is faster than the bus, especially in the morning."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, if I take the bus, it can take almost an hour because of the traffic. I read or listen to music during the journey, so the time passes quickly."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I tend to take the metro, which gets me there in about twenty-five minutes door to door."
+                },
+                {
+                  "role": "development",
+                  "text": "It beats the bus hands down, as you're not stuck in traffic."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I make the most of the journey by catching up on podcasts, so it doesn't feel like wasted time."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What is public transport like where you live?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "It's quite good, I think. We have a metro, buses and a tram."
+                },
+                {
+                  "role": "development",
+                  "text": "The trains are frequent and usually on time, and tickets aren't very expensive."
+                },
+                {
+                  "role": "example",
+                  "text": "The only problem is at rush hour, when the metro is really crowded. For example, I often have to stand for the whole journey, but it's still better than driving."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "On the whole, it's pretty reliable. There's an extensive metro network, plus buses and trams, and they run frequently."
+                },
+                {
+                  "role": "development",
+                  "text": "Fares are reasonable, too, especially with a monthly pass."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "The downside is that it's packed to the rafters at rush hour, but that's the price you pay for living in a big city."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Would you prefer to live closer to your work or your place of study?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, I would. At the moment I spend almost an hour travelling every day."
+                },
+                {
+                  "role": "development",
+                  "text": "If I lived closer, I'd have more free time and I wouldn't be so tired."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, I could walk or cycle, which is better for my health. However, rents are higher near the centre, so it's not easy."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Absolutely. I'm losing the best part of an hour each day on the commute, and it adds up."
+                },
+                {
+                  "role": "development",
+                  "text": "If I lived within walking distance, I'd have more time for myself and I'd be getting some exercise into the bargain."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The catch is that rents near the centre are through the roof, so it's a trade-off I haven't been able to make."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s1-shopping-01",
+      "examPart": "speaking-1",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 2,
+      "questions": [
+        {
+          "prompt": "Where do you usually do your food shopping?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I usually go to the supermarket near my house once a week."
+                },
+                {
+                  "role": "development",
+                  "text": "It's convenient and it has a good choice of products at reasonable prices."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, I always buy fruit and vegetables at the local market on Saturdays, because they're fresher and cheaper. I do the rest of the shopping at the supermarket."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I do the bulk of my shopping at the supermarket round the corner, once a week."
+                },
+                {
+                  "role": "development",
+                  "text": "But I'm quite particular about fruit and veg, so I pick those up at the local market on Saturdays."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "The produce is fresher and, believe it or not, often cheaper, and I like having a chat with the stallholders."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you enjoy shopping for clothes?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Not really. I find it tiring, and the shops are always crowded."
+                },
+                {
+                  "role": "development",
+                  "text": "I prefer buying only what I need, so I usually go once or twice a year."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, last month I needed a coat for the winter, so I spent one afternoon in the shopping centre and found one quickly. After that, I went straight home."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "To be honest, it isn't my cup of tea. The shops are heaving, and I can never find my size."
+                },
+                {
+                  "role": "development",
+                  "text": "I'm more of a get-in, get-out shopper: I make a list and stick to it."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Last winter, I bought a coat in under an hour, which I think must be a personal best."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you prefer buying things online or in shops?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "It depends on what I'm buying. I prefer buying books and electronics online, because it's cheaper and easier."
+                },
+                {
+                  "role": "development",
+                  "text": "However, for clothes or shoes I like going to a shop, because I can try them on."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, I once bought some shoes online and they were too small, so I had to send them back, which was annoying."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "It depends. For books and gadgets, online wins hands down: it's quicker, and there's more choice."
+                },
+                {
+                  "role": "development",
+                  "text": "When it comes to clothes, though, I prefer to see and try things on before I part with my money."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I learnt that the hard way after ordering a pair of shoes that were a size too small and having to send them back."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s1-holiday-places-01",
+      "examPart": "speaking-1",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "questions": [
+        {
+          "prompt": "Where did you spend your last holiday?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I spent my last holiday in the south of Italy, near Naples."
+                },
+                {
+                  "role": "development",
+                  "text": "We stayed in a small hotel by the sea for a week, with my partner and another couple."
+                },
+                {
+                  "role": "example",
+                  "text": "The weather was perfect. We swam every day, and we ate lots of pizza and ice cream. It was one of the best holidays I've ever had."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Last summer we spent a week on the Amalfi coast, which was absolutely stunning."
+                },
+                {
+                  "role": "development",
+                  "text": "We rented a little place overlooking the sea, so I woke up to the sound of waves every morning."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Between the swimming, the sightseeing and the pizza, I came home feeling completely recharged."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What do you like doing when you visit a new place?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "When I visit a new place, I like walking around without a map."
+                },
+                {
+                  "role": "development",
+                  "text": "I think it's the best way to discover small streets and local cafés."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, in Lisbon I walked for hours, and I found a little restaurant where I had the best fish of my life. I also like visiting a museum, but only one a day."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "The first thing I do is wander aimlessly. You stumble across hidden corners that no guidebook mentions."
+                },
+                {
+                  "role": "development",
+                  "text": "I also make a point of eating where the locals eat, rather than in tourist traps."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "In Lisbon, that got me the best grilled fish I've ever tasted, in a tiny place with no menu."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Where would you like to go on your next holiday?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd really like to visit Japan."
+                },
+                {
+                  "role": "development",
+                  "text": "I'm interested in the culture and the food, and I've heard the cities are very clean and safe."
+                },
+                {
+                  "role": "example",
+                  "text": "I'm saving money at the moment, and I hope to go in two years. For example, I'd like to see Tokyo and Kyoto, and I'd probably go in spring to see the cherry blossom."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Japan is top of my bucket list. I've been dreaming about it for years: the food, the temples, the mix of old and new."
+                },
+                {
+                  "role": "development",
+                  "text": "I've been putting money aside for a while, so with a bit of luck I'll go in two years."
+                },
+                {
+                  "role": "speculation",
+                  "text": "If I had the choice, I'd go in spring for the cherry blossom, even though that's peak season."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

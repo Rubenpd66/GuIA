@@ -1,0 +1,951 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "s2-street-market-01",
+      "examPart": "speaking-2",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 2,
+      "image": {
+        "sceneId": "street-market",
+        "alt": {
+          "en": "An outdoor market stall under an awning, piled with fruit and vegetables, where a seller hands a bag to two customers.",
+          "es": "Un puesto de mercado al aire libre, con toldo y lleno de fruta y verdura, donde el vendedor entrega una bolsa a dos clientes."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Describe this picture.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "This picture shows an outdoor market stall. It's covered by an awning, and it's full of fruit and vegetables."
+                },
+                {
+                  "role": "development",
+                  "text": "In the foreground, a seller is handing a bag to two customers. Behind them, the fruit and vegetables are piled up high on the stall, so there's lots to choose from."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd guess the customers have just paid and are taking their shopping home. It might be a regular market where people come every week."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Overall, it looks like a busy place to buy fresh food."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "What strikes me first is the stall itself: it's sheltered by an awning and heaped with fruit and vegetables."
+                },
+                {
+                  "role": "development",
+                  "text": "In the foreground, the seller is passing a bag across to what appear to be two customers, while the produce behind them is piled so high that there must be plenty of stock."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The sale must have just gone through, so I'd say the customers are about to head off with their shopping. It could well be that they come here every week."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It's exactly the sort of scene you'd expect on market day."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you prefer buying fresh food at a market or in a supermarket?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I prefer buying fresh food at a market, although I have to admit I only go about once a month."
+                },
+                {
+                  "role": "development",
+                  "text": "The fruit and vegetables are usually fresher, and you can chat to the seller and ask for advice about what's in season."
+                },
+                {
+                  "role": "example",
+                  "text": "For instance, last summer I bought some peaches that tasted much better than anything I'd had from a supermarket."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "That said, supermarkets are quicker and open later, so I still do my weekly shop there."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "If I'm honest, it depends on what I'm after, but for fruit and vegetables I'd always choose a market."
+                },
+                {
+                  "role": "development",
+                  "text": "What I like is that you can see exactly what you're getting, and the sellers tend to know where it's come from, which you rarely get with pre-packed produce."
+                },
+                {
+                  "role": "example",
+                  "text": "A few weeks ago, a stallholder talked me out of buying melons that, in her words, weren't quite ripe yet, and she was right."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Supermarkets win on convenience, though, so I end up using both, depending on how much time I've got."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Why do you think some people are willing to pay more for local food?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think there are a few reasons why people do that."
+                },
+                {
+                  "role": "development",
+                  "text": "First, many believe local food tastes better because it hasn't travelled far, and it's often picked just a day or two before."
+                },
+                {
+                  "role": "example",
+                  "text": "My aunt, for example, always buys eggs and cheese from a farm near her village, even though they cost more."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd guess people also like knowing that their money supports local farmers instead of big companies."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So for some people it's about quality, and for others it's about community."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd say it comes down to trust as much as taste."
+                },
+                {
+                  "role": "development",
+                  "text": "When food is produced nearby, shoppers can ask questions, and that reassurance is worth a few extra pounds to many of them."
+                },
+                {
+                  "role": "example",
+                  "text": "It's often the case that people who've visited a farm once become loyal customers for years."
+                },
+                {
+                  "role": "speculation",
+                  "text": "There may also be an environmental angle, since shorter journeys must mean fewer emissions, although that isn't always as clear-cut as people assume."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Ultimately, I think what they're paying for is peace of mind."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s2-family-picnic-01",
+      "examPart": "speaking-2",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 2,
+      "image": {
+        "sceneId": "family-picnic",
+        "alt": {
+          "en": "A family of four on a picnic blanket in a park: two adults with a basket and food, a child with a ball, and a tree behind them.",
+          "es": "Una familia de cuatro en una manta de pícnic en un parque: dos adultos con una cesta y comida, un niño con una pelota y un árbol detrás."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Describe this picture.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "This is a picture of a family having a picnic in a park."
+                },
+                {
+                  "role": "development",
+                  "text": "In the foreground, there's a family of four sitting on a blanket. Two adults have a basket and some food with them, and a child is playing with a ball. In the background, there's a big tree."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd guess it's the weekend, and they've come to the park to relax together. They might play a game with the ball after they've eaten."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It looks like a nice way to spend a day with the family."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "The first thing that catches the eye is a family of four settled on a blanket in a park."
+                },
+                {
+                  "role": "development",
+                  "text": "The two adults are sitting beside a basket and what looks like their lunch, whereas a child is busy with a ball. Behind them, a large tree rises over the scene."
+                },
+                {
+                  "role": "speculation",
+                  "text": "They must have planned this outing in advance, given the basket, and I suspect the ball is there to keep the younger ones busy once they've finished eating. It could just as easily be a birthday, though."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Either way, it's a very relaxed family moment."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How often do you eat outdoors?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I eat outdoors fairly often, especially in spring and summer, probably once or twice a month."
+                },
+                {
+                  "role": "development",
+                  "text": "Usually I go to a park or a beach with friends, and we bring sandwiches, fruit and something to drink."
+                },
+                {
+                  "role": "example",
+                  "text": "Last month we had a barbecue by the river, and it was the best day I've had in ages."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I prefer eating outside because it's more relaxed than a restaurant, and it's cheaper too."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Not as often as I'd like, to be honest, but whenever the weather picks up I make a point of it."
+                },
+                {
+                  "role": "development",
+                  "text": "There's something about eating in the open air that makes even a simple sandwich taste better, and it's a much easier way to catch up with people than meeting in a noisy restaurant."
+                },
+                {
+                  "role": "example",
+                  "text": "Just last weekend, a few of us took a flask and some leftovers up to a hill near my town, and we stayed there until it got dark."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It's the company and the setting I enjoy, rather than the food itself."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think children spend enough time outdoors nowadays?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "No, I don't think they do, and I think it's a real problem."
+                },
+                {
+                  "role": "development",
+                  "text": "Many children spend hours on tablets and games consoles, so they have less time to run around and play with friends."
+                },
+                {
+                  "role": "example",
+                  "text": "When I was young, we played football in the street every afternoon, but now you hardly see any children out there."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I think parents might feel it's safer to keep them at home, and that's partly why things have changed."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Schools and families should encourage more outdoor activities."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd say not, although I'm wary of generalising."
+                },
+                {
+                  "role": "development",
+                  "text": "Screens are obviously part of the picture, but I suspect parents are also far more cautious than they used to be, so children are rarely left to play unsupervised."
+                },
+                {
+                  "role": "example",
+                  "text": "Where I grew up, we'd disappear for the whole afternoon, whereas nowadays most kids are collected from school and taken straight home."
+                },
+                {
+                  "role": "speculation",
+                  "text": "That can't be good for their independence, and it might be one reason why so many children seem less active."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "What we need is safer parks and more encouragement from schools."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s2-open-plan-office-01",
+      "examPart": "speaking-2",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "image": {
+        "sceneId": "open-plan-office",
+        "alt": {
+          "en": "An open-plan office with three people at desks with computers, one of them talking on the phone, and a large window showing city buildings.",
+          "es": "Una oficina diáfana con tres personas en sus mesas con ordenadores, una de ellas hablando por teléfono, y un gran ventanal con edificios de la ciudad."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Describe this picture.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "This picture shows an open-plan office with a large window."
+                },
+                {
+                  "role": "development",
+                  "text": "In the foreground, three people are sitting at desks and working on computers. One of them is talking on the phone. In the background, you can see a big window, and through it there are some city buildings."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd guess they work for the same company, and it looks as if it's a busy day. The person on the phone might be talking to a customer."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It seems like a modern place to work."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "This is an open-plan office, and the window is the first thing you notice, with city buildings visible beyond it."
+                },
+                {
+                  "role": "development",
+                  "text": "Three colleagues are seated at their desks, each with a computer, and one of them is on the phone. They all share the same room, with no walls between them, which is typical of this layout."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The one on the phone must be dealing with a client or a colleague, and I'd imagine it can't be easy for the others to concentrate with the conversation going on beside them."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Still, the view of the city is a definite perk."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Would you prefer to work in an open-plan office or in a private office?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd prefer to have a quiet space of my own, to be honest."
+                },
+                {
+                  "role": "development",
+                  "text": "In an open-plan office it's difficult to concentrate because there are always phone calls and people talking nearby."
+                },
+                {
+                  "role": "example",
+                  "text": "In my last job, I often stayed late just to finish my work in peace after everyone had left."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Having said that, open-plan offices make it easier to ask colleagues for help, so I can see the benefits."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "It's a close call, but on balance I'd go for a private office."
+                },
+                {
+                  "role": "development",
+                  "text": "I do my best work when I can think without interruption, and an open-plan layout makes that almost impossible, particularly for tasks that need sustained focus."
+                },
+                {
+                  "role": "example",
+                  "text": "At my previous job, I'd often put on headphones just to get through a report, which rather defeats the point of sitting next to people."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "That said, what I'd really want is a mixture: a quiet room for deep work and a shared space for team discussions."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Why do you think more people work from home nowadays?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think there are two main reasons."
+                },
+                {
+                  "role": "development",
+                  "text": "Firstly, technology has made it much easier, because video calls and online tools mean you don't need to be in the same room as your colleagues."
+                },
+                {
+                  "role": "example",
+                  "text": "A friend of mine works for a company in London, but she lives in Spain and only goes to the office once or twice a year."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Secondly, I think companies have realised they can save money on office space, and employees might be happier too."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So in many cases it's good for both sides."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "A number of factors have converged, in my view."
+                },
+                {
+                  "role": "development",
+                  "text": "The pandemic proved that many jobs could be done remotely, and once employers saw that productivity hadn't collapsed, it was hard to go back."
+                },
+                {
+                  "role": "example",
+                  "text": "Several people I know have turned down better-paid jobs simply because they'd have meant a long commute every day."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Companies may also have worked out that smaller offices mean lower rent, which can't be ignored in a tight economy."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It's a shift that suits both sides, though not every job allows it."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s2-cafe-friends-01",
+      "examPart": "speaking-2",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 2,
+      "image": {
+        "sceneId": "cafe-friends",
+        "alt": {
+          "en": "Three friends at a café table with cups of coffee: two are chatting and laughing, and one is looking at a phone.",
+          "es": "Tres amigos en la mesa de una cafetería con tazas de café: dos charlan y se ríen, y uno mira el móvil."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Tell me what you can see in this picture.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "This picture shows three friends at a café."
+                },
+                {
+                  "role": "development",
+                  "text": "They're sitting around a table, and each of them has a cup of coffee. Two of them are chatting and laughing together, but the third one is looking at a phone."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd guess they're old friends who meet up regularly. The one with the phone might be reading a message or checking the time."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Overall, it looks like a friendly, relaxed meeting."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "What we have here is a group of three friends sharing a table at a café, each with a coffee in front of them."
+                },
+                {
+                  "role": "development",
+                  "text": "Two of them are deep in conversation, laughing about something, whereas the third has drifted off and is looking at a phone."
+                },
+                {
+                  "role": "speculation",
+                  "text": "They can't have run out of things to say, since the other two are clearly enjoying themselves, so the third person might simply be dealing with something urgent. Then again, it could just be a habit."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It's a scene many of us would recognise."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How often do you meet your friends in cafés?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I meet my friends in cafés about once a week, usually on Saturday mornings."
+                },
+                {
+                  "role": "development",
+                  "text": "We normally go to the same place near the town centre because it's cheap and the coffee is good."
+                },
+                {
+                  "role": "example",
+                  "text": "Last Saturday, we stayed there for almost three hours, just talking about our holidays and plans for the summer."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I enjoy it because it's a good way to relax and catch up after a busy week."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Pretty regularly, I'd say, roughly once a week, though it tends to slip when work gets busy."
+                },
+                {
+                  "role": "development",
+                  "text": "We've got a favourite spot where the staff know our orders, and it's become something of a ritual, a chance to catch up properly instead of just swapping messages."
+                },
+                {
+                  "role": "example",
+                  "text": "Last time, we ended up chatting for so long that the café was practically closing around us."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It's cheap, it's relaxing, and it's one of the highlights of my week."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think smartphones make it harder to enjoy time with friends?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, I think they can, but it depends on how people use them."
+                },
+                {
+                  "role": "development",
+                  "text": "When everyone checks their phone every few minutes, it's difficult to have a proper conversation, and you can feel ignored."
+                },
+                {
+                  "role": "example",
+                  "text": "Last week, I went out to dinner with a friend who kept answering messages, so I felt we weren't really spending time together."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I think a good idea is to put phones away during meals, and I try to do that myself."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "On the whole, yes, though I'd hesitate to blame the phones themselves."
+                },
+                {
+                  "role": "development",
+                  "text": "It's the constant pull of notifications that does the damage, because even if you don't look, you're half waiting for the next buzz, and that fractures your attention."
+                },
+                {
+                  "role": "example",
+                  "text": "I've noticed that at dinners where we all leave our phones in a pile, conversations are noticeably livelier and last longer."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So the answer isn't to ban them, but to agree on some basic etiquette."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s2-home-kitchen-01",
+      "examPart": "speaking-2",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "image": {
+        "sceneId": "home-kitchen",
+        "alt": {
+          "en": "Two people cooking together in a home kitchen: one is stirring a pot on the hob and the other is chopping vegetables.",
+          "es": "Dos personas cocinando juntas en una cocina de casa: una remueve una olla en los fuegos y la otra corta verduras."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Describe this picture.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "This is a picture of two people cooking together in a kitchen at home."
+                },
+                {
+                  "role": "development",
+                  "text": "They're standing side by side and working on the same meal. One person is stirring a pot on the hob, and the other one is chopping vegetables."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd guess they're making a soup or a stew for dinner. They could be a couple or housemates, and it looks as if they're sharing the work."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It seems like a pleasant way to prepare a meal."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "The picture shows two people preparing a meal together in a home kitchen."
+                },
+                {
+                  "role": "development",
+                  "text": "One of them is stirring a pot on the hob, while the other is busy chopping vegetables, so they've clearly divided up the work."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Judging by the vegetables, I'd say they're making something like a soup or a stew, and they must have cooked together before because they seem to have a system. They might be partners, housemates or even a parent and an adult child."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Whoever they are, it's a nice picture of teamwork."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you enjoy cooking, and what do you usually make?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, I do. I find cooking relaxing, especially after a long day at work."
+                },
+                {
+                  "role": "development",
+                  "text": "I usually make simple dishes like pasta, omelettes or rice with vegetables because I don't have much time."
+                },
+                {
+                  "role": "example",
+                  "text": "On Sundays I try something new, and last weekend I made a chicken curry for my family, which everyone loved."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I'd like to learn more recipes, because I think cooking is a really useful skill."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I do, more than I expected to, in fact; it's become my way of winding down."
+                },
+                {
+                  "role": "development",
+                  "text": "During the week it's mostly quick, one-pan dishes, but at the weekend I like to take my time over something more ambitious."
+                },
+                {
+                  "role": "example",
+                  "text": "Last Sunday I attempted a risotto from scratch, and although the rice was slightly overdone, my guests were kind enough to ask for seconds."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "What I enjoy most is the creativity, since no two meals ever turn out exactly the same."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think people eat more healthily when they cook at home?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, generally I think they do."
+                },
+                {
+                  "role": "development",
+                  "text": "When you cook at home, you know exactly what's in your food, and you can use fresh ingredients instead of a lot of salt, sugar or oil."
+                },
+                {
+                  "role": "example",
+                  "text": "My brother started cooking his own meals last year, and he's lost weight and says he feels much more energetic."
+                },
+                {
+                  "role": "speculation",
+                  "text": "However, it might not always be true, because some people just cook fried food or make huge portions."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So I think it depends on what you cook, but it's usually better than takeaways."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "As a rule, yes, although it's not automatic."
+                },
+                {
+                  "role": "development",
+                  "text": "Cooking at home gives you control over the ingredients and the portions, whereas ready meals and takeaways tend to be loaded with salt and fat."
+                },
+                {
+                  "role": "example",
+                  "text": "A colleague of mine swapped her lunchtime sandwiches for home-made salads and, within a few months, she noticed a real difference in her energy levels."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Then again, anyone who fries everything in butter can hardly claim to be eating well, so it's less about where the food is made than what goes into it."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Still, cooking at home is where healthy habits tend to start."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s2-school-classroom-01",
+      "examPart": "speaking-2",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 2,
+      "image": {
+        "sceneId": "school-classroom",
+        "alt": {
+          "en": "A classroom with a teacher at a whiteboard and pupils at their desks, one of whom is raising a hand.",
+          "es": "Un aula con un profesor en la pizarra y alumnos en sus pupitres, uno de los cuales levanta la mano."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Describe this picture.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "This picture shows a classroom during a lesson."
+                },
+                {
+                  "role": "development",
+                  "text": "At the front, the teacher is standing at the whiteboard. The pupils are sitting at their desks, and one of them is raising a hand."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd guess the pupil has a question, or maybe knows the answer to something the teacher has asked. It might be a maths or a language lesson."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Overall, it looks like an active class where pupils are taking part."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "We're looking at a classroom in the middle of a lesson."
+                },
+                {
+                  "role": "development",
+                  "text": "The teacher is at the whiteboard at the front, and the pupils are at their desks, with one of them putting a hand up."
+                },
+                {
+                  "role": "speculation",
+                  "text": "That pupil must either have a question or have spotted the answer to something the teacher has just asked, and the teacher may well be about to call on them. I can't tell what the subject is, but it could be anything from maths to grammar."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It's a fairly typical snapshot of an interactive lesson."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What was your favourite subject at school, and why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "My favourite subject at school was English, which is probably why I'm learning it now."
+                },
+                {
+                  "role": "development",
+                  "text": "I liked it because the teacher made the lessons fun, and we often did role-plays and watched short films."
+                },
+                {
+                  "role": "example",
+                  "text": "Once we put on a short play in front of the whole school, and although I was nervous, it was a great experience."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It has also helped me a lot, because now I can read and talk to people from other countries."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "History, without a doubt, though I wouldn't have predicted that when I started secondary school."
+                },
+                {
+                  "role": "development",
+                  "text": "What won me over was a teacher who treated the past like a detective story, so instead of memorising dates, we had to work out why things had happened."
+                },
+                {
+                  "role": "example",
+                  "text": "I remember we spent a whole week analysing a single letter from a soldier, and it was more gripping than most novels I'd read at that age."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Looking back, it's probably the subject that taught me to question what I read."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How could schools make lessons more interesting?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think there are several things schools could do."
+                },
+                {
+                  "role": "development",
+                  "text": "First, teachers could use more group work and projects, so students are active instead of just listening."
+                },
+                {
+                  "role": "example",
+                  "text": "At my school, we once did a project about our town's history, and we interviewed older people. I learnt much more than from the textbook."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Technology might help as well, for example with videos or educational games."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "In short, lessons should be more practical and less about copying from the board."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "The key, I'd say, is to get students doing things rather than just receiving information."
+                },
+                {
+                  "role": "development",
+                  "text": "Project-based learning works well because pupils have to apply what they've learned, and they're far more likely to remember something they've had to use."
+                },
+                {
+                  "role": "example",
+                  "text": "A teacher I had once turned a lesson on percentages into a mock shop, and suddenly everybody was keen to get the sums right."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Technology could play a part too, though it ought to support the teaching, not replace it, otherwise it's just a gimmick."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Above all, a teacher's enthusiasm makes all the difference."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
