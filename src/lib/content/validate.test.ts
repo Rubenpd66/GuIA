@@ -141,6 +141,22 @@ describe("validateContentSet", () => {
     ]);
   });
 
+  it("warns about a placement flag on a part the placement test never uses", () => {
+    const set = validSet();
+    set.push(
+      file("exercises/flagged.json", "exercises", [
+        {
+          ...(structuredClone(validExercises["writing-2"]) as object),
+          id: "w2-flagged",
+          placement: true,
+        },
+      ]),
+    );
+    const { warnings } = validateContentSet(set);
+    expect(warnings).toHaveLength(1);
+    expect(warnings[0]!.message).toContain("writing-2");
+  });
+
   it("warns about American spellings in English text only", () => {
     const set = validSet();
     const reading = (

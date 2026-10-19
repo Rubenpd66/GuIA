@@ -255,6 +255,7 @@
     },
     {
       "id": "cv-a2-usage-1",
+      "placement": true,
       "examPart": "core-vocabulary",
       "cefrLevel": "A2",
       "topic": "shopping-consumption",

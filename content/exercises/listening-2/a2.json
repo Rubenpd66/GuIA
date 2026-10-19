@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "l2-a2-1",
+      "placement": true,
       "examPart": "listening-2",
       "cefrLevel": "A2",
       "topic": "culture-leisure",

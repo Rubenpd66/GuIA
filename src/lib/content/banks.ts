@@ -11,6 +11,16 @@ import { exercisesOfPart, type ContentIndex } from "./index";
 const parts = <P extends ExamPart>(content: ContentIndex, list: P[]) =>
   list.flatMap((part) => exercisesOfPart(content, part));
 
+/** The parts the placement test draws from; a `placement` flag anywhere else does nothing. */
+export const PLACEMENT_PARTS: readonly ExamPart[] = [
+  "core-grammar",
+  "core-vocabulary",
+  "reading-1",
+  "reading-3",
+  "listening-1",
+  "listening-2",
+];
+
 /** Only the placement test's fixed pool, so the open test never hands out paid material. */
 const placementOf = <P extends ExamPart>(content: ContentIndex, part: P) =>
   exercisesOfPart(content, part).filter((exercise) => exercise.placement);

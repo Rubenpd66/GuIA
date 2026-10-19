@@ -20,4 +20,20 @@ describe("placement bank", () => {
       "cg-public",
     ]);
   });
+
+  it("filters every list, not only grammar", () => {
+    const task = validExercises["listening-1"] as { id: string };
+    const index = buildContentIndex([
+      ContentFile.parse({
+        kind: "exercises",
+        items: [
+          { ...task, id: "l1-public", placement: true },
+          { ...task, id: "l1-paid" },
+        ],
+      }),
+    ]);
+    expect(BANKS.placement(index).listening1.map((t) => t.id)).toEqual([
+      "l1-public",
+    ]);
+  });
 });

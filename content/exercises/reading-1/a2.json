@@ -3,6 +3,7 @@
   "items": [
     {
       "id": "r1-a2-1",
+      "placement": true,
       "examPart": "reading-1",
       "cefrLevel": "A2",
       "topic": "travel",
