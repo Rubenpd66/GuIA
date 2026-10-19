@@ -987,5 +987,10 @@
     "weakTitle": "Practise these first",
     "again": "New mock exam",
     "toDashboard": "Go to the dashboard"
+  },
+  "Bank": {
+    "loading": "Loading the questions…",
+    "error": "The questions could not be loaded. Check your connection.",
+    "retry": "Try again"
   }
 }

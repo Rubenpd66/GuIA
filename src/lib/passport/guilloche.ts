@@ -3,7 +3,9 @@
  * so the artwork is original and needs no image files.
  */
 
-const round = (value: number) => Math.round(value * 100) / 100;
+// A tenth of a unit is below a pixel at the sizes these patterns are drawn, and keeps every
+// page's markup small (the band is in the navigation of every page).
+const round = (value: number) => Math.round(value * 10) / 10;
 const gcd = (a: number, b: number): number => (b === 0 ? a : gcd(b, a % b));
 
 type GuillocheOptions = {
@@ -37,7 +39,8 @@ export function guillochePath({
     points.push(`${round(x)} ${round(y)}`);
   }
   const [first, ...rest] = points;
-  return `M${first} ${rest.map((point) => `L${point}`).join(" ")} Z`;
+  // After one "L", SVG repeats the line command for every further pair of numbers.
+  return `M${first} L${rest.join(" ")} Z`;
 }
 
 type WaveOptions = {
@@ -66,5 +69,5 @@ export function wavePath({
     points.push(`${round(x)} ${round(waveY)}`);
   }
   const [first, ...rest] = points;
-  return `M${first} ${rest.map((point) => `L${point}`).join(" ")}`;
+  return `M${first} L${rest.join(" ")}`;
 }

@@ -9,6 +9,8 @@ import { Button } from "@/components/ui/Button";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Link } from "@/i18n/navigation";
 import { SKILLS, type Skill } from "@/lib/exam/format";
+import { BankStatus } from "@/components/content/BankStatus";
+import { useBank } from "@/lib/content/useBank";
 import { useToday } from "@/lib/estimate/useToday";
 import type { MockState } from "@/lib/mock/state";
 import { mockStore } from "@/lib/mock/store";
@@ -29,14 +31,14 @@ const SELF_ASSESSED: ReadonlySet<Skill> = new Set(["writing", "speaking"]);
 // Only called from event handlers; the purity lint misreads them as render code.
 const now = () => Date.now();
 
-export function MockExam({ bank }: { bank: MockBank }) {
+export function MockExam() {
   const today = useToday();
   const state = mockStore.useValue();
   // Progress lives in the browser; render nothing on the server.
   if (today === null) return null;
   if (!state) return <MockSetup />;
   if (state.finishedAt !== null) return <MockReport state={state} />;
-  return <MockRun key={state.startedAt} state={state} bank={bank} />;
+  return <MockRunLoader key={state.startedAt} state={state} />;
 }
 
 function MockSetup() {
@@ -102,6 +104,12 @@ function MockSetup() {
       </Button>
     </section>
   );
+}
+
+function MockRunLoader({ state }: { state: MockState }) {
+  const bank = useBank("mock");
+  if (bank.status !== "ready") return <BankStatus state={bank} />;
+  return <MockRun state={state} bank={bank.data} />;
 }
 
 function MockRun({ state, bank }: { state: MockState; bank: MockBank }) {

@@ -987,5 +987,10 @@
     "weakTitle": "Practica primero",
     "again": "Nuevo simulacro",
     "toDashboard": "Ir al panel"
+  },
+  "Bank": {
+    "loading": "Cargando las preguntas…",
+    "error": "No se han podido cargar las preguntas. Comprueba la conexión.",
+    "retry": "Reintentar"
   }
 }

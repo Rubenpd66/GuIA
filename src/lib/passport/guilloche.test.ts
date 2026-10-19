@@ -8,7 +8,8 @@ describe("guillochePath", () => {
     const path = guillochePath(options);
     expect(path.startsWith("M")).toBe(true);
     expect(path.endsWith("Z")).toBe(true);
-    expect(path.match(/L/g)).toHaveLength(200);
+    // One point to move to, then a point per step.
+    expect(path.match(/-?\d+(\.\d+)?/g)).toHaveLength(2 * 201);
   });
 
   it("is deterministic, so server and client render the same markup", () => {
@@ -35,6 +36,6 @@ describe("wavePath", () => {
     });
     expect(path.startsWith("M0 ")).toBe(true);
     expect(path.endsWith("Z")).toBe(false);
-    expect(path.match(/L/g)).toHaveLength(50);
+    expect(path.match(/-?\d+(\.\d+)?/g)).toHaveLength(2 * 51);
   });
 });

@@ -2,7 +2,8 @@ import { guillochePath, wavePath } from "@/lib/passport/guilloche";
 import { cx } from "@/lib/cx";
 
 const ROSETTE = [18, 24, 30, 36].map((d) =>
-  guillochePath({ cx: 100, cy: 100, R: 80, r: 28, d, steps: 840 }),
+  // 80 points per loop of the seven-loop curve: smooth at the cover's size.
+  guillochePath({ cx: 100, cy: 100, R: 80, r: 28, d, steps: 560 }),
 );
 
 const BAND = [0, 1, 2, 3, 4, 5].map((i) =>
@@ -11,7 +12,8 @@ const BAND = [0, 1, 2, 3, 4, 5].map((i) =>
     y: 20,
     amplitude: 9 - i,
     wavelength: 50,
-    steps: 400,
+    // Twelve points per wave is smooth at the band's size.
+    steps: 96,
     phase: (i * Math.PI) / 3,
   }),
 );

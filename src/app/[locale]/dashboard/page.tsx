@@ -13,7 +13,10 @@ export default async function DashboardPage() {
   return (
     <>
       <PageHeader title={t("title")} lead={t("lead")} />
-      <Dashboard />
+      {/* The view renders in the browser only: keep its room so the footer does not jump. */}
+      <div className="min-h-[36rem]">
+        <Dashboard />
+      </div>
     </>
   );
 }

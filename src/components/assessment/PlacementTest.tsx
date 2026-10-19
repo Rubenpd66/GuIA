@@ -8,24 +8,25 @@ import { usePartName } from "@/components/sections/usePartName";
 import { Button } from "@/components/ui/Button";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Link } from "@/i18n/navigation";
+import { loadBank } from "@/lib/content/useBank";
 import { createRng, randomSeed } from "@/lib/trainer/random";
 import { AssessmentRunner } from "./AssessmentRunner";
 import {
   buildPlacementSteps,
   placementLevels,
   placementPlan,
-  type PlacementBank,
 } from "./placement";
 import type { Step, StepResult } from "./steps";
 
 const H2 = "text-xl font-bold font-semi-expanded";
 
-export function PlacementTest({ bank }: { bank: PlacementBank }) {
+export function PlacementTest() {
   const t = useTranslations("Placement");
   const tAll = useTranslations();
   const partName = usePartName();
   const [steps, setSteps] = useState<Step[] | null>(null);
   const [results, setResults] = useState<StepResult[] | null>(null);
+  const [loading, setLoading] = useState<"idle" | "loading" | "error">("idle");
 
   if (results) {
     const levels = placementLevels(results);
@@ -129,12 +130,23 @@ export function PlacementTest({ bank }: { bank: PlacementBank }) {
       <Button
         variant="primary"
         size="lg"
-        onClick={() =>
-          setSteps(buildPlacementSteps(bank, createRng(randomSeed())))
-        }
+        disabled={loading === "loading"}
+        onClick={() => {
+          setLoading("loading");
+          loadBank("placement").then(
+            (bank) =>
+              setSteps(buildPlacementSteps(bank, createRng(randomSeed()))),
+            () => setLoading("error"),
+          );
+        }}
       >
         {t("start")}
       </Button>
+      {loading === "error" ? (
+        <p role="alert" className="text-refusal">
+          {tAll("Bank.error")}
+        </p>
+      ) : null}
     </section>
   );
 }
