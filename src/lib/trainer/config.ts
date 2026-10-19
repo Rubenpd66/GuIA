@@ -26,6 +26,14 @@ export const READING_PART_EXAM = {
   "reading-4": { tasks: 1, seconds: 15 * 60 },
 } as const;
 
+/** Exam mode for a single Writing part: one task in the exam's recommended time per part. */
+export const WRITING_PART_EXAM = {
+  "writing-1": { seconds: EXAM_FORMAT.writing.part1.recommendedMinutes * 60 },
+  "writing-2": { seconds: EXAM_FORMAT.writing.part2.recommendedMinutes * 60 },
+  "writing-3": { seconds: EXAM_FORMAT.writing.part3.recommendedMinutes * 60 },
+  "writing-4": { seconds: EXAM_FORMAT.writing.part4.recommendedMinutes * 60 },
+} as const;
+
 /** Study sessions are shorter so they fit in a break. */
 export const STUDY_SESSION_SIZE = 10;
 

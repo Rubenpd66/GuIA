@@ -1,0 +1,52 @@
+const STORAGE_KEY = "sello:writing-drafts";
+/** Oldest drafts are dropped past this, so abandoned tasks do not pile up. */
+export const MAX_DRAFTS = 60;
+
+type Drafts = Record<string, { text: string; savedAt: number }>;
+type Store = Pick<Storage, "getItem" | "setItem">;
+
+const browserStore = (): Store => globalThis.localStorage;
+
+function readAll(store: Store): Drafts {
+  try {
+    const data: unknown = JSON.parse(store.getItem(STORAGE_KEY) ?? "{}");
+    return typeof data === "object" && data !== null ? (data as Drafts) : {};
+  } catch {
+    return {};
+  }
+}
+
+function writeAll(store: Store, drafts: Drafts) {
+  try {
+    store.setItem(STORAGE_KEY, JSON.stringify(drafts));
+  } catch {
+    // Blocked or full storage: the text stays in the editor for this page view.
+  }
+}
+
+/** The saved text for one item (see `writingItems` keys), or "" when there is none. */
+export function readDraft(key: string, store = browserStore()): string {
+  const text = readAll(store)[key]?.text;
+  return typeof text === "string" ? text : "";
+}
+
+export function saveDraft(
+  key: string,
+  text: string,
+  savedAt: number,
+  store = browserStore(),
+) {
+  const drafts = readAll(store);
+  if (text) drafts[key] = { text, savedAt };
+  else delete drafts[key];
+  const kept = Object.entries(drafts)
+    .sort(([, a], [, b]) => b.savedAt - a.savedAt)
+    .slice(0, MAX_DRAFTS);
+  writeAll(store, Object.fromEntries(kept));
+}
+
+export function clearDrafts(keys: readonly string[], store = browserStore()) {
+  const drafts = readAll(store);
+  keys.forEach((key) => delete drafts[key]);
+  writeAll(store, drafts);
+}

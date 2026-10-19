@@ -6,6 +6,7 @@ import {
   importProgress,
   mistakeKeys,
   parseProgress,
+  recordAttempt,
   recordSession,
 } from "./progress";
 
@@ -154,5 +155,32 @@ describe("export and import", () => {
         JSON.stringify({ app: "sello", progress: { version: 1, attempts: 5 } }),
       ),
     ).toEqual({ ok: false, error: "invalid-data" });
+  });
+});
+
+describe("recordAttempt", () => {
+  it("adds the attempt and leaves the mistakes bank alone", () => {
+    const before = recordSession(
+      EMPTY_PROGRESS,
+      session([{ key: "g1", correct: false }]),
+    );
+    const after = recordAttempt(before, {
+      part: "writing-2",
+      mode: "exam",
+      startedAt: 5000,
+      finishedAt: 9000,
+      correct: 3,
+      total: 4,
+    });
+    expect(after.mistakes).toBe(before.mistakes);
+    expect(after.attempts.at(-1)).toEqual({
+      id: "writing-2-5000",
+      part: "writing-2",
+      mode: "exam",
+      startedAt: 5000,
+      finishedAt: 9000,
+      correct: 3,
+      total: 4,
+    });
   });
 });

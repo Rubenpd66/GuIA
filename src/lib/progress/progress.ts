@@ -1,6 +1,6 @@
 import type { ExamPart } from "@/lib/exam/format";
 import type { ItemResult } from "@/lib/trainer/score";
-import { Progress, type MistakeEntry } from "./schema";
+import { Progress, type Attempt, type MistakeEntry } from "./schema";
 
 export const EMPTY_PROGRESS: Progress = {
   version: 1,
@@ -51,19 +51,31 @@ export function recordSession(
         mistakes[key] = { ...previous, streak, lastSeen: session.finishedAt };
     }
   }
-  const attempt = {
-    id: `${session.part}-${session.startedAt}`,
-    part: session.part,
-    mode: session.mode,
-    startedAt: session.startedAt,
-    finishedAt: session.finishedAt,
-    correct: session.results.filter((result) => result.correct).length,
-    total: session.results.length,
-  };
+  return recordAttempt(
+    { ...progress, mistakes },
+    {
+      part: session.part,
+      mode: session.mode,
+      startedAt: session.startedAt,
+      finishedAt: session.finishedAt,
+      correct: session.results.filter((result) => result.correct).length,
+      total: session.results.length,
+    },
+  );
+}
+
+/** Adds an attempt without touching the mistakes bank (Writing self-assessment, for example). */
+export function recordAttempt(
+  progress: Progress,
+  attempt: Omit<Attempt, "id">,
+): Progress {
   return {
     version: 1,
-    attempts: [...progress.attempts, attempt].slice(-MAX_ATTEMPTS),
-    mistakes,
+    attempts: [
+      ...progress.attempts,
+      { id: `${attempt.part}-${attempt.startedAt}`, ...attempt },
+    ].slice(-MAX_ATTEMPTS),
+    mistakes: progress.mistakes,
   };
 }
 
