@@ -79,3 +79,15 @@ Committed, not deployed (the user audits it first). Plan: `docs/superpowers/plan
 - Security: headers and CSP in `next.config.ts` (HSTS, nosniff, referrer policy, microphone self only, `frame-ancestors 'none'`). `npm audit --omit=dev` found 0 vulnerabilities and the secret key is not in the client bundle (checked in `.next/static`).
 - Legal: privacy (account-aware), terms and cookies pages in es/en; `docs/legal/README.md` holds the processing register and the owner's to-do (accept the DPAs, professional review).
 - E2E: `e2e/accounts.spec.ts` (admin hidden, headers, sign-in form; round trip with a throwaway user when `SUPABASE_SECRET_KEY` is exported).
+
+## Phase 10a (Levels and A2 content)
+
+Committed, not deployed. Spec: `docs/superpowers/specs/2026-10-19-phase-10-tiers-design.md` (section 3). Plan: `docs/superpowers/plans/2026-10-19-phase-10a-levels.md`. No gating yet: that is 10b.
+
+- Tiers: `src/lib/access/tiers.ts` (`TIERS` free/b1/b2/c1, `levelsFor`, `tierFor`, `canAccess`, display `PRICES` in cents; Stripe holds the charged prices from 10c).
+- Every exercise already had `cefrLevel`; nothing was re-tagged. `TARGET_LEVELS` now starts at A2 (can-do and functional phrases).
+- Validator report: `By level (A2 B1 B2 C1)` per part (questions for Core Grammar, items for Core Vocabulary, tasks otherwise) and `Mock gaps` (cumulative: a tier's mock draws from every unlocked level; needs in `MOCK_NEEDS`, `src/lib/trainer/config.ts`). Gaps are report lines, not warnings, so the fixture tests stay warning-free. Must read `none`.
+- Placement: only exercises with `placement: true` reach the placement bank (`BANKS.placement`); 49 flagged (30 Core Grammar spread over levels and lessons, 3 Core Vocabulary, 3 Reading 1/3, 6 Listening 1, 2 Listening 2). `Placement gaps` must read `none`. In 10b these count as free for every tier.
+- A2 content: 10 grammar lessons (orders 90–180) with 60 questions, 60 vocabulary entries (`content/vocabulary/a2-everyday.json`), 8 Core Vocabulary tasks, 18 can-do (`content/can-do/a2.json`), 20 functional phrases, and `a2.json` tasks in every Reading, Listening, Writing and Speaking part. No book references (user's OK needed).
+- A2 Writing and Speaking tasks keep the schema's `b2` / `c` model labels (a plainer and a richer model).
+- Gotcha: `a11y-behaviour.spec.ts` "the stamp only fades…" once timed out on `waitForLoadState` under the full suite; it passed 3/3 alone.
