@@ -34,8 +34,15 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - UI in `src/components/writing/` (`WritingTrainer` holds the four parts in one component, `WritingEditor`, `ModelAnswers`, `Checklist`, `PhrasePanel`); `/writing` page; `/practice/writing-1…4`.
   - App decisions: own 4-criterion rubric (not official), exam = one task in the recommended minutes and the editor locks at zero, study has tips, useful phrases and an optional stopwatch, no spellcheck in the editor.
   - Bank: 8/10/8/6 tasks in `content/exercises/writing-{1,2,3,4}/`, reviewed one by one; the validator prints Writing task counts.
-- **Next: phase 6 (Speaking).** Plan written at `docs/superpowers/plans/2026-10-19-phase-6-speaking.md`, awaiting the user's approval of its 4 questions (recordings in memory only with optional download, exam auto timer and recording, bank 10/6/5/5 with ~16 original SVG scenes, self-assessment like Writing). Do not start code before that approval.
-- Phases 6–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
+- Phase 6 (Speaking) is done, committed and browser-checked (simulated microphone via an AudioContext oscillator, refused microphone, fake clock, 375/1280, light/dark, ES/EN, keyboard). Plan: `docs/superpowers/plans/2026-10-19-phase-6-speaking.md`.
+  - Logic in `src/lib/trainer/speaking.ts`: `speakingTurns` (part 4 is one turn for its three questions), the turn reducer (reading → ready (study) → preparing (part 4) → answering → done), `modelWordRange` (2.2 words/s, an app decision; the validator warns), `SPEAKING_RUBRIC`. Timings in `SPEAKING_PART_EXAM`.
+  - Recording: `src/lib/speaking/recorder.ts` (MediaRecorder, one in-memory recording per turn, object URLs revoked, mic asked at session start via `prepare()`, a refusal is final, `stop()` during the prompt cancels the take) and `useRecorder`. Nothing is uploaded or stored; Download is the only way out.
+  - Scenes: ids and descriptions in `src/lib/speaking/scenes.ts` (the schema only accepts these ids); drawings in `src/components/speaking/scenes/` (`parts.tsx` primitives in theme tokens). 16 scenes; only their geometry was checked by script, not their look.
+  - UI: `SpeakingTrainer` (all four parts), `AnswerTimer`, `RecordingPlayer`, `SpeakingModels` (listen with `useSpeech`, which now takes an `onEnd`), `MicCheck`; `/speaking` page; `Checklist` now lives in `src/components/trainer/` and is shared with Writing.
+  - App decisions: own 4-criterion rubric, exam reads the question with the synthetic voice (5 s silent reading without a voice, and a cap if the voice never ends), recording and time start and stop on their own, no retries; study waits for the learner, allows retries and shows structure, tips, phrases and models.
+  - Bank: 10/6/5/5 tasks in `content/exercises/speaking-{1,2,3,4}/`, reviewed one by one.
+- **Next: phase 7** (dashboard, placement test, mock exam, flashcards, mistakes bank). Write its plan and wait for approval before code.
+- Phases 7–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
 
