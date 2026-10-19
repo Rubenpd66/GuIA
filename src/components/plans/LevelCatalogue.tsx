@@ -64,8 +64,10 @@ export function LevelCatalogue({
             onClick={() => setLevel(value)}
             onKeyDown={(event) => onKeyDown(event, i)}
             className={cx(
-              "inline-flex min-h-12 items-center gap-2 rounded-control border-[1.5px] px-5 font-semibold",
-              level === value ? "border-ink bg-surface" : "border-line",
+              "pressable inline-flex min-h-12 items-center gap-2 rounded-full border-[1.5px] px-5 font-semibold",
+              level === value
+                ? "border-accent bg-accent text-on-accent"
+                : "border-line",
             )}
           >
             {value}
@@ -83,7 +85,7 @@ export function LevelCatalogue({
           <h3 className="font-bold">
             {t("lessons", { count: data.lessons.length })}
           </h3>
-          <ul className="mt-2 space-y-1">
+          <ul className="mt-2">
             {data.lessons.map((lesson) => (
               <li key={lesson.slug}>
                 <Link
@@ -91,7 +93,7 @@ export function LevelCatalogue({
                     pathname: "/grammar/[slug]",
                     params: { slug: lesson.slug },
                   }}
-                  className="underline"
+                  className="inline-block py-2 underline"
                 >
                   {lesson.title}
                 </Link>
@@ -103,7 +105,7 @@ export function LevelCatalogue({
           <h3 className="font-bold">
             {t("vocabulary", { count: data.groups.length })}
           </h3>
-          <ul className="mt-2 space-y-1">
+          <ul className="mt-2">
             {data.groups.map((group) => (
               <li key={group.slug}>
                 <Link
@@ -111,7 +113,7 @@ export function LevelCatalogue({
                     pathname: "/vocabulary/[slug]",
                     params: { slug: group.slug },
                   }}
-                  className="underline"
+                  className="inline-block py-2 underline"
                 >
                   {group.title}
                 </Link>
@@ -121,11 +123,11 @@ export function LevelCatalogue({
         </div>
         <div>
           <h3 className="font-bold">{t("tasks")}</h3>
-          <ul className="mt-2 space-y-1">
+          <ul className="mt-2">
             {partEntries.map(([part, count]) => (
               <li
                 key={part}
-                className="flex justify-between gap-4 border-b border-hairline py-1"
+                className="flex justify-between gap-4 border-b border-hairline py-2"
               >
                 <span>{parts(part)}</span>
                 <span>{count}</span>

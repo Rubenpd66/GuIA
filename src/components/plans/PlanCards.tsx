@@ -27,14 +27,14 @@ export function PlanCards({ figures }: { figures: Record<Tier, PlanFigures> }) {
   const highlighted = parseLevelParam(useSearchParams().getAll("nivel"));
 
   return (
-    <div className="space-y-8">
+    <div className="flex flex-col gap-8">
       <fieldset className="flex flex-wrap items-center gap-x-6 gap-y-3">
         <legend className="sr-only">{t("intervalLegend")}</legend>
         <div className="flex gap-2">
           {INTERVALS.map((value) => (
             <label
               key={value}
-              className="flex min-h-12 cursor-pointer items-center rounded-control border-[1.5px] border-line px-5 font-semibold has-[:checked]:border-ink has-[:checked]:bg-surface has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2"
+              className="pressable flex min-h-12 cursor-pointer items-center rounded-full border-[1.5px] border-line px-5 font-semibold has-[:checked]:border-accent has-[:checked]:bg-accent has-[:checked]:text-on-accent has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2"
             >
               <input
                 type="radio"
@@ -62,10 +62,8 @@ export function PlanCards({ figures }: { figures: Record<Tier, PlanFigures> }) {
               <article
                 aria-current={highlighted === tier ? "true" : undefined}
                 className={cx(
-                  "flex w-full flex-col gap-4 rounded-card border-[1.5px] bg-surface p-5",
-                  highlighted === tier
-                    ? "border-ink ring-2 ring-ink"
-                    : "border-line",
+                  "flex w-full flex-col gap-4 rounded-card bg-surface p-5 shadow-card dark:border dark:border-hairline",
+                  highlighted === tier && "ring-2 ring-accent",
                 )}
               >
                 <h2 className="text-xl font-bold">
