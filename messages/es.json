@@ -1141,7 +1141,7 @@
   },
   "Plans": {
     "title": "Planes",
-    "lead": "Cada plan abre su nivel y todos los anteriores. Precios mensuales con IVA incluido.",
+    "lead": "Cada plan abre su nivel y todos los anteriores. Todos los precios llevan el IVA incluido.",
     "loading": "Cargando planes…",
     "intervalLegend": "Periodo de pago",
     "monthly": "Mensual",

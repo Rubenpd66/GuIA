@@ -98,9 +98,7 @@ test.describe("a B1 subscriber", () => {
       await expect(page).toHaveURL(/\/es\/cuenta/);
 
       await page.goto("/es/planes");
-      await expect(
-        card(page, "B1").getByRole("button", { name: "Tu plan actual" }),
-      ).toBeDisabled();
+      await expect(card(page, "B1").getByText("Tu plan actual")).toBeVisible();
       for (const level of ["B2", "C1"])
         await expect(
           card(page, level).getByRole("button", { name: "Cambiar de plan" }),

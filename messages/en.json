@@ -1141,7 +1141,7 @@
   },
   "Plans": {
     "title": "Plans",
-    "lead": "Each plan opens its level and every level below. Monthly prices include VAT.",
+    "lead": "Each plan opens its level and every level below. All prices include VAT.",
     "loading": "Loading plans…",
     "intervalLegend": "Billing period",
     "monthly": "Monthly",

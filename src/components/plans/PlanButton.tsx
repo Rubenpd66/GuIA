@@ -99,9 +99,8 @@ export function PlanButton({
     case "current":
     case "included":
       return (
-        <Button disabled aria-disabled="true">
-          {t(kind)}
-        </Button>
+        // Plain text, not a disabled button: keyboard and screen-reader users still meet it.
+        <p className="flex min-h-12 items-center font-semibold">{t(kind)}</p>
       );
   }
 }

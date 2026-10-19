@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useUser } from "@/lib/auth/useUser";
 import { supabaseBrowser } from "@/lib/supabase/client";
+import { createRowCache } from "./row-cache";
 import { describePlan, tierFromRow, type PlanState, type SubscriptionRow } from "./rule";
 import type { Tier } from "./tiers";
 
@@ -11,23 +12,18 @@ type OwnRow = SubscriptionRow & {
   stripe_customer_id: string | null;
 };
 
-// One query per signed-in user and page load, shared by every lock mark and plan card.
-const reads = new Map<string, Promise<OwnRow | null>>();
-
-function readRow(userId: string): Promise<OwnRow | null> {
-  let read = reads.get(userId);
-  if (!read) {
-    read = Promise.resolve(
-      supabaseBrowser()
-        .from("subscriptions")
-        .select("tier, status, current_period_end, cancel_at_period_end, stripe_customer_id")
-        .eq("user_id", userId)
-        .maybeSingle<OwnRow>(),
-    ).then(({ data }) => data);
-    reads.set(userId, read);
-  }
-  return read;
-}
+// Shared by every lock mark and plan card on the page; see createRowCache for the rules.
+const readRow = createRowCache(
+  (userId) =>
+    supabaseBrowser()
+      .from("subscriptions")
+      .select(
+        "tier, status, current_period_end, cancel_at_period_end, stripe_customer_id",
+      )
+      .eq("user_id", userId)
+      .maybeSingle<OwnRow>(),
+  30_000,
+);
 
 function useOwnRow():
   | { userId: string; row: OwnRow | null; at: number }
@@ -44,8 +40,10 @@ function useOwnRow():
   useEffect(() => {
     if (!user) return;
     let alive = true;
-    void readRow(user.id).then((row) => {
-      if (alive) setLoaded({ userId: user.id, row, at: Date.now() });
+    void readRow(user.id, Date.now()).then((result) => {
+      // A failed read leaves the plan unknown: nothing is offered rather than the wrong thing.
+      if (alive && result)
+        setLoaded({ userId: user.id, row: result.row, at: Date.now() });
     });
     return () => {
       alive = false;
