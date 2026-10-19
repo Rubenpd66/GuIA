@@ -95,4 +95,12 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - `security-audit`: for phase 9.
   - `impeccable` and Emil Kowalski's skills (`emil-design-eng`, `review-animations`…): for UI polish. Impeccable's launcher downloads a binary on first run, so ask before running it.
   - These rules win over any skill.
+- Skill per task (duplicates were moved to `~/.claude/skills-archive`, restore from there if needed):
+  - Plans: superpowers (`brainstorming`, `writing-plans`, `executing-plans`); `grilling` to stress-test them.
+  - Code: `ponytail` always, plus `tdd`; `source-driven-development` for Next 16 (docs in `node_modules/next/dist/docs`).
+  - Bugs: `diagnosing-bugs`. Review: `ponytail-review`, `mp-code-review`.
+  - UI: `impeccable`, `ui-ux-pro-max` (run its search script, ask before running anything that needs network) and Emil's skills.
+  - Content: `aptis-content` and the `content-writer` agent; `humanizer` for marketing copy. SEO: `searchfit-seo`.
+  - Security and law: `security-audit`, `gdpr-data-handling`, `auth-implementation-patterns`. Data: `postgresql-table-design` and Supabase's skills.
+  - Payments: `stripe-integration`, `billing-automation`.
 - Code graph: `graphify update .` (local, no API cost) → `graphify-out/`; query with `graphify query "<question>"`.
