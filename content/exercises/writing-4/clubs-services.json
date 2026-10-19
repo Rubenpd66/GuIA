@@ -1,0 +1,605 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w4-library-sundays-01",
+      "examPart": "writing-4",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "context": "You are a member of your local library. You received this email from the library.",
+      "situation": "From 1 March, the library will no longer open on Sundays. The money saved will pay for a new self-service system. There will also be fewer staff on duty on weekday evenings.",
+      "informal": {
+        "prompt": "Write an email to a friend who is also a member of the library. Tell your friend about the change and say how you feel about it. Write about 40–50 words.",
+        "models": {
+          "b2": {
+            "text": "Hi Marta,\n\nHave you read the library's email? They're closing on Sundays from March! I'm really fed up, because Sunday is the only day I can study there in peace. Shall we ask them to open one Sunday a month? Let me know.\n\nSpeak soon,\nLola",
+            "annotations": [
+              {
+                "quote": "I'm really fed up",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "'Fed up' is an informal phrasal expression meaning 'annoyed'.",
+                  "es": "'Fed up' es informal y significa 'harta'."
+                }
+              },
+              {
+                "quote": "because Sunday is the only day",
+                "kind": "connector",
+                "note": {
+                  "en": "'Because' gives the reason for your reaction.",
+                  "es": "'Because' explica el motivo de tu reacción."
+                }
+              },
+              {
+                "quote": "Shall we ask",
+                "kind": "register",
+                "note": {
+                  "en": "'Shall we' is a friendly way to make a suggestion.",
+                  "es": "'Shall we' es una forma amistosa de proponer algo."
+                }
+              },
+              {
+                "quote": "Speak soon",
+                "kind": "register",
+                "note": {
+                  "en": "A warm, informal sign-off.",
+                  "es": "Una despedida cálida e informal."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Hi Marta,\n\nSeen the library's email? Apparently they're scrapping Sundays from March, which is a real blow. It's the only day I can get any proper studying done there. I'd put up with fewer staff if it meant keeping the doors open. Fancy signing a petition?\n\nCheers,\nLola",
+            "annotations": [
+              {
+                "quote": "Apparently",
+                "kind": "register",
+                "note": {
+                  "en": "Common in informal news-sharing; it shows you are passing on information.",
+                  "es": "Típico al contar una noticia: indica que transmites información."
+                }
+              },
+              {
+                "quote": "which is a real blow",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A non-defining relative clause that comments on the whole sentence.",
+                  "es": "Oración de relativo que comenta toda la frase anterior."
+                }
+              },
+              {
+                "quote": "get any proper studying done",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "'Get + object + past participle' turns the focus to the result.",
+                  "es": "'Get + objeto + participio' pone el foco en el resultado."
+                }
+              },
+              {
+                "quote": "put up with",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A phrasal verb meaning 'tolerate'.",
+                  "es": "Phrasal verb que significa 'aguantar'."
+                }
+              },
+              {
+                "quote": "Fancy signing",
+                "kind": "register",
+                "note": {
+                  "en": "'Fancy + -ing' is a very British, informal way to invite someone.",
+                  "es": "'Fancy + -ing' es una invitación muy británica e informal."
+                }
+              }
+            ]
+          }
+        }
+      },
+      "formal": {
+        "prompt": "Write an email to the Library Manager. Give your opinion of the change and make some suggestions. Write 120–150 words.",
+        "recipient": "The Library Manager",
+        "models": {
+          "b2": {
+            "text": "Dear Sir or Madam,\n\nI am writing to express my concern about the decision to close the library on Sundays from 1 March.\n\nI have been a member for five years and I visit almost every Sunday, because I work from Monday to Saturday. For people like me, it is the only day when I can borrow books and use the study room. I also think that students who need a quiet place before their exams will be badly affected.\n\nI understand that the library needs a self-service system, but I believe there are other ways to save money. For example, you could open only in the afternoon on Sundays, or you could reduce the weekday evening hours instead. I would also be happy to pay a small annual fee.\n\nI look forward to hearing from you.\n\nYours faithfully,\nLola Vega",
+            "annotations": [
+              {
+                "quote": "I am writing to express my concern",
+                "kind": "register",
+                "note": {
+                  "en": "A clear formal opening that states the purpose in the first line.",
+                  "es": "Apertura formal que declara el propósito en la primera línea."
+                }
+              },
+              {
+                "quote": "because I work from Monday to Saturday",
+                "kind": "connector",
+                "note": {
+                  "en": "'Because' introduces a clear reason.",
+                  "es": "'Because' introduce una razón clara."
+                }
+              },
+              {
+                "quote": "I understand that the library needs",
+                "kind": "register",
+                "note": {
+                  "en": "Acknowledging the other side makes a complaint sound polite.",
+                  "es": "Reconocer el otro punto de vista hace la queja más cortés."
+                }
+              },
+              {
+                "quote": "For example, you could",
+                "kind": "connector",
+                "note": {
+                  "en": "'For example' introduces a concrete suggestion.",
+                  "es": "'For example' introduce una sugerencia concreta."
+                }
+              },
+              {
+                "quote": "I look forward to hearing from you.",
+                "kind": "register",
+                "note": {
+                  "en": "The standard formal closing sentence.",
+                  "es": "La frase de cierre formal habitual."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Dear Ms Carter,\n\nI am writing in connection with the announcement that the library will cease to open on Sundays from 1 March.\n\nI fully appreciate the need to modernise, and a self-service system would doubtless be welcome. Nevertheless, I am concerned that this decision will fall hardest on those who work during the week; Sunday is, for many of us, the only day on which the library is realistically accessible. Nor, I suspect, will students preparing for examinations be well served by the change.\n\nIt is the loss of the study room that troubles me most. Might I therefore suggest opening on Sunday afternoons only, with staffing reduced on weekday mornings instead? Should further savings prove necessary, a modest annual fee would be preferable to a complete closure.\n\nI would be grateful if you would consider these points.\n\nYours sincerely,\nLola Vega",
+            "annotations": [
+              {
+                "quote": "in connection with the announcement",
+                "kind": "register",
+                "note": {
+                  "en": "A formal opening phrase that states the purpose at once.",
+                  "es": "Apertura formal que indica el propósito de inmediato."
+                }
+              },
+              {
+                "quote": "the only day on which the library is realistically accessible",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Preposition + 'which' is a formal relative clause.",
+                  "es": "Preposición + 'which': oración de relativo formal."
+                }
+              },
+              {
+                "quote": "Nor, I suspect, will students",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Inversion after 'nor', with a hedge in the middle.",
+                  "es": "Inversión tras 'nor', con una cautela intercalada."
+                }
+              },
+              {
+                "quote": "It is the loss of the study room that troubles me most.",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A cleft sentence that puts the focus on the real problem.",
+                  "es": "Oración hendida que pone el foco en el problema real."
+                }
+              },
+              {
+                "quote": "Should further savings prove necessary",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Inverted conditional with 'should' instead of 'if'.",
+                  "es": "Condicional invertido con 'should' en lugar de 'if'."
+                }
+              },
+              {
+                "quote": "I would be grateful if you would",
+                "kind": "register",
+                "note": {
+                  "en": "A polite, indirect request used in formal letters.",
+                  "es": "Petición indirecta y cortés propia de cartas formales."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "w4-cycling-rides-01",
+      "examPart": "writing-4",
+      "cefrLevel": "C1",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "context": "You are a member of a local cycling club. You received this email from the club.",
+      "situation": "From April, the club's Saturday morning rides will move to Wednesday evenings, because fewer volunteers are available at weekends. Every ride will also be limited to 30 kilometres so that everyone is home before dark.",
+      "informal": {
+        "prompt": "Write an email to a friend who is also a member of the club. Tell your friend about the change and say how you feel about it. Write about 40–50 words.",
+        "models": {
+          "b2": {
+            "text": "Hi Dan,\n\nSeen the club's email? The Saturday rides are moving to Wednesday evenings from April! I can't believe it, because I never finish work before seven. I'm gutted. Shall we organise our own ride on Saturdays? Give me a ring to sort it out.\n\nSpeak soon,\nPaul",
+            "annotations": [
+              {
+                "quote": "I can't believe it",
+                "kind": "register",
+                "note": {
+                  "en": "A natural spoken reaction with a contraction.",
+                  "es": "Reacción natural y hablada, con contracción."
+                }
+              },
+              {
+                "quote": "I'm gutted",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "'Gutted' is very British slang for 'extremely disappointed'.",
+                  "es": "'Gutted' es jerga muy británica: 'destrozado, hundido'."
+                }
+              },
+              {
+                "quote": "Shall we organise",
+                "kind": "register",
+                "note": {
+                  "en": "A friendly suggestion.",
+                  "es": "Una sugerencia amistosa."
+                }
+              },
+              {
+                "quote": "Give me a ring",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "Informal British English for 'phone me'.",
+                  "es": "Inglés británico informal para 'llámame'."
+                }
+              },
+              {
+                "quote": "sort it out",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A phrasal verb meaning 'arrange or solve'.",
+                  "es": "Phrasal verb que significa 'arreglarlo, organizarlo'."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Hi Dan,\n\nHave you seen the club's email? The Saturday rides are being shifted to Wednesday evenings from April, and frankly I'm gutted. There's no way I'll get away from the office. Still, it needn't be the end of it: why not set up our own weekend group?\n\nCheers,\nPaul",
+            "annotations": [
+              {
+                "quote": "are being shifted",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A passive with a continuous aspect describes a change in progress.",
+                  "es": "Pasiva continua: describe un cambio que ya está en marcha."
+                }
+              },
+              {
+                "quote": "frankly",
+                "kind": "register",
+                "note": {
+                  "en": "A discourse marker that softens a blunt opinion between friends.",
+                  "es": "Marcador que suaviza una opinión franca entre amigos."
+                }
+              },
+              {
+                "quote": "There's no way I'll get away",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "'There's no way' + clause is an emphatic way to say something is impossible.",
+                  "es": "'There's no way' + oración enfatiza que algo es imposible."
+                }
+              },
+              {
+                "quote": "it needn't be the end of it",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "The modal 'needn't' shows the situation is not inevitable.",
+                  "es": "El modal 'needn't' indica que la situación no es inevitable."
+                }
+              },
+              {
+                "quote": "set up",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A phrasal verb meaning 'start or establish'.",
+                  "es": "Phrasal verb: 'crear, poner en marcha'."
+                }
+              }
+            ]
+          }
+        }
+      },
+      "formal": {
+        "prompt": "Write an email to the Club Secretary. Give your opinion of the change and make some suggestions. Write 120–150 words.",
+        "recipient": "The Club Secretary",
+        "models": {
+          "b2": {
+            "text": "Dear Sir or Madam,\n\nI am writing to complain about the decision to move the Saturday morning rides to Wednesday evenings from April.\n\nI have belonged to the club for four years and the Saturday ride is the highlight of my week. On Wednesdays I do not finish work until seven, so I would not be able to take part at all. In addition, I think a limit of thirty kilometres is too short for experienced cyclists, who need longer routes to prepare for events.\n\nI understand that it is difficult to find volunteers at weekends. However, I would like to suggest that the club keeps one Saturday ride a month, led by members who are willing to help. Another possibility is to offer a short Wednesday ride and a longer one on Sundays.\n\nI hope you will think about these ideas.\n\nYours faithfully,\nPaul Hill",
+            "annotations": [
+              {
+                "quote": "I am writing to complain about",
+                "kind": "register",
+                "note": {
+                  "en": "A direct but formal way to state your purpose.",
+                  "es": "Forma directa pero formal de indicar el propósito."
+                }
+              },
+              {
+                "quote": "In addition",
+                "kind": "connector",
+                "note": {
+                  "en": "A formal connector for adding a second point.",
+                  "es": "Conector formal para añadir un segundo punto."
+                }
+              },
+              {
+                "quote": "However, I would like to suggest",
+                "kind": "connector",
+                "note": {
+                  "en": "'However' introduces a contrast before the suggestion.",
+                  "es": "'However' introduce el contraste antes de la sugerencia."
+                }
+              },
+              {
+                "quote": "Another possibility is to offer",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A neutral way to present a second suggestion.",
+                  "es": "Forma neutra de presentar una segunda sugerencia."
+                }
+              },
+              {
+                "quote": "I hope you will think about these ideas.",
+                "kind": "register",
+                "note": {
+                  "en": "A polite close; 'consider' would be even more formal.",
+                  "es": "Cierre cortés; 'consider' sería aún más formal."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Dear Mr Okafor,\n\nI am writing in response to your announcement that the Saturday rides will be replaced by Wednesday evening outings from April.\n\nWhile I fully appreciate the difficulty of recruiting volunteers at weekends, I cannot help feeling that the proposal fails to take account of members who work until the early evening. Not only would I be unable to attend on Wednesdays, but the thirty-kilometre limit would also leave experienced riders without adequate preparation for sportives.\n\nIt is the loss of the weekend ride that concerns me most. I would therefore urge the committee to retain a monthly Saturday outing, with ride leaders drawn from the membership on a rota basis. Alternatively, a short midweek route could run alongside a longer Sunday one, which would address both safety and demand.\n\nI would welcome the opportunity to discuss this further.\n\nYours sincerely,\nPaul Hill",
+            "annotations": [
+              {
+                "quote": "While I fully appreciate",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A concessive 'while' clause softens the criticism that follows.",
+                  "es": "Cláusula concesiva con 'while' que suaviza la crítica posterior."
+                }
+              },
+              {
+                "quote": "I cannot help feeling that",
+                "kind": "register",
+                "note": {
+                  "en": "A hedged way to express a concern.",
+                  "es": "Forma matizada de expresar una preocupación."
+                }
+              },
+              {
+                "quote": "Not only would I be unable to attend on Wednesdays, but",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Inversion after 'not only' for emphasis.",
+                  "es": "Inversión tras 'not only' para dar énfasis."
+                }
+              },
+              {
+                "quote": "fails to take account of",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A precise formal collocation for 'does not consider'.",
+                  "es": "Colocación formal precisa: 'no tiene en cuenta'."
+                }
+              },
+              {
+                "quote": "It is the loss of the weekend ride that concerns me most.",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A cleft sentence that emphasises the main problem.",
+                  "es": "Oración hendida que enfatiza el problema principal."
+                }
+              },
+              {
+                "quote": "I would therefore urge the committee to retain",
+                "kind": "register",
+                "note": {
+                  "en": "Firm but polite: a formal verb plus a precise collocation.",
+                  "es": "Firme pero cortés: verbo formal y colocación precisa."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "w4-bike-share-01",
+      "examPart": "writing-4",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 4,
+      "context": "You are a regular user of a city bike-hire scheme. You received this email from the scheme.",
+      "situation": "From 1 June, the daily price will rise from one pound to three pounds, and the first thirty minutes will no longer be free. Eight docking stations in the suburbs will also close, because too few people use them.",
+      "informal": {
+        "prompt": "Write an email to a friend who also uses the scheme. Tell your friend about the changes and say how you feel about them. Write about 40–50 words.",
+        "models": {
+          "b2": {
+            "text": "Hi Sara,\n\nHave you seen CityBikes' email? From June it'll cost three pounds a day, and they're closing eight stations in the suburbs. I'm really annoyed, because I ride to work every day. Let's write to them together and make them think again!\n\nSee you soon,\nTom",
+            "annotations": [
+              {
+                "quote": "it'll cost three pounds a day",
+                "kind": "register",
+                "note": {
+                  "en": "Contractions such as 'it'll' sound natural in informal emails.",
+                  "es": "Contracciones como 'it'll' suenan naturales en emails informales."
+                }
+              },
+              {
+                "quote": "I'm really annoyed, because",
+                "kind": "connector",
+                "note": {
+                  "en": "'Because' explains why you feel this way.",
+                  "es": "'Because' explica por qué te sientes así."
+                }
+              },
+              {
+                "quote": "Let's write to them together",
+                "kind": "register",
+                "note": {
+                  "en": "'Let's' is the usual way to propose something to a friend.",
+                  "es": "'Let's' es lo habitual para proponer algo a un amigo."
+                }
+              },
+              {
+                "quote": "make them think again",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A natural expression meaning 'persuade them to change their mind'.",
+                  "es": "Expresión natural: 'hacerles cambiar de opinión'."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Hi Sara,\n\nSeen CityBikes' email? Three pounds a day from June, and the suburban stations are being axed. It's a bit rich, considering how much I rely on them to get to work. I'm tempted to give up on the scheme, but let's write to them first.\n\nTom",
+            "annotations": [
+              {
+                "quote": "are being axed",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "'Axe' is an informal verb meaning 'cancel or close'.",
+                  "es": "'Axe' es informal: 'cancelar, cerrar'."
+                }
+              },
+              {
+                "quote": "It's a bit rich",
+                "kind": "register",
+                "note": {
+                  "en": "A British idiom for something that seems unfair.",
+                  "es": "Modismo británico: algo que parece injusto o excesivo."
+                }
+              },
+              {
+                "quote": "considering how much I rely on them",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "'Considering' + wh-clause gives a reason with an ironic tone.",
+                  "es": "'Considering' + oración da una razón con tono irónico."
+                }
+              },
+              {
+                "quote": "I'm tempted to give up on the scheme",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "'Give up on' means to stop believing in or using something.",
+                  "es": "'Give up on': dejar de confiar en algo o de usarlo."
+                }
+              }
+            ]
+          }
+        }
+      },
+      "formal": {
+        "prompt": "Write an email to the Customer Services Manager. Give your opinion of the changes and make some suggestions. Write 120–150 words.",
+        "recipient": "The Customer Services Manager",
+        "models": {
+          "b2": {
+            "text": "Dear Sir or Madam,\n\nI am writing about the changes to the bike-hire scheme that you announced in your recent email.\n\nI have used the scheme every working day for two years, and I live in a suburb where a docking station will close. If the daily price rises to three pounds, I will pay much more than I do now, and I will have to walk a long way to the nearest station. I think many people will stop using the bikes, which would be bad for the city and the environment.\n\nI understand that the scheme needs more money. However, I would suggest keeping the first thirty minutes free, or offering a cheaper monthly pass for regular users. I would also ask you to keep open the stations that serve the most commuters.\n\nI look forward to hearing from you.\n\nYours faithfully,\nTom Reed",
+            "annotations": [
+              {
+                "quote": "I am writing about the changes",
+                "kind": "register",
+                "note": {
+                  "en": "A formal opening that gives the purpose in the first line.",
+                  "es": "Apertura formal que da el propósito en la primera línea."
+                }
+              },
+              {
+                "quote": "which would be bad for the city",
+                "kind": "connector",
+                "note": {
+                  "en": "A relative clause adds a consequence in one sentence.",
+                  "es": "Una oración de relativo añade una consecuencia en la misma frase."
+                }
+              },
+              {
+                "quote": "I understand that the scheme needs more money.",
+                "kind": "register",
+                "note": {
+                  "en": "Showing understanding keeps the complaint polite.",
+                  "es": "Mostrar comprensión mantiene la queja cortés."
+                }
+              },
+              {
+                "quote": "I would suggest keeping",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "'Suggest' + -ing is a polite way to propose a solution.",
+                  "es": "'Suggest' + -ing: forma cortés de proponer una solución."
+                }
+              },
+              {
+                "quote": "I would also ask you to keep open",
+                "kind": "register",
+                "note": {
+                  "en": "A polite request using 'would'.",
+                  "es": "Petición cortés con 'would'."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Dear Ms Hollis,\n\nI am writing regarding the revised pricing structure and the planned closure of eight suburban docking stations, as outlined in your recent email.\n\nAs a daily user, I am seriously concerned that these measures will prove counterproductive. Tripling the daily charge is likely to deter precisely those commuters on whom the scheme depends, while the closure of suburban stations will leave residents such as myself without a practical alternative to the car.\n\nThough I appreciate the pressure on your finances, I would suggest retaining the free half-hour, which encourages short, frequent journeys. A discounted monthly pass for regular riders would also be a fair compromise. Moreover, any closures should be based on usage at peak commuting times, not on overall figures.\n\nI would be most grateful if you would reconsider the proposals before they come into force.\n\nYours sincerely,\nTom Reed",
+            "annotations": [
+              {
+                "quote": "regarding the revised pricing structure",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "Precise nominal phrases: 'pricing structure' instead of 'how much it costs'.",
+                  "es": "Sintagmas nominales precisos: 'pricing structure' en vez de 'cuánto cuesta'."
+                }
+              },
+              {
+                "quote": "will prove counterproductive",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A formal prediction with 'prove' + adjective.",
+                  "es": "Predicción formal con 'prove' + adjetivo."
+                }
+              },
+              {
+                "quote": "Tripling the daily charge is likely to deter",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A gerund as subject: nominalisation makes the style more formal.",
+                  "es": "Gerundio como sujeto: la nominalización da un estilo más formal."
+                }
+              },
+              {
+                "quote": "on whom the scheme depends",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Preposition + 'whom' is a formal relative clause.",
+                  "es": "Preposición + 'whom': oración de relativo formal."
+                }
+              },
+              {
+                "quote": "Moreover",
+                "kind": "connector",
+                "note": {
+                  "en": "A formal connector for adding a further point.",
+                  "es": "Conector formal para añadir otro punto."
+                }
+              },
+              {
+                "quote": "come into force",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A fixed formal collocation for rules and changes starting.",
+                  "es": "Colocación formal fija: 'entrar en vigor'."
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

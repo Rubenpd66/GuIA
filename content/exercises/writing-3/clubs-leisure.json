@@ -1,0 +1,897 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w3-book-club-01",
+      "examPart": "writing-3",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "context": "You are a member of a book club. You are talking to other members in the club's online chat room. Answer their questions. Write 30–40 words for each answer.",
+      "questions": [
+        {
+          "prompt": "Priya: What was the last book you read, and how did you feel about it?",
+          "models": {
+            "b2": {
+              "text": "The last book I read was a detective novel set in Edinburgh. I enjoyed it because the plot was full of surprises, although the ending was a bit disappointing. I would still recommend it to anyone who likes mysteries.",
+              "annotations": [
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason for your opinion.",
+                    "es": "Introduce la razón de tu opinión."
+                  }
+                },
+                {
+                  "quote": "although",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Adds a contrast inside one sentence.",
+                    "es": "Añade un contraste dentro de la misma frase."
+                  }
+                },
+                {
+                  "quote": "full of surprises",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A natural phrase for an unpredictable plot.",
+                    "es": "Expresión natural para una trama impredecible."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "I've just finished a detective novel set in Edinburgh, and it was gripping, if slightly let down by its ending. Admittedly, I guessed the culprit early on, but the atmospheric writing more than made up for it.",
+              "annotations": [
+                {
+                  "quote": "gripping",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A precise adjective instead of 'interesting'.",
+                    "es": "Adjetivo preciso en lugar de 'interesting'."
+                  }
+                },
+                {
+                  "quote": "if slightly let down by its ending",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A reduced clause that concedes a weakness without a full sentence.",
+                    "es": "Cláusula reducida que concede un punto débil sin frase completa."
+                  }
+                },
+                {
+                  "quote": "Admittedly",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Concedes a point before disagreeing with it.",
+                    "es": "Concede un punto antes de matizarlo."
+                  }
+                },
+                {
+                  "quote": "more than made up for it",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "An idiomatic way to say something compensated for a problem.",
+                    "es": "Forma idiomática de decir que algo compensó un problema."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Tom: Do you prefer reading paper books or e-books? Why?",
+          "models": {
+            "b2": {
+              "text": "I prefer paper books because I like the feel of the pages. Also, I spend all day looking at screens for work, so reading on one in the evening is tiring. However, e-books are useful when I travel.",
+              "annotations": [
+                {
+                  "quote": "Also",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Adds a second reason.",
+                    "es": "Añade una segunda razón."
+                  }
+                },
+                {
+                  "quote": "so reading on one in the evening is tiring",
+                  "kind": "connector",
+                  "note": {
+                    "en": "'So' links a cause to its result.",
+                    "es": "'So' une la causa con su consecuencia."
+                  }
+                },
+                {
+                  "quote": "However",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces a contrasting point.",
+                    "es": "Introduce un punto en contraste."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Paper books, every time. Not only do they spare my eyes after a day at the screen, but I also find I concentrate better. That said, an e-reader is hard to beat on a long journey.",
+              "annotations": [
+                {
+                  "quote": "Paper books, every time.",
+                  "kind": "register",
+                  "note": {
+                    "en": "A short, chatty opening that sounds natural in a chat.",
+                    "es": "Inicio breve y coloquial, natural en un chat."
+                  }
+                },
+                {
+                  "quote": "Not only do they spare my eyes",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "Inversion after 'Not only' for emphasis.",
+                    "es": "Inversión tras 'Not only' para enfatizar."
+                  }
+                },
+                {
+                  "quote": "That said",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Concedes the opposite view.",
+                    "es": "Concede el punto de vista contrario."
+                  }
+                },
+                {
+                  "quote": "hard to beat",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "Idiomatic: very good compared with the alternatives.",
+                    "es": "Idiomático: muy bueno frente a las alternativas."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Mia: Should our club read more classics, or newer books? What would you suggest?",
+          "models": {
+            "b2": {
+              "text": "I think we should read both. Classics are important because they show us how people thought in the past, but modern books are often easier and more relevant. For example, we could alternate every month.",
+              "annotations": [
+                {
+                  "quote": "I think we should",
+                  "kind": "register",
+                  "note": {
+                    "en": "A simple, clear way to give a suggestion.",
+                    "es": "Forma simple y clara de sugerir."
+                  }
+                },
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason for your opinion.",
+                    "es": "Introduce la razón de tu opinión."
+                  }
+                },
+                {
+                  "quote": "For example",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces a concrete idea.",
+                    "es": "Introduce una idea concreta."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Rather than choosing one or the other, I'd suggest alternating. What classics offer is depth, whereas newer books tend to speak to issues we face today. Reading both would, I think, keep our discussions fresh.",
+              "annotations": [
+                {
+                  "quote": "Rather than choosing one or the other",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'Rather than' + -ing presents an alternative to the obvious choice.",
+                    "es": "'Rather than' + -ing presenta una alternativa a la opción obvia."
+                  }
+                },
+                {
+                  "quote": "What classics offer is depth",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A cleft sentence that puts the key idea at the end.",
+                    "es": "Oración escindida que deja la idea clave al final."
+                  }
+                },
+                {
+                  "quote": "whereas",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Contrasts two things neatly.",
+                    "es": "Contrasta dos cosas con precisión."
+                  }
+                },
+                {
+                  "quote": "I think,",
+                  "kind": "register",
+                  "note": {
+                    "en": "A parenthetical that softens the claim.",
+                    "es": "Inciso que suaviza la afirmación."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "w3-running-club-01",
+      "examPart": "writing-3",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "context": "You are a member of a running club. You are talking to other members in the club's online chat room. Answer their questions. Write 30–40 words for each answer.",
+      "questions": [
+        {
+          "prompt": "Jack: How did you first get into running?",
+          "models": {
+            "b2": {
+              "text": "I started running three years ago because my doctor told me to do more exercise. At first it was very hard, and I could only run for five minutes. Now I run ten kilometres every weekend.",
+              "annotations": [
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason you started.",
+                    "es": "Da la razón por la que empezaste."
+                  }
+                },
+                {
+                  "quote": "At first",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Marks the beginning of a change over time.",
+                    "es": "Marca el inicio de un cambio con el tiempo."
+                  }
+                },
+                {
+                  "quote": "Now",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Contrasts the past with the present.",
+                    "es": "Contrasta el pasado con el presente."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "It was my doctor who got me started, three years ago. I could barely manage five minutes at first and nearly gave up, but I stuck at it, and now ten kilometres feels like a gentle jog.",
+              "annotations": [
+                {
+                  "quote": "It was my doctor who got me started",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A cleft sentence that stresses who or what caused it.",
+                    "es": "Oración escindida que destaca quién o qué lo causó."
+                  }
+                },
+                {
+                  "quote": "barely manage",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "More precise than 'could only'.",
+                    "es": "Más preciso que 'could only'."
+                  }
+                },
+                {
+                  "quote": "stuck at it",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A phrasal expression meaning 'kept going'.",
+                    "es": "Expresión que significa 'seguí adelante'."
+                  }
+                },
+                {
+                  "quote": "a gentle jog",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "Shows how much the effort has changed.",
+                    "es": "Muestra cuánto ha cambiado el esfuerzo."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Hannah: Do you prefer running alone or with a group?",
+          "models": {
+            "b2": {
+              "text": "I prefer running with a group because it is more motivating. Also, it is safer when it is dark in winter. However, I sometimes run alone when I want to think about something or listen to music.",
+              "annotations": [
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason for your preference.",
+                    "es": "Da la razón de tu preferencia."
+                  }
+                },
+                {
+                  "quote": "Also",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Adds a second reason.",
+                    "es": "Añade una segunda razón."
+                  }
+                },
+                {
+                  "quote": "However",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces the other side.",
+                    "es": "Introduce el otro lado."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Generally, I'd go for a group, as it's far harder to skip a session when people are expecting you. Having said that, nothing beats a solo run for clearing my head after a stressful week.",
+              "annotations": [
+                {
+                  "quote": "Generally, I'd go for",
+                  "kind": "register",
+                  "note": {
+                    "en": "Hedges the answer; 'I'd go for' sounds natural and informal.",
+                    "es": "Matiza la respuesta; 'I'd go for' suena natural e informal."
+                  }
+                },
+                {
+                  "quote": "far harder to skip",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'Far' strengthens the comparative.",
+                    "es": "'Far' refuerza el comparativo."
+                  }
+                },
+                {
+                  "quote": "Having said that",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces a concession.",
+                    "es": "Introduce una concesión."
+                  }
+                },
+                {
+                  "quote": "nothing beats",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "Informal way to say something is the best.",
+                    "es": "Forma informal de decir que algo es lo mejor."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Ali: Our club wants more members. What could we do to attract people who have never run before?",
+          "models": {
+            "b2": {
+              "text": "I think we should organise a free beginners' day. For example, we could offer short, easy routes and give people advice about shoes. Also, we should put posters in gyms and cafés, because many people don't know about us.",
+              "annotations": [
+                {
+                  "quote": "I think we should",
+                  "kind": "register",
+                  "note": {
+                    "en": "A clear way to make a suggestion.",
+                    "es": "Forma clara de hacer una sugerencia."
+                  }
+                },
+                {
+                  "quote": "For example",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces concrete ideas.",
+                    "es": "Introduce ideas concretas."
+                  }
+                },
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Justifies the suggestion.",
+                    "es": "Justifica la sugerencia."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "It might help to run a taster session for beginners, with a walk-run option so nobody feels left behind. Were we to advertise it through cafés and schools, we'd probably reach people who'd never think of joining a club.",
+              "annotations": [
+                {
+                  "quote": "It might help to",
+                  "kind": "register",
+                  "note": {
+                    "en": "A hedged, polite way to suggest something.",
+                    "es": "Forma cortés y matizada de sugerir algo."
+                  }
+                },
+                {
+                  "quote": "taster session",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A short trial of an activity.",
+                    "es": "Una breve sesión de prueba de una actividad."
+                  }
+                },
+                {
+                  "quote": "Were we to advertise it",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "Inverted conditional, more formal than 'If we advertised'.",
+                    "es": "Condicional invertido, más formal que 'If we advertised'."
+                  }
+                },
+                {
+                  "quote": "we'd probably reach",
+                  "kind": "register",
+                  "note": {
+                    "en": "'Probably' avoids over-promising.",
+                    "es": "'Probably' evita prometer demasiado."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "w3-travel-club-01",
+      "examPart": "writing-3",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "context": "You are a member of a travel club. You are talking to other members in the club's online chat room. Answer their questions. Write 30–40 words for each answer.",
+      "questions": [
+        {
+          "prompt": "Lena: What was the most memorable trip you have taken?",
+          "models": {
+            "b2": {
+              "text": "The most memorable trip I have taken was to Morocco two years ago. We travelled by bus through the mountains and stayed with a local family. I will never forget the food and how kind everyone was.",
+              "annotations": [
+                {
+                  "quote": "The most memorable trip I have taken",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A superlative with a present perfect relative clause.",
+                    "es": "Superlativo con una oración de relativo en present perfect."
+                  }
+                },
+                {
+                  "quote": "and stayed with a local family",
+                  "kind": "connector",
+                  "note": {
+                    "en": "'And' links actions in order.",
+                    "es": "'And' enlaza acciones en orden."
+                  }
+                },
+                {
+                  "quote": "I will never forget",
+                  "kind": "register",
+                  "note": {
+                    "en": "A simple way to show strong feeling.",
+                    "es": "Forma sencilla de mostrar un sentimiento fuerte."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Without question, a week in Morocco two years ago. What stays with me is not the sights but the people: we stayed with a local family who treated us as if we'd known them for years.",
+              "annotations": [
+                {
+                  "quote": "Without question",
+                  "kind": "register",
+                  "note": {
+                    "en": "A strong, confident opening.",
+                    "es": "Inicio fuerte y seguro."
+                  }
+                },
+                {
+                  "quote": "What stays with me is",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A cleft sentence that highlights what matters.",
+                    "es": "Oración escindida que destaca lo importante."
+                  }
+                },
+                {
+                  "quote": "not the sights but the people",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'Not … but …' gives a clear contrast.",
+                    "es": "'Not … but …' crea un contraste claro."
+                  }
+                },
+                {
+                  "quote": "as if we'd known them for years",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'As if' + past perfect describes an unreal comparison.",
+                    "es": "'As if' + past perfect describe una comparación irreal."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Omar: Do you prefer organising your own trips or booking a package holiday?",
+          "models": {
+            "b2": {
+              "text": "I prefer organising my own trips because I can choose where to go and save money. However, package holidays are easier, especially with children. Last year we booked one, and everything was arranged for us, which was very relaxing.",
+              "annotations": [
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason for your preference.",
+                    "es": "Da la razón de tu preferencia."
+                  }
+                },
+                {
+                  "quote": "However",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces the other side.",
+                    "es": "Introduce el otro lado."
+                  }
+                },
+                {
+                  "quote": "especially with children",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'Especially' picks out the best example.",
+                    "es": "'Especially' destaca el mejor ejemplo."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "On balance, I favour planning things myself, since it lets me wander off the beaten track. Admittedly, a package deal takes the stress out of travelling with kids, which is no small advantage.",
+              "annotations": [
+                {
+                  "quote": "On balance",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Shows you have weighed both sides.",
+                    "es": "Muestra que has sopesado ambos lados."
+                  }
+                },
+                {
+                  "quote": "off the beaten track",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "Away from the usual tourist places.",
+                    "es": "Lejos de los lugares turísticos habituales."
+                  }
+                },
+                {
+                  "quote": "Admittedly",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Concedes a point for the other side.",
+                    "es": "Concede un punto al otro lado."
+                  }
+                },
+                {
+                  "quote": "no small advantage",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "Understatement ('no small' = a big one).",
+                    "es": "Eufemismo ('no small' = muy grande)."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Sofia: Many tourist places are getting too crowded. What do you think can be done about it?",
+          "models": {
+            "b2": {
+              "text": "I think cities should limit the number of visitors in the busiest places. Also, tourists could be encouraged to visit smaller towns instead. For example, cheaper tickets in the low season would help spread people out during the year.",
+              "annotations": [
+                {
+                  "quote": "I think cities should",
+                  "kind": "register",
+                  "note": {
+                    "en": "A direct way to give an opinion.",
+                    "es": "Forma directa de dar una opinión."
+                  }
+                },
+                {
+                  "quote": "tourists could be encouraged",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A passive with a modal verb.",
+                    "es": "Pasiva con verbo modal."
+                  }
+                },
+                {
+                  "quote": "For example",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces a concrete idea.",
+                    "es": "Introduce una idea concreta."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Putting a cap on daily visitors seems the most sensible measure, although it's unlikely to be popular. Better still, towns could promote lesser-known areas, so that crowds are spread out rather than simply turned away.",
+              "annotations": [
+                {
+                  "quote": "Putting a cap on daily visitors",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A gerund phrase as the subject.",
+                    "es": "Un gerundio como sujeto de la frase."
+                  }
+                },
+                {
+                  "quote": "seems the most sensible measure",
+                  "kind": "register",
+                  "note": {
+                    "en": "'Seems' makes the opinion less absolute.",
+                    "es": "'Seems' hace la opinión menos tajante."
+                  }
+                },
+                {
+                  "quote": "Better still",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Presents an even better idea.",
+                    "es": "Presenta una idea todavía mejor."
+                  }
+                },
+                {
+                  "quote": "lesser-known",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A compound adjective for 'not famous'.",
+                    "es": "Adjetivo compuesto para 'poco conocido'."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "w3-film-club-01",
+      "examPart": "writing-3",
+      "cefrLevel": "B2",
+      "topic": "media",
+      "difficulty": 3,
+      "context": "You are a member of a film club. You are talking to other members in the club's online chat room. Answer their questions. Write 30–40 words for each answer.",
+      "questions": [
+        {
+          "prompt": "Dan: Which film has had the biggest effect on you? Why?",
+          "models": {
+            "b2": {
+              "text": "A documentary about the oceans had the biggest effect on me. I watched it at school, and it made me realise how much plastic we throw away. Since then, I have tried to buy less packaging.",
+              "annotations": [
+                {
+                  "quote": "made me realise",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'Make' + object + bare infinitive.",
+                    "es": "'Make' + objeto + infinitivo sin 'to'."
+                  }
+                },
+                {
+                  "quote": "Since then",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Links a past event to its present result.",
+                    "es": "Une un hecho pasado con su resultado actual."
+                  }
+                },
+                {
+                  "quote": "how much plastic",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "An indirect question with 'how much'.",
+                    "es": "Pregunta indirecta con 'how much'."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "It would have to be a documentary on ocean pollution that I saw as a teenager. Not until then had I realised how much plastic we waste, and it's shaped how I shop ever since.",
+              "annotations": [
+                {
+                  "quote": "It would have to be",
+                  "kind": "register",
+                  "note": {
+                    "en": "A hedged way to pick one answer.",
+                    "es": "Forma matizada de elegir una respuesta."
+                  }
+                },
+                {
+                  "quote": "Not until then had I realised",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "Inversion after 'Not until' for emphasis.",
+                    "es": "Inversión tras 'Not until' para enfatizar."
+                  }
+                },
+                {
+                  "quote": "ocean pollution",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A precise topic noun phrase.",
+                    "es": "Sintagma nominal preciso sobre el tema."
+                  }
+                },
+                {
+                  "quote": "ever since",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Stresses that the effect continues.",
+                    "es": "Subraya que el efecto continúa."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Chloe: Do you prefer watching films at the cinema or at home?",
+          "models": {
+            "b2": {
+              "text": "I prefer the cinema because the screen is huge and the sound is much better. Also, I can't use my phone there, so I pay more attention. However, watching at home is cheaper and more comfortable.",
+              "annotations": [
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason for your preference.",
+                    "es": "Da la razón de tu preferencia."
+                  }
+                },
+                {
+                  "quote": "so I pay more attention",
+                  "kind": "connector",
+                  "note": {
+                    "en": "'So' shows the result.",
+                    "es": "'So' muestra el resultado."
+                  }
+                },
+                {
+                  "quote": "However",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces the other side.",
+                    "es": "Introduce el otro lado."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "For me, the cinema wins, if only because I'm not tempted to check my phone halfway through. Mind you, there's something to be said for watching in your pyjamas with a cup of tea.",
+              "annotations": [
+                {
+                  "quote": "if only because",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "Gives a small but real reason.",
+                    "es": "Da una razón pequeña pero real."
+                  }
+                },
+                {
+                  "quote": "Mind you",
+                  "kind": "register",
+                  "note": {
+                    "en": "Informal way to add a contrast.",
+                    "es": "Forma informal de añadir un contraste."
+                  }
+                },
+                {
+                  "quote": "there's something to be said for",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A fixed phrase meaning 'it has its advantages'.",
+                    "es": "Expresión fija: 'tiene sus ventajas'."
+                  }
+                },
+                {
+                  "quote": "your pyjamas",
+                  "kind": "register",
+                  "note": {
+                    "en": "'You/your' used in a general sense, as in chat.",
+                    "es": "'You/your' en sentido general, típico del chat."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Ben: Streaming has changed how we watch films. Do you think this is a good thing?",
+          "models": {
+            "b2": {
+              "text": "I think it is mostly a good thing because we can watch almost anything whenever we want. However, many people now stay at home instead of going out. Also, small cinemas are closing, which is a pity.",
+              "annotations": [
+                {
+                  "quote": "mostly",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "Softens the opinion.",
+                    "es": "Suaviza la opinión."
+                  }
+                },
+                {
+                  "quote": "whenever we want",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'Whenever' = at any time that.",
+                    "es": "'Whenever' = en cualquier momento en que."
+                  }
+                },
+                {
+                  "quote": "which is a pity",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A relative clause that comments on the whole sentence.",
+                    "es": "Oración de relativo que comenta toda la frase anterior."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "On the whole, yes, though it's a double-edged sword. What I appreciate is the sheer choice; what worries me is that independent cinemas are really struggling to survive as audiences stay at home.",
+              "annotations": [
+                {
+                  "quote": "On the whole, yes, though",
+                  "kind": "register",
+                  "note": {
+                    "en": "A short hedged answer with a contrast.",
+                    "es": "Respuesta breve y matizada con contraste."
+                  }
+                },
+                {
+                  "quote": "a double-edged sword",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "An idiom for something with good and bad sides.",
+                    "es": "Modismo para algo con lados buenos y malos."
+                  }
+                },
+                {
+                  "quote": "What I appreciate is",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A cleft sentence that sets up a contrast.",
+                    "es": "Oración escindida que prepara un contraste."
+                  }
+                },
+                {
+                  "quote": "sheer choice",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'Sheer' stresses the amount.",
+                    "es": "'Sheer' subraya la cantidad."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

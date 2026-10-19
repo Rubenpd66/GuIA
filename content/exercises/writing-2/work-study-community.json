@@ -1,0 +1,422 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w2-social-committee-01",
+      "examPart": "writing-2",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "context": "You are a member of your company's social committee.",
+      "prompt": "Suggest one activity for the next team event and explain why colleagues would enjoy it. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I suggest a cooking class after work. Everyone can learn something new, and it would help colleagues from different departments get to know each other.",
+          "annotations": [
+            {
+              "quote": "I suggest",
+              "kind": "register",
+              "note": {
+                "en": "Neutral and polite for proposing an idea to a committee.",
+                "es": "Neutro y educado para proponer una idea a un comité."
+              }
+            },
+            {
+              "quote": "and it would help",
+              "kind": "connector",
+              "note": {
+                "en": "Adds a second benefit.",
+                "es": "Añade un segundo beneficio."
+              }
+            },
+            {
+              "quote": "get to know each other",
+              "kind": "vocabulary",
+              "note": {
+                "en": "The natural phrasal expression for becoming acquainted.",
+                "es": "Expresión natural para empezar a conocerse."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "A cooking class after work would be ideal. Beyond being fun, it would bring together colleagues who rarely speak, fostering the kind of teamwork no memo could achieve.",
+          "annotations": [
+            {
+              "quote": "Beyond being fun",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "'Beyond' + gerund adds a benefit to the obvious one.",
+                "es": "«Beyond» + gerundio añade un beneficio al más evidente."
+              }
+            },
+            {
+              "quote": "bring together colleagues",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A precise phrasal verb for uniting people.",
+                "es": "Phrasal verb preciso para unir a las personas."
+              }
+            },
+            {
+              "quote": "fostering the kind of teamwork",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A present participle clause states the result.",
+                "es": "Una cláusula de participio de presente expresa el resultado."
+              }
+            },
+            {
+              "quote": "no memo could achieve",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A contact relative clause with a vivid contrast.",
+                "es": "Relativo sin pronombre, con un contraste vivo."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "w2-public-speaking-01",
+      "examPart": "writing-2",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 2,
+      "context": "You are a student on an evening course in public speaking.",
+      "prompt": "Tell us why you chose the course and what you would like to improve. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I chose this course because I get nervous when I speak in meetings. I would like to sound more confident and organise my ideas better.",
+          "annotations": [
+            {
+              "quote": "because",
+              "kind": "connector",
+              "note": {
+                "en": "Gives the reason for your choice.",
+                "es": "Da el motivo de tu elección."
+              }
+            },
+            {
+              "quote": "get nervous",
+              "kind": "vocabulary",
+              "note": {
+                "en": "'Get' + adjective describes a change of feeling.",
+                "es": "«Get» + adjetivo describe un cambio de estado."
+              }
+            },
+            {
+              "quote": "when I speak",
+              "kind": "connector",
+              "note": {
+                "en": "'When' links the feeling to the situation.",
+                "es": "«When» une el sentimiento con la situación."
+              }
+            },
+            {
+              "quote": "sound more confident",
+              "kind": "vocabulary",
+              "note": {
+                "en": "'Sound' + adjective is natural for how you come across.",
+                "es": "«Sound» + adjetivo es natural para la impresión que causas."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "Nerves have always held me back in meetings, which is why I enrolled. Above all, I'd like to project more confidence and structure my arguments more persuasively.",
+          "annotations": [
+            {
+              "quote": "held me back",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A phrasal verb meaning 'prevented my progress'.",
+                "es": "Phrasal verb que significa «me ha frenado»."
+              }
+            },
+            {
+              "quote": "which is why I enrolled",
+              "kind": "connector",
+              "note": {
+                "en": "A relative clause links the problem to your decision.",
+                "es": "Una cláusula de relativo une el problema con tu decisión."
+              }
+            },
+            {
+              "quote": "Above all",
+              "kind": "connector",
+              "note": {
+                "en": "Marks your main goal.",
+                "es": "Marca tu objetivo principal."
+              }
+            },
+            {
+              "quote": "structure my arguments more persuasively",
+              "kind": "vocabulary",
+              "note": {
+                "en": "Precise verb, noun and adverb for a speaking skill.",
+                "es": "Verbo, sustantivo y adverbio precisos para una habilidad oral."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "w2-river-cleanup-01",
+      "examPart": "writing-2",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 3,
+      "context": "You volunteer with a local river clean-up group.",
+      "prompt": "Explain what you enjoy about volunteering with the group and what you think it achieves. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I enjoy being outdoors and working with friendly people. I think the group achieves a lot, because our river is cleaner and more people care about it.",
+          "annotations": [
+            {
+              "quote": "I enjoy being outdoors",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "'Enjoy' is followed by a gerund.",
+                "es": "«Enjoy» va seguido de gerundio."
+              }
+            },
+            {
+              "quote": "I think the group achieves a lot",
+              "kind": "register",
+              "note": {
+                "en": "'I think' gives an opinion in a neutral way.",
+                "es": "«I think» expresa una opinión de forma neutra."
+              }
+            },
+            {
+              "quote": "because",
+              "kind": "connector",
+              "note": {
+                "en": "Supports your opinion with evidence.",
+                "es": "Apoya tu opinión con una prueba."
+              }
+            },
+            {
+              "quote": "care about it",
+              "kind": "vocabulary",
+              "note": {
+                "en": "'Care about' means to feel concern for something.",
+                "es": "«Care about» significa que algo te importa."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "What I enjoy most is the camaraderie of working side by side outdoors. Our efforts have visibly improved the river, and, just as importantly, they've raised local awareness.",
+          "annotations": [
+            {
+              "quote": "What I enjoy most is",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A cleft sentence that highlights what you value.",
+                "es": "Una oración hendida que destaca lo que más valoras."
+              }
+            },
+            {
+              "quote": "camaraderie",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A precise word for friendship among people who work together.",
+                "es": "Palabra precisa para el compañerismo entre quienes trabajan juntos."
+              }
+            },
+            {
+              "quote": "just as importantly",
+              "kind": "connector",
+              "note": {
+                "en": "Adds a second result of equal weight.",
+                "es": "Añade un segundo resultado de igual peso."
+              }
+            },
+            {
+              "quote": "raised local awareness",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A common collocation for making people more informed.",
+                "es": "Colocación frecuente para informar y concienciar."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "w2-neighbourhood-group-01",
+      "examPart": "writing-2",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 3,
+      "context": "You are a member of a neighbourhood association.",
+      "prompt": "Say what you would like to improve in your area and how it would help residents. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I would like a safe cycle lane on our main street. It would help residents because fewer people would need cars, and the air would be cleaner.",
+          "annotations": [
+            {
+              "quote": "cycle lane",
+              "kind": "vocabulary",
+              "note": {
+                "en": "The standard British term for a bike path on the road.",
+                "es": "Término británico estándar para el carril bici."
+              }
+            },
+            {
+              "quote": "because",
+              "kind": "connector",
+              "note": {
+                "en": "Links the improvement to its benefit.",
+                "es": "Une la mejora con su beneficio."
+              }
+            },
+            {
+              "quote": "fewer people would need cars",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "'Fewer' is used with countable nouns like 'people'.",
+                "es": "«Fewer» se usa con sustantivos contables como «people»."
+              }
+            },
+            {
+              "quote": "and the air would be cleaner",
+              "kind": "connector",
+              "note": {
+                "en": "'And' adds a second benefit.",
+                "es": "«And» añade un segundo beneficio."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "Were the council to introduce a protected cycle lane on our high street, traffic would ease and the air would improve, benefiting residents of every age.",
+          "annotations": [
+            {
+              "quote": "Were the council to introduce",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "Inversion replaces 'If the council introduced'; it is formal but natural in writing.",
+                "es": "La inversión sustituye a «If the council introduced»; es formal pero natural al escribir."
+              }
+            },
+            {
+              "quote": "protected cycle lane",
+              "kind": "vocabulary",
+              "note": {
+                "en": "'Protected' makes the proposal more specific.",
+                "es": "«Protected» hace la propuesta más concreta."
+              }
+            },
+            {
+              "quote": "traffic would ease",
+              "kind": "vocabulary",
+              "note": {
+                "en": "'Ease' is a precise verb for a problem becoming less serious.",
+                "es": "«Ease» es un verbo preciso para un problema que disminuye."
+              }
+            },
+            {
+              "quote": "benefiting residents of every age",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A participle clause shows the result of the changes.",
+                "es": "Una cláusula de participio muestra el resultado de los cambios."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "w2-language-exchange-01",
+      "examPart": "writing-2",
+      "cefrLevel": "B1",
+      "topic": "relationships",
+      "difficulty": 2,
+      "context": "You are a member of a language exchange group that meets once a month.",
+      "prompt": "Tell us what you like about the group and what would make it even better. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I like the group because everyone is friendly and patient with my mistakes. It would be even better if we met more often, maybe every week.",
+          "annotations": [
+            {
+              "quote": "because",
+              "kind": "connector",
+              "note": {
+                "en": "Gives the reason for liking the group.",
+                "es": "Da el motivo por el que te gusta el grupo."
+              }
+            },
+            {
+              "quote": "patient with my mistakes",
+              "kind": "vocabulary",
+              "note": {
+                "en": "'Patient with' is the correct preposition here.",
+                "es": "«Patient with» es la preposición correcta."
+              }
+            },
+            {
+              "quote": "It would be even better if we met",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "Second conditional for a polite suggestion.",
+                "es": "Segundo condicional para una sugerencia educada."
+              }
+            },
+            {
+              "quote": "maybe every week",
+              "kind": "register",
+              "note": {
+                "en": "'Maybe' keeps the suggestion soft and informal.",
+                "es": "«Maybe» mantiene la sugerencia suave e informal."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "What I value most is how patient everyone is with my mistakes. Meeting weekly rather than monthly would make the group better, as friendships need regular contact to flourish.",
+          "annotations": [
+            {
+              "quote": "What I value most is",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A cleft sentence that puts your main appreciation first.",
+                "es": "Una oración hendida que pone tu mayor aprecio en primer lugar."
+              }
+            },
+            {
+              "quote": "Meeting weekly rather than monthly",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A gerund subject with 'rather than' contrasts two options neatly.",
+                "es": "Un gerundio como sujeto con «rather than» contrasta dos opciones con elegancia."
+              }
+            },
+            {
+              "quote": "as friendships need",
+              "kind": "connector",
+              "note": {
+                "en": "'As' gives a reason in a compact, formal-leaning way.",
+                "es": "«As» da una razón de forma compacta y algo formal."
+              }
+            },
+            {
+              "quote": "flourish",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A richer verb than 'grow' or 'develop'.",
+                "es": "Verbo más rico que «grow» o «develop»."
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

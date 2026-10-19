@@ -1,0 +1,125 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w1-hiking-group-01",
+      "examPart": "writing-1",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 1,
+      "context": "You are joining a hiking group. Answer the questions.",
+      "messages": [
+        {
+          "prompt": "What is your name?",
+          "sampleAnswers": ["Laura Gómez", "Daniel"]
+        },
+        {
+          "prompt": "What shoes do you wear for walking?",
+          "sampleAnswers": ["Strong leather boots", "Old trainers"]
+        },
+        {
+          "prompt": "Which season do you like best for hiking?",
+          "sampleAnswers": ["Autumn", "In the spring"]
+        },
+        {
+          "prompt": "Who do you usually walk with?",
+          "sampleAnswers": ["My dog", "Two friends from work"]
+        },
+        {
+          "prompt": "Where would you like to go next?",
+          "sampleAnswers": ["The Pyrenees", "Somewhere near the sea"]
+        }
+      ]
+    },
+    {
+      "id": "w1-language-exchange-01",
+      "examPart": "writing-1",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 1,
+      "context": "You are joining a language exchange group. Answer the questions.",
+      "messages": [
+        {
+          "prompt": "Which language do you speak at home?",
+          "sampleAnswers": ["Spanish", "Spanish and Catalan"]
+        },
+        {
+          "prompt": "How long have you been learning English?",
+          "sampleAnswers": ["About six years", "Since I was twelve"]
+        },
+        {
+          "prompt": "What do you find most difficult?",
+          "sampleAnswers": ["Understanding fast speakers", "Pronunciation"]
+        },
+        {
+          "prompt": "How do you like to practise?",
+          "sampleAnswers": ["Watching series", "By chatting online"]
+        },
+        {
+          "prompt": "Why do you want to improve your English?",
+          "sampleAnswers": ["For a better job", "To travel more easily"]
+        }
+      ]
+    },
+    {
+      "id": "w1-book-club-01",
+      "examPart": "writing-1",
+      "cefrLevel": "B1",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "context": "You have just joined a local book club. Answer the questions.",
+      "messages": [
+        {
+          "prompt": "How often do you read?",
+          "sampleAnswers": ["Every evening", "Twice a week"]
+        },
+        {
+          "prompt": "What was the last book you finished?",
+          "sampleAnswers": ["A detective novel", "A biography of Einstein"]
+        },
+        {
+          "prompt": "Do you prefer paper books or e-books?",
+          "sampleAnswers": ["Paper books", "E-books, they're lighter"]
+        },
+        {
+          "prompt": "Which type of story do you enjoy most?",
+          "sampleAnswers": ["Historical fiction", "Science fiction"]
+        },
+        {
+          "prompt": "What would you like to read next?",
+          "sampleAnswers": ["Something funny", "A classic novel"]
+        }
+      ]
+    },
+    {
+      "id": "w1-film-society-01",
+      "examPart": "writing-1",
+      "cefrLevel": "B1",
+      "topic": "media",
+      "difficulty": 2,
+      "context": "You are signing up for a film society at your university. Answer the questions.",
+      "messages": [
+        {
+          "prompt": "What are you studying?",
+          "sampleAnswers": ["Business management", "Biology"]
+        },
+        {
+          "prompt": "How often do you go to the cinema?",
+          "sampleAnswers": ["Once a month", "Hardly ever"]
+        },
+        {
+          "prompt": "Who is your favourite actor?",
+          "sampleAnswers": ["Penélope Cruz", "I don't have one"]
+        },
+        {
+          "prompt": "Do you prefer comedies or thrillers?",
+          "sampleAnswers": ["Comedies", "Thrillers, definitely"]
+        },
+        {
+          "prompt": "Which day is best for a film night?",
+          "sampleAnswers": ["Friday", "Any day except Monday"]
+        }
+      ]
+    }
+  ]
+}

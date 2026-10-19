@@ -1,0 +1,422 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w2-running-club-01",
+      "examPart": "writing-2",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "context": "You are a member of a local running club.",
+      "prompt": "Tell us why you joined the club and how often you would like to run with the group. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I joined the club because I wanted to get fit and meet new people. I would like to run with the group twice a week, but weekends are best.",
+          "annotations": [
+            {
+              "quote": "because",
+              "kind": "connector",
+              "note": {
+                "en": "A simple, clear connector to give your reason.",
+                "es": "Conector sencillo y claro para dar el motivo."
+              }
+            },
+            {
+              "quote": "get fit",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A natural everyday collocation for improving your fitness.",
+                "es": "Colocación natural y cotidiana para mejorar la forma física."
+              }
+            },
+            {
+              "quote": "twice a week",
+              "kind": "vocabulary",
+              "note": {
+                "en": "Answers 'how often' with a clear frequency expression.",
+                "es": "Responde a «how often» con una expresión de frecuencia clara."
+              }
+            },
+            {
+              "quote": "but weekends are best",
+              "kind": "connector",
+              "note": {
+                "en": "'But' adds a contrast and a useful preference.",
+                "es": "«But» añade un contraste y una preferencia útil."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "Having struggled to stay motivated alone, I joined hoping for company. What I'd really like is to run with the group twice a week, ideally at dawn.",
+          "annotations": [
+            {
+              "quote": "Having struggled to stay motivated alone",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A perfect participle clause gives the reason without 'because'.",
+                "es": "Una cláusula de participio perfecto da el motivo sin usar «because»."
+              }
+            },
+            {
+              "quote": "hoping for company",
+              "kind": "vocabulary",
+              "note": {
+                "en": "'Company' here means having people with you, a more precise word than 'friends'.",
+                "es": "«Company» significa tener gente cerca; es más preciso que «friends»."
+              }
+            },
+            {
+              "quote": "What I'd really like is",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A cleft sentence puts the focus on your wish.",
+                "es": "Una oración hendida pone el énfasis en lo que deseas."
+              }
+            },
+            {
+              "quote": "ideally at dawn",
+              "kind": "register",
+              "note": {
+                "en": "'Ideally' softens the request and sounds polite.",
+                "es": "«Ideally» suaviza la petición y suena educado."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "w2-book-club-01",
+      "examPart": "writing-2",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "context": "You are a member of a community book club.",
+      "prompt": "Describe a book you have enjoyed recently and say why you would recommend it to the group. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I recently read a crime novel set in Lisbon. I would recommend it because the plot is exciting and the characters feel very real.",
+          "annotations": [
+            {
+              "quote": "crime novel",
+              "kind": "vocabulary",
+              "note": {
+                "en": "Naming the genre precisely makes the description clearer.",
+                "es": "Nombrar el género con precisión hace la descripción más clara."
+              }
+            },
+            {
+              "quote": "set in Lisbon",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A reduced relative clause adds the setting in two words.",
+                "es": "Una oración de relativo reducida añade el escenario en pocas palabras."
+              }
+            },
+            {
+              "quote": "because",
+              "kind": "connector",
+              "note": {
+                "en": "Links the recommendation to its reason.",
+                "es": "Une la recomendación con su motivo."
+              }
+            },
+            {
+              "quote": "and the characters feel",
+              "kind": "connector",
+              "note": {
+                "en": "'And' adds a second reason.",
+                "es": "«And» añade una segunda razón."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "Set in Lisbon, the novel I've just finished is a gripping thriller. Not only is the plot ingenious, but the characters are also remarkably vivid, so I'd recommend it.",
+          "annotations": [
+            {
+              "quote": "Set in Lisbon",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A past participle phrase opens the sentence and saves a clause.",
+                "es": "Una frase de participio abre la oración y ahorra una cláusula."
+              }
+            },
+            {
+              "quote": "gripping thriller",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A strong, precise collocation instead of 'good book'.",
+                "es": "Colocación fuerte y precisa en lugar de «good book»."
+              }
+            },
+            {
+              "quote": "Not only is the plot ingenious, but",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "Inversion after 'Not only' adds emphasis and a second reason.",
+                "es": "La inversión tras «Not only» da énfasis y añade una segunda razón."
+              }
+            },
+            {
+              "quote": "remarkably vivid",
+              "kind": "vocabulary",
+              "note": {
+                "en": "An intensifying adverb with a precise adjective.",
+                "es": "Un adverbio intensificador con un adjetivo preciso."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "w2-film-society-01",
+      "examPart": "writing-2",
+      "cefrLevel": "B2",
+      "topic": "media",
+      "difficulty": 3,
+      "context": "You are a member of a university film society.",
+      "prompt": "Say what kind of films you would like the society to show and explain why. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I would like the society to show more foreign films. They teach me about other cultures, and I can also practise my English with subtitles.",
+          "annotations": [
+            {
+              "quote": "I would like the society to show",
+              "kind": "register",
+              "note": {
+                "en": "A polite way to make a request in a club.",
+                "es": "Forma educada de hacer una petición en un club."
+              }
+            },
+            {
+              "quote": "foreign films",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A clear, common collocation for films in other languages.",
+                "es": "Colocación clara y común para películas en otros idiomas."
+              }
+            },
+            {
+              "quote": "and I can also",
+              "kind": "connector",
+              "note": {
+                "en": "Adds a second benefit to the first.",
+                "es": "Suma un segundo beneficio al primero."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "I'd love the society to screen more world cinema, preferably films we'd never otherwise see. Doing so would broaden everyone's horizons and spark lively debates afterwards.",
+          "annotations": [
+            {
+              "quote": "world cinema",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A more precise term than 'foreign films'.",
+                "es": "Término más preciso que «foreign films»."
+              }
+            },
+            {
+              "quote": "films we'd never otherwise see",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "'Otherwise' implies a condition without a full if-clause.",
+                "es": "«Otherwise» implica una condición sin necesidad de una cláusula con «if»."
+              }
+            },
+            {
+              "quote": "Doing so would",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A gerund subject plus 'so' refers back to the idea neatly.",
+                "es": "Un gerundio como sujeto más «so» retoma la idea anterior con elegancia."
+              }
+            },
+            {
+              "quote": "broaden everyone's horizons",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A fixed phrase for learning about new things.",
+                "es": "Expresión fija para ampliar conocimientos y perspectivas."
+              }
+            },
+            {
+              "quote": "spark lively debates",
+              "kind": "vocabulary",
+              "note": {
+                "en": "Strong verb and adjective collocation.",
+                "es": "Colocación potente de verbo y adjetivo."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "w2-coding-club-01",
+      "examPart": "writing-2",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 2,
+      "context": "You are a member of an after-work coding club.",
+      "prompt": "Tell us what you are working on at the moment and what you find difficult. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I'm building a small app to plan my weekly meals. The hardest part is fixing errors, because I often can't find where the problem is.",
+          "annotations": [
+            {
+              "quote": "I'm building",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "Present continuous for a project in progress.",
+                "es": "Presente continuo para un proyecto en curso."
+              }
+            },
+            {
+              "quote": "The hardest part is",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A clear way to introduce the main difficulty.",
+                "es": "Forma clara de presentar la dificultad principal."
+              }
+            },
+            {
+              "quote": "fixing errors",
+              "kind": "vocabulary",
+              "note": {
+                "en": "Simple, natural technical vocabulary.",
+                "es": "Vocabulario técnico sencillo y natural."
+              }
+            },
+            {
+              "quote": "because",
+              "kind": "connector",
+              "note": {
+                "en": "Explains why the task is hard.",
+                "es": "Explica por qué la tarea es difícil."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "I'm currently developing an app that tailors weekly meal plans to dietary needs. What I find trickiest is debugging; tracking down a single faulty line can take hours.",
+          "annotations": [
+            {
+              "quote": "currently developing",
+              "kind": "vocabulary",
+              "note": {
+                "en": "'Developing' and 'currently' sound more professional than 'making' and 'now'.",
+                "es": "«Developing» y «currently» suenan más profesionales que «making» y «now»."
+              }
+            },
+            {
+              "quote": "tailors",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A precise verb meaning 'adapts to suit'.",
+                "es": "Verbo preciso que significa «adapta a medida»."
+              }
+            },
+            {
+              "quote": "What I find trickiest is",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A cleft sentence that highlights the difficulty.",
+                "es": "Una oración hendida que destaca la dificultad."
+              }
+            },
+            {
+              "quote": "tracking down a single faulty line",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A gerund phrase as the subject, with a phrasal verb.",
+                "es": "Un gerundio como sujeto, con un phrasal verb."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "w2-hiking-club-01",
+      "examPart": "writing-2",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "context": "You are a member of a hiking and travel club.",
+      "prompt": "Suggest a place for the club's next weekend trip and say what members could do there. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I suggest we go to the Picos de Europa. We could walk along the river in the morning, and then relax in a village café.",
+          "annotations": [
+            {
+              "quote": "I suggest we go",
+              "kind": "register",
+              "note": {
+                "en": "A friendly, neutral way to propose a plan to a group.",
+                "es": "Forma amable y neutra de proponer un plan a un grupo."
+              }
+            },
+            {
+              "quote": "We could walk",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "'Could' offers an idea without sounding bossy.",
+                "es": "«Could» ofrece una idea sin sonar autoritario."
+              }
+            },
+            {
+              "quote": "and then",
+              "kind": "connector",
+              "note": {
+                "en": "Puts the activities in order.",
+                "es": "Ordena las actividades en el tiempo."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "How about the Picos de Europa? Should the weather hold, we could hike to a mountain lake and, afterwards, unwind over a hearty meal in a traditional village.",
+          "annotations": [
+            {
+              "quote": "How about the Picos de Europa?",
+              "kind": "register",
+              "note": {
+                "en": "A short, informal question that invites the group to agree.",
+                "es": "Pregunta breve e informal que invita al grupo a opinar."
+              }
+            },
+            {
+              "quote": "Should the weather hold",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "Inversion replaces 'If the weather holds' and sounds more polished.",
+                "es": "La inversión sustituye a «If the weather holds» y suena más elaborada."
+              }
+            },
+            {
+              "quote": "afterwards",
+              "kind": "connector",
+              "note": {
+                "en": "Shows the order of the plan neatly.",
+                "es": "Marca el orden del plan de forma limpia."
+              }
+            },
+            {
+              "quote": "unwind over a hearty meal",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A vivid, natural phrase instead of 'relax and eat'.",
+                "es": "Frase viva y natural en lugar de «relax and eat»."
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

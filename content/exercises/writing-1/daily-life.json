@@ -1,0 +1,125 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w1-travel-app-01",
+      "examPart": "writing-1",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 1,
+      "context": "You are joining an online community for travellers. Answer the questions.",
+      "messages": [
+        {
+          "prompt": "Where do you live?",
+          "sampleAnswers": ["Valencia", "In a small town"]
+        },
+        {
+          "prompt": "How do you usually travel on holiday?",
+          "sampleAnswers": ["By train", "By car with friends"]
+        },
+        {
+          "prompt": "What do you always take in your bag?",
+          "sampleAnswers": ["My camera", "A good book"]
+        },
+        {
+          "prompt": "Do you prefer cities or villages?",
+          "sampleAnswers": ["Cities", "Small villages"]
+        },
+        {
+          "prompt": "Where are you going this year?",
+          "sampleAnswers": ["To Scotland", "I haven't decided yet"]
+        }
+      ]
+    },
+    {
+      "id": "w1-online-shop-01",
+      "examPart": "writing-1",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 2,
+      "context": "You are joining the customer club of an online shop. Answer the questions.",
+      "messages": [
+        {
+          "prompt": "What is your date of birth?",
+          "sampleAnswers": ["12 March 1994", "The third of June"]
+        },
+        {
+          "prompt": "How often do you shop online?",
+          "sampleAnswers": ["Every week", "Only for presents"]
+        },
+        {
+          "prompt": "What do you buy most often?",
+          "sampleAnswers": ["Clothes", "Books and music"]
+        },
+        {
+          "prompt": "How do you prefer to pay?",
+          "sampleAnswers": ["By card", "With my phone"]
+        },
+        {
+          "prompt": "What would you like to win in our prize draw?",
+          "sampleAnswers": ["A weekend away", "A new tablet"]
+        }
+      ]
+    },
+    {
+      "id": "w1-coworking-space-01",
+      "examPart": "writing-1",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "context": "You are becoming a member of a shared workspace. Answer the questions.",
+      "messages": [
+        {
+          "prompt": "What do you do for a living?",
+          "sampleAnswers": ["Graphic designer", "I'm a freelance translator"]
+        },
+        {
+          "prompt": "How far is your home from the office?",
+          "sampleAnswers": ["Ten minutes away", "About five kilometres"]
+        },
+        {
+          "prompt": "What do you usually have for lunch?",
+          "sampleAnswers": ["A sandwich", "Whatever I find nearby"]
+        },
+        {
+          "prompt": "What is the most important thing in a workplace?",
+          "sampleAnswers": ["Fast internet", "Peace and quiet"]
+        },
+        {
+          "prompt": "Which days will you come in next month?",
+          "sampleAnswers": ["Tuesdays and Thursdays", "Probably every day"]
+        }
+      ]
+    },
+    {
+      "id": "w1-neighbourhood-app-01",
+      "examPart": "writing-1",
+      "cefrLevel": "A2",
+      "topic": "city",
+      "difficulty": 1,
+      "context": "You are joining your neighbourhood's online group. Answer the questions.",
+      "messages": [
+        {
+          "prompt": "Which street do you live on?",
+          "sampleAnswers": ["Calle Mayor", "Near the park"]
+        },
+        {
+          "prompt": "How long have you lived there?",
+          "sampleAnswers": ["Three years", "Since last summer"]
+        },
+        {
+          "prompt": "How do you get to the centre?",
+          "sampleAnswers": ["By bus", "I usually walk"]
+        },
+        {
+          "prompt": "What do you like about your area?",
+          "sampleAnswers": ["It's very quiet", "The friendly neighbours"]
+        },
+        {
+          "prompt": "What would you like to see in the neighbourhood?",
+          "sampleAnswers": ["More green spaces", "A swimming pool"]
+        }
+      ]
+    }
+  ]
+}

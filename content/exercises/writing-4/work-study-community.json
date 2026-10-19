@@ -1,0 +1,605 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w4-hot-desking-01",
+      "examPart": "writing-4",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 4,
+      "context": "You work for a large company. You received this email from the Human Resources Manager.",
+      "situation": "From September, staff will no longer have their own desks. Each morning, everyone will choose a free desk, and personal items must be kept in a locker overnight.",
+      "informal": {
+        "prompt": "Write an email to a colleague who is also a friend. Tell your colleague about the change and say how you feel about it. Write about 40–50 words.",
+        "models": {
+          "b2": {
+            "text": "Hi Nuria,\n\nDid you read the email about the desks? From September nobody will have their own, and we have to clear everything away every evening! I'm not happy, because I like having my photos around me. Why don't we ask to sit together?\n\nBest,\nAna",
+            "annotations": [
+              {
+                "quote": "clear everything away",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A phrasal verb meaning 'put things back where they belong'.",
+                  "es": "Phrasal verb: 'recoger, dejar todo en su sitio'."
+                }
+              },
+              {
+                "quote": "I'm not happy, because",
+                "kind": "connector",
+                "note": {
+                  "en": "'Because' links your feeling to its reason.",
+                  "es": "'Because' une tu sentimiento con su motivo."
+                }
+              },
+              {
+                "quote": "Why don't we ask",
+                "kind": "register",
+                "note": {
+                  "en": "A common informal way to make a suggestion.",
+                  "es": "Forma informal habitual de hacer una sugerencia."
+                }
+              },
+              {
+                "quote": "Best,",
+                "kind": "register",
+                "note": {
+                  "en": "A short, friendly sign-off for a colleague.",
+                  "es": "Despedida breve y amistosa para un compañero."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Hi Nuria,\n\nSeen the desk email? Apparently we'll all be fighting over free seats from September. I can't say I'm thrilled; I've only just got my desk the way I like it! Let's try to book neighbouring spots so we can catch up each morning.\n\nSpeak soon,\nAna",
+            "annotations": [
+              {
+                "quote": "Seen the desk email?",
+                "kind": "register",
+                "note": {
+                  "en": "Dropping 'Have you' is typical of quick, informal messages.",
+                  "es": "Omitir 'Have you' es típico de mensajes rápidos e informales."
+                }
+              },
+              {
+                "quote": "fighting over free seats",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A vivid, informal way to describe competing for a limited resource.",
+                  "es": "Forma gráfica e informal de hablar de competir por algo escaso."
+                }
+              },
+              {
+                "quote": "I can't say I'm thrilled",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Understatement: a negative form that sounds ironic and natural.",
+                  "es": "Eufemismo: forma negativa con tono irónico y natural."
+                }
+              },
+              {
+                "quote": "I've only just got my desk the way I like it",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "'Only just' with the present perfect stresses how recent it is.",
+                  "es": "'Only just' con present perfect subraya lo reciente que es."
+                }
+              },
+              {
+                "quote": "catch up",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A phrasal verb meaning 'talk and share news'.",
+                  "es": "Phrasal verb: 'ponerse al día'."
+                }
+              }
+            ]
+          }
+        }
+      },
+      "formal": {
+        "prompt": "Write an email to the Human Resources Manager. Give your opinion of the change and make some suggestions. Write 120–150 words.",
+        "recipient": "The Human Resources Manager",
+        "models": {
+          "b2": {
+            "text": "Dear Sir or Madam,\n\nI am writing to give my opinion about the new desk system that will start in September.\n\nI have worked in the marketing team for six years, and I like having a fixed desk. If I have to look for a free desk every morning, I will lose time before I can start working. I also need to be near my team, because we often work on projects together. Moreover, some colleagues may feel less comfortable if they cannot keep personal items at their desk.\n\nI understand that the company wants to use the space better. However, I would like to suggest that each team has its own area, so that colleagues can sit together. It would also help to have a booking system.\n\nI hope you will think about my suggestions.\n\nYours faithfully,\nAna Morales",
+            "annotations": [
+              {
+                "quote": "I am writing to give my opinion about",
+                "kind": "register",
+                "note": {
+                  "en": "A formal opening that states the purpose in the first line.",
+                  "es": "Apertura formal que declara el propósito en la primera línea."
+                }
+              },
+              {
+                "quote": "because we often work on projects together",
+                "kind": "connector",
+                "note": {
+                  "en": "'Because' gives a clear reason for your concern.",
+                  "es": "'Because' da una razón clara de tu preocupación."
+                }
+              },
+              {
+                "quote": "Moreover",
+                "kind": "connector",
+                "note": {
+                  "en": "A formal connector for adding a point.",
+                  "es": "Conector formal para añadir un punto."
+                }
+              },
+              {
+                "quote": "I understand that the company wants",
+                "kind": "register",
+                "note": {
+                  "en": "Showing understanding makes the complaint sound polite.",
+                  "es": "Mostrar comprensión hace que la queja suene cortés."
+                }
+              },
+              {
+                "quote": "I would like to suggest that",
+                "kind": "register",
+                "note": {
+                  "en": "A polite way to introduce a suggestion.",
+                  "es": "Forma cortés de introducir una sugerencia."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Dear Mr Allen,\n\nI am writing in connection with the introduction of unassigned desks from September.\n\nWhile I understand the rationale for making better use of office space, I am concerned that the new arrangement may undermine both productivity and morale. Not only will staff lose valuable time each morning searching for a free desk, but teams that depend on close collaboration will also be dispersed across the floor. Furthermore, being unable to personalise one's workspace can hardly be expected to boost motivation.\n\nI would therefore propose that desks be allocated by team, with an online booking system to confirm seating in advance. Were a trial period to be introduced, staff could provide feedback before the policy is finalised.\n\nI would appreciate it if you would take these suggestions into consideration.\n\nYours sincerely,\nAna Morales",
+            "annotations": [
+              {
+                "quote": "the introduction of unassigned desks",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "Nominalisation: a noun phrase replaces 'you are going to stop giving us desks'.",
+                  "es": "Nominalización: un sintagma nominal sustituye a toda una oración."
+                }
+              },
+              {
+                "quote": "the rationale for",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A precise formal noun meaning 'the reasoning behind'.",
+                  "es": "Sustantivo formal preciso: 'la lógica que hay detrás'."
+                }
+              },
+              {
+                "quote": "Not only will staff lose valuable time",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Inversion after 'not only' for emphasis.",
+                  "es": "Inversión tras 'not only' para dar énfasis."
+                }
+              },
+              {
+                "quote": "can hardly be expected to boost motivation",
+                "kind": "register",
+                "note": {
+                  "en": "A hedged, understated criticism.",
+                  "es": "Una crítica matizada y atenuada."
+                }
+              },
+              {
+                "quote": "I would therefore propose that desks be allocated",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "The subjunctive 'be allocated' after 'propose that' is formal.",
+                  "es": "El subjuntivo 'be allocated' tras 'propose that' es formal."
+                }
+              },
+              {
+                "quote": "Were a trial period to be introduced",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Inverted conditional with 'were' instead of 'if'.",
+                  "es": "Condicional invertido con 'were' en lugar de 'if'."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "w4-class-times-01",
+      "examPart": "writing-4",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 3,
+      "context": "You are a student at a language school. You received this email from the school director.",
+      "situation": "From next term, the Tuesday and Thursday evening classes will be replaced by one three-hour class on Saturday mornings. The school says this will make the timetable easier to organise and the classrooms easier to use.",
+      "informal": {
+        "prompt": "Write an email to a classmate who is also a friend. Tell your classmate about the change and say how you feel about it. Write about 40–50 words.",
+        "models": {
+          "b2": {
+            "text": "Hi Carlos,\n\nHave you heard about the school's new timetable? They're replacing our Tuesday and Thursday classes with one long class on Saturday mornings! I'm really upset, because I play football on Saturdays. I'm going to find out if we can move to another group.\n\nCheers,\nElena",
+            "annotations": [
+              {
+                "quote": "I'm really upset",
+                "kind": "register",
+                "note": {
+                  "en": "A natural spoken reaction with a contraction.",
+                  "es": "Reacción natural y hablada, con contracción."
+                }
+              },
+              {
+                "quote": "because I play football on Saturdays",
+                "kind": "connector",
+                "note": {
+                  "en": "'Because' gives the reason for your reaction.",
+                  "es": "'Because' da el motivo de tu reacción."
+                }
+              },
+              {
+                "quote": "find out",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A phrasal verb meaning 'discover information'.",
+                  "es": "Phrasal verb: 'averiguar'."
+                }
+              },
+              {
+                "quote": "Cheers,",
+                "kind": "register",
+                "note": {
+                  "en": "Informal British sign-off between friends.",
+                  "es": "Despedida informal británica entre amigos."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Hi Carlos,\n\nDid you see the school's email? Our evening classes are being replaced by a three-hour marathon on Saturday mornings, which is the last thing I need. I doubt I'll be able to concentrate for that long. Shall we ask for a shorter Saturday session?\n\nTake care,\nElena",
+            "annotations": [
+              {
+                "quote": "are being replaced by",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A continuous passive: the change is already in progress.",
+                  "es": "Pasiva continua: el cambio ya está en marcha."
+                }
+              },
+              {
+                "quote": "a three-hour marathon",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A figurative noun that shows your attitude with humour.",
+                  "es": "Sustantivo figurado que muestra tu actitud con humor."
+                }
+              },
+              {
+                "quote": "which is the last thing I need",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A non-defining relative clause with an idiom.",
+                  "es": "Oración de relativo explicativa con un modismo."
+                }
+              },
+              {
+                "quote": "I doubt I'll be able to",
+                "kind": "register",
+                "note": {
+                  "en": "Hedging with 'doubt' sounds more natural than 'I can't'.",
+                  "es": "Matizar con 'doubt' suena más natural que 'I can't'."
+                }
+              }
+            ]
+          }
+        }
+      },
+      "formal": {
+        "prompt": "Write an email to the school director. Give your opinion of the change and make some suggestions. Write 120–150 words.",
+        "recipient": "The School Director",
+        "models": {
+          "b2": {
+            "text": "Dear Sir or Madam,\n\nI am writing to give my opinion about the new timetable that will start next term.\n\nI have studied at the school for a year and I am very happy with my course. However, I cannot attend a three-hour class on Saturday mornings, because I work in a shop at weekends. I also think that three hours is too long, and students will be tired and will learn less. Short classes during the week are better for learning a language, as we can practise more often.\n\nI understand that the school wants to organise the classrooms better. Therefore, I would like to suggest keeping at least one evening class during the week. Another idea is to divide the Saturday class into two parts with a break.\n\nI hope you will consider my suggestions.\n\nYours faithfully,\nElena Ruiz",
+            "annotations": [
+              {
+                "quote": "I am writing to give my opinion about",
+                "kind": "register",
+                "note": {
+                  "en": "A formal opening that states the purpose at once.",
+                  "es": "Apertura formal que declara el propósito enseguida."
+                }
+              },
+              {
+                "quote": "However, I cannot attend",
+                "kind": "connector",
+                "note": {
+                  "en": "'However' introduces the problem after a positive remark.",
+                  "es": "'However' introduce el problema tras un comentario positivo."
+                }
+              },
+              {
+                "quote": "as we can practise more often",
+                "kind": "connector",
+                "note": {
+                  "en": "'As' gives a reason in a more formal style than 'because'.",
+                  "es": "'As' da una razón con un estilo más formal que 'because'."
+                }
+              },
+              {
+                "quote": "Therefore, I would like to suggest",
+                "kind": "connector",
+                "note": {
+                  "en": "'Therefore' links your understanding to your suggestion.",
+                  "es": "'Therefore' enlaza tu comprensión con tu sugerencia."
+                }
+              },
+              {
+                "quote": "Another idea is to divide",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A clear way to add a second suggestion.",
+                  "es": "Forma clara de añadir una segunda sugerencia."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Dear Ms Whitaker,\n\nI am writing in response to your announcement that the Tuesday and Thursday evening classes will be replaced by a single Saturday morning session next term.\n\nI appreciate that the current timetable is difficult to manage. Nevertheless, I feel that the proposed arrangement would not only exclude students who work at weekends, but also compromise the quality of learning. Languages are acquired through regular, spaced practice; a three-hour block, by contrast, is likely to result in fatigue and reduced retention.\n\nSo as to preserve both flexibility and effectiveness, I would recommend retaining one weekday evening class alongside a shorter Saturday session. Were the school to offer a choice of groups, I believe most students would welcome it.\n\nI would be grateful if you could give this matter your careful consideration.\n\nYours sincerely,\nElena Ruiz",
+            "annotations": [
+              {
+                "quote": "in response to your announcement that",
+                "kind": "register",
+                "note": {
+                  "en": "A formal opening that refers directly to the change.",
+                  "es": "Apertura formal que se refiere directamente al cambio."
+                }
+              },
+              {
+                "quote": "would not only exclude students who work at weekends, but also compromise",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "'Not only … but also' joins two consequences in one sentence.",
+                  "es": "'Not only … but also' une dos consecuencias en una frase."
+                }
+              },
+              {
+                "quote": "by contrast",
+                "kind": "connector",
+                "note": {
+                  "en": "A formal connector that sets two ideas against each other.",
+                  "es": "Conector formal que contrapone dos ideas."
+                }
+              },
+              {
+                "quote": "reduced retention",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "Nominalisation: a noun phrase replaces 'students remember less'.",
+                  "es": "Nominalización: un sintagma nominal sustituye a 'recuerdan menos'."
+                }
+              },
+              {
+                "quote": "Were the school to offer a choice of groups",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Inverted conditional with 'were' instead of 'if'.",
+                  "es": "Condicional invertido con 'were' en lugar de 'if'."
+                }
+              },
+              {
+                "quote": "I would be grateful if you could give this matter your careful consideration.",
+                "kind": "register",
+                "note": {
+                  "en": "A polite, indirect request and a precise formal collocation.",
+                  "es": "Petición indirecta y cortés, con una colocación formal precisa."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "w4-community-garden-01",
+      "examPart": "writing-4",
+      "cefrLevel": "C1",
+      "topic": "environment",
+      "difficulty": 5,
+      "context": "You are a member of a community garden. You received this email from the residents' association.",
+      "situation": "The residents' association has agreed to turn the western half of the community garden into a car park for the new health centre. Members who have a plot there will be offered a smaller plot on the remaining land next year.",
+      "informal": {
+        "prompt": "Write an email to a friend who is also a member of the garden. Tell your friend about the plan and say how you feel about it. Write about 40–50 words.",
+        "models": {
+          "b2": {
+            "text": "Hi Joe,\n\nDid you get the association's email? They're going to turn half of our garden into a car park for the new health centre! I'm absolutely furious, because my plot is on that side. We should get everyone together before they go ahead.\n\nSee you,\nMia",
+            "annotations": [
+              {
+                "quote": "Did you get the association's email?",
+                "kind": "register",
+                "note": {
+                  "en": "A simple, friendly opening question with 'get' for 'receive'.",
+                  "es": "Pregunta de apertura sencilla; 'get' en lugar de 'receive'."
+                }
+              },
+              {
+                "quote": "I'm absolutely furious",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "'Absolutely' goes with strong adjectives such as 'furious'.",
+                  "es": "'Absolutely' se combina con adjetivos fuertes como 'furious'."
+                }
+              },
+              {
+                "quote": "because my plot is on that side",
+                "kind": "connector",
+                "note": {
+                  "en": "'Because' explains why you feel so strongly.",
+                  "es": "'Because' explica por qué lo sientes tanto."
+                }
+              },
+              {
+                "quote": "get everyone together",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A phrasal expression meaning 'bring people together'.",
+                  "es": "Expresión con phrasal verb: 'reunir a todos'."
+                }
+              },
+              {
+                "quote": "go ahead",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A phrasal verb meaning 'proceed with a plan'.",
+                  "es": "Phrasal verb: 'seguir adelante con un plan'."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Hi Joe,\n\nSeen the association's email? Half the garden is to be tarmacked over for the health centre car park, which is outrageous. My plot's on that side, so I'd be among the first to go. Let's rally the members and put forward an alternative.\n\nCheers,\nMia",
+            "annotations": [
+              {
+                "quote": "is to be tarmacked over",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "'Be to' + passive is typical of news about official plans.",
+                  "es": "'Be to' + pasiva es típico de noticias sobre planes oficiales."
+                }
+              },
+              {
+                "quote": "which is outrageous",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A non-defining relative clause that comments on the whole plan.",
+                  "es": "Oración de relativo explicativa que comenta todo el plan."
+                }
+              },
+              {
+                "quote": "so I'd be among the first to go",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A conditional implied by the situation, with 'among the first'.",
+                  "es": "Condicional implícito en la situación, con 'among the first'."
+                }
+              },
+              {
+                "quote": "rally the members",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "'Rally' means to bring people together for a cause.",
+                  "es": "'Rally': reunir a la gente por una causa."
+                }
+              },
+              {
+                "quote": "put forward an alternative",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A collocation meaning 'propose an alternative'.",
+                  "es": "Colocación que significa 'proponer una alternativa'."
+                }
+              }
+            ]
+          }
+        }
+      },
+      "formal": {
+        "prompt": "Write an email to the Chair of the Residents' Association. Give your opinion of the plan and make some suggestions. Write 120–150 words.",
+        "recipient": "The Chair of the Residents' Association",
+        "models": {
+          "b2": {
+            "text": "Dear Sir or Madam,\n\nI am writing to express my opposition to the plan to turn half of the community garden into a car park for the new health centre.\n\nI have had a plot in the garden for six years and I grow vegetables for my family. The garden is also a place where neighbours meet, and it is important for children and older people in the area. If half of it disappears, many members will lose their plots, and the smaller plots offered next year will not be enough.\n\nI understand that the health centre needs parking. However, there may be other solutions. For example, the car park could be built on the empty land behind the old depot, or the centre could encourage patients to use public transport.\n\nI hope the association will think again.\n\nYours faithfully,\nMia Collins",
+            "annotations": [
+              {
+                "quote": "I am writing to express my opposition to",
+                "kind": "register",
+                "note": {
+                  "en": "A formal opening that gives the purpose in the first line.",
+                  "es": "Apertura formal que da el propósito en la primera línea."
+                }
+              },
+              {
+                "quote": "If half of it disappears",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A first conditional shows the real consequence.",
+                  "es": "Primer condicional: muestra la consecuencia real."
+                }
+              },
+              {
+                "quote": "I understand that the health centre needs parking.",
+                "kind": "register",
+                "note": {
+                  "en": "Acknowledging the other side keeps the complaint polite.",
+                  "es": "Reconocer el otro punto de vista mantiene la queja cortés."
+                }
+              },
+              {
+                "quote": "However, there may be other solutions.",
+                "kind": "connector",
+                "note": {
+                  "en": "'However' marks the contrast; 'may' softens the claim.",
+                  "es": "'However' marca el contraste; 'may' suaviza la afirmación."
+                }
+              },
+              {
+                "quote": "For example, the car park could be built",
+                "kind": "connector",
+                "note": {
+                  "en": "'For example' introduces a concrete suggestion.",
+                  "es": "'For example' introduce una sugerencia concreta."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Dear Mr Dawson,\n\nI am writing to register my objection to the proposal to convert the western half of the community garden into a car park for the new health centre.\n\nThe garden is more than a collection of allotments; it is a social and environmental asset for the whole neighbourhood. Under the proposal, not only would many members lose their plots, but the habitat that has developed over many years would also be destroyed. Moreover, the smaller plots offered next year would hardly compensate for such a loss.\n\nWhile I recognise the need for adequate parking, it is the choice of site that I find difficult to accept. Might the association explore alternatives, such as unused land nearby? Should the plan nevertheless proceed, a binding commitment to protect the remaining land would be essential.\n\nI would be grateful for the opportunity to discuss this.\n\nYours sincerely,\nMia Collins",
+            "annotations": [
+              {
+                "quote": "register my objection to",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A precise formal collocation: 'register an objection'.",
+                  "es": "Colocación formal precisa: 'register an objection'."
+                }
+              },
+              {
+                "quote": "a social and environmental asset",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "Abstract nouns give a more formal, persuasive argument.",
+                  "es": "Los sustantivos abstractos hacen el argumento más formal y persuasivo."
+                }
+              },
+              {
+                "quote": "not only would many members lose their plots",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Inversion after 'not only' for emphasis.",
+                  "es": "Inversión tras 'not only' para dar énfasis."
+                }
+              },
+              {
+                "quote": "would hardly compensate for such a loss",
+                "kind": "register",
+                "note": {
+                  "en": "Understatement: 'hardly' is a polite, restrained way to criticise.",
+                  "es": "Eufemismo: 'hardly' critica de forma cortés y contenida."
+                }
+              },
+              {
+                "quote": "it is the choice of site that I find difficult to accept",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A cleft sentence that focuses on the real objection.",
+                  "es": "Oración hendida que se centra en la objeción real."
+                }
+              },
+              {
+                "quote": "Should the plan nevertheless proceed",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "Inverted conditional with 'should' instead of 'if'.",
+                  "es": "Condicional invertido con 'should' en lugar de 'if'."
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

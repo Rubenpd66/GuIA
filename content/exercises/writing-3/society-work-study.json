@@ -1,0 +1,897 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w3-networking-club-01",
+      "examPart": "writing-3",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "context": "You are a member of a business networking club. You are talking to other members in the club's online chat room. Answer their questions. Write 30–40 words for each answer.",
+      "questions": [
+        {
+          "prompt": "Nina: What was your first job, and what did you learn from it?",
+          "models": {
+            "b2": {
+              "text": "My first job was in a café, where I worked every Saturday when I was seventeen. I learnt how to deal with difficult customers and to stay calm under pressure. That experience still helps me in my current job.",
+              "annotations": [
+                {
+                  "quote": "where I worked every Saturday",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A relative clause with 'where' adds detail.",
+                    "es": "Oración de relativo con 'where' que añade detalle."
+                  }
+                },
+                {
+                  "quote": "how to deal with difficult customers",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A useful phrase for workplace skills.",
+                    "es": "Frase útil para hablar de habilidades laborales."
+                  }
+                },
+                {
+                  "quote": "still helps me",
+                  "kind": "connector",
+                  "note": {
+                    "en": "'Still' links the past to the present.",
+                    "es": "'Still' une el pasado con el presente."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "I started out waiting tables in a café at seventeen, and it taught me more than I expected. Dealing with impatient customers, for instance, forced me to stay composed, a skill I still rely on at work.",
+              "annotations": [
+                {
+                  "quote": "started out",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A phrasal verb for the beginning of a career.",
+                    "es": "Verbo con partícula para el inicio de una carrera."
+                  }
+                },
+                {
+                  "quote": "for instance",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Inserted mid-sentence to give an example.",
+                    "es": "Insertado en la frase para dar un ejemplo."
+                  }
+                },
+                {
+                  "quote": "forced me to stay composed",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'Composed' is more precise than 'calm'.",
+                    "es": "'Composed' es más preciso que 'calm'."
+                  }
+                },
+                {
+                  "quote": "a skill I still rely on",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A noun phrase in apposition with a relative clause.",
+                    "es": "Aposición nominal con oración de relativo."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Raj: Would you rather work from home or in an office?",
+          "models": {
+            "b2": {
+              "text": "I would rather work from home because I save time on the commute and can concentrate more easily. However, I miss talking to colleagues. For this reason, I go to the office two days a week.",
+              "annotations": [
+                {
+                  "quote": "I would rather work",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'Would rather' + bare infinitive expresses preference.",
+                    "es": "'Would rather' + infinitivo expresa preferencia."
+                  }
+                },
+                {
+                  "quote": "However",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces the other side.",
+                    "es": "Introduce el otro lado."
+                  }
+                },
+                {
+                  "quote": "For this reason",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Links a problem to your solution.",
+                    "es": "Une un problema con tu solución."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Ideally, a mixture of both. Working from home gives me the focus I need, yet I'd soon feel isolated were it not for the days I spend with colleagues, when ideas seem to flow far more freely.",
+              "annotations": [
+                {
+                  "quote": "Ideally, a mixture of both",
+                  "kind": "register",
+                  "note": {
+                    "en": "A short, elliptical answer that sounds natural in chat.",
+                    "es": "Respuesta breve y elíptica, natural en un chat."
+                  }
+                },
+                {
+                  "quote": "yet",
+                  "kind": "connector",
+                  "note": {
+                    "en": "A concise connector of contrast.",
+                    "es": "Conector de contraste conciso."
+                  }
+                },
+                {
+                  "quote": "were it not for",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "Inverted conditional meaning 'without'.",
+                    "es": "Condicional invertido que significa 'sin'."
+                  }
+                },
+                {
+                  "quote": "flow far more freely",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A collocation for ideas coming easily.",
+                    "es": "Colocación para ideas que surgen con facilidad."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Emma: Some companies are trying a four-day working week. Would you support this? Why or why not?",
+          "models": {
+            "b2": {
+              "text": "I would support it because people with more free time are happier and often work better. Also, it could reduce stress. However, some jobs, such as in hospitals, can't easily change, so it may not suit everyone.",
+              "annotations": [
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason for your opinion.",
+                    "es": "Da la razón de tu opinión."
+                  }
+                },
+                {
+                  "quote": "such as in hospitals",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "Introduces an example.",
+                    "es": "Introduce un ejemplo."
+                  }
+                },
+                {
+                  "quote": "it may not suit everyone",
+                  "kind": "register",
+                  "note": {
+                    "en": "'May' keeps the opinion cautious.",
+                    "es": "'May' mantiene la opinión con cautela."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "I'd be in favour, provided output doesn't suffer. Rested employees tend to be more productive, and I suspect shorter weeks would cut burnout. That said, it's hard to see how hospitals or shops could adopt it.",
+              "annotations": [
+                {
+                  "quote": "provided",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Adds a condition to your support.",
+                    "es": "Añade una condición a tu apoyo."
+                  }
+                },
+                {
+                  "quote": "tend to be",
+                  "kind": "register",
+                  "note": {
+                    "en": "A generalisation that avoids absolutes.",
+                    "es": "Generalización que evita los absolutos."
+                  }
+                },
+                {
+                  "quote": "I suspect",
+                  "kind": "register",
+                  "note": {
+                    "en": "Hedges a claim you cannot prove.",
+                    "es": "Matiza una afirmación que no puedes probar."
+                  }
+                },
+                {
+                  "quote": "That said",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces a limitation.",
+                    "es": "Introduce una limitación."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "w3-language-club-01",
+      "examPart": "writing-3",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 3,
+      "context": "You are a member of a language exchange club. You are talking to other members in the club's online chat room. Answer their questions. Write 30–40 words for each answer.",
+      "questions": [
+        {
+          "prompt": "Marta: How did you start learning English, and what has been the hardest part?",
+          "models": {
+            "b2": {
+              "text": "I started learning English at primary school, and I continued with evening classes later. The hardest part has been listening, because people speak very fast and use slang. However, watching series with subtitles has helped me a lot.",
+              "annotations": [
+                {
+                  "quote": "The hardest part has been",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A superlative with the present perfect.",
+                    "es": "Superlativo con present perfect."
+                  }
+                },
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason for the difficulty.",
+                    "es": "Da la razón de la dificultad."
+                  }
+                },
+                {
+                  "quote": "watching series with subtitles",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A gerund phrase as subject.",
+                    "es": "Gerundio como sujeto."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "I picked it up at school, then went to evening classes as an adult. What I've found toughest is following fast, informal speech, though watching series with subtitles has gradually tuned my ear.",
+              "annotations": [
+                {
+                  "quote": "picked it up",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A phrasal verb meaning 'learnt without much effort'.",
+                    "es": "Verbo con partícula: 'aprender sin demasiado esfuerzo'."
+                  }
+                },
+                {
+                  "quote": "What I've found toughest is",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A cleft sentence focusing on the difficulty.",
+                    "es": "Oración escindida que destaca la dificultad."
+                  }
+                },
+                {
+                  "quote": "though",
+                  "kind": "connector",
+                  "note": {
+                    "en": "A light connector of contrast at the end of the sentence.",
+                    "es": "Conector de contraste ligero al final de la frase."
+                  }
+                },
+                {
+                  "quote": "tuned my ear",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A figurative collocation for improving listening.",
+                    "es": "Colocación figurada para mejorar la comprensión oral."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Luca: Do you think it's better to study grammar or to just practise speaking?",
+          "models": {
+            "b2": {
+              "text": "I think you need both. Grammar helps you avoid mistakes, but speaking is the only way to become fluent. For example, I learnt more in one month of conversations than in a year with a textbook.",
+              "annotations": [
+                {
+                  "quote": "I think you need both",
+                  "kind": "register",
+                  "note": {
+                    "en": "A balanced opinion in simple words.",
+                    "es": "Opinión equilibrada con palabras sencillas."
+                  }
+                },
+                {
+                  "quote": "but",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Contrasts the two skills.",
+                    "es": "Contrasta las dos destrezas."
+                  }
+                },
+                {
+                  "quote": "For example",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces your personal experience.",
+                    "es": "Introduce tu experiencia personal."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Strictly speaking, you need both, but if I had to choose, I'd say speaking wins. Grammar rules only stick once you've used them in real conversations, which is where mistakes finally become memorable.",
+              "annotations": [
+                {
+                  "quote": "Strictly speaking",
+                  "kind": "register",
+                  "note": {
+                    "en": "Shows you are being precise before you qualify the answer.",
+                    "es": "Muestra precisión antes de matizar la respuesta."
+                  }
+                },
+                {
+                  "quote": "if I had to choose",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A second conditional for a hypothetical choice.",
+                    "es": "Segundo condicional para una elección hipotética."
+                  }
+                },
+                {
+                  "quote": "only stick once",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'Stick' = be remembered.",
+                    "es": "'Stick' = quedarse en la memoria."
+                  }
+                },
+                {
+                  "quote": "which is where",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A relative clause that points to the place or moment.",
+                    "es": "Relativo que señala el lugar o el momento."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Zoe: Our club is thinking of new activities. What would you suggest to help members improve?",
+          "models": {
+            "b2": {
+              "text": "I suggest we organise a monthly theme night. For example, one evening we could talk about food and another about travel. Also, we should pair beginners with advanced speakers, because both sides can learn from each other.",
+              "annotations": [
+                {
+                  "quote": "I suggest we organise",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'Suggest' followed by a clause.",
+                    "es": "'Suggest' seguido de una oración."
+                  }
+                },
+                {
+                  "quote": "For example",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces concrete ideas.",
+                    "es": "Introduce ideas concretas."
+                  }
+                },
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Justifies the idea.",
+                    "es": "Justifica la idea."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "How about a monthly theme night, where everyone prepares a few words in advance? Pairing beginners with confident speakers would also make sense, as it's often the quieter members who benefit most from a patient partner.",
+              "annotations": [
+                {
+                  "quote": "How about",
+                  "kind": "register",
+                  "note": {
+                    "en": "An informal, friendly way to suggest.",
+                    "es": "Forma informal y amistosa de sugerir."
+                  }
+                },
+                {
+                  "quote": "in advance",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A useful phrase for preparation.",
+                    "es": "Frase útil para hablar de preparación."
+                  }
+                },
+                {
+                  "quote": "Pairing beginners with confident speakers",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A gerund phrase as the subject of the sentence.",
+                    "es": "Gerundio como sujeto de la frase."
+                  }
+                },
+                {
+                  "quote": "it's often the quieter members who",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A cleft sentence that highlights who benefits.",
+                    "es": "Oración escindida que destaca quién se beneficia."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "w3-gardening-group-01",
+      "examPart": "writing-3",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 3,
+      "context": "You are a member of a neighbourhood gardening group. You are talking to other members in the group's online chat room. Answer their questions. Write 30–40 words for each answer.",
+      "questions": [
+        {
+          "prompt": "Greg: How did you become interested in gardening?",
+          "models": {
+            "b2": {
+              "text": "My grandmother had a big vegetable garden, and I helped her every summer when I was a child. I loved eating food that I had grown myself. Now I have a small balcony with tomatoes and herbs.",
+              "annotations": [
+                {
+                  "quote": "when I was a child",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Places the memory in time.",
+                    "es": "Sitúa el recuerdo en el tiempo."
+                  }
+                },
+                {
+                  "quote": "food that I had grown myself",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "Past perfect shows an earlier action.",
+                    "es": "El past perfect muestra una acción anterior."
+                  }
+                },
+                {
+                  "quote": "Now",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Contrasts the past with the present.",
+                    "es": "Contrasta el pasado con el presente."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "It all goes back to my grandmother's vegetable garden, where I spent my childhood summers. Eating something I'd grown myself felt like magic, and that sense of wonder is what keeps me tending my balcony tomatoes.",
+              "annotations": [
+                {
+                  "quote": "It all goes back to",
+                  "kind": "register",
+                  "note": {
+                    "en": "A natural way to name the origin of an interest.",
+                    "es": "Forma natural de nombrar el origen de un interés."
+                  }
+                },
+                {
+                  "quote": "felt like magic",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A vivid comparison for a strong feeling.",
+                    "es": "Comparación viva para un sentimiento intenso."
+                  }
+                },
+                {
+                  "quote": "that sense of wonder is what keeps me",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A cleft sentence that stresses the cause.",
+                    "es": "Oración escindida que destaca la causa."
+                  }
+                },
+                {
+                  "quote": "tending",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A precise verb for looking after plants.",
+                    "es": "Verbo preciso para cuidar plantas."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Fatima: Do you think growing your own food is really worth the effort?",
+          "models": {
+            "b2": {
+              "text": "Yes, I think it is worth it because homegrown vegetables taste better and you know exactly what they contain. However, it takes a lot of time, and some crops fail. So I only grow things that are easy.",
+              "annotations": [
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason for your opinion.",
+                    "es": "Da la razón de tu opinión."
+                  }
+                },
+                {
+                  "quote": "However",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces the drawback.",
+                    "es": "Introduce el inconveniente."
+                  }
+                },
+                {
+                  "quote": "So I only grow",
+                  "kind": "connector",
+                  "note": {
+                    "en": "'So' shows your practical conclusion.",
+                    "es": "'So' muestra tu conclusión práctica."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "By and large, yes. Homegrown produce tastes noticeably better, and you know precisely what has gone into it. Granted, it demands time and patience, but the satisfaction of a good harvest tends to outweigh that.",
+              "annotations": [
+                {
+                  "quote": "By and large",
+                  "kind": "connector",
+                  "note": {
+                    "en": "A fixed phrase meaning 'in general'.",
+                    "es": "Expresión fija: 'en general'."
+                  }
+                },
+                {
+                  "quote": "produce",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "The precise noun for fresh fruit and vegetables.",
+                    "es": "Sustantivo preciso para fruta y verdura frescas."
+                  }
+                },
+                {
+                  "quote": "Granted",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Concedes a point before your main argument.",
+                    "es": "Concede un punto antes de tu argumento principal."
+                  }
+                },
+                {
+                  "quote": "tends to outweigh",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A hedged way to say the benefits are greater.",
+                    "es": "Forma matizada de decir que los beneficios pesan más."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Harry: How could our neighbourhood become greener? Any ideas?",
+          "models": {
+            "b2": {
+              "text": "I think we should plant more trees along the main street. Also, the council could turn empty land into small gardens. For example, there is an unused car park near the school that would be perfect.",
+              "annotations": [
+                {
+                  "quote": "I think we should",
+                  "kind": "register",
+                  "note": {
+                    "en": "A clear way to make a suggestion.",
+                    "es": "Forma clara de hacer una sugerencia."
+                  }
+                },
+                {
+                  "quote": "could turn empty land into",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'Turn … into' describes a change of use.",
+                    "es": "'Turn … into' describe un cambio de uso."
+                  }
+                },
+                {
+                  "quote": "For example",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces a concrete idea.",
+                    "es": "Introduce una idea concreta."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Were the council to hand over unused land, we could create shared gardens at very little cost. Equally important would be planting trees along the main road, which would cool the street and cut down noise.",
+              "annotations": [
+                {
+                  "quote": "Were the council to hand over",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "Inverted conditional for a possible future action.",
+                    "es": "Condicional invertido para una acción futura posible."
+                  }
+                },
+                {
+                  "quote": "at very little cost",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A formal-sounding way to say 'cheaply'.",
+                    "es": "Forma más formal de decir 'barato'."
+                  }
+                },
+                {
+                  "quote": "Equally important would be",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "Inversion with 'be' after an adverbial.",
+                    "es": "Inversión con 'be' tras un adverbial."
+                  }
+                },
+                {
+                  "quote": "cut down noise",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A phrasal verb meaning 'reduce'.",
+                    "es": "Verbo con partícula que significa 'reducir'."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "w3-tech-club-01",
+      "examPart": "writing-3",
+      "cefrLevel": "B2",
+      "topic": "technology",
+      "difficulty": 4,
+      "context": "You are a member of a technology club. You are talking to other members in the club's online chat room. Answer their questions. Write 30–40 words for each answer.",
+      "questions": [
+        {
+          "prompt": "Sam: What was the first gadget you were really excited about?",
+          "models": {
+            "b2": {
+              "text": "The first gadget I was really excited about was a digital camera I got for my birthday when I was twelve. I took photos of everything and learnt to edit them on the computer. I still have it.",
+              "annotations": [
+                {
+                  "quote": "really excited about",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'Excited about' + noun for strong interest.",
+                    "es": "'Excited about' + sustantivo para un gran interés."
+                  }
+                },
+                {
+                  "quote": "when I was twelve",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Places the memory in time.",
+                    "es": "Sitúa el recuerdo en el tiempo."
+                  }
+                },
+                {
+                  "quote": "I still have it",
+                  "kind": "register",
+                  "note": {
+                    "en": "A short, natural closing line.",
+                    "es": "Cierre breve y natural."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "That would be a small digital camera I was given at twelve. I couldn't stop taking pictures, and teaching myself to edit them is what first sparked my interest in technology, something I've never lost.",
+              "annotations": [
+                {
+                  "quote": "That would be",
+                  "kind": "register",
+                  "note": {
+                    "en": "A hedged, conversational way to answer.",
+                    "es": "Forma conversacional y matizada de responder."
+                  }
+                },
+                {
+                  "quote": "I was given",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A passive that keeps the focus on the gift.",
+                    "es": "Pasiva que mantiene el foco en el regalo."
+                  }
+                },
+                {
+                  "quote": "is what first sparked my interest",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A cleft structure that stresses the cause.",
+                    "es": "Estructura escindida que destaca la causa."
+                  }
+                },
+                {
+                  "quote": "something I've never lost",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "A relative clause that comments on the whole idea.",
+                    "es": "Relativo que comenta toda la idea."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Anna: Do you think people spend too much time on their phones?",
+          "models": {
+            "b2": {
+              "text": "Yes, I think many people do, including me. It is easy to waste hours on social media instead of talking to the people around us. However, phones are also very useful for work, maps and keeping in touch.",
+              "annotations": [
+                {
+                  "quote": "including me",
+                  "kind": "register",
+                  "note": {
+                    "en": "Includes yourself, which sounds honest.",
+                    "es": "Te incluyes a ti, lo que suena sincero."
+                  }
+                },
+                {
+                  "quote": "instead of talking",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'Instead of' is followed by -ing.",
+                    "es": "'Instead of' va seguido de -ing."
+                  }
+                },
+                {
+                  "quote": "However",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces the other side.",
+                    "es": "Introduce el otro lado."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "To some extent, yes, and I'm no exception. Hours can vanish scrolling when we could be talking to the people beside us. Still, it'd be unfair to ignore how useful phones are for navigation and staying in touch.",
+              "annotations": [
+                {
+                  "quote": "To some extent",
+                  "kind": "register",
+                  "note": {
+                    "en": "Hedges the answer instead of a flat 'yes'.",
+                    "es": "Matiza la respuesta en lugar de un 'yes' rotundo."
+                  }
+                },
+                {
+                  "quote": "I'm no exception",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A natural way to include yourself.",
+                    "es": "Forma natural de incluirte a ti mismo."
+                  }
+                },
+                {
+                  "quote": "Hours can vanish scrolling",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A vivid image for losing time.",
+                    "es": "Imagen viva para perder el tiempo."
+                  }
+                },
+                {
+                  "quote": "Still,",
+                  "kind": "connector",
+                  "note": {
+                    "en": "A short connector of concession.",
+                    "es": "Conector breve de concesión."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Dev: Artificial intelligence is becoming common at work and school. What advice would you give to people using it?",
+          "models": {
+            "b2": {
+              "text": "I would advise people to check everything it says, because it sometimes makes mistakes. Also, they should not use it to replace their own thinking. For example, students could use it to explain difficult ideas, but write essays themselves.",
+              "annotations": [
+                {
+                  "quote": "I would advise people to",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'Advise' + object + to-infinitive.",
+                    "es": "'Advise' + objeto + infinitivo con 'to'."
+                  }
+                },
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason for your advice.",
+                    "es": "Da la razón de tu consejo."
+                  }
+                },
+                {
+                  "quote": "For example",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Introduces a concrete case.",
+                    "es": "Introduce un caso concreto."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Treat it as an assistant, not an authority. Not everything it produces is accurate, so double-check anything important. Above all, don't let it do your thinking for you; the benefit lies in using it to sharpen your own ideas.",
+              "annotations": [
+                {
+                  "quote": "Treat it as an assistant, not an authority.",
+                  "kind": "register",
+                  "note": {
+                    "en": "A direct imperative with a clear contrast, typical of advice in chat.",
+                    "es": "Imperativo directo con contraste claro, típico de un consejo en chat."
+                  }
+                },
+                {
+                  "quote": "Not everything it produces is accurate",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "Partial negation with 'not everything'.",
+                    "es": "Negación parcial con 'not everything'."
+                  }
+                },
+                {
+                  "quote": "Above all",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Signals the most important point.",
+                    "es": "Señala el punto más importante."
+                  }
+                },
+                {
+                  "quote": "sharpen",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A precise verb for improving ideas.",
+                    "es": "Verbo preciso para mejorar ideas."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
