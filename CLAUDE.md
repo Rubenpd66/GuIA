@@ -23,13 +23,19 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - Logic in `src/lib/trainer/reading.ts`; `ReadingTrainer` and `Reading1–4Task` in `src/components/reading/`, mounted at `/practice/reading-1…4`; `/reading` has the format, app exam times (4/8/8/15 min, an app decision) and strategies.
   - Bank: 12/16/8/6 tasks in `content/exercises/reading-{1,2,3,4}/`, reviewed key by key.
   - `SortableList` drags listen on `window` (touch events stop reaching the handle once the row moves in the DOM); keep that if you touch it.
-- **Next: phase 4 (Listening).** Plan it from the spec and wait for approval. Audio is a new service decision: ask the user before choosing TTS, recorded audio or any API.
-- Phases 4–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
+- Phase 4 (Listening) is done, committed and browser-checked (stubbed `speechSynthesis`, 375/1280, light/dark, ES/EN, no-API fallback). Plan: `docs/superpowers/plans/2026-10-19-phase-4-listening.md`.
+  - Audio is the browser's `speechSynthesis` (no service, no keys): `src/lib/audio/` (`plan.ts` splits scripts and picks man/woman voices by name heuristic, `useSpeech.ts`, `settings.ts` stores speed and voices in `sello:listening-voice`, not in progress/export). `audio.src` stays in the schema but playing files is not implemented.
+  - Logic in `src/lib/trainer/listening.ts`; `ListeningTrainer`, `Listening1–4Task`, `AudioPlayer`, `Transcript` in `src/components/listening/`, mounted at `/practice/listening-1…4`; `/listening` has the format and strategies; voice settings in `/settings`.
+  - App decisions: exam mode allows 2 plays per recording, no countdown, 5 tasks in part 1; study mode has no limit. A play counts when it starts.
+  - Bank: 16/6/8/6 tasks in `content/exercises/listening-{1,2,3,4}/`, reviewed key by key (part 4 options were shuffled after drafting: agents put every answer at index 0). The validator warns on script length and errors when a part 4 `cue` is not in the script.
+  - Check agent drafts for answer position: they tend to put the right option first.
+- **Next: phase 5 (Writing).** Plan it from the spec and wait for approval.
+- Phases 5–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
 
 - `npm run check`: typegen + tsc, eslint, vitest, content validator. Run before every commit.
-- `npm run validate:content`: Zod + cross-file checks on `content/`, prints book coverage and the Core bank size (warns below 5 questions per lesson).
+- `npm run validate:content`: Zod + cross-file checks on `content/`, prints book coverage, the Core bank size and the Listening task counts (warns below 5 questions per lesson).
 - `npx vitest run <path>`: a single test file.
 - Dev server: `.claude/launch.json` (`sello-dev`, port 3000).
 
