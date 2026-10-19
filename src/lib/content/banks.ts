@@ -6,6 +6,8 @@ import type { FlashcardData } from "@/components/flashcards/FlashcardTrainer";
 import type { MockBank } from "@/components/assessment/mock";
 import type { PlacementBank } from "@/components/assessment/placement";
 import type { ExamPart } from "@/lib/exam/format";
+import { entriesVisibleTo, visibleTo } from "@/lib/access/rule";
+import type { Tier } from "@/lib/access/tiers";
 import { exercisesOfPart, type ContentIndex } from "./index";
 
 const parts = <P extends ExamPart>(content: ContentIndex, list: P[]) =>
@@ -100,3 +102,28 @@ export const BANKS: {
 };
 
 export const BANK_NAMES = Object.keys(BANKS) as (keyof Banks)[];
+
+/**
+ * A bank as one learner may receive it: the mock exam and the flashcards hold only what their
+ * plan opens (the placement pool counts as open). The placement bank is public already.
+ */
+export function bankFor<K extends keyof Banks>(
+  name: K,
+  content: ContentIndex,
+  tier: Tier,
+): Banks[K] {
+  if (name === "mock") {
+    const bank = BANKS.mock(content);
+    return {
+      grammar: visibleTo(tier, bank.grammar),
+      vocabulary: visibleTo(tier, bank.vocabulary),
+      reading: visibleTo(tier, bank.reading),
+      listening: visibleTo(tier, bank.listening),
+      writing: visibleTo(tier, bank.writing),
+      speaking: visibleTo(tier, bank.speaking),
+    } satisfies Banks["mock"] as Banks[K];
+  }
+  if (name === "flashcards")
+    return entriesVisibleTo(tier, BANKS.flashcards(content)) as Banks[K];
+  return BANKS[name](content);
+}

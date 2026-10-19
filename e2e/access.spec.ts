@@ -82,4 +82,19 @@ test.describe("visitors", () => {
     expect(body.includes(paid), "paid question in the response").toBe(false);
     expect(body.includes(free), "expected question missing").toBe(true);
   });
+
+  test("the mock bank has no paid tasks and is private", async ({
+    request,
+  }) => {
+    const response = await request.get("/banks/mock");
+    expect(response.headers()["cache-control"]).toContain("private");
+    type Task = { id: string; cefrLevel: string; placement?: true };
+    const bank = (await response.json()) as Record<string, Task[]>;
+    const paid = Object.values(bank)
+      .flat()
+      .filter((task) => task.cefrLevel !== "A2" && !task.placement)
+      .map((task) => task.id);
+    expect(paid).toEqual([]);
+    expect(bank.grammar!.length).toBeGreaterThan(0);
+  });
 });

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { validExercises } from "../../../tests/fixtures/content";
-import { BANKS } from "./banks";
+import { validExercises, validLessons } from "../../../tests/fixtures/content";
+import { BANKS, bankFor } from "./banks";
 import { buildContentIndex } from "./index";
 import { ContentFile } from "./schemas/content-file";
 
@@ -35,5 +35,41 @@ describe("placement bank", () => {
     expect(BANKS.placement(index).listening1.map((t) => t.id)).toEqual([
       "l1-public",
     ]);
+  });
+});
+
+describe("bankFor", () => {
+  const grammar = validExercises["core-grammar"] as { id: string };
+  const index = buildContentIndex([
+    ContentFile.parse({
+      kind: "exercises",
+      items: [
+        { ...grammar, id: "cg-a2", cefrLevel: "A2" },
+        { ...grammar, id: "cg-c1", cefrLevel: "C1" },
+        { ...grammar, id: "cg-c1-public", cefrLevel: "C1", placement: true },
+      ],
+    }),
+    ContentFile.parse({
+      kind: "vocabulary",
+      items: [
+        { ...validLessons.vocabulary, id: "v-a2", level: "A2" },
+        { ...validLessons.vocabulary, id: "v-b2", level: "B2" },
+      ],
+    }),
+  ]);
+
+  it("the mock bank for the free tier holds only A2 and placement exercises", () => {
+    expect(bankFor("mock", index, "free").grammar.map((q) => q.id)).toEqual([
+      "cg-a2",
+      "cg-c1-public",
+    ]);
+    expect(bankFor("mock", index, "c1").grammar).toHaveLength(3);
+  });
+
+  it("flashcards follow the tier's levels", () => {
+    expect(bankFor("flashcards", index, "b1").map((c) => c.id)).toEqual([
+      "v:v-a2",
+    ]);
+    expect(bankFor("flashcards", index, "b2")).toHaveLength(2);
   });
 });
