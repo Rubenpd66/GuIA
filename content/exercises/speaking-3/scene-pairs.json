@@ -1,0 +1,785 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "s3-getting-to-work-01",
+      "examPart": "speaking-3",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 3,
+      "images": [
+        {
+          "sceneId": "crowded-bus",
+          "alt": {
+            "en": "Commuters standing close together on a crowded bus, holding the rails, while one of them reads a phone.",
+            "es": "Viajeros de pie y muy juntos en un autobús abarrotado, agarrados a las barras, y uno de ellos mira el móvil."
+          }
+        },
+        {
+          "sceneId": "cycle-lane",
+          "alt": {
+            "en": "People cycling to work along a separate cycle lane beside a road with cars and trees.",
+            "es": "Gente yendo al trabajo en bici por un carril bici separado, junto a una carretera con coches y árboles."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Tell me what you see in the two pictures, and how they are similar or different.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Both pictures show people on their way to work, but in very different ways."
+                },
+                {
+                  "role": "development",
+                  "text": "In the first one, commuters are standing close together on a crowded bus, holding the rails, and one of them is looking at a phone. In the second, people are cycling along a cycle lane that's separate from the road, with cars and trees next to it."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The people on the bus might be tired or fed up, while the cyclists probably feel more relaxed."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "What strikes me is that both pictures are about the journey to work, yet the experiences look worlds apart."
+                },
+                {
+                  "role": "development",
+                  "text": "On the bus, commuters are packed in, hanging onto the rails, with one glued to a phone, whereas the cyclists have a lane all to themselves, kept apart from the cars, with trees along the road."
+                },
+                {
+                  "role": "speculation",
+                  "text": "By contrast, the passengers could well be exhausted or irritable, while the cyclists are far more likely to be enjoying some fresh air and exercise."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Which way of getting to work would you prefer, and why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd prefer to cycle to work, I think."
+                },
+                {
+                  "role": "development",
+                  "text": "It's cheaper than the bus, and I'd get some exercise on the way. The cycle lane in the picture looks safe because it's separate from the cars."
+                },
+                {
+                  "role": "example",
+                  "text": "Last summer I cycled to work for a month, and I felt much more awake when I arrived at the office."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "The only problem is the weather, but I'd still rather be outside than squashed on a crowded bus."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "If I had the choice, I'd go for the cycle lane without a second thought."
+                },
+                {
+                  "role": "development",
+                  "text": "What appeals to me most is having control over my own time, since a bus is at the mercy of the traffic and, by the look of it, of far too many other passengers."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I suspect that arriving a bit out of breath would still beat arriving stressed and cramped, although I'd probably think twice on a rainy morning."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "All things considered, the bike wins."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How might cities encourage people to leave their cars at home?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think cities could do a lot to help."
+                },
+                {
+                  "role": "development",
+                  "text": "First, they could make public transport cheaper and more frequent, so people don't need a car. They could also build more cycle lanes like the one in the picture."
+                },
+                {
+                  "role": "example",
+                  "text": "Another idea is to make drivers pay to enter the city centre, like they do in London."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "If the alternatives are good, people will leave their cars at home."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "It's partly a question of carrots and sticks."
+                },
+                {
+                  "role": "development",
+                  "text": "On the one hand, councils could charge drivers to enter the centre and cut parking spaces; on the other, they'd need to make buses cheaper, quicker and reliable enough that nobody feels they're losing out."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd imagine that protected cycle lanes would make a big difference too, since many people would cycle if they felt safe."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "What really matters is making the car the least convenient option, not just the most expensive one."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s3-city-or-country-01",
+      "examPart": "speaking-3",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 3,
+      "images": [
+        {
+          "sceneId": "city-flat",
+          "alt": {
+            "en": "A tall block of flats in a city with balconies, and a person watering plants on one balcony.",
+            "es": "Un bloque alto de pisos en una ciudad, con balcones, y una persona regando plantas en uno de ellos."
+          }
+        },
+        {
+          "sceneId": "country-cottage",
+          "alt": {
+            "en": "A small cottage in the countryside with a garden and hills behind it, and a person working in the garden.",
+            "es": "Una casita en el campo con jardín y colinas detrás, y una persona trabajando en el jardín."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Tell me what you see in the two pictures, and how the two places are different.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Both pictures show places where people live, but they're very different."
+                },
+                {
+                  "role": "development",
+                  "text": "The first one is a tall block of flats in a city, with balconies, and a person is watering plants on one of them. The second is a small cottage in the countryside, with a garden and hills behind it, and a person is working in the garden."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The person on the balcony might miss having a proper garden, while the person at the cottage probably enjoys the peace and quiet."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Both pictures are about where people choose to live, but the settings couldn't be more different."
+                },
+                {
+                  "role": "development",
+                  "text": "On one side there's a tall block of flats with balconies, where somebody is watering plants, whereas the other shows a small cottage with a garden, hills behind it and a person busy working outside."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd say the balcony plants might be that person's way of having a little green space, while the cottage owner could well have far more room, though perhaps fewer shops nearby."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So it's really city density against country space."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Which of these two places would you prefer to live in, and why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd prefer to live in the city, to be honest."
+                },
+                {
+                  "role": "development",
+                  "text": "There's always something to do, and everything is close, like shops, work and public transport. It's also easier to meet friends. In the countryside I'd probably need a car for everything."
+                },
+                {
+                  "role": "example",
+                  "text": "I've got a friend who lives in a village, and she spends hours driving every week."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I like the idea of a cottage for a holiday, but not for every day."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "It's a tough call, but on balance I'd choose the city."
+                },
+                {
+                  "role": "development",
+                  "text": "What I value most is convenience: work, friends and decent transport are all on my doorstep, along with cinemas and restaurants, which is hard to match in a village."
+                },
+                {
+                  "role": "speculation",
+                  "text": "That said, I might feel differently in ten years' time, particularly if I had children and wanted a garden for them."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "For now, though, I'd happily trade space for convenience."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think more people will want to live in the countryside in the future?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think more people will want to, yes."
+                },
+                {
+                  "role": "development",
+                  "text": "Lots of people can work from home now, so they don't need to live near the office. Cities are also very expensive, and houses in the country are often cheaper."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, a family could get a bigger house with a garden for the price of a small flat."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "But not everyone will leave, because young people still love city life."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I wouldn't be surprised if that trend continued."
+                },
+                {
+                  "role": "development",
+                  "text": "Remote working has loosened the link between where you work and where you live, and rising rents are pushing many people out of the cities."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Provided the internet and transport in rural areas improve, I could see small towns becoming far more attractive than they are now."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "That said, cities will always draw young people, so it's more a rebalancing than an exodus."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s3-beach-or-mountains-01",
+      "examPart": "speaking-3",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "images": [
+        {
+          "sceneId": "beach-holiday",
+          "alt": {
+            "en": "A busy beach in summer with umbrellas, people sunbathing on towels, the sea and the sun.",
+            "es": "Una playa llena de gente en verano, con sombrillas, personas tomando el sol en toallas, el mar y el sol."
+          }
+        },
+        {
+          "sceneId": "mountain-hike",
+          "alt": {
+            "en": "Two hikers with backpacks walking up a mountain path, with snowy peaks behind them.",
+            "es": "Dos excursionistas con mochilas subiendo por un sendero de montaña, con picos nevados detrás."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Tell me what you see in the two pictures, and how they are similar or different.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Both pictures show people on holiday, but they're doing very different things."
+                },
+                {
+                  "role": "development",
+                  "text": "The first picture shows a busy beach in summer, with umbrellas, people sunbathing on towels, the sea and the sun. In the second, two hikers with backpacks are walking up a mountain path, with snowy peaks behind them."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The people on the beach are probably relaxing, while the hikers might be tired but enjoying the views."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "One holiday is calm and sociable, the other is much more active."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "These pictures show two quite opposite ideas of a holiday."
+                },
+                {
+                  "role": "development",
+                  "text": "On one hand there's a busy beach in summer, with umbrellas, sunbathers on towels and the sea stretching out under the sun; on the other, just two hikers with backpacks climbing a path towards snowy peaks."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The beachgoers are presumably there to switch off, whereas the hikers must be after a challenge, and they'd probably need to be quite fit."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "By contrast with the crowds on the sand, the mountain looks far quieter."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Which kind of holiday would you prefer, and why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd prefer the mountain holiday."
+                },
+                {
+                  "role": "development",
+                  "text": "I like being active, and walking in the mountains is a good way to see beautiful places. The beach looks too crowded for me, and I find it boring to lie in the sun all day."
+                },
+                {
+                  "role": "example",
+                  "text": "Last year I did a walking trip in the Pyrenees, and it was one of my best holidays."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I can relax at the beach for a day, but not for a whole week."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd go for the mountains, no question."
+                },
+                {
+                  "role": "development",
+                  "text": "What I enjoy about a hike is the sense of achievement; you earn the view rather than just lying there, and it's far less crowded than a beach in August."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Mind you, I might well feel differently after a stressful year, when all I'd want is to do nothing under an umbrella."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "But if I had to pick one, it'd be the mountains."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think tourism does more good than harm to popular places?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think it does both, to be honest."
+                },
+                {
+                  "role": "development",
+                  "text": "Tourism brings jobs and money to local people, especially in small towns. But it can also damage the environment and make everything more expensive for the people who live there."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, a crowded beach can be full of rubbish at the end of the day."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So I think popular places need clear rules to protect themselves, and tourists should respect them."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "It's a double-edged sword, really."
+                },
+                {
+                  "role": "development",
+                  "text": "Tourism can be a lifeline for local economies, but when numbers get out of hand, residents get priced out and the very thing that attracted visitors starts to wear away, whether that's a mountain path or a beach."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I'd argue that limiting visitor numbers or charging an entrance fee could well protect fragile places without killing the benefits."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It all depends on how well it's managed."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s3-online-or-high-street-01",
+      "examPart": "speaking-3",
+      "cefrLevel": "B2",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "images": [
+        {
+          "sceneId": "online-shopping",
+          "alt": {
+            "en": "A person on a sofa ordering something on a laptop, with several delivery boxes by the door.",
+            "es": "Una persona en un sofá haciendo un pedido en el portátil, con varias cajas de reparto junto a la puerta."
+          }
+        },
+        {
+          "sceneId": "high-street",
+          "alt": {
+            "en": "Shoppers with bags walking along a high street past shop fronts and a café.",
+            "es": "Gente con bolsas de la compra paseando por una calle comercial, junto a escaparates y una cafetería."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Tell me what you see in the two pictures, and how they are similar or different.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Both pictures are about shopping, but people are doing it in different ways."
+                },
+                {
+                  "role": "development",
+                  "text": "In the first one, a person is sitting on a sofa ordering something on a laptop, and there are several delivery boxes by the door. In the second, shoppers with bags are walking along a high street, past shop fronts and a café."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The person at home has probably ordered quite a lot, while the people on the high street might be enjoying a day out."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Both pictures show shopping, though in completely different settings."
+                },
+                {
+                  "role": "development",
+                  "text": "One shows someone on a sofa with a laptop and several delivery boxes already waiting by the door, whereas the other has shoppers with bags strolling past shop fronts and a café."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The person at home might be saving time, while the shoppers outside could well be treating it as a social outing, as there's a café on the street."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So it's convenience on one side and atmosphere on the other."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Which do you prefer, shopping online or going to the shops, and why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I prefer shopping online for most things."
+                },
+                {
+                  "role": "development",
+                  "text": "It's quicker, and I can compare prices easily, which saves me money. I don't have to carry heavy bags or wait in a queue, either."
+                },
+                {
+                  "role": "example",
+                  "text": "But for clothes I like to go to the shops, because I want to try things on before I buy them."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So I use both, depending on what I need."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "On balance, I lean towards online shopping, although it's not that clear-cut."
+                },
+                {
+                  "role": "development",
+                  "text": "What I like is the convenience and the range: I can compare prices in minutes, which the high street simply can't match."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Still, I'd say shops are worth keeping for things like clothes or shoes, where you really need to see and try them first."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So it depends on what I'm buying, and how much of a hurry I'm in."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What do you think will happen to the high street in the future?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think many high streets will have to change."
+                },
+                {
+                  "role": "development",
+                  "text": "More people are buying online, so some shops will probably close. But I don't think they'll disappear completely, because people still like going out to meet friends."
+                },
+                {
+                  "role": "example",
+                  "text": "Maybe there'll be more cafés, restaurants and places to do activities instead of shops."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So the high street will become more of a social place."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd expect high streets to survive, but in a different form."
+                },
+                {
+                  "role": "development",
+                  "text": "Shops selling things you can easily order online are likely to struggle, whereas places offering an experience, like cafés, services or workshops, should hold up far better."
+                },
+                {
+                  "role": "speculation",
+                  "text": "It's even conceivable that councils will turn empty shops into homes or community spaces."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "What counts is giving people a reason to go there in person."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s3-night-out-or-night-in-01",
+      "examPart": "speaking-3",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 3,
+      "images": [
+        {
+          "sceneId": "concert-crowd",
+          "alt": {
+            "en": "A crowd at an outdoor concert in the evening, facing a lit stage with a band, with some people raising their hands.",
+            "es": "Una multitud en un concierto al aire libre por la noche, frente a un escenario iluminado con un grupo, y algunos con las manos en alto."
+          }
+        },
+        {
+          "sceneId": "reading-at-home",
+          "alt": {
+            "en": "A person reading a book in an armchair beside a lamp and a bookshelf, with a cat on the rug.",
+            "es": "Una persona leyendo un libro en un sillón junto a una lámpara y una estantería, con un gato en la alfombra."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Tell me what you see in the two pictures, and how they are similar or different.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Both pictures show people enjoying their free time, but in very different ways."
+                },
+                {
+                  "role": "development",
+                  "text": "The first picture shows a crowd at an outdoor concert in the evening, facing a lit stage with a band, and some people have their hands up. In the second, a person is reading a book in an armchair beside a lamp and a bookshelf, and there's a cat on the rug."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The people at the concert are probably excited and full of energy, while the reader seems calm and relaxed."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Both pictures are about leisure, yet they couldn't feel more different."
+                },
+                {
+                  "role": "development",
+                  "text": "In one, a whole crowd is facing a lit stage at an outdoor concert in the evening, with some people raising their hands, whereas the other shows a single person in an armchair with a book, a lamp, a bookshelf and a cat on the rug."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The concert-goers are presumably after a shared, noisy experience, while the reader might well be winding down after a long day."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Crowd and energy on one side, solitude and calm on the other."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Would you rather go to a concert or stay at home with a book, and why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "It depends on my mood, but I'd probably choose the concert."
+                },
+                {
+                  "role": "development",
+                  "text": "I love live music, and the atmosphere is something you can't get at home. Being with a lot of people who are enjoying the same thing makes it special."
+                },
+                {
+                  "role": "example",
+                  "text": "I went to a festival last summer, and I still remember singing along with thousands of strangers."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "But after a tiring week, a quiet evening with a book sounds great too."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Honestly, I'd say it hinges on how my week has gone."
+                },
+                {
+                  "role": "development",
+                  "text": "What I love about a concert is the atmosphere, that feeling of being part of something bigger, which no recording can match."
+                },
+                {
+                  "role": "speculation",
+                  "text": "That said, if I'd had a draining week, I'd far rather curl up with a book and a cup of tea, and I suspect the cat would be good company too."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "If I had to choose just one, I'd still go for the live music."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Why do you think live events are still so popular, when we can watch almost anything at home?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think it's because live events feel more special."
+                },
+                {
+                  "role": "development",
+                  "text": "At home you can watch anything, but you're on your own. At a concert you're in the same place as the artists, and you feel the energy of the crowd."
+                },
+                {
+                  "role": "example",
+                  "text": "A concert is also something to look forward to, and you can share it with friends."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "So I don't think screens will ever replace it completely."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think it comes down to the experience."
+                },
+                {
+                  "role": "development",
+                  "text": "It's not so much the performance itself as being there, sharing the moment with thousands of other people, that screens simply can't reproduce."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Perhaps it's precisely because so much of our lives is online that we value something real and unrepeatable, which might explain why tickets sell out so fast."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "In a way, the more digital life becomes, the more we'll crave live events."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
