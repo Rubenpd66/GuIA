@@ -232,9 +232,9 @@
     "ageTitle": "Edad mínima",
     "ageBody": "Para crear una cuenta debes tener 14 años o más (art. 7 de la LOPDGDD). Si eres menor de esa edad, puedes usar Sello sin cuenta.",
     "processorsTitle": "Quién trata los datos por nosotros",
-    "processorsBody": "Supabase guarda la cuenta y los datos sincronizados en servidores de la Unión Europea (Fráncfort). Vercel aloja la web y puede tratar datos técnicos de las visitas. Si entras con Google, Google nos facilita tu email para identificarte. Con estos proveedores existe un contrato de encargo del tratamiento.",
+    "processorsBody": "Supabase guarda la cuenta y los datos sincronizados en servidores de la Unión Europea (Fráncfort). Vercel aloja la web y puede tratar datos técnicos de las visitas. Si entras con Google, Google nos facilita tu email para identificarte. Si te suscribes, Stripe Payments Europe trata el pago: recibe tu nombre, email, dirección de facturación y medio de pago, que gestiona Stripe y nunca Sello, y conserva las facturas el plazo que exige la ley fiscal. Sello guarda solo tu plan, su estado, las fechas y los identificadores de Stripe. Con estos proveedores existe un contrato de encargo del tratamiento.",
     "retentionTitle": "Cuánto tiempo se conservan",
-    "retentionBody": "Mientras tengas la cuenta. Al borrarla desde la página de tu cuenta, se eliminan tu acceso y todos tus datos sincronizados, salvo copias de seguridad temporales del proveedor. Los datos técnicos de Vercel se conservan el tiempo que ese proveedor establece.",
+    "retentionBody": "Mientras tengas la cuenta. Al borrarla desde la página de tu cuenta, se cancela tu suscripción y se eliminan tu acceso, tu plan y todos tus datos sincronizados, salvo copias de seguridad temporales del proveedor. Los datos técnicos de Vercel se conservan el tiempo que ese proveedor establece.",
     "rightsTitle": "Tus derechos",
     "rightsBody": "Puedes acceder a tus datos, rectificarlos, suprimirlos, limitar su uso, oponerte y llevártelos. Casi todo lo haces tú mismo: exportas tu progreso en Ajustes y borras la cuenta en la página de tu cuenta. Para cualquier otra petición, escribe al contacto de abajo. Si crees que no hemos respondido bien, puedes reclamar ante la Agencia Española de Protección de Datos (www.aepd.es)."
   },
@@ -1109,6 +1109,8 @@
     "contentBody": "Las lecciones, textos y preguntas de Sello son originales y pertenecen a su titular. Puedes usarlas para tu estudio personal, pero no copiarlas ni redistribuirlas sin permiso.",
     "liabilityTitle": "Responsabilidad",
     "liabilityBody": "Los niveles y puntuaciones son estimaciones propias. Sello se ofrece tal cual, sin garantía de disponibilidad continua, y haremos lo razonable por cuidar tus datos. Esto no limita los derechos que la ley te reconoce como consumidor.",
+    "plansTitle": "Planes y pagos",
+    "plansBody": "Los planes B1, B2 y C1 se pagan por mes o por año, con el IVA incluido en el precio, y se renuevan solos hasta que los canceles. Cancelas cuando quieras desde tu cuenta (portal de Stripe) y sigues con acceso hasta el final del periodo pagado. Subir de plan es inmediato y se prorratea; bajar de plan o cancelar surte efecto al final del periodo. Al terminar o bajar de plan conservas tu progreso, pero el contenido de niveles superiores al de tu plan vuelve a bloquearse. Al pagar pides acceso inmediato al contenido digital y aceptas perder el derecho de desistimiento de 14 días (art. 103 m del texto refundido de la Ley de consumidores). Si borras tu cuenta, la suscripción se cancela al instante y no se reembolsa el periodo en curso.",
     "changesTitle": "Cambios y ley aplicable",
     "changesBody": "Podemos actualizar estos términos y la fecha de cambio constará aquí. Se rigen por la ley española."
   },

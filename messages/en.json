@@ -232,9 +232,9 @@
     "ageTitle": "Minimum age",
     "ageBody": "To create an account you must be 14 or older (art. 7 of Spain's LOPDGDD). If you are younger, you can use Sello without an account.",
     "processorsTitle": "Who processes data for us",
-    "processorsBody": "Supabase stores the account and synced data on servers in the European Union (Frankfurt). Vercel hosts the site and may process technical data about visits. If you sign in with Google, Google gives us your email to identify you. We have a data processing agreement with these providers.",
+    "processorsBody": "Supabase stores the account and synced data on servers in the European Union (Frankfurt). Vercel hosts the site and may process technical data about visits. If you sign in with Google, Google gives us your email to identify you. If you subscribe, Stripe Payments Europe processes the payment: it receives your name, email, billing address and payment method, which Stripe handles and Sello never sees, and keeps invoices for as long as tax law requires. Sello stores only your plan, its status, its dates and the Stripe identifiers. We have a data processing agreement with these providers.",
     "retentionTitle": "How long we keep it",
-    "retentionBody": "For as long as you have the account. When you delete it from your account page, your sign-in and all your synced data are erased, apart from the provider's temporary backups. Vercel's technical data is kept for the period that provider sets.",
+    "retentionBody": "For as long as you have the account. When you delete it from your account page, your subscription is cancelled and your sign-in, your plan and all your synced data are erased, apart from the provider's temporary backups. Vercel's technical data is kept for the period that provider sets.",
     "rightsTitle": "Your rights",
     "rightsBody": "You can access, correct, erase, restrict, object to and take away your data. You can do most of it yourself: export your progress in Settings and delete the account on your account page. For anything else, write to the contact below. If you think we have not answered properly, you can complain to the Spanish Data Protection Agency (www.aepd.es)."
   },
@@ -1109,6 +1109,8 @@
     "contentBody": "Sello's lessons, texts and questions are original and belong to its owner. You may use them for your own study, but not copy or redistribute them without permission.",
     "liabilityTitle": "Liability",
     "liabilityBody": "Levels and scores are our own estimates. Sello is provided as is, with no guarantee of continuous availability, and we will take reasonable care of your data. This does not limit the rights the law gives you as a consumer.",
+    "plansTitle": "Plans and payments",
+    "plansBody": "The B1, B2 and C1 plans are paid monthly or yearly, with VAT included in the price, and renew automatically until you cancel. You can cancel at any time from your account (Stripe's portal) and keep access until the end of the paid period. Upgrading is immediate and prorated; downgrading or cancelling takes effect at the end of the period. When a plan ends or goes down, your progress is kept, but content above your plan's level locks again. By paying you ask for immediate access to digital content and accept losing the 14-day right of withdrawal (article 103 m of Spain's consumer law). If you delete your account, the subscription is cancelled at once and the current period is not refunded.",
     "changesTitle": "Changes and governing law",
     "changesBody": "We may update these terms, and any change date will be shown here. They are governed by Spanish law."
   },

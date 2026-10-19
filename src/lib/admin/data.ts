@@ -1,7 +1,12 @@
 import "server-only";
 import { parseProgress } from "@/lib/progress/progress";
 import { supabaseAdmin } from "@/lib/supabase/admin";
-import { summarise, type AdminStats, type AdminUser } from "./stats";
+import {
+  summarise,
+  summariseSubscriptions,
+  type AdminStats,
+  type AdminUser,
+} from "./stats";
 
 const PAGE = 1000;
 
@@ -9,6 +14,7 @@ const PAGE = 1000;
 export async function loadAdminData(): Promise<{
   users: AdminUser[];
   stats: AdminStats;
+  subscriptions: ReturnType<typeof summariseSubscriptions>;
 } | null> {
   const admin = supabaseAdmin();
   if (!admin) return null;
@@ -37,5 +43,14 @@ export async function loadAdminData(): Promise<{
   const parts = rows.flatMap((row) =>
     parseProgress(JSON.stringify(row.value?.data)).attempts.map((a) => a.part),
   );
-  return { users, stats: summarise(users, parts, Date.now()) };
+  const { data: subs, error: subsError } = await admin
+    .from("subscriptions")
+    .select("tier, interval, status, current_period_end");
+  if (subsError) throw subsError;
+  const now = Date.now();
+  return {
+    users,
+    stats: summarise(users, parts, now),
+    subscriptions: summariseSubscriptions(subs, now),
+  };
 }

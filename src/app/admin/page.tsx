@@ -1,3 +1,4 @@
+import { PRICES, formatPrice } from "@/lib/access/tiers";
 import { loadAdminData } from "@/lib/admin/data";
 import { requireAdmin } from "@/lib/admin/guard";
 import { SIGNUP_WEEKS } from "@/lib/admin/stats";
@@ -16,7 +17,7 @@ export default async function AdminPage({
   const query = (Array.isArray(q) ? q[0] : q)?.trim().toLowerCase() ?? "";
   const data = await loadAdminData();
   if (!data) return <p>Falta SUPABASE_SECRET_KEY en el servidor.</p>;
-  const { users, stats } = data;
+  const { users, stats, subscriptions } = data;
   const matches = users
     .filter((u) => u.email.toLowerCase().includes(query))
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
@@ -35,6 +36,33 @@ export default async function AdminPage({
         <p>
           Altas por semana (de la más reciente a la más antigua, {SIGNUP_WEEKS}{" "}
           semanas): {stats.signupsByWeek.join(", ")}
+        </p>
+      </section>
+      <section aria-labelledby="subs" className="space-y-2">
+        <h2 id="subs" className="text-lg font-bold">
+          Suscripciones
+        </h2>
+        <table className="w-full max-w-[44ch] text-left">
+          <thead>
+            <tr className="border-b border-line">
+              <th className="py-2">Plan</th>
+              <th>Mensual</th>
+              <th>Anual</th>
+            </tr>
+          </thead>
+          <tbody>
+            {(Object.keys(PRICES) as (keyof typeof PRICES)[]).map((tier) => (
+              <tr key={tier} className="border-b border-hairline">
+                <td className="py-2 uppercase">{tier}</td>
+                <td>{subscriptions.counts[tier].month}</td>
+                <td>{subscriptions.counts[tier].year}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p>
+          Ingresos mensuales estimados (IVA incluido, el anual dividido entre
+          12): {formatPrice(subscriptions.monthlyCents, "es")}
         </p>
       </section>
       <section aria-labelledby="usage" className="space-y-2">

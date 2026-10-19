@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isAdminClaims, summarise, type AdminUser } from "./stats";
+import { isAdminClaims, summarise, summariseSubscriptions, type AdminUser } from "./stats";
 
 const NOW = Date.parse("2026-10-20T12:00:00Z");
 const DAY = 24 * 60 * 60 * 1000;
@@ -31,5 +31,32 @@ describe("isAdminClaims", () => {
     expect(isAdminClaims({ user_metadata: { role: "admin" } })).toBe(false);
     expect(isAdminClaims({ app_metadata: { role: "user" } })).toBe(false);
     expect(isAdminClaims(null)).toBe(false);
+  });
+});
+
+describe("summariseSubscriptions", () => {
+  const live = "2030-01-01T00:00:00.000Z";
+  const row = (tier: "b1" | "b2" | "c1", interval: "month" | "year", status = "active", end = live) => ({
+    tier,
+    interval,
+    status,
+    current_period_end: end,
+  });
+
+  it("counts only plans that still grant access and estimates monthly income", () => {
+    const stats = summariseSubscriptions(
+      [
+        row("b1", "month"),
+        row("b1", "month"),
+        row("c1", "year"),
+        row("b2", "month", "canceled"),
+        row("b2", "month", "active", "2020-01-01T00:00:00.000Z"),
+      ],
+      Date.parse("2029-06-01T00:00:00Z"),
+    );
+    expect(stats.counts.b1.month).toBe(2);
+    expect(stats.counts.c1.year).toBe(1);
+    expect(stats.counts.b2).toEqual({ month: 0, year: 0 });
+    expect(stats.monthlyCents).toBe(2 * 999 + Math.round(19190 / 12));
   });
 });

@@ -1,3 +1,6 @@
+import { tierFromRow, type SubscriptionRow } from "@/lib/access/rule";
+import { PRICES, type PaidTier } from "@/lib/access/tiers";
+
 const DAY = 24 * 60 * 60 * 1000;
 export const SIGNUP_WEEKS = 8;
 
@@ -53,4 +56,31 @@ export function isAdminClaims(claims: unknown): boolean {
   const meta = (claims as { app_metadata?: { role?: unknown } } | null)
     ?.app_metadata;
   return meta?.role === "admin";
+}
+
+export type PlanCounts = Record<PaidTier, { month: number; year: number }>;
+
+/**
+ * Subscribers per plan and interval, and the monthly income they imply (yearly plans divided
+ * by 12, display prices with VAT). Only plans that still grant access count; no one is named.
+ */
+export function summariseSubscriptions(
+  rows: readonly (SubscriptionRow & { interval: "month" | "year" })[],
+  now: number,
+): { counts: PlanCounts; monthlyCents: number } {
+  const counts: PlanCounts = {
+    b1: { month: 0, year: 0 },
+    b2: { month: 0, year: 0 },
+    c1: { month: 0, year: 0 },
+  };
+  let monthlyCents = 0;
+  for (const row of rows) {
+    if (tierFromRow(row, now) === "free") continue;
+    counts[row.tier][row.interval]++;
+    monthlyCents +=
+      row.interval === "month"
+        ? PRICES[row.tier].month
+        : Math.round(PRICES[row.tier].year / 12);
+  }
+  return { counts, monthlyCents };
 }
