@@ -1,7 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { countWords } from "./text";
 import { validExercises, validLessons } from "../../../tests/fixtures/content";
+import { EXAM_PARTS } from "@/lib/exam/format";
 import {
+  mockGaps,
+  type ValidationReport,
   formatReport,
   validateContentSet,
   type ContentSource,
@@ -335,5 +338,35 @@ describe("formatReport", () => {
     expect(text).toContain(
       "Core Vocabulary: 3 items (synonym 3, definition 0, usage 0, collocation 0)",
     );
+  });
+
+  it("prints the level table and the mock gaps", () => {
+    const text = formatReport(validateContentSet(validSet()));
+    expect(text).toMatch(/^By level \(A2 B1 B2 C1\): core-grammar 0\/0\/0\/5/m);
+    expect(text).toMatch(/^Mock gaps: A2 core-grammar 0\/25/m);
+    const full = Object.fromEntries(
+      EXAM_PARTS.map((part) => [part, { A2: 99, B1: 0, B2: 0, C1: 0 }]),
+    ) as ValidationReport["bank"]["byLevel"];
+    expect(mockGaps(full)).toEqual([]);
+  });
+});
+
+describe("level counts", () => {
+  it("counts each exam part per level", () => {
+    const { byLevel } = validateContentSet(validSet()).bank;
+    expect(byLevel["core-grammar"]).toEqual({ A2: 0, B1: 0, B2: 0, C1: 5 });
+    expect(byLevel["core-vocabulary"].B2 + byLevel["core-vocabulary"].C1).toBe(
+      3,
+    );
+  });
+
+  it("finds the parts a level's mock exam cannot fill, counting lower levels too", () => {
+    const byLevel = Object.fromEntries(
+      EXAM_PARTS.map((part) => [part, { A2: 99, B1: 0, B2: 0, C1: 0 }]),
+    ) as ValidationReport["bank"]["byLevel"];
+    byLevel["reading-4"] = { A2: 0, B1: 1, B2: 0, C1: 0 };
+    expect(mockGaps(byLevel)).toEqual([
+      { level: "A2", part: "reading-4", have: 0, need: 1 },
+    ]);
   });
 });

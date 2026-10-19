@@ -1,4 +1,4 @@
-import { EXAM_FORMAT } from "@/lib/exam/format";
+import { EXAM_FORMAT, type ExamPart } from "@/lib/exam/format";
 
 /**
  * Exam mode for a single Core part: the real number of questions and half of the
@@ -54,6 +54,31 @@ export const LISTENING_PART_EXAM = {
   "listening-3": { tasks: 1 },
   "listening-4": { tasks: 1 },
 } as const;
+
+/**
+ * What one mock exam draws from each part: questions for Core Grammar, items for Core
+ * Vocabulary, tasks for every other part.
+ */
+export const MOCK_NEEDS: Record<ExamPart, number> = {
+  "core-grammar": CORE_PART_EXAM.grammar.count,
+  "core-vocabulary": CORE_PART_EXAM.vocabulary.count,
+  "reading-1": READING_PART_EXAM["reading-1"].tasks,
+  "reading-2": READING_PART_EXAM["reading-2"].tasks,
+  "reading-3": READING_PART_EXAM["reading-3"].tasks,
+  "reading-4": READING_PART_EXAM["reading-4"].tasks,
+  "listening-1": LISTENING_PART_EXAM["listening-1"].tasks,
+  "listening-2": LISTENING_PART_EXAM["listening-2"].tasks,
+  "listening-3": LISTENING_PART_EXAM["listening-3"].tasks,
+  "listening-4": LISTENING_PART_EXAM["listening-4"].tasks,
+  "writing-1": 1,
+  "writing-2": 1,
+  "writing-3": 1,
+  "writing-4": 1,
+  "speaking-1": 1,
+  "speaking-2": 1,
+  "speaking-3": 1,
+  "speaking-4": 1,
+};
 
 const { speaking } = EXAM_FORMAT;
 /**

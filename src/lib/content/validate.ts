@@ -9,6 +9,9 @@ import { VOCAB_TYPES, type VocabType } from "./schemas/core";
 import type { Script } from "./schemas/listening";
 import { countWords, findAmericanSpellings, stripBom } from "./text";
 import { modelWordRange } from "@/lib/trainer/speaking";
+import { MOCK_NEEDS } from "@/lib/trainer/config";
+import { EXAM_PARTS, type ExamPart } from "@/lib/exam/format";
+import { CEFR_LEVELS, type CefrLevel } from "./schemas/common";
 
 /** Words per recording in each Listening part (app decision; the exam does not publish them). */
 const LISTENING_WORDS = {
@@ -55,8 +58,36 @@ export type ValidationReport = {
     writingByPart: Record<(typeof WRITING_PARTS)[number], number>;
     /** Speaking tasks per part. */
     speakingByPart: Record<(typeof SPEAKING_PARTS)[number], number>;
+    /** Per part and level: questions for Core Grammar, items for Core Vocabulary, else tasks. */
+    byLevel: Record<ExamPart, Record<CefrLevel, number>>;
   };
 };
+
+export type MockGap = {
+  level: CefrLevel;
+  part: ExamPart;
+  have: number;
+  need: number;
+};
+
+/**
+ * Parts a level's mock exam cannot fill. A tier's mock draws from every level it unlocks, so
+ * a level counts its own material and everything easier.
+ */
+export function mockGaps(
+  byLevel: ValidationReport["bank"]["byLevel"],
+): MockGap[] {
+  return CEFR_LEVELS.flatMap((level, i) =>
+    EXAM_PARTS.flatMap((part) => {
+      const have = CEFR_LEVELS.slice(0, i + 1).reduce(
+        (sum, l) => sum + byLevel[part][l],
+        0,
+      );
+      const need = MOCK_NEEDS[part];
+      return have < need ? [{ level, part, have, need }] : [];
+    }),
+  );
+}
 
 type ParsedFile = { path: string; file: ContentFile };
 type Location = { path: string; pointer: string };
@@ -169,12 +200,25 @@ function questionBank(parsed: ParsedFile[]): ValidationReport["bank"] {
         speakingByPart[exercise.examPart as keyof typeof speakingByPart] += 1;
     }
   }
+  const byLevel = Object.fromEntries(
+    EXAM_PARTS.map((part) => [
+      part,
+      Object.fromEntries(CEFR_LEVELS.map((level) => [level, 0])),
+    ]),
+  ) as ValidationReport["bank"]["byLevel"];
+  for (const { file } of parsed) {
+    if (file.kind !== "exercises") continue;
+    for (const exercise of file.items)
+      byLevel[exercise.examPart][exercise.cefrLevel] +=
+        exercise.examPart === "core-vocabulary" ? exercise.items.length : 1;
+  }
   return {
     grammarByLesson,
     vocabularyByType,
     listeningByPart,
     writingByPart,
     speakingByPart,
+    byLevel,
   };
 }
 
@@ -485,6 +529,17 @@ export function formatReport(report: ValidationReport): string {
     lines.push(`${BOOKS[book].title}: ${covered}/${total} units covered`);
   }
   lines.push(...bankLines(report.bank));
+  lines.push(
+    `By level (${CEFR_LEVELS.join(" ")}): ` +
+      EXAM_PARTS.map(
+        (part) =>
+          `${part} ${CEFR_LEVELS.map((l) => report.bank.byLevel[part][l]).join("/")}`,
+      ).join(" · "),
+  );
+  const gaps = mockGaps(report.bank.byLevel);
+  lines.push(
+    `Mock gaps: ${gaps.length ? gaps.map((g) => `${g.level} ${g.part} ${g.have}/${g.need}`).join(", ") : "none"}`,
+  );
   lines.push(
     `${report.files} files, ${itemCount} items, ${report.errors.length} errors, ${report.warnings.length} warnings`,
   );
