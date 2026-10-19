@@ -29,7 +29,7 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - App decisions: exam mode allows 2 plays per recording, no countdown, 5 tasks in part 1; study mode has no limit. A play counts when it starts.
   - Bank: 16/6/8/6 tasks in `content/exercises/listening-{1,2,3,4}/`, reviewed key by key (part 4 options were shuffled after drafting: agents put every answer at index 0). The validator warns on script length and errors when a part 4 `cue` is not in the script.
   - Check agent drafts for answer position: they tend to put the right option first.
-- **Next: phase 5 (Writing).** Plan it from the spec and wait for approval.
+- **Next: phase 5 (Writing).** Plan written at `docs/superpowers/plans/2026-10-19-phase-5-writing.md`, awaiting the user's approval of its 3 questions (self-assessment saved via a new `recordAttempt`, exam mode locks the editor at zero, bank 8/10/8/6). Do not start code before that approval.
 - Phases 5–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
