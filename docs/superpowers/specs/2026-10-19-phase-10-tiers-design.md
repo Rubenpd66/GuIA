@@ -52,9 +52,8 @@ El despliegue sigue la regla de la fase 9: nada va a producción hasta que el us
 ### Etiquetado
 
 - Lecciones de gramática y entradas de vocabulario: ya tienen `level`; no cambian.
-- Preguntas de Core Grammar: heredan el nivel de su lección (cada fichero de `content/exercises/core-grammar/` corresponde a una lección). No llevan campo propio; `index.ts` expone el nivel derivado.
-- Preguntas de Core Vocabulary y tareas de Reading, Listening, Writing y Speaking: campo `level: CefrLevel` obligatorio en su esquema.
-- Los niveles de las tareas existentes los propone el agente `content-writer` según la dificultad del texto, de las preguntas y del vocabulario; los revisa el agente principal y los comprueba el validador. En la web se presentan como estimación de la app, nunca como dato oficial del examen.
+- Ejercicios (todas las partes): ya tienen `cefrLevel` obligatorio en `exerciseBase`, y los entrenadores ya filtran por él (corrección del 2026-10-19 al planificar 10a: no hace falta campo nuevo ni reetiquetar). Se conservan los niveles actuales. En la web se presentan como estimación de la app, nunca como dato oficial del examen.
+- Los grupos de vocabulario son temas y mezclan niveles; el nivel lo lleva cada entrada. Por eso «3–4 grupos A2» se concreta como unas 60 entradas A2 repartidas en los grupos temáticos existentes.
 - El validador imprime las tareas por nivel y parte, y avisa cuando a un nivel le falta material para montar su simulacro: al menos una tarea completa por parte con nivel igual o inferior.
 
 ### Contenido A2 nuevo
@@ -62,7 +61,7 @@ El despliegue sigue la regla de la fase 9: nada va a producción hasta que el us
 Original, en inglés británico, con la skill `aptis-content` y el agente `content-writer`:
 
 - Lecciones de gramática A2: unas 10 nuevas, hasta 18 en total.
-- 3–4 grupos de vocabulario A2.
+- Unas 60 entradas de vocabulario A2 en los grupos temáticos existentes.
 - Frases funcionales y can-do A2.
 - Tareas A2 en cada parte del examen, como mínimo las necesarias para un simulacro A2 completo; preguntas de Core A2 suficientes para una sesión de entrenador.
 
@@ -71,7 +70,7 @@ Las referencias a libros (`src/config/books.ts`) se añaden solo con el OK del u
 ### Uso de los niveles
 
 - Simulacro: toma tareas de todos los niveles que abre el plan; el de C1 es el examen completo con todos los niveles mezclados.
-- Test de nivel: abierto a todos. Usa un conjunto fijo de ítems marcados como públicos en el contenido, de modo que no reparte material de pago.
+- Test de nivel: abierto a todos. Usa un conjunto fijo de ejercicios marcados con `placement: true`, de modo que no reparte material de pago. En 10b esos ejercicios cuentan como libres para cualquier plan.
 - Flashcards, banco de errores y progreso: solo muestran elementos de niveles desbloqueados. El progreso guardado no se borra al bajar de plan; vuelve a verse al subir.
 
 ## 4. 10b: Acceso por plan
