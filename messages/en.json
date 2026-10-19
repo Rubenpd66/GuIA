@@ -1068,6 +1068,18 @@
     "deleteButton": "Delete my account",
     "deleteConfirm": "Are you sure you want to delete your account and your cloud data?",
     "keepLocal": "Keep the progress saved in this browser",
+    "plan": {
+      "title": "Your plan",
+      "free": "Free plan (A2).",
+      "seePlans": "See plans",
+      "paid": "{level} plan.",
+      "portalHint": "Change plan, cancel or download invoices on Stripe.",
+      "manage": "Manage subscription"
+    },
+    "checkout": {
+      "success": "Payment received. Your plan will be active in a few seconds; reload the page if you don't see it.",
+      "cancel": "You left the payment without subscribing."
+    },
     "deleteFinal": "Yes, delete",
     "cancel": "Cancel",
     "messages": {
@@ -1125,5 +1137,15 @@
     "lead": "Each plan opens its level and every level below. Monthly prices include VAT.",
     "free": "Free, no account needed",
     "price": "{month} a month or {year} a year"
+  },
+  "Payments": {
+    "monthly": "Pay monthly",
+    "yearly": "Pay yearly",
+    "signInToSubscribe": "Sign in to subscribe",
+    "messages": {
+      "unavailable": "Payments aren't available right now.",
+      "signedOut": "Sign in to subscribe.",
+      "failed": "We couldn't open the payment. Please try again in a few minutes."
+    }
   }
 }

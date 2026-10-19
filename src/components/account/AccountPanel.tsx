@@ -17,6 +17,7 @@ import { releaseOwner } from "@/lib/sync/owner";
 import { clearCachedPages } from "@/lib/access/offline";
 import { useSyncStatus } from "@/lib/sync/status";
 import { AuthForm, fieldClass } from "./AuthForm";
+import { PlanSection } from "./PlanSection";
 
 /** Account details, sync state, password change, sign-out and account deletion. */
 export function AccountPanel() {
@@ -82,6 +83,7 @@ export function AccountPanel() {
           <Button type="submit">{t("signOut")}</Button>
         </form>
       </section>
+      <PlanSection />
       <section id="password" aria-labelledby="password-heading">
         <h2 id="password-heading" className="text-lg font-bold">
           {t("changePassword")}

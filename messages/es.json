@@ -1068,6 +1068,18 @@
     "deleteButton": "Borrar mi cuenta",
     "deleteConfirm": "¿Seguro que quieres borrar tu cuenta y tus datos en la nube?",
     "keepLocal": "Conservar el progreso guardado en este navegador",
+    "plan": {
+      "title": "Tu plan",
+      "free": "Plan gratuito (A2).",
+      "seePlans": "Ver planes",
+      "paid": "Plan {level}.",
+      "portalHint": "Cambia de plan, cancela o descarga facturas en Stripe.",
+      "manage": "Gestionar suscripción"
+    },
+    "checkout": {
+      "success": "Pago recibido. Tu plan se activa en unos segundos; si no lo ves, recarga la página.",
+      "cancel": "Has salido del pago sin suscribirte."
+    },
     "deleteFinal": "Sí, borrar",
     "cancel": "Cancelar",
     "messages": {
@@ -1125,5 +1137,15 @@
     "lead": "Cada plan abre su nivel y todos los anteriores. Precios mensuales con IVA incluido.",
     "free": "Gratis, sin cuenta",
     "price": "{month} al mes o {year} al año"
+  },
+  "Payments": {
+    "monthly": "Pagar mensual",
+    "yearly": "Pagar anual",
+    "signInToSubscribe": "Entra para suscribirte",
+    "messages": {
+      "unavailable": "Los pagos no están disponibles ahora mismo.",
+      "signedOut": "Entra en tu cuenta para suscribirte.",
+      "failed": "No hemos podido abrir el pago. Inténtalo de nuevo en unos minutos."
+    }
   }
 }
