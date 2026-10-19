@@ -148,7 +148,7 @@
     },
     "settings": {
       "title": "Ajustes",
-      "lead": "Idioma, tema, voz del listening y copia de tu progreso. Más adelante, también la fecha de tu examen."
+      "lead": "Idioma, tema, voz del listening, fecha del examen y copia de tu progreso."
     }
   },
   "Coming": {
@@ -925,7 +925,7 @@
   },
   "Dashboard": {
     "estimateNote": "Los niveles son una estimación orientativa de la app a partir de tus últimos intentos, no una nota oficial. Writing y Speaking salen de tu autoevaluación.",
-    "emptyTitle": "Tu pasaporte está en blanco",
+    "emptyTitle": "Aún no hay datos",
     "emptyBody": "Haz el test de nivel o practica cualquier parte y aquí verás tu nivel estimado, tu racha y qué practicar después.",
     "emptyPlacement": "Hacer el test de nivel",
     "emptyPractice": "Ir a la práctica",
@@ -950,7 +950,7 @@
     "minutes": "{count, plural, one {# minuto} other {# minutos}}",
     "weakTitle": "Puntos débiles",
     "passportTitle": "Tus logros",
-    "passportLead": "Cada parte del examen tiene su casilla. El logro muestra tu nivel estimado y cambia cuando practicas.",
+    "passportLead": "Cada parte del examen muestra tu nivel estimado y lo actualiza cuando practicas.",
     "stampLabel": "Logro {level}: {part}",
     "emptySlot": "Sin logro todavía: {part}",
     "flashcardsDue": "{count, plural, =0 {Flashcards: nada pendiente hoy} one {Flashcards: # tarjeta para hoy} other {Flashcards: # tarjetas para hoy}}",

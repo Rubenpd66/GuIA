@@ -148,7 +148,7 @@
     },
     "settings": {
       "title": "Settings",
-      "lead": "Language, theme, listening voice and a backup of your progress. Later on, also your exam date."
+      "lead": "Language, theme, listening voice, exam date and a backup of your progress."
     }
   },
   "Coming": {
@@ -925,7 +925,7 @@
   },
   "Dashboard": {
     "estimateNote": "Levels are the app's own rough estimate from your latest attempts, not an official score. Writing and Speaking come from your self-assessment.",
-    "emptyTitle": "Your passport is blank",
+    "emptyTitle": "No data yet",
     "emptyBody": "Take the placement test or practise any part, and here you will see your estimated level, your streak and what to practise next.",
     "emptyPlacement": "Take the placement test",
     "emptyPractice": "Go to practice",
@@ -950,7 +950,7 @@
     "minutes": "{count, plural, one {# minute} other {# minutes}}",
     "weakTitle": "Weak points",
     "passportTitle": "Your achievements",
-    "passportLead": "Every part of the exam has its own box. The achievement shows your estimated level and changes as you practise.",
+    "passportLead": "Each part of the exam shows your estimated level and updates as you practise.",
     "stampLabel": "{level} achievement: {part}",
     "emptySlot": "No achievement yet: {part}",
     "flashcardsDue": "{count, plural, =0 {Flashcards: nothing due today} one {Flashcards: # card for today} other {Flashcards: # cards for today}}",
