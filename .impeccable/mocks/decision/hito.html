@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hito: inicio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --granite: #e3e6e4;
+    --slate: #23292b;
+    --post: #f7f8f6;
+    --gr-red: #c42b22;
+    --pr-yellow: #f0c419;
+    --sl-green: #2b8a3e;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 390px; height: 844px; overflow: hidden; background: var(--granite); color: var(--slate); font: 16px/1.5 Barlow, system-ui, sans-serif; }
+  header { height: 56px; padding: 0 16px; display: flex; align-items: center; justify-content: space-between; }
+  .mark { font: 800 28px/1 "Barlow Condensed", sans-serif; text-transform: uppercase; letter-spacing: .02em; display: flex; align-items: center; gap: 8px; }
+  .mark i { width: 10px; height: 22px; background: linear-gradient(var(--post) 0 50%, var(--gr-red) 0); outline: 1px solid var(--slate); }
+  header a { font-weight: 600; color: var(--slate); padding: 12px 4px; text-decoration: none; }
+  main { padding: 18px 16px 0; }
+  h1 { font: 800 50px/0.95 "Barlow Condensed", sans-serif; text-transform: uppercase; }
+  .lead { margin-top: 14px; font-size: 17px; }
+  .pole { margin: 26px 0 0 18px; border-left: 10px solid #6b5a45; padding: 4px 0 4px 0; }
+  .sign { position: relative; height: 54px; margin: 0 0 8px -4px; padding: 0 40px 0 14px; display: flex; align-items: center; justify-content: space-between; background: var(--post); border: 2px solid var(--slate); clip-path: polygon(0 0, calc(100% - 26px) 0, 100% 50%, calc(100% - 26px) 100%, 0 100%); font: 700 22px/1 "Barlow Condensed", sans-serif; text-transform: uppercase; }
+  .sign small { font: 600 14px/1 Barlow, sans-serif; text-transform: none; }
+  .sign .blaze { width: 16px; height: 26px; margin-right: 10px; display: inline-block; vertical-align: middle; }
+  .sign.c { background: var(--slate); color: var(--post); }
+  .here { margin-top: 12px; font-size: 13px; }
+  .cta { margin-top: 26px; display: block; height: 56px; background: var(--gr-red); color: var(--post); font: 800 22px/56px "Barlow Condensed", sans-serif; text-transform: uppercase; text-align: center; text-decoration: none; letter-spacing: .03em; }
+  .sub { margin-top: 12px; text-align: center; font-size: 15px; }
+  .sub a { color: var(--slate); font-weight: 600; }
+  footer { position: absolute; bottom: 0; left: 0; right: 0; padding: 10px 16px; font-size: 12px; border-top: 1px solid #b9bfbc; background: var(--granite); }
+</style>
+</head>
+<body>
+<header><div class="mark"><i></i>Hito</div><a href="#">Entrar</a></header>
+<main>
+  <h1>Tu ruta al C<br>del Aptis</h1>
+  <p class="lead">Sabes dónde estás, qué te falta y el siguiente paso. Las 18 partes con su formato y sus tiempos reales, explicadas en español.</p>
+  <div class="pole" aria-label="Tu ruta (ejemplo)">
+    <div class="sign c"><span><span class="blaze" style="background:linear-gradient(var(--post) 0 50%,var(--gr-red) 0)"></span>Cima C</span><small>faltan 11 partes</small></div>
+    <div class="sign"><span><span class="blaze" style="background:linear-gradient(var(--post) 0 50%,var(--gr-red) 0)"></span>B2</span><small>faltan 5</small></div>
+    <div class="sign"><span><span class="blaze" style="background:linear-gradient(var(--post) 0 50%,var(--pr-yellow) 0)"></span>B1</span><small>alcanzado</small></div>
+  </div>
+  <p class="here">Ruta de ejemplo · Estás aquí: Listening, parte 2</p>
+  <a class="cta" href="#">Haz el test de nivel · 20 min</a>
+  <p class="sub">Gratis y sin cuenta. <a href="#">Ver planes</a></p>
+</main>
+<footer>Web no oficial, sin relación con el British Council.</footer>
+</body>
+</html>

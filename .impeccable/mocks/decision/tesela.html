@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesela: inicio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --glaze: #f3f6fb;
+    --cobalt: #1d3c9e;
+    --cobalt-deep: #0e1d55;
+    --cobalt-wash: #c9d5f2;
+    --biscuit: #c98a5a;
+    --antimony: #e0a52a;
+    --copper: #2c8458;
+    --t: 22px;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 390px; height: 844px; overflow: hidden; background: var(--glaze); color: var(--cobalt-deep); font: 16px/1.5 Figtree, system-ui, sans-serif; }
+  header { height: 56px; padding: 0 16px; display: flex; align-items: center; justify-content: space-between; background: var(--cobalt); color: var(--glaze); }
+  .mark { display: flex; gap: 8px; align-items: center; font: 26px/1 "Young Serif", serif; }
+  .mark i { width: 22px; height: 22px; background:
+      radial-gradient(circle at 50% 50%, var(--glaze) 0 3px, transparent 3.5px),
+      conic-gradient(var(--glaze) 0 25%, var(--cobalt-wash) 0 50%, var(--glaze) 0 75%, var(--cobalt-wash) 0);
+    border: 2px solid var(--glaze); }
+  header a { color: var(--glaze); font-weight: 600; font-size: 15px; text-decoration: none; padding: 12px 4px; }
+  .cenefa { height: var(--t); background: var(--glaze) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22'%3E%3Crect width='22' height='3' fill='%231d3c9e'/%3E%3Crect y='19' width='22' height='3' fill='%231d3c9e'/%3E%3Cpath d='M11 5 L17 11 L11 17 L5 11Z' fill='%231d3c9e'/%3E%3Ccircle cx='11' cy='11' r='2' fill='%23f3f6fb'/%3E%3Ccircle cx='0' cy='11' r='3' fill='%23e0a52a'/%3E%3Ccircle cx='22' cy='11' r='3' fill='%23e0a52a'/%3E%3C/svg%3E") 0 0 / var(--t) var(--t) repeat-x; }
+  main { padding: 28px 16px 0; }
+  h1 { font: 40px/1.05 "Young Serif", serif; color: var(--cobalt-deep); letter-spacing: -0.01em; }
+  h1 em { font-style: normal; color: var(--cobalt); }
+  .lead { margin-top: 14px; font-size: 17px; color: #2a376b; }
+  .panel { margin-top: 24px; display: grid; grid-template-columns: 64px repeat(4, 1fr); gap: 4px; }
+  .panel span.row { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; align-self: center; }
+  .tile { aspect-ratio: 1; border: 2px solid var(--cobalt); position: relative; }
+  .tile.fired { background:
+      radial-gradient(circle at 50% 50%, var(--glaze) 0 18%, transparent 19%),
+      radial-gradient(circle at 0 0, var(--cobalt) 0 30%, transparent 31%),
+      radial-gradient(circle at 100% 0, var(--cobalt) 0 30%, transparent 31%),
+      radial-gradient(circle at 0 100%, var(--cobalt) 0 30%, transparent 31%),
+      radial-gradient(circle at 100% 100%, var(--cobalt) 0 30%, transparent 31%),
+      var(--cobalt-wash); }
+  .tile.glazing { background: repeating-linear-gradient(45deg, var(--cobalt-wash) 0 6px, var(--glaze) 0 12px); border-color: var(--antimony); }
+  .tile.biscuit { border: 2px dashed var(--biscuit); background: #f6ebe2; }
+  .tile.none { visibility: hidden; }
+  .legend { margin-top: 10px; display: flex; gap: 14px; font-size: 13px; color: #3a467a; }
+  .legend b { display: inline-block; width: 12px; height: 12px; margin-right: 6px; vertical-align: -1px; }
+  .cta { margin-top: 26px; display: block; width: 100%; height: 56px; border: 0; background: var(--cobalt); color: var(--glaze); font: 700 18px/56px Figtree, sans-serif; text-align: center; box-shadow: inset 0 0 0 3px var(--cobalt), inset 0 0 0 5px var(--glaze); }
+  .sub { margin-top: 12px; text-align: center; font-size: 15px; }
+  .sub a { color: var(--cobalt); font-weight: 600; }
+  .demo { position: absolute; right: 16px; margin-top: -18px; font-size: 11px; color: #5a6390; }
+  footer { position: absolute; bottom: 0; left: 0; right: 0; padding: 10px 16px; font-size: 12px; color: #4a5582; border-top: 1px solid var(--cobalt-wash); background: var(--glaze); }
+</style>
+</head>
+<body>
+<header><div class="mark"><i></i>Tesela</div><a href="#">Entrar</a></header>
+<div class="cenefa"></div>
+<main>
+  <h1>Pieza a pieza,<br>hasta el <em>C</em>.</h1>
+  <p class="lead">Las 18 partes del Aptis con su formato y sus tiempos reales. Explicado en español, con los errores que cometemos los hispanohablantes.</p>
+  <div class="panel" aria-label="Tu panel (ejemplo)">
+    <span class="row">Core</span><div class="tile fired"></div><div class="tile glazing"></div><div class="tile none"></div><div class="tile none"></div>
+    <span class="row">Reading</span><div class="tile fired"></div><div class="tile fired"></div><div class="tile glazing"></div><div class="tile biscuit"></div>
+    <span class="row">Listening</span><div class="tile fired"></div><div class="tile glazing"></div><div class="tile biscuit"></div><div class="tile biscuit"></div>
+    <span class="row">Writing</span><div class="tile glazing"></div><div class="tile biscuit"></div><div class="tile biscuit"></div><div class="tile biscuit"></div>
+    <span class="row">Speaking</span><div class="tile biscuit"></div><div class="tile biscuit"></div><div class="tile biscuit"></div><div class="tile biscuit"></div>
+  </div>
+  <p class="demo">Panel de ejemplo</p>
+  <div class="legend"><span><b style="background:var(--cobalt)"></b>Cocida</span><span><b style="background:var(--cobalt-wash);outline:2px solid var(--antimony)"></b>Esmaltando</span><span><b style="border:2px dashed var(--biscuit)"></b>Bizcocho</span></div>
+  <a class="cta" href="#">Haz el test de nivel · 20 min</a>
+  <p class="sub">Gratis y sin cuenta. <a href="#">Ver planes</a></p>
+</main>
+<footer>Web no oficial, sin relación con el British Council.</footer>
+</body>
+</html>

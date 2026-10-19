@@ -1,0 +1,188 @@
+{
+  "title": "Elige el mundo visual (y el nombre)",
+  "question": "La tirada asignó Tesela. Quédatela, elige una alternativa o pide otra tirada.",
+  "options": [
+    {
+      "id": "assigned",
+      "kind": "assigned",
+      "label": "Tesela",
+      "kicker": "THE ROLL",
+      "lineage": "Paneles de azulejo de Sevilla, Talavera, Manises y Puebla",
+      "thesis": "Cada parte del examen es una pieza de un panel de azulejo, y el panel completo es tu C.",
+      "palette": [
+        "#f3f6fb",
+        "#1d3c9e",
+        "#0e1d55",
+        "#e0a52a",
+        "#2c8458",
+        "#c98a5a"
+      ],
+      "materials": [
+        "esmalte estannífero blanco azulado",
+        "cobalto",
+        "bizcocho de barro sin esmaltar",
+        "cenefas como separadores"
+      ],
+      "viewport": "Titular en serif de rótulo pintado, debajo tu panel de 18 teselas por destreza y el botón del test de nivel a lo ancho.",
+      "risk": "Si se dibuja con timidez parece un souvenir de Sevilla; el azul debe alejarse del índigo del British Council.",
+      "raised": [
+        {
+          "from": "broadcast-programming-teletext-service",
+          "raise": "Del teletexto: cada parte tiene una dirección fija en el panel (fila de destreza, columna de parte), así que el panel es la navegación."
+        },
+        {
+          "from": "medium-native-hypercard-stack-shoebox",
+          "raise": "De HyperCard: cada tesela es una página con dirección propia y volver atrás recorre exactamente tu camino."
+        },
+        {
+          "from": "posters-covers-sleeves-noir-one-sheet-duotone",
+          "raise": "Del cartel a dos tintas: cobalto y esmalte blanco hacen todo el trabajo; amarillo, verde y barro solo marcan estado."
+        },
+        {
+          "from": "generative-parametric-identity",
+          "raise": "De la identidad generativa: el dibujo de tu panel sale de tus resultados reales, así que el panel es tu progreso y no un adorno."
+        },
+        {
+          "from": "rivers-tides-ocean-depths-mesophotic-deep-dive",
+          "raise": "De la inmersión: una sola retícula, el módulo de la tesela, mide márgenes, tarjetas y la separación entre secciones."
+        },
+        {
+          "from": "clay-ceramics-fracture-coiled-earth-tower",
+          "raise": "De la torre de barro: estados de taller por parte: bizcocho (sin empezar), esmaltando (en práctica) y cocida (dominada, con su animación)."
+        }
+      ],
+      "html": ".impeccable/mocks/decision/tesela.html",
+      "htmlFrame": "390x844"
+    },
+    {
+      "id": "model-pick",
+      "kind": "pick",
+      "label": "Hito",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Señalización de senderos GR, PR y SL y postes de montaña",
+      "thesis": "Tu preparación como una ruta señalizada: siempre ves dónde estás y cuánto falta para la cima C.",
+      "palette": [
+        "#e3e6e4",
+        "#23292b",
+        "#f7f8f6",
+        "#c42b22",
+        "#f0c419",
+        "#2b8a3e"
+      ],
+      "materials": [
+        "postes con flechas",
+        "marcas pintadas sobre roca",
+        "curvas de nivel"
+      ],
+      "viewport": "Titular en grotesca condensada de señal, un poste con flechas A2, B1, B2 y C con lo que falta en cada una y el test de nivel en rojo GR.",
+      "risk": "Es la metáfora de «camino hacia la meta» en la que acaban muchas webs de aprendizaje; cuesta que no parezca un folleto de turismo rural.",
+      "html": ".impeccable/mocks/decision/hito.html",
+      "htmlFrame": "390x844"
+    },
+    {
+      "id": "challenger-teletext",
+      "kind": "challenger",
+      "catalogId": "broadcast-programming-teletext-service",
+      "label": "Teletexto",
+      "verdict": "declined",
+      "lineage": "Teletexto de televisión, páginas de tres cifras",
+      "thesis": "Cada parte del examen como una página de teletexto con su número y su REVEAL.",
+      "palette": ["#000000", "#ffffff", "#ffff00", "#00ffff", "#ff0000"],
+      "materials": ["mosaico de bloques", "rejilla de 40 por 24"],
+      "viewport": "Página 100 con el índice de las 18 partes.",
+      "case": "La rejilla de 40 columnas no deja leer textos de 750 palabras en un móvil y roza lo de juego retro.",
+      "risk": "Nostalgia de novedad que choca con «nada infantil ni tipo juego».",
+      "kept": "Dirección fija para cada parte."
+    },
+    {
+      "id": "challenger-hypercard",
+      "kind": "challenger",
+      "catalogId": "medium-native-hypercard-stack-shoebox",
+      "label": "Pila HyperCard",
+      "verdict": "declined",
+      "lineage": "Pilas de tarjetas HyperCard",
+      "thesis": "El temario como una pila de tarjetas en blanco y negro enlazadas a mano.",
+      "palette": ["#000000", "#ffffff", "#888888"],
+      "materials": ["un bit", "tramado"],
+      "viewport": "Una tarjeta con botones dibujados a mano.",
+      "case": "El alumno no reconoce HyperCard y el blanco y negro puro es frío y técnico.",
+      "risk": "Frío y técnico, justo lo que hay que evitar.",
+      "kept": "Cada pantalla con dirección propia y atrás exacto."
+    },
+    {
+      "id": "challenger-noir",
+      "kind": "challenger",
+      "catalogId": "posters-covers-sleeves-noir-one-sheet-duotone",
+      "label": "Cartel noir",
+      "verdict": "declined",
+      "lineage": "Carteles de cine negro a dos tintas",
+      "thesis": "El examen como un cartel de cine negro.",
+      "palette": ["#14110f", "#d99a2b", "#efe6d2"],
+      "materials": ["dos tintas", "sombras largas"],
+      "viewport": "Una figura pequeña con una sombra enorme y el título en mayúsculas condensadas.",
+      "case": "El tono de crimen no tiene nada que ver con preparar un examen y oscurece la claridad.",
+      "risk": "Teatral y sombrío para una app de estudio diario.",
+      "kept": "Disciplina de dos tintas."
+    },
+    {
+      "id": "challenger-generative",
+      "kind": "challenger",
+      "catalogId": "generative-parametric-identity",
+      "label": "Identidad generativa",
+      "verdict": "declined",
+      "lineage": "Identidades paramétricas",
+      "thesis": "Una marca que se redibuja según tus datos.",
+      "palette": ["#3b5bdb", "#f59f00", "#ffffff", "#212529"],
+      "materials": ["vector plano", "paleta derivada"],
+      "viewport": "Un logotipo animado y un panel de parámetros.",
+      "case": "No tiene arraigo en el mundo del alumno y cambiar colores sin parar resta claridad.",
+      "risk": "Se queda en efecto de marca sin contenido.",
+      "kept": "El panel se genera de tus resultados."
+    },
+    {
+      "id": "challenger-deep-dive",
+      "kind": "challenger",
+      "catalogId": "rivers-tides-ocean-depths-mesophotic-deep-dive",
+      "label": "Inmersión profunda",
+      "verdict": "declined",
+      "lineage": "Inmersión técnica en una pared volcánica",
+      "thesis": "Bajar de nivel en nivel como un buceador.",
+      "palette": ["#06142e", "#0d3b66", "#4cc9f0", "#f1f5f9"],
+      "materials": ["azul abisal", "nieve marina"],
+      "viewport": "Un eje vertical de profundidad con el buceador.",
+      "case": "Bajar es lo contrario de subir de nivel y el fondo oscuro cansa en sesiones diarias.",
+      "risk": "Metáfora invertida y poco legible.",
+      "kept": "Una sola retícula que lo mide todo."
+    },
+    {
+      "id": "challenger-coil-tower",
+      "kind": "challenger",
+      "catalogId": "clay-ceramics-fracture-coiled-earth-tower",
+      "label": "Torre de barro",
+      "verdict": "declined",
+      "lineage": "Torres de barro levantadas a churros",
+      "thesis": "Cada nivel es una hilada de barro sobre la anterior.",
+      "palette": ["#9c4a2a", "#5a3420", "#efe2d0", "#2b1a12"],
+      "materials": ["terracota", "barbotina"],
+      "viewport": "Una torre que crece por hiladas.",
+      "case": "Comparte el mundo cerámico con Tesela pero sin las 18 piezas ni la identidad hispana del azulejo.",
+      "risk": "Terroso y lento para una app de práctica rápida.",
+      "kept": "Estados de taller: bizcocho, esmaltado, cocido."
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "code" },
+  "canon": true,
+  "canonCard": {
+    "kind": "canon",
+    "label": "El estándar del sector",
+    "thesis": "Lo que hacen las webs de preparación de exámenes, hecho impecable.",
+    "palette": ["#ffffff", "#111827", "#2563eb"],
+    "materials": ["rejilla limpia", "tarjetas de ventajas"],
+    "viewport": "Titular, dos botones y tres tarjetas de ventajas.",
+    "risk": "Indistinguible de la competencia, por diseño.",
+    "html": ".impeccable/mocks/decision/canon.html",
+    "htmlFrame": "390x844"
+  },
+  "steer": true
+}

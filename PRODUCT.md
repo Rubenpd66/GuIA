@@ -37,12 +37,16 @@ All four are confirmed and should drive design and copy:
 - All study content is original: it imitates the Aptis format and never copies British Council or commercial material.
 - No invented official data: any score → CEFR mapping is presented as the app's estimate.
 - Unofficial site: a visible non-affiliation notice on every page; no British Council logo, name or corporate colours in the branding. "Aptis ESOL General" appears only descriptively.
-- **Open decision: the product name.** The user wants the current name ("Sello") and its passport-with-stamps concept replaced by something more original. The new name is chosen together with the visual direction (phase 10e step 2). It must not use "Aptis" or any British Council name as branding. Renaming later touches the site URL, the Vercel and Supabase projects, Stripe product names, legal pages, metadata and copy.
+- **Product name: GuIA** (chosen 2026-10-20, replacing "Sello" and its passport-with-stamps concept). A play on "guía", "GUI" and "IA". Domain and trademark availability still to be checked. Never use "Aptis" or any British Council name as branding. Renaming touches Stripe product names, legal pages, metadata and copy; the user renames the URL and the Vercel and Supabase projects themselves.
+- The "IA" in the name does not make an AI claim: AI feedback arrives in phase 10f as a paid-plan feature, and copy must not promise AI until it exists.
 
 ## Brand Commitments
 
 - Voice: informal "tú", close and direct, like a good private tutor: clear and encouraging without talking down.
-- No binding name, logo or visual identity: the current one is being replaced.
+- Name GuIA; no logo yet.
+- Visual direction (2026-10-20): the category standard on purpose, executed at full craft, with no metaphor or themed world. Quality bar: Busuu (CEFR levels, paid plans, clear progress) and Brilliant (interactive lessons, polished motion and micro-interactions).
+- The design must not feel childish or game-like, like a public-exam academy, official (mistakable for the British Council), or cold and technical.
+- Progress keeps a visible reward moment when a part is mastered or a level is reached, animated.
 
 ## Evidence on Hand
 
