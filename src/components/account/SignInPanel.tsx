@@ -157,6 +157,11 @@ export function SignInPanel() {
                       {chunks}
                     </Link>
                   ),
+                  terms: (chunks) => (
+                    <Link href="/terms" className="underline">
+                      {chunks}
+                    </Link>
+                  ),
                 })}
               </span>
             </label>

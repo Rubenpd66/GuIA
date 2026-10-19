@@ -39,7 +39,9 @@
   "Footer": {
     "disclaimer": "Sello is an independent, unofficial website. It is not affiliated with or endorsed by the British Council. Aptis ESOL General is a British Council exam.",
     "legalNotice": "Legal notice",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "terms": "Terms of use",
+    "cookies": "Cookies"
   },
   "Home": {
     "title": "Prepare for Aptis ESOL General and reach C",
@@ -210,19 +212,31 @@
   },
   "Privacy": {
     "title": "Privacy",
-    "lead": "What data Sello stores and where.",
+    "lead": "What data Sello keeps, what for and for how long.",
     "storedTitle": "What we store",
-    "storedBody": "In your browser's local storage: your progress (attempts, scores and mistakes to review), your settings (theme, Listening voice and speed, exam date, new cards per day), your flashcards, the mock exam in progress and your Writing drafts. None of this is sent to any server.",
+    "storedBody": "Without an account everything is kept in your browser's local storage: your progress (attempts, scores and mistakes to review), your settings (theme, listening voice and speed, exam date, new cards per day), your flashcards, the mock exam in progress and Writing drafts. None of it is sent to any server.",
     "notStoredTitle": "What we don’t store",
-    "notStoredBody": "We use no cookies, analytics, advertising or user accounts.",
+    "notStoredBody": "We use no analytics or advertising cookies and no trackers. The only cookies are your session's, if you sign in (see the cookie policy).",
     "deleteTitle": "How to delete it",
-    "deleteBody": "In Settings you can export or delete your progress. It also disappears if you clear this site's data in your browser.",
+    "deleteBody": "Without an account, you can export or delete your progress in Settings, and it also goes if you clear this site's data in your browser. With an account, clearing progress in this browser does not delete the cloud copy: delete the account for that.",
     "audioTitle": "Microphone and voice",
     "audioBody": "In Speaking, the microphone is only used if you allow it when a session starts. Recordings stay in the page's memory and are deleted when you leave; they are only kept if you download them. The voice that reads the recordings is your own device's.",
     "hostingTitle": "Hosting",
     "hostingBody": "Vercel, the hosting provider, logs technical data about each visit (such as the IP address and browser) to serve the website and protect it from abuse. The owner uses that data for nothing else.",
     "contactTitle": "Controller and contact",
-    "contactBody": "Controller: {name}. For any privacy question, write to {email}."
+    "contactBody": "Controller: {name}. For any privacy question, write to {email}.",
+    "accountTitle": "If you create an account",
+    "accountBody": "An account is optional. If you create one, we keep your email (or the one Google gives us when you sign in with Google), your sign-up date and last sign-in, and copies of your progress, flashcards, exam date and mock exam in progress, so you can see them on all your devices. Writing drafts, voice settings and Speaking recordings are not uploaded.",
+    "basisTitle": "What for and on what legal basis",
+    "basisBody": "We use this data only to give you the account and sync your study: the legal basis is performing the service you ask for when you create the account (art. 6.1.b GDPR). We do not use it for advertising, sell it or pass it on, and we make no automated decisions about you.",
+    "ageTitle": "Minimum age",
+    "ageBody": "To create an account you must be 14 or older (art. 7 of Spain's LOPDGDD). If you are younger, you can use Sello without an account.",
+    "processorsTitle": "Who processes data for us",
+    "processorsBody": "Supabase stores the account and synced data on servers in the European Union (Frankfurt). Vercel hosts the site and may process technical data about visits. If you sign in with Google, Google gives us your email to identify you. We have a data processing agreement with these providers.",
+    "retentionTitle": "How long we keep it",
+    "retentionBody": "For as long as you have the account. When you delete it from your account page, your sign-in and all your synced data are erased, apart from the provider's temporary backups. Vercel's technical data is kept for the period that provider sets.",
+    "rightsTitle": "Your rights",
+    "rightsBody": "You can access, correct, erase, restrict, object to and take away your data. You can do most of it yourself: export your progress in Settings and delete the account on your account page. For anything else, write to the contact below. If you think we have not answered properly, you can complain to the Spanish Data Protection Agency (www.aepd.es)."
   },
   "NotFound": {
     "title": "This page doesn’t exist",
@@ -1032,7 +1046,7 @@
     "magicSubmit": "Send link",
     "signUpTitle": "Create an account",
     "signUp": "Create account",
-    "consent": "I am 14 or older and I accept the <privacy>privacy policy</privacy>.",
+    "consent": "I am 14 or older and I accept the <privacy>privacy policy</privacy> and the <terms>terms of use</terms>.",
     "resetTitle": "Reset your password",
     "resetSubmit": "Send link",
     "linkError": "That link is invalid or has expired. Please ask for a new one.",
@@ -1065,5 +1079,33 @@
       "unavailable": "Accounts are not available right now.",
       "failed": "Something went wrong. Please try again."
     }
+  },
+  "Terms": {
+    "title": "Terms of use",
+    "lead": "The rules for using Sello and having an account.",
+    "whatTitle": "What Sello is",
+    "whatBody": "Sello is an independent website for practising Aptis ESOL General. It is not a service of the British Council or any examining body, and it does not guarantee any result in the official exam.",
+    "accountTitle": "Your account",
+    "accountBody": "Creating an account is optional and free. You must be 14 or older and give true details. You are responsible for your password. You can delete the account at any time from your account page.",
+    "useTitle": "Acceptable use",
+    "useBody": "Use Sello to study. Do not try to access other people's accounts, overload the service, extract its content in bulk or get around its security measures.",
+    "contentTitle": "Content",
+    "contentBody": "Sello's lessons, texts and questions are original and belong to its owner. You may use them for your own study, but not copy or redistribute them without permission.",
+    "liabilityTitle": "Liability",
+    "liabilityBody": "Levels and scores are our own estimates. Sello is provided as is, with no guarantee of continuous availability, and we will take reasonable care of your data. This does not limit the rights the law gives you as a consumer.",
+    "changesTitle": "Changes and governing law",
+    "changesBody": "We may update these terms, and any change date will be shown here. They are governed by Spanish law."
+  },
+  "Cookies": {
+    "title": "Cookie policy",
+    "lead": "Which cookies Sello uses and why we do not need to ask your permission.",
+    "noneTitle": "Without an account",
+    "noneBody": "If you do not sign in, Sello sets no cookies. Your theme, language and progress are kept in the browser's local storage, which is not a cookie and does not leave your device.",
+    "sessionTitle": "If you sign in",
+    "sessionBody": "Supabase keeps your session in cookies (names that start with 'sb-' and end in '-auth-token'). They are technical, strictly necessary, first-party cookies that keep you identified and they last until you sign out or delete them.",
+    "consentTitle": "Consent",
+    "consentBody": "Strictly necessary technical cookies need no consent, which is why there is no banner. We use no analytics, advertising or third-party cookies. If we ever add them, we will ask your permission first.",
+    "controlTitle": "How to delete them",
+    "controlBody": "Sign out from your account page or clear this site's cookies in your browser. You will be signed out and Sello will keep working in this browser."
   }
 }

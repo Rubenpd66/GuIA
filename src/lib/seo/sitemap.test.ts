@@ -19,7 +19,7 @@ describe("sitemapEntries", () => {
     expect(urls).toContain(`${BASE}/es/gramatica/inversion`);
     expect(urls).toContain(`${BASE}/en/practice/core-grammar`);
     const staticPages = Object.keys(routing.pathnames).filter(
-      (p) => !p.includes("[") && p !== "/design",
+      (p) => !p.includes("[") && !["/design", "/sign-in", "/account"].includes(p),
     ).length;
     expect(entries).toHaveLength((staticPages + 3) * 2);
   });

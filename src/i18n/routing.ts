@@ -41,6 +41,8 @@ export const routing = defineRouting({
     "/account": { es: "/cuenta", en: "/account" },
     "/legal-notice": { es: "/aviso-legal", en: "/legal-notice" },
     "/privacy": { es: "/privacidad", en: "/privacy" },
+    "/terms": { es: "/terminos", en: "/terms" },
+    "/cookies": "/cookies",
     "/design": "/design",
   },
 });

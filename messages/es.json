@@ -39,7 +39,9 @@
   "Footer": {
     "disclaimer": "Sello es una web independiente y no oficial. No está afiliada al British Council ni cuenta con su aprobación. Aptis ESOL General es un examen del British Council.",
     "legalNotice": "Aviso legal",
-    "privacy": "Privacidad"
+    "privacy": "Privacidad",
+    "terms": "Términos de uso",
+    "cookies": "Cookies"
   },
   "Home": {
     "title": "Prepárate el Aptis ESOL General y llega al C",
@@ -210,19 +212,31 @@
   },
   "Privacy": {
     "title": "Privacidad",
-    "lead": "Qué datos guarda Sello y dónde.",
+    "lead": "Qué datos guarda Sello, para qué y durante cuánto tiempo.",
     "storedTitle": "Qué se guarda",
-    "storedBody": "En el almacenamiento local de tu navegador: tu progreso (intentos, puntuaciones y errores por repasar), tus ajustes (tema, voz y velocidad del listening, fecha del examen, tarjetas nuevas al día), tus flashcards, el simulacro en curso y los borradores de Writing. Nada de esto se envía a ningún servidor.",
+    "storedBody": "Sin cuenta, todo se guarda en el almacenamiento local de tu navegador: tu progreso (intentos, puntuaciones y errores por repasar), tus ajustes (tema, voz y velocidad del listening, fecha del examen, tarjetas nuevas al día), tus flashcards, el simulacro en curso y los borradores de Writing. Nada de esto se envía a ningún servidor.",
     "notStoredTitle": "Qué no se guarda",
-    "notStoredBody": "No usamos cookies, analítica, publicidad ni cuentas de usuario.",
+    "notStoredBody": "No usamos cookies de analítica ni de publicidad, ni rastreadores. Las únicas cookies son las de tu sesión, si inicias sesión (mira la política de cookies).",
     "deleteTitle": "Cómo borrarlo",
-    "deleteBody": "En Ajustes puedes exportar o borrar tu progreso. También desaparece si borras los datos de este sitio en tu navegador.",
+    "deleteBody": "Sin cuenta, en Ajustes puedes exportar o borrar tu progreso, y también desaparece si borras los datos de este sitio en tu navegador. Con cuenta, borrar el progreso de este navegador no borra la copia de la nube: para eso borra la cuenta.",
     "audioTitle": "Micrófono y voz",
     "audioBody": "En Speaking, el micrófono solo se usa si das permiso al empezar una sesión. Las grabaciones se quedan en la memoria de la página y se borran al salir; solo se guardan si las descargas tú. La voz que lee los audios es la de tu propio dispositivo.",
     "hostingTitle": "Alojamiento",
     "hostingBody": "Vercel, el proveedor de alojamiento, registra datos técnicos de cada visita (como la dirección IP y el navegador) para servir la web y protegerla de abusos. El titular no usa esos datos para nada más.",
     "contactTitle": "Responsable y contacto",
-    "contactBody": "Responsable: {name}. Para cualquier pregunta sobre privacidad, escribe a {email}."
+    "contactBody": "Responsable: {name}. Para cualquier pregunta sobre privacidad, escribe a {email}.",
+    "accountTitle": "Si creas una cuenta",
+    "accountBody": "La cuenta es opcional. Si la creas, guardamos tu email (o el que te dé Google al entrar con Google), la fecha de alta y la de tu último acceso, y copias de tu progreso, tus flashcards, la fecha del examen y el simulacro en curso, para que los veas en todos tus dispositivos. Los borradores de Writing, los ajustes de voz y las grabaciones de Speaking no se suben.",
+    "basisTitle": "Para qué y con qué base legal",
+    "basisBody": "Usamos esos datos solo para darte la cuenta y sincronizar tu estudio: la base legal es la ejecución del servicio que pides al crear la cuenta (art. 6.1.b del RGPD). No los usamos para publicidad, no los vendemos ni los cedemos, y no tomamos decisiones automatizadas sobre ti.",
+    "ageTitle": "Edad mínima",
+    "ageBody": "Para crear una cuenta debes tener 14 años o más (art. 7 de la LOPDGDD). Si eres menor de esa edad, puedes usar Sello sin cuenta.",
+    "processorsTitle": "Quién trata los datos por nosotros",
+    "processorsBody": "Supabase guarda la cuenta y los datos sincronizados en servidores de la Unión Europea (Fráncfort). Vercel aloja la web y puede tratar datos técnicos de las visitas. Si entras con Google, Google nos facilita tu email para identificarte. Con estos proveedores existe un contrato de encargo del tratamiento.",
+    "retentionTitle": "Cuánto tiempo se conservan",
+    "retentionBody": "Mientras tengas la cuenta. Al borrarla desde la página de tu cuenta, se eliminan tu acceso y todos tus datos sincronizados, salvo copias de seguridad temporales del proveedor. Los datos técnicos de Vercel se conservan el tiempo que ese proveedor establece.",
+    "rightsTitle": "Tus derechos",
+    "rightsBody": "Puedes acceder a tus datos, rectificarlos, suprimirlos, limitar su uso, oponerte y llevártelos. Casi todo lo haces tú mismo: exportas tu progreso en Ajustes y borras la cuenta en la página de tu cuenta. Para cualquier otra petición, escribe al contacto de abajo. Si crees que no hemos respondido bien, puedes reclamar ante la Agencia Española de Protección de Datos (www.aepd.es)."
   },
   "NotFound": {
     "title": "Esta página no existe",
@@ -1032,7 +1046,7 @@
     "magicSubmit": "Enviar enlace",
     "signUpTitle": "Crear cuenta",
     "signUp": "Crear cuenta",
-    "consent": "Tengo 14 años o más y acepto la <privacy>política de privacidad</privacy>.",
+    "consent": "Tengo 14 años o más y acepto la <privacy>política de privacidad</privacy> y los <terms>términos de uso</terms>.",
     "resetTitle": "Recuperar contraseña",
     "resetSubmit": "Enviar enlace",
     "linkError": "El enlace no es válido o ha caducado. Pide uno nuevo.",
@@ -1065,5 +1079,33 @@
       "unavailable": "Las cuentas no están disponibles ahora mismo.",
       "failed": "Algo ha fallado. Inténtalo de nuevo."
     }
+  },
+  "Terms": {
+    "title": "Términos de uso",
+    "lead": "Las reglas para usar Sello y tener una cuenta.",
+    "whatTitle": "Qué es Sello",
+    "whatBody": "Sello es una web independiente para practicar el Aptis ESOL General. No es un servicio del British Council ni de ninguna entidad examinadora, y no garantiza ningún resultado en el examen oficial.",
+    "accountTitle": "Tu cuenta",
+    "accountBody": "Crear una cuenta es opcional y gratuito. Debes tener 14 años o más y dar datos verdaderos. Eres responsable de tu contraseña. Puedes borrar la cuenta cuando quieras desde la página de tu cuenta.",
+    "useTitle": "Uso aceptable",
+    "useBody": "Usa Sello para estudiar. No intentes acceder a cuentas ajenas, saturar el servicio, extraer su contenido en masa ni saltarte sus medidas de seguridad.",
+    "contentTitle": "Contenido",
+    "contentBody": "Las lecciones, textos y preguntas de Sello son originales y pertenecen a su titular. Puedes usarlas para tu estudio personal, pero no copiarlas ni redistribuirlas sin permiso.",
+    "liabilityTitle": "Responsabilidad",
+    "liabilityBody": "Los niveles y puntuaciones son estimaciones propias. Sello se ofrece tal cual, sin garantía de disponibilidad continua, y haremos lo razonable por cuidar tus datos. Esto no limita los derechos que la ley te reconoce como consumidor.",
+    "changesTitle": "Cambios y ley aplicable",
+    "changesBody": "Podemos actualizar estos términos y la fecha de cambio constará aquí. Se rigen por la ley española."
+  },
+  "Cookies": {
+    "title": "Política de cookies",
+    "lead": "Qué cookies usa Sello y por qué no hace falta pedirte permiso.",
+    "noneTitle": "Sin cuenta",
+    "noneBody": "Si no inicias sesión, Sello no instala ninguna cookie. El tema, el idioma y tu progreso se guardan en el almacenamiento local del navegador, que no es una cookie y no sale de tu dispositivo.",
+    "sessionTitle": "Si inicias sesión",
+    "sessionBody": "Supabase guarda en cookies tu sesión (nombres que empiezan por «sb-» y terminan en «-auth-token»). Son cookies técnicas y estrictamente necesarias para mantenerte identificado, de primera parte y duran hasta que cierras la sesión o las borras.",
+    "consentTitle": "Consentimiento",
+    "consentBody": "Las cookies técnicas imprescindibles no necesitan consentimiento, por eso no hay banner. No usamos cookies de analítica, de publicidad ni de terceros. Si algún día las añadimos, te pediremos permiso antes.",
+    "controlTitle": "Cómo borrarlas",
+    "controlBody": "Cierra la sesión desde la página de tu cuenta o borra las cookies de este sitio en tu navegador. Volverás a estar sin sesión y Sello seguirá funcionando en este navegador."
   }
 }

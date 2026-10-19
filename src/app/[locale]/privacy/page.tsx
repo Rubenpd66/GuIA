@@ -3,7 +3,19 @@ import { getTranslations } from "next-intl/server";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { SITE } from "@/config/site";
 
-const TOPICS = ["stored", "notStored", "audio", "hosting", "delete"] as const;
+const TOPICS = [
+  "stored",
+  "account",
+  "basis",
+  "age",
+  "processors",
+  "retention",
+  "rights",
+  "notStored",
+  "audio",
+  "hosting",
+  "delete",
+] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Privacy");

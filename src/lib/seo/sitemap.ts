@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { routing, type Locale } from "@/i18n/routing";
 
 /** Pages that must not be indexed. */
-const HIDDEN = new Set(["/design"]);
+const HIDDEN = new Set(["/design", "/sign-in", "/account"]);
 
 type DynamicValues = Record<string, readonly string[]>;
 

@@ -21,6 +21,16 @@ export async function SiteFooter() {
             {t("privacy")}
           </Link>
         </li>
+        <li>
+          <Link href="/terms" className={LINK}>
+            {t("terms")}
+          </Link>
+        </li>
+        <li>
+          <Link href="/cookies" className={LINK}>
+            {t("cookies")}
+          </Link>
+        </li>
       </ul>
     </footer>
   );
