@@ -66,6 +66,11 @@ export function WritingTrainer({
       part,
       rng: createRng(randomSeed()),
       levels: levelFilter,
+      draftedIds: tasks
+        .filter((task) =>
+          writingItems(task).some((item) => readDraft(item.key) !== ""),
+        )
+        .map((task) => task.id),
     });
     if (!task) return;
     const startedAt = now();
@@ -100,6 +105,7 @@ export function WritingTrainer({
       levels={levels}
       examCount={1}
       examMinutes={minutes}
+      studyHint={t("studyHint")}
       examHint={t("examHint", { minutes })}
       bankText={t("bankSize", { count: poolSize })}
       poolSize={poolSize}

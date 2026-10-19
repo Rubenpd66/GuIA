@@ -574,6 +574,7 @@
       },
       "studyMode": "Modo estudio",
       "examMode": "Modo examen",
+      "studyHint": "Consejos y frases útiles a mano, cronómetro opcional. Al terminar, modelos B2 y C y autoevaluación.",
       "examHint": "Una tarea en {minutes, number} minutos, sin ayudas. Al llegar a cero el editor se bloquea. El tiempo por parte es el recomendado para el examen.",
       "bankSize": "{count, plural, one {# tarea disponible} other {# tareas disponibles}}. El banco crece en los próximos lotes.",
       "words": "{count, plural, one {# palabra} other {# palabras}} · objetivo {min}–{max}",

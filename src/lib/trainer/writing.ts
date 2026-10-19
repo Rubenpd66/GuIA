@@ -133,6 +133,8 @@ type WritingSessionOptions = {
   part: WritingPart;
   rng: Rng;
   levels?: readonly CefrLevel[];
+  /** Tasks with an unfinished draft: one of them is picked first so the text is not stranded. */
+  draftedIds?: readonly string[];
 };
 
 /** One task per session in both modes: the exam has one task per part. */
@@ -141,10 +143,12 @@ export function buildWritingSession({
   part,
   rng,
   levels,
+  draftedIds = [],
 }: WritingSessionOptions): WritingExercise[] {
   const pool = tasks.filter(
     (task) =>
       task.examPart === part && (!levels || levels.includes(task.cefrLevel)),
   );
-  return shuffle(pool, rng).slice(0, 1);
+  const drafted = pool.find((task) => draftedIds.includes(task.id));
+  return drafted ? [drafted] : shuffle(pool, rng).slice(0, 1);
 }

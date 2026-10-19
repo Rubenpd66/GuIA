@@ -57,4 +57,25 @@ describe("drafts", () => {
   it("does not throw when there is no localStorage at all", () => {
     expect(readDraft("k")).toBe("");
   });
+
+  it("does not throw when merely reading localStorage throws", () => {
+    const original = Object.getOwnPropertyDescriptor(
+      globalThis,
+      "localStorage",
+    );
+    Object.defineProperty(globalThis, "localStorage", {
+      configurable: true,
+      get() {
+        throw new Error("blocked");
+      },
+    });
+    try {
+      expect(readDraft("k")).toBe("");
+      expect(() => saveDraft("k", "text", 1)).not.toThrow();
+      expect(() => clearDrafts(["k"])).not.toThrow();
+    } finally {
+      if (original) Object.defineProperty(globalThis, "localStorage", original);
+      else delete (globalThis as { localStorage?: unknown }).localStorage;
+    }
+  });
 });

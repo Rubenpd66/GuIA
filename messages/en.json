@@ -574,6 +574,7 @@
       },
       "studyMode": "Study mode",
       "examMode": "Exam mode",
+      "studyHint": "Tips and useful phrases at hand, optional stopwatch. At the end, B2 and C models and a self-assessment.",
       "examHint": "One task in {minutes, number} minutes, no help. The editor locks at zero. The time per part is the exam's recommended time.",
       "bankSize": "{count, plural, one {# task available} other {# tasks available}}. The bank grows in the next batches.",
       "words": "{count, plural, one {# word} other {# words}} · target {min}–{max}",

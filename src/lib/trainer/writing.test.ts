@@ -129,4 +129,20 @@ describe("buildWritingSession", () => {
       buildWritingSession({ tasks, part: "writing-3", rng: createRng(1) }),
     ).toEqual([]);
   });
+
+  it("resumes a task that has a draft", () => {
+    const tasks = Array.from({ length: 6 }, (_, i) => ({
+      ...w2,
+      id: `w2-${i}`,
+    }));
+    for (let seed = 0; seed < 20; seed++) {
+      const [task] = buildWritingSession({
+        tasks,
+        part: "writing-2",
+        rng: createRng(seed),
+        draftedIds: ["w2-4"],
+      });
+      expect(task!.id).toBe("w2-4");
+    }
+  });
 });

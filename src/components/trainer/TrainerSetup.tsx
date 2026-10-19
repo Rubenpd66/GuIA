@@ -17,6 +17,8 @@ type TrainerSetupProps = {
   /** Overrides the exam card hint and the bank size line (Reading counts tasks, not questions). */
   examHint?: string;
   bankText?: string;
+  /** Overrides the study card hint (Writing has no right or wrong answers). */
+  studyHint?: string;
   poolSize: number;
   focusName?: string;
   onClearFocus?: () => void;
@@ -31,7 +33,11 @@ const CARD =
 export function TrainerSetup(props: TrainerSetupProps) {
   const t = useTranslations("Trainer");
   const modes = [
-    { value: "study" as const, title: t("study"), hint: t("studyHint") },
+    {
+      value: "study" as const,
+      title: t("study"),
+      hint: props.studyHint ?? t("studyHint"),
+    },
     {
       value: "exam" as const,
       title: t("exam"),
