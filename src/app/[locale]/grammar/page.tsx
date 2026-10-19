@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
+import { LockMark } from "@/components/access/LockMark";
 import { LevelBadge } from "@/components/content/LevelBadge";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Link } from "@/i18n/navigation";
@@ -39,6 +40,7 @@ export default async function GrammarIndexPage() {
               >
                 <LevelBadge level={level} />
                 {t(`Levels.${level}`)}
+                <LockMark level={level} />
               </h2>
               {lessons.length === 0 ? (
                 <p className="mt-3 text-ink-soft">
