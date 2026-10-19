@@ -66,3 +66,16 @@ Done and deployed: https://sello-aptis.vercel.app (Vercel project `sello-aptis`,
 - Legal: owner details in `SITE.owner` (name, NIF, address, email, published at the user's request); privacy page lists local storage, microphone and Vercel logs.
 - PWA: `src/app/manifest.ts`, `public/sw.js` (network first for pages, RSC and banks; cache first for `/_next/static`; inline offline page), `ServiceWorker` registers it in production and offers a reload on update. Icons from `scripts/make-icons.ts`.
 - Deploy: `npx vercel deploy --prod --yes` from this folder (in PowerShell use `npx.cmd`: the execution policy blocks `npx.ps1`). `vercel link` wrote a token to `.env.local` (ignored by git).
+
+## Phase 9 (Accounts, admin, security, legal)
+
+Committed, not deployed (the user audits it first). Plan: `docs/superpowers/plans/2026-10-20-phase-9-accounts-security.md`.
+
+- Supabase projects: `sello` (production) and `sello-dev` (local and tests), both eu-central-1. Migrations in `supabase/migrations/`: `user_data` (owner-only RLS, size check), `rls_auto_enable` lock, `admin_log` (RLS on, no policy, no grants; the advisor's "RLS enabled, no policy" INFO on it is intended).
+- Auth: server actions in `src/lib/auth/actions.ts` (answers never reveal whether an email exists; password minimum 10; sign-up needs the 14+/privacy/terms box), callback route `src/app/auth/callback/route.ts` with `safeNext` against open redirects, `useUser` store, session refresh in `src/proxy.ts` (only when a session cookie exists; `/admin` skips next-intl).
+- UI: `src/components/account/` (`SignInPanel`, `AccountPanel`, `AuthForm`, `AccountLink`, `SyncRunner`).
+- Sync: `src/lib/sync/engine.ts` pushes 2 s after a change and pulls on sign-in, on tab focus and when back online; per-store last-change time in `sello:sync-meta`; status in `status.ts`. Merge rules in `merge.ts` are unit-tested; the engine itself is not.
+- Admin: `/admin` outside the locale tree, noindex, `requireAdmin()` on every page and action (`getClaims` plus `app_metadata.role`), aggregates only, user list with search and deletion; deletions logged in `admin_log` (ids only).
+- Security: headers and CSP in `next.config.ts` (HSTS, nosniff, referrer policy, microphone self only, `frame-ancestors 'none'`). `npm audit --omit=dev` found 0 vulnerabilities and the secret key is not in the client bundle (checked in `.next/static`).
+- Legal: privacy (account-aware), terms and cookies pages in es/en; `docs/legal/README.md` holds the processing register and the owner's to-do (accept the DPAs, professional review).
+- E2E: `e2e/accounts.spec.ts` (admin hidden, headers, sign-in form; round trip with a throwaway user when `SUPABASE_SECRET_KEY` is exported).

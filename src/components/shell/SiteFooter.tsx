@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { AccountLink } from "@/components/account/AccountLink";
 import { Link } from "@/i18n/navigation";
 
 const LINK =
@@ -20,6 +21,9 @@ export async function SiteFooter() {
           <Link href="/privacy" className={LINK}>
             {t("privacy")}
           </Link>
+        </li>
+        <li className="lg:hidden">
+          <AccountLink className={LINK} />
         </li>
         <li>
           <Link href="/terms" className={LINK}>
