@@ -108,6 +108,22 @@
       "register": "formal",
       "phrase": "May I raise a point here?",
       "example": "May I raise a point here? The survey only covers people under thirty."
+    },
+    {
+      "id": "fl-interrupting-a2-1",
+      "function": "interrupting",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "Sorry, …",
+      "example": "Sorry, what time is the meeting?"
+    },
+    {
+      "id": "fl-interrupting-a2-2",
+      "function": "interrupting",
+      "level": "A2",
+      "register": "informal",
+      "phrase": "Wait, …",
+      "example": "Wait, I don't understand. Can you say that again?"
     }
   ]
 }

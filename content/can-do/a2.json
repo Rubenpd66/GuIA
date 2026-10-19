@@ -1,0 +1,250 @@
+{
+  "kind": "can-do",
+  "items": [
+    {
+      "id": "cd-a2-spoken-interaction-1",
+      "level": "A2",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can say who I am and answer simple questions about my family, my home and my job or studies with short, clear sentences.",
+        "es": "Puedo decir quién soy y responder a preguntas sencillas sobre mi familia, mi casa y mi trabajo o estudios con frases cortas y claras."
+      },
+      "links": {
+        "lessons": ["be-and-have-got", "possessives-and-reflexives"],
+        "parts": ["speaking-1"]
+      }
+    },
+    {
+      "id": "cd-a2-spoken-interaction-2",
+      "level": "A2",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can ask for something in a shop or café and ask simple questions about what there is, how much it is and where to find it.",
+        "es": "Puedo pedir algo en una tienda o cafetería y hacer preguntas sencillas sobre lo que hay, cuánto cuesta y dónde se encuentra."
+      },
+      "links": {
+        "lessons": ["some-any-no-none", "there-and-it"],
+        "parts": []
+      }
+    },
+    {
+      "id": "cd-a2-spoken-interaction-3",
+      "level": "A2",
+      "skill": "spoken-interaction",
+      "text": {
+        "en": "I can ask and answer questions about days, times and places, for example when a class starts or where a station is.",
+        "es": "Puedo preguntar y responder sobre días, horas y lugares, por ejemplo cuándo empieza una clase o dónde está una estación."
+      },
+      "links": {
+        "lessons": [
+          "prepositions-of-time",
+          "prepositions-of-place-and-movement"
+        ],
+        "parts": ["speaking-1"]
+      }
+    },
+    {
+      "id": "cd-a2-spoken-production-1",
+      "level": "A2",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can describe a photo with simple sentences, saying what there is in it, where things are and what the people look like.",
+        "es": "Puedo describir una foto con frases sencillas, diciendo qué hay en ella, dónde están las cosas y cómo son las personas."
+      },
+      "links": {
+        "lessons": [
+          "there-and-it",
+          "prepositions-of-place-and-movement",
+          "adjectives-and-adverbs"
+        ],
+        "parts": ["speaking-2"]
+      }
+    },
+    {
+      "id": "cd-a2-spoken-production-2",
+      "level": "A2",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can talk about my daily routine, my favourite things and what I did recently, using simple linked sentences.",
+        "es": "Puedo hablar de mi rutina diaria, de mis cosas favoritas y de lo que hice hace poco, con frases sencillas enlazadas."
+      },
+      "links": {
+        "lessons": ["prepositions-of-time", "present-perfect-basics"],
+        "parts": ["speaking-1", "speaking-2"]
+      }
+    },
+    {
+      "id": "cd-a2-spoken-production-3",
+      "level": "A2",
+      "skill": "spoken-production",
+      "text": {
+        "en": "I can say what I like and do not like, and give a short reason with because, even if I stop to find the words.",
+        "es": "Puedo decir lo que me gusta y lo que no, y dar un motivo breve con because, aunque me pare a buscar las palabras."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["speaking-3"]
+      }
+    },
+    {
+      "id": "cd-a2-listening-1",
+      "level": "A2",
+      "skill": "listening",
+      "text": {
+        "en": "I can understand numbers, prices, times and days in short, slow messages and announcements.",
+        "es": "Puedo entender números, precios, horas y días en mensajes y anuncios cortos y lentos."
+      },
+      "links": {
+        "lessons": ["prepositions-of-time"],
+        "parts": ["listening-1"]
+      }
+    },
+    {
+      "id": "cd-a2-listening-2",
+      "level": "A2",
+      "skill": "listening",
+      "text": {
+        "en": "I can follow a short, clear conversation about familiar things, such as plans, food or shopping, and find the main facts.",
+        "es": "Puedo seguir una conversación corta y clara sobre temas conocidos, como planes, comida o compras, y encontrar los datos principales."
+      },
+      "links": {
+        "lessons": ["some-any-no-none"],
+        "parts": ["listening-1", "listening-2"]
+      }
+    },
+    {
+      "id": "cd-a2-listening-3",
+      "level": "A2",
+      "skill": "listening",
+      "text": {
+        "en": "I can understand simple directions and descriptions of where something is when the speaker talks slowly.",
+        "es": "Puedo entender indicaciones sencillas y descripciones de dónde está algo cuando la persona habla despacio."
+      },
+      "links": {
+        "lessons": ["prepositions-of-place-and-movement", "there-and-it"],
+        "parts": ["listening-1"]
+      }
+    },
+    {
+      "id": "cd-a2-reading-1",
+      "level": "A2",
+      "skill": "reading",
+      "text": {
+        "en": "I can understand short, simple notices, signs and messages and choose the right word for a gap in a familiar sentence.",
+        "es": "Puedo entender avisos, carteles y mensajes cortos y sencillos, y elegir la palabra correcta para un hueco en una frase conocida."
+      },
+      "links": {
+        "lessons": ["there-and-it"],
+        "parts": ["reading-1", "core-vocabulary"]
+      }
+    },
+    {
+      "id": "cd-a2-reading-2",
+      "level": "A2",
+      "skill": "reading",
+      "text": {
+        "en": "I can read a short, simple text about a person or a place and find a name, a date, a time or a price.",
+        "es": "Puedo leer un texto corto y sencillo sobre una persona o un lugar y encontrar un nombre, una fecha, una hora o un precio."
+      },
+      "links": {
+        "lessons": ["be-and-have-got", "prepositions-of-time"],
+        "parts": ["reading-1", "reading-2"]
+      }
+    },
+    {
+      "id": "cd-a2-reading-3",
+      "level": "A2",
+      "skill": "reading",
+      "text": {
+        "en": "I can understand a short, friendly email or message from a friend about plans, news or a place.",
+        "es": "Puedo entender un correo o mensaje corto y amistoso de un amigo sobre planes, noticias o un lugar."
+      },
+      "links": {
+        "lessons": ["present-perfect-basics", "possessives-and-reflexives"],
+        "parts": ["reading-1", "reading-3"]
+      }
+    },
+    {
+      "id": "cd-a2-writing-1",
+      "level": "A2",
+      "skill": "writing",
+      "text": {
+        "en": "I can fill in a form with my name, address, age, job and other personal details, spelling them correctly.",
+        "es": "Puedo rellenar un formulario con mi nombre, dirección, edad, trabajo y otros datos personales, escribiéndolos correctamente."
+      },
+      "links": {
+        "lessons": ["be-and-have-got"],
+        "parts": ["writing-1"]
+      }
+    },
+    {
+      "id": "cd-a2-writing-2",
+      "level": "A2",
+      "skill": "writing",
+      "text": {
+        "en": "I can write a few simple sentences about myself, my home or my day, using and, but and because.",
+        "es": "Puedo escribir unas frases sencillas sobre mí, mi casa o mi día, usando and, but y because."
+      },
+      "links": {
+        "lessons": [
+          "possessives-and-reflexives",
+          "adjectives-and-adverbs",
+          "prepositions-of-time"
+        ],
+        "parts": ["writing-2"]
+      }
+    },
+    {
+      "id": "cd-a2-writing-3",
+      "level": "A2",
+      "skill": "writing",
+      "text": {
+        "en": "I can write a short message or note to a friend to say thank you, give news or ask a simple question.",
+        "es": "Puedo escribir un mensaje o nota corta a un amigo para dar las gracias, contar una novedad o hacer una pregunta sencilla."
+      },
+      "links": {
+        "lessons": ["present-perfect-basics"],
+        "parts": ["writing-3", "writing-4"]
+      }
+    },
+    {
+      "id": "cd-a2-strategies-1",
+      "level": "A2",
+      "skill": "strategies",
+      "text": {
+        "en": "I can look at the pictures, titles and numbers first to guess what a short text or recording is about.",
+        "es": "Puedo fijarme primero en las imágenes, los títulos y los números para adivinar de qué trata un texto o una grabación corta."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["reading-1", "listening-1"]
+      }
+    },
+    {
+      "id": "cd-a2-strategies-2",
+      "level": "A2",
+      "skill": "strategies",
+      "text": {
+        "en": "I can ask someone to speak more slowly or repeat something, with phrases such as Sorry, could you say that again?",
+        "es": "Puedo pedir que hablen más despacio o que repitan algo, con frases como Sorry, could you say that again?"
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["speaking-1", "speaking-2"]
+      }
+    },
+    {
+      "id": "cd-a2-strategies-3",
+      "level": "A2",
+      "skill": "strategies",
+      "text": {
+        "en": "I can learn new words in small groups, such as food, clothes or places, and read my answers again before I move on.",
+        "es": "Puedo aprender palabras nuevas en grupos pequeños, como comida, ropa o lugares, y releer mis respuestas antes de continuar."
+      },
+      "links": {
+        "lessons": [],
+        "parts": ["core-vocabulary", "core-grammar"]
+      }
+    }
+  ]
+}

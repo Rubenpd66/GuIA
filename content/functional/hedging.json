@@ -124,6 +124,22 @@
         "en": "Means in most cases, with a few exceptions.",
         "es": "Significa «en general», con alguna excepción."
       }
+    },
+    {
+      "id": "fl-hedging-a2-1",
+      "function": "hedging",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "I'm not sure, but …",
+      "example": "I'm not sure, but I think the shop closes at six."
+    },
+    {
+      "id": "fl-hedging-a2-2",
+      "function": "hedging",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "It depends.",
+      "example": "It depends. I like it when the weather is nice."
     }
   ]
 }

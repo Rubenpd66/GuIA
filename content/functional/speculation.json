@@ -116,6 +116,26 @@
       "register": "formal",
       "phrase": "It is highly likely that …",
       "example": "It is highly likely that demand for remote learning will continue to grow."
+    },
+    {
+      "id": "fl-speculation-a2-1",
+      "function": "speculation",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "It looks like …",
+      "example": "It looks like rain. Take an umbrella.",
+      "note": {
+        "en": "Use it when you guess from what you can see.",
+        "es": "Se usa cuando adivinas por lo que ves."
+      }
+    },
+    {
+      "id": "fl-speculation-a2-2",
+      "function": "speculation",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "I think it is …",
+      "example": "I think it is a school because there are children outside."
     }
   ]
 }

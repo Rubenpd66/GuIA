@@ -104,6 +104,22 @@
       "register": "informal",
       "phrase": "Getting back on track, …",
       "example": "Getting back on track, who is going to book the room?"
+    },
+    {
+      "id": "fl-returning-a2-1",
+      "function": "returning",
+      "level": "A2",
+      "register": "informal",
+      "phrase": "OK, so …",
+      "example": "OK, so we have the food. Now, what about drinks?"
+    },
+    {
+      "id": "fl-returning-a2-2",
+      "function": "returning",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "Back to …",
+      "example": "Back to the plan. Where do we meet?"
     }
   ]
 }

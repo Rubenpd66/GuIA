@@ -116,6 +116,22 @@
       "register": "formal",
       "phrase": "In the final analysis, …",
       "example": "In the final analysis, the decision rests with the residents themselves."
+    },
+    {
+      "id": "fl-conclusion-a2-1",
+      "function": "conclusion",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "Finally, …",
+      "example": "Finally, I want to say thank you for the lovely evening."
+    },
+    {
+      "id": "fl-conclusion-a2-2",
+      "function": "conclusion",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "That's why …",
+      "example": "The room is very noisy. That's why I want to change it."
     }
   ]
 }

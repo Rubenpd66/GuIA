@@ -128,6 +128,26 @@
         "en": "Makes a strong claim stronger.",
         "es": "Refuerza una afirmación ya fuerte."
       }
+    },
+    {
+      "id": "fl-opinion-a2-1",
+      "function": "opinion",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "I think …",
+      "example": "I think the museum is very interesting."
+    },
+    {
+      "id": "fl-opinion-a2-2",
+      "function": "opinion",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "I don't think …",
+      "example": "I don't think the bus is a good idea. It is very slow.",
+      "note": {
+        "en": "Say 'I don't think it is', not 'I think it isn't'.",
+        "es": "Se dice «I don't think it is», no «I think it isn't»."
+      }
     }
   ]
 }

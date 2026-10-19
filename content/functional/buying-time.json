@@ -112,6 +112,22 @@
       "register": "formal",
       "phrase": "If I could just consider that for a moment, …",
       "example": "If I could just consider that for a moment, I believe the second option is more realistic."
+    },
+    {
+      "id": "fl-buying-time-a2-1",
+      "function": "buying-time",
+      "level": "A2",
+      "register": "informal",
+      "phrase": "Wait a moment, …",
+      "example": "Wait a moment, I need to think. Yes, I like pizza."
+    },
+    {
+      "id": "fl-buying-time-a2-2",
+      "function": "buying-time",
+      "level": "A2",
+      "register": "informal",
+      "phrase": "Um, …",
+      "example": "Um, I'm not sure. Can I have a minute?"
     }
   ]
 }

@@ -124,6 +124,22 @@
         "en": "Compares two clear opposites, often with figures.",
         "es": "Compara dos opuestos claros, a menudo con datos."
       }
+    },
+    {
+      "id": "fl-contrast-a2-1",
+      "function": "contrast",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "…, but …",
+      "example": "I like tea, but I don't like coffee."
+    },
+    {
+      "id": "fl-contrast-a2-2",
+      "function": "contrast",
+      "level": "A2",
+      "register": "informal",
+      "phrase": "But …",
+      "example": "The hotel is cheap. But it is far from the beach."
     }
   ]
 }

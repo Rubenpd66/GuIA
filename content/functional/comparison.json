@@ -116,6 +116,26 @@
         "en": "'Superior' takes 'to', not 'than'.",
         "es": "«Superior» lleva «to», no «than»."
       }
+    },
+    {
+      "id": "fl-comparison-a2-1",
+      "function": "comparison",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "… is cheaper than …",
+      "example": "The train is cheaper than the plane.",
+      "note": {
+        "en": "Short adjectives take -er: cheap, cheaper.",
+        "es": "Los adjetivos cortos llevan -er: cheap, cheaper."
+      }
+    },
+    {
+      "id": "fl-comparison-a2-2",
+      "function": "comparison",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "… is the same as …",
+      "example": "My phone is the same as yours."
     }
   ]
 }

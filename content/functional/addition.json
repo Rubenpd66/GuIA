@@ -124,6 +124,26 @@
       "register": "formal",
       "phrase": "Equally important, …",
       "example": "Equally important, staff should be given time to learn the new system."
+    },
+    {
+      "id": "fl-addition-a2-1",
+      "function": "addition",
+      "level": "A2",
+      "register": "informal",
+      "phrase": "… too.",
+      "example": "I like swimming. I like running too.",
+      "note": {
+        "en": "'Too' goes at the end of the sentence.",
+        "es": "«Too» va al final de la frase."
+      }
+    },
+    {
+      "id": "fl-addition-a2-2",
+      "function": "addition",
+      "level": "A2",
+      "register": "neutral",
+      "phrase": "There is also …",
+      "example": "There is a pool in the hotel. There is also a small gym."
     }
   ]
 }
