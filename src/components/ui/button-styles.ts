@@ -5,8 +5,8 @@ const BASE =
   "inline-flex items-center justify-center gap-2 pressable rounded-control font-semibold leading-tight select-none disabled:cursor-not-allowed disabled:opacity-60";
 
 const SIZES: Record<ButtonSize, string> = {
-  md: "min-h-12 px-5 text-base",
-  lg: "min-h-14 px-6 text-lg",
+  md: "min-h-12 px-5 py-2 text-base",
+  lg: "min-h-14 px-6 py-3 text-lg",
 };
 
 /* Hover mixes the colour towards the ink, so it darkens in light mode and lightens in dark mode. */

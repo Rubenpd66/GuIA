@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T00:00:00.000Z",
+  "title": "Design System: GuIA",
+  "extensions": {
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "Azul de acción",
+        "canonical": "#1f5fe0",
+        "tonalRamp": [
+          "#0b2a6e",
+          "#12409f",
+          "#1850c4",
+          "#1f5fe0",
+          "#4f82ea",
+          "#86a8f0",
+          "#bccdf6",
+          "#e6edfc"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Lienzo",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#14161c",
+          "#2b2f3a",
+          "#4b5260",
+          "#6b7280",
+          "#9ca3af",
+          "#d1d5db",
+          "#e5e7eb",
+          "#ffffff"
+        ]
+      },
+      "reward": {
+        "role": "accent",
+        "displayName": "Ámbar de logro",
+        "canonical": "#f5a524",
+        "tonalRamp": [
+          "#4a2f00",
+          "#7a4d00",
+          "#8a5a00",
+          "#b97800",
+          "#f5a524",
+          "#f7bd5c",
+          "#fad596",
+          "#fdeed2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Titular",
+        "purpose": "Titulares de portada."
+      },
+      "headline": {
+        "displayName": "Encabezado",
+        "purpose": "Títulos de sección y de página."
+      },
+      "body": {
+        "displayName": "Cuerpo",
+        "purpose": "Interfaz y texto corriente."
+      },
+      "reading": {
+        "displayName": "Lectura",
+        "purpose": "Lecciones y textos largos, a 68 ch."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card",
+        "value": "0 1px 2px rgb(16 24 40 / 0.06), 0 4px 12px rgb(16 24 40 / 0.05)",
+        "purpose": "Tarjetas en tema claro; en oscuro se sustituye por borde."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Entradas y respuestas a la interacción."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "Movimiento dentro de la pantalla."
+      },
+      {
+        "name": "ease-drawer",
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Hoja inferior."
+      },
+      {
+        "name": "dur-press",
+        "value": "140ms",
+        "purpose": "Pulsar un control."
+      },
+      {
+        "name": "dur-fast",
+        "value": "180ms",
+        "purpose": "Acierto, indicador de navegación."
+      },
+      {
+        "name": "dur-base",
+        "value": "240ms",
+        "purpose": "Entrada de contenido y de página."
+      },
+      {
+        "name": "dur-panel",
+        "value": "320ms",
+        "purpose": "Hoja inferior al abrir."
+      },
+      { "name": "dur-reward", "value": "700ms", "purpose": "Logro de nivel." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Acción principal de una pantalla.",
+      "html": "<button class=\"ds-btn-primary\">Haz el test de nivel</button>",
+      "css": ".ds-btn-primary{background:var(--accent,#1f5fe0);color:var(--on-accent,#fff);min-height:48px;padding:8px 20px;border:0;border-radius:12px;font:600 17px/1.2 Figtree,system-ui,sans-serif;transition:transform 140ms cubic-bezier(.23,1,.32,1),background-color 140ms}.ds-btn-primary:hover{background:color-mix(in srgb,#1f5fe0 82%,#14161c)}.ds-btn-primary:active{transform:scale(.97)}.ds-btn-primary:focus-visible{outline:2px solid #1f5fe0;outline-offset:2px}"
+    },
+    {
+      "name": "Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Agrupa un bloque de contenido.",
+      "html": "<div class=\"ds-card\"><h3>Formato real del examen</h3><p>Las 18 partes con sus tiempos.</p></div>",
+      "css": ".ds-card{background:#f5f7fa;border-radius:16px;padding:24px;box-shadow:0 1px 2px rgb(16 24 40/.06),0 4px 12px rgb(16 24 40/.05);font-family:Figtree,system-ui,sans-serif;color:#14161c}.ds-card h3{margin:0;font-size:21px;font-weight:700}.ds-card p{margin:4px 0 0;color:#4b5260}"
+    },
+    {
+      "name": "Level Chip",
+      "kind": "chip",
+      "refersTo": "level-chip",
+      "description": "Nivel CEFR en el color de su nivel.",
+      "html": "<span class=\"ds-chip\">B1</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;justify-content:center;height:28px;min-width:40px;padding:0 10px;border:1px solid #1f5fe0;border-radius:9999px;color:#1f5fe0;background:color-mix(in srgb,#1f5fe0 6%,transparent);font:700 14px Figtree,system-ui,sans-serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "El estándar del sector, bien hecho",
+    "overview": "GuIA prepara el Aptis ESOL General con un diseño reconocible y claro: fondo blanco, tinta casi negra y un azul de acción. Nada de metáforas temáticas.\n\nLa personalidad está en el movimiento con propósito y en un ritmo vertical constante que separa secciones y párrafos.",
+    "keyCharacteristics": [
+      "Claro y oscuro con los mismos roles",
+      "Una sola familia tipográfica",
+      "Espaciado por Section y SectionStack",
+      "Movimiento solo con transform y opacity, con alternativa reducida"
+    ],
+    "rules": [
+      {
+        "name": "Color con significado",
+        "body": "El color de nivel o de estado nunca decora.",
+        "section": "colors"
+      },
+      {
+        "name": "La medida",
+        "body": "Ningún párrafo pasa de 68 ch.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Usa Section, SectionStack y Card",
+      "Anima solo transform y opacity con alternativa de movimiento reducido",
+      "Comprueba cada par de color en el test de contraste"
+    ],
+    "donts": [
+      "No uses colores ni marca del British Council",
+      "No uses transition: all ni ease-in",
+      "No prometas IA hasta la fase 10f"
+    ]
+  }
+}
