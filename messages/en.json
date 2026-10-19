@@ -47,7 +47,8 @@
     "partsTitle": "The 18 parts of the exam",
     "partsLead": "Each part is a border: master it and you earn its stamp.",
     "levelsTitle": "Your passport",
-    "levelsLead": "Every level you reach gets stamped: A2, B1, B2 and C."
+    "levelsLead": "Every level you reach gets stamped: A2, B1, B2 and C.",
+    "structuredDescription": "Free, unofficial preparation for the Aptis ESOL General: lessons, practice for all 18 parts, a placement test and mock exams."
   },
   "Sections": {
     "dashboard": {
@@ -197,17 +198,29 @@
     "estimatesTitle": "Estimated levels",
     "estimatesBody": "The levels and scores shown in the app are our own estimates, not official results.",
     "ownerTitle": "Owner",
-    "ownerBody": "The owner’s details will be added before the website is published."
+    "ownerBody": "As required by article 10 of Spanish Law 34/2002 on information society services and e-commerce (LSSI-CE), these are the details of the website's owner:",
+    "ownerName": "Owner",
+    "ownerTaxId": "Tax ID (NIF)",
+    "ownerAddress": "Address",
+    "ownerEmail": "Contact",
+    "hostingTitle": "Hosting",
+    "hostingBody": "The website is hosted by Vercel Inc. (440 N Barranca Ave #4133, Covina, CA 91723, USA)."
   },
   "Privacy": {
     "title": "Privacy",
     "lead": "What data Sello stores and where.",
     "storedTitle": "What we store",
-    "storedBody": "Your theme preference and your progress (sessions, scores and mistakes to review), in your browser's local storage. Nothing leaves your device.",
+    "storedBody": "In your browser's local storage: your progress (attempts, scores and mistakes to review), your settings (theme, Listening voice and speed, exam date, new cards per day), your flashcards, the mock exam in progress and your Writing drafts. None of this is sent to any server.",
     "notStoredTitle": "What we don’t store",
-    "notStoredBody": "We don’t use cookies, analytics or user accounts.",
+    "notStoredBody": "We use no cookies, analytics, advertising or user accounts.",
     "deleteTitle": "How to delete it",
-    "deleteBody": "In Settings you can export or delete your progress. It also disappears if you clear this site's data in your browser."
+    "deleteBody": "In Settings you can export or delete your progress. It also disappears if you clear this site's data in your browser.",
+    "audioTitle": "Microphone and voice",
+    "audioBody": "In Speaking, the microphone is only used if you allow it when a session starts. Recordings stay in the page's memory and are deleted when you leave; they are only kept if you download them. The voice that reads the recordings is your own device's.",
+    "hostingTitle": "Hosting",
+    "hostingBody": "Vercel, the hosting provider, logs technical data about each visit (such as the IP address and browser) to serve the website and protect it from abuse. The owner uses that data for nothing else.",
+    "contactTitle": "Controller and contact",
+    "contactBody": "Controller: {name}. For any privacy question, write to {email}."
   },
   "NotFound": {
     "title": "This page doesn’t exist",

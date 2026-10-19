@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import { PassportCover } from "@/components/passport/PassportCover";
 import { PartsList } from "@/components/sections/PartsList";
 import { ButtonLink } from "@/components/ui/ButtonLink";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { SITE } from "@/config/site";
 import { cx } from "@/lib/cx";
 
 const LEVELS = ["A2", "B1", "B2", "C"] as const;
@@ -17,6 +19,17 @@ export default async function HomePage() {
 
   return (
     <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: SITE.name,
+          url: SITE.url,
+          description: t("structuredDescription"),
+          inLanguage: ["es-ES", "en-GB"],
+          publisher: { "@type": "Person", name: SITE.owner.name },
+        }}
+      />
       <section className="grid items-center gap-12 md:grid-cols-[minmax(0,1fr)_auto] md:gap-16">
         <div className="max-w-[40rem]">
           <h1 className="text-3xl leading-[1.04] font-black tracking-tight text-balance font-expanded sm:text-4xl">

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { PageHeader } from "@/components/ui/PageHeader";
+import { SITE } from "@/config/site";
 
-const TOPICS = ["stored", "notStored", "delete"] as const;
+const TOPICS = ["stored", "notStored", "audio", "hosting", "delete"] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Privacy");
@@ -23,6 +24,17 @@ export default async function PrivacyPage() {
             <p className="prose-reading mt-2">{t(`${topic}Body`)}</p>
           </section>
         ))}
+        <section aria-labelledby="privacy-contact">
+          <h2 id="privacy-contact" className="text-lg font-bold">
+            {t("contactTitle")}
+          </h2>
+          <p className="prose-reading mt-2">
+            {t("contactBody", {
+              name: SITE.owner.name,
+              email: SITE.owner.email,
+            })}
+          </p>
+        </section>
       </div>
     </>
   );

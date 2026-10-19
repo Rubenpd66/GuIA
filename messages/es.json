@@ -47,7 +47,8 @@
     "partsTitle": "Las 18 partes del examen",
     "partsLead": "Cada parte es una frontera: cuando la dominas, ganas su sello.",
     "levelsTitle": "Tu pasaporte",
-    "levelsLead": "Cada nivel que alcanzas queda sellado: A2, B1, B2 y C."
+    "levelsLead": "Cada nivel que alcanzas queda sellado: A2, B1, B2 y C.",
+    "structuredDescription": "Preparación no oficial y gratuita para el Aptis ESOL General: lecciones, práctica de las 18 partes, test de nivel y simulacros."
   },
   "Sections": {
     "dashboard": {
@@ -197,17 +198,29 @@
     "estimatesTitle": "Niveles orientativos",
     "estimatesBody": "Los niveles y puntuaciones que muestra la app son estimaciones propias, no resultados oficiales.",
     "ownerTitle": "Titular",
-    "ownerBody": "Los datos del titular se completarán antes de publicar la web."
+    "ownerBody": "En cumplimiento del artículo 10 de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI-CE), estos son los datos del titular de la web:",
+    "ownerName": "Titular",
+    "ownerTaxId": "NIF",
+    "ownerAddress": "Domicilio",
+    "ownerEmail": "Contacto",
+    "hostingTitle": "Alojamiento",
+    "hostingBody": "La web se aloja en Vercel Inc. (440 N Barranca Ave #4133, Covina, CA 91723, EE. UU.)."
   },
   "Privacy": {
     "title": "Privacidad",
     "lead": "Qué datos guarda Sello y dónde.",
     "storedTitle": "Qué se guarda",
-    "storedBody": "Tu preferencia de tema y tu progreso (sesiones, puntuaciones y errores por repasar), en el almacenamiento local de tu navegador. Nada sale de tu dispositivo.",
+    "storedBody": "En el almacenamiento local de tu navegador: tu progreso (intentos, puntuaciones y errores por repasar), tus ajustes (tema, voz y velocidad del listening, fecha del examen, tarjetas nuevas al día), tus flashcards, el simulacro en curso y los borradores de Writing. Nada de esto se envía a ningún servidor.",
     "notStoredTitle": "Qué no se guarda",
-    "notStoredBody": "No usamos cookies, herramientas de analítica ni cuentas de usuario.",
+    "notStoredBody": "No usamos cookies, analítica, publicidad ni cuentas de usuario.",
     "deleteTitle": "Cómo borrarlo",
-    "deleteBody": "En Ajustes puedes exportar o borrar tu progreso. También desaparece si borras los datos de este sitio en tu navegador."
+    "deleteBody": "En Ajustes puedes exportar o borrar tu progreso. También desaparece si borras los datos de este sitio en tu navegador.",
+    "audioTitle": "Micrófono y voz",
+    "audioBody": "En Speaking, el micrófono solo se usa si das permiso al empezar una sesión. Las grabaciones se quedan en la memoria de la página y se borran al salir; solo se guardan si las descargas tú. La voz que lee los audios es la de tu propio dispositivo.",
+    "hostingTitle": "Alojamiento",
+    "hostingBody": "Vercel, el proveedor de alojamiento, registra datos técnicos de cada visita (como la dirección IP y el navegador) para servir la web y protegerla de abusos. El titular no usa esos datos para nada más.",
+    "contactTitle": "Responsable y contacto",
+    "contactBody": "Responsable: {name}. Para cualquier pregunta sobre privacidad, escribe a {email}."
   },
   "NotFound": {
     "title": "Esta página no existe",

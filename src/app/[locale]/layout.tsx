@@ -14,12 +14,22 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: LayoutProps<"/[locale]">): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations("Metadata");
   return {
+    metadataBase: new URL(SITE.url),
     title: { default: t("title"), template: `%s | ${SITE.name}` },
     description: t("description"),
     applicationName: SITE.name,
+    openGraph: {
+      type: "website",
+      siteName: SITE.name,
+      locale: locale === "es" ? "es_ES" : "en_GB",
+    },
+    twitter: { card: "summary_large_image" },
   };
 }
 

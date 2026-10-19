@@ -8,6 +8,8 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { Link } from "@/i18n/navigation";
 import { entriesOfGroup, groupBySlug } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { SITE } from "@/config/site";
 import { localized } from "@/lib/content/localize";
 
 type Params = PageProps<"/[locale]/vocabulary/[slug]">["params"];
@@ -61,6 +63,17 @@ async function Group({ params }: { params: Params }) {
 
   return (
     <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "LearningResource",
+          name: localized(group.title, locale),
+          inLanguage: "en-GB",
+          learningResourceType: "Vocabulary list",
+          isAccessibleForFree: true,
+          publisher: { "@type": "Person", name: SITE.owner.name },
+        }}
+      />
       <PageHeader
         title={localized(group.title, locale)}
         lead={localized(group.summary, locale)}

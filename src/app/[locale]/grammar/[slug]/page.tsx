@@ -12,6 +12,8 @@ import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Link } from "@/i18n/navigation";
 import { canDoOfLesson, lessonBySlug, questionsForLesson } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { SITE } from "@/config/site";
 import { localized } from "@/lib/content/localize";
 
 type Params = PageProps<"/[locale]/grammar/[slug]">["params"];
@@ -68,6 +70,20 @@ async function Lesson({ params }: { params: Params }) {
 
   return (
     <article className="space-y-12">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "LearningResource",
+          name: localized(lesson.title, locale),
+          description: lesson.summary.en.replace(/[*_=]/g, ""),
+          inLanguage: "en-GB",
+          educationalLevel: lesson.level,
+          learningResourceType: "Grammar lesson",
+          teaches: localized(lesson.title, locale),
+          isAccessibleForFree: true,
+          publisher: { "@type": "Person", name: SITE.owner.name },
+        }}
+      />
       <header className="max-w-[68ch]">
         <p className="flex items-center gap-3 text-sm text-ink-soft">
           <LevelBadge level={lesson.level} />
