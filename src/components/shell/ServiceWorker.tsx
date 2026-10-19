@@ -34,7 +34,7 @@ export function ServiceWorker() {
   return (
     <div
       role="status"
-      className="fixed inset-x-4 top-4 z-50 mx-auto flex max-w-md flex-wrap items-center gap-3 rounded-page border-[1.5px] border-line bg-paper p-4"
+      className="fixed inset-x-4 top-4 z-50 mx-auto flex max-w-md flex-wrap items-center gap-3 rounded-card border-[1.5px] border-line bg-canvas p-4"
     >
       <p className="flex-1">{t("updated")}</p>
       <Button variant="primary" onClick={() => window.location.reload()}>

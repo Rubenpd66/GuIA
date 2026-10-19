@@ -11,9 +11,9 @@ export function LevelBadge({
   return (
     <span
       className={cx(
-        "inline-flex h-7 min-w-10 items-center justify-center rounded-control border-[1.5px] px-2 text-sm font-bold font-semi-expanded",
+        "inline-flex h-7 min-w-10 items-center justify-center rounded-control border-[1.5px] px-2 text-sm font-bold",
         level === "C1"
-          ? "border-foil-ink text-foil-ink"
+          ? "border-reward-ink text-reward-ink"
           : "border-line text-ink-soft",
         className,
       )}

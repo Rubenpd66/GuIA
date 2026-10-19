@@ -24,9 +24,9 @@ export async function PartsList({ headingLevel }: { headingLevel: 2 | 3 }) {
         <section key={skill} aria-labelledby={`skill-${skill}`}>
           <Heading
             id={`skill-${skill}`}
-            className="flex items-center gap-2.5 text-lg font-bold font-semi-expanded"
+            className="flex items-center gap-2.5 text-lg font-bold"
           >
-            <SkillMark skill={skill} className="text-cover dark:text-foil" />
+            <SkillMark skill={skill} className="text-accent" />
             {t(`Skills.${skill}`)}
           </Heading>
           <ul className="mt-3 border-t border-hairline">
@@ -36,7 +36,7 @@ export async function PartsList({ headingLevel }: { headingLevel: 2 | 3 }) {
                 <li key={part} className="border-b border-hairline">
                   <Link
                     href={{ pathname: "/practice/[part]", params: { part } }}
-                    className="flex min-h-14 items-baseline gap-3 py-3 transition-colors duration-150 hover:text-cover dark:hover:text-foil"
+                    className="flex min-h-14 items-baseline gap-3 py-3 transition-colors duration-150 hover:text-accent"
                   >
                     {number === null ? null : (
                       <span className="w-14 shrink-0 text-sm font-semibold text-ink-soft tabular-nums">

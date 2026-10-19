@@ -11,7 +11,7 @@ const tabClassName = (active: boolean) =>
   cx(
     "relative flex min-h-16 flex-col items-center justify-center gap-1 text-xs font-medium",
     active
-      ? "text-cover before:absolute before:top-0 before:h-[3px] before:w-8 before:rounded-b-sm before:bg-current dark:text-foil"
+      ? "text-accent before:absolute before:top-0 before:h-[3px] before:w-8 before:rounded-b-sm before:bg-current"
       : "text-ink-soft",
   );
 
@@ -23,7 +23,7 @@ export function BottomNav() {
   return (
     <nav
       aria-label={t("mainNav")}
-      className="fixed inset-x-0 bottom-0 z-40 border-t border-hairline bg-sheet pb-[env(safe-area-inset-bottom)] lg:hidden"
+      className="fixed inset-x-0 bottom-0 z-40 border-t border-hairline bg-surface pb-[env(safe-area-inset-bottom)] lg:hidden"
     >
       <ul className="grid grid-cols-5">
         {PRIMARY_NAV.map(({ key, icon }) => {

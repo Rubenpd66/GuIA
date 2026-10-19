@@ -72,7 +72,7 @@ export function Listening1Task({
         })}
       </div>
       {isRevealed ? (
-        <div role="status" className="rounded-control bg-sheet p-3 text-sm">
+        <div role="status" className="rounded-control bg-surface p-3 text-sm">
           <Explanation text={task.explanation} locale={locale} />
         </div>
       ) : null}

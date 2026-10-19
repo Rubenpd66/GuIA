@@ -17,7 +17,7 @@ export function DeleteUserButton({
       <Button onClick={() => dialog.current?.showModal()}>Borrar</Button>
       <dialog
         ref={dialog}
-        className="m-auto max-w-[44ch] rounded-page bg-sheet p-6 text-ink backdrop:bg-ink/50"
+        className="m-auto max-w-[44ch] rounded-card bg-surface p-6 text-ink backdrop:bg-ink/50"
       >
         <form action={deleteUserAsAdmin} className="space-y-4">
           <input type="hidden" name="userId" value={userId} />

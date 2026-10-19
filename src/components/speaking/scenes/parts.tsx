@@ -4,16 +4,16 @@
  */
 
 export const C = {
-  bg: "var(--sheet)",
+  bg: "var(--surface)",
   ground: "var(--hairline)",
   ink: "var(--ink)",
   soft: "var(--ink-soft)",
-  paper: "var(--paper)",
-  green: "var(--guilloche)",
-  gold: "var(--foil)",
-  wine: "var(--cover)",
-  leaf: "var(--entry)",
-  red: "var(--refusal)",
+  paper: "var(--canvas)",
+  green: "var(--line)",
+  gold: "var(--reward)",
+  wine: "var(--accent)",
+  leaf: "var(--success)",
+  red: "var(--danger)",
 } as const;
 
 export const LINE = {

@@ -11,7 +11,7 @@ export function BankStatus({ state }: { state: BankState<unknown> }) {
     return (
       <div
         role="alert"
-        className="max-w-md space-y-3 rounded-control bg-sheet p-4"
+        className="max-w-md space-y-3 rounded-control bg-surface p-4"
       >
         <p>{t("error")}</p>
         <Button onClick={state.retry}>{t("retry")}</Button>

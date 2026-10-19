@@ -10,7 +10,7 @@ export function VocabEntry({ entry }: { entry: VocabularyEntry }) {
   return (
     <li key={entry.id} lang="en" className="py-5">
       <p className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-        <span className="text-xl font-bold font-semi-expanded">
+        <span className="text-xl font-bold">
           {entry.headword}
         </span>
         <span lang={locale} className="text-sm text-ink-soft italic">
@@ -48,9 +48,9 @@ export function VocabEntry({ entry }: { entry: VocabularyEntry }) {
       {entry.falseFriend ? (
         <div
           lang={locale}
-          className="mt-3 rounded-control border-l-[3px] border-foil-ink bg-sheet px-4 py-3"
+          className="mt-3 rounded-control border-l-[3px] border-reward-ink bg-surface px-4 py-3"
         >
-          <p className="font-semibold text-foil-ink">
+          <p className="font-semibold text-reward-ink">
             {t("Vocab.falseFriend")}:{" "}
             {t("Vocab.looksLike", { spanish: entry.falseFriend.spanish })}
           </p>

@@ -41,7 +41,7 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
       fallback={
         <div
           aria-hidden="true"
-          className="h-40 max-w-xl rounded-page bg-hairline"
+          className="h-40 max-w-xl rounded-card bg-hairline"
         />
       }
     >
@@ -92,7 +92,7 @@ async function Lesson({ params }: { params: Params }) {
           <LevelBadge level={lesson.level} />
           {t(`Categories.${lesson.category}`)}
         </p>
-        <h1 className="mt-4 text-2xl font-extrabold tracking-tight text-balance font-expanded sm:text-3xl">
+        <h1 className="mt-4 text-2xl font-extrabold tracking-tight text-balance sm:text-3xl">
           {localized(lesson.title, locale)}
         </h1>
       </header>
@@ -123,7 +123,7 @@ async function Lesson({ params }: { params: Params }) {
           fallback={
             <div
               aria-hidden="true"
-              className="h-40 max-w-xl rounded-page bg-hairline"
+              className="h-40 max-w-xl rounded-card bg-hairline"
             />
           }
         >

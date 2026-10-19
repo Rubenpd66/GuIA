@@ -18,7 +18,7 @@ import {
 } from "./placement";
 import type { Step, StepResult } from "./steps";
 
-const H2 = "text-xl font-bold font-semi-expanded";
+const H2 = "text-xl font-bold";
 
 export function PlacementTest() {
   const t = useTranslations("Placement");
@@ -42,7 +42,7 @@ export function PlacementTest() {
             {levels.map(({ skill, ratio, level }) => (
               <li
                 key={skill}
-                className="flex flex-col items-center gap-2 rounded-page border-[1.5px] border-hairline p-4 text-center"
+                className="flex flex-col items-center gap-2 rounded-card border-[1.5px] border-hairline p-4 text-center"
               >
                 {level ? (
                   <Stamp
@@ -143,7 +143,7 @@ export function PlacementTest() {
         {t("start")}
       </Button>
       {loading === "error" ? (
-        <p role="alert" className="text-refusal">
+        <p role="alert" className="text-danger">
           {tAll("Bank.error")}
         </p>
       ) : null}

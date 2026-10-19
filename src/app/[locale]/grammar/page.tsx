@@ -36,7 +36,7 @@ export default async function GrammarIndexPage() {
             <section key={level} aria-labelledby={`level-${level}`}>
               <h2
                 id={`level-${level}`}
-                className="flex items-center gap-3 text-xl font-bold font-semi-expanded"
+                className="flex items-center gap-3 text-xl font-bold"
               >
                 <LevelBadge level={level} />
                 {t(`Levels.${level}`)}
@@ -55,7 +55,7 @@ export default async function GrammarIndexPage() {
                           pathname: "/grammar/[slug]",
                           params: { slug: lesson.slug },
                         }}
-                        className="flex min-h-14 flex-col justify-center gap-0.5 py-3 transition-colors duration-150 hover:text-cover sm:flex-row sm:items-baseline sm:justify-between sm:gap-6 dark:hover:text-foil"
+                        className="flex min-h-14 flex-col justify-center gap-0.5 py-3 transition-colors duration-150 hover:text-accent sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
                       >
                         <span>
                           <span className="block font-semibold">

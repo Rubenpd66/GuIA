@@ -27,8 +27,8 @@ export function MistakesBank() {
 
   if (parts.length === 0)
     return (
-      <section className="max-w-[68ch] space-y-3 rounded-page bg-sheet p-6">
-        <h2 className="text-xl font-bold font-semi-expanded">
+      <section className="max-w-[68ch] space-y-3 rounded-card bg-surface p-6">
+        <h2 className="text-xl font-bold">
           {t("emptyTitle")}
         </h2>
         <p>{t("emptyBody", { streak: STREAK_TO_CLEAR })}</p>
@@ -68,7 +68,7 @@ export function MistakesBank() {
       <dialog
         ref={dialog}
         aria-labelledby="mistakes-clear-title"
-        className="backdrop:bg-black/40 m-auto max-w-sm rounded-page bg-paper p-6 text-ink"
+        className="backdrop:bg-black/40 m-auto max-w-sm rounded-card bg-canvas p-6 text-ink"
       >
         <p id="mistakes-clear-title" className="font-semibold">
           {t("clearConfirm")}

@@ -42,7 +42,7 @@ export default function VocabularyGroupPage({ params }: { params: Params }) {
       fallback={
         <div
           aria-hidden="true"
-          className="h-40 max-w-xl rounded-page bg-hairline"
+          className="h-40 max-w-xl rounded-card bg-hairline"
         />
       }
     >
@@ -99,7 +99,7 @@ async function Group({ params }: { params: Params }) {
             fallback={
               <li
                 aria-hidden="true"
-                className="my-5 h-24 rounded-page bg-hairline"
+                className="my-5 h-24 rounded-card bg-hairline"
               />
             }
           >

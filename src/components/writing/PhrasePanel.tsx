@@ -27,7 +27,7 @@ export function PhrasePanel({
   const functions = [...new Set(shown.map((phrase) => phrase.function))];
 
   return (
-    <details className="rounded-page bg-sheet p-4">
+    <details className="rounded-card bg-surface p-4">
       <summary className="min-h-11 cursor-pointer content-center font-semibold">
         {t("Writing.trainer.phrases")}
       </summary>
@@ -45,7 +45,7 @@ export function PhrasePanel({
             onChange={(event) =>
               setRegister(event.target.value as RegisterFilter)
             }
-            className="mt-1 min-h-11 rounded-control border-[1.5px] border-line bg-paper px-3"
+            className="mt-1 min-h-11 rounded-control border-[1.5px] border-line bg-canvas px-3"
           >
             <option value="all">{t("Writing.trainer.registerAll")}</option>
             <option value="informal">{t("Vocab.informal")}</option>

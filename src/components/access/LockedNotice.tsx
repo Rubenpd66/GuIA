@@ -41,7 +41,7 @@ export function LockedNotice({
     <section
       data-paywall
       aria-labelledby={`locked-${level}`}
-      className="max-w-[68ch] space-y-3 rounded-page border-[1.5px] border-line bg-sheet p-5"
+      className="max-w-[68ch] space-y-3 rounded-card border-[1.5px] border-line bg-surface p-5"
     >
       <h2
         id={`locked-${level}`}

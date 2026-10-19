@@ -3,7 +3,7 @@ type PageHeaderProps = { title: string; lead?: string };
 export function PageHeader({ title, lead }: PageHeaderProps) {
   return (
     <header className="mb-10 max-w-[68ch]">
-      <h1 className="text-2xl font-extrabold tracking-tight text-balance font-expanded sm:text-3xl">
+      <h1 className="text-2xl font-extrabold tracking-tight text-balance sm:text-3xl">
         {title}
       </h1>
       {lead ? (

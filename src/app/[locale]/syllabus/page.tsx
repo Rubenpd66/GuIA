@@ -19,9 +19,9 @@ const SKILL_SECTIONS = [
   { skill: "speaking", section: "speaking" },
 ] as const;
 
-const H2 = "font-semi-expanded text-xl font-bold";
+const H2 = " text-xl font-bold";
 const ROW =
-  "flex min-h-14 items-center justify-between gap-6 py-3 transition-colors duration-150 hover:text-cover dark:hover:text-foil";
+  "flex min-h-14 items-center justify-between gap-6 py-3 transition-colors duration-150 hover:text-accent";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.syllabus");
@@ -47,7 +47,7 @@ export default async function SyllabusPage() {
           <h2 id="syllabus-grammar" className={H2}>
             <Link
               href="/grammar"
-              className="hover:text-cover dark:hover:text-foil"
+              className="hover:text-accent"
             >
               {t("Syllabus.grammarTitle")}
             </Link>
@@ -78,7 +78,7 @@ export default async function SyllabusPage() {
           <h2 id="syllabus-vocabulary" className={H2}>
             <Link
               href="/vocabulary"
-              className="hover:text-cover dark:hover:text-foil"
+              className="hover:text-accent"
             >
               {t("Syllabus.vocabularyTitle")}
             </Link>
@@ -158,7 +158,7 @@ export default async function SyllabusPage() {
                   <span className="flex items-center gap-3 font-medium">
                     <SkillMark
                       skill={skill}
-                      className="text-cover dark:text-foil"
+                      className="text-accent"
                     />
                     {t(`Skills.${skill}`)}
                   </span>

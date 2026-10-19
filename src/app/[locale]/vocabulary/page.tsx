@@ -48,7 +48,7 @@ export default async function VocabularyIndexPage() {
           <section key={section.id} aria-labelledby={`vocab-${section.id}`}>
             <h2
               id={`vocab-${section.id}`}
-              className="text-xl font-bold font-semi-expanded"
+              className="text-xl font-bold"
             >
               {section.title}
             </h2>
@@ -65,7 +65,7 @@ export default async function VocabularyIndexPage() {
                         pathname: "/vocabulary/[slug]",
                         params: { slug: group.slug },
                       }}
-                      className="flex min-h-14 flex-col justify-center gap-0.5 py-3 transition-colors duration-150 hover:text-cover sm:flex-row sm:items-baseline sm:justify-between sm:gap-6 dark:hover:text-foil"
+                      className="flex min-h-14 flex-col justify-center gap-0.5 py-3 transition-colors duration-150 hover:text-accent sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
                     >
                       <span>
                         <span className="block font-semibold">

@@ -4,7 +4,7 @@ import { SkillMark } from "@/components/passport/SkillMark";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { EXAM_FORMAT, SKILLS } from "@/lib/exam/format";
 
-const H2 = "font-semi-expanded text-xl font-bold";
+const H2 = " text-xl font-bold";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.examGuide");
@@ -35,7 +35,7 @@ export default async function ExamGuidePage() {
                 <dt className="flex items-start gap-2.5 font-semibold">
                   <SkillMark
                     skill={skill}
-                    className="mt-0.5 text-cover dark:text-foil"
+                    className="mt-0.5 text-accent"
                   />
                   <span>
                     {t(`Skills.${skill}`)}
@@ -61,7 +61,7 @@ export default async function ExamGuidePage() {
 
         <section
           aria-labelledby="guide-core"
-          className="rounded-page border-[1.5px] border-foil-ink p-5"
+          className="rounded-card border-[1.5px] border-reward-ink p-5"
         >
           <h2 id="guide-core" className={H2}>
             {t("ExamGuide.coreTitle")}

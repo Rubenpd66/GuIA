@@ -7,7 +7,7 @@ import { getPathname } from "@/i18n/navigation";
 import type { AuthResult } from "@/lib/auth/actions";
 
 export const fieldClass =
-  "mt-2 min-h-12 w-full rounded-control border-[1.5px] border-line bg-paper px-3";
+  "mt-2 min-h-12 w-full rounded-control border-[1.5px] border-line bg-canvas px-3";
 
 type Props = {
   action: (prev: AuthResult, form: FormData) => Promise<AuthResult>;
@@ -58,7 +58,7 @@ export function AuthForm({
         role={state.status === "error" ? "alert" : "status"}
         className={
           state.status === "error"
-            ? "font-semibold text-refusal"
+            ? "font-semibold text-danger"
             : "text-ink-soft"
         }
       >

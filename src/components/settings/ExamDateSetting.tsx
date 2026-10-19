@@ -27,7 +27,7 @@ export function ExamDateSetting() {
                 LocalDay.safeParse(value).success ? value : null,
               );
             }}
-            className="mt-2 min-h-12 rounded-control border-[1.5px] border-line bg-paper px-3"
+            className="mt-2 min-h-12 rounded-control border-[1.5px] border-line bg-canvas px-3"
           />
         </div>
         {examDate ? (

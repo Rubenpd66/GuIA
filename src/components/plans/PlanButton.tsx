@@ -34,7 +34,7 @@ function ActionButton({
         {label}
       </Button>
       {state ? (
-        <p role="alert" className="font-semibold text-refusal">
+        <p role="alert" className="font-semibold text-danger">
           {t(state.message)}
         </p>
       ) : null}

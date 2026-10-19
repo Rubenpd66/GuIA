@@ -28,14 +28,14 @@ export function ResultsView(props: ResultsViewProps) {
       <div>
         <h2
           id="trainer-results"
-          className="text-xl font-bold font-semi-expanded"
+          className="text-xl font-bold"
         >
           {t("resultsTitle")}
         </h2>
         {props.timeUp ? (
-          <p className="mt-1 text-refusal">{t("timeUp")}</p>
+          <p className="mt-1 text-danger">{t("timeUp")}</p>
         ) : null}
-        <p className="mt-3 text-4xl font-black tracking-tight font-expanded">
+        <p className="mt-3 text-4xl font-black tracking-tight">
           {t("score", { correct: props.correct, total: props.total })}
         </p>
         <p className="mt-2 text-sm text-ink-soft">{t("estimate")}</p>
@@ -55,7 +55,7 @@ export function ResultsView(props: ResultsViewProps) {
       </div>
 
       <div>
-        <h3 className="text-lg font-bold font-semi-expanded">
+        <h3 className="text-lg font-bold">
           {t("mistakesTitle")}
         </h3>
         {props.wrongCount === 0 ? (

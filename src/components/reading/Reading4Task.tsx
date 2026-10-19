@@ -30,7 +30,7 @@ export function Reading4Task({
   const keys = task.paragraphs.map((_, i) => readingKey(task.id, i));
   return (
     <div className="space-y-6">
-      <h3 lang="en" className="text-xl font-bold font-semi-expanded">
+      <h3 lang="en" className="text-xl font-bold">
         {task.title}
       </h3>
       <div className="rounded-control border-[1.5px] border-hairline p-4">

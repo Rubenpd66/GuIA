@@ -33,13 +33,13 @@ export function OptionButton({
       className={cx(
         "flex min-h-14 w-full items-center gap-4 rounded-control border-[1.5px] px-4 py-3 text-left text-lg transition-colors duration-150 disabled:cursor-default",
         state === "idle" &&
-          "border-line hover:bg-[color-mix(in_srgb,var(--paper)_90%,var(--ink))]",
+          "border-line hover:bg-[color-mix(in_srgb,var(--canvas)_90%,var(--ink))]",
         state === "selected" &&
-          "border-cover bg-[color-mix(in_srgb,var(--cover)_10%,transparent)] dark:border-foil",
+          "border-accent bg-[color-mix(in_srgb,var(--accent)_10%,transparent)]",
         state === "correct" &&
-          "border-entry bg-[color-mix(in_srgb,var(--entry)_12%,transparent)]",
+          "border-success bg-[color-mix(in_srgb,var(--success)_12%,transparent)]",
         state === "wrong" &&
-          "border-refusal bg-[color-mix(in_srgb,var(--refusal)_10%,transparent)]",
+          "border-danger bg-[color-mix(in_srgb,var(--danger)_10%,transparent)]",
         state === "dimmed" && "border-hairline text-ink-soft",
       )}
     >
@@ -51,10 +51,10 @@ export function OptionButton({
       </span>
       <span className="flex-1">{label}</span>
       {state === "correct" ? (
-        <Icon name="check" className="text-entry" />
+        <Icon name="check" className="text-success" />
       ) : null}
       {state === "wrong" ? (
-        <Icon name="cross" className="text-refusal" />
+        <Icon name="cross" className="text-danger" />
       ) : null}
       {stateLabel ? <span className="sr-only">{stateLabel}</span> : null}
     </button>

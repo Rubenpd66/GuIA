@@ -343,12 +343,12 @@ export function GrammarSession({ session, onFinish }: GrammarSessionProps) {
 
       <div role="status">
         {revealed ? (
-          <div className="space-y-4 rounded-page bg-sheet p-5">
+          <div className="space-y-4 rounded-card bg-surface p-5">
             <p
               className={
                 chosen === question.answer
-                  ? "font-semibold text-entry"
-                  : "font-semibold text-refusal"
+                  ? "font-semibold text-success"
+                  : "font-semibold text-danger"
               }
             >
               {chosen === question.answer
@@ -421,7 +421,7 @@ function MistakeList({
                 gapLabel={tLesson("gap")}
               />
             </p>
-            <p className="text-sm text-refusal">
+            <p className="text-sm text-danger">
               {result.chosen === undefined
                 ? t("notAnswered")
                 : t("yourAnswer", {

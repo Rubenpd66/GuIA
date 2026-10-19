@@ -42,11 +42,11 @@ export function AnswerSelect({
         disabled={revealed}
         onChange={(event) => onChange(Number(event.target.value))}
         className={cx(
-          "min-h-12 w-full min-w-0 rounded-control border-[1.5px] bg-paper px-3 disabled:opacity-100",
+          "min-h-12 w-full min-w-0 rounded-control border-[1.5px] bg-canvas px-3 disabled:opacity-100",
           className ?? "max-w-xs",
           !revealed && "border-line",
-          revealed && right && "border-entry",
-          revealed && !right && "border-refusal",
+          revealed && right && "border-success",
+          revealed && !right && "border-danger",
         )}
       >
         <option value="" disabled lang="es">
@@ -61,7 +61,7 @@ export function AnswerSelect({
       {revealed ? (
         <Icon
           name={right ? "check" : "cross"}
-          className={cx("shrink-0", right ? "text-entry" : "text-refusal")}
+          className={cx("shrink-0", right ? "text-success" : "text-danger")}
         />
       ) : null}
     </div>
@@ -81,8 +81,8 @@ export function Feedback({
   const t = useTranslations("Trainer");
   const locale = useLocale();
   return (
-    <div role="status" className="rounded-control bg-sheet p-3 text-sm">
-      <p className={cx("font-semibold", right ? "text-entry" : "text-refusal")}>
+    <div role="status" className="rounded-control bg-surface p-3 text-sm">
+      <p className={cx("font-semibold", right ? "text-success" : "text-danger")}>
         {right ? t("correct") : t("correctAnswer", { answer })}
       </p>
       <div className="mt-1">

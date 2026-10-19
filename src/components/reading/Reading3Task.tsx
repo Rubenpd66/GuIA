@@ -49,7 +49,7 @@ export function Reading3Task({
             <details
               key={i}
               open
-              className="rounded-control border-[1.5px] border-hairline bg-paper p-3"
+              className="rounded-control border-[1.5px] border-hairline bg-canvas p-3"
             >
               <summary className="flex min-h-11 cursor-pointer items-center font-semibold">
                 {people[i]}

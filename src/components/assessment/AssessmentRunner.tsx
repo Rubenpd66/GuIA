@@ -187,7 +187,7 @@ export function AssessmentRunner({
         id="assessment-step"
         ref={headingRef}
         tabIndex={-1}
-        className="text-xl font-bold font-semi-expanded focus:outline-none"
+        className="text-xl font-bold focus:outline-none"
       >
         {partName(step.part)}
       </h2>

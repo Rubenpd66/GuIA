@@ -47,7 +47,7 @@ export function Reading2Task({
           return (
             <span
               lang="es"
-              className={`mt-1 flex items-center gap-1 font-sans text-sm font-semibold ${right ? "text-entry" : "text-refusal"}`}
+              className={`mt-1 flex items-center gap-1 font-sans text-sm font-semibold ${right ? "text-success" : "text-danger"}`}
             >
               <Icon name={right ? "check" : "cross"} className="size-4" />
               {right
@@ -60,7 +60,7 @@ export function Reading2Task({
         }}
       />
       {revealed ? (
-        <div role="status" className="space-y-4 rounded-control bg-sheet p-4">
+        <div role="status" className="space-y-4 rounded-control bg-surface p-4">
           <h4 className="font-semibold">{t("correctOrder")}</h4>
           <ol lang="en" className="prose-reading list-decimal space-y-1 pl-6">
             {task.sentences.map((sentence, i) => (
@@ -76,7 +76,7 @@ export function Reading2Task({
                     <p>
                       <mark
                         lang="en"
-                        className="rounded-sm bg-[color-mix(in_srgb,var(--foil)_35%,transparent)] px-0.5 text-ink underline decoration-foil decoration-2 underline-offset-4"
+                        className="rounded-sm bg-[color-mix(in_srgb,var(--reward)_35%,transparent)] px-0.5 text-ink underline decoration-reward decoration-2 underline-offset-4"
                       >
                         {hint.phrase}
                       </mark>{" "}

@@ -198,7 +198,7 @@ export function WritingSession({
         }
       />
 
-      <h2 className="text-lg font-bold font-semi-expanded">
+      <h2 className="text-lg font-bold">
         {t(`instructions.${part}`)}
       </h2>
 
@@ -218,7 +218,7 @@ export function WritingSession({
 
       {mode === "study" && !reviewing ? (
         <div className="space-y-3">
-          <details className="rounded-page bg-sheet p-4">
+          <details className="rounded-card bg-surface p-4">
             <summary className="min-h-11 cursor-pointer content-center font-semibold">
               {t("tips")}
             </summary>
@@ -239,13 +239,13 @@ export function WritingSession({
         <h2
           ref={reviewRef}
           tabIndex={-1}
-          className="text-xl font-bold font-semi-expanded focus:outline-none"
+          className="text-xl font-bold focus:outline-none"
         >
           {t("reviewTitle")}
         </h2>
       ) : null}
       {timeUp ? (
-        <p role="status" className="text-refusal">
+        <p role="status" className="text-danger">
           {tTrainer("timeUp")}
         </p>
       ) : null}

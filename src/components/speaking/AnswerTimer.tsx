@@ -34,7 +34,7 @@ export function AnswerTimer({
         className="h-2 overflow-hidden rounded-full bg-hairline"
       >
         <div
-          className="h-full rounded-full bg-cover dark:bg-foil"
+          className="h-full rounded-full bg-accent"
           style={{ width: `${share * 100}%` }}
         />
       </div>

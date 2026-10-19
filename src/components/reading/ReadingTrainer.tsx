@@ -283,7 +283,7 @@ export function ReadingSession({
       />
 
       {mode === "exam" && tasks.length < exam.tasks ? (
-        <p role="status" className="rounded-control bg-sheet px-4 py-3">
+        <p role="status" className="rounded-control bg-surface px-4 py-3">
           {tReading("shortBank", { count: tasks.length, total: exam.tasks })}
         </p>
       ) : null}
@@ -291,7 +291,7 @@ export function ReadingSession({
       <h2
         ref={headingRef}
         tabIndex={-1}
-        className="text-lg font-bold font-semi-expanded focus:outline-none"
+        className="text-lg font-bold focus:outline-none"
       >
         {tReading(`instructions.${part}`)}
       </h2>
@@ -438,10 +438,10 @@ function MistakeList({
             >
               {item.prompt}
             </p>
-            <p className="text-sm font-semibold text-entry">
+            <p className="text-sm font-semibold text-success">
               {t("correctAnswer", { answer: item.answerOf(item.answer) })}
             </p>
-            <p className="text-sm text-refusal">
+            <p className="text-sm text-danger">
               {result.chosen === undefined
                 ? t("notAnswered")
                 : t("yourAnswer", { answer: item.answerOf(result.chosen) })}

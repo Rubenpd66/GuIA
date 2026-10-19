@@ -44,7 +44,7 @@ export function PlanSection() {
             </p>
           ) : null}
           {plan.state === "pastDue" ? (
-            <p role="alert" className="mt-2 font-semibold text-refusal">
+            <p role="alert" className="mt-2 font-semibold text-danger">
               {t("pastDue")}
             </p>
           ) : null}
@@ -66,7 +66,7 @@ export function PlanSection() {
         ) : null}
       </div>
       {state ? (
-        <p role="alert" className="mt-3 font-semibold text-refusal">
+        <p role="alert" className="mt-3 font-semibold text-danger">
           {messages(state.message)}
         </p>
       ) : null}

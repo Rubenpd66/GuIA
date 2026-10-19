@@ -9,11 +9,11 @@ import { Link } from "@/i18n/navigation";
 export async function TopBar() {
   const t = await getTranslations("Nav");
   return (
-    <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-hairline bg-paper px-2 sm:px-4 lg:hidden">
+    <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-hairline bg-canvas px-2 sm:px-4 lg:hidden">
       <Link
         href="/"
         aria-label={t("home")}
-        className="inline-flex rounded-control px-2 text-cover dark:text-foil"
+        className="inline-flex rounded-control px-2 text-accent"
       >
         <Wordmark />
       </Link>

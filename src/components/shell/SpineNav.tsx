@@ -4,7 +4,6 @@ import { useTranslations } from "next-intl";
 import { AccountLink } from "@/components/account/AccountLink";
 import { Icon } from "@/components/icons/Icon";
 import { LocaleSwitcher } from "@/components/i18n/LocaleSwitcher";
-import { Guilloche } from "@/components/passport/Guilloche";
 import { Wordmark } from "@/components/passport/Wordmark";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -33,8 +32,8 @@ export function SpineNav() {
           className={cx(
             "relative flex min-h-12 items-center gap-3 rounded-control px-3 font-medium transition-colors duration-150",
             active
-              ? "text-foil before:absolute before:inset-y-2.5 before:-left-3 before:w-[3px] before:bg-foil"
-              : "text-on-cover/85 hover:bg-on-cover/10 hover:text-on-cover",
+              ? "text-accent before:absolute before:inset-y-2.5 before:-left-3 before:w-[3px] before:bg-accent"
+              : "text-ink-soft hover:bg-hairline hover:text-ink",
           )}
         >
           <Icon name={icon} />
@@ -45,21 +44,20 @@ export function SpineNav() {
   };
 
   return (
-    <aside className="on-cover sticky top-0 hidden h-dvh flex-col overflow-y-auto bg-cover px-6 pt-7 pb-5 text-on-cover lg:flex">
+    <aside className="sticky top-0 hidden h-dvh flex-col overflow-y-auto border-r border-hairline bg-surface px-6 pt-7 pb-5 text-ink lg:flex">
       <Link
         href="/"
         aria-label={t("home")}
-        className="mb-10 inline-flex self-start rounded-control text-foil"
+        className="mb-10 inline-flex self-start rounded-control text-accent"
       >
         <Wordmark />
       </Link>
       <nav aria-label={t("mainNav")} className="flex-1">
         <ul className="space-y-1">{PRIMARY_NAV.map(renderItem)}</ul>
-        <div className="my-5 h-px bg-on-cover/20" />
+        <div className="my-5 h-px bg-hairline" />
         <ul className="space-y-1">{MORE_NAV.map(renderItem)}</ul>
       </nav>
-      <AccountLink className="mb-4 inline-flex min-h-12 items-center rounded-control px-3 font-medium text-on-cover/85 hover:bg-on-cover/10 hover:text-on-cover" />
-      <Guilloche variant="band" className="my-6 h-8 w-full text-foil/35" />
+      <AccountLink className="mb-4 inline-flex min-h-12 items-center rounded-control px-3 font-medium text-ink-soft hover:bg-hairline hover:text-ink" />
       <div className="flex items-center justify-between gap-2">
         <LocaleSwitcher />
         <ThemeToggle />

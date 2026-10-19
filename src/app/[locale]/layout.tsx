@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import { SkipLink } from "@/components/ui/SkipLink";
 import { SITE } from "@/config/site";
 import { routing } from "@/i18n/routing";
-import { archivo, literata } from "../fonts";
+import { figtree } from "../fonts";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -45,7 +45,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${archivo.variable} ${literata.variable}`}
+      className={figtree.variable}
       suppressHydrationWarning
     >
       <body className="antialiased">

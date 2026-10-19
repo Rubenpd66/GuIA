@@ -13,9 +13,9 @@ export async function FurtherStudy({
   return (
     <aside
       aria-labelledby="further-study"
-      className="rounded-page border border-hairline p-5"
+      className="rounded-card border border-hairline p-5"
     >
-      <h2 id="further-study" className="text-lg font-bold font-semi-expanded">
+      <h2 id="further-study" className="text-lg font-bold">
         {t("furtherStudy")}
       </h2>
       <p className="mt-1 text-sm text-ink-soft">{t("furtherStudyLead")}</p>

@@ -29,8 +29,8 @@ export function GapSentence({
               <span
                 className={cx(
                   "border-b-2 px-1 font-semibold",
-                  tone === "entry" && "border-entry text-entry",
-                  tone === "refusal" && "border-refusal text-refusal",
+                  tone === "entry" && "border-success text-success",
+                  tone === "refusal" && "border-danger text-danger",
                   tone === "neutral" && "border-ink",
                 )}
               >

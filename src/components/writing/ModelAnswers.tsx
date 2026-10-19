@@ -8,7 +8,7 @@ import type { CefrLevel } from "@/lib/content/schemas/common";
 import { annotatedSegments, modelLabelKey } from "@/lib/trainer/writing";
 
 const MARK =
-  "rounded-sm bg-[color-mix(in_srgb,var(--foil)_35%,transparent)] px-0.5 text-ink";
+  "rounded-sm bg-[color-mix(in_srgb,var(--reward)_35%,transparent)] px-0.5 text-ink";
 
 /** The B2 and C model answers, with numbered highlights that match the notes below each text. */
 export function ModelAnswers({
@@ -28,7 +28,7 @@ export function ModelAnswers({
           <section
             key={model}
             aria-label={t(`model.${modelLabelKey(model, level)}`)}
-            className="space-y-3 rounded-page bg-sheet p-4"
+            className="space-y-3 rounded-card bg-surface p-4"
           >
             <h3 className="flex flex-wrap justify-between gap-2 font-semibold">
               <span>{t(`model.${modelLabelKey(model, level)}`)}</span>

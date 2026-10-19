@@ -19,7 +19,7 @@ export function RichText({ text }: { text: string }) {
             return (
               <mark
                 key={i}
-                className="rounded-sm bg-[color-mix(in_srgb,var(--foil)_35%,transparent)] px-0.5 text-ink"
+                className="rounded-sm bg-[color-mix(in_srgb,var(--reward)_35%,transparent)] px-0.5 text-ink"
               >
                 {node.text}
               </mark>

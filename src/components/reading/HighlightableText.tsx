@@ -8,7 +8,7 @@ import { splitSentences } from "@/lib/content/text";
 import { cx } from "@/lib/cx";
 
 const MARKED =
-  "rounded-sm bg-[color-mix(in_srgb,var(--foil)_35%,transparent)] underline decoration-foil decoration-2 underline-offset-4";
+  "rounded-sm bg-[color-mix(in_srgb,var(--reward)_35%,transparent)] underline decoration-reward decoration-2 underline-offset-4";
 
 type HighlightableTextProps = {
   paragraphs: string[];
@@ -42,7 +42,7 @@ export function HighlightableText({
                     aria-pressed={marked}
                     onClick={() => onToggle(key)}
                     className={cx(
-                      "inline cursor-pointer rounded-sm text-left hover:bg-[color-mix(in_srgb,var(--foil)_18%,transparent)]",
+                      "inline cursor-pointer rounded-sm text-left hover:bg-[color-mix(in_srgb,var(--reward)_18%,transparent)]",
                       marked && MARKED,
                     )}
                   >
@@ -106,7 +106,7 @@ export function HighlighterControls({
       <Button
         aria-pressed={active}
         onClick={() => onActiveChange(!active)}
-        className="aria-pressed:border-foil aria-pressed:bg-[color-mix(in_srgb,var(--foil)_25%,transparent)]"
+        className="aria-pressed:border-reward aria-pressed:bg-[color-mix(in_srgb,var(--reward)_25%,transparent)]"
       >
         <Icon name="highlighter" className="size-5" />
         {t("toggle")}

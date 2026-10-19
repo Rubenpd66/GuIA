@@ -27,7 +27,7 @@ type SortableListProps = {
 type Picked = { from: number; current: number; via: "keyboard" | "pointer" };
 
 const MOVE_BUTTON =
-  "inline-flex size-11 items-center justify-center rounded-control border-[1.5px] border-line text-ink transition-colors duration-150 hover:bg-[color-mix(in_srgb,var(--paper)_88%,var(--ink))] disabled:cursor-not-allowed disabled:opacity-40";
+  "inline-flex size-11 items-center justify-center rounded-control border-[1.5px] border-line text-ink transition-colors duration-150 hover:bg-[color-mix(in_srgb,var(--canvas)_88%,var(--ink))] disabled:cursor-not-allowed disabled:opacity-40";
 
 /**
  * A list to put in order by dragging a handle (mouse or touch), with the keyboard
@@ -160,10 +160,10 @@ export function SortableList({
                 else rows.current.delete(position);
               }}
               className={cx(
-                "flex items-start gap-3 rounded-control border-[1.5px] bg-paper p-3 transition-shadow duration-150",
+                "flex items-start gap-3 rounded-control border-[1.5px] bg-canvas p-3 transition-shadow duration-150",
                 isFixed ? "border-dashed border-hairline" : "border-line",
                 isPicked &&
-                  "relative z-10 border-cover shadow-lg ring-2 ring-cover dark:border-foil dark:ring-foil",
+                  "relative z-10 border-accent shadow-lg ring-2 ring-accent",
               )}
             >
               <span

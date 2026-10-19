@@ -9,7 +9,7 @@ import { EXAM_FORMAT, partNumber } from "@/lib/exam/format";
 import { READING_PART_EXAM } from "@/lib/trainer/config";
 import type { ReadingPart } from "@/lib/trainer/reading";
 
-const H2 = "font-semi-expanded text-xl font-bold";
+const H2 = " text-xl font-bold";
 const PARTS = Object.keys(READING_PART_EXAM) as ReadingPart[];
 const STRATEGIES = ["s1", "s2", "s3", "s4"] as const;
 /** Grammar lessons that train the links part 2 is built on. */

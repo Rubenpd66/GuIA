@@ -24,7 +24,7 @@ export default async function AdminPage({
 
   return (
     <div className="space-y-10">
-      <h1 className="text-2xl font-extrabold font-expanded">Administración</h1>
+      <h1 className="text-2xl font-extrabold">Administración</h1>
       <section aria-labelledby="users-stats" className="space-y-2">
         <h2 id="users-stats" className="text-lg font-bold">
           Usuarios
@@ -99,7 +99,7 @@ export default async function AdminPage({
             name="q"
             defaultValue={query}
             placeholder="Buscar por email"
-            className="min-h-12 flex-1 rounded-control border-[1.5px] border-line bg-paper px-3"
+            className="min-h-12 flex-1 rounded-control border-[1.5px] border-line bg-canvas px-3"
           />
           <button className="min-h-12 rounded-control border-[1.5px] border-line px-5 font-semibold">
             Buscar

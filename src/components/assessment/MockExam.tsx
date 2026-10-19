@@ -25,7 +25,7 @@ import {
 import { placementPlan } from "./placement";
 import { levelsBySkill } from "./steps";
 
-const H2 = "text-xl font-bold font-semi-expanded";
+const H2 = "text-xl font-bold";
 const SELF_ASSESSED: ReadonlySet<Skill> = new Set(["writing", "speaking"]);
 
 // Only called from event handlers; the purity lint misreads them as render code.
@@ -72,7 +72,7 @@ function MockSetup() {
               }
               className="size-5"
             />
-            <SkillMark skill={skill} className="text-cover dark:text-foil" />
+            <SkillMark skill={skill} className="text-accent" />
             <span>
               {tAll(`Skills.${skill}`)}{" "}
               <span className="text-sm text-ink-soft">
@@ -150,7 +150,7 @@ function MockRun({ state, bank }: { state: MockState; bank: MockBank }) {
       <dialog
         ref={dialog}
         aria-labelledby="mock-discard-title"
-        className="m-auto max-w-md rounded-page bg-sheet p-6 text-ink backdrop:bg-[color-mix(in_srgb,var(--ink)_45%,transparent)]"
+        className="m-auto max-w-md rounded-card bg-surface p-6 text-ink backdrop:bg-[color-mix(in_srgb,var(--ink)_45%,transparent)]"
       >
         <p id="mock-discard-title" className="font-semibold">
           {t("discardConfirm")}
@@ -183,7 +183,7 @@ function MockReport({ state }: { state: MockState }) {
           {levels.map(({ skill, ratio, level }) => (
             <li
               key={skill}
-              className="flex flex-col items-center gap-2 rounded-page border-[1.5px] border-hairline p-4 text-center"
+              className="flex flex-col items-center gap-2 rounded-card border-[1.5px] border-hairline p-4 text-center"
             >
               {level ? (
                 <Stamp
@@ -237,7 +237,7 @@ function MockReport({ state }: { state: MockState }) {
 
       <section
         aria-labelledby="mock-gv"
-        className="space-y-2 rounded-page bg-sheet p-5"
+        className="space-y-2 rounded-card bg-surface p-5"
       >
         <h2 id="mock-gv" className="font-semibold">
           {t("gvTitle")}

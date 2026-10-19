@@ -18,8 +18,8 @@ type WritingEditorProps = {
 
 const STATUS_CLASS = {
   below: "text-ink-soft",
-  within: "text-entry",
-  above: "text-refusal",
+  within: "text-success",
+  above: "text-danger",
 } as const;
 
 /** A labelled textarea with a word counter; only the range status is announced, not each word. */
@@ -51,8 +51,8 @@ export function WritingEditor({
         aria-describedby={`${id}-count`}
         onChange={(event) => onChange(event.target.value)}
         className={cx(
-          "prose-reading block w-full rounded-control border-[1.5px] border-line bg-paper p-3 text-lg",
-          readOnly && "bg-sheet text-ink-soft",
+          "prose-reading block w-full rounded-control border-[1.5px] border-line bg-canvas p-3 text-lg",
+          readOnly && "bg-surface text-ink-soft",
         )}
       />
       <p

@@ -10,22 +10,7 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { parseThemeTokens } from "@/lib/design/css-tokens";
 import type { Skill } from "@/lib/exam/format";
 
-const TOKENS = [
-  "paper",
-  "sheet",
-  "ink",
-  "ink-soft",
-  "line",
-  "hairline",
-  "cover",
-  "on-cover",
-  "foil",
-  "foil-ink",
-  "entry",
-  "refusal",
-  "guilloche",
-  "focus",
-] as const;
+const TOKENS = ["canvas","surface","ink","ink-soft","line","hairline","accent","on-accent","success","danger","reward","reward-ink","focus"] as const;
 
 const TYPE_SCALE = [
   ["text-4xl", "51.9"],
@@ -51,7 +36,7 @@ const STAMPS: {
   { skill: "speaking", level: "C", tone: "foil", rotate: -3 },
 ];
 
-const H2 = "font-semi-expanded text-xl font-bold";
+const H2 = " text-xl font-bold";
 
 /** The swatches show the real values from globals.css, read once at build time. */
 async function readThemeTokens() {
@@ -118,7 +103,7 @@ export default async function DesignPage() {
             </li>
           ))}
         </ul>
-        <p className="mt-8 text-3xl font-black tracking-tight font-expanded">
+        <p className="mt-8 text-3xl font-black tracking-tight">
           Archivo 125 %
         </p>
         <p lang="en" className="prose-reading mt-4 text-lg">
@@ -185,9 +170,9 @@ export default async function DesignPage() {
           {t("Design.guilloche")}
         </h2>
         <div className="mt-5 flex flex-wrap items-center gap-8">
-          <Guilloche variant="rosette" className="w-48 text-guilloche" />
-          <div className="on-cover w-full max-w-sm rounded-page bg-cover p-6">
-            <Guilloche variant="band" className="h-10 w-full text-foil/60" />
+          <Guilloche variant="rosette" className="w-48 text-line" />
+          <div className=" w-full max-w-sm rounded-card bg-accent p-6">
+            <Guilloche variant="band" className="h-10 w-full text-reward/60" />
           </div>
         </div>
       </section>

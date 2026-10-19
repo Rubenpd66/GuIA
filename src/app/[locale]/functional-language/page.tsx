@@ -57,7 +57,7 @@ export default async function FunctionalLanguagePage() {
             >
               <h2
                 id={`${group.function}-title`}
-                className="text-xl font-bold font-semi-expanded"
+                className="text-xl font-bold"
               >
                 {t(`Functional.${group.function}`)}
               </h2>

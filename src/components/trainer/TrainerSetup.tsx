@@ -28,7 +28,7 @@ type TrainerSetupProps = {
 };
 
 const CARD =
-  "flex cursor-pointer flex-col gap-1 rounded-page border-[1.5px] p-4 has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-focus";
+  "flex cursor-pointer flex-col gap-1 rounded-card border-[1.5px] p-4 has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-focus";
 
 export function TrainerSetup(props: TrainerSetupProps) {
   const t = useTranslations("Trainer");
@@ -52,12 +52,12 @@ export function TrainerSetup(props: TrainerSetupProps) {
 
   return (
     <section aria-labelledby="trainer-setup" className="max-w-[68ch] space-y-6">
-      <h2 id="trainer-setup" className="text-xl font-bold font-semi-expanded">
+      <h2 id="trainer-setup" className="text-xl font-bold">
         {t("setupTitle")}
       </h2>
 
       {props.focusName ? (
-        <p className="flex flex-wrap items-center gap-3 rounded-control bg-sheet px-4 py-3">
+        <p className="flex flex-wrap items-center gap-3 rounded-control bg-surface px-4 py-3">
           <span className="font-semibold">
             {t("focus", { name: props.focusName })}
           </span>
@@ -80,7 +80,7 @@ export function TrainerSetup(props: TrainerSetupProps) {
               className={cx(
                 CARD,
                 props.mode === mode.value
-                  ? "border-cover bg-sheet dark:border-foil"
+                  ? "border-accent bg-surface"
                   : "border-line",
               )}
             >
@@ -110,7 +110,7 @@ export function TrainerSetup(props: TrainerSetupProps) {
             onChange={(event) =>
               props.onLevelChange(event.target.value as CefrLevel | "all")
             }
-            className="mt-2 min-h-12 w-full max-w-xs rounded-control border-[1.5px] border-line bg-paper px-3"
+            className="mt-2 min-h-12 w-full max-w-xs rounded-control border-[1.5px] border-line bg-canvas px-3"
           >
             <option value="all">{t("allLevels")}</option>
             {props.levels.map((level) => (
@@ -123,7 +123,7 @@ export function TrainerSetup(props: TrainerSetupProps) {
       )}
 
       {props.poolSize === 0 ? (
-        <p role="status" className="text-refusal">
+        <p role="status" className="text-danger">
           {t("empty")}
         </p>
       ) : (

@@ -12,11 +12,11 @@ const SIZES: Record<ButtonSize, string> = {
 /* Hover mixes the colour towards the ink, so it darkens in light mode and lightens in dark mode. */
 const VARIANTS: Record<ButtonVariant, string> = {
   primary:
-    "bg-cover text-on-cover hover:bg-[color-mix(in_srgb,var(--cover)_82%,var(--ink))]",
+    "bg-accent text-on-accent hover:bg-[color-mix(in_srgb,var(--accent)_82%,var(--ink))]",
   secondary:
-    "border-[1.5px] border-line text-ink hover:bg-[color-mix(in_srgb,var(--paper)_88%,var(--ink))]",
+    "border-[1.5px] border-line text-ink hover:bg-[color-mix(in_srgb,var(--canvas)_88%,var(--ink))]",
   ghost:
-    "text-ink underline decoration-1 underline-offset-4 hover:decoration-2 hover:bg-[color-mix(in_srgb,var(--paper)_92%,var(--ink))]",
+    "text-ink underline decoration-1 underline-offset-4 hover:decoration-2 hover:bg-[color-mix(in_srgb,var(--canvas)_92%,var(--ink))]",
 };
 
 export function buttonClasses(

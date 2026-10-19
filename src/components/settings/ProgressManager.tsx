@@ -97,7 +97,7 @@ export function ProgressManager() {
       </div>
       <p
         role="status"
-        className={message?.tone === "error" ? "text-refusal" : "text-entry"}
+        className={message?.tone === "error" ? "text-danger" : "text-success"}
       >
         {message?.text}
       </p>
@@ -105,7 +105,7 @@ export function ProgressManager() {
       <dialog
         ref={confirmDialog}
         aria-labelledby="reset-title"
-        className="m-auto max-w-md rounded-page bg-sheet p-6 text-ink backdrop:bg-[color-mix(in_srgb,var(--ink)_45%,transparent)]"
+        className="m-auto max-w-md rounded-card bg-surface p-6 text-ink backdrop:bg-[color-mix(in_srgb,var(--ink)_45%,transparent)]"
       >
         <p id="reset-title" className="font-semibold">
           {t("resetConfirm")}

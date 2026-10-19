@@ -7,7 +7,7 @@ import { EXAM_FORMAT, partNumber } from "@/lib/exam/format";
 import { SPEAKING_PART_EXAM } from "@/lib/trainer/config";
 import { SPEAKING_RUBRIC, type SpeakingPart } from "@/lib/trainer/speaking";
 
-const H2 = "font-semi-expanded text-xl font-bold";
+const H2 = " text-xl font-bold";
 const PARTS = Object.keys(SPEAKING_PART_EXAM) as SpeakingPart[];
 const STRATEGIES = ["s1", "s2", "s3", "s4"] as const;
 
@@ -31,7 +31,7 @@ export default async function SpeakingPage() {
 
         <section
           aria-labelledby="speaking-privacy"
-          className="space-y-3 rounded-page bg-sheet p-5"
+          className="space-y-3 rounded-card bg-surface p-5"
         >
           <h2 id="speaking-privacy" className="font-semibold">
             {t("SpeakingPage.privacyTitle")}

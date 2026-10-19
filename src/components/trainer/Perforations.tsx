@@ -16,10 +16,10 @@ export function Perforations({ states }: PerforationsProps) {
             "size-2.5 rounded-full",
             state === "answered" && "bg-ink",
             state === "current" &&
-              "bg-cover ring-2 ring-cover ring-offset-2 ring-offset-paper dark:bg-foil dark:ring-foil",
+              "bg-accent ring-2 ring-accent ring-offset-2 ring-offset-canvas",
             state === "open" && "border border-line",
-            state === "right" && "bg-entry",
-            state === "wrong" && "bg-refusal",
+            state === "right" && "bg-success",
+            state === "wrong" && "bg-danger",
           )}
         />
       ))}

@@ -34,7 +34,7 @@ export function PlanCards({ figures }: { figures: Record<Tier, PlanFigures> }) {
           {INTERVALS.map((value) => (
             <label
               key={value}
-              className="flex min-h-12 cursor-pointer items-center rounded-control border-[1.5px] border-line px-5 font-semibold has-[:checked]:border-ink has-[:checked]:bg-sheet has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2"
+              className="flex min-h-12 cursor-pointer items-center rounded-control border-[1.5px] border-line px-5 font-semibold has-[:checked]:border-ink has-[:checked]:bg-surface has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2"
             >
               <input
                 type="radio"
@@ -62,13 +62,13 @@ export function PlanCards({ figures }: { figures: Record<Tier, PlanFigures> }) {
               <article
                 aria-current={highlighted === tier ? "true" : undefined}
                 className={cx(
-                  "flex w-full flex-col gap-4 rounded-page border-[1.5px] bg-sheet p-5",
+                  "flex w-full flex-col gap-4 rounded-card border-[1.5px] bg-surface p-5",
                   highlighted === tier
                     ? "border-ink ring-2 ring-ink"
                     : "border-line",
                 )}
               >
-                <h2 className="text-xl font-bold font-semi-expanded">
+                <h2 className="text-xl font-bold">
                   {t("planName", { level: TIER_LEVEL[tier] })}
                 </h2>
                 <p>

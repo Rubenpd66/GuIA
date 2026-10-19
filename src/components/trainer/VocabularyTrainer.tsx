@@ -247,7 +247,7 @@ export function VocabularySession({
       />
 
       <div>
-        <h2 className="text-lg font-bold font-semi-expanded">
+        <h2 className="text-lg font-bold">
           {tTypes(task.vocabType)}
         </h2>
         {task.instructions ? (
@@ -263,7 +263,7 @@ export function VocabularySession({
           {task.options.map((word) => (
             <li
               key={word}
-              className="rounded-control border border-hairline bg-sheet px-3 py-1"
+              className="rounded-control border border-hairline bg-surface px-3 py-1"
             >
               {word}
             </li>
@@ -307,10 +307,10 @@ export function VocabularySession({
                     })
                   }
                   className={cx(
-                    "min-h-12 w-full max-w-xs rounded-control border-[1.5px] bg-paper px-3 disabled:opacity-100",
+                    "min-h-12 w-full max-w-xs rounded-control border-[1.5px] bg-canvas px-3 disabled:opacity-100",
                     !revealed && "border-line",
-                    revealed && right && "border-entry",
-                    revealed && !right && "border-refusal",
+                    revealed && right && "border-success",
+                    revealed && !right && "border-danger",
                   )}
                 >
                   <option value="" disabled>
@@ -325,20 +325,20 @@ export function VocabularySession({
                 {revealed ? (
                   <Icon
                     name={right ? "check" : "cross"}
-                    className={right ? "text-entry" : "text-refusal"}
+                    className={right ? "text-success" : "text-danger"}
                   />
                 ) : null}
               </div>
               {revealed ? (
                 <div
                   role="status"
-                  className="rounded-control bg-sheet p-3 text-sm"
+                  className="rounded-control bg-surface p-3 text-sm"
                 >
                   <p
                     className={
                       right
-                        ? "font-semibold text-entry"
-                        : "font-semibold text-refusal"
+                        ? "font-semibold text-success"
+                        : "font-semibold text-danger"
                     }
                   >
                     {right
@@ -417,10 +417,10 @@ function MistakeList({
             <p lang="en" className="prose-reading text-lg">
               {item.prompt.replace(/_{3,}/, task.options[item.answer] ?? "___")}
             </p>
-            <p className="text-sm font-semibold text-entry">
+            <p className="text-sm font-semibold text-success">
               {t("correctAnswer", { answer: task.options[item.answer] ?? "" })}
             </p>
-            <p className="text-sm text-refusal">
+            <p className="text-sm text-danger">
               {result.chosen === undefined
                 ? t("notAnswered")
                 : t("yourAnswer", {

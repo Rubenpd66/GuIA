@@ -10,7 +10,7 @@ import { canDoOfLesson, lessonBySlug, questionsForLesson } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
 import { localized } from "@/lib/content/localize";
 
-const H2 = "font-semi-expanded text-xl font-bold";
+const H2 = " text-xl font-bold";
 
 /**
  * Everything after a lesson's summary. It loads the lesson itself by slug, so a page can put
@@ -35,7 +35,7 @@ export async function LessonBody({ slug }: { slug: string }) {
         </h2>
         <ul
           lang="en"
-          className="mt-4 space-y-2 rounded-page border-[1.5px] border-line bg-sheet p-5"
+          className="mt-4 space-y-2 rounded-card border-[1.5px] border-line bg-surface p-5"
         >
           {lesson.form.map((line) => (
             <li key={line}>
@@ -96,16 +96,16 @@ export async function LessonBody({ slug }: { slug: string }) {
           {lesson.mistakes.map((mistake) => (
             <li
               key={mistake.wrong}
-              className="rounded-page border border-hairline p-4"
+              className="rounded-card border border-hairline p-4"
             >
-              <p lang="en" className="flex items-start gap-2 text-refusal">
+              <p lang="en" className="flex items-start gap-2 text-danger">
                 <Icon name="cross" className="mt-0.5 size-5" />
                 <span className="sr-only">{t("Lesson.wrong")}: </span>
                 <s className="decoration-1">{mistake.wrong}</s>
               </p>
               <p
                 lang="en"
-                className="mt-1 flex items-start gap-2 font-semibold text-entry"
+                className="mt-1 flex items-start gap-2 font-semibold text-success"
               >
                 <Icon name="check" className="mt-0.5 size-5" />
                 <span className="sr-only">{t("Lesson.right")}: </span>
@@ -140,8 +140,8 @@ export async function LessonBody({ slug }: { slug: string }) {
       ) : null}
 
       <div className="grid max-w-[68ch] gap-6">
-        <aside aria-labelledby="trainer" className="rounded-page bg-sheet p-5">
-          <h2 id="trainer" className="text-lg font-bold font-semi-expanded">
+        <aside aria-labelledby="trainer" className="rounded-card bg-surface p-5">
+          <h2 id="trainer" className="text-lg font-bold">
             {t("Lesson.trainerTitle")}
           </h2>
           <p className="mt-1 text-ink-soft">

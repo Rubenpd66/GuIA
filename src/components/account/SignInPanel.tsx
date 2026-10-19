@@ -71,7 +71,7 @@ export function SignInPanel() {
   return (
     <div className="max-w-[44ch] space-y-10">
       {linkError ? (
-        <p role="alert" className="font-semibold text-refusal">
+        <p role="alert" className="font-semibold text-danger">
           {t("linkError")}
         </p>
       ) : null}

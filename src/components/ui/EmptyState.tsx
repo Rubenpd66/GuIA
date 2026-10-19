@@ -5,7 +5,7 @@ type EmptyStateProps = { title: string; body: string; action?: ReactNode };
 /** An empty stamp slot: the dashed outline says "nothing here yet, but it has a place". */
 export function EmptyState({ title, body, action }: EmptyStateProps) {
   return (
-    <section className="flex max-w-[68ch] items-start gap-5 rounded-page border-[1.5px] border-dashed border-line p-6">
+    <section className="flex max-w-[68ch] items-start gap-5 rounded-card border-[1.5px] border-dashed border-line p-6">
       <svg
         viewBox="0 0 48 48"
         className="size-12 shrink-0 -rotate-6 text-ink-soft"

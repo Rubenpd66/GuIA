@@ -5,8 +5,8 @@ import { STAMP_SHAPES } from "./stamp-shapes";
 export type StampLevel = "A2" | "B1" | "B2" | "C";
 
 const TONES = {
-  entry: "text-entry",
-  foil: "text-foil-ink",
+  entry: "text-success",
+  foil: "text-reward-ink",
   ink: "text-ink",
 } as const;
 

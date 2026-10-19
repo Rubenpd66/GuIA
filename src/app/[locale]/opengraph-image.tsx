@@ -11,7 +11,7 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-/** The share card: the brand on passport paper, in the light theme's colours (no third-party logos). */
+/** The share card: the brand on white, in the light theme's colours (no third-party logos). */
 export default async function Image({
   params,
 }: {
@@ -31,9 +31,9 @@ export default async function Image({
         flexDirection: "column",
         justifyContent: "space-between",
         padding: 72,
-        background: "#eef2ef",
-        color: "#1a2332",
-        borderLeft: "48px solid #6b1f33",
+        background: "#ffffff",
+        color: "#14161c",
+        borderLeft: "48px solid #1f5fe0",
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
@@ -42,13 +42,13 @@ export default async function Image({
             width: 96,
             height: 96,
             borderRadius: 48,
-            border: "8px solid #6b1f33",
+            border: "8px solid #1f5fe0",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
             fontSize: 40,
             fontWeight: 800,
-            color: "#6b1f33",
+            color: "#1f5fe0",
           }}
         >
           C

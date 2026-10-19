@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE } from "@/config/site";
-import { archivo } from "./fonts";
+import { figtree } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,19 +13,19 @@ export const metadata: Metadata = {
 const THEME_SCRIPT = `try{var t=localStorage.getItem("theme");var d=t==="dark"||((!t||t==="system")&&matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.setAttribute("data-theme",d?"dark":"light")}catch(e){}`;
 
 const LINK =
-  "inline-flex min-h-12 items-center rounded-control bg-cover px-5 font-semibold text-on-cover";
+  "inline-flex min-h-12 items-center rounded-control bg-accent px-5 font-semibold text-on-accent";
 
 /** For URLs outside both locales, so it speaks Spanish and English. */
 export default function GlobalNotFound() {
   return (
-    <html lang="es" className={archivo.variable} suppressHydrationWarning>
+    <html lang="es" className={figtree.variable} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
       </head>
       <body className="antialiased">
         <main className="mx-auto flex min-h-dvh max-w-[60ch] flex-col justify-center gap-8 px-4 py-16">
           <section>
-            <h1 className="text-2xl font-extrabold font-expanded">
+            <h1 className="text-2xl font-extrabold">
               Esta página no existe
             </h1>
             <p className="mt-2 text-ink-soft">
@@ -36,7 +36,7 @@ export default function GlobalNotFound() {
             </Link>
           </section>
           <section lang="en">
-            <h2 className="text-2xl font-extrabold font-expanded">
+            <h2 className="text-2xl font-extrabold">
               This page doesn’t exist
             </h2>
             <p className="mt-2 text-ink-soft">The address may be mistyped.</p>

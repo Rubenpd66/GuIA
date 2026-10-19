@@ -42,13 +42,13 @@ export function MoreDialog({
         onClick={(event) => {
           if (event.target === event.currentTarget) close();
         }}
-        className="fixed inset-x-0 top-auto bottom-0 m-0 max-h-[85dvh] w-full max-w-none rounded-t-page bg-sheet p-0 text-ink backdrop:bg-[color-mix(in_srgb,var(--ink)_45%,transparent)]"
+        className="fixed inset-x-0 top-auto bottom-0 m-0 max-h-[85dvh] w-full max-w-none rounded-t-page bg-surface p-0 text-ink backdrop:bg-[color-mix(in_srgb,var(--ink)_45%,transparent)]"
       >
         <div className="px-4 pt-3 pb-[calc(1rem+env(safe-area-inset-bottom))]">
           <div className="flex items-center justify-between">
             <h2
               id="more-dialog-title"
-              className="text-lg font-bold font-expanded"
+              className="text-lg font-bold"
             >
               {t("moreTitle")}
             </h2>
@@ -68,7 +68,7 @@ export function MoreDialog({
                     aria-current={active ? "page" : undefined}
                     className={cx(
                       "flex min-h-14 items-center gap-4 px-2 text-lg font-medium",
-                      active && "text-cover dark:text-foil",
+                      active && "text-accent",
                     )}
                   >
                     <Icon name={icon} />

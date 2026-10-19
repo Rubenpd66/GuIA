@@ -26,7 +26,7 @@ import { flashcardsStore } from "@/lib/flashcards/store";
 import { examDateStore } from "@/lib/progress/examDate";
 import { useProgress } from "@/lib/progress/useProgress";
 
-const H2 = "text-xl font-bold font-semi-expanded";
+const H2 = "text-xl font-bold";
 const percent = (estimate: Estimate) => Math.round(estimate.ratio * 100);
 
 export function Dashboard() {
@@ -48,7 +48,7 @@ export function Dashboard() {
 
   if (progress.attempts.length === 0)
     return (
-      <section className="max-w-[68ch] space-y-4 rounded-page bg-sheet p-6">
+      <section className="max-w-[68ch] space-y-4 rounded-card bg-surface p-6">
         <h2 className={H2}>{t("emptyTitle")}</h2>
         <p>{t("emptyBody")}</p>
         <div className="flex flex-col gap-3 sm:flex-row">
@@ -94,7 +94,7 @@ export function Dashboard() {
           </p>
         ) : null}
         {next[0] ? (
-          <div className="space-y-3 rounded-page bg-sheet p-5">
+          <div className="space-y-3 rounded-card bg-surface p-5">
             <p className="text-lg">{suggestionText(next[0])}</p>
             <ButtonLink variant="primary" href={suggestionLink(next[0])}>
               {t("go")}
@@ -134,7 +134,7 @@ export function Dashboard() {
               >
                 <SkillMark
                   skill={skill}
-                  className="text-cover dark:text-foil"
+                  className="text-accent"
                 />
                 <dt className="font-semibold">{tAll(`Skills.${skill}`)}</dt>
                 <dd className="ml-auto text-right">
@@ -170,13 +170,13 @@ export function Dashboard() {
           {t("habitTitle")}
         </h2>
         <dl className="grid grid-cols-2 gap-3">
-          <div className="rounded-control bg-sheet p-4">
+          <div className="rounded-control bg-surface p-4">
             <dt className="text-sm text-ink-soft">{t("streakLabel")}</dt>
             <dd className="text-2xl font-bold tabular-nums">
               {t("days", { count: streak(progress.attempts, now) })}
             </dd>
           </div>
-          <div className="rounded-control bg-sheet p-4">
+          <div className="rounded-control bg-surface p-4">
             <dt className="text-sm text-ink-soft">{t("weekLabel")}</dt>
             <dd className="text-2xl font-bold tabular-nums">
               {t("minutes", {
@@ -206,7 +206,7 @@ export function Dashboard() {
               <li key={part}>
                 <Link
                   href={{ pathname: "/practice/[part]", params: { part } }}
-                  className="flex min-h-12 items-center justify-between gap-3 py-2 hover:bg-sheet"
+                  className="flex min-h-12 items-center justify-between gap-3 py-2 hover:bg-surface"
                 >
                   <span>{partName(part)}</span>
                   <span className="shrink-0 text-sm text-ink-soft tabular-nums">
@@ -257,7 +257,7 @@ function PassportSlot({
       ? tAll(`Parts.${part}`)
       : tAll("Practice.partNumber", { number });
   return (
-    <li className="flex flex-col items-center gap-1 rounded-page border-[1.5px] border-dashed border-hairline p-2 text-center">
+    <li className="flex flex-col items-center gap-1 rounded-card border-[1.5px] border-dashed border-hairline p-2 text-center">
       <Link
         href={{ pathname: "/practice/[part]", params: { part } }}
         className="flex flex-col items-center gap-1"

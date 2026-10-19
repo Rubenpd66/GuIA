@@ -36,7 +36,7 @@ export function AudioPlayer({ id, script, audio, label }: AudioPlayerProps) {
 
   if (!speech.supported)
     return (
-      <p role="status" className="rounded-control bg-sheet px-4 py-3">
+      <p role="status" className="rounded-control bg-surface px-4 py-3">
         {t("unsupported")}
       </p>
     );

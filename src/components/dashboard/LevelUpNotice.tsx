@@ -19,7 +19,7 @@ export function LevelUpNotice() {
   return (
     <div
       role="status"
-      className="fixed inset-x-4 bottom-[calc(5rem+env(safe-area-inset-bottom))] z-40 mx-auto flex max-w-md items-center gap-4 rounded-page border-[1.5px] border-line bg-paper p-4 shadow-none lg:bottom-6"
+      className="fixed inset-x-4 bottom-[calc(5rem+env(safe-area-inset-bottom))] z-40 mx-auto flex max-w-md items-center gap-4 rounded-card border-[1.5px] border-line bg-canvas p-4 shadow-none lg:bottom-6"
     >
       <Stamp
         skill={SKILL_OF_PART[first.part]}

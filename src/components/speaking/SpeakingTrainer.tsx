@@ -281,7 +281,7 @@ export function SpeakingSession({
         <h2
           ref={headingRef}
           tabIndex={-1}
-          className="text-xl font-bold font-semi-expanded focus:outline-none"
+          className="text-xl font-bold focus:outline-none"
         >
           {t("reviewTitle")}
         </h2>
@@ -351,12 +351,12 @@ export function SpeakingSession({
         </p>
       </div>
 
-      <h2 className="text-lg font-bold font-semi-expanded">
+      <h2 className="text-lg font-bold">
         {t(`instructions.${part}`)}
       </h2>
 
       {micNotice ? (
-        <p role="status" className="rounded-control bg-sheet px-4 py-3">
+        <p role="status" className="rounded-control bg-surface px-4 py-3">
           {micNotice}
         </p>
       ) : null}
@@ -366,11 +366,11 @@ export function SpeakingSession({
 
       {mode === "study" && state.phase === "ready" ? (
         <div className="space-y-3">
-          <p className="rounded-control bg-sheet px-4 py-3 text-sm">
+          <p className="rounded-control bg-surface px-4 py-3 text-sm">
             <span className="font-semibold">{t("structureTitle")}:</span>{" "}
             {t(`structure.${part}`)}
           </p>
-          <details className="rounded-page bg-sheet p-4">
+          <details className="rounded-card bg-surface p-4">
             <summary className="min-h-11 cursor-pointer content-center font-semibold">
               {t("tips")}
             </summary>
@@ -408,7 +408,7 @@ export function SpeakingSession({
             id="speaking-notes"
             lang="en"
             rows={4}
-            className="block w-full rounded-control border-[1.5px] border-line bg-paper p-3"
+            className="block w-full rounded-control border-[1.5px] border-line bg-canvas p-3"
           />
         </div>
       ) : null}
@@ -419,7 +419,7 @@ export function SpeakingSession({
             <>
               <span
                 aria-hidden="true"
-                className="size-3 rounded-full bg-refusal motion-safe:animate-pulse"
+                className="size-3 rounded-full bg-danger motion-safe:animate-pulse"
               />
               {t("recording")}
             </>

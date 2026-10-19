@@ -15,7 +15,7 @@ export function PlansFaq() {
   const t = useTranslations("Plans.faq");
   return (
     <section aria-labelledby="faq-heading" className="max-w-[68ch] space-y-3">
-      <h2 id="faq-heading" className="text-xl font-bold font-semi-expanded">
+      <h2 id="faq-heading" className="text-xl font-bold">
         {t("title")}
       </h2>
       <div className="border-t border-hairline">

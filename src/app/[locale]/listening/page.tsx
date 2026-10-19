@@ -7,7 +7,7 @@ import { EXAM_FORMAT, partNumber } from "@/lib/exam/format";
 import { LISTENING_PART_EXAM } from "@/lib/trainer/config";
 import type { ListeningPart } from "@/lib/trainer/listening";
 
-const H2 = "font-semi-expanded text-xl font-bold";
+const H2 = " text-xl font-bold";
 const PARTS = Object.keys(LISTENING_PART_EXAM) as ListeningPart[];
 const STRATEGIES = ["s1", "s2", "s3", "s4"] as const;
 
@@ -39,7 +39,7 @@ export default async function ListeningPage() {
 
         <section
           aria-labelledby="listening-voices"
-          className="space-y-3 rounded-page bg-sheet p-5"
+          className="space-y-3 rounded-card bg-surface p-5"
         >
           <h2 id="listening-voices" className="font-semibold">
             {t("ListeningPage.voiceTitle")}

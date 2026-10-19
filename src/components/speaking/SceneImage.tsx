@@ -16,7 +16,7 @@ export function SceneImage({
       role="img"
       aria-label={localized(image.alt, locale)}
       viewBox="0 0 480 320"
-      className="block h-auto w-full overflow-hidden rounded-page border-[1.5px] border-hairline"
+      className="block h-auto w-full overflow-hidden rounded-card border-[1.5px] border-hairline"
     >
       <Drawing />
     </svg>

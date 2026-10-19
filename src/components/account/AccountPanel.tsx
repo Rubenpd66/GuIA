@@ -124,7 +124,7 @@ export function AccountPanel() {
         </Button>
         <dialog
           ref={confirmDialog}
-          className="m-auto max-w-[44ch] rounded-page bg-sheet p-6 text-ink backdrop:bg-ink/50"
+          className="m-auto max-w-[44ch] rounded-card bg-surface p-6 text-ink backdrop:bg-ink/50"
         >
           <form action={remove} className="space-y-4">
             <p className="font-semibold">{t("deleteConfirm")}</p>
@@ -146,7 +146,7 @@ export function AccountPanel() {
               </Button>
             </div>
             {deleted.status === "error" ? (
-              <p role="alert" className="font-semibold text-refusal">
+              <p role="alert" className="font-semibold text-danger">
                 {t("messages.failed")}
               </p>
             ) : null}

@@ -32,7 +32,7 @@ export function SpeakingModels({
           <section
             key={model}
             aria-label={t(`model.${modelLabelKey(model, level)}`)}
-            className="space-y-3 rounded-page bg-sheet p-4"
+            className="space-y-3 rounded-card bg-surface p-4"
           >
             <h3 className="flex flex-wrap items-center justify-between gap-2 font-semibold">
               <span>{t(`model.${modelLabelKey(model, level)}`)}</span>

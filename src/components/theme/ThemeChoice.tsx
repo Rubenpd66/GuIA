@@ -30,7 +30,7 @@ export function ThemeChoice() {
             className={cx(
               "inline-flex min-h-12 cursor-pointer items-center gap-3 rounded-control border-[1.5px] px-4 font-medium has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-focus",
               current === option
-                ? "border-cover bg-cover text-on-cover dark:border-foil"
+                ? "border-accent bg-accent text-on-accent"
                 : "border-line",
             )}
           >

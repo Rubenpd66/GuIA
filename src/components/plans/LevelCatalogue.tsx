@@ -43,7 +43,7 @@ export function LevelCatalogue({
     <section aria-labelledby="catalogue-heading" className="space-y-5">
       <h2
         id="catalogue-heading"
-        className="text-xl font-bold font-semi-expanded"
+        className="text-xl font-bold"
       >
         {t("title")}
       </h2>
@@ -68,7 +68,7 @@ export function LevelCatalogue({
             onKeyDown={(event) => onKeyDown(event, i)}
             className={cx(
               "inline-flex min-h-12 items-center gap-2 rounded-control border-[1.5px] px-5 font-semibold",
-              level === value ? "border-ink bg-sheet" : "border-line",
+              level === value ? "border-ink bg-surface" : "border-line",
             )}
           >
             {value}

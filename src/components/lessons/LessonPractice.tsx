@@ -67,12 +67,12 @@ export function LessonPractice({ items }: { items: PracticeItem[] }) {
             </div>
             <div role="status" className="mt-3">
               {revealed ? (
-                <div className="rounded-control bg-sheet p-4">
+                <div className="rounded-control bg-surface p-4">
                   <p
                     className={
                       right
-                        ? "font-semibold text-entry"
-                        : "font-semibold text-refusal"
+                        ? "font-semibold text-success"
+                        : "font-semibold text-danger"
                     }
                   >
                     {right

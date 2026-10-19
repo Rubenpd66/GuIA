@@ -88,7 +88,7 @@ export function FlashcardTrainer({ cards }: { cards: FlashcardData[] }) {
     >
       <h2
         id="flashcards-setup"
-        className="text-xl font-bold font-semi-expanded"
+        className="text-xl font-bold"
       >
         {t("setupTitle")}
       </h2>
@@ -133,7 +133,7 @@ export function FlashcardTrainer({ cards }: { cards: FlashcardData[] }) {
         })}
       </p>
       {session.length === 0 ? (
-        <p role="status" className="rounded-control bg-sheet px-4 py-3">
+        <p role="status" className="rounded-control bg-surface px-4 py-3">
           {t("nothingToday", {
             tomorrow: Object.values(state.cards).filter((card) =>
               isDue(card, shiftDay(today, 1)),
@@ -180,7 +180,7 @@ function Filter({
         id={id}
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        className="mt-2 min-h-12 w-full rounded-control border-[1.5px] border-line bg-paper px-3"
+        className="mt-2 min-h-12 w-full rounded-control border-[1.5px] border-line bg-canvas px-3"
       >
         {options.map(([optionValue, text]) => (
           <option key={optionValue} value={optionValue}>
@@ -245,7 +245,7 @@ function FlashcardSession({
   if (!card)
     return (
       <section aria-labelledby="fc-done" className="max-w-[68ch] space-y-4">
-        <h2 id="fc-done" className="text-xl font-bold font-semi-expanded">
+        <h2 id="fc-done" className="text-xl font-bold">
           {t("doneTitle")}
         </h2>
         <p>{t("doneBody", tally)}</p>
@@ -308,7 +308,7 @@ function CardFace({
   return (
     <div
       aria-live="polite"
-      className="space-y-4 rounded-page border-[1.5px] border-line bg-sheet p-6"
+      className="space-y-4 rounded-card border-[1.5px] border-line bg-surface p-6"
     >
       {card.deck === "vocabulary" ? (
         <>

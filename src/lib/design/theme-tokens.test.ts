@@ -11,21 +11,27 @@ const tokens = parseThemeTokens(css);
 
 /** Pairs from the spec (§6): [foreground, background, minimum ratio]. */
 const PAIRS = [
-  ["ink", "paper", 4.5],
-  ["ink", "sheet", 4.5],
-  ["ink-soft", "paper", 4.5],
-  ["ink-soft", "sheet", 4.5],
-  ["on-cover", "cover", 4.5],
-  ["foil", "cover", 4.5],
-  ["foil-ink", "paper", 4.5],
-  ["foil-ink", "sheet", 4.5],
-  ["entry", "paper", 4.5],
-  ["entry", "sheet", 4.5],
-  ["refusal", "paper", 4.5],
-  ["refusal", "sheet", 4.5],
-  ["line", "paper", 3],
-  ["line", "sheet", 3],
-  ["focus", "paper", 3],
+  ["ink", "canvas", 4.5],
+  ["ink", "surface", 4.5],
+  ["ink-soft", "canvas", 4.5],
+  ["ink-soft", "surface", 4.5],
+  ["on-accent", "accent", 4.5],
+  ["accent", "canvas", 4.5],
+  ["accent", "surface", 4.5],
+  ["success", "canvas", 4.5],
+  ["success", "surface", 4.5],
+  ["danger", "canvas", 4.5],
+  ["danger", "surface", 4.5],
+  ["reward-ink", "canvas", 4.5],
+  ["reward-ink", "surface", 4.5],
+  ["level-a2", "canvas", 4.5],
+  ["level-b1", "canvas", 4.5],
+  ["level-b2", "canvas", 4.5],
+  ["level-c1", "canvas", 4.5],
+  ["line", "canvas", 3],
+  ["line", "surface", 3],
+  ["focus", "canvas", 3],
+  ["on-reward", "reward", 4.5],
 ] as const;
 
 const CASES = (["light", "dark"] as const).flatMap((theme) =>
@@ -37,7 +43,7 @@ describe("theme tokens", () => {
     expect(Object.keys(tokens.light).sort()).toEqual(
       Object.keys(tokens.dark).sort(),
     );
-    expect(Object.keys(tokens.light)).toContain("paper");
+    expect(Object.keys(tokens.light)).toContain("canvas");
   });
 
   it.each(CASES)("%s: %s on %s reaches %d:1", (theme, fg, bg, min) => {
@@ -52,12 +58,12 @@ describe("theme tokens", () => {
 describe("parseThemeTokens", () => {
   it("reads hex custom properties from :root and the dark theme block", () => {
     const parsed = parseThemeTokens(`
-      :root { --paper: #EEF2EF; --radius: 6px; }
-      [data-theme="dark"] { --paper: #1C1317; }
+      :root { --canvas: #EEF2EF; --radius: 6px; }
+      [data-theme="dark"] { --canvas: #1C1317; }
     `);
     expect(parsed).toEqual({
-      light: { paper: "#EEF2EF" },
-      dark: { paper: "#1C1317" },
+      light: { canvas: "#EEF2EF" },
+      dark: { canvas: "#1C1317" },
     });
   });
 });

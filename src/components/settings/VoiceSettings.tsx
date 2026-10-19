@@ -21,7 +21,7 @@ const SAMPLE: Script = [
 const RATE_KEYS = { 0.8: "slow", 1: "normal", 1.2: "fast" } as const;
 
 const SELECT =
-  "min-h-12 w-full max-w-xs rounded-control border-[1.5px] border-line bg-paper px-3";
+  "min-h-12 w-full max-w-xs rounded-control border-[1.5px] border-line bg-canvas px-3";
 
 /** Speed and voices for the Listening trainers, with a button to hear them. */
 export function VoiceSettings() {
