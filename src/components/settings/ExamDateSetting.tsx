@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/Button";
 import { examDateStore } from "@/lib/progress/examDate";
-import { ExamDate } from "@/lib/progress/schema";
+import { LocalDay } from "@/lib/progress/schema";
 
 /** The exam date drives the countdown and the mock-exam suggestion on the dashboard. */
 export function ExamDateSetting() {
@@ -24,7 +24,7 @@ export function ExamDateSetting() {
             onChange={(event) => {
               const value = event.target.value;
               examDateStore.save(
-                ExamDate.safeParse(value).success ? value : null,
+                LocalDay.safeParse(value).success ? value : null,
               );
             }}
             className="mt-2 min-h-12 rounded-control border-[1.5px] border-line bg-paper px-3"

@@ -30,9 +30,5 @@ export const Progress = z.object({
 });
 export type Progress = z.infer<typeof Progress>;
 
-/** A calendar day, YYYY-MM-DD, in the learner's own time zone. */
-export const ExamDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
-
-/** Data kept outside the progress record that still travels in an export file. */
-export const ExportExtras = z.object({ examDate: ExamDate.nullable() });
-export type ExportExtras = Partial<z.infer<typeof ExportExtras>>;
+/** A calendar day, YYYY-MM-DD, in the learner's own time zone (exam date, card due dates). */
+export const LocalDay = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);

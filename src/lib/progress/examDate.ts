@@ -1,8 +1,8 @@
 import { createLocalStore, parseJson } from "@/lib/storage/localStore";
-import { ExamDate } from "./schema";
+import { LocalDay } from "./schema";
 
 export const parseExamDate = (raw: string | null): string | null => {
-  const result = ExamDate.safeParse(parseJson(raw));
+  const result = LocalDay.safeParse(parseJson(raw));
   return result.success ? result.data : null;
 };
 

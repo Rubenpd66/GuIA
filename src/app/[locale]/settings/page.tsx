@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { LocaleSwitcher } from "@/components/i18n/LocaleSwitcher";
 import { VoiceSettings } from "@/components/settings/VoiceSettings";
 import { ExamDateSetting } from "@/components/settings/ExamDateSetting";
+import { FlashcardsSetting } from "@/components/settings/FlashcardsSetting";
 import { ProgressManager } from "@/components/settings/ProgressManager";
 import { ThemeChoice } from "@/components/theme/ThemeChoice";
 import { PageHeader } from "@/components/ui/PageHeader";
@@ -51,6 +52,14 @@ export default async function SettingsPage() {
           </h2>
           <div className="mt-3">
             <ExamDateSetting />
+          </div>
+        </section>
+        <section aria-labelledby="flashcards-heading">
+          <h2 id="flashcards-heading" className="text-lg font-bold">
+            {t("Settings.flashcards")}
+          </h2>
+          <div className="mt-3">
+            <FlashcardsSetting />
           </div>
         </section>
         <section aria-labelledby="progress-heading">

@@ -1,11 +1,7 @@
 import type { ExamPart } from "@/lib/exam/format";
 import type { ItemResult } from "@/lib/trainer/score";
-import {
-  ExportExtras,
-  Progress,
-  type Attempt,
-  type MistakeEntry,
-} from "./schema";
+import { ExportExtras } from "./extras";
+import { Progress, type Attempt, type MistakeEntry } from "./schema";
 
 export const EMPTY_PROGRESS: Progress = {
   version: 1,

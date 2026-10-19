@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
+import { flashcardsStore } from "@/lib/flashcards/store";
 import { examDateStore } from "@/lib/progress/examDate";
 import { exportProgress, importProgress } from "@/lib/progress/progress";
 import {
@@ -28,7 +29,10 @@ export function ProgressManager() {
   const confirmDialog = useRef<HTMLDialogElement>(null);
 
   function download() {
-    const extras = { examDate: examDateStore.read() };
+    const extras = {
+      examDate: examDateStore.read(),
+      flashcards: flashcardsStore.read(),
+    };
     const blob = new Blob([exportProgress(progress, Date.now(), extras)], {
       type: "application/json",
     });
@@ -46,6 +50,8 @@ export function ProgressManager() {
       saveProgress(result.progress);
       if ("examDate" in result.extras)
         examDateStore.save(result.extras.examDate ?? null);
+      if (result.extras.flashcards)
+        flashcardsStore.save(result.extras.flashcards);
       setMessage({ tone: "ok", text: t("imported") });
     } else {
       setMessage({ tone: "error", text: t(IMPORT_ERRORS[result.error]) });

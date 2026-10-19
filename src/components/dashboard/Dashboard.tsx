@@ -21,6 +21,8 @@ import {
   type Suggestion,
 } from "@/lib/estimate/next";
 import { middayOf, useToday } from "@/lib/estimate/useToday";
+import { dueCount } from "@/lib/flashcards/deck";
+import { flashcardsStore } from "@/lib/flashcards/store";
 import { examDateStore } from "@/lib/progress/examDate";
 import { useProgress } from "@/lib/progress/useProgress";
 
@@ -33,6 +35,7 @@ export function Dashboard() {
   const partName = usePartName();
   const progress = useProgress();
   const examDate = examDateStore.useValue();
+  const flashcards = flashcardsStore.useValue();
   const today = useToday();
 
   // Progress lives in the browser; render nothing on the server rather than an empty passport.
@@ -182,6 +185,12 @@ export function Dashboard() {
             </dd>
           </div>
         </dl>
+        <Link
+          href="/flashcards"
+          className="inline-flex min-h-11 items-center underline decoration-1 underline-offset-4 hover:decoration-2"
+        >
+          {t("flashcardsDue", { count: dueCount(flashcards, today) })}
+        </Link>
       </section>
 
       {weak.length > 0 ? (
