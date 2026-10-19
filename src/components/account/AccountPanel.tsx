@@ -14,6 +14,7 @@ import {
 import { useUser } from "@/lib/auth/useUser";
 import { clearLocalStudyData } from "@/lib/sync/engine";
 import { releaseOwner } from "@/lib/sync/owner";
+import { clearCachedPages } from "@/lib/access/offline";
 import { useSyncStatus } from "@/lib/sync/status";
 import { AuthForm, fieldClass } from "./AuthForm";
 
@@ -31,6 +32,7 @@ export function AccountPanel() {
       const result = await deleteMyAccount();
       if (result.status === "ok") {
         releaseOwner();
+        await clearCachedPages();
         if (!keepLocal) clearLocalStudyData();
         router.push("/");
       }
@@ -71,6 +73,7 @@ export function AccountPanel() {
         <form
           action={async () => {
             await signOut();
+            await clearCachedPages();
             router.push("/");
           }}
           className="mt-4"

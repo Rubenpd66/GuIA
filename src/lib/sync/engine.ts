@@ -21,6 +21,7 @@ import {
   mergeProgress,
   type Versioned,
 } from "./merge";
+import { clearCachedPages } from "@/lib/access/offline";
 import { claimOwner } from "./owner";
 import { setSyncStatus } from "./status";
 
@@ -173,7 +174,10 @@ export function startSync() {
     if (!user) return;
     // shortcut: changes the previous account made offline and never pushed are lost here,
     // accepted so a shared device cannot mix two learners' data.
-    if (claimOwner(user.id)) clearLocalStudyData();
+    if (claimOwner(user.id)) {
+      clearLocalStudyData();
+      void clearCachedPages();
+    }
 
     const applying = { current: false };
     let timer: ReturnType<typeof setTimeout> | undefined;

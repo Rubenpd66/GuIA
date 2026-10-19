@@ -6,6 +6,7 @@
  * Progress lives in localStorage, which this worker never touches.
  */
 const STATIC = "sello-static-v1";
+// Also named in src/lib/access/offline.ts, which clears it on sign-out: keep both in step.
 const PAGES = "sello-pages-v1";
 const LIMITS = { [STATIC]: 250, [PAGES]: 120 };
 
