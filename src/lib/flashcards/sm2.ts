@@ -16,6 +16,8 @@ export const CardState = z.object({
   /** Right answers in a row. */
   reps: z.int().min(0),
   due: LocalDay,
+  /** Last review day; lets two devices agree on which copy of a card is newer. */
+  reviewed: LocalDay.optional(),
 });
 export type CardState = z.infer<typeof CardState>;
 
@@ -38,7 +40,14 @@ export function review(
     MIN_EASE,
     previous.ease + 0.1 - (5 - q) * (0.08 + (5 - q) * 0.02),
   );
-  if (q < 3) return { ease, interval: 1, reps: 0, due: shiftDay(today, 1) };
+  if (q < 3)
+    return {
+      ease,
+      interval: 1,
+      reps: 0,
+      due: shiftDay(today, 1),
+      reviewed: today,
+    };
   const interval =
     previous.reps === 0
       ? 1
@@ -50,6 +59,7 @@ export function review(
     interval,
     reps: previous.reps + 1,
     due: shiftDay(today, interval),
+    reviewed: today,
   };
 }
 

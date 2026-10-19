@@ -116,3 +116,19 @@ Pagos y planes de pago (fase 10), corrección con IA (fase 10), rediseño visual
 3. **Envío de emails:** el servidor de correo de Supabase solo sirve para pruebas (límite muy bajo). Para usuarios reales hace falta un proveedor SMTP, por ejemplo Resend, que tiene plan gratuito (cuenta nueva y clave en Vercel). ¿Lo configuramos ya o arrancamos con el de Supabase para una beta cerrada?
 4. **Administración:** ¿te parece bien que solo tú seas administrador, y que el panel muestre estadísticas agregadas y la lista de usuarios con borrado, sin ver el progreso individual de nadie?
 5. **Antibots:** ¿añado Cloudflare Turnstile (gratuito, requiere cuenta de Cloudflare) al registro, o lo dejamos para cuando abramos al público?
+
+## Respuestas del usuario (2026-10-20)
+
+1. Plan gratuito por ahora: proyectos `sello` (producción) y `sello-dev` (pruebas), región UE.
+2. Email y contraseña, enlace mágico y **Entrar con Google** (el usuario crea el cliente OAuth en Google Cloud con mi guía).
+3. **Beta cerrada** con el correo integrado de Supabase. Ojo: solo envía a direcciones autorizadas del equipo, así que en la beta el acceso habitual será con Google. El proveedor SMTP se configura al abrir al público.
+4. Solo el usuario es administrador; el panel muestra agregados y la lista de usuarios con borrado.
+5. Cloudflare Turnstile al abrir al público.
+
+## Lista para la apertura al público (después de la fase 10)
+
+- Proveedor SMTP (Resend u otro) y plantillas de email propias.
+- Cloudflare Turnstile en el registro.
+- Google Search Console: verificación del dominio y envío del sitemap.
+- Google Analytics (GA4): exige consentimiento previo en la UE (banner de cookies con rechazo tan fácil como aceptar, Consent Mode v2) y su mención en las políticas de privacidad y cookies.
+- Pasar Supabase a Pro y revisar límites.
