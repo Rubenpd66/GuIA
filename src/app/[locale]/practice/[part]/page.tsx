@@ -10,7 +10,8 @@ import { ButtonLink } from "@/components/ui/ButtonLink";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { PHASE_OF_SKILL } from "@/config/sections";
-import { exercisesOfPart } from "@/lib/content";
+import { WritingTrainer } from "@/components/writing/WritingTrainer";
+import { exercisesOfPart, phrasesByFunction } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
 import { localized } from "@/lib/content/localize";
 import {
@@ -20,6 +21,17 @@ import {
   partNumber,
   type ExamPart,
 } from "@/lib/exam/format";
+
+/** Phrase functions that help in writing; the rest (buying time, interrupting…) are for speaking. */
+const WRITING_FUNCTIONS = new Set([
+  "opinion",
+  "hedging",
+  "contrast",
+  "addition",
+  "conclusion",
+  "comparison",
+  "speculation",
+]);
 
 export function generateStaticParams() {
   return EXAM_PARTS.map((part) => ({ part }));
@@ -120,6 +132,27 @@ async function PracticePart({ params }: { params: Params }) {
       <>
         <PageHeader title={await titleOf(part)} />
         <ListeningTrainer part={part} tasks={exercisesOfPart(content, part)} />
+      </>
+    );
+  }
+
+  if (
+    part === "writing-1" ||
+    part === "writing-2" ||
+    part === "writing-3" ||
+    part === "writing-4"
+  ) {
+    const content = await getContent();
+    return (
+      <>
+        <PageHeader title={await titleOf(part)} />
+        <WritingTrainer
+          part={part}
+          tasks={exercisesOfPart(content, part)}
+          phrases={phrasesByFunction(content)
+            .filter((group) => WRITING_FUNCTIONS.has(group.function))
+            .flatMap((group) => group.phrases)}
+        />
       </>
     );
   }

@@ -563,5 +563,124 @@
       "s3": "A speaker can praise one thing and criticise another; the question asks about the overall view.",
       "s4": "After answering in study mode, read the clues in the transcript to learn what to listen for."
     }
+  },
+  "Writing": {
+    "trainer": {
+      "instructions": {
+        "writing-1": "Answer the five messages with short replies of 1 to 5 words.",
+        "writing-2": "Write a short answer in full sentences, 20 to 30 words.",
+        "writing-3": "Answer the three chat questions, 30 to 40 words each.",
+        "writing-4": "Read the notice and write two emails: an informal one to a friend and a formal one to the person in charge."
+      },
+      "studyMode": "Study mode",
+      "examMode": "Exam mode",
+      "examHint": "One task in {minutes, number} minutes, no help. The editor locks at zero. The time per part is the exam's recommended time.",
+      "bankSize": "{count, plural, one {# task available} other {# tasks available}}. The bank grows in the next batches.",
+      "words": "{count, plural, one {# word} other {# words}} · target {min}–{max}",
+      "status": {
+        "below": "Below the range",
+        "within": "Within the range",
+        "above": "Above the range"
+      },
+      "model": {
+        "b2": "B2 model",
+        "c": "C model"
+      },
+      "modelWords": "{count} words",
+      "kind": {
+        "connector": "Connector",
+        "advanced-structure": "Advanced structure",
+        "register": "Register",
+        "vocabulary": "Vocabulary"
+      },
+      "checklistTitle": "Self-assessment",
+      "checklistNote": "Compare your text with the models and tick what you achieved. This is the app's own rubric, not the official scale, and it gives no exam score.",
+      "saveAssessment": "Save the self-assessment",
+      "savedSummary": "You ticked {correct} of {total} criteria. Your text has been removed from this device.",
+      "phrases": "Useful phrases",
+      "register": "Register",
+      "registerAll": "All",
+      "tips": "Tips for this part",
+      "reviewTitle": "Compare with the models",
+      "to": "To: {recipient}",
+      "samples": "Sample answers:",
+      "showModels": "Show the models",
+      "startStopwatch": "Stopwatch",
+      "stopwatchLabel": "Time spent against the recommended time:",
+      "strategies": {
+        "writing-1": {
+          "s1": "A word or a short phrase is enough: you do not need a full sentence.",
+          "s2": "Answer exactly what you are asked; a logical answer beats a long one.",
+          "s3": "Check your spelling: in such short answers every word counts.",
+          "s4": "Do not go over 5 words and do not leave any message unanswered."
+        },
+        "writing-2": {
+          "s1": "Write full sentences with a subject and a verb, even though the text is short.",
+          "s2": "Answer every point in the prompt, even with one sentence each.",
+          "s3": "Link your ideas with simple connectors (because, so, but) instead of loose sentences.",
+          "s4": "Stay between 20 and 30 words and check your verb tenses at the end."
+        },
+        "writing-3": {
+          "s1": "Answer each question separately, in the tone of the chat: friendly but correct.",
+          "s2": "Give your opinion and support it with a reason or an example.",
+          "s3": "Vary your structures: a concession or an emphatic sentence lifts the level.",
+          "s4": "Share your time between the three answers so you finish the last one."
+        },
+        "writing-4": {
+          "s1": "Write the informal email first: it is short and helps you order your ideas.",
+          "s2": "Really change register: contractions and phrasal verbs in the informal email; no contractions and polite formulas in the formal one.",
+          "s3": "In the formal email, state your reason in the first sentence, give reasons and suggest at least one solution.",
+          "s4": "Leave time to check the formal email: it is the longest and hardest text in this part."
+        }
+      }
+    },
+    "rubric": {
+      "task": "Task achievement",
+      "organisation": "Organisation and connectors",
+      "language": "Range and accuracy",
+      "register": "Register"
+    },
+    "rubricHints": {
+      "writing-1": {
+        "task": "All five replies answer what was asked.",
+        "organisation": "Each reply has between 1 and 5 words.",
+        "language": "Spelling and grammar are correct.",
+        "register": "The replies sound natural in an informal conversation."
+      },
+      "writing-2": {
+        "task": "I answered every point and wrote 20 to 30 words.",
+        "organisation": "The ideas are linked with connectors, not loose sentences.",
+        "language": "I use full, correct sentences with some precise vocabulary.",
+        "register": "The tone suits a club form or profile."
+      },
+      "writing-3": {
+        "task": "All three answers respond to their question in 30 to 40 words.",
+        "organisation": "Each answer gives an idea and supports it with a reason or an example.",
+        "language": "There is a range of structures (concessions, conditionals, emphatic sentences) and few errors.",
+        "register": "The tone is that of a chat between members: friendly but correct."
+      },
+      "writing-4": {
+        "task": "Both emails deal with the announced change and meet the word ranges.",
+        "organisation": "There is a greeting, clear paragraphs and a sign-off, and the ideas are well linked.",
+        "language": "I use a range of structures and vocabulary with few errors.",
+        "register": "The informal email sounds friendly and the formal one is polite, with no contractions."
+      }
+    }
+  },
+  "WritingPage": {
+    "intro": "The Writing paper lasts {minutes} minutes and has four parts, from one-word answers to a formal email. Here is what each part asks for, strategies and a trainer with annotated B2 and C models.",
+    "noMarkingTitle": "No automatic marking",
+    "noMarkingBody": "Sello does not mark your texts: you write, compare with the models and assess yourself with the app's own rubric, not the official one. Your text is stored only in your browser.",
+    "partTitle": "Part {number}: {name}",
+    "examNote": "App exam mode: {minutes, number} minutes, the recommended time for this part. The editor locks at zero.",
+    "strategies": "Strategies",
+    "rubricTitle": "How you assess yourself",
+    "practise": "Practise part {number}",
+    "task": {
+      "writing-1": "Five short messages from a club or community. You answer each one in 1 to 5 words.",
+      "writing-2": "A form or profile with one personal question. You write 20 to 30 words in full sentences.",
+      "writing-3": "Three questions from other members in a chat. You answer each one in 30 to 40 words.",
+      "writing-4": "A notice about a change. You write an informal email to a friend (40–50 words) and a formal one to the person in charge (120–150 words)."
+    }
   }
 }

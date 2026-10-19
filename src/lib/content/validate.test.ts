@@ -294,6 +294,12 @@ describe("Listening checks", () => {
       "listening-3": 1,
       "listening-4": 1,
     });
+    expect(report.bank.writingByPart).toEqual({
+      "writing-1": 1,
+      "writing-2": 1,
+      "writing-3": 1,
+      "writing-4": 1,
+    });
   });
 });
 

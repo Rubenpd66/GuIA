@@ -563,5 +563,124 @@
       "s3": "Un hablante puede elogiar una cosa y criticar otra; la pregunta se refiere a su visión general.",
       "s4": "En modo estudio, tras responder, lee las pistas de la transcripción para aprender qué escuchar."
     }
+  },
+  "Writing": {
+    "trainer": {
+      "instructions": {
+        "writing-1": "Responde a los cinco mensajes con respuestas cortas, de 1 a 5 palabras.",
+        "writing-2": "Escribe una respuesta corta, con frases completas, de 20 a 30 palabras.",
+        "writing-3": "Responde a las tres preguntas del chat, de 30 a 40 palabras cada una.",
+        "writing-4": "Lee el aviso y escribe dos emails: uno informal a un amigo y otro formal a la persona responsable."
+      },
+      "studyMode": "Modo estudio",
+      "examMode": "Modo examen",
+      "examHint": "Una tarea en {minutes, number} minutos, sin ayudas. Al llegar a cero el editor se bloquea. El tiempo por parte es el recomendado para el examen.",
+      "bankSize": "{count, plural, one {# tarea disponible} other {# tareas disponibles}}. El banco crece en los próximos lotes.",
+      "words": "{count, plural, one {# palabra} other {# palabras}} · objetivo {min}–{max}",
+      "status": {
+        "below": "Por debajo del rango",
+        "within": "Dentro del rango",
+        "above": "Por encima del rango"
+      },
+      "model": {
+        "b2": "Modelo B2",
+        "c": "Modelo C"
+      },
+      "modelWords": "{count} palabras",
+      "kind": {
+        "connector": "Conector",
+        "advanced-structure": "Estructura avanzada",
+        "register": "Registro",
+        "vocabulary": "Vocabulario"
+      },
+      "checklistTitle": "Autoevaluación",
+      "checklistNote": "Compara tu texto con los modelos y marca lo que has conseguido. Es una rúbrica de la app, no la escala oficial, y no da una nota del examen.",
+      "saveAssessment": "Guardar la autoevaluación",
+      "savedSummary": "Has marcado {correct} de {total} criterios. Tu texto se ha borrado de este dispositivo.",
+      "phrases": "Frases útiles",
+      "register": "Registro",
+      "registerAll": "Todos",
+      "tips": "Consejos para esta parte",
+      "reviewTitle": "Compara con los modelos",
+      "to": "Para: {recipient}",
+      "samples": "Respuestas de ejemplo:",
+      "showModels": "Ver los modelos",
+      "startStopwatch": "Cronómetro",
+      "stopwatchLabel": "Tiempo empleado frente al recomendado:",
+      "strategies": {
+        "writing-1": {
+          "s1": "Basta con una palabra o una frase corta: no hace falta una oración completa.",
+          "s2": "Contesta exactamente a lo que te preguntan; una respuesta lógica vale más que una larga.",
+          "s3": "Cuida la ortografía: en respuestas tan cortas cada palabra cuenta.",
+          "s4": "No pases de 5 palabras y no dejes ningún mensaje sin respuesta."
+        },
+        "writing-2": {
+          "s1": "Escribe frases completas, con sujeto y verbo, aunque el texto sea corto.",
+          "s2": "Responde a todos los puntos del enunciado, aunque sea con una frase para cada uno.",
+          "s3": "Une las ideas con conectores sencillos (because, so, but) en vez de frases sueltas.",
+          "s4": "Quédate entre 20 y 30 palabras y repasa los tiempos verbales al final."
+        },
+        "writing-3": {
+          "s1": "Responde a cada pregunta por separado y en el tono del chat: cercano pero correcto.",
+          "s2": "Da tu opinión y justifícala con una razón o un ejemplo.",
+          "s3": "Varía las estructuras: una concesiva o una frase enfática suben el nivel.",
+          "s4": "Reparte el tiempo entre las tres respuestas; no te quedes sin terminar la última."
+        },
+        "writing-4": {
+          "s1": "Escribe primero el email informal: es corto y te ayuda a ordenar las ideas.",
+          "s2": "Cambia de verdad de registro: contracciones y phrasal verbs en el informal; sin contracciones y con fórmulas de cortesía en el formal.",
+          "s3": "En el formal, di el motivo en la primera frase, da razones y propone al menos una solución.",
+          "s4": "Deja tiempo para revisar el formal: es el texto más largo y exigente de esta parte."
+        }
+      }
+    },
+    "rubric": {
+      "task": "Respuesta a la tarea",
+      "organisation": "Organización y conectores",
+      "language": "Rango y corrección",
+      "register": "Registro"
+    },
+    "rubricHints": {
+      "writing-1": {
+        "task": "Las cinco respuestas contestan a lo que se pregunta.",
+        "organisation": "Cada respuesta tiene entre 1 y 5 palabras.",
+        "language": "La ortografía y la gramática son correctas.",
+        "register": "Las respuestas suenan naturales en una conversación informal."
+      },
+      "writing-2": {
+        "task": "He respondido a todos los puntos y estoy entre 20 y 30 palabras.",
+        "organisation": "Las ideas están unidas con conectores, no son frases sueltas.",
+        "language": "Uso frases completas y correctas, con algo de vocabulario preciso.",
+        "register": "El tono encaja con un formulario o un perfil de un club."
+      },
+      "writing-3": {
+        "task": "Las tres respuestas contestan a su pregunta y tienen entre 30 y 40 palabras.",
+        "organisation": "Cada respuesta da una idea y la justifica con una razón o un ejemplo.",
+        "language": "Hay variedad de estructuras (concesivas, condicionales, frases enfáticas) y pocos errores.",
+        "register": "El tono es el de un chat entre miembros: cercano pero correcto."
+      },
+      "writing-4": {
+        "task": "Los dos emails tratan el cambio anunciado y cumplen los rangos de palabras.",
+        "organisation": "Hay saludo, párrafos claros y despedida, y las ideas se enlazan bien.",
+        "language": "Uso estructuras y vocabulario variados, con pocos errores.",
+        "register": "El informal suena cercano y el formal es cortés y sin contracciones."
+      }
+    }
+  },
+  "WritingPage": {
+    "intro": "El examen de Writing dura {minutes} minutos y tiene cuatro partes que van de respuestas de una palabra a un email formal. Aquí tienes qué pide cada parte, estrategias y un entrenador con modelos B2 y C anotados.",
+    "noMarkingTitle": "Sin corrección automática",
+    "noMarkingBody": "Sello no corrige tus textos: escribes, comparas con los modelos y te autoevalúas con una rúbrica propia de la app, no la oficial. Tu texto se guarda solo en tu navegador.",
+    "partTitle": "Parte {number}: {name}",
+    "examNote": "Modo examen de la app: {minutes, number} minutos, el tiempo recomendado para esta parte. Al llegar a cero el editor se bloquea.",
+    "strategies": "Estrategias",
+    "rubricTitle": "Cómo te autoevalúas",
+    "practise": "Practicar la parte {number}",
+    "task": {
+      "writing-1": "Cinco mensajes cortos de un club o una comunidad. Respondes a cada uno con 1 a 5 palabras.",
+      "writing-2": "Un formulario o perfil con una pregunta personal. Escribes de 20 a 30 palabras en frases completas.",
+      "writing-3": "Tres preguntas de otros miembros en un chat. Respondes a cada una con 30 a 40 palabras.",
+      "writing-4": "Un aviso sobre un cambio. Escribes un email informal a un amigo (40–50 palabras) y uno formal a la persona responsable (120–150 palabras)."
+    }
   }
 }

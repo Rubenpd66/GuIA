@@ -19,6 +19,12 @@ const LISTENING_WORDS = {
 const LISTENING_PARTS = Object.keys(
   LISTENING_WORDS,
 ) as (keyof typeof LISTENING_WORDS)[];
+const WRITING_PARTS = [
+  "writing-1",
+  "writing-2",
+  "writing-3",
+  "writing-4",
+] as const;
 
 /** Below this, "Practise this point" gives a session too short to be useful. */
 export const MIN_QUESTIONS_PER_LESSON = 5;
@@ -38,6 +44,8 @@ export type ValidationReport = {
     vocabularyByType: Record<VocabType, number>;
     /** Listening tasks per part. */
     listeningByPart: Record<keyof typeof LISTENING_WORDS, number>;
+    /** Writing tasks per part. */
+    writingByPart: Record<(typeof WRITING_PARTS)[number], number>;
   };
 };
 
@@ -134,14 +142,19 @@ function questionBank(parsed: ParsedFile[]): ValidationReport["bank"] {
   const listeningByPart = Object.fromEntries(
     LISTENING_PARTS.map((part) => [part, 0]),
   ) as ValidationReport["bank"]["listeningByPart"];
+  const writingByPart = Object.fromEntries(
+    WRITING_PARTS.map((part) => [part, 0]),
+  ) as ValidationReport["bank"]["writingByPart"];
   for (const { file } of parsed) {
     if (file.kind !== "exercises") continue;
     for (const exercise of file.items) {
       if (exercise.examPart in listeningByPart)
         listeningByPart[exercise.examPart as keyof typeof listeningByPart] += 1;
+      if (exercise.examPart in writingByPart)
+        writingByPart[exercise.examPart as keyof typeof writingByPart] += 1;
     }
   }
-  return { grammarByLesson, vocabularyByType, listeningByPart };
+  return { grammarByLesson, vocabularyByType, listeningByPart, writingByPart };
 }
 
 const scriptText = (script: Script) => script.map((l) => l.text).join(" ");
@@ -424,6 +437,7 @@ function bankLines({
   grammarByLesson,
   vocabularyByType,
   listeningByPart,
+  writingByPart,
 }: ValidationReport["bank"]): string[] {
   const lessons = Object.entries(grammarByLesson);
   const questions = lessons.reduce((sum, [, n]) => sum + n, 0);
@@ -440,5 +454,6 @@ function bankLines({
       (fewest ? ` (fewest: ${fewest[0]} ${fewest[1]})` : ""),
     `Core Vocabulary: ${items} items (${VOCAB_TYPES.map((type) => `${type} ${vocabularyByType[type]}`).join(", ")})`,
     `Listening: ${LISTENING_PARTS.map((part) => `${part.slice(-1)}: ${listeningByPart[part]}`).join(", ")} tasks`,
+    `Writing: ${WRITING_PARTS.map((part) => `${part.slice(-1)}: ${writingByPart[part]}`).join(", ")} tasks`,
   ];
 }
