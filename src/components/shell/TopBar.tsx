@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { AccountLink } from "@/components/account/AccountLink";
 import { LocaleSwitcher } from "@/components/i18n/LocaleSwitcher";
 import { Wordmark } from "@/components/passport/Wordmark";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
@@ -17,6 +18,7 @@ export async function TopBar() {
         <Wordmark />
       </Link>
       <div className="flex items-center">
+        <AccountLink className="inline-flex min-h-12 items-center rounded-control px-3 font-medium" />
         <LocaleSwitcher />
         <ThemeToggle />
       </div>

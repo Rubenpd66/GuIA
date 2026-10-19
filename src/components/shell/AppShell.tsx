@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { LevelUpNotice } from "@/components/dashboard/LevelUpNotice";
 import { BottomNav } from "./BottomNav";
+import { SyncRunner } from "@/components/account/SyncRunner";
 import { ServiceWorker } from "./ServiceWorker";
 import { SiteFooter } from "./SiteFooter";
 import { SpineNav } from "./SpineNav";
@@ -23,6 +24,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         <SiteFooter />
         <LevelUpNotice />
         <ServiceWorker />
+        <SyncRunner />
       </div>
       <BottomNav />
     </div>

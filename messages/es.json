@@ -18,7 +18,9 @@
     "flashcards": "Flashcards",
     "mistakes": "Errores",
     "examGuide": "Guía del examen",
-    "settings": "Ajustes"
+    "settings": "Ajustes",
+    "signIn": "Entrar",
+    "account": "Mi cuenta"
   },
   "Theme": {
     "toggle": "Cambiar entre modo claro y oscuro",
@@ -1009,5 +1011,59 @@
   "Pwa": {
     "updated": "Hay una versión nueva de Sello.",
     "reload": "Recargar"
+  },
+  "Account": {
+    "title": "Tu cuenta",
+    "lead": "Tu progreso guardado en la nube y sincronizado entre tus dispositivos.",
+    "signInPageTitle": "Acceder",
+    "signInLead": "Con una cuenta, tu progreso se guarda en la nube y lo ves en todos tus dispositivos. Sin cuenta, Sello sigue funcionando en este navegador.",
+    "loading": "Cargando…",
+    "signedOut": "No has iniciado sesión.",
+    "signedInAs": "Sesión iniciada como {email}",
+    "signIn": "Entrar",
+    "signInTitle": "Entrar con email y contraseña",
+    "google": "Entrar con Google",
+    "email": "Email",
+    "password": "Contraseña",
+    "newPassword": "Contraseña nueva",
+    "passwordHint": "Mínimo 10 caracteres.",
+    "magicTitle": "Entrar con un enlace",
+    "magicLead": "Te enviamos un enlace por email, sin contraseña. Solo para cuentas ya creadas.",
+    "magicSubmit": "Enviar enlace",
+    "signUpTitle": "Crear cuenta",
+    "signUp": "Crear cuenta",
+    "consent": "Tengo 14 años o más y acepto la <privacy>política de privacidad</privacy>.",
+    "resetTitle": "Recuperar contraseña",
+    "resetSubmit": "Enviar enlace",
+    "linkError": "El enlace no es válido o ha caducado. Pide uno nuevo.",
+    "sync": {
+      "syncing": "Sincronizando…",
+      "synced": "Sincronizado",
+      "offline": "Sin conexión: se sincronizará cuando vuelva."
+    },
+    "exportHint": "Puedes exportar una copia de tu progreso en <settings>Ajustes</settings>.",
+    "signOut": "Cerrar sesión",
+    "changePassword": "Cambiar contraseña",
+    "updatePassword": "Guardar contraseña",
+    "deleteTitle": "Borrar cuenta",
+    "deleteBody": "Se borran tu cuenta y todo lo que Sello guarda de ti en la nube. No se puede deshacer.",
+    "deleteButton": "Borrar mi cuenta",
+    "deleteConfirm": "¿Seguro que quieres borrar tu cuenta y tus datos en la nube?",
+    "keepLocal": "Conservar el progreso guardado en este navegador",
+    "deleteFinal": "Sí, borrar",
+    "cancel": "Cancelar",
+    "messages": {
+      "signedIn": "Sesión iniciada.",
+      "checkEmail": "Si el email es válido, recibirás un mensaje con las instrucciones.",
+      "passwordUpdated": "Contraseña actualizada.",
+      "accountDeleted": "Cuenta borrada.",
+      "invalid": "Revisa los datos del formulario.",
+      "credentials": "Email o contraseña incorrectos.",
+      "consent": "Para crear la cuenta debes confirmar que tienes 14 años o más y aceptar la política de privacidad.",
+      "weakPassword": "La contraseña es demasiado débil: usa al menos 10 caracteres.",
+      "rateLimited": "Demasiados intentos. Espera unos minutos.",
+      "unavailable": "Las cuentas no están disponibles ahora mismo.",
+      "failed": "Algo ha fallado. Inténtalo de nuevo."
+    }
   }
 }

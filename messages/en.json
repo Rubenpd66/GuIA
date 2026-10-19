@@ -18,7 +18,9 @@
     "flashcards": "Flashcards",
     "mistakes": "Mistakes",
     "examGuide": "Exam guide",
-    "settings": "Settings"
+    "settings": "Settings",
+    "signIn": "Sign in",
+    "account": "My account"
   },
   "Theme": {
     "toggle": "Switch between light and dark mode",
@@ -1009,5 +1011,59 @@
   "Pwa": {
     "updated": "A new version of Sello is available.",
     "reload": "Reload"
+  },
+  "Account": {
+    "title": "Your account",
+    "lead": "Your progress saved in the cloud and in step across your devices.",
+    "signInPageTitle": "Sign in",
+    "signInLead": "With an account your progress is saved in the cloud and follows you across devices. Without one, Sello keeps working in this browser.",
+    "loading": "Loading…",
+    "signedOut": "You are not signed in.",
+    "signedInAs": "Signed in as {email}",
+    "signIn": "Sign in",
+    "signInTitle": "Sign in with email and password",
+    "google": "Sign in with Google",
+    "email": "Email",
+    "password": "Password",
+    "newPassword": "New password",
+    "passwordHint": "At least 10 characters.",
+    "magicTitle": "Sign in with a link",
+    "magicLead": "We email you a link, no password needed. Only for accounts that already exist.",
+    "magicSubmit": "Send link",
+    "signUpTitle": "Create an account",
+    "signUp": "Create account",
+    "consent": "I am 14 or older and I accept the <privacy>privacy policy</privacy>.",
+    "resetTitle": "Reset your password",
+    "resetSubmit": "Send link",
+    "linkError": "That link is invalid or has expired. Please ask for a new one.",
+    "sync": {
+      "syncing": "Syncing…",
+      "synced": "Synced",
+      "offline": "Offline: it will sync when you are back online."
+    },
+    "exportHint": "You can export a copy of your progress in <settings>Settings</settings>.",
+    "signOut": "Sign out",
+    "changePassword": "Change password",
+    "updatePassword": "Save password",
+    "deleteTitle": "Delete account",
+    "deleteBody": "Your account and everything Sello keeps about you in the cloud are deleted. This cannot be undone.",
+    "deleteButton": "Delete my account",
+    "deleteConfirm": "Are you sure you want to delete your account and your cloud data?",
+    "keepLocal": "Keep the progress saved in this browser",
+    "deleteFinal": "Yes, delete",
+    "cancel": "Cancel",
+    "messages": {
+      "signedIn": "Signed in.",
+      "checkEmail": "If the email is valid, you will receive a message with instructions.",
+      "passwordUpdated": "Password updated.",
+      "accountDeleted": "Account deleted.",
+      "invalid": "Please check the form.",
+      "credentials": "Incorrect email or password.",
+      "consent": "To create an account, confirm you are 14 or older and accept the privacy policy.",
+      "weakPassword": "That password is too weak: use at least 10 characters.",
+      "rateLimited": "Too many attempts. Please wait a few minutes.",
+      "unavailable": "Accounts are not available right now.",
+      "failed": "Something went wrong. Please try again."
+    }
   }
 }

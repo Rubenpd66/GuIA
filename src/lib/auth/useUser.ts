@@ -31,7 +31,9 @@ function start() {
 function subscribe(listener: () => void) {
   listeners.add(listener);
   start();
-  return () => listeners.delete(listener);
+  return () => {
+    listeners.delete(listener);
+  };
 }
 
 /** The signed-in user, null when signed out, undefined while unknown or on the server. */

@@ -53,7 +53,7 @@ export function createLocalStore<T>(
   const useValue = (): T =>
     useSyncExternalStore(subscribe, read, () => fallback);
 
-  return { read, save, useValue };
+  return { read, save, useValue, subscribe };
 }
 
 /** JSON.parse that returns undefined instead of throwing. */

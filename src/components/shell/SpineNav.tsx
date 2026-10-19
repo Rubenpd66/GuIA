@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { AccountLink } from "@/components/account/AccountLink";
 import { Icon } from "@/components/icons/Icon";
 import { LocaleSwitcher } from "@/components/i18n/LocaleSwitcher";
 import { Guilloche } from "@/components/passport/Guilloche";
@@ -57,6 +58,7 @@ export function SpineNav() {
         <div className="my-5 h-px bg-on-cover/20" />
         <ul className="space-y-1">{MORE_NAV.map(renderItem)}</ul>
       </nav>
+      <AccountLink className="mb-4 inline-flex min-h-12 items-center rounded-control px-3 font-medium text-on-cover/85 hover:bg-on-cover/10 hover:text-on-cover" />
       <Guilloche variant="band" className="my-6 h-8 w-full text-foil/35" />
       <div className="flex items-center justify-between gap-2">
         <LocaleSwitcher />
