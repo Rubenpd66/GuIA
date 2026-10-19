@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   entriesVisibleTo,
   isVisible,
+  lowestLevel,
   tierFromRow,
   visibleTo,
   type SubscriptionRow,
@@ -82,5 +83,12 @@ describe("visibility", () => {
       "A2",
       "B1",
     ]);
+  });
+});
+
+describe("lowestLevel", () => {
+  it("names the easiest level in a list, whatever its order", () => {
+    expect(lowestLevel(["C1", "B1", "B2"])).toBe("B1");
+    expect(lowestLevel([])).toBeUndefined();
   });
 });

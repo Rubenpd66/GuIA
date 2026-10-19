@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { getLocale, getTranslations } from "next-intl/server";
-import { LevelBadge } from "@/components/content/LevelBadge";
+import { getTranslations } from "next-intl/server";
+import { Suspense } from "react";
+import { GatedPhrases } from "@/components/lessons/GatedPhrases";
+import { PhraseItem } from "@/components/lessons/PhraseItem";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { phrasesByFunction } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
-import { localized } from "@/lib/content/localize";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Functional");
@@ -13,11 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function FunctionalLanguagePage() {
-  const [t, locale, content] = await Promise.all([
-    getTranslations(),
-    getLocale(),
-    getContent(),
-  ]);
+  const [t, content] = await Promise.all([getTranslations(), getContent()]);
   const groups = phrasesByFunction(content);
 
   return (
@@ -65,29 +62,23 @@ export default async function FunctionalLanguagePage() {
                 {t(`Functional.${group.function}`)}
               </h2>
               <ul className="mt-4 divide-y divide-hairline border-y border-hairline">
-                {group.phrases.map((phrase) => (
-                  <li key={phrase.id} className="py-3">
-                    <p className="flex flex-wrap items-center gap-x-3 gap-y-1">
-                      <span lang="en" className="font-semibold">
-                        {phrase.phrase}
-                      </span>
-                      <LevelBadge level={phrase.level} />
-                      {phrase.register !== "neutral" ? (
-                        <span className="text-sm text-ink-soft">
-                          {t(`Vocab.${phrase.register}`)}
-                        </span>
-                      ) : null}
-                    </p>
-                    <p lang="en" className="prose-reading mt-1">
-                      {phrase.example}
-                    </p>
-                    {phrase.note ? (
-                      <p className="mt-1 text-sm text-ink-soft">
-                        {localized(phrase.note, locale)}
-                      </p>
-                    ) : null}
-                  </li>
-                ))}
+                {group.phrases
+                  .filter((phrase) => phrase.level === "A2")
+                  .map((phrase) => (
+                    <PhraseItem key={phrase.id} phrase={phrase} />
+                  ))}
+                {group.phrases.some((phrase) => phrase.level !== "A2") ? (
+                  <Suspense
+                    fallback={
+                      <li
+                        aria-hidden="true"
+                        className="my-3 h-12 rounded-control bg-hairline"
+                      />
+                    }
+                  >
+                    <GatedPhrases fn={group.function} />
+                  </Suspense>
+                ) : null}
               </ul>
             </section>
           ))}

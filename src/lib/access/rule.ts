@@ -1,4 +1,4 @@
-import type { CefrLevel } from "@/lib/content/schemas/common";
+import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
 import { canAccess, type PaidTier, type Tier } from "./tiers";
 
 /** The columns of `public.subscriptions` that decide access. */
@@ -42,4 +42,9 @@ export function entriesVisibleTo<T extends { level: CefrLevel }>(
   items: readonly T[],
 ): T[] {
   return items.filter((item) => canAccess(tier, item.level));
+}
+
+/** The easiest level among some hidden content: the plan a lock notice should name. */
+export function lowestLevel(levels: readonly CefrLevel[]): CefrLevel | undefined {
+  return CEFR_LEVELS.find((level) => levels.includes(level));
 }

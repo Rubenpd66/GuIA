@@ -12,12 +12,31 @@ import type { CefrLevel } from "@/lib/content/schemas/common";
 export function LockedNotice({
   level,
   count,
+  compact = false,
 }: {
   level: CefrLevel;
   count?: number;
+  /** One line, for lists that repeat it (e.g. under each phrase function). */
+  compact?: boolean;
 }) {
   const t = useTranslations("Locked");
   const plan = TIER_LEVEL[tierFor(level)];
+  if (compact)
+    return (
+      <p
+        data-paywall
+        className="flex flex-wrap items-center gap-2 text-ink-soft"
+      >
+        <Icon name="lock" className="size-4" />
+        {count === undefined ? t("title", { plan }) : t("more", { count })}{" "}
+        <Link
+          href={{ pathname: "/plans", query: { nivel: level } }}
+          className="font-semibold text-ink underline"
+        >
+          {t("cta")}
+        </Link>
+      </p>
+    );
   return (
     <section
       data-paywall
