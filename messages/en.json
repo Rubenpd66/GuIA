@@ -1076,7 +1076,10 @@
       "seePlans": "See plans",
       "paid": "{level} plan.",
       "portalHint": "Change plan, cancel or download invoices on Stripe.",
-      "manage": "Manage subscription"
+      "manage": "Manage subscription",
+      "invoices": "Past invoices",
+      "endsOn": "Your plan ends on {date}; you keep access until then.",
+      "pastDue": "There is a problem with your payment. Update your payment method under \"Manage subscription\"."
     },
     "checkout": {
       "success": "Payment received. Your plan will be active in a few seconds; reload the page if you don't see it.",

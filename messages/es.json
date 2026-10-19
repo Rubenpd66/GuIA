@@ -1076,7 +1076,10 @@
       "seePlans": "Ver planes",
       "paid": "Plan {level}.",
       "portalHint": "Cambia de plan, cancela o descarga facturas en Stripe.",
-      "manage": "Gestionar suscripción"
+      "manage": "Gestionar suscripción",
+      "invoices": "Facturas anteriores",
+      "endsOn": "Tu plan se cancela el {date}; hasta entonces conservas el acceso.",
+      "pastDue": "Hay un problema con el pago. Actualiza tu método de pago en «Gestionar suscripción»."
     },
     "checkout": {
       "success": "Pago recibido. Tu plan se activa en unos segundos; si no lo ves, recarga la página.",

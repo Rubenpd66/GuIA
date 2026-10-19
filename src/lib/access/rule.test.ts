@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  describePlan,
   entriesVisibleTo,
   isVisible,
   lowestLevel,
@@ -90,5 +91,33 @@ describe("lowestLevel", () => {
   it("names the easiest level in a list, whatever its order", () => {
     expect(lowestLevel(["C1", "B1", "B2"])).toBe("B1");
     expect(lowestLevel([])).toBeUndefined();
+  });
+});
+
+describe("describePlan", () => {
+  const plan = (patch: Partial<SubscriptionRow & { cancel_at_period_end: boolean }> = {}) => ({
+    ...row(),
+    cancel_at_period_end: false,
+    ...patch,
+  });
+
+  it("is none without a row or once access has ended", () => {
+    expect(describePlan(null, NOW)).toBe("none");
+    expect(describePlan(plan({ status: "canceled" }), NOW)).toBe("none");
+    expect(
+      describePlan(plan({ current_period_end: new Date(NOW - 1000).toISOString() }), NOW),
+    ).toBe("none");
+  });
+
+  it("is active while the plan renews", () => {
+    expect(describePlan(plan(), NOW)).toBe("active");
+  });
+
+  it("is ending when the learner has cancelled but the period is still paid", () => {
+    expect(describePlan(plan({ cancel_at_period_end: true }), NOW)).toBe("ending");
+  });
+
+  it("is pastDue while Stripe retries a failed payment", () => {
+    expect(describePlan(plan({ status: "past_due" }), NOW)).toBe("pastDue");
   });
 });

@@ -48,3 +48,15 @@ export function entriesVisibleTo<T extends { level: CefrLevel }>(
 export function lowestLevel(levels: readonly CefrLevel[]): CefrLevel | undefined {
   return CEFR_LEVELS.find((level) => levels.includes(level));
 }
+
+export type PlanState = "none" | "active" | "ending" | "pastDue";
+
+/** How a subscription row should read on the account page. */
+export function describePlan(
+  row: (SubscriptionRow & { cancel_at_period_end: boolean }) | null,
+  now: number,
+): PlanState {
+  if (tierFromRow(row, now) === "free" || !row) return "none";
+  if (row.status === "past_due") return "pastDue";
+  return row.cancel_at_period_end ? "ending" : "active";
+}
