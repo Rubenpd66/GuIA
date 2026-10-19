@@ -47,14 +47,47 @@
   },
   "Home": {
     "title": "Prepare for Aptis ESOL General and reach C",
-    "lead": "Lessons, practice for all 18 parts and timed mock exams, designed for Spanish speakers.",
+    "lead": "Lessons, practice for all 18 parts and mock exams with real timings, made for Spanish speakers.",
     "placementTest": "Take the placement test",
-    "startStudying": "Start studying",
+    "seePlans": "See plans",
+    "freeNote": "The A2 plan is free and needs no account.",
+    "benefits": {
+      "format": {
+        "title": "The real exam format",
+        "body": "All 18 parts with their format and timings, plus a full mock exam."
+      },
+      "spanish": {
+        "title": "Explained in Spanish",
+        "body": "Explanations and the typical mistakes Spanish speakers make."
+      },
+      "level": {
+        "title": "Your level, clearly",
+        "body": "An estimated level per skill and what to practise next."
+      }
+    },
+    "howTitle": "How it works",
+    "steps": {
+      "test": {
+        "title": "Take the placement test",
+        "body": "In about 20 minutes you will know your estimated level in each skill."
+      },
+      "plan": {
+        "title": "Follow your plan",
+        "body": "We suggest what to study to reach C."
+      },
+      "practice": {
+        "title": "Practise every day",
+        "body": "Train all 18 parts with real timings and review your mistakes."
+      }
+    },
     "partsTitle": "The 18 parts of the exam",
-    "partsLead": "Each part is a challenge: master it and you earn it.",
-    "levelsTitle": "Your passport",
-    "levelsLead": "Every level you reach gets stamped: A2, B1, B2 and C.",
-    "structuredDescription": "Free, unofficial preparation for the Aptis ESOL General: lessons, practice for all 18 parts, a placement test and mock exams."
+    "partsLead": "Each part is a challenge: master it and you have achieved it.",
+    "plansTitle": "Free to start, paid to go further",
+    "plansLead": "Each paid plan opens its level and every level below. Prices include VAT.",
+    "plansFrom": "Paid plans from {price} a month",
+    "closingTitle": "Start with the placement test",
+    "closingBody": "Free, no account and about 20 minutes.",
+    "structuredDescription": "Unofficial preparation for Aptis ESOL General: lessons, practice for all 18 parts, a placement test and mock exams. The A2 plan is free."
   },
   "Sections": {
     "dashboard": {
