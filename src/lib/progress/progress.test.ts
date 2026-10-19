@@ -138,7 +138,21 @@ describe("export and import", () => {
 
   it("round-trips through the exported file", () => {
     const result = importProgress(exportProgress(progress, 123));
-    expect(result).toEqual({ ok: true, progress });
+    expect(result).toEqual({ ok: true, progress, extras: {} });
+  });
+
+  it("carries the extras and drops damaged ones", () => {
+    const file = exportProgress(progress, 123, { examDate: "2026-12-01" });
+    expect(importProgress(file)).toMatchObject({
+      ok: true,
+      extras: { examDate: "2026-12-01" },
+    });
+    const damaged = JSON.stringify({
+      app: "sello",
+      progress,
+      examDate: "soon",
+    });
+    expect(importProgress(damaged)).toMatchObject({ ok: true, extras: {} });
   });
 
   it("rejects files that are not JSON, not from Sello or damaged", () => {

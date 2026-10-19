@@ -1,6 +1,11 @@
 import type { ExamPart } from "@/lib/exam/format";
 import type { ItemResult } from "@/lib/trainer/score";
-import { Progress, type Attempt, type MistakeEntry } from "./schema";
+import {
+  ExportExtras,
+  Progress,
+  type Attempt,
+  type MistakeEntry,
+} from "./schema";
 
 export const EMPTY_PROGRESS: Progress = {
   version: 1,
@@ -85,12 +90,30 @@ export function mistakeKeys(progress: Progress, part: ExamPart): string[] {
     .map(([key]) => key);
 }
 
-export function exportProgress(progress: Progress, exportedAt: number): string {
-  return JSON.stringify({ app: "sello", exportedAt, progress }, null, 2);
+export function exportProgress(
+  progress: Progress,
+  exportedAt: number,
+  extras: ExportExtras = {},
+): string {
+  return JSON.stringify(
+    { app: "sello", exportedAt, progress, ...extras },
+    null,
+    2,
+  );
+}
+
+/** Each extra that is missing or damaged is left out, so older files still import. */
+function readExtras(data: Record<string, unknown>): ExportExtras {
+  const extras: Record<string, unknown> = {};
+  for (const [key, schema] of Object.entries(ExportExtras.shape)) {
+    const result = schema.safeParse(data[key]);
+    if (key in data && result.success) extras[key] = result.data;
+  }
+  return extras as ExportExtras;
 }
 
 export type ImportResult =
-  | { ok: true; progress: Progress }
+  | { ok: true; progress: Progress; extras: ExportExtras }
   | { ok: false; error: "invalid-json" | "not-sello" | "invalid-data" };
 
 export function importProgress(text: string): ImportResult {
@@ -109,6 +132,10 @@ export function importProgress(text: string): ImportResult {
   }
   const result = Progress.safeParse((data as { progress?: unknown }).progress);
   return result.success
-    ? { ok: true, progress: result.data }
+    ? {
+        ok: true,
+        progress: result.data,
+        extras: readExtras(data as Record<string, unknown>),
+      }
     : { ok: false, error: "invalid-data" };
 }

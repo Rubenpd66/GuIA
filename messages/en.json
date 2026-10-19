@@ -151,10 +151,8 @@
   "Settings": {
     "theme": "Theme",
     "language": "Language",
-    "laterTitle": "Coming later",
     "voice": "Listening voice and speed",
     "examDate": "Exam date",
-    "phase": "Phase {phase}",
     "progressTitle": "Your progress",
     "progressLead": "It is saved only in this browser. Export a copy to move it to another device or to keep a backup.",
     "sessions": "{count, plural, =0 {No sessions saved} one {# session saved} other {# sessions saved}}",
@@ -183,7 +181,9 @@
     "test": "Try it",
     "stopTest": "Stop",
     "noVoices": "No English voices found on this device. The default voice will be used.",
-    "unsupported": "Your browser cannot read audio aloud."
+    "unsupported": "Your browser cannot read audio aloud.",
+    "examDateLead": "With a date, the dashboard shows a countdown and suggests a mock exam in the last two weeks. It is stored only in this browser.",
+    "examDateClear": "Remove the date"
   },
   "Legal": {
     "title": "Legal notice",
@@ -838,5 +838,47 @@
     "strategies": "Strategies",
     "rubricTitle": "How you assess yourself",
     "practise": "Practise part {number}"
+  },
+  "Dashboard": {
+    "estimateNote": "Levels are the app's own rough estimate from your latest attempts, not an official score. Writing and Speaking come from your self-assessment.",
+    "emptyTitle": "Your passport is blank",
+    "emptyBody": "Take the placement test or practise any part, and here you will see your estimated level, your streak and what to practise next.",
+    "emptyPlacement": "Take the placement test",
+    "emptyPractice": "Go to practice",
+    "nextTitle": "Next task",
+    "countdown": "{days, plural, =0 {Your exam is today} one {# day to your exam} other {# days to your exam}}",
+    "go": "Start",
+    "next": {
+      "mock": "{days, plural, =0 {Your exam is today: warm up with a mock exam.} one {Your exam is tomorrow: take a mock exam.} other {Your exam is in # days: take a mock exam.}}",
+      "start": "Start with {part}: you have no data yet.",
+      "weakest": "Work on {part}: it is your weakest part.",
+      "mistakes": "{count, plural, one {Review # mistake in {part}.} other {Review # mistakes in {part}.}}"
+    },
+    "skillsTitle": "Level by skill",
+    "noData": "No data",
+    "noStamp": "No stamp",
+    "percent": "{value}%",
+    "selfAssessed": "Self-assessed",
+    "habitTitle": "Your pace",
+    "streakLabel": "Streak",
+    "days": "{count, plural, one {# day} other {# days}}",
+    "weekLabel": "This week",
+    "minutes": "{count, plural, one {# minute} other {# minutes}}",
+    "weakTitle": "Weak points",
+    "passportTitle": "Your passport",
+    "passportLead": "Every part of the exam has its own box. The stamp shows your estimated level and changes as you practise.",
+    "stampLabel": "{level} stamp: {part}",
+    "emptySlot": "No stamp yet: {part}"
+  },
+  "Mistakes": {
+    "lead": "{count, plural, one {You have # saved mistake.} other {You have # saved mistakes.}} Each one leaves the bank once you get it right {streak} times in a row when reviewing.",
+    "counts": "{count, plural, one {# mistake} other {# mistakes}} · {onTheWay} on the way out",
+    "review": "Review",
+    "emptyTitle": "You have no saved mistakes",
+    "emptyBody": "When you miss a question in a marked trainer, it is saved here until you get it right {streak} times in a row.",
+    "clear": "Empty the mistakes bank",
+    "clearConfirm": "Empty all saved mistakes? Your attempt history is not deleted.",
+    "clearButton": "Empty",
+    "cancel": "Cancel"
   }
 }

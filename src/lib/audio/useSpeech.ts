@@ -29,9 +29,12 @@ function subscribeVoices(onChange: () => void) {
     window.speechSynthesis.removeEventListener("voiceschanged", onChange);
 }
 
+const NO_VOICES: SpeechSynthesisVoice[] = [];
+const noSubscription = () => () => {};
+
 /** The device's voices; empty on the server and while the browser is still loading them. */
 export function useVoices(): SpeechSynthesisVoice[] {
-  return useSyncExternalStore(subscribeVoices, readVoices, () => []);
+  return useSyncExternalStore(subscribeVoices, readVoices, () => NO_VOICES);
 }
 
 export type SpeechStatus = "idle" | "playing" | "paused";
@@ -44,7 +47,12 @@ export function useSpeech() {
   const [playingId, setPlayingId] = useState<string | null>(null);
   // A new run id makes events from a cancelled run harmless.
   const run = useRef(0);
-  const supported = supportsSpeech();
+  // Read through the store API so the first client render matches the server's (no speech).
+  const supported = useSyncExternalStore(
+    noSubscription,
+    supportsSpeech,
+    () => false,
+  );
 
   const stop = useCallback(() => {
     run.current += 1;

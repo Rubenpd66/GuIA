@@ -2,12 +2,10 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { LocaleSwitcher } from "@/components/i18n/LocaleSwitcher";
 import { VoiceSettings } from "@/components/settings/VoiceSettings";
+import { ExamDateSetting } from "@/components/settings/ExamDateSetting";
 import { ProgressManager } from "@/components/settings/ProgressManager";
 import { ThemeChoice } from "@/components/theme/ThemeChoice";
 import { PageHeader } from "@/components/ui/PageHeader";
-
-/** Settings that arrive with later phases. */
-const LATER = [{ key: "examDate", phase: 7 }] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.settings");
@@ -47,6 +45,14 @@ export default async function SettingsPage() {
             <VoiceSettings />
           </div>
         </section>
+        <section aria-labelledby="exam-date-heading">
+          <h2 id="exam-date-heading" className="text-lg font-bold">
+            {t("Settings.examDate")}
+          </h2>
+          <div className="mt-3">
+            <ExamDateSetting />
+          </div>
+        </section>
         <section aria-labelledby="progress-heading">
           <h2 id="progress-heading" className="text-lg font-bold">
             {t("Settings.progressTitle")}
@@ -54,24 +60,6 @@ export default async function SettingsPage() {
           <div className="mt-3">
             <ProgressManager />
           </div>
-        </section>
-        <section aria-labelledby="later-heading">
-          <h2 id="later-heading" className="text-lg font-bold">
-            {t("Settings.laterTitle")}
-          </h2>
-          <ul className="mt-3 divide-y divide-hairline border-y border-hairline">
-            {LATER.map(({ key, phase }) => (
-              <li
-                key={key}
-                className="flex min-h-14 items-center justify-between gap-4 py-3"
-              >
-                <span>{t(`Settings.${key}`)}</span>
-                <span className="shrink-0 text-sm text-ink-soft">
-                  {t("Settings.phase", { phase })}
-                </span>
-              </li>
-            ))}
-          </ul>
         </section>
       </div>
     </>

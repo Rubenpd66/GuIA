@@ -151,10 +151,8 @@
   "Settings": {
     "theme": "Tema",
     "language": "Idioma",
-    "laterTitle": "Más adelante",
     "voice": "Voz y velocidad del listening",
     "examDate": "Fecha del examen",
-    "phase": "Fase {phase}",
     "progressTitle": "Tu progreso",
     "progressLead": "Se guarda solo en este navegador. Exporta una copia para pasarlo a otro dispositivo o como respaldo.",
     "sessions": "{count, plural, =0 {Ninguna sesión guardada} one {# sesión guardada} other {# sesiones guardadas}}",
@@ -183,7 +181,9 @@
     "test": "Probar",
     "stopTest": "Parar",
     "noVoices": "No hay voces en inglés en este dispositivo. Se usará la voz por defecto.",
-    "unsupported": "Tu navegador no puede leer audio en voz alta."
+    "unsupported": "Tu navegador no puede leer audio en voz alta.",
+    "examDateLead": "Con la fecha, el panel muestra la cuenta atrás y te propone un simulacro en las dos últimas semanas. Se guarda solo en este navegador.",
+    "examDateClear": "Quitar la fecha"
   },
   "Legal": {
     "title": "Aviso legal",
@@ -838,5 +838,47 @@
     "strategies": "Estrategias",
     "rubricTitle": "Cómo te autoevalúas",
     "practise": "Practicar la parte {number}"
+  },
+  "Dashboard": {
+    "estimateNote": "Los niveles son una estimación orientativa de la app a partir de tus últimos intentos, no una nota oficial. Writing y Speaking salen de tu autoevaluación.",
+    "emptyTitle": "Tu pasaporte está en blanco",
+    "emptyBody": "Haz el test de nivel o practica cualquier parte y aquí verás tu nivel estimado, tu racha y qué practicar después.",
+    "emptyPlacement": "Hacer el test de nivel",
+    "emptyPractice": "Ir a la práctica",
+    "nextTitle": "Siguiente tarea",
+    "countdown": "{days, plural, =0 {Tu examen es hoy} one {Falta # día para tu examen} other {Faltan # días para tu examen}}",
+    "go": "Empezar",
+    "next": {
+      "mock": "{days, plural, =0 {Tu examen es hoy: repasa con un simulacro.} one {Tu examen es mañana: haz un simulacro.} other {Tu examen es en # días: haz un simulacro.}}",
+      "start": "Empieza por {part}: aún no tienes datos.",
+      "weakest": "Refuerza {part}: es tu parte más floja.",
+      "mistakes": "{count, plural, one {Repasa # error de {part}.} other {Repasa # errores de {part}.}}"
+    },
+    "skillsTitle": "Nivel por destreza",
+    "noData": "Sin datos",
+    "noStamp": "Sin sello",
+    "percent": "{value} %",
+    "selfAssessed": "Autoevaluación",
+    "habitTitle": "Tu ritmo",
+    "streakLabel": "Racha",
+    "days": "{count, plural, one {# día} other {# días}}",
+    "weekLabel": "Esta semana",
+    "minutes": "{count, plural, one {# minuto} other {# minutos}}",
+    "weakTitle": "Puntos débiles",
+    "passportTitle": "Tu pasaporte",
+    "passportLead": "Cada parte del examen tiene su casilla. El sello muestra tu nivel estimado y cambia cuando practicas.",
+    "stampLabel": "Sello {level}: {part}",
+    "emptySlot": "Sin sello todavía: {part}"
+  },
+  "Mistakes": {
+    "lead": "{count, plural, one {Tienes # error guardado.} other {Tienes # errores guardados.}} Cada uno sale del banco cuando lo aciertas {streak} veces seguidas en el repaso.",
+    "counts": "{count, plural, one {# error} other {# errores}} · {onTheWay} en camino de salir",
+    "review": "Repasar",
+    "emptyTitle": "No tienes errores guardados",
+    "emptyBody": "Cuando falles una pregunta en los entrenadores con corrección, se guardará aquí hasta que la aciertes {streak} veces seguidas.",
+    "clear": "Vaciar el banco de errores",
+    "clearConfirm": "¿Vaciar todos los errores guardados? Tu historial de intentos no se borra.",
+    "clearButton": "Vaciar",
+    "cancel": "Cancelar"
   }
 }

@@ -1,6 +1,19 @@
-import { comingSoonPage } from "@/components/sections/coming-soon-page";
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { Dashboard } from "@/components/dashboard/Dashboard";
+import { PageHeader } from "@/components/ui/PageHeader";
 
-const { generateMetadata, Page } = comingSoonPage("dashboard");
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Sections.dashboard");
+  return { title: t("title"), description: t("lead") };
+}
 
-export { generateMetadata };
-export default Page;
+export default async function DashboardPage() {
+  const t = await getTranslations("Sections.dashboard");
+  return (
+    <>
+      <PageHeader title={t("title")} lead={t("lead")} />
+      <Dashboard />
+    </>
+  );
+}
