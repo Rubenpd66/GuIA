@@ -12,6 +12,7 @@ import {
   subscribeProgress,
 } from "@/lib/progress/useProgress";
 import { parseJson } from "@/lib/storage/localStore";
+import { DRAFTS_KEY } from "@/lib/writing/drafts";
 import { supabaseBrowser } from "@/lib/supabase/client";
 import { onUserChange } from "@/lib/auth/useUser";
 import {
@@ -20,6 +21,7 @@ import {
   mergeProgress,
   type Versioned,
 } from "./merge";
+import { claimOwner } from "./owner";
 import { setSyncStatus } from "./status";
 
 type Channel<T> = {
@@ -94,7 +96,7 @@ function touchMeta(key: string, at: number) {
   }
 }
 
-/** Removes the study data this browser holds (used after deleting the account). */
+/** Removes the study data this browser holds (after deleting the account or a switch). */
 export function clearLocalStudyData() {
   clearProgress();
   flashcardsStore.save(null);
@@ -102,6 +104,7 @@ export function clearLocalStudyData() {
   mockStore.save(null);
   try {
     localStorage.removeItem(META_KEY);
+    localStorage.removeItem(DRAFTS_KEY);
   } catch {
     // Nothing to clear.
   }
@@ -168,6 +171,9 @@ export function startSync() {
     stop?.();
     stop = undefined;
     if (!user) return;
+    // shortcut: changes the previous account made offline and never pushed are lost here,
+    // accepted so a shared device cannot mix two learners' data.
+    if (claimOwner(user.id)) clearLocalStudyData();
 
     const applying = { current: false };
     let timer: ReturnType<typeof setTimeout> | undefined;

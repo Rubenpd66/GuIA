@@ -13,6 +13,7 @@ import {
 } from "@/lib/auth/actions";
 import { useUser } from "@/lib/auth/useUser";
 import { clearLocalStudyData } from "@/lib/sync/engine";
+import { releaseOwner } from "@/lib/sync/owner";
 import { useSyncStatus } from "@/lib/sync/status";
 import { AuthForm, fieldClass } from "./AuthForm";
 
@@ -29,6 +30,7 @@ export function AccountPanel() {
     async () => {
       const result = await deleteMyAccount();
       if (result.status === "ok") {
+        releaseOwner();
         if (!keepLocal) clearLocalStudyData();
         router.push("/");
       }

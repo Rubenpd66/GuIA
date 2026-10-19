@@ -1,4 +1,4 @@
-const STORAGE_KEY = "sello:writing-drafts";
+export const DRAFTS_KEY = "sello:writing-drafts";
 /** Oldest drafts are dropped past this, so abandoned tasks do not pile up. */
 export const MAX_DRAFTS = 60;
 
@@ -11,7 +11,7 @@ const storeOr = (store?: Store): Store => store ?? globalThis.localStorage;
 function readAll(store?: Store): Drafts {
   try {
     const data: unknown = JSON.parse(
-      storeOr(store).getItem(STORAGE_KEY) ?? "{}",
+      storeOr(store).getItem(DRAFTS_KEY) ?? "{}",
     );
     return typeof data === "object" && data !== null ? (data as Drafts) : {};
   } catch {
@@ -21,7 +21,7 @@ function readAll(store?: Store): Drafts {
 
 function writeAll(store: Store | undefined, drafts: Drafts) {
   try {
-    storeOr(store).setItem(STORAGE_KEY, JSON.stringify(drafts));
+    storeOr(store).setItem(DRAFTS_KEY, JSON.stringify(drafts));
   } catch {
     // Blocked or full storage: the text stays in the editor for this page view.
   }
