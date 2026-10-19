@@ -7,9 +7,7 @@ import { ThemeChoice } from "@/components/theme/ThemeChoice";
 import { PageHeader } from "@/components/ui/PageHeader";
 
 /** Settings that arrive with later phases. */
-const LATER = [
-  { key: "examDate", phase: 7 },
-] as const;
+const LATER = [{ key: "examDate", phase: 7 }] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.settings");

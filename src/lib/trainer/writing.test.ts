@@ -56,16 +56,17 @@ describe("wordStatus", () => {
     expect(wordStatus("one two three four five six", [1, 5]).status).toBe(
       "above",
     );
-    expect(wordStatus("one two three four five", [1, 5]).status).toBe(
-      "within",
-    );
+    expect(wordStatus("one two three four five", [1, 5]).status).toBe("within");
   });
 });
 
 describe("annotatedSegments", () => {
   it("splits the text into plain and annotated stretches that rebuild it", () => {
     const segments = annotatedSegments(
-      model("However, I agree. Above all, it works.", ["Above all", "However,"]),
+      model("However, I agree. Above all, it works.", [
+        "Above all",
+        "However,",
+      ]),
     );
     expect(segments).toEqual([
       { text: "However,", annotation: 1 },
