@@ -48,7 +48,7 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - Placement and mock reuse the trainers' exported sessions (`GrammarSession`, `VocabularySession`, `ReadingSession`, `ListeningSession`, `WritingSession`/`SpeakingSession` with `onSaved`) through `src/components/assessment/AssessmentRunner.tsx` and `steps.ts`. Mock state is rebuilt from its seed; a reload keeps the section clock but restarts its answers and Listening plays (marked `shortcut:`).
   - Stamp animation: `Stamp animate` (CSS `stamp-drop` in `globals.css`, a fade with reduced motion).
   - Fixed in passing: `useSpeech` read speech support during render, which broke hydration on Settings.
-- **Next: phase 8** (polish: accessibility, Lighthouse ≥ 90 on mobile, PWA, SEO, Playwright tests in the repo, Vercel deploy). Write its plan and wait for approval before code. It still needs the owner's details for the legal notice and a favicon.ico, and adding Playwright as a dev dependency needs the user's OK.
+- **Next: phase 8** (polish and deploy). Plan written at `docs/superpowers/plans/2026-10-19-phase-8-polish-deploy.md` in batches 8a–8d, awaiting the user's answers to its 4 questions (owner details for the legal notice, OK for `@playwright/test` + `@axe-core/playwright` + `npx lighthouse`, Vercel via GitHub or CLI and the project name, PWA scope and who makes the favicon). Do not start code before that approval.
 - Phases 8–9 follow the spec.
 
 ## Commands
