@@ -48,8 +48,15 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - Placement and mock reuse the trainers' exported sessions (`GrammarSession`, `VocabularySession`, `ReadingSession`, `ListeningSession`, `WritingSession`/`SpeakingSession` with `onSaved`) through `src/components/assessment/AssessmentRunner.tsx` and `steps.ts`. Mock state is rebuilt from its seed; a reload keeps the section clock but restarts its answers and Listening plays (marked `shortcut:`).
   - Stamp animation: `Stamp animate` (CSS `stamp-drop` in `globals.css`, a fade with reduced motion).
   - Fixed in passing: `useSpeech` read speech support during render, which broke hydration on Settings.
-- **Next: phase 8** (polish and deploy). Plan written at `docs/superpowers/plans/2026-10-19-phase-8-polish-deploy.md` in batches 8a–8d, awaiting the user's answers to its 4 questions (owner details for the legal notice, OK for `@playwright/test` + `@axe-core/playwright` + `npx lighthouse`, Vercel via GitHub or CLI and the project name, PWA scope and who makes the favicon). Do not start code before that approval.
-- Phases 8–9 follow the spec.
+- Phase 8 is done and deployed: https://sello-aptis.vercel.app (Vercel project `sello-aptis`, account rubenpd66-6093, no Git connection). Plan: `docs/superpowers/plans/2026-10-19-phase-8-polish-deploy.md`.
+  - E2E: `npm run e2e` (Playwright against `next build && next start -p 3100`, projects mobile + desktop): axe on every route in light/dark, interactive states, reflow at 320 px, focus and reduced motion (`e2e/a11y*.spec.ts`), PWA (`e2e/pwa.spec.ts`) and main flows (`e2e/flows.spec.ts`). Not part of `npm run check`. Stop any server on port 3100 first, or Playwright reuses an old build.
+  - Performance: production Lighthouse mobile 90–97, a11y/best practices/SEO 100. Banks for the mock exam, placement test and flashcards are static JSON at `/banks/<name>` (`src/app/banks/[name]/route.ts`, `src/lib/content/banks.ts`, `useBank`/`loadBank`), excluded from the locale proxy; the mock and placement only fetch them when a run starts. Fonts: latin subset; Literata upright only (`display: optional`, no preload). Client-only views sit in a `min-h` box to avoid layout shift. Guilloche paths use one decimal.
+  - SEO: `SITE.url` in `src/config/site.ts`; `metadataBase` and Open Graph defaults in the locale layout; `src/app/sitemap.ts` (hreflang pairs via `src/lib/seo/sitemap.ts`), `robots.ts`, `[locale]/opengraph-image.tsx`, JSON-LD (`components/seo/JsonLd`) on home and lessons.
+  - Legal: owner details in `SITE.owner` (name, NIF, address, email, published at the user's request); privacy page lists local storage, microphone and Vercel logs.
+  - PWA: `src/app/manifest.ts`, `public/sw.js` (network first for pages, RSC and banks; cache first for `/_next/static`; inline offline page), `ServiceWorker` registers it in production and offers a reload on update. Icons from `scripts/make-icons.ts`.
+  - Deploy: `npx vercel deploy --prod --yes` from this folder (in PowerShell use `npx.cmd`: the execution policy blocks `npx.ps1`). `vercel link` wrote a token to `.env.local` (ignored by git).
+- **Next: phase 9** (optional: AI feedback for Writing/Speaking and Supabase accounts). Write its plan and wait for approval; it needs keys, a server function and cost limits, so use the `security-audit` skill.
+- Phase 9 follows the spec.
 
 ## Commands
 
