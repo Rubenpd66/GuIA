@@ -41,7 +41,7 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - UI: `SpeakingTrainer` (all four parts), `AnswerTimer`, `RecordingPlayer`, `SpeakingModels` (listen with `useSpeech`, which now takes an `onEnd`), `MicCheck`; `/speaking` page; `Checklist` now lives in `src/components/trainer/` and is shared with Writing.
   - App decisions: own 4-criterion rubric, exam reads the question with the synthetic voice (5 s silent reading without a voice, and a cap if the voice never ends), recording and time start and stop on their own, no retries; study waits for the learner, allows retries and shows structure, tips, phrases and models.
   - Bank: 10/6/5/5 tasks in `content/exercises/speaking-{1,2,3,4}/`, reviewed one by one.
-- **Next: phase 7** (dashboard, placement test, mock exam, flashcards, mistakes bank). Write its plan and wait for approval before code.
+- **Next: phase 7** (dashboard, mistakes bank, flashcards, placement test, mock exam, stamp animation). Plan written at `docs/superpowers/plans/2026-10-19-phase-7-mock-dashboard.md` in batches 7a–7d, awaiting the user's approval of its 4 questions (app level bands, mock exam whole or by component with no 0–50 scale, SM-2 flashcards, run the batches without stopping). Do not start code before that approval.
 - Phases 7–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
