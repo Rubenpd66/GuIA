@@ -6,10 +6,12 @@
 export type RecorderStatus =
   "idle" | "requesting" | "recording" | "stopped" | "unavailable" | "denied";
 
+export type Recording = { url: string; mimeType: string };
+
 export type RecorderState = {
   status: RecorderStatus;
-  url: string | null;
-  mimeType: string;
+  /** One recording per turn key; recording a turn again replaces (and frees) its old one. */
+  recordings: Record<string, Recording>;
 };
 
 type MinimalRecorder = {
@@ -46,7 +48,7 @@ export function browserRecorderDeps(): RecorderDeps {
 }
 
 export function createRecorder(deps: RecorderDeps) {
-  let state: RecorderState = { status: "idle", url: null, mimeType: "" };
+  let state: RecorderState = { status: "idle", recordings: {} };
   let stream: MediaStream | null = null;
   let recorder: MinimalRecorder | null = null;
   // Bumped by release(), so a permission prompt answered after leaving is ignored.
@@ -57,15 +59,17 @@ export function createRecorder(deps: RecorderDeps) {
     state = { ...state, ...next };
     listeners.forEach((listener) => listener());
   };
-  const dropURL = () => {
-    if (state.url) deps.revokeURL(state.url);
+  const without = (key: string) => {
+    const { [key]: old, ...rest } = state.recordings;
+    if (old) deps.revokeURL(old.url);
+    return rest;
   };
   const stopTracks = () => {
     stream?.getTracks().forEach((track) => track.stop());
     stream = null;
   };
 
-  async function start() {
+  async function start(key: string) {
     if (!deps.getUserMedia || !deps.createRecorder) {
       set({ status: "unavailable" });
       return;
@@ -90,7 +94,6 @@ export function createRecorder(deps: RecorderDeps) {
         return;
       }
     }
-    dropURL();
     const chunks: Blob[] = [];
     const current = deps.createRecorder(stream);
     recorder = current;
@@ -103,22 +106,23 @@ export function createRecorder(deps: RecorderDeps) {
       const blob = new Blob(chunks, { type: current.mimeType });
       set({
         status: "stopped",
-        url: deps.createURL(blob),
-        mimeType: current.mimeType,
+        recordings: {
+          ...without(key),
+          [key]: { url: deps.createURL(blob), mimeType: current.mimeType },
+        },
       });
     };
     current.start();
-    set({ status: "recording", url: null });
+    set({ status: "recording", recordings: without(key) });
   }
 
   function stop() {
     if (recorder?.state === "recording") recorder.stop();
   }
 
-  /** Forgets the last recording (keeps the microphone for the next answer). */
-  function reset() {
-    dropURL();
-    set({ status: "idle", url: null });
+  /** Forgets one turn's recording (keeps the microphone for the next answer). */
+  function discard(key: string) {
+    set({ status: "idle", recordings: without(key) });
   }
 
   /** Stops everything and frees the microphone and the recording's memory. */
@@ -128,8 +132,8 @@ export function createRecorder(deps: RecorderDeps) {
     recorder = null;
     if (current?.state === "recording") current.stop();
     stopTracks();
-    dropURL();
-    set({ status: "idle", url: null, mimeType: "" });
+    Object.values(state.recordings).forEach((r) => deps.revokeURL(r.url));
+    set({ status: "idle", recordings: {} });
   }
 
   return {
@@ -140,7 +144,7 @@ export function createRecorder(deps: RecorderDeps) {
     },
     start,
     stop,
-    reset,
+    discard,
     release,
   };
 }

@@ -7,7 +7,7 @@ import {
   type RecorderState,
 } from "./recorder";
 
-const SERVER_STATE: RecorderState = { status: "idle", url: null, mimeType: "" };
+const SERVER_STATE: RecorderState = { status: "idle", recordings: {} };
 
 /** One recorder per mounted session; leaving the session frees the microphone and the audio. */
 export function useRecorder() {

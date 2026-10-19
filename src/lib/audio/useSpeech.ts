@@ -54,7 +54,7 @@ export function useSpeech() {
   }, []);
 
   const play = useCallback(
-    (id: string, script: Script) => {
+    (id: string, script: Script, onEnd?: () => void) => {
       if (!supportsSpeech()) return;
       stop();
       const mine = run.current;
@@ -76,6 +76,7 @@ export function useSpeech() {
           if (i === plan.length - 1) {
             setStatus("idle");
             setPlayingId(null);
+            onEnd?.();
           }
         };
         utterance.onend = done;

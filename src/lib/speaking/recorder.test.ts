@@ -47,25 +47,29 @@ describe("createRecorder", () => {
   it("records, stops and exposes an object URL", async () => {
     const { deps } = fakes();
     const recorder = createRecorder(deps);
-    await recorder.start();
+    await recorder.start("t#0");
     expect(recorder.getState().status).toBe("recording");
     recorder.stop();
     expect(recorder.getState()).toEqual({
       status: "stopped",
-      url: "blob:1",
-      mimeType: "audio/webm",
+      recordings: { "t#0": { url: "blob:1", mimeType: "audio/webm" } },
     });
   });
 
-  it("asks for the microphone once and revokes the old URL when recording again", async () => {
+  it("asks for the microphone once and keeps one recording per turn", async () => {
     const { deps } = fakes();
     const recorder = createRecorder(deps);
-    await recorder.start();
+    await recorder.start("t#0");
     recorder.stop();
-    await recorder.start();
+    await recorder.start("t#1");
+    recorder.stop();
+    expect(Object.keys(recorder.getState().recordings)).toEqual(["t#0", "t#1"]);
+    expect(deps.revokeURL).not.toHaveBeenCalled();
+    // Recording a turn again frees its old audio.
+    await recorder.start("t#0");
     expect(deps.revokeURL).toHaveBeenCalledWith("blob:1");
     recorder.stop();
-    expect(recorder.getState().url).toBe("blob:2");
+    expect(recorder.getState().recordings["t#0"]!.url).toBe("blob:3");
     expect(deps.getUserMedia).toHaveBeenCalledTimes(1);
   });
 
@@ -75,7 +79,7 @@ describe("createRecorder", () => {
       Object.assign(new Error("no"), { name: "NotAllowedError" }),
     );
     const a = createRecorder(denied);
-    await a.start();
+    await a.start("k");
     expect(a.getState().status).toBe("denied");
 
     const missing = fakes().deps;
@@ -83,27 +87,23 @@ describe("createRecorder", () => {
       Object.assign(new Error("none"), { name: "NotFoundError" }),
     );
     const b = createRecorder(missing);
-    await b.start();
+    await b.start("k");
     expect(b.getState().status).toBe("unavailable");
 
     const c = createRecorder({ ...fakes().deps, getUserMedia: undefined });
-    await c.start();
+    await c.start("k");
     expect(c.getState().status).toBe("unavailable");
   });
 
   it("frees the microphone and the URL on release, even mid-recording", async () => {
     const { deps, tracks } = fakes();
     const recorder = createRecorder(deps);
-    await recorder.start();
+    await recorder.start("t#0");
     recorder.stop();
-    await recorder.start();
+    await recorder.start("t#1");
     recorder.release();
     expect(tracks[0]!.stop).toHaveBeenCalled();
-    expect(recorder.getState()).toEqual({
-      status: "idle",
-      url: null,
-      mimeType: "",
-    });
+    expect(recorder.getState()).toEqual({ status: "idle", recordings: {} });
     // The recording cut short by release() never produces a URL to leak.
     expect(deps.createURL).toHaveBeenCalledTimes(1);
     expect(deps.revokeURL).toHaveBeenCalledWith("blob:1");
@@ -112,7 +112,7 @@ describe("createRecorder", () => {
   it("drops a microphone granted after the session was left", async () => {
     const { deps, tracks } = fakes();
     const recorder = createRecorder(deps);
-    const pending = recorder.start();
+    const pending = recorder.start("k");
     recorder.release();
     await pending;
     expect(tracks[0]!.stop).toHaveBeenCalled();
@@ -125,10 +125,11 @@ describe("createRecorder", () => {
     const recorder = createRecorder(deps);
     const seen: string[] = [];
     recorder.subscribe(() => seen.push(recorder.getState().status));
-    await recorder.start();
+    await recorder.start("k");
     recorder.stop();
-    recorder.reset();
+    recorder.discard("k");
     expect(seen).toEqual(["requesting", "recording", "stopped", "idle"]);
+    expect(deps.revokeURL).toHaveBeenCalledWith("blob:1");
   });
 });
 
