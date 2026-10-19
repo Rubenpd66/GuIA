@@ -38,7 +38,8 @@ import { Reading2Task } from "./Reading2Task";
 import { Reading3Task } from "./Reading3Task";
 import { Reading4Task } from "./Reading4Task";
 
-type Session = {
+/** A session as the trainer starts it; the placement test and mock exam build their own. */
+export type ReadingSessionData = {
   id: number;
   mode: TrainerMode;
   tasks: ReadingExercise[];
@@ -47,6 +48,7 @@ type Session = {
   startedAt: number;
   deadline: number | null;
 };
+type Session = ReadingSessionData;
 
 type Outcome = {
   correct: number;
@@ -204,7 +206,11 @@ type ReadingSessionProps = {
   onFinish: (answers: Answers, timeUp: boolean, finishedAt: number) => void;
 };
 
-function ReadingSession({ part, session, onFinish }: ReadingSessionProps) {
+export function ReadingSession({
+  part,
+  session,
+  onFinish,
+}: ReadingSessionProps) {
   const t = useTranslations("Trainer");
   const tReading = useTranslations("Reading.trainer");
   const { tasks, mode } = session;

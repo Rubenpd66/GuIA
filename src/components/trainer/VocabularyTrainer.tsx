@@ -35,13 +35,15 @@ import { SessionHeader } from "./SessionHeader";
 import { TrainerSetup } from "./TrainerSetup";
 import { useCountdown } from "./useCountdown";
 
-type Session = {
+/** A session as the trainer starts it; the placement test and mock exam build their own. */
+export type VocabularySessionData = {
   id: number;
   mode: TrainerMode;
   tasks: VocabularyTask[];
   startedAt: number;
   deadline: number | null;
 };
+type Session = VocabularySessionData;
 
 type Outcome = {
   correct: number;
@@ -174,7 +176,10 @@ type VocabularySessionProps = {
   onFinish: (answers: Answers, timeUp: boolean, finishedAt: number) => void;
 };
 
-function VocabularySession({ session, onFinish }: VocabularySessionProps) {
+export function VocabularySession({
+  session,
+  onFinish,
+}: VocabularySessionProps) {
   const t = useTranslations("Trainer");
   const tTypes = useTranslations("VocabTypes");
   const tLesson = useTranslations("Lesson");

@@ -39,12 +39,14 @@ import { Listening3Task } from "./Listening3Task";
 import { Listening4Task } from "./Listening4Task";
 import { Transcript } from "./Transcript";
 
-type Session = {
+/** A session as the trainer starts it; the placement test and mock exam build their own. */
+export type ListeningSessionData = {
   id: number;
   mode: TrainerMode;
   tasks: ListeningExercise[];
   startedAt: number;
 };
+type Session = ListeningSessionData;
 
 type Outcome = { correct: number; total: number; results: ItemResult[] };
 
@@ -167,7 +169,11 @@ type ListeningSessionProps = {
   onFinish: (answers: Answers, finishedAt: number) => void;
 };
 
-function ListeningSession({ part, session, onFinish }: ListeningSessionProps) {
+export function ListeningSession({
+  part,
+  session,
+  onFinish,
+}: ListeningSessionProps) {
   const t = useTranslations("Trainer");
   const tListening = useTranslations("Listening.trainer");
   const { tasks, mode } = session;

@@ -35,6 +35,10 @@ describe("bandOf", () => {
 describe("estimatePart", () => {
   it("says nothing with too little data", () => {
     expect(estimatePart([attempt("reading-1", 5, 5)], "reading-1")).toBeNull();
+    // One attempt under exam conditions is enough.
+    expect(
+      estimatePart([attempt("reading-1", 4, 5, "exam")], "reading-1")?.level,
+    ).toBe("B2");
     expect(estimatePart([], "core-grammar")).toBeNull();
     // A Core session with ten items is enough on its own.
     expect(

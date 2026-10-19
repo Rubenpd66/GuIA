@@ -52,8 +52,13 @@ export function estimatePart(
     .sort((a, b) => b.finishedAt - a.finishedAt)
     .slice(0, RECENT);
   const items = recent.reduce((sum, a) => sum + a.total, 0);
+  // An exam-mode attempt (a whole task under exam conditions) counts as two.
+  const evidence = recent.reduce(
+    (sum, a) => sum + (a.mode === "exam" ? 2 : 1),
+    0,
+  );
   const isCore = SKILL_OF_PART[part] === "core";
-  if (recent.length < MIN_ATTEMPTS && !(isCore && items >= MIN_CORE_ITEMS))
+  if (evidence < MIN_ATTEMPTS && !(isCore && items >= MIN_CORE_ITEMS))
     return null;
   let weighted = 0;
   let weights = 0;

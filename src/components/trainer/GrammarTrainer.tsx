@@ -39,13 +39,15 @@ type GrammarTrainerProps = {
   lessonTitles: Record<string, string>;
 };
 
-type Session = {
+/** A session as the trainer starts it; the placement test and mock exam build their own. */
+export type GrammarSessionData = {
   id: number;
   mode: TrainerMode;
   questions: ChoiceQuestion[];
   startedAt: number;
   deadline: number | null;
 };
+type Session = GrammarSessionData;
 
 type Outcome = {
   correct: number;
@@ -178,7 +180,7 @@ type GrammarSessionProps = {
   onFinish: (answers: Answers, timeUp: boolean, finishedAt: number) => void;
 };
 
-function GrammarSession({ session, onFinish }: GrammarSessionProps) {
+export function GrammarSession({ session, onFinish }: GrammarSessionProps) {
   const t = useTranslations("Trainer");
   const tLesson = useTranslations("Lesson");
   const locale = useLocale();

@@ -932,5 +932,30 @@
       "media": "Media",
       "general": "General"
     }
+  },
+  "Assessment": {
+    "section": "Section {current} of {total}",
+    "untimed": "No time limit: answer at your own pace, but with no help.",
+    "timed": "You have {minutes, plural, one {# minute} other {# minutes}}, as in the exam.",
+    "startSection": "Start the section"
+  },
+  "Placement": {
+    "introTitle": "How it works",
+    "introBody": "About 20 minutes to estimate your level in Core, Reading and Listening. The questions go from easier to harder, and you will not see the answers until each section ends.",
+    "sections": {
+      "core": "Core: 15 Grammar questions and 10 Vocabulary questions.",
+      "reading": "Reading: one task from part 1 or part 3.",
+      "listening": "Listening: three short part 1 recordings and one from part 2, each played twice at most."
+    },
+    "introNote": "Each section is saved as an exam-mode attempt, so your dashboard fills up as soon as you finish. You can take the test again whenever you like.",
+    "start": "Start the test",
+    "resultTitle": "Your estimated level",
+    "estimateNote": "This is the app's rough estimate from a few questions, not an official score. It gets sharper as you practise.",
+    "stampLabel": "{level} stamp: {skill}",
+    "noStamp": "No stamp",
+    "percent": "{value}%",
+    "notEstimated": "Writing and Speaking are not estimated yet: do one task of each to get your level.",
+    "planTitle": "Your plan: practise these first",
+    "toDashboard": "Go to the dashboard"
   }
 }

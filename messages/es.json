@@ -932,5 +932,30 @@
       "media": "Medios",
       "general": "General"
     }
+  },
+  "Assessment": {
+    "section": "Sección {current} de {total}",
+    "untimed": "Sin límite de tiempo: responde a tu ritmo, pero sin ayudas.",
+    "timed": "Tienes {minutes, plural, one {# minuto} other {# minutos}}, como en el examen.",
+    "startSection": "Empezar la sección"
+  },
+  "Placement": {
+    "introTitle": "Cómo funciona",
+    "introBody": "Unos 20 minutos para estimar tu nivel en Core, Reading y Listening. Las preguntas van de más fáciles a más difíciles y no verás las respuestas hasta el final de cada sección.",
+    "sections": {
+      "core": "Core: 15 preguntas de Grammar y 10 de Vocabulary.",
+      "reading": "Reading: una tarea de la parte 1 o de la parte 3.",
+      "listening": "Listening: tres grabaciones cortas de la parte 1 y una de la parte 2, como mucho dos veces cada una."
+    },
+    "introNote": "Cada sección se guarda como un intento en modo examen, así que tu panel se llena en cuanto terminas. Puedes repetir el test cuando quieras.",
+    "start": "Empezar el test",
+    "resultTitle": "Tu nivel estimado",
+    "estimateNote": "Es una estimación orientativa de la app con pocas preguntas, no una nota oficial. Se afina a medida que practicas.",
+    "stampLabel": "Sello {level}: {skill}",
+    "noStamp": "Sin sello",
+    "percent": "{value} %",
+    "notEstimated": "Writing y Speaking quedan sin estimar: haz una tarea de cada uno para tener tu nivel.",
+    "planTitle": "Tu plan: practica primero",
+    "toDashboard": "Ir al panel"
   }
 }
