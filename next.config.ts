@@ -7,7 +7,8 @@ const isDev = process.env.NODE_ENV === "development";
 
 // Static pages cannot carry per-request nonces, so inline scripts stay allowed (Next's own
 // hydration and the theme script need them); everything else is limited to this site and
-// Supabase. Sign-in with Google is a navigation, so Google needs no entry here.
+// Supabase. Sign-in with Google is a navigation, so Google needs no entry here. Payments are
+// hosted by Stripe: a form that redirects to Checkout or the portal needs them in form-action.
 const csp = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
@@ -20,7 +21,7 @@ const csp = [
   "manifest-src 'self'",
   "object-src 'none'",
   "base-uri 'self'",
-  "form-action 'self'",
+  "form-action 'self' https://checkout.stripe.com https://billing.stripe.com",
   "frame-ancestors 'none'",
   ...(isDev ? [] : ["upgrade-insecure-requests"]),
 ].join("; ");
