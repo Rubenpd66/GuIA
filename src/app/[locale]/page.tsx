@@ -30,7 +30,7 @@ export default async function HomePage() {
           publisher: { "@type": "Person", name: SITE.owner.name },
         }}
       />
-      <section className="grid items-center gap-12 md:grid-cols-[minmax(0,1fr)_auto] md:gap-16">
+      <section className="enter grid items-center gap-12 md:grid-cols-[minmax(0,1fr)_auto] md:gap-16">
         <div className="max-w-[40rem]">
           <h1 className="text-3xl leading-[1.04] font-black tracking-tight text-balance sm:text-4xl">
             {t("title")}

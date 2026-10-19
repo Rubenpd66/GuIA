@@ -31,15 +31,15 @@ export function OptionButton({
       disabled={disabled}
       aria-pressed={state === "selected"}
       className={cx(
-        "flex min-h-14 w-full items-center gap-4 rounded-control border-[1.5px] px-4 py-3 text-left text-lg transition-colors duration-150 disabled:cursor-default",
+        "flex min-h-14 w-full items-center gap-4 rounded-control border-[1.5px] pressable px-4 py-3 text-left text-lg disabled:cursor-default",
         state === "idle" &&
-          "border-line hover:bg-[color-mix(in_srgb,var(--canvas)_90%,var(--ink))]",
+          "border-line hover-fine:bg-[color-mix(in_srgb,var(--canvas)_90%,var(--ink))]",
         state === "selected" &&
           "border-accent bg-[color-mix(in_srgb,var(--accent)_10%,transparent)]",
         state === "correct" &&
-          "border-success bg-[color-mix(in_srgb,var(--success)_12%,transparent)]",
+          "feedback-correct border-success bg-[color-mix(in_srgb,var(--success)_12%,transparent)]",
         state === "wrong" &&
-          "border-danger bg-[color-mix(in_srgb,var(--danger)_10%,transparent)]",
+          "feedback-wrong border-danger bg-[color-mix(in_srgb,var(--danger)_10%,transparent)]",
         state === "dimmed" && "border-hairline text-ink-soft",
       )}
     >

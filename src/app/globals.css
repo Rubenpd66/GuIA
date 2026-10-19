@@ -2,6 +2,15 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+/* Hover effects only where hover exists; touch devices fire hover on tap. */
+@custom-variant hover-fine {
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      @slot;
+    }
+  }
+}
+
 /*
  * GuIA tokens (phase 10e). Light is the default; dark switches on data-theme.
  * src/lib/design/theme-tokens.test.ts checks every contrast pair.
@@ -140,17 +149,6 @@
   max-width: 68ch;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
 /* The one moment of impact: the stamp drops, bounces, settles at an angle and the ink spreads. */
 @keyframes stamp-drop {
   0% {
@@ -189,5 +187,102 @@
     animation-name: stamp-fade;
     animation-duration: 250ms !important;
     animation-timing-function: ease-out;
+  }
+}
+
+/* Motion grammar (phase 10e). Only transform and opacity; every animation has a reduced-motion alternative. */
+@keyframes enter-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+@keyframes enter-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes shake {
+  20% {
+    transform: translateX(-4px);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
+
+.pressable {
+  transition-property: color, background-color, border-color, transform;
+  transition-duration: var(--dur-press);
+  transition-timing-function: var(--ease-out);
+}
+
+.pressable:active:not(:disabled, [aria-disabled="true"]) {
+  transform: scale(0.97);
+}
+
+.enter {
+  animation: enter-rise var(--dur-base) var(--ease-out) both;
+}
+
+/* Children set --i (their index); items past the eighth share its delay. */
+.enter-stagger > * {
+  animation: enter-rise var(--dur-base) var(--ease-out) both;
+  animation-delay: calc(min(var(--i, 0), 8) * 40ms);
+}
+
+.feedback-correct {
+  animation: pop var(--dur-fast) var(--ease-out) both;
+}
+
+.feedback-wrong {
+  animation: shake var(--dur-base) var(--ease-out) both;
+}
+
+.progress-fill {
+  transform-origin: left;
+  transform: scaleX(var(--value, 0));
+  transition: transform 400ms var(--ease-out);
+
+  @starting-style {
+    transform: scaleX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .pressable:active:not(:disabled, [aria-disabled="true"]) {
+    transform: none;
+  }
+
+  .enter,
+  .enter-stagger > * {
+    animation-name: enter-fade;
+    animation-duration: 150ms;
+    animation-delay: 0ms;
+  }
+
+  .feedback-correct,
+  .feedback-wrong {
+    animation: none;
+  }
+
+  .progress-fill {
+    transition: none;
   }
 }

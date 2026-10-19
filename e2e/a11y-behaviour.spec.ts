@@ -48,3 +48,29 @@ test("the stamp only fades when less motion is asked for", async ({ page }) => {
     .evaluate((el) => getComputedStyle(el).animationName);
   expect(animation).toBe("stamp-fade");
 });
+
+test("entering content rises, and only fades when less motion is asked for", async ({
+  page,
+}) => {
+  await page.goto("/es");
+  const animationName = () =>
+    page
+      .locator(".enter")
+      .first()
+      .evaluate((el) => getComputedStyle(el).animationName);
+  expect(await animationName()).toBe("enter-rise");
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.reload();
+  expect(await animationName()).toBe("enter-fade");
+});
+
+test("buttons give press feedback with a transform transition", async ({
+  page,
+}) => {
+  await page.goto("/es");
+  const property = await page
+    .getByRole("link", { name: "Haz el test de nivel" })
+    .first()
+    .evaluate((el) => getComputedStyle(el).transitionProperty);
+  expect(property).toContain("transform");
+});

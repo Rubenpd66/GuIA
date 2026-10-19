@@ -16,7 +16,7 @@ export function IconButton({
       aria-label={label}
       title={label}
       className={cx(
-        "inline-flex size-12 shrink-0 items-center justify-center rounded-control transition-colors duration-150 hover:bg-[color-mix(in_srgb,currentColor_12%,transparent)]",
+        "inline-flex size-12 shrink-0 items-center justify-center pressable rounded-control hover-fine:bg-[color-mix(in_srgb,currentColor_12%,transparent)]",
         className,
       )}
       {...props}
