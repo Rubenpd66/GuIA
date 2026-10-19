@@ -34,7 +34,7 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - UI in `src/components/writing/` (`WritingTrainer` holds the four parts in one component, `WritingEditor`, `ModelAnswers`, `Checklist`, `PhrasePanel`); `/writing` page; `/practice/writing-1…4`.
   - App decisions: own 4-criterion rubric (not official), exam = one task in the recommended minutes and the editor locks at zero, study has tips, useful phrases and an optional stopwatch, no spellcheck in the editor.
   - Bank: 8/10/8/6 tasks in `content/exercises/writing-{1,2,3,4}/`, reviewed one by one; the validator prints Writing task counts.
-- **Next: phase 6 (Speaking).** Write its plan and wait for approval before code.
+- **Next: phase 6 (Speaking).** Plan written at `docs/superpowers/plans/2026-10-19-phase-6-speaking.md`, awaiting the user's approval of its 4 questions (recordings in memory only with optional download, exam auto timer and recording, bank 10/6/5/5 with ~16 original SVG scenes, self-assessment like Writing). Do not start code before that approval.
 - Phases 6–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
