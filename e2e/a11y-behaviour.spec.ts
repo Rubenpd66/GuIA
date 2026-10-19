@@ -74,3 +74,16 @@ test("buttons give press feedback with a transform transition", async ({
     .evaluate((el) => getComputedStyle(el).transitionProperty);
   expect(property).toContain("transform");
 });
+
+test("the bottom nav marks the current page and fits at 320 px", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/es/panel");
+  const nav = page.getByRole("navigation", { name: "Navegación principal" });
+  await expect(nav.locator("a[aria-current=page]")).toHaveCount(1);
+  await expect(nav.locator("[data-nav-indicator]")).toBeVisible();
+  await page.setViewportSize({ width: 320, height: 640 });
+  const fits = await nav.evaluate((el) => el.scrollWidth <= el.clientWidth);
+  expect(fits).toBe(true);
+});

@@ -292,3 +292,105 @@
     transition: none;
   }
 }
+
+/* Navigation indicator: slides between tabs. */
+.nav-indicator {
+  transition:
+    transform var(--dur-fast) var(--ease-out),
+    opacity var(--dur-fast) var(--ease-out);
+}
+
+/* Bottom sheet (the "More" menu): rises from the edge, leaves faster than it arrives. */
+.sheet {
+  transform: translateY(100%);
+  transition:
+    transform 200ms var(--ease-drawer),
+    overlay 200ms allow-discrete,
+    display 200ms allow-discrete;
+}
+
+.sheet[open] {
+  transform: translateY(0);
+  transition-duration: var(--dur-panel), var(--dur-panel), var(--dur-panel);
+
+  @starting-style {
+    transform: translateY(100%);
+  }
+}
+
+.sheet::backdrop {
+  background: color-mix(in srgb, var(--ink) 45%, transparent);
+  opacity: 0;
+  transition:
+    opacity 200ms var(--ease-out),
+    overlay 200ms allow-discrete,
+    display 200ms allow-discrete;
+}
+
+.sheet[open]::backdrop {
+  opacity: 1;
+
+  @starting-style {
+    opacity: 0;
+  }
+}
+
+/* Page transitions: the old page leaves quickly, the new one rises in. */
+::view-transition-old(.page-swap) {
+  animation: 120ms var(--ease-out) both page-out;
+}
+
+::view-transition-new(.page-swap) {
+  animation: var(--dur-base) var(--ease-out) both page-in;
+}
+
+@keyframes page-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-indicator {
+    transition: none;
+  }
+
+  .sheet {
+    transform: none;
+    transition:
+      opacity 150ms linear,
+      overlay 150ms allow-discrete,
+      display 150ms allow-discrete;
+    opacity: 0;
+  }
+
+  .sheet[open] {
+    opacity: 1;
+    transition-duration: 150ms;
+
+    @starting-style {
+      opacity: 0;
+    }
+  }
+
+  ::view-transition-old(.page-swap) {
+    animation: 150ms linear both page-out;
+  }
+
+  ::view-transition-new(.page-swap) {
+    animation: 150ms linear both page-in-fade;
+  }
+
+  @keyframes page-in-fade {
+    from {
+      opacity: 0;
+    }
+  }
+}

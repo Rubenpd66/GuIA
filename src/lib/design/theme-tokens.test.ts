@@ -28,6 +28,10 @@ const PAIRS = [
   ["level-b1", "canvas", 4.5],
   ["level-b2", "canvas", 4.5],
   ["level-c1", "canvas", 4.5],
+  ["level-a2", "surface", 4.5],
+  ["level-b1", "surface", 4.5],
+  ["level-b2", "surface", 4.5],
+  ["level-c1", "surface", 4.5],
   ["line", "canvas", 3],
   ["line", "surface", 3],
   ["focus", "canvas", 3],
@@ -65,5 +69,28 @@ describe("parseThemeTokens", () => {
       light: { canvas: "#EEF2EF" },
       dark: { canvas: "#1C1317" },
     });
+  });
+});
+
+/** The level chips tint their own colour at 6 % over the canvas: the text must still read. */
+describe("level chips", () => {
+  const mix = (fg: string, bg: string, share: number) => {
+    const channel = (hex: string, i: number) =>
+      parseInt(hex.slice(1 + i * 2, 3 + i * 2), 16);
+    return `#${[0, 1, 2]
+      .map((i) =>
+        Math.round(channel(fg, i) * share + channel(bg, i) * (1 - share))
+          .toString(16)
+          .padStart(2, "0"),
+      )
+      .join("")}`;
+  };
+  const CHIPS = (["light", "dark"] as const).flatMap((theme) =>
+    (["a2", "b1", "b2", "c1"] as const).map((level) => [theme, level] as const),
+  );
+  it.each(CHIPS)("%s: level-%s text on its tint reaches 4.5:1", (theme, level) => {
+    const fg = tokens[theme][`level-${level}`]!;
+    const bg = mix(fg, tokens[theme].canvas!, 0.06);
+    expect(contrastRatio(fg, bg)).toBeGreaterThanOrEqual(4.5);
   });
 });

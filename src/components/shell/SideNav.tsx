@@ -2,9 +2,9 @@
 
 import { useTranslations } from "next-intl";
 import { AccountLink } from "@/components/account/AccountLink";
+import { Wordmark } from "@/components/brand/Wordmark";
 import { Icon } from "@/components/icons/Icon";
 import { LocaleSwitcher } from "@/components/i18n/LocaleSwitcher";
-import { Wordmark } from "@/components/passport/Wordmark";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import { Link, usePathname } from "@/i18n/navigation";
 import { cx } from "@/lib/cx";
@@ -16,8 +16,8 @@ import {
   type NavItem,
 } from "./nav-items";
 
-/** Desktop navigation: the passport's burgundy spine. */
-export function SpineNav() {
+/** Desktop navigation: a fixed side column from 1024 px. */
+export function SideNav() {
   const t = useTranslations("Nav");
   const pathname = usePathname();
 
@@ -30,10 +30,10 @@ export function SpineNav() {
           href={href}
           aria-current={active ? "page" : undefined}
           className={cx(
-            "relative flex min-h-12 items-center gap-3 rounded-control px-3 font-medium transition-colors duration-150",
+            "pressable flex min-h-12 items-center gap-3 rounded-control px-3 font-medium",
             active
-              ? "text-accent before:absolute before:inset-y-2.5 before:-left-3 before:w-[3px] before:bg-accent"
-              : "text-ink-soft hover:bg-hairline hover:text-ink",
+              ? "bg-canvas text-accent shadow-card"
+              : "text-ink-soft hover-fine:bg-hairline hover-fine:text-ink",
           )}
         >
           <Icon name={icon} />
@@ -48,16 +48,16 @@ export function SpineNav() {
       <Link
         href="/"
         aria-label={t("home")}
-        className="mb-10 inline-flex self-start rounded-control text-accent"
+        className="mb-10 inline-flex self-start rounded-control"
       >
-        <Wordmark />
+        <Wordmark className="text-3xl" />
       </Link>
       <nav aria-label={t("mainNav")} className="flex-1">
         <ul className="space-y-1">{PRIMARY_NAV.map(renderItem)}</ul>
         <div className="my-5 h-px bg-hairline" />
         <ul className="space-y-1">{MORE_NAV.map(renderItem)}</ul>
       </nav>
-      <AccountLink className="mb-4 inline-flex min-h-12 items-center rounded-control px-3 font-medium text-ink-soft hover:bg-hairline hover:text-ink" />
+      <AccountLink className="mb-4 inline-flex min-h-12 items-center rounded-control px-3 font-medium text-ink-soft hover-fine:bg-hairline hover-fine:text-ink" />
       <div className="flex items-center justify-between gap-2">
         <LocaleSwitcher />
         <ThemeToggle />

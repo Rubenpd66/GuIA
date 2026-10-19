@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { AccountLink } from "@/components/account/AccountLink";
 import { LocaleSwitcher } from "@/components/i18n/LocaleSwitcher";
-import { Wordmark } from "@/components/passport/Wordmark";
+import { Wordmark } from "@/components/brand/Wordmark";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import { Link } from "@/i18n/navigation";
 
@@ -13,9 +13,9 @@ export async function TopBar() {
       <Link
         href="/"
         aria-label={t("home")}
-        className="inline-flex rounded-control px-2 text-accent"
+        className="inline-flex rounded-control px-2"
       >
-        <Wordmark />
+        <Wordmark className="text-2xl" />
       </Link>
       <div className="flex items-center">
         <Link
