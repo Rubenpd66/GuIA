@@ -1,42 +1,51 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { Metadata } from "next";
-import { getFormatter, getTranslations } from "next-intl/server";
-import { Guilloche } from "@/components/passport/Guilloche";
+import { getTranslations } from "next-intl/server";
+import { Wordmark } from "@/components/brand/Wordmark";
+import { LevelBadge } from "@/components/content/LevelBadge";
 import { SortableListDemo } from "@/components/reading/SortableListDemo";
-import { Stamp, type StampLevel } from "@/components/passport/Stamp";
 import { Button } from "@/components/ui/Button";
+import { Card } from "@/components/ui/Card";
+import { MotionDemo } from "@/components/ui/MotionDemo";
 import { PageHeader } from "@/components/ui/PageHeader";
+import { ProgressBar } from "@/components/ui/ProgressBar";
+import { Section, SectionStack } from "@/components/ui/Section";
 import { parseThemeTokens } from "@/lib/design/css-tokens";
-import type { Skill } from "@/lib/exam/format";
 
-const TOKENS = ["canvas","surface","ink","ink-soft","line","hairline","accent","on-accent","success","danger","reward","reward-ink","focus"] as const;
-
-const TYPE_SCALE = [
-  ["text-4xl", "51.9"],
-  ["text-3xl", "41.5"],
-  ["text-2xl", "33.2"],
-  ["text-xl", "26.6"],
-  ["text-lg", "21.3"],
-  ["text-base", "17"],
-  ["text-sm", "13.6"],
-  ["text-xs", "12"],
+const TOKENS = [
+  "canvas",
+  "surface",
+  "ink",
+  "ink-soft",
+  "line",
+  "hairline",
+  "accent",
+  "on-accent",
+  "success",
+  "danger",
+  "reward",
+  "on-reward",
+  "reward-ink",
+  "focus",
+  "level-a2",
+  "level-b1",
+  "level-b2",
+  "level-c1",
 ] as const;
 
-const STAMPS: {
-  skill: Skill;
-  level: StampLevel;
-  tone: "entry" | "foil" | "ink";
-  rotate: number;
-}[] = [
-  { skill: "core", level: "A2", tone: "ink", rotate: -9 },
-  { skill: "reading", level: "B1", tone: "entry", rotate: 4 },
-  { skill: "listening", level: "B2", tone: "entry", rotate: -5 },
-  { skill: "writing", level: "C", tone: "foil", rotate: 7 },
-  { skill: "speaking", level: "C", tone: "foil", rotate: -3 },
-];
+const TYPE_SCALE = [
+  ["text-xs", 12],
+  ["text-sm", 13.6],
+  ["text-base", 17],
+  ["text-lg", 21.25],
+  ["text-xl", 26.6],
+  ["text-2xl", 33.2],
+  ["text-3xl", 41.5],
+  ["text-4xl", 51.9],
+] as const;
 
-const H2 = " text-xl font-bold";
+const LEVELS = ["A2", "B1", "B2", "C1"] as const;
 
 /** The swatches show the real values from globals.css, read once at build time. */
 async function readThemeTokens() {
@@ -54,128 +63,117 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function DesignPage() {
-  const t = await getTranslations();
-  const format = await getFormatter();
+  const t = await getTranslations("Design");
   const tokens = await readThemeTokens();
-  const date = format.dateTime(new Date(2026, 9, 18), {
-    day: "2-digit",
-    month: "short",
-    year: "numeric",
-  });
 
   return (
     <>
-      <PageHeader title={t("Design.title")} lead={t("Design.lead")} />
+      <PageHeader title={t("title")} lead={t("lead")} />
+      <SectionStack>
+        <Section id="design-brand" title={t("brand")}>
+          <Wordmark className="text-3xl" />
+        </Section>
 
-      <section aria-labelledby="design-colours">
-        <h2 id="design-colours" className={H2}>
-          {t("Design.colours")}
-        </h2>
-        <ul className="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-          {TOKENS.map((token) => (
-            <li key={token}>
-              <div
-                className="h-16 rounded-control border border-hairline"
-                style={{ backgroundColor: `var(--${token})` }}
-              />
-              <p className="mt-2 font-semibold">{token}</p>
-              <p className="text-sm text-ink-soft tabular-nums">
-                {tokens.light[token]} / {tokens.dark[token]}
-              </p>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section aria-labelledby="design-type" className="mt-16">
-        <h2 id="design-type" className={H2}>
-          {t("Design.type")}
-        </h2>
-        <ul className="mt-5 space-y-3">
-          {TYPE_SCALE.map(([className, px]) => (
-            <li key={className} className="flex items-baseline gap-4">
-              <span className="w-24 shrink-0 text-sm text-ink-soft tabular-nums">
-                {px} px
-              </span>
-              <span className={`${className} truncate font-semibold`}>
-                Cruza el B2. Llega al C.
-              </span>
-            </li>
-          ))}
-        </ul>
-        <p className="mt-8 text-3xl font-black tracking-tight">
-          Archivo 125 %
-        </p>
-        <p lang="en" className="prose-reading mt-4 text-lg">
-          Not only did the council close the library, but it also sold the
-          building before anyone could object. Hardly had the news broken when
-          residents began organising a protest.
-        </p>
-      </section>
-
-      <section aria-labelledby="design-buttons" className="mt-16">
-        <h2 id="design-buttons" className={H2}>
-          {t("Design.buttons")}
-        </h2>
-        <div className="mt-5 flex flex-wrap gap-3">
-          <Button variant="primary">{t("Design.primary")}</Button>
-          <Button>{t("Design.secondary")}</Button>
-          <Button variant="ghost">{t("Design.ghost")}</Button>
-        </div>
-        <div className="mt-3 flex flex-wrap gap-3">
-          <Button variant="primary" size="lg">
-            {t("Design.primary")}
-          </Button>
-          <Button size="lg">{t("Design.secondary")}</Button>
-        </div>
-        <p className="mt-4 text-sm text-ink-soft">{t("Design.focusHint")}</p>
-      </section>
-
-      <section aria-labelledby="design-sortable" className="mt-16 max-w-[68ch]">
-        <h2 id="design-sortable" className={H2}>
-          {t("Design.sortable")}
-        </h2>
-        <p className="mt-1 text-ink-soft">{t("Design.sortableHint")}</p>
-        <div className="mt-5">
-          <SortableListDemo />
-        </div>
-      </section>
-
-      <section aria-labelledby="design-stamps" className="mt-16">
-        <h2 id="design-stamps" className={H2}>
-          {t("Design.stamps")}
-        </h2>
-        <ul className="mt-5 flex flex-wrap gap-6">
-          {STAMPS.map(({ skill, level, tone, rotate }) => {
-            const caption = t(`Skills.${skill}`);
-            return (
-              <li key={skill}>
-                <Stamp
-                  skill={skill}
-                  level={level}
-                  caption={caption}
-                  date={date}
-                  tone={tone}
-                  rotate={rotate}
-                  label={t("Stamp.label", { level, caption })}
+        <Section id="design-colours" title={t("colours")}>
+          <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            {TOKENS.map((token) => (
+              <li key={token}>
+                <div
+                  className="h-16 rounded-control border border-hairline"
+                  style={{ backgroundColor: `var(--${token})` }}
                 />
+                <p className="mt-2 font-semibold">{token}</p>
+                <p className="text-sm text-ink-soft tabular-nums">
+                  {tokens.light[token]} / {tokens.dark[token]}
+                </p>
               </li>
-            );
-          })}
-        </ul>
-      </section>
+            ))}
+          </ul>
+        </Section>
 
-      <section aria-labelledby="design-guilloche" className="mt-16">
-        <h2 id="design-guilloche" className={H2}>
-          {t("Design.guilloche")}
-        </h2>
-        <div className="mt-5 flex flex-wrap items-center gap-8">
-          <Guilloche variant="rosette" className="w-48 text-line" />
-          <div className=" w-full max-w-sm rounded-card bg-accent p-6">
-            <Guilloche variant="band" className="h-10 w-full text-reward/60" />
+        <Section id="design-type" title={t("type")}>
+          <ul className="space-y-3">
+            {TYPE_SCALE.map(([className, px]) => (
+              <li key={className} className="flex items-baseline gap-4">
+                <span className="w-24 shrink-0 text-sm text-ink-soft tabular-nums">
+                  {px} px
+                </span>
+                <span className={`${className} truncate font-semibold`}>
+                  Cruza el B2. Llega al C.
+                </span>
+              </li>
+            ))}
+          </ul>
+          <p lang="en" className="prose-reading mt-8 text-lg">
+            Not only did the council close the library, but it also sold the
+            building before anyone could object. Hardly had the news broken when
+            residents began organising a protest.
+          </p>
+        </Section>
+
+        <Section id="design-buttons" title={t("buttons")}>
+          <div className="flex flex-wrap gap-3">
+            <Button variant="primary">{t("primary")}</Button>
+            <Button>{t("secondary")}</Button>
+            <Button variant="ghost">{t("ghost")}</Button>
+            <Button disabled>{t("disabled")}</Button>
           </div>
-        </div>
-      </section>
+          <div className="mt-3 flex flex-wrap gap-3">
+            <Button variant="primary" size="lg">
+              {t("primary")}
+            </Button>
+            <Button size="lg">{t("secondary")}</Button>
+          </div>
+          <p className="mt-4 text-sm text-ink-soft">{t("focusHint")}</p>
+        </Section>
+
+        <Section id="design-cards" title={t("cards")} lead={t("cardsLead")}>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <Card>
+              <h3 className="font-bold">{t("cardTitle")}</h3>
+              <p className="mt-1 text-ink-soft">{t("cardBody")}</p>
+            </Card>
+            <Card href="/design">
+              <h3 className="font-bold">{t("cardLinkTitle")}</h3>
+              <p className="mt-1 text-ink-soft">{t("cardLinkBody")}</p>
+            </Card>
+          </div>
+        </Section>
+
+        <Section id="design-levels" title={t("levels")}>
+          <ul className="flex flex-wrap gap-3">
+            {LEVELS.map((level) => (
+              <li key={level}>
+                <LevelBadge level={level} />
+              </li>
+            ))}
+          </ul>
+          <div className="mt-6 max-w-sm space-y-4">
+            <ProgressBar value={0.25} label={t("progress", { value: 25 })} />
+            <ProgressBar value={0.64} label={t("progress", { value: 64 })} />
+          </div>
+        </Section>
+
+        <Section id="design-motion" title={t("motion")} lead={t("motionLead")}>
+          <div className="max-w-[68ch]">
+            <MotionDemo
+              replay={t("replay")}
+              options={[t("optionIdle"), t("optionCorrect"), t("optionWrong")]}
+              progressLabel={t("progress", { value: 64 })}
+            />
+          </div>
+        </Section>
+
+        <Section
+          id="design-sortable"
+          title={t("sortable")}
+          lead={t("sortableHint")}
+        >
+          <div className="max-w-[68ch]">
+            <SortableListDemo />
+          </div>
+        </Section>
+      </SectionStack>
     </>
   );
 }
