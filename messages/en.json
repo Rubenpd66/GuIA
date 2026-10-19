@@ -20,7 +20,8 @@
     "examGuide": "Exam guide",
     "settings": "Settings",
     "signIn": "Sign in",
-    "account": "My account"
+    "account": "My account",
+    "plans": "Plans"
   },
   "Theme": {
     "toggle": "Switch between light and dark mode",
@@ -41,6 +42,7 @@
     "legalNotice": "Legal notice",
     "privacy": "Privacy",
     "terms": "Terms of use",
+    "plans": "Plans",
     "cookies": "Cookies"
   },
   "Home": {

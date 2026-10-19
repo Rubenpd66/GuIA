@@ -18,6 +18,12 @@ export async function TopBar() {
         <Wordmark />
       </Link>
       <div className="flex items-center">
+        <Link
+          href="/plans"
+          className="inline-flex min-h-12 items-center rounded-control px-2 text-sm font-medium max-[479px]:hidden"
+        >
+          {t("plans")}
+        </Link>
         <AccountLink className="inline-flex min-h-12 items-center rounded-control px-2 text-sm font-medium max-[359px]:hidden" />
         <LocaleSwitcher />
         <ThemeToggle />

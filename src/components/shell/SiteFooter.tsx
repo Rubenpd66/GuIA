@@ -22,6 +22,11 @@ export async function SiteFooter() {
             {t("privacy")}
           </Link>
         </li>
+        <li>
+          <Link href="/plans" className={LINK}>
+            {t("plans")}
+          </Link>
+        </li>
         <li className="lg:hidden">
           <AccountLink className={LINK} />
         </li>

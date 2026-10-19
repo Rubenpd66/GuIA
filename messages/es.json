@@ -20,7 +20,8 @@
     "examGuide": "Guía del examen",
     "settings": "Ajustes",
     "signIn": "Entrar",
-    "account": "Mi cuenta"
+    "account": "Mi cuenta",
+    "plans": "Planes"
   },
   "Theme": {
     "toggle": "Cambiar entre modo claro y oscuro",
@@ -41,6 +42,7 @@
     "legalNotice": "Aviso legal",
     "privacy": "Privacidad",
     "terms": "Términos de uso",
+    "plans": "Planes",
     "cookies": "Cookies"
   },
   "Home": {
