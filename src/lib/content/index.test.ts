@@ -128,6 +128,7 @@ describe("can-do and functional language lookups", () => {
     ]);
     expect(byLevel.B1.map((c) => c.id)).toEqual(["b1-listening"]);
     expect(byLevel.B2).toEqual([]);
+    expect(Object.keys(byLevel)).toEqual(["A2", "B1", "B2", "C1"]);
   });
 
   it("phrasesByFunction keeps enum order and drops empty functions", () => {

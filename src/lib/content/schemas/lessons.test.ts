@@ -95,9 +95,19 @@ describe("lesson schemas", () => {
     delete phrase.level;
     expect(FunctionalPhrase.safeParse(phrase).success).toBe(false);
     expect(
-      FunctionalPhrase.safeParse({ ...validLessons.functional, level: "A2" })
+      FunctionalPhrase.safeParse({ ...validLessons.functional, level: "A1" })
         .success,
     ).toBe(false);
+  });
+
+  it("accepts A2 can-do statements and functional phrases", () => {
+    expect(
+      FunctionalPhrase.safeParse({ ...validLessons.functional, level: "A2" })
+        .success,
+    ).toBe(true);
+    expect(
+      CanDo.safeParse({ ...validLessons.canDo, level: "A2" }).success,
+    ).toBe(true);
   });
 
   it("accepts an optional note on a functional phrase", () => {

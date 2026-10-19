@@ -150,8 +150,8 @@ export const VocabularyGroup = z.strictObject({
 });
 export type VocabularyGroup = z.infer<typeof VocabularyGroup>;
 
-/** Levels that can-do statements and functional phrases target. */
-export const TARGET_LEVELS = ["B1", "B2", "C1"] as const;
+/** Every level the app teaches, for can-do statements and functional phrases. */
+export const TARGET_LEVELS = ["A2", "B1", "B2", "C1"] as const;
 export type TargetLevel = (typeof TARGET_LEVELS)[number];
 
 export const CAN_DO_SKILLS = [
