@@ -1,0 +1,125 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "s1-a2-1",
+      "examPart": "speaking-1",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 1,
+      "questions": [
+        {
+          "prompt": "What do you usually have for breakfast?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I usually have toast and a cup of coffee for breakfast."
+                },
+                {
+                  "role": "development",
+                  "text": "I don't have much time in the morning, so I eat something simple."
+                },
+                {
+                  "role": "example",
+                  "text": "At the weekend, for example, I sometimes make eggs or pancakes with my family. It is my favourite meal of the day."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'm not a big breakfast person, so I usually just have toast and a strong coffee."
+                },
+                {
+                  "role": "development",
+                  "text": "Mornings are always rushed, and I would rather sleep ten more minutes than cook."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "At the weekend, though, I make a proper breakfast with eggs and fresh bread, and I really enjoy it."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Who cooks in your home?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "In my home, my mother cooks on weekdays."
+                },
+                {
+                  "role": "development",
+                  "text": "She works at a school, but she always finds time to make dinner for us."
+                },
+                {
+                  "role": "example",
+                  "text": "On Sundays I help her in the kitchen. Last Sunday, for example, we made a big chicken and rice dish together."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Mostly my partner cooks, because he finishes work earlier than I do."
+                },
+                {
+                  "role": "development",
+                  "text": "I do the washing-up and the shopping, which seems like a fair deal to me."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Sometimes I surprise him with a new recipe from the internet, and we eat together at the table."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What is your favourite meal, and why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "My favourite meal is my grandmother's vegetable soup."
+                },
+                {
+                  "role": "development",
+                  "text": "It is warm and tasty, and it reminds me of my childhood."
+                },
+                {
+                  "role": "example",
+                  "text": "She makes it every winter when the family visits. I always have two bowls with fresh bread, and then I can't eat anything else."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "That would have to be my grandmother's vegetable soup, no question."
+                },
+                {
+                  "role": "development",
+                  "text": "It is simple, but the taste takes me straight back to winter evenings in her kitchen."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I have tried to copy the recipe many times, but it never tastes quite the same as hers."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

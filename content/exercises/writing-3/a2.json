@@ -1,0 +1,315 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w3-a2-1",
+      "examPart": "writing-3",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 1,
+      "context": "You are a member of a cooking club. You are talking to other members in the club's online chat room. Answer their questions. Write 30–40 words for each answer.",
+      "questions": [
+        {
+          "prompt": "Anna: What do you like cooking at home, and why?",
+          "models": {
+            "b2": {
+              "text": "I like cooking pasta at home because it is quick and easy. I usually add vegetables and a little cheese. My family loves it, so I make it almost every week.",
+              "annotations": [
+                {
+                  "quote": "because",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Gives the reason for your choice.",
+                    "es": "Da el motivo de tu elección."
+                  }
+                },
+                {
+                  "quote": "so I make it almost every week",
+                  "kind": "connector",
+                  "note": {
+                    "en": "'So' links a cause to its result.",
+                    "es": "«So» une la causa con su resultado."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Pasta is my favourite thing to cook, as it is quick and you can add whatever vegetables you have. My family adores it, so I end up making it nearly every week.",
+              "annotations": [
+                {
+                  "quote": "whatever vegetables you have",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'Whatever' + noun means 'any ... that'.",
+                    "es": "«Whatever» + sustantivo significa «cualquier ... que»."
+                  }
+                },
+                {
+                  "quote": "end up making",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'End up + -ing' shows the final result of a habit.",
+                    "es": "«End up + -ing» expresa en lo que acaba convirtiéndose algo."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Ben: Who do you usually cook with, and what do you do together?",
+          "models": {
+            "b2": {
+              "text": "I usually cook with my sister. She cuts the vegetables and I cook them. We listen to music and talk while we work. It is a nice way to spend the evening.",
+              "annotations": [
+                {
+                  "quote": "while we work",
+                  "kind": "connector",
+                  "note": {
+                    "en": "'While' joins two actions at the same time.",
+                    "es": "«While» une dos acciones simultáneas."
+                  }
+                },
+                {
+                  "quote": "a nice way to spend the evening",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A useful phrase to give your opinion at the end.",
+                    "es": "Frase útil para cerrar con tu opinión."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Most evenings I cook with my sister. She chops the vegetables while I take care of the sauce, and we chat or listen to music. It is the best part of my day.",
+              "annotations": [
+                {
+                  "quote": "take care of the sauce",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A natural phrase meaning 'be responsible for'.",
+                    "es": "Expresión natural que significa «encargarse de»."
+                  }
+                },
+                {
+                  "quote": "the best part of my day",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A superlative that gives a warm, personal ending.",
+                    "es": "Un superlativo que da un final cálido y personal."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Chen: What would you like to learn to cook next?",
+          "models": {
+            "b2": {
+              "text": "Next I would like to learn to cook Indian food. I love the spices and the smell, but I don't know how to use them. Maybe someone in the club can show me.",
+              "annotations": [
+                {
+                  "quote": "I would like to learn to cook",
+                  "kind": "advanced-structure",
+                  "note": {
+                    "en": "'Would like to' is polite and clear for wishes.",
+                    "es": "«Would like to» es cortés y claro para expresar deseos."
+                  }
+                },
+                {
+                  "quote": "but I don't know how to use them",
+                  "kind": "connector",
+                  "note": {
+                    "en": "'But' adds a problem to your wish.",
+                    "es": "«But» añade un problema a tu deseo."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "I would love to master Indian cooking. The spices smell wonderful, but I have no idea how to combine them, so I am hoping somebody in the club can give me a few tips.",
+              "annotations": [
+                {
+                  "quote": "I have no idea how to combine them",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A natural, informal way to say 'I don't know'.",
+                    "es": "Forma natural e informal de decir «no sé»."
+                  }
+                },
+                {
+                  "quote": "give me a few tips",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'Tips' means small pieces of useful advice.",
+                    "es": "«Tips» son consejos prácticos breves."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "w3-a2-2",
+      "examPart": "writing-3",
+      "cefrLevel": "A2",
+      "topic": "city",
+      "difficulty": 2,
+      "context": "You are a member of an online neighbourhood group. You are talking to other members in the group's chat room. Answer their questions. Write 30–40 words for each answer.",
+      "questions": [
+        {
+          "prompt": "Sam: What is your neighbourhood like?",
+          "models": {
+            "b2": {
+              "text": "My neighbourhood is quiet and friendly. There is a small park, a bakery and a few cafés near my flat. The only problem is that there are not many buses in the evening.",
+              "annotations": [
+                {
+                  "quote": "There is a small park",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'There is' + singular noun introduces what is in a place.",
+                    "es": "«There is» + sustantivo en singular presenta lo que hay en un lugar."
+                  }
+                },
+                {
+                  "quote": "The only problem is that",
+                  "kind": "connector",
+                  "note": {
+                    "en": "A clear way to add one negative point.",
+                    "es": "Forma clara de añadir un único punto negativo."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "It is a lively but friendly area, with a small park, a good bakery and several cafés within walking distance of my flat. My only complaint is the lack of evening buses.",
+              "annotations": [
+                {
+                  "quote": "within walking distance of",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A natural phrase for 'close enough to walk to'.",
+                    "es": "Expresión natural para «lo bastante cerca para ir andando»."
+                  }
+                },
+                {
+                  "quote": "the lack of evening buses",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "'The lack of' + noun is a neat way to name a problem.",
+                    "es": "«The lack of» + sustantivo es una forma limpia de nombrar un problema."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Rosa: How do you usually travel in your town, and do you like it?",
+          "models": {
+            "b2": {
+              "text": "I usually go to work by bike because it is fast and cheap. When it rains, I take the bus. I like cycling, but some roads are dangerous because there are no cycle lanes.",
+              "annotations": [
+                {
+                  "quote": "by bike",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "No article after 'by' with means of transport.",
+                    "es": "Sin artículo tras «by» con medios de transporte."
+                  }
+                },
+                {
+                  "quote": "When it rains",
+                  "kind": "connector",
+                  "note": {
+                    "en": "'When' + present simple describes a habit.",
+                    "es": "«When» + presente simple describe un hábito."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "Normally I cycle to work, since it is quicker and cheaper than the bus, which I only take when it is pouring with rain. I enjoy it, although a few roads feel unsafe without cycle lanes.",
+              "annotations": [
+                {
+                  "quote": "since it is quicker and cheaper than the bus",
+                  "kind": "connector",
+                  "note": {
+                    "en": "'Since' gives a reason, and the comparatives make it precise.",
+                    "es": "«Since» da el motivo y los comparativos lo hacen preciso."
+                  }
+                },
+                {
+                  "quote": "pouring with rain",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A vivid phrase for very heavy rain.",
+                    "es": "Expresión gráfica para lluvia muy fuerte."
+                  }
+                },
+                {
+                  "quote": "although",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Adds a contrast inside one sentence.",
+                    "es": "Añade un contraste dentro de la misma frase."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Dev: What do you like to do at the weekend near your home?",
+          "models": {
+            "b2": {
+              "text": "At the weekend I often walk by the river with my neighbour. After that we have coffee in a small café. In the afternoon I sometimes go to the market to buy fruit.",
+              "annotations": [
+                {
+                  "quote": "After that",
+                  "kind": "connector",
+                  "note": {
+                    "en": "Puts your activities in order.",
+                    "es": "Ordena tus actividades en el tiempo."
+                  }
+                },
+                {
+                  "quote": "often",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "Frequency adverbs go before the main verb.",
+                    "es": "Los adverbios de frecuencia van antes del verbo principal."
+                  }
+                }
+              ]
+            },
+            "c": {
+              "text": "On Saturdays I like to stroll along the river with a neighbour and then stop for coffee at a little café. Later I usually pop to the market for fresh fruit and vegetables.",
+              "annotations": [
+                {
+                  "quote": "stroll",
+                  "kind": "vocabulary",
+                  "note": {
+                    "en": "A more precise verb than 'walk' for a slow, relaxed walk.",
+                    "es": "Verbo más preciso que «walk» para un paseo tranquilo."
+                  }
+                },
+                {
+                  "quote": "pop to the market",
+                  "kind": "register",
+                  "note": {
+                    "en": "'Pop to' is an informal, very British way to say 'go quickly to'.",
+                    "es": "«Pop to» es informal y muy británico: «ir un momento a»."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

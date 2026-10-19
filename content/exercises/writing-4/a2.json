@@ -1,0 +1,309 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w4-a2-1",
+      "examPart": "writing-4",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "context": "You are a member of your town swimming pool. You received this email from the pool.",
+      "situation": "The town swimming pool will close for repairs from 5 May to 30 June. Swimming lessons will move to a school pool, ten minutes away by bus. After the pool reopens, the evening opening hours will also be shorter.",
+      "informal": {
+        "prompt": "Write an email to a friend who also swims at the pool. Tell your friend about the change and say how you feel about it. Write about 40–50 words.",
+        "models": {
+          "b2": {
+            "text": "Hi Paula,\n\nDid you read the email from the pool? It will close from 5 May to the end of June! I'm really sad because I swim there every Thursday. Shall we go to the school pool together by bus?\n\nSee you soon,\nAna",
+            "annotations": [
+              {
+                "quote": "I'm really sad because",
+                "kind": "connector",
+                "note": {
+                  "en": "Says how you feel and gives the reason with 'because'.",
+                  "es": "Dice cómo te sientes y da el motivo con «because»."
+                }
+              },
+              {
+                "quote": "Shall we go",
+                "kind": "register",
+                "note": {
+                  "en": "'Shall we' is a friendly way to make a suggestion.",
+                  "es": "«Shall we» es una forma amistosa de proponer algo."
+                }
+              },
+              {
+                "quote": "See you soon",
+                "kind": "register",
+                "note": {
+                  "en": "A warm, informal sign-off.",
+                  "es": "Una despedida cálida e informal."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Hi Paula,\n\nHave you seen the pool's email? It's shutting for repairs from 5 May until the end of June, which is a real nuisance. I'd happily put up with the school pool if the lessons stay the same. Fancy sharing the bus?\n\nCheers,\nAna",
+            "annotations": [
+              {
+                "quote": "which is a real nuisance",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A relative clause that comments on the whole sentence.",
+                  "es": "Oración de relativo que comenta toda la frase anterior."
+                }
+              },
+              {
+                "quote": "put up with",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "A phrasal verb meaning 'accept something unpleasant'.",
+                  "es": "Phrasal verb que significa «aguantar»."
+                }
+              },
+              {
+                "quote": "Fancy sharing the bus?",
+                "kind": "register",
+                "note": {
+                  "en": "'Fancy + -ing' is a very British, informal invitation.",
+                  "es": "«Fancy + -ing» es una invitación muy británica e informal."
+                }
+              }
+            ]
+          }
+        }
+      },
+      "formal": {
+        "prompt": "Write an email to the Pool Manager. Give your opinion of the change and make some suggestions. Write 120–150 words.",
+        "recipient": "The Pool Manager",
+        "models": {
+          "b2": {
+            "text": "Dear Sir or Madam,\n\nI am writing about the closure of the town swimming pool from 5 May to 30 June.\n\nI have been a member for three years and I swim there twice a week after work. I understand that the pool needs repairs, but the school pool is far from my house and the bus journey takes ten minutes each way. I am also worried about the shorter evening hours after the pool reopens, because many people can only come after six o'clock.\n\nI would like to make two suggestions. First, you could organise a free minibus from the town centre to the school pool. Second, you could keep the evening hours the same and close the pool earlier on Sundays instead.\n\nI look forward to hearing from you.\n\nYours faithfully,\nAna Ruiz",
+            "annotations": [
+              {
+                "quote": "I am writing about",
+                "kind": "register",
+                "note": {
+                  "en": "A clear formal opening that states the purpose.",
+                  "es": "Apertura formal clara que indica el propósito."
+                }
+              },
+              {
+                "quote": "I understand that the pool needs repairs, but",
+                "kind": "connector",
+                "note": {
+                  "en": "Accepting the other side first makes a complaint more polite.",
+                  "es": "Aceptar primero el otro punto de vista hace la queja más cortés."
+                }
+              },
+              {
+                "quote": "First, you could",
+                "kind": "connector",
+                "note": {
+                  "en": "'First' and 'Second' organise your suggestions.",
+                  "es": "«First» y «Second» ordenan tus sugerencias."
+                }
+              },
+              {
+                "quote": "I look forward to hearing from you.",
+                "kind": "register",
+                "note": {
+                  "en": "The standard formal closing sentence.",
+                  "es": "La frase de cierre formal habitual."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Dear Ms Jones,\n\nI am writing regarding the announcement that the town swimming pool will close from 5 May to 30 June.\n\nI have been a member for three years and, like many people, I swim twice a week after work. While I appreciate that repairs are unavoidable, I am concerned that the school pool is rather far from my home. In addition, shortening the evening hours once the pool reopens would make it almost impossible for those who finish work late to swim at all.\n\nMay I therefore suggest that you provide a free minibus to the school pool during the closure? Furthermore, it would be preferable to keep the evening hours as they are and reduce the Sunday opening times instead.\n\nThank you for considering my suggestions. I look forward to your reply.\n\nYours sincerely,\nAna Ruiz",
+            "annotations": [
+              {
+                "quote": "I am writing regarding",
+                "kind": "register",
+                "note": {
+                  "en": "A more formal way to introduce the topic.",
+                  "es": "Forma más formal de presentar el tema."
+                }
+              },
+              {
+                "quote": "While I appreciate that repairs are unavoidable",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "'While' + clause concedes a point before the complaint.",
+                  "es": "«While» + oración concede un punto antes de la queja."
+                }
+              },
+              {
+                "quote": "May I therefore suggest",
+                "kind": "register",
+                "note": {
+                  "en": "A polite, formal way to make a suggestion.",
+                  "es": "Forma cortés y formal de hacer una sugerencia."
+                }
+              },
+              {
+                "quote": "Furthermore",
+                "kind": "connector",
+                "note": {
+                  "en": "A formal connector to add a second point.",
+                  "es": "Conector formal para añadir un segundo punto."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "w4-a2-2",
+      "examPart": "writing-4",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 2,
+      "context": "You are a student at a language school. You received this email from the school.",
+      "situation": "From next month, the Tuesday evening English class will start at 8 pm and not at 6 pm. The class will move to Room 12 on the second floor. The price of the course will stay the same.",
+      "informal": {
+        "prompt": "Write an email to a friend who is in the same class. Tell your friend about the change and say how you feel about it. Write about 40–50 words.",
+        "models": {
+          "b2": {
+            "text": "Hi Carlos,\n\nHave you seen the school's email? Our Tuesday class will start at 8 pm from next month! I'm not happy because the class will finish at ten and I get up early on Wednesdays. Can we go home together afterwards?\n\nBye for now,\nSofia",
+            "annotations": [
+              {
+                "quote": "I'm not happy because",
+                "kind": "connector",
+                "note": {
+                  "en": "Says how you feel and gives the reason.",
+                  "es": "Dice cómo te sientes y da el motivo."
+                }
+              },
+              {
+                "quote": "Can we go home together afterwards?",
+                "kind": "register",
+                "note": {
+                  "en": "A simple, friendly question that invites a reply.",
+                  "es": "Una pregunta sencilla y amistosa que invita a responder."
+                }
+              },
+              {
+                "quote": "Bye for now",
+                "kind": "register",
+                "note": {
+                  "en": "A warm, informal sign-off.",
+                  "es": "Una despedida cálida e informal."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Hi Carlos,\n\nDid you get the school's email? Apparently the Tuesday class is moving to 8 pm from next month, which is a bit of a pain. I'll be shattered the next morning, but I'd rather keep the same teacher. Shall we walk home together afterwards?\n\nTake care,\nSofia",
+            "annotations": [
+              {
+                "quote": "Apparently",
+                "kind": "register",
+                "note": {
+                  "en": "Common when you pass on news you have just read.",
+                  "es": "Típico al contar una noticia que acabas de leer."
+                }
+              },
+              {
+                "quote": "a bit of a pain",
+                "kind": "vocabulary",
+                "note": {
+                  "en": "An informal phrase meaning 'annoying'.",
+                  "es": "Expresión informal que significa «molesto»."
+                }
+              },
+              {
+                "quote": "I'd rather keep",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "'I'd rather' + bare infinitive shows a preference.",
+                  "es": "«I'd rather» + infinitivo sin «to» expresa preferencia."
+                }
+              }
+            ]
+          }
+        }
+      },
+      "formal": {
+        "prompt": "Write an email to the School Director. Give your opinion of the change and make some suggestions. Write 120–150 words.",
+        "recipient": "The School Director",
+        "models": {
+          "b2": {
+            "text": "Dear Sir or Madam,\n\nI am writing about the change to the Tuesday evening English class, which will start at 8 pm from next month.\n\nI have been a student at the school for a year and I really enjoy the course. However, the new time is difficult for me, because the class will finish very late and I need to get up at six on Wednesdays for work. Some of my classmates also live far from the school and will have problems getting home by bus at night.\n\nI would like to suggest two ideas. First, you could start the class at seven o'clock, which is a good time for most students. Second, you could offer a second group on Thursday evenings, so that students can choose.\n\nThank you for reading my email. I look forward to your reply.\n\nYours faithfully,\nSofia Martin",
+            "annotations": [
+              {
+                "quote": "I am writing about",
+                "kind": "register",
+                "note": {
+                  "en": "A clear formal opening that states the purpose.",
+                  "es": "Apertura formal clara que indica el propósito."
+                }
+              },
+              {
+                "quote": "However, the new time is difficult for me",
+                "kind": "connector",
+                "note": {
+                  "en": "'However' introduces your problem after a positive point.",
+                  "es": "«However» introduce el problema tras un punto positivo."
+                }
+              },
+              {
+                "quote": "so that students can choose",
+                "kind": "connector",
+                "note": {
+                  "en": "'So that' explains the purpose of your suggestion.",
+                  "es": "«So that» explica la finalidad de tu sugerencia."
+                }
+              },
+              {
+                "quote": "I look forward to your reply.",
+                "kind": "register",
+                "note": {
+                  "en": "A polite formal closing sentence.",
+                  "es": "Frase de cierre formal y cortés."
+                }
+              }
+            ]
+          },
+          "c": {
+            "text": "Dear Mr Evans,\n\nI am writing in connection with the decision to move the Tuesday evening English class to 8 pm from next month.\n\nI have thoroughly enjoyed the course over the past year. Nevertheless, the later start causes me real difficulty, as I have to be up at six on Wednesdays for work. I suspect that several classmates, who live a long way from the school, will also struggle to get home safely by bus at that hour.\n\nMight I suggest that the class start at seven o'clock, which would suit most students? Alternatively, you could run a second group on Thursday evenings, allowing everyone to choose the time that suits them best.\n\nI would be grateful if you would consider these ideas. I look forward to hearing from you.\n\nYours sincerely,\nSofia Martin",
+            "annotations": [
+              {
+                "quote": "in connection with",
+                "kind": "register",
+                "note": {
+                  "en": "A formal phrase that introduces the reason for writing.",
+                  "es": "Frase formal que introduce el motivo del escrito."
+                }
+              },
+              {
+                "quote": "Nevertheless",
+                "kind": "connector",
+                "note": {
+                  "en": "A formal connector for contrast.",
+                  "es": "Conector formal de contraste."
+                }
+              },
+              {
+                "quote": "Might I suggest",
+                "kind": "register",
+                "note": {
+                  "en": "A very polite way to make a suggestion.",
+                  "es": "Forma muy cortés de hacer una sugerencia."
+                }
+              },
+              {
+                "quote": "allowing everyone to choose",
+                "kind": "advanced-structure",
+                "note": {
+                  "en": "A participle clause adds the result without a new sentence.",
+                  "es": "Cláusula de participio que añade el resultado sin otra frase."
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

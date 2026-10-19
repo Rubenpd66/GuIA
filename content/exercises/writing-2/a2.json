@@ -1,0 +1,119 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w2-a2-1",
+      "examPart": "writing-2",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 1,
+      "context": "You have joined a swimming club in your town.",
+      "prompt": "Tell us why you like swimming and when you can come to the pool. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I like swimming because it is good for my back and it helps me relax. I can come to the pool on Tuesday evenings and on Saturday mornings.",
+          "annotations": [
+            {
+              "quote": "because",
+              "kind": "connector",
+              "note": {
+                "en": "A simple connector to give your reason.",
+                "es": "Conector sencillo para dar el motivo."
+              }
+            },
+            {
+              "quote": "on Tuesday evenings",
+              "kind": "vocabulary",
+              "note": {
+                "en": "Use 'on' with days and add a time of day to be precise.",
+                "es": "Usa «on» con los días y añade el momento del día para ser preciso."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "I enjoy swimming not only because it is good for my back, but also because it helps me switch off. I am free on Tuesday evenings and Saturday mornings.",
+          "annotations": [
+            {
+              "quote": "not only because it is good for my back, but also because",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "'Not only ... but also' joins two reasons in one sentence.",
+                "es": "«Not only ... but also» une dos motivos en una sola frase."
+              }
+            },
+            {
+              "quote": "switch off",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A phrasal verb meaning to stop thinking about work or worries.",
+                "es": "Phrasal verb que significa desconectar."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "w2-a2-2",
+      "examPart": "writing-2",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 2,
+      "context": "You have joined an English class at a language school.",
+      "prompt": "Tell us why you want to learn English and what you do in your free time. Write in sentences. Use 20–30 words.",
+      "models": {
+        "b2": {
+          "text": "I want to learn English because I need it for my job. In my free time I like cooking, watching films and going for long walks with my dog.",
+          "annotations": [
+            {
+              "quote": "because I need it for my job",
+              "kind": "connector",
+              "note": {
+                "en": "'Because' gives a clear, simple reason.",
+                "es": "«Because» da un motivo claro y sencillo."
+              }
+            },
+            {
+              "quote": "cooking, watching films and going for long walks",
+              "kind": "vocabulary",
+              "note": {
+                "en": "After 'like', use the -ing form for each activity in the list.",
+                "es": "Tras «like», usa la forma -ing en cada actividad de la lista."
+              }
+            }
+          ]
+        },
+        "c": {
+          "text": "My main reason for learning English is that I need it at work. When I have some spare time, I enjoy cooking, catching up on films and walking my dog.",
+          "annotations": [
+            {
+              "quote": "My main reason for learning English is that",
+              "kind": "advanced-structure",
+              "note": {
+                "en": "A noun phrase + 'is that' gives the reason in a more varied way.",
+                "es": "Sintagma nominal + «is that» da el motivo de forma más variada."
+              }
+            },
+            {
+              "quote": "spare time",
+              "kind": "vocabulary",
+              "note": {
+                "en": "A natural alternative to 'free time'.",
+                "es": "Alternativa natural a «free time»."
+              }
+            },
+            {
+              "quote": "catching up on films",
+              "kind": "vocabulary",
+              "note": {
+                "en": "'Catch up on' means to watch or do things you have missed.",
+                "es": "«Catch up on» es ponerse al día con lo que te has perdido."
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

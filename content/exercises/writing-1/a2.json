@@ -1,0 +1,35 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "w1-a2-1",
+      "examPart": "writing-1",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 1,
+      "context": "You are joining a local sports centre. Answer the questions on the form.",
+      "messages": [
+        {
+          "prompt": "What is your first name?",
+          "sampleAnswers": ["Marta", "Daniel"]
+        },
+        {
+          "prompt": "Where do you live?",
+          "sampleAnswers": ["In Seville", "Near the station"]
+        },
+        {
+          "prompt": "Which sport do you like?",
+          "sampleAnswers": ["Swimming", "Tennis and football"]
+        },
+        {
+          "prompt": "When do you want to come to the centre?",
+          "sampleAnswers": ["On Saturdays", "After work"]
+        },
+        {
+          "prompt": "How do you travel to the centre?",
+          "sampleAnswers": ["By bus", "I walk"]
+        }
+      ]
+    }
+  ]
+}

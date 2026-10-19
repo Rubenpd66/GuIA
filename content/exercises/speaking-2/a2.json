@@ -1,0 +1,295 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "s2-a2-1",
+      "examPart": "speaking-2",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 1,
+      "image": {
+        "sceneId": "high-street",
+        "alt": {
+          "en": "Shoppers with bags walking along a high street past shop fronts and a café.",
+          "es": "Compradores con bolsas paseando por una calle comercial, junto a escaparates y una cafetería."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Describe this picture.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "This picture shows a busy high street."
+                },
+                {
+                  "role": "development",
+                  "text": "Many people are walking past the shops, and some of them are carrying shopping bags. Everybody looks relaxed. There is also a café next to the shops."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I think it is the weekend because the street is so busy. Maybe the people are looking for presents or new clothes."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It looks like a nice place to spend the afternoon."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "The first thing I notice is a busy high street full of shoppers."
+                },
+                {
+                  "role": "development",
+                  "text": "Most of them are carrying bags, so they have clearly been in the shops for a while, and there is a café where people can rest."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I imagine it is a Saturday afternoon, and I would guess that some people are buying presents while others are just window-shopping."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Overall, it feels like a lively, pleasant place to spend a few hours."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Where do you usually buy your clothes?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I usually buy my clothes in the shopping centre near my house."
+                },
+                {
+                  "role": "development",
+                  "text": "There are lots of shops there, so it is easy to compare prices. I only buy new clothes two or three times a year because I don't like spending a lot of money."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, last month I bought a warm coat in the sales and I was very happy with it."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Mostly I go to the big shopping centre near my house, since everything is under one roof."
+                },
+                {
+                  "role": "development",
+                  "text": "I try to buy only what I really need, so I make a list and wait for the sales. It saves me a lot of money."
+                },
+                {
+                  "role": "example",
+                  "text": "Last month, for instance, I found a lovely winter coat at half price, and I have worn it almost every day since."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Why do some people prefer shopping online?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think some people prefer shopping online because it is very easy."
+                },
+                {
+                  "role": "development",
+                  "text": "You don't need to leave your house, and you can compare prices in a few minutes. It is also useful if you don't have a shop near your home."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, my mother orders all her shopping online because she can't carry heavy bags."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "However, I like seeing clothes before I buy them, so I prefer the shops."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I suppose the main attraction is convenience: you can shop at midnight in your pyjamas."
+                },
+                {
+                  "role": "development",
+                  "text": "Prices are easy to compare, and everything arrives at your door, which is a great help for people who are busy or live far from the shops."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Personally, though, I like trying clothes on first, so I still prefer going to the shops, even if it takes longer."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s2-a2-2",
+      "examPart": "speaking-2",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 1,
+      "image": {
+        "sceneId": "beach-holiday",
+        "alt": {
+          "en": "A busy beach in summer, with umbrellas, people sunbathing on towels, the sea and the sun.",
+          "es": "Una playa llena de gente en verano, con sombrillas, personas tomando el sol sobre toallas, el mar y el sol."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Describe this picture.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "This is a photo of a busy beach in summer."
+                },
+                {
+                  "role": "development",
+                  "text": "There are many umbrellas and people are lying on towels in the sun. In the background you can see the sea."
+                },
+                {
+                  "role": "speculation",
+                  "text": "I think it is very hot because everybody is sunbathing. Maybe the people are on holiday with their families, and some of them will go into the water later."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It looks like a fun place to relax."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "What I notice straight away is how crowded the beach is on this sunny day."
+                },
+                {
+                  "role": "development",
+                  "text": "Umbrellas are dotted all over the sand, people are lying on their towels, and beyond them you can see the sea."
+                },
+                {
+                  "role": "speculation",
+                  "text": "It must be the middle of summer, and I imagine that most of these people have come here to escape the heat and do absolutely nothing."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "It is a classic holiday scene."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you like going to the beach on holiday?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, I love going to the beach on holiday."
+                },
+                {
+                  "role": "development",
+                  "text": "I like swimming in the sea and walking along the sand in the evening. It is also a good way to forget about work."
+                },
+                {
+                  "role": "example",
+                  "text": "Last summer, for example, we spent a week at a small beach in the south of Spain, and I swam every morning."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I would like to go again next year."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Yes, definitely, although I prefer quiet beaches to crowded ones like this."
+                },
+                {
+                  "role": "development",
+                  "text": "Swimming first thing in the morning is the best way I know to start the day, and an evening walk along the sand clears my head after a stressful year."
+                },
+                {
+                  "role": "example",
+                  "text": "Last summer we found a tiny beach in the south of Spain where we had almost no one around us, and I swam every single morning."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I would go back tomorrow if I could."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Why do you think many people take their holidays in summer?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think many people take their holidays in summer because the weather is good."
+                },
+                {
+                  "role": "development",
+                  "text": "The days are longer and it is warm, so you can do more things outside. Also, children don't have school in July and August."
+                },
+                {
+                  "role": "example",
+                  "text": "In my family, for example, we always go away in August because my parents and I are all free then."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "For these reasons, it is the best time for a family holiday."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "The simple answer is the weather: nobody wants to spend their holiday in the rain."
+                },
+                {
+                  "role": "development",
+                  "text": "Long, warm days give you more time to enjoy yourself outside, and schools are closed in July and August, so families can finally travel together."
+                },
+                {
+                  "role": "example",
+                  "text": "In my case, August is the only month when my whole family is free at the same time, so we have no choice."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "That is why everyone seems to be on the roads and beaches at once."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

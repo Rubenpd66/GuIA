@@ -1,0 +1,285 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "s3-a2-1",
+      "examPart": "speaking-3",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 1,
+      "images": [
+        {
+          "sceneId": "family-picnic",
+          "alt": {
+            "en": "A family of four on a picnic blanket in a park, with a basket and food, a child with a ball and a tree behind them.",
+            "es": "Una familia de cuatro personas sobre una manta de picnic en un parque, con una cesta y comida, un niño con una pelota y un árbol detrás."
+          }
+        },
+        {
+          "sceneId": "cafe-friends",
+          "alt": {
+            "en": "Three friends at a café table with cups of coffee, two chatting and laughing, one looking at a phone.",
+            "es": "Tres amigos en la mesa de una cafetería con tazas de café: dos charlan y se ríen, y uno mira el móvil."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Tell me what you see in the two pictures, and how they are similar or different.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Both pictures show people enjoying food and drink together, but in different places."
+                },
+                {
+                  "role": "development",
+                  "text": "In the first picture, a family is having a picnic on a blanket in a park, and a child is playing with a ball. In the second, three friends are sitting at a café table with cups of coffee."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The family looks relaxed, and I think the friends are having a nice chat."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "What the two pictures have in common is that people are sharing food and drink, yet the settings are quite different."
+                },
+                {
+                  "role": "development",
+                  "text": "The first shows a family on a picnic blanket in a park, with a basket of food and a child playing with a ball, whereas the second shows three friends around a café table with their coffees, and one of them is looking at a phone."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The family seem to be enjoying a quiet day out, while the friends might have met up after work for a chat."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Which of these places would you prefer to go to with friends, and why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I would prefer to go to the café with my friends."
+                },
+                {
+                  "role": "development",
+                  "text": "It is easy to talk when you are sitting at a table, and you don't have to carry a lot of things. Also, a café is a good idea when it rains."
+                },
+                {
+                  "role": "example",
+                  "text": "Last weekend, for example, my friends and I had hot chocolate at a café and talked for two hours."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I'd go for the café, I think, although the picnic looks lovely on a sunny day."
+                },
+                {
+                  "role": "development",
+                  "text": "In a café you can chat for hours without worrying about the weather, and there is no need to carry food, a blanket or anything else."
+                },
+                {
+                  "role": "speculation",
+                  "text": "Having said that, a picnic would be much cheaper, so I might suggest it for a big group of friends in summer."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How often do you meet friends or family to eat together?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I meet my family to eat together almost every Sunday."
+                },
+                {
+                  "role": "development",
+                  "text": "We have lunch at my grandparents' house, and my grandmother cooks a big meal for everybody. With my friends, I usually go out for dinner once or twice a month."
+                },
+                {
+                  "role": "example",
+                  "text": "Last Sunday, for example, we ate paella and then played cards all afternoon."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "I think it is important to spend time with the people you love."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Pretty often: it's a Sunday tradition in my family to have lunch together at my grandparents' house."
+                },
+                {
+                  "role": "development",
+                  "text": "My grandmother cooks enough to feed an army, and we usually end up playing cards all afternoon. I see my friends for dinner about twice a month, which is as often as our busy lives allow."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "For me, those shared meals are what makes a week feel complete."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s3-a2-2",
+      "examPart": "speaking-3",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 1,
+      "images": [
+        {
+          "sceneId": "school-classroom",
+          "alt": {
+            "en": "A classroom with a teacher at a whiteboard and pupils at desks, one pupil raising a hand.",
+            "es": "Un aula con un profesor ante la pizarra y alumnos en sus pupitres; un alumno levanta la mano."
+          }
+        },
+        {
+          "sceneId": "reading-at-home",
+          "alt": {
+            "en": "A person reading a book in an armchair beside a lamp and a bookshelf, with a cat on the rug.",
+            "es": "Una persona leyendo un libro en un sillón, junto a una lámpara y una estantería, con un gato sobre la alfombra."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Tell me what you see in the two pictures, and how they are similar or different.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "These pictures show two different ways of learning."
+                },
+                {
+                  "role": "development",
+                  "text": "In the first picture, there is a teacher at a whiteboard and some pupils sitting at desks, and one pupil is raising a hand. In the second, a person is reading a book in an armchair next to a lamp, with a cat on the rug."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The pupil with the raised hand probably has a question, and the person at home looks very calm."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "What I notice is that the first picture shows learning with other people, whereas the second shows it alone."
+                },
+                {
+                  "role": "development",
+                  "text": "In the classroom, a teacher is standing at the whiteboard and the pupils are at their desks, with one of them putting a hand up, while at home a person is sitting comfortably in an armchair with a book, a lamp and a cat on the rug."
+                },
+                {
+                  "role": "speculation",
+                  "text": "The pupil probably wants to ask something, but the reader looks completely relaxed, so I imagine they are reading for pleasure."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Which of these places do you prefer for learning something new, and why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I prefer to learn something new in a class with a teacher."
+                },
+                {
+                  "role": "development",
+                  "text": "A teacher can explain things in a simple way, and I can ask questions at any time. I also like learning with other people because it is more fun."
+                },
+                {
+                  "role": "example",
+                  "text": "For example, I started a guitar course last year, and my classmates helped me a lot."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "At home, I often get tired and stop."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "On the whole I'd choose the classroom, because I learn best when I can talk to a teacher."
+                },
+                {
+                  "role": "development",
+                  "text": "Someone can explain a difficult point straight away, and listening to other people's questions often teaches me things I would never have thought of myself."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "That said, reading at home is better for reviewing, because I can go at my own pace without any pressure."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "What do you like to read or study in your free time?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "In my free time I like reading novels and learning new things online."
+                },
+                {
+                  "role": "development",
+                  "text": "I read a few pages every night before I go to bed, because it helps me relax. I also watch short videos to learn how to cook new dishes."
+                },
+                {
+                  "role": "example",
+                  "text": "At the moment I am reading a detective story, and it is so exciting that I can't stop."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Mostly novels, and I also like picking up practical skills from the internet."
+                },
+                {
+                  "role": "development",
+                  "text": "I try to read a few pages every night, as it is the best way I know to switch off before bed, and during the day I watch short videos about cooking or gardening."
+                },
+                {
+                  "role": "example",
+                  "text": "Right now I'm halfway through a detective story and I'm so hooked that I read on the bus too."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

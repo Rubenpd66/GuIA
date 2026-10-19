@@ -1,0 +1,259 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "s4-a2-1",
+      "examPart": "speaking-4",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 1,
+      "image": {
+        "sceneId": "family-picnic",
+        "alt": {
+          "en": "A family of four on a picnic blanket in a park, with a basket and food, a child with a ball and a tree behind them.",
+          "es": "Una familia de cuatro personas sobre una manta de picnic en un parque, con una cesta y comida, un niño con una pelota y un árbol detrás."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Tell me about a day when you went to a park or the countryside with your family or friends.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Last summer I went to a park with my family for my brother's birthday."
+                },
+                {
+                  "role": "development",
+                  "text": "We took a big basket with sandwiches, fruit and a cake, and we sat on a blanket under a tree. My brother and my cousins played football for hours."
+                },
+                {
+                  "role": "example",
+                  "text": "At the end, we all sang happy birthday and ate the cake in the sun. It was a lovely afternoon."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "The day that comes to mind is a picnic we had last summer in the park to celebrate my brother's birthday."
+                },
+                {
+                  "role": "development",
+                  "text": "We spread a blanket under a big tree and unpacked far too much food, while my brother and my cousins kicked a ball around for hours."
+                },
+                {
+                  "role": "example",
+                  "text": "When the sun began to go down, we sang to him and shared out the cake, and nobody wanted to go home."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How did you feel about that day?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I felt very happy that day."
+                },
+                {
+                  "role": "development",
+                  "text": "It was the first time all my family was together in months, so it was special. I was also a bit nervous at the start because I had to organise all the games for the children."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "When we went home I was tired, but I felt grateful for such a good day."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "Honestly, I felt completely happy, and a little proud as well."
+                },
+                {
+                  "role": "development",
+                  "text": "It was the first time in months that the whole family had been together, so it felt special, although I was slightly nervous at the start because I had organised all the games."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "By the evening I was exhausted, but I remember thinking how lucky I was to have such a close family."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think it is better to spend free time outdoors or at home? Why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think it is better to spend free time outdoors, but not always."
+                },
+                {
+                  "role": "development",
+                  "text": "When you are outside, you get fresh air and exercise, and you can meet people. After a week at the office, it is good to see something different."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "However, on cold or rainy days I prefer to stay at home with a film and a hot drink."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "On balance, I'd say outdoors, although it depends on the weather and on how tired I am."
+                },
+                {
+                  "role": "development",
+                  "text": "Fresh air and a bit of exercise do wonders for your mood, and being outside is a great way to meet people, especially after a long week stuck indoors at a desk."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Then again, I wouldn't say no to a quiet evening at home with a good film if it were pouring with rain."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-a2-2",
+      "examPart": "speaking-4",
+      "cefrLevel": "A2",
+      "topic": "general",
+      "difficulty": 2,
+      "image": {
+        "sceneId": "home-kitchen",
+        "alt": {
+          "en": "Two people cooking together in a home kitchen: one stirring a pot on the hob, the other chopping vegetables.",
+          "es": "Dos personas cocinan juntas en una cocina de casa: una remueve una olla en los fuegos y la otra corta verduras."
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Tell me about a time when you cooked a meal for other people.",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "A few months ago I cooked dinner for my friends at my flat."
+                },
+                {
+                  "role": "development",
+                  "text": "My friend Laura helped me in the kitchen. She chopped the vegetables and I stirred a big pot of chicken soup. We made a salad and a chocolate cake too, because I wanted a real party."
+                },
+                {
+                  "role": "example",
+                  "text": "Six people came, and everybody ate a lot. We talked until midnight."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I cooked dinner for six friends at my flat a few months ago, and I was determined to impress them."
+                },
+                {
+                  "role": "development",
+                  "text": "My friend Laura helped by chopping the vegetables while I stirred an enormous pot of chicken soup, and between us we also managed to make a salad and a chocolate cake."
+                },
+                {
+                  "role": "example",
+                  "text": "Everybody ate far more than I expected, and we sat around the table talking until midnight."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "How did you feel about it?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I was quite nervous before the dinner."
+                },
+                {
+                  "role": "development",
+                  "text": "I had never cooked for so many people, and I was afraid the soup would be too salty. I checked the recipe three times, and I couldn't sit down until everybody was at the table."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "In the end, everybody loved the food, and I felt very proud and relieved."
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "To be honest, I was a bundle of nerves before the dinner."
+                },
+                {
+                  "role": "development",
+                  "text": "I had never cooked for so many people and was terrified that the soup would be too salty, so I checked the recipe three times and couldn't relax until everyone was sitting at the table."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "When they asked for second helpings, I felt enormously proud and relieved."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "prompt": "Do you think it is better to cook at home or to eat in restaurants? Why?",
+          "models": {
+            "b2": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "I think it is better to cook at home most of the time."
+                },
+                {
+                  "role": "development",
+                  "text": "It is cheaper and healthier, because you know exactly what is in your food. Also, cooking with other people is fun and you can learn new recipes."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "But I like going to a restaurant on special days, because nobody has to wash the dishes!"
+                }
+              ]
+            },
+            "c": {
+              "segments": [
+                {
+                  "role": "intro",
+                  "text": "On the whole, I'd say cooking at home wins, as long as you have the time."
+                },
+                {
+                  "role": "development",
+                  "text": "It works out cheaper and healthier because you control what goes into your food, and cooking with other people is a good way to pick up new recipes and to catch up with them."
+                },
+                {
+                  "role": "conclusion",
+                  "text": "Mind you, for a birthday or a special occasion, nothing beats a restaurant, if only because someone else does the washing-up."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
