@@ -14,7 +14,12 @@ import {
   planFigures,
   type PlanFigures,
 } from "@/lib/access/figures";
-import { TIERS, TIER_LEVEL, type PaidTier, type Tier } from "@/lib/access/tiers";
+import {
+  TIERS,
+  TIER_LEVEL,
+  type PaidTier,
+  type Tier,
+} from "@/lib/access/tiers";
 import { getContent } from "@/lib/content/load";
 import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
 

@@ -2,7 +2,13 @@ import { entriesOfGroup, type ContentIndex } from "@/lib/content/index";
 import { localized } from "@/lib/content/localize";
 import type { CefrLevel } from "@/lib/content/schemas/common";
 import type { ExamPart } from "@/lib/exam/format";
-import { PRICES, levelsFor, TIER_LEVEL, type PaidTier, type Tier } from "./tiers";
+import {
+  PRICES,
+  levelsFor,
+  TIER_LEVEL,
+  type PaidTier,
+  type Tier,
+} from "./tiers";
 
 export type PlanFigures = {
   lessons: number;

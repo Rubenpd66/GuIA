@@ -1,19 +1,36 @@
 import { describe, expect, it } from "vitest";
-import { isAdminClaims, summarise, summariseSubscriptions, type AdminUser } from "./stats";
+import {
+  isAdminClaims,
+  summarise,
+  summariseSubscriptions,
+  type AdminUser,
+} from "./stats";
 
 const NOW = Date.parse("2026-10-20T12:00:00Z");
 const DAY = 24 * 60 * 60 * 1000;
-const user = (id: string, createdDaysAgo: number, seenDaysAgo: number | null): AdminUser => ({
+const user = (
+  id: string,
+  createdDaysAgo: number,
+  seenDaysAgo: number | null,
+): AdminUser => ({
   id,
   email: `${id}@example.com`,
   createdAt: new Date(NOW - createdDaysAgo * DAY).toISOString(),
-  lastSignInAt: seenDaysAgo === null ? null : new Date(NOW - seenDaysAgo * DAY).toISOString(),
+  lastSignInAt:
+    seenDaysAgo === null
+      ? null
+      : new Date(NOW - seenDaysAgo * DAY).toISOString(),
 });
 
 describe("summarise", () => {
   it("counts accounts, activity windows and signups per week", () => {
     const stats = summarise(
-      [user("a", 1, 0), user("b", 10, 8), user("c", 100, 40), user("d", 3, null)],
+      [
+        user("a", 1, 0),
+        user("b", 10, 8),
+        user("c", 100, 40),
+        user("d", 3, null),
+      ],
       ["core-grammar", "reading-1", "core-grammar"],
       NOW,
     );
@@ -36,7 +53,12 @@ describe("isAdminClaims", () => {
 
 describe("summariseSubscriptions", () => {
   const live = "2030-01-01T00:00:00.000Z";
-  const row = (tier: "b1" | "b2" | "c1", interval: "month" | "year", status = "active", end = live) => ({
+  const row = (
+    tier: "b1" | "b2" | "c1",
+    interval: "month" | "year",
+    status = "active",
+    end = live,
+  ) => ({
     tier,
     interval,
     status,

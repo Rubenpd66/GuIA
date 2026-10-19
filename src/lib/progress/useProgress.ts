@@ -67,7 +67,11 @@ export function clearProgress() {
 
 /** The learner's progress; empty on the server and during the first render. */
 export function useProgress(): Progress {
-  return useSyncExternalStore(subscribeProgress, getSnapshot, () => EMPTY_PROGRESS);
+  return useSyncExternalStore(
+    subscribeProgress,
+    getSnapshot,
+    () => EMPTY_PROGRESS,
+  );
 }
 
 /** The latest stored progress, read at the moment it is needed (e.g. when a session ends). */

@@ -45,7 +45,9 @@ export function entriesVisibleTo<T extends { level: CefrLevel }>(
 }
 
 /** The easiest level among some hidden content: the plan a lock notice should name. */
-export function lowestLevel(levels: readonly CefrLevel[]): CefrLevel | undefined {
+export function lowestLevel(
+  levels: readonly CefrLevel[],
+): CefrLevel | undefined {
   return CEFR_LEVELS.find((level) => levels.includes(level));
 }
 

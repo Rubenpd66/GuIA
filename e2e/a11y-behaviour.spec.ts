@@ -18,7 +18,9 @@ test("a dialog takes the focus, closes with Escape and gives it back", async ({
   await expect(trigger).toBeFocused();
 });
 
-test("the stamp only fades when less motion is asked for", async ({ page }) => {
+test("the achievement only fades when less motion is asked for", async ({
+  page,
+}) => {
   await seedProgress(page);
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/es/simulacro");
@@ -43,10 +45,18 @@ test("the stamp only fades when less motion is asked for", async ({ page }) => {
   await page.reload();
   await page.waitForLoadState("networkidle");
   const animation = await page
-    .locator("svg.stamp-drop")
+    .locator(".achievement")
     .first()
     .evaluate((el) => getComputedStyle(el).animationName);
-  expect(animation).toBe("stamp-fade");
+  expect(animation).toBe("achievement-fade");
+  await page.emulateMedia({ reducedMotion: "no-preference" });
+  await page.reload();
+  await page.waitForLoadState("networkidle");
+  const full = await page
+    .locator(".achievement")
+    .first()
+    .evaluate((el) => getComputedStyle(el).animationName);
+  expect(full).toBe("achievement-pop");
 });
 
 test("entering content rises, and only fades when less motion is asked for", async ({

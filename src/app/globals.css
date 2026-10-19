@@ -155,47 +155,6 @@
   max-width: 68ch;
 }
 
-/* The one moment of impact: the stamp drops, bounces, settles at an angle and the ink spreads. */
-@keyframes stamp-drop {
-  0% {
-    opacity: 0;
-    transform: translateY(-35%) scale(1.5) rotate(10deg);
-    filter: blur(1.5px);
-  }
-  55% {
-    opacity: 1;
-    transform: translateY(0) scale(0.9) rotate(-2deg);
-    filter: blur(0.6px);
-  }
-  78% {
-    transform: scale(1.04) rotate(0.5deg);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-    filter: none;
-  }
-}
-
-@keyframes stamp-fade {
-  from {
-    opacity: 0;
-  }
-}
-
-.stamp-drop {
-  transform-origin: center;
-  animation: stamp-drop 700ms cubic-bezier(0.2, 0.9, 0.3, 1.15) both;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .stamp-drop {
-    animation-name: stamp-fade;
-    animation-duration: 250ms !important;
-    animation-timing-function: ease-out;
-  }
-}
-
 /* Motion grammar (phase 10e). Only transform and opacity; every animation has a reduced-motion alternative. */
 @keyframes enter-rise {
   from {
@@ -392,5 +351,57 @@
     from {
       opacity: 0;
     }
+  }
+}
+
+/* The reward moment (rare): the badge settles with a small overshoot while a ring spreads behind it. */
+@keyframes achievement-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+}
+
+@keyframes achievement-ring {
+  from {
+    opacity: 0.5;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+
+@keyframes achievement-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+.achievement {
+  animation: achievement-pop var(--dur-reward)
+    linear(0, 0.4 12%, 0.85 30%, 1.06 48%, 0.98 66%, 1 82%, 1) both;
+}
+
+.achievement-ring {
+  animation: achievement-ring var(--dur-reward) var(--ease-out) both;
+}
+
+.achievement-caption {
+  animation: enter-fade 200ms 120ms both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .achievement {
+    animation: achievement-fade 200ms linear both;
+  }
+
+  .achievement-ring {
+    display: none;
+  }
+
+  .achievement-caption {
+    animation: achievement-fade 200ms linear both;
   }
 }

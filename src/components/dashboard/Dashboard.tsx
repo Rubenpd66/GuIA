@@ -1,8 +1,8 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { SkillMark } from "@/components/passport/SkillMark";
-import { Stamp } from "@/components/passport/Stamp";
+import { Achievement } from "@/components/progress/Achievement";
+import { ProgressBar } from "@/components/ui/ProgressBar";
 import { usePartName } from "@/components/sections/usePartName";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Link } from "@/i18n/navigation";
@@ -38,7 +38,7 @@ export function Dashboard() {
   const flashcards = flashcardsStore.useValue();
   const today = useToday();
 
-  // Progress lives in the browser; render nothing on the server rather than an empty passport.
+  // Progress lives in the browser; render nothing on the server rather than an empty dashboard.
   if (today === null) return null;
   const now = middayOf(today);
   const estimates = estimateAll(progress);
@@ -130,11 +130,10 @@ export function Dashboard() {
             return (
               <div
                 key={skill}
-                className="flex items-center gap-3 rounded-control border-[1.5px] border-hairline p-3"
+                className="flex flex-wrap items-center gap-x-3 gap-y-2 rounded-card bg-surface p-4"
               >
-                <SkillMark skill={skill} className="text-accent" />
                 <dt className="font-semibold">{tAll(`Skills.${skill}`)}</dt>
-                <dd className="ml-auto text-right">
+                <dd className="min-w-0 flex-1 text-right">
                   {estimate ? (
                     <>
                       <span className="font-bold">
@@ -152,6 +151,14 @@ export function Dashboard() {
                   ) : (
                     <span className="text-sm text-ink-soft">{t("noData")}</span>
                   )}
+                  {estimate ? (
+                    <div className="mt-2 text-left">
+                      <ProgressBar
+                        value={percent(estimate) / 100}
+                        label={`${tAll(`Skills.${skill}`)}: ${t("percent", { value: percent(estimate) })}`}
+                      />
+                    </div>
+                  ) : null}
                 </dd>
               </div>
             );
@@ -254,24 +261,21 @@ function PassportSlot({
       ? tAll(`Parts.${part}`)
       : tAll("Practice.partNumber", { number });
   return (
-    <li className="flex flex-col items-center gap-1 rounded-card border-[1.5px] border-dashed border-hairline p-2 text-center">
+    <li className="flex flex-col items-center gap-1 rounded-card bg-surface p-3 text-center">
       <Link
         href={{ pathname: "/practice/[part]", params: { part } }}
         className="flex flex-col items-center gap-1"
       >
         {estimate?.level ? (
-          <Stamp
-            skill={skill}
+          <Achievement
             level={estimate.level}
             caption={caption}
-            tone={estimate.level === "C" ? "foil" : "entry"}
             label={t("stampLabel", { level: estimate.level, part: name })}
-            className="size-24"
           />
         ) : (
           <span
             aria-label={t("emptySlot", { part: name })}
-            className="flex size-24 items-center justify-center text-sm text-ink-soft"
+            className="flex size-16 items-center justify-center text-sm text-ink-soft"
           >
             {estimate ? t("noStamp") : "—"}
           </span>

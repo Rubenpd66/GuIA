@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { SkillMark } from "@/components/passport/SkillMark";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { EXAM_FORMAT, SKILLS } from "@/lib/exam/format";
 
@@ -33,10 +32,6 @@ export default async function ExamGuidePage() {
                 className="grid gap-1 py-4 sm:grid-cols-[12rem_1fr] sm:gap-6"
               >
                 <dt className="flex items-start gap-2.5 font-semibold">
-                  <SkillMark
-                    skill={skill}
-                    className="mt-0.5 text-accent"
-                  />
                   <span>
                     {t(`Skills.${skill}`)}
                     <span className="block text-sm font-normal text-ink-soft">

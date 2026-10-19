@@ -25,9 +25,7 @@ export default function GlobalNotFound() {
       <body className="antialiased">
         <main className="mx-auto flex min-h-dvh max-w-[60ch] flex-col justify-center gap-8 px-4 py-16">
           <section>
-            <h1 className="text-2xl font-extrabold">
-              Esta página no existe
-            </h1>
+            <h1 className="text-2xl font-extrabold">Esta página no existe</h1>
             <p className="mt-2 text-ink-soft">
               Puede que la dirección esté mal escrita.
             </p>
@@ -36,9 +34,7 @@ export default function GlobalNotFound() {
             </Link>
           </section>
           <section lang="en">
-            <h2 className="text-2xl font-extrabold">
-              This page doesn’t exist
-            </h2>
+            <h2 className="text-2xl font-extrabold">This page doesn’t exist</h2>
             <p className="mt-2 text-ink-soft">The address may be mistyped.</p>
             <Link href="/en" className={`${LINK} mt-4`}>
               Go to the home page

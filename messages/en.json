@@ -949,7 +949,7 @@
     "weekLabel": "This week",
     "minutes": "{count, plural, one {# minute} other {# minutes}}",
     "weakTitle": "Weak points",
-    "passportTitle": "Your passport",
+    "passportTitle": "Your achievements",
     "passportLead": "Every part of the exam has its own box. The achievement shows your estimated level and changes as you practise.",
     "stampLabel": "{level} achievement: {part}",
     "emptySlot": "No achievement yet: {part}",

@@ -12,5 +12,8 @@ export async function requireAdmin() {
   const supabase = await supabaseServer();
   const { data } = await supabase.auth.getClaims();
   if (!data?.claims || !isAdminClaims(data.claims)) notFound();
-  return { id: data.claims.sub, email: data.claims.email as string | undefined };
+  return {
+    id: data.claims.sub,
+    email: data.claims.email as string | undefined,
+  };
 }

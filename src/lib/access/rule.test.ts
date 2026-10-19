@@ -95,7 +95,9 @@ describe("lowestLevel", () => {
 });
 
 describe("describePlan", () => {
-  const plan = (patch: Partial<SubscriptionRow & { cancel_at_period_end: boolean }> = {}) => ({
+  const plan = (
+    patch: Partial<SubscriptionRow & { cancel_at_period_end: boolean }> = {},
+  ) => ({
     ...row(),
     cancel_at_period_end: false,
     ...patch,
@@ -105,7 +107,10 @@ describe("describePlan", () => {
     expect(describePlan(null, NOW)).toBe("none");
     expect(describePlan(plan({ status: "canceled" }), NOW)).toBe("none");
     expect(
-      describePlan(plan({ current_period_end: new Date(NOW - 1000).toISOString() }), NOW),
+      describePlan(
+        plan({ current_period_end: new Date(NOW - 1000).toISOString() }),
+        NOW,
+      ),
     ).toBe("none");
   });
 
@@ -114,7 +119,9 @@ describe("describePlan", () => {
   });
 
   it("is ending when the learner has cancelled but the period is still paid", () => {
-    expect(describePlan(plan({ cancel_at_period_end: true }), NOW)).toBe("ending");
+    expect(describePlan(plan({ cancel_at_period_end: true }), NOW)).toBe(
+      "ending",
+    );
   });
 
   it("is pastDue while Stripe retries a failed payment", () => {

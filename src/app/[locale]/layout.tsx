@@ -43,11 +43,7 @@ export default async function LocaleLayout({
   const t = await getTranslations("Nav");
 
   return (
-    <html
-      lang={locale}
-      className={figtree.variable}
-      suppressHydrationWarning
-    >
+    <html lang={locale} className={figtree.variable} suppressHydrationWarning>
       <body className="antialiased">
         <NextIntlClientProvider>
           <ThemeProvider>

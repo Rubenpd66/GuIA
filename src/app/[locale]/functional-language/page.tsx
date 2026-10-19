@@ -55,10 +55,7 @@ export default async function FunctionalLanguagePage() {
               aria-labelledby={`${group.function}-title`}
               className="max-w-[68ch] scroll-mt-24"
             >
-              <h2
-                id={`${group.function}-title`}
-                className="text-xl font-bold"
-              >
+              <h2 id={`${group.function}-title`} className="text-xl font-bold">
                 {t(`Functional.${group.function}`)}
               </h2>
               <ul className="mt-4 divide-y divide-hairline border-y border-hairline">

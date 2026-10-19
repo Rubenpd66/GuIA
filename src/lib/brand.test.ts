@@ -14,11 +14,19 @@ describe("brand", () => {
     expect(SITE.name).toBe("GuIA");
   });
 
-  it.each(["es", "en"])("%s messages carry no old name or stamp wording", (l) => {
-    const json = JSON.parse(
-      readFileSync(new URL(`../../messages/${l}.json`, import.meta.url), "utf8"),
-    );
-    const hits = strings(json).filter((s) => /\bsellos?\b|\bstamps?\b/i.test(s));
-    expect(hits).toEqual([]);
-  });
+  it.each(["es", "en"])(
+    "%s messages carry no old name or stamp wording",
+    (l) => {
+      const json = JSON.parse(
+        readFileSync(
+          new URL(`../../messages/${l}.json`, import.meta.url),
+          "utf8",
+        ),
+      );
+      const hits = strings(json).filter((s) =>
+        /\bsellos?\b|\bstamps?\b/i.test(s),
+      );
+      expect(hits).toEqual([]);
+    },
+  );
 });

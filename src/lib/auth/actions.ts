@@ -110,7 +110,11 @@ export async function sendMagicLink(
 ): Promise<AuthResult> {
   if (!supabaseConfigured) return { status: "error", message: "unavailable" };
   const parsed = z
-    .object({ email: Email, locale: Locale, next: z.string().max(200).optional() })
+    .object({
+      email: Email,
+      locale: Locale,
+      next: z.string().max(200).optional(),
+    })
     .safeParse(Object.fromEntries(form));
   if (!parsed.success) return { status: "error", message: "invalid" };
   const { email, locale, next } = parsed.data;

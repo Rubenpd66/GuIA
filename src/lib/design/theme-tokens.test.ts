@@ -88,9 +88,12 @@ describe("level chips", () => {
   const CHIPS = (["light", "dark"] as const).flatMap((theme) =>
     (["a2", "b1", "b2", "c1"] as const).map((level) => [theme, level] as const),
   );
-  it.each(CHIPS)("%s: level-%s text on its tint reaches 4.5:1", (theme, level) => {
-    const fg = tokens[theme][`level-${level}`]!;
-    const bg = mix(fg, tokens[theme].surface!, 0.06);
-    expect(contrastRatio(fg, bg)).toBeGreaterThanOrEqual(4.5);
-  });
+  it.each(CHIPS)(
+    "%s: level-%s text on its tint reaches 4.5:1",
+    (theme, level) => {
+      const fg = tokens[theme][`level-${level}`]!;
+      const bg = mix(fg, tokens[theme].surface!, 0.06);
+      expect(contrastRatio(fg, bg)).toBeGreaterThanOrEqual(4.5);
+    },
+  );
 });

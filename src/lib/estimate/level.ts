@@ -2,7 +2,7 @@
  * The app's own level estimate (not an official conversion): a weighted share of right
  * answers from recent attempts, mapped to fixed bands. Every screen that shows it says so.
  */
-import type { StampLevel } from "@/components/passport/Stamp";
+import type { AchievementLevel } from "@/components/progress/Achievement";
 import {
   EXAM_PARTS,
   SKILLS,
@@ -12,13 +12,14 @@ import {
 } from "@/lib/exam/format";
 import type { Attempt, Progress } from "@/lib/progress/schema";
 
-/** app decision: lowest share of right answers for each stamp, highest first. */
-export const LEVEL_BANDS: readonly { level: StampLevel; min: number }[] = [
-  { level: "C", min: 0.85 },
-  { level: "B2", min: 0.7 },
-  { level: "B1", min: 0.55 },
-  { level: "A2", min: 0.4 },
-];
+/** app decision: lowest share of right answers for each level, highest first. */
+export const LEVEL_BANDS: readonly { level: AchievementLevel; min: number }[] =
+  [
+    { level: "C", min: 0.85 },
+    { level: "B2", min: 0.7 },
+    { level: "B1", min: 0.55 },
+    { level: "A2", min: 0.4 },
+  ];
 
 /** app decision: how much history counts, and how much more recent and exam attempts weigh. */
 const RECENT = 10;
@@ -32,13 +33,13 @@ const SELF_ASSESSED: ReadonlySet<Skill> = new Set(["writing", "speaking"]);
 export type Estimate = {
   /** Weighted share of right answers, 0–1. */
   ratio: number;
-  /** null below the lowest band ("no stamp"). */
-  level: StampLevel | null;
+  /** null below the lowest band ("no achievement"). */
+  level: AchievementLevel | null;
   attempts: number;
   selfAssessed: boolean;
 };
 
-export function bandOf(ratio: number): StampLevel | null {
+export function bandOf(ratio: number): AchievementLevel | null {
   return LEVEL_BANDS.find((band) => ratio >= band.min)?.level ?? null;
 }
 
@@ -108,9 +109,9 @@ export function estimateAll(progress: Progress): Estimates {
   return { parts, skills };
 }
 
-const RANK: Record<StampLevel, number> = { A2: 1, B1: 2, B2: 3, C: 4 };
+const RANK: Record<AchievementLevel, number> = { A2: 1, B1: 2, B2: 3, C: 4 };
 
-/** True when the part now carries a higher stamp than before (drives the stamp animation). */
+/** True when the part now carries a higher level than before (drives the reward animation). */
 export function leveledUp(
   before: Estimate | null,
   after: Estimate | null,

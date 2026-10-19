@@ -46,10 +46,7 @@ export default async function VocabularyIndexPage() {
       <div className="space-y-12">
         {sections.map((section) => (
           <section key={section.id} aria-labelledby={`vocab-${section.id}`}>
-            <h2
-              id={`vocab-${section.id}`}
-              className="text-xl font-bold"
-            >
+            <h2 id={`vocab-${section.id}`} className="text-xl font-bold">
               {section.title}
             </h2>
             {section.groups.length === 0 ? (

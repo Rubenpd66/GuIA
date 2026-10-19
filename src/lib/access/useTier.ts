@@ -4,7 +4,12 @@ import { useEffect, useState } from "react";
 import { useUser } from "@/lib/auth/useUser";
 import { supabaseBrowser } from "@/lib/supabase/client";
 import { createRowCache } from "./row-cache";
-import { describePlan, tierFromRow, type PlanState, type SubscriptionRow } from "./rule";
+import {
+  describePlan,
+  tierFromRow,
+  type PlanState,
+  type SubscriptionRow,
+} from "./rule";
 import type { Tier } from "./tiers";
 
 type OwnRow = SubscriptionRow & {
@@ -26,9 +31,7 @@ const readRow = createRowCache(
 );
 
 function useOwnRow():
-  | { userId: string; row: OwnRow | null; at: number }
-  | null
-  | undefined {
+  { userId: string; row: OwnRow | null; at: number } | null | undefined {
   const user = useUser();
   // `at` is read here, in the effect, because rendering must not call Date.now().
   const [loaded, setLoaded] = useState<{
@@ -67,7 +70,12 @@ export function useTier(): Tier | undefined {
 
 /** The learner's plan as the account page shows it; undefined until known. */
 export function useSubscriptionState():
-  | { tier: Tier; state: PlanState; endsOn: string | null; hasCustomer: boolean }
+  | {
+      tier: Tier;
+      state: PlanState;
+      endsOn: string | null;
+      hasCustomer: boolean;
+    }
   | undefined {
   const own = useOwnRow();
   if (own === undefined) return undefined;

@@ -2,8 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { useMemo, useRef, useState } from "react";
-import { SkillMark } from "@/components/passport/SkillMark";
-import { Stamp } from "@/components/passport/Stamp";
+import { Achievement } from "@/components/progress/Achievement";
 import { usePartName } from "@/components/sections/usePartName";
 import { Button } from "@/components/ui/Button";
 import { ButtonLink } from "@/components/ui/ButtonLink";
@@ -72,7 +71,6 @@ function MockSetup() {
               }
               className="size-5"
             />
-            <SkillMark skill={skill} className="text-accent" />
             <span>
               {tAll(`Skills.${skill}`)}{" "}
               <span className="text-sm text-ink-soft">
@@ -183,23 +181,22 @@ function MockReport({ state }: { state: MockState }) {
           {levels.map(({ skill, ratio, level }) => (
             <li
               key={skill}
-              className="flex flex-col items-center gap-2 rounded-card border-[1.5px] border-hairline p-4 text-center"
+              className="flex flex-col items-center gap-2 rounded-card bg-surface p-4 text-center"
             >
               {level ? (
-                <Stamp
-                  skill={skill}
+                <Achievement
                   level={level}
                   caption={tAll(`Skills.${skill}`)}
-                  tone={level === "C" ? "foil" : "entry"}
                   label={t("stampLabel", {
                     level,
                     skill: tAll(`Skills.${skill}`),
                   })}
-                  className="size-24"
                   animate
                 />
               ) : (
-                <SkillMark skill={skill} className="size-12 text-ink-soft" />
+                <span className="flex size-16 items-center justify-center text-ink-soft">
+                  —
+                </span>
               )}
               <span className="font-semibold">{tAll(`Skills.${skill}`)}</span>
               <span className="text-sm text-ink-soft tabular-nums">

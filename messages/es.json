@@ -949,7 +949,7 @@
     "weekLabel": "Esta semana",
     "minutes": "{count, plural, one {# minuto} other {# minutos}}",
     "weakTitle": "Puntos débiles",
-    "passportTitle": "Tu pasaporte",
+    "passportTitle": "Tus logros",
     "passportLead": "Cada parte del examen tiene su casilla. El logro muestra tu nivel estimado y cambia cuando practicas.",
     "stampLabel": "Logro {level}: {part}",
     "emptySlot": "Sin logro todavía: {part}",
