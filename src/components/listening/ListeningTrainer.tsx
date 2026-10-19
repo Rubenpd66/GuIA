@@ -3,7 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useMemo, useReducer, useRef, useState } from "react";
 import { Explanation } from "@/components/content/Explanation";
-import { Perforations } from "@/components/trainer/Perforations";
+import { QuestionProgress } from "@/components/trainer/QuestionProgress";
 import { ResultsView } from "@/components/trainer/ResultsView";
 import { SessionHeader } from "@/components/trainer/SessionHeader";
 import { TrainerSetup } from "@/components/trainer/TrainerSetup";
@@ -247,7 +247,7 @@ export function ListeningSession({
     >
       <SessionHeader
         counter={t("task", { current: state.index + 1, total: tasks.length })}
-        progress={<Perforations states={holes} />}
+        progress={<QuestionProgress states={holes} />}
         actions={
           mode === "exam" ? (
             <Button variant="ghost" onClick={finish}>

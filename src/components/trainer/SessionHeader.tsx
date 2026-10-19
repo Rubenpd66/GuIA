@@ -12,7 +12,7 @@ type SessionHeaderProps = {
   actions?: ReactNode;
 };
 
-/** Counter, timer and perforated progress strip above every question. */
+/** Counter, timer and segmented progress bar above every question. */
 export function SessionHeader({
   counter,
   remaining,

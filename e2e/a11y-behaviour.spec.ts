@@ -105,3 +105,20 @@ for (const route of ["/es", "/es/temario", "/es/gramatica"]) {
     for (const gap of gaps) expect(gap).toBeGreaterThanOrEqual(48);
   });
 }
+
+test("answer feedback shows by colour when less motion is asked for", async ({
+  page,
+}) => {
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.goto("/es/practica/core-grammar");
+  await page.getByRole("button", { name: "Empezar", exact: true }).click();
+  await page.locator("button[aria-pressed]").first().click();
+  const marked = page.locator(".feedback-correct, .feedback-wrong").first();
+  await expect(marked).toBeVisible();
+  const style = await marked.evaluate((el) => {
+    const css = getComputedStyle(el);
+    return { animation: css.animationName, border: css.borderTopColor };
+  });
+  expect(style.animation).toBe("none");
+  expect(style.border).not.toBe("rgba(0, 0, 0, 0)");
+});

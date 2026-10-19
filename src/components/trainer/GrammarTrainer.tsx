@@ -27,7 +27,7 @@ import {
   type ChoiceQuestion,
 } from "@/lib/trainer/session";
 import { OptionButton, optionState } from "./OptionButton";
-import { Perforations } from "./Perforations";
+import { QuestionProgress } from "./QuestionProgress";
 import { ResultsView } from "./ResultsView";
 import { SessionHeader } from "./SessionHeader";
 import { TrainerSetup } from "./TrainerSetup";
@@ -272,7 +272,7 @@ export function GrammarSession({ session, onFinish }: GrammarSessionProps) {
           total: questions.length,
         })}
         remaining={session.deadline ? remaining : undefined}
-        progress={<Perforations states={holes} />}
+        progress={<QuestionProgress states={holes} />}
         actions={
           mode === "exam" ? (
             <Button variant="ghost" onClick={() => finish()}>

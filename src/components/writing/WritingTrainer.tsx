@@ -207,7 +207,7 @@ export function WritingSession({
         {task.examPart === "writing-4" ? (
           <blockquote
             lang="en"
-            className="prose-reading border-l-4 border-line pl-4"
+            className="prose-reading rounded-card bg-surface p-4"
           >
             {task.situation}
           </blockquote>

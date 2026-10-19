@@ -29,7 +29,7 @@ import {
   vocabularyKey,
   type VocabularyTask,
 } from "@/lib/trainer/session";
-import { Perforations } from "./Perforations";
+import { QuestionProgress } from "./QuestionProgress";
 import { ResultsView } from "./ResultsView";
 import { SessionHeader } from "./SessionHeader";
 import { TrainerSetup } from "./TrainerSetup";
@@ -236,7 +236,7 @@ export function VocabularySession({
       <SessionHeader
         counter={t("task", { current: state.index + 1, total: tasks.length })}
         remaining={session.deadline ? remaining : undefined}
-        progress={<Perforations states={holes} />}
+        progress={<QuestionProgress states={holes} />}
         actions={
           mode === "exam" ? (
             <Button variant="ghost" onClick={() => finish()}>
