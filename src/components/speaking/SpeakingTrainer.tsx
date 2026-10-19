@@ -351,9 +351,7 @@ export function SpeakingSession({
         </p>
       </div>
 
-      <h2 className="text-lg font-bold">
-        {t(`instructions.${part}`)}
-      </h2>
+      <h2 className="text-lg font-bold">{t(`instructions.${part}`)}</h2>
 
       {micNotice ? (
         <p role="status" className="rounded-control bg-surface px-4 py-3">

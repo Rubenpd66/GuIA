@@ -10,9 +10,7 @@ export function VocabEntry({ entry }: { entry: VocabularyEntry }) {
   return (
     <li key={entry.id} lang="en" className="py-5">
       <p className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-        <span className="text-xl font-bold">
-          {entry.headword}
-        </span>
+        <span className="text-xl font-bold">{entry.headword}</span>
         <span lang={locale} className="text-sm text-ink-soft italic">
           {t(`Vocab.${entry.pos}`)}
         </span>

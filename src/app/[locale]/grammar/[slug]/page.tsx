@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
+import { Suspense, ViewTransition } from "react";
 import { LevelBadge } from "@/components/content/LevelBadge";
 import { RichText } from "@/components/content/RichText";
 import { GatedLessonBody } from "@/components/lessons/GatedLessonBody";
@@ -62,7 +62,7 @@ async function Lesson({ params }: { params: Params }) {
   const free = lesson.level === "A2";
 
   return (
-    <article className="space-y-12">
+    <article className="flex flex-col gap-12">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -92,9 +92,15 @@ async function Lesson({ params }: { params: Params }) {
           <LevelBadge level={lesson.level} />
           {t(`Categories.${lesson.category}`)}
         </p>
-        <h1 className="mt-4 text-2xl font-extrabold tracking-tight text-balance sm:text-3xl">
-          {localized(lesson.title, locale)}
-        </h1>
+        <ViewTransition
+          name={`lesson-${lesson.slug}`}
+          share="morph"
+          default="none"
+        >
+          <h1 className="mt-4 text-2xl font-extrabold text-balance sm:text-3xl">
+            {localized(lesson.title, locale)}
+          </h1>
+        </ViewTransition>
       </header>
 
       <section aria-labelledby="explanation" className="max-w-[68ch]">

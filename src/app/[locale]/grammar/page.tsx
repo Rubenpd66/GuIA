@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { ViewTransition } from "react";
 import { getLocale, getTranslations } from "next-intl/server";
 import { LockMark } from "@/components/access/LockMark";
 import { LevelBadge } from "@/components/content/LevelBadge";
 import { PageHeader } from "@/components/ui/PageHeader";
+import { Section, SectionStack } from "@/components/ui/Section";
 import { Link } from "@/i18n/navigation";
 import { questionsForLesson } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
@@ -27,27 +29,29 @@ export default async function GrammarIndexPage() {
         title={t("Sections.grammar.title")}
         lead={t("Sections.grammar.lead")}
       />
-      <div className="space-y-12">
+      <SectionStack>
         {CEFR_LEVELS.map((level) => {
           const lessons = content.grammarLessons.filter(
             (lesson) => lesson.level === level,
           );
           return (
-            <section key={level} aria-labelledby={`level-${level}`}>
-              <h2
-                id={`level-${level}`}
-                className="flex items-center gap-3 text-xl font-bold"
-              >
-                <LevelBadge level={level} />
-                {t(`Levels.${level}`)}
-                <LockMark level={level} />
-              </h2>
+            <Section
+              key={level}
+              id={`level-${level}`}
+              title={
+                <span className="flex items-center gap-3">
+                  <LevelBadge level={level} />
+                  {t(`Levels.${level}`)}
+                  <LockMark level={level} />
+                </span>
+              }
+            >
               {lessons.length === 0 ? (
-                <p className="mt-3 text-ink-soft">
+                <p className="text-ink-soft">
                   {t("Syllabus.lessons", { count: 0 })}
                 </p>
               ) : (
-                <ul className="mt-3 border-t border-hairline">
+                <ul className="enter-stagger border-t border-hairline">
                   {lessons.map((lesson) => (
                     <li key={lesson.slug} className="border-b border-hairline">
                       <Link
@@ -55,12 +59,18 @@ export default async function GrammarIndexPage() {
                           pathname: "/grammar/[slug]",
                           params: { slug: lesson.slug },
                         }}
-                        className="flex min-h-14 flex-col justify-center gap-0.5 py-3 transition-colors duration-150 hover:text-accent sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
+                        className="pressable flex min-h-14 flex-col justify-center gap-0.5 py-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6 hover-fine:text-accent"
                       >
                         <span>
-                          <span className="block font-semibold">
-                            {localized(lesson.title, locale)}
-                          </span>
+                          <ViewTransition
+                            name={`lesson-${lesson.slug}`}
+                            share="morph"
+                            default="none"
+                          >
+                            <span className="block font-semibold">
+                              {localized(lesson.title, locale)}
+                            </span>
+                          </ViewTransition>
                           <span className="block text-sm text-ink-soft">
                             {t(`Categories.${lesson.category}`)}
                           </span>
@@ -76,10 +86,10 @@ export default async function GrammarIndexPage() {
                   ))}
                 </ul>
               )}
-            </section>
+            </Section>
           );
         })}
-      </div>
+      </SectionStack>
     </>
   );
 }

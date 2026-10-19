@@ -247,9 +247,7 @@ export function VocabularySession({
       />
 
       <div>
-        <h2 className="text-lg font-bold">
-          {tTypes(task.vocabType)}
-        </h2>
+        <h2 className="text-lg font-bold">{tTypes(task.vocabType)}</h2>
         {task.instructions ? (
           <p lang="en" className="mt-1 text-ink-soft">
             {task.instructions}

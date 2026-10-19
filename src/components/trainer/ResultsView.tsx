@@ -26,10 +26,7 @@ export function ResultsView(props: ResultsViewProps) {
       className="max-w-[68ch] space-y-8"
     >
       <div>
-        <h2
-          id="trainer-results"
-          className="text-xl font-bold"
-        >
+        <h2 id="trainer-results" className="text-xl font-bold">
           {t("resultsTitle")}
         </h2>
         {props.timeUp ? (
@@ -55,9 +52,7 @@ export function ResultsView(props: ResultsViewProps) {
       </div>
 
       <div>
-        <h3 className="text-lg font-bold">
-          {t("mistakesTitle")}
-        </h3>
+        <h3 className="text-lg font-bold">{t("mistakesTitle")}</h3>
         {props.wrongCount === 0 ? (
           <p className="mt-2 text-ink-soft">{t("noMistakes")}</p>
         ) : (

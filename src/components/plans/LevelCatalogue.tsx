@@ -41,10 +41,7 @@ export function LevelCatalogue({
 
   return (
     <section aria-labelledby="catalogue-heading" className="space-y-5">
-      <h2
-        id="catalogue-heading"
-        className="text-xl font-bold"
-      >
+      <h2 id="catalogue-heading" className="text-xl font-bold">
         {t("title")}
       </h2>
       <div

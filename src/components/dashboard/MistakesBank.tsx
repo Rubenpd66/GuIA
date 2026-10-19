@@ -28,9 +28,7 @@ export function MistakesBank() {
   if (parts.length === 0)
     return (
       <section className="max-w-[68ch] space-y-3 rounded-card bg-surface p-6">
-        <h2 className="text-xl font-bold">
-          {t("emptyTitle")}
-        </h2>
+        <h2 className="text-xl font-bold">{t("emptyTitle")}</h2>
         <p>{t("emptyBody", { streak: STREAK_TO_CLEAR })}</p>
       </section>
     );

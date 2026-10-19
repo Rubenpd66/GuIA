@@ -31,9 +31,7 @@ export async function GatedEntries({ group }: { group: string }) {
           lang="en"
           className="flex flex-wrap items-center gap-x-3 py-4 text-ink-soft"
         >
-          <span className="text-lg font-bold">
-            {entry.headword}
-          </span>
+          <span className="text-lg font-bold">{entry.headword}</span>
           <LevelBadge level={entry.level} className="h-6 min-w-8 text-xs" />
           <Icon name="lock" className="size-4" />
         </li>

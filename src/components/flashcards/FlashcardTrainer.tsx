@@ -86,10 +86,7 @@ export function FlashcardTrainer({ cards }: { cards: FlashcardData[] }) {
       aria-labelledby="flashcards-setup"
       className="max-w-[68ch] space-y-6"
     >
-      <h2
-        id="flashcards-setup"
-        className="text-xl font-bold"
-      >
+      <h2 id="flashcards-setup" className="text-xl font-bold">
         {t("setupTitle")}
       </h2>
       <div className="grid gap-4 sm:grid-cols-3">

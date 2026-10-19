@@ -20,8 +20,11 @@ export function BottomNav() {
   const primaryIndex = PRIMARY_NAV.findIndex(({ key }) =>
     isActive(pathname, hrefOf(key)),
   );
-  const moreActive = MORE_NAV.some(({ key }) => isActive(pathname, hrefOf(key)));
-  const activeIndex = primaryIndex >= 0 ? primaryIndex : moreActive ? PRIMARY_NAV.length : -1;
+  const moreActive = MORE_NAV.some(({ key }) =>
+    isActive(pathname, hrefOf(key)),
+  );
+  const activeIndex =
+    primaryIndex >= 0 ? primaryIndex : moreActive ? PRIMARY_NAV.length : -1;
 
   return (
     <nav

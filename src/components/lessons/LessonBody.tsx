@@ -10,7 +10,7 @@ import { canDoOfLesson, lessonBySlug, questionsForLesson } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
 import { localized } from "@/lib/content/localize";
 
-const H2 = " text-xl font-bold";
+const H2 = "text-xl font-bold";
 
 /**
  * Everything after a lesson's summary. It loads the lesson itself by slug, so a page can put
@@ -33,10 +33,7 @@ export async function LessonBody({ slug }: { slug: string }) {
         <h2 id="form" className={H2}>
           {t("Lesson.form")}
         </h2>
-        <ul
-          lang="en"
-          className="mt-4 space-y-2 rounded-card border-[1.5px] border-line bg-surface p-5"
-        >
+        <ul lang="en" className="mt-4 space-y-2 rounded-card bg-surface p-5">
           {lesson.form.map((line) => (
             <li key={line}>
               <RichText text={line} />
@@ -140,7 +137,10 @@ export async function LessonBody({ slug }: { slug: string }) {
       ) : null}
 
       <div className="grid max-w-[68ch] gap-6">
-        <aside aria-labelledby="trainer" className="rounded-card bg-surface p-5">
+        <aside
+          aria-labelledby="trainer"
+          className="rounded-card bg-surface p-5"
+        >
           <h2 id="trainer" className="text-lg font-bold">
             {t("Lesson.trainerTitle")}
           </h2>

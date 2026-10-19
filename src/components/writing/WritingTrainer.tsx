@@ -198,9 +198,7 @@ export function WritingSession({
         }
       />
 
-      <h2 className="text-lg font-bold">
-        {t(`instructions.${part}`)}
-      </h2>
+      <h2 className="text-lg font-bold">{t(`instructions.${part}`)}</h2>
 
       <div className="space-y-2">
         <p lang="en" className="prose-reading text-ink-soft">

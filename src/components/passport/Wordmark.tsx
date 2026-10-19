@@ -16,9 +16,7 @@ export function Wordmark({ className }: { className?: string }) {
         <circle cx="16" cy="16" r="9.5" strokeWidth="1.25" />
         <path d="M9.5 16h13" strokeWidth="1.75" strokeLinecap="round" />
       </svg>
-      <span className="text-xl font-black tracking-tight">
-        {SITE.name}
-      </span>
+      <span className="text-xl font-black tracking-tight">{SITE.name}</span>
     </span>
   );
 }

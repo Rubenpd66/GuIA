@@ -31,7 +31,7 @@ export function OptionButton({
       disabled={disabled}
       aria-pressed={state === "selected"}
       className={cx(
-        "flex min-h-14 w-full items-center gap-4 rounded-control border-[1.5px] pressable px-4 py-3 text-left text-lg disabled:cursor-default",
+        "pressable flex min-h-14 w-full items-center gap-4 rounded-control border-[1.5px] px-4 py-3 text-left text-lg disabled:cursor-default",
         state === "idle" &&
           "border-line hover-fine:bg-[color-mix(in_srgb,var(--canvas)_90%,var(--ink))]",
         state === "selected" &&
@@ -53,9 +53,7 @@ export function OptionButton({
       {state === "correct" ? (
         <Icon name="check" className="text-success" />
       ) : null}
-      {state === "wrong" ? (
-        <Icon name="cross" className="text-danger" />
-      ) : null}
+      {state === "wrong" ? <Icon name="cross" className="text-danger" /> : null}
       {stateLabel ? <span className="sr-only">{stateLabel}</span> : null}
     </button>
   );

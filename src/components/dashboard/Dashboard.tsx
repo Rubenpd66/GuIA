@@ -132,10 +132,7 @@ export function Dashboard() {
                 key={skill}
                 className="flex items-center gap-3 rounded-control border-[1.5px] border-hairline p-3"
               >
-                <SkillMark
-                  skill={skill}
-                  className="text-accent"
-                />
+                <SkillMark skill={skill} className="text-accent" />
                 <dt className="font-semibold">{tAll(`Skills.${skill}`)}</dt>
                 <dd className="ml-auto text-right">
                   {estimate ? (

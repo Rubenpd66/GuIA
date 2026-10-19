@@ -22,9 +22,7 @@ export function Checklist({
   const [met, setMet] = useState<Record<string, boolean>>({});
   return (
     <fieldset className="space-y-4 rounded-card border-[1.5px] border-line p-4">
-      <legend className="px-1 text-lg font-bold">
-        {title}
-      </legend>
+      <legend className="px-1 text-lg font-bold">{title}</legend>
       <p className="text-sm text-ink-soft">{note}</p>
       <ul className="space-y-1">
         {criteria.map((criterion) => (

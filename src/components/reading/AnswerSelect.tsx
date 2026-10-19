@@ -82,7 +82,9 @@ export function Feedback({
   const locale = useLocale();
   return (
     <div role="status" className="rounded-control bg-surface p-3 text-sm">
-      <p className={cx("font-semibold", right ? "text-success" : "text-danger")}>
+      <p
+        className={cx("font-semibold", right ? "text-success" : "text-danger")}
+      >
         {right ? t("correct") : t("correctAnswer", { answer })}
       </p>
       <div className="mt-1">

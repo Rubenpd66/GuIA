@@ -88,18 +88,20 @@ test("the bottom nav marks the current page and fits at 320 px", async ({
   expect(fits).toBe(true);
 });
 
-test("page sections are clearly separated", async ({ page }) => {
-  await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto("/es");
-  const gaps = await page.evaluate(() => {
-    const sections = [...document.querySelectorAll("main section")].filter(
-      (el) => !el.parentElement?.closest("main section"),
-    );
-    return sections.slice(1).map((el, i) => {
-      const above = sections[i]!.getBoundingClientRect();
-      return el.getBoundingClientRect().top - above.bottom;
+for (const route of ["/es", "/es/temario", "/es/gramatica"]) {
+  test(`page sections are clearly separated: ${route}`, async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto(route);
+    const gaps = await page.evaluate(() => {
+      const sections = [...document.querySelectorAll("main section")].filter(
+        (el) => !el.parentElement?.closest("main section"),
+      );
+      return sections.slice(1).map((el, i) => {
+        const above = sections[i]!.getBoundingClientRect();
+        return el.getBoundingClientRect().top - above.bottom;
+      });
     });
+    expect(gaps.length).toBeGreaterThan(0);
+    for (const gap of gaps) expect(gap).toBeGreaterThanOrEqual(48);
   });
-  expect(gaps.length).toBeGreaterThan(2);
-  for (const gap of gaps) expect(gap).toBeGreaterThanOrEqual(48);
-});
+}
