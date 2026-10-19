@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
+import { cancelStripeFor } from "@/lib/stripe/cancel";
 import { supabaseAdmin } from "@/lib/supabase/admin";
 import { requireAdmin } from "./guard";
 
@@ -12,6 +13,7 @@ export async function deleteUserAsAdmin(form: FormData) {
   const client = supabaseAdmin();
   // An administrator cannot remove their own account from here (use the account page).
   if (!target.success || !client || target.data === admin.id) return;
+  if (!(await cancelStripeFor(target.data))) return;
   const { error } = await client.auth.admin.deleteUser(target.data);
   if (error) return;
   await client.from("admin_log").insert({

@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { WAIVER, checkoutCustomer, checkoutOrPortal } from "./checkout";
+import {
+  WAIVER,
+  checkoutCustomer,
+  checkoutOrPortal,
+  needsCancelling,
+} from "./checkout";
 
 const NOW = Date.parse("2029-06-01T00:00:00Z");
 const live = {
@@ -42,6 +47,36 @@ describe("checkoutCustomer", () => {
       customer: "cus_1",
       customer_update: { address: "auto", name: "auto" },
     });
+  });
+});
+
+describe("needsCancelling", () => {
+  it("is false without a row or a subscription id", () => {
+    expect(needsCancelling(null)).toBe(false);
+    expect(
+      needsCancelling({ status: "active", stripe_subscription_id: null }),
+    ).toBe(false);
+  });
+
+  it("is true while Stripe may still bill", () => {
+    expect(
+      needsCancelling({ status: "active", stripe_subscription_id: "sub_1" }),
+    ).toBe(true);
+    expect(
+      needsCancelling({ status: "past_due", stripe_subscription_id: "sub_1" }),
+    ).toBe(true);
+  });
+
+  it("is false for finished subscriptions", () => {
+    expect(
+      needsCancelling({ status: "canceled", stripe_subscription_id: "sub_1" }),
+    ).toBe(false);
+    expect(
+      needsCancelling({
+        status: "incomplete_expired",
+        stripe_subscription_id: "sub_1",
+      }),
+    ).toBe(false);
   });
 });
 

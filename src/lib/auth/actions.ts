@@ -3,6 +3,7 @@
 import { headers } from "next/headers";
 import { z } from "zod";
 import { SITE } from "@/config/site";
+import { cancelStripeFor } from "@/lib/stripe/cancel";
 import { supabaseAdmin } from "@/lib/supabase/admin";
 import { supabaseServer } from "@/lib/supabase/server";
 import { supabaseConfigured } from "@/lib/supabase/env";
@@ -176,6 +177,9 @@ export async function deleteMyAccount(): Promise<AuthResult> {
   const { data } = await supabase.auth.getClaims();
   const userId = data?.claims?.sub;
   if (!userId) return { status: "error", message: "failed" };
+  // A live plan is cancelled first: if that fails, the account stays so billing never outlives it.
+  if (!(await cancelStripeFor(userId)))
+    return { status: "error", message: "failed" };
   await supabase.auth.signOut({ scope: "global" });
   const { error } = await admin.auth.admin.deleteUser(userId);
   return error

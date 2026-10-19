@@ -21,6 +21,17 @@ export function checkoutCustomer(customerId: string | null, email: string) {
     : { customer_email: email };
 }
 
+/** Whether Stripe could still bill this row, so deleting the account has to cancel it first. */
+export function needsCancelling(
+  row: { status: string; stripe_subscription_id: string | null } | null,
+): boolean {
+  return (
+    !!row?.stripe_subscription_id &&
+    row.status !== "canceled" &&
+    row.status !== "incomplete_expired"
+  );
+}
+
 /** Shown beside Stripe's terms checkbox: the immediate-access waiver (spec section 5, Legal). */
 export const WAIVER: Record<"es" | "en", (termsUrl: string) => string> = {
   es: (termsUrl) =>
