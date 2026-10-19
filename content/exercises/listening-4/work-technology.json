@@ -1,0 +1,95 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l4-shorter-week-01",
+      "examPart": "listening-4",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Right, thanks for coming, everyone. I wanted to say a few words about the trial of the shorter week, because I know there are rumours going round. First, I'm not going to pretend I was convinced at the start. When the director mentioned it, I assumed it would mean the same workload squeezed into fewer days, and frankly that sounded like a recipe for exhaustion. But I've read the proposal properly now, and it's more thoughtful than I expected. The clients will still be covered, and nobody is being asked to work longer hours on the other days. That said, I'm not going to sign up blindly. Three months is a short time, and I'd like us to keep a record of what actually changes, rather than relying on our impressions. So here's what I'm planning to do. I'll volunteer our team for the trial, but only if we're allowed to review it every month. If it turns out to be stressful, I'll say so, loudly. And if it works, well, I suspect some of you will never want to go back. I certainly might not. Anyway, have a think over the weekend, and let me know on Monday whether you'd rather wait and watch."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What is the speaker's attitude to the trial now?",
+          "options": [
+            "She is completely convinced by it.",
+            "She is firmly against it.",
+            "She is cautiously open to it."
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "She admits her first doubts, says the plan is better than expected, but refuses to commit blindly.",
+            "es": "Reconoce sus dudas iniciales y que el plan es mejor de lo esperado, pero no se compromete a ciegas."
+          },
+          "cues": ["more thoughtful than I expected", "sign up blindly"]
+        },
+        {
+          "prompt": "What is the speaker planning to do?",
+          "options": [
+            "Wait and see how other teams get on.",
+            "Put her team forward on one condition.",
+            "Ask the director for a longer trial."
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "She will volunteer her team only if the trial is reviewed monthly. Waiting is what she offers colleagues as an alternative.",
+            "es": "Presentará a su equipo solo si se revisa cada mes. Esperar es lo que ofrece a sus compañeros como alternativa."
+          },
+          "cues": ["volunteer our team", "review it every month"]
+        }
+      ]
+    },
+    {
+      "id": "l4-fitness-watch-01",
+      "examPart": "listening-4",
+      "cefrLevel": "C1",
+      "topic": "technology",
+      "difficulty": 4,
+      "script": [
+        {
+          "speaker": "man",
+          "text": "I've been wearing a fitness watch for two years now, and I thought I'd share what it's done to me. When I bought it, I was quite taken with the idea. Every step counted, every night of sleep graded like a school essay. And to be fair, it did get me walking more. But somewhere along the way I stopped trusting my own body. I'd wake up feeling perfectly well, glance at the little screen, see a poor score, and suddenly feel dreadful. Isn't that absurd? My wife says I've turned into a man who consults a gadget before deciding whether he's tired. She has a point, although I'd never tell her so. I'm not suggesting everyone should throw theirs in a drawer. For some people, particularly those recovering from illness, the data is genuinely useful. But for me, it had stopped being a tool and started being a kind of judge. So last week I took it off, just for a month. It's an experiment, nothing dramatic. I'll see whether I sleep any worse without being told how I slept. My guess is that I won't, though I'd be curious to be proven wrong. Anyway, I'd love to hear from other listeners who've tried the same."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "How does the speaker feel about his watch now?",
+          "options": [
+            "Uneasy about how much he relied on it",
+            "Irritated that its readings are unreliable",
+            "Thankful that it improved his health"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "He says he stopped trusting his own body and that the watch became a judge. He never complains about accuracy, and the walking is only a small concession.",
+            "es": "Dice que dejó de fiarse de su cuerpo y que el reloj era un juez. No critica su precisión y lo de andar más es solo una concesión."
+          },
+          "cues": [
+            "stopped trusting my own body",
+            "a kind of judge",
+            "suddenly feel dreadful"
+          ]
+        },
+        {
+          "prompt": "Why does the speaker mention people recovering from illness?",
+          "options": [
+            "To explain why he first bought the watch",
+            "To suggest that his wife is mistaken",
+            "To accept that such devices can be valuable for some"
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "He softens his criticism: the data is genuinely useful for some people, though not for him.",
+            "es": "Suaviza su crítica: los datos son útiles para algunas personas, aunque no para él."
+          },
+          "cues": ["I'm not suggesting", "genuinely useful"]
+        }
+      ]
+    }
+  ]
+}

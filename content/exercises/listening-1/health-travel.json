@@ -1,0 +1,121 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l1-health-01",
+      "examPart": "listening-1",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "context": "A voicemail from a health centre",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "Good morning, this is the Elm Street Health Centre. Your blood test results are ready. You don't need to see the doctor. You can collect a letter from reception any weekday before five, or we can post it to you if you prefer. Please call us to choose."
+        }
+      ],
+      "question": "How can the listener get the results?",
+      "options": [
+        "By picking up a letter from the centre",
+        "By booking a visit with the doctor",
+        "By waiting for an email"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The results are in a letter to collect from reception or to be posted. The message says a doctor's visit is not needed, and email is never mentioned.",
+        "es": "Puede recoger una carta en recepción o recibirla por correo. Dice que no hace falta ver al médico."
+      }
+    },
+    {
+      "id": "l1-health-02",
+      "examPart": "listening-1",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 4,
+      "context": "A radio sports bulletin",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "And now the sports news. The city marathon will go ahead on Sunday despite the forecast of heavy rain, but the start has been put back from nine to ten o'clock so that the roads can be cleared. Runners should collect their numbers by Saturday evening, since there will be none available on the day."
+        }
+      ],
+      "question": "What must runners do before Sunday?",
+      "options": [
+        "Get their race number in advance",
+        "Arrive an hour earlier than usual",
+        "Confirm that they will run in the rain"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Numbers are only given out until Saturday evening. The start is an hour later, not earlier, and the race is not cancelled for rain.",
+        "es": "Los dorsales solo se entregan hasta el sábado por la tarde. La salida se retrasa, no se adelanta."
+      }
+    },
+    {
+      "id": "l1-travel-01",
+      "examPart": "listening-1",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "context": "A station announcement",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "May I have your attention please. The train to Leeds, due to leave at quarter past two from platform four, will now leave from platform nine. It is running ten minutes late. Passengers should use the footbridge to reach the new platform."
+        }
+      ],
+      "question": "Which platform should passengers for Leeds go to?",
+      "options": [
+        "Platform 10",
+        "Platform 4",
+        "Platform 9"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Platform four was the original platform and is now changed to nine. Ten is the number of minutes of delay.",
+        "es": "El andén cuatro era el original; ahora es el nueve. El diez son los minutos de retraso."
+      }
+    },
+    {
+      "id": "l1-travel-02",
+      "examPart": "listening-1",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "context": "A guest talking to a hotel receptionist",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "I'd like to stay one more night, please."
+        },
+        {
+          "speaker": "man",
+          "text": "Certainly. Your sea-view room is taken on Saturday, but I can give you a room facing the car park at the same price."
+        },
+        {
+          "speaker": "woman",
+          "text": "I'd rather keep the view. Could I change rooms for that night?"
+        },
+        {
+          "speaker": "man",
+          "text": "I'm afraid there are no sea-view rooms at all on Saturday."
+        },
+        {
+          "speaker": "woman",
+          "text": "In that case, I'll take the car park room."
+        }
+      ],
+      "question": "What does the woman decide to do?",
+      "options": [
+        "Stay in her current room",
+        "Take a room with no sea view",
+        "Look for another hotel"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "She first asks for a sea view but there are none free, so she accepts the car park room. She never mentions leaving the hotel.",
+        "es": "Pide vista al mar, pero no hay, así que acepta la habitación que da al aparcamiento."
+      }
+    }
+  ]
+}

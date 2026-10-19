@@ -1,0 +1,170 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l3-travel-01",
+      "examPart": "listening-3",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 3,
+      "question": "A man and a woman are discussing package holidays.",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "We're thinking of booking a package holiday this year. I know you prefer organising everything yourself."
+        },
+        {
+          "speaker": "woman",
+          "text": "I do. I like finding little restaurants and guest houses that aren't in any guidebook."
+        },
+        {
+          "speaker": "man",
+          "text": "That's fine for you, but I find planning stressful. With a package, someone else deals with the flights and the transfers."
+        },
+        {
+          "speaker": "woman",
+          "text": "Fair enough, though you pay for that convenience. It usually costs more than booking separately."
+        },
+        {
+          "speaker": "man",
+          "text": "Not always. Last year we got a week by the sea for less than the flights alone would have cost."
+        },
+        {
+          "speaker": "woman",
+          "text": "Really? I used to assume packages were always expensive. I'm still doubtful, though."
+        },
+        {
+          "speaker": "man",
+          "text": "Check the prices. The downside is that you're stuck with the hotel, and the beach is crowded in August."
+        },
+        {
+          "speaker": "woman",
+          "text": "That's my main objection too. I'd hate to spend the whole week among crowds of people."
+        },
+        {
+          "speaker": "man",
+          "text": "So why not go in June? It's cheaper and much quieter."
+        },
+        {
+          "speaker": "woman",
+          "text": "Good idea. I'd want to avoid the school holidays anyway."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Planning a trip on your own lets you find places that tourists rarely visit.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman likes finding restaurants and guest houses that aren't in any guidebook. The man never says this.",
+            "es": "A la mujer le gusta encontrar restaurantes y pensiones que no salen en las guías. El hombre no lo dice."
+          }
+        },
+        {
+          "text": "Organising everything yourself can be a source of stress.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man says \"I find planning stressful\". The woman enjoys organising.",
+            "es": "El hombre dice \"I find planning stressful\". A la mujer le gusta organizar."
+          }
+        },
+        {
+          "text": "A package holiday can actually be cheaper than separate bookings.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man gives an example from last year. The woman says she is still doubtful.",
+            "es": "El hombre da un ejemplo del año pasado. La mujer dice que aún tiene dudas."
+          }
+        },
+        {
+          "text": "Busy beaches in the peak season spoil a holiday.",
+          "answer": "both",
+          "explanation": {
+            "en": "The man says the beach is crowded in August, and the woman says \"That's my main objection too\" about the crowds.",
+            "es": "El hombre dice que la playa está llena en agosto y la mujer dice \"That's my main objection too\" sobre las multitudes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "l3-culture-leisure-01",
+      "examPart": "listening-3",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 4,
+      "question": "A man and a woman are discussing going to the cinema.",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "We went to the cinema on Saturday, and I'd forgotten how different it feels from watching at home."
+        },
+        {
+          "speaker": "man",
+          "text": "Different how? I can't remember the last time I went. The screen at home is big enough, and I can pause whenever I like."
+        },
+        {
+          "speaker": "woman",
+          "text": "Pausing is precisely the problem. At home I'm always checking my phone, but in a dark room with strangers you're completely absorbed."
+        },
+        {
+          "speaker": "man",
+          "text": "I'll give you that. At home I'm half watching and half scrolling too. But tickets are so expensive now that it's hard to justify going."
+        },
+        {
+          "speaker": "woman",
+          "text": "Maybe, but you can find cheaper tickets on weekday afternoons."
+        },
+        {
+          "speaker": "man",
+          "text": "Even so, I wonder if cinemas will survive, except for the big blockbusters."
+        },
+        {
+          "speaker": "woman",
+          "text": "I'm more optimistic. People still want to go out and share an experience. Look at how many small independent cinemas have reopened."
+        },
+        {
+          "speaker": "man",
+          "text": "I hadn't thought of it that way. I used to believe they were finished."
+        },
+        {
+          "speaker": "woman",
+          "text": "They'll change, certainly. Perhaps with live music or talks before the films."
+        },
+        { "speaker": "man", "text": "That would tempt me, I must admit." }
+      ],
+      "statements": [
+        {
+          "text": "It is hard to give a film your full attention at home.",
+          "answer": "both",
+          "explanation": {
+            "en": "The woman says she is always checking her phone at home, and the man admits he is \"half watching and half scrolling\".",
+            "es": "La mujer dice que en casa siempre mira el móvil y el hombre admite que está \"half watching and half scrolling\"."
+          }
+        },
+        {
+          "text": "The price of tickets makes going to the cinema difficult to justify.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man says tickets are so expensive it's hard to justify. The woman replies that cheaper tickets exist.",
+            "es": "El hombre dice que las entradas son tan caras que cuesta justificarlas. La mujer responde que hay entradas más baratas."
+          }
+        },
+        {
+          "text": "Most cinemas may struggle to stay open in the long term.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man wonders if cinemas will survive apart from blockbusters. The woman says she is more optimistic.",
+            "es": "El hombre duda de que los cines sobrevivan salvo los de grandes estrenos. La mujer dice que es más optimista."
+          }
+        },
+        {
+          "text": "Cinemas could attract audiences by offering more than just films.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman suggests live music or talks before the films. The man only says it would tempt him, without adding ideas of his own.",
+            "es": "La mujer sugiere música en directo o charlas antes de las películas. El hombre solo dice que le tentaría, sin aportar ideas propias."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l2-technology-01",
+      "examPart": "listening-2",
+      "cefrLevel": "B2",
+      "topic": "technology",
+      "difficulty": 3,
+      "question": "Four people talk about their mobile phones. What does each person say?",
+      "options": [
+        "It keeps them close to relatives who live far away.",
+        "They have set limits on how long they use it.",
+        "It has helped them become better organised.",
+        "They mostly use it for their job.",
+        "They are concerned about who sees their personal data.",
+        "It stops them concentrating on their studies."
+      ],
+      "speakers": [
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "Last month I set a daily timer, so after one hour the social apps simply lock. It felt drastic at first, but now I read in the evenings again. I didn't want a screen to decide how I spend my day."
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "I never accept cookies without reading them, and I've turned off location on nearly every app. It bothers me how much companies know about us. I do answer the odd email from my boss on it, but that's not why I keep it."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "I sit down with my textbooks, and ten minutes later I'm watching videos of strangers baking. Every time it buzzes I lose my train of thought. My exam results dropped this term, and I'm fairly sure I know why."
+            }
+          ],
+          "answer": 5
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "My parents moved to Argentina last year, and we'd hardly speak if it weren't for video calls. Every Sunday I show them the garden and my mum shows me what she's cooked. It makes the distance feel much smaller."
+            }
+          ],
+          "answer": 0
+        }
+      ],
+      "explanation": {
+        "en": "The first speaker locks social apps after an hour, so they limit their use. The second is wary of how companies collect personal information; the email from the boss is only a side remark, so work is not the main use. The third cannot study because the phone distracts them. The fourth stays in touch with parents abroad. Nobody says the phone makes them more organised.",
+        "es": "La primera bloquea las redes tras una hora: se pone límites. El segundo desconfía de cómo las empresas recogen sus datos; el correo del jefe es un comentario secundario, así que no lo usa sobre todo para trabajar. La tercera no puede estudiar porque el móvil la distrae. El cuarto mantiene el contacto con sus padres en el extranjero. Nadie dice que el móvil le haya ayudado a organizarse."
+      }
+    },
+    {
+      "id": "l2-health-sport-01",
+      "examPart": "listening-2",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "question": "Four people talk about doing regular exercise. What does each person say?",
+      "options": [
+        "A doctor told them to get started.",
+        "They keep going because they train with others.",
+        "They have given themselves a goal to reach.",
+        "They began after hurting themselves.",
+        "It helps them switch off after a stressful day.",
+        "They found the cost too high."
+      ],
+      "speakers": [
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "After a day of back-to-back meetings my head is buzzing. A swim in the evening switches it all off. The moment I'm in the water, I stop replaying arguments in my mind. I sleep better too, and the next morning I'm much calmer."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "I tried running alone, and I gave up after two weeks. Then a colleague invited me to her club, and now I never miss a session. Having people waiting for me at the park on Saturday morning is what gets me out of bed. The fee is hardly worth mentioning."
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "I twisted my knee playing football last winter and couldn't walk properly for weeks. Since then I've done the stretches a friend showed me every single morning, because I'm terrified of it happening again."
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "I told everyone I'd finish a half marathon by October, so now I can't back out. I follow a plan on my wall and tick off each run. Seeing the squares fill up keeps me going even on rainy days."
+            }
+          ],
+          "answer": 2
+        }
+      ],
+      "explanation": {
+        "en": "The first speaker swims to relax after work. The second keeps running because a club is waiting for them (and the fee is small, so cost is not a problem). The third exercises because of a knee injury. The fourth is working towards a half marathon. Nobody was sent by a doctor, since the stretches came from a friend.",
+        "es": "La primera nada para relajarse tras el trabajo. El segundo sigue corriendo porque le espera un club (y la cuota es pequeña, así que el coste no es un problema). La tercera hace ejercicio por una lesión de rodilla. El cuarto prepara una media maratón. Ningún médico les mandó empezar: los estiramientos se los enseñó una amiga."
+      }
+    }
+  ]
+}

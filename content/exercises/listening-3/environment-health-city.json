@@ -1,0 +1,250 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l3-environment-01",
+      "examPart": "listening-3",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 3,
+      "question": "A man and a woman are discussing recycling at home.",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "I spent twenty minutes this morning washing yoghurt pots for the recycling. Is it really worth it?"
+        },
+        {
+          "speaker": "woman",
+          "text": "I think so. Even if it's a small thing, it makes you more aware of how much you throw away."
+        },
+        {
+          "speaker": "man",
+          "text": "I read that most of our plastic never gets recycled at all. The real problem is the companies that produce it."
+        },
+        {
+          "speaker": "woman",
+          "text": "I agree that companies must do more. They should be forced to use less packaging in the first place."
+        },
+        {
+          "speaker": "man",
+          "text": "Right, and with proper fines. Otherwise they'll just carry on."
+        },
+        {
+          "speaker": "woman",
+          "text": "Still, I don't like it when people use that as an excuse to do nothing themselves."
+        },
+        {
+          "speaker": "man",
+          "text": "I'm not saying that. I just think we feel guilty about the wrong things."
+        },
+        {
+          "speaker": "woman",
+          "text": "Perhaps. But since I started buying loose vegetables at the market, I've saved money too, and that's a perfectly good reason to keep doing it."
+        },
+        {
+          "speaker": "man",
+          "text": "Fair point. I used to think it was only about the planet, but saving money is a good motive as well."
+        },
+        { "speaker": "woman", "text": "Exactly. Whatever gets people started." }
+      ],
+      "statements": [
+        {
+          "text": "Sorting rubbish at home makes people notice how much waste they create.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman says recycling makes you more aware of what you throw away. The man doubts it is worth the effort.",
+            "es": "La mujer dice que reciclar te hace más consciente de lo que tiras. El hombre duda de que merezca la pena."
+          }
+        },
+        {
+          "text": "Manufacturers should face tougher rules on packaging.",
+          "answer": "both",
+          "explanation": {
+            "en": "The woman says companies should be forced to use less packaging, and the man adds \"with proper fines\".",
+            "es": "La mujer dice que se debería obligar a las empresas a usar menos envases y el hombre añade \"with proper fines\"."
+          }
+        },
+        {
+          "text": "People often worry about the wrong things when it comes to waste.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man says \"we feel guilty about the wrong things\". The woman does not say this.",
+            "es": "Solo el hombre dice \"we feel guilty about the wrong things\". La mujer no lo dice."
+          }
+        },
+        {
+          "text": "Saving money is a perfectly good reason to cut down on waste.",
+          "answer": "both",
+          "explanation": {
+            "en": "The woman calls saving money \"a perfectly good reason\", and the man says it is \"a good motive as well\".",
+            "es": "La mujer llama a ahorrar \"a perfectly good reason\" y el hombre dice que es \"a good motive as well\"."
+          }
+        }
+      ]
+    },
+    {
+      "id": "l3-health-sport-01",
+      "examPart": "listening-3",
+      "cefrLevel": "B1",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "question": "A man and a woman are discussing ways to keep fit.",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "I've just joined a gym, but I'm not sure I'll go very often."
+        },
+        {
+          "speaker": "man",
+          "text": "Really? I prefer running outside. The fresh air makes me feel much better."
+        },
+        {
+          "speaker": "woman",
+          "text": "In winter I'd hate that. It's dark and cold, and I'd never leave the house."
+        },
+        {
+          "speaker": "man",
+          "text": "I don't mind the rain, but a gym costs a lot of money."
+        },
+        {
+          "speaker": "woman",
+          "text": "It does, but paying every month makes me go. If I didn't pay, I'd stay on the sofa."
+        },
+        {
+          "speaker": "man",
+          "text": "Not me. I'd just feel I was wasting money. Although I used to think gyms were boring, and now my brother goes to classes there and loves them."
+        },
+        {
+          "speaker": "woman",
+          "text": "Classes are the best part! It's more fun with other people."
+        },
+        {
+          "speaker": "man",
+          "text": "Maybe I should try one. Anyway, whatever you do, I think sleep matters just as much as exercise."
+        },
+        {
+          "speaker": "woman",
+          "text": "I completely agree. I feel terrible when I sleep badly, and then I don't want to exercise at all."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Exercising outdoors improves how you feel.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man says the fresh air makes him feel much better. The woman prefers the gym.",
+            "es": "El hombre dice que el aire fresco le hace sentir mucho mejor. A la mujer le gusta más el gimnasio."
+          }
+        },
+        {
+          "text": "Dark, cold weather can stop people from doing exercise.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman says she would never leave the house in the dark and cold. The man says he doesn't mind the rain.",
+            "es": "La mujer dice que no saldría de casa con frío y oscuridad. El hombre dice que no le importa la lluvia."
+          }
+        },
+        {
+          "text": "Paying a monthly fee is a good way to stay motivated.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman says paying makes her go. The man answers \"Not me\" and says he'd feel he was wasting money.",
+            "es": "La mujer dice que pagar la obliga a ir. El hombre responde \"Not me\" y dice que sentiría que tira el dinero."
+          }
+        },
+        {
+          "text": "Rest is as important for fitness as training.",
+          "answer": "both",
+          "explanation": {
+            "en": "The man says sleep matters just as much as exercise, and the woman says \"I completely agree\" and explains why.",
+            "es": "El hombre dice que dormir importa tanto como el ejercicio y la mujer responde \"I completely agree\" y lo explica."
+          }
+        }
+      ]
+    },
+    {
+      "id": "l3-city-01",
+      "examPart": "listening-3",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 4,
+      "question": "A man and a woman are discussing holiday lets in their city.",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Have you seen what's happened to the old town? Half the flats are now holiday lets."
+        },
+        {
+          "speaker": "man",
+          "text": "I have, and I know it's unpopular, but I can't entirely blame the owners. Rents in this city are absurd, and a holiday let pays far more than a long-term tenant."
+        },
+        {
+          "speaker": "woman",
+          "text": "That's precisely the trouble. When it's more profitable to host tourists than neighbours, the area hollows out. Shops that served residents close down."
+        },
+        {
+          "speaker": "man",
+          "text": "Yes, my local ironmonger has become a souvenir stall. That does bother me."
+        },
+        {
+          "speaker": "woman",
+          "text": "So the council should cap the number of nights a flat can be let."
+        },
+        {
+          "speaker": "man",
+          "text": "I wouldn't go that far. A cap would be hard to enforce, and it would punish people who rent out a spare room just to get by. I'd rather tax the investors who own dozens of flats."
+        },
+        {
+          "speaker": "woman",
+          "text": "Hmm. That's more targeted, I'll admit. I'd assumed any tax would simply be passed on to tenants."
+        },
+        {
+          "speaker": "man",
+          "text": "It could be, unless it's designed carefully. Tourism isn't the villain, though. The city depends on visitors for thousands of jobs."
+        },
+        {
+          "speaker": "woman",
+          "text": "True, but relying on a single industry is risky. One bad summer and the whole economy suffers."
+        },
+        {
+          "speaker": "man",
+          "text": "That's fair. If the visitors stopped coming, we'd be in real trouble."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Property owners are acting understandably, given how high rents are.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man says he can't entirely blame the owners because holiday lets pay far more. The woman calls it \"the trouble\".",
+            "es": "El hombre dice que no puede culpar del todo a los propietarios porque el alquiler turístico paga mucho más. La mujer lo llama \"the trouble\"."
+          }
+        },
+        {
+          "text": "Local businesses disappear when an area caters mainly to visitors.",
+          "answer": "both",
+          "explanation": {
+            "en": "The woman says shops for residents close down, and the man gives the example of his ironmonger turning into a souvenir stall.",
+            "es": "La mujer dice que cierran las tiendas para residentes y el hombre pone de ejemplo su ferretería convertida en tienda de recuerdos."
+          }
+        },
+        {
+          "text": "Limiting the number of nights a flat can be let is a sensible solution.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman proposes a cap. The man says \"I wouldn't go that far\" because it would be hard to enforce.",
+            "es": "La mujer propone un límite. El hombre dice \"I wouldn't go that far\" porque sería difícil de controlar."
+          }
+        },
+        {
+          "text": "Taxing large-scale investors would be a better approach than a general limit.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man says he would rather tax investors who own dozens of flats. The woman only admits it is more targeted and worries about tenants paying.",
+            "es": "El hombre prefiere gravar a los inversores con decenas de pisos. La mujer solo admite que es más selectivo y teme que lo paguen los inquilinos."
+          }
+        }
+      ]
+    }
+  ]
+}

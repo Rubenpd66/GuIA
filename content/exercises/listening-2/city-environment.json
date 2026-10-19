@@ -1,0 +1,121 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l2-city-01",
+      "examPart": "listening-2",
+      "cefrLevel": "B2",
+      "topic": "city",
+      "difficulty": 4,
+      "question": "Four people talk about moving to a new city. What does each person say?",
+      "options": [
+        "Meeting people has been a struggle.",
+        "The price of accommodation came as a shock.",
+        "Getting around is easy and pleasant.",
+        "The noise is much worse than where they grew up.",
+        "They have found a group to take part in.",
+        "They intend to relocate again before long."
+      ],
+      "speakers": [
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "I'd budgeted for a shared flat, but even a tiny room costs nearly my whole wage. Landlords ask for a deposit of three months, which I'd never heard of back home. I'm eating a lot of pasta just to keep up."
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "Everyone here seems to have known each other since school. I've been here eight months and I still spend most weekends alone. I miss my old town, but I've signed a lease for two years. People are polite at work, but nobody has ever asked me out for a coffee."
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "Nobody warned me how many things there are to join. I turned up at a choir rehearsal on a whim, and now I sing with them every Thursday and even helped organise their Christmas concert."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "I sold my car before I came, and I haven't missed it once. Trams every few minutes, a night bus that actually turns up, and an app that tells me exactly when. I read my book on the way to work instead of shouting at traffic."
+            }
+          ],
+          "answer": 2
+        }
+      ],
+      "explanation": {
+        "en": "The first speaker was shocked by rents and deposits. The second feels isolated and has not made friends. The third joined a choir. The fourth enjoys the reliable public transport. The statement about leaving again is wrong because the second speaker has signed a lease for two years, and nobody complains about noise.",
+        "es": "La primera se asustó con los alquileres y las fianzas. El segundo se siente aislado y no ha hecho amigos. La tercera se unió a un coro. Al cuarto le encanta el transporte público fiable. Lo de volver a mudarse no encaja porque el segundo ha firmado un contrato de dos años, y nadie se queja del ruido."
+      }
+    },
+    {
+      "id": "l2-environment-01",
+      "examPart": "listening-2",
+      "cefrLevel": "C1",
+      "topic": "environment",
+      "difficulty": 5,
+      "question": "Four people give their views on protecting the environment. What does each person say?",
+      "options": [
+        "Government rules matter more than personal choices.",
+        "Making people feel guilty tends to backfire.",
+        "People change their habits more readily when it saves them money.",
+        "Businesses overstate how green they really are.",
+        "Young people are bearing an unfair share of the responsibility.",
+        "Community projects achieve more than national campaigns."
+      ],
+      "speakers": [
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "When a supermarket puts a leaf on a plastic wrapper and calls it sustainable, I roll my eyes. I've read the reports behind some of these labels, and the claims often fall apart under scrutiny. Too many firms have discovered that sounding eco-friendly sells more than actually being it."
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "Telling people they should be ashamed of flying doesn't make them stay home; it makes them stop listening. In my experience, those who feel constantly blamed simply switch off. We'd get further if we celebrated what people do manage, however modest."
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "Our village set up a repair café and a shared orchard, and within a year the neighbours were swapping lifts and tools. That's more than any slogan from the capital ever achieved. Real change happens when people who know each other decide something together."
+            }
+          ],
+          "answer": 5
+        },
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "I installed solar panels for one reason: my electricity bill. The environmental benefit was a pleasant bonus. Most of my friends are the same; nobody changes their routine out of principle, but give them a cheaper option and they'll switch within a month."
+            }
+          ],
+          "answer": 2
+        }
+      ],
+      "explanation": {
+        "en": "The first speaker thinks green labels are often misleading marketing. The second says blaming people makes them ignore the message. The third values what neighbours achieve locally over distant slogans. The fourth says savings, not principle, drive change. Nobody argues that laws matter more than individuals, or that young people carry too much of the burden.",
+        "es": "El primero cree que las etiquetas verdes suelen ser marketing engañoso. La segunda dice que culpar a la gente hace que ignore el mensaje. El tercero valora lo que logran los vecinos a nivel local frente a eslóganes lejanos. La cuarta dice que el ahorro, no los principios, impulsa el cambio. Nadie sostiene que las leyes importen más que los individuos ni que los jóvenes carguen con demasiado."
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l4-tram-line-01",
+      "examPart": "listening-4",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 5,
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "I'd like to say something about the proposed tram line, if I may. As a councillor for this area, and as someone who has lived on Mill Street for thirty years, I've heard most of the arguments. Some of my neighbours are furious, and I understand why. Building work will go on for the better part of two years, and the shopkeepers have good reason to be nervous. But I'd urge people not to dismiss the whole idea because of the inconvenience. When the ring road opened, we were told it would solve our traffic problem. It did the opposite, as anyone who has tried to cross town at five o'clock will tell you. Another road won't help us. What we lack is a reliable way of getting about without a car. So I'm inclined to support the tram, provided the council makes a firm commitment to compensate local businesses. That's my condition, and I'd like it written into the plan, not merely promised in a speech. I'm aware some people will see this as a betrayal, and I'm sorry about that. But I'd rather be honest than popular. I'll be voting in favour at the next meeting, and I hope enough of you will join me, whatever your doubts."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What is the speaker's attitude to those who oppose the tram?",
+          "options": [
+            "She thinks their worries are foolish",
+            "She understands them but disagrees",
+            "She mostly shares their view"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "She says she understands why they are angry, yet urges them not to reject the plan and will vote for it.",
+            "es": "Entiende su enfado, pero les pide que no rechacen el plan y votará a favor."
+          },
+          "cues": ["I understand why", "I'd urge people not to dismiss"]
+        },
+        {
+          "prompt": "Why does the speaker mention the ring road?",
+          "options": [
+            "To show that more roads do not cure congestion",
+            "To praise the council's earlier decisions",
+            "To warn that building work lasts a long time"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The ring road made traffic worse, so she argues another road would not help.",
+            "es": "La circunvalación empeoró el tráfico, así que opina que otra carretera no ayudaría."
+          },
+          "cues": ["It did the opposite", "Another road won't help us"]
+        }
+      ]
+    },
+    {
+      "id": "l4-old-friend-01",
+      "examPart": "listening-4",
+      "cefrLevel": "C1",
+      "topic": "relationships",
+      "difficulty": 4,
+      "script": [
+        {
+          "speaker": "man",
+          "text": "I got a message last month from someone I hadn't spoken to in nearly fifteen years. We were inseparable at university, then we had a stupid argument over money, and that was that. Neither of us apologised, and the silence just hardened. So when his name appeared on my phone, my first reaction, I'm ashamed to say, was irritation. What did he want? I nearly ignored it. In the end I replied, mainly out of curiosity, and we arranged to meet for coffee. I assumed it would be awkward, a few polite questions and a quick goodbye. Instead we talked for four hours. He's lost most of his hair and I've gained a stomach, and somehow none of it mattered. We barely mentioned the argument. He said he'd thought about it for years, and I admitted I had too. What strikes me now is how much energy I spent pretending I didn't care. So I'm going to be more careful in future. I've written to two other people I fell out with, and I don't mind if they don't answer. I just want to stop assuming that old quarrels are permanent. Sometimes someone simply needs to go first, and it needn't be you, but it could be."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "How did the speaker react when he first saw the message?",
+          "options": [
+            "He felt guilty about the argument.",
+            "He was delighted to hear from his friend.",
+            "He was annoyed and wary."
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "He admits his first reaction was irritation and that he nearly ignored it. 'Ashamed' refers to admitting this, not to guilt about the argument.",
+            "es": "Admite que su primera reacción fue irritación y que casi lo ignoró. 'Ashamed' se refiere a confesarlo, no a culpa por la discusión."
+          },
+          "cues": ["my first reaction", "irritation", "I nearly ignored it"]
+        },
+        {
+          "prompt": "What has the speaker concluded from the experience?",
+          "options": [
+            "Old friends rarely change over the years.",
+            "He should be ready to make the first move.",
+            "Past arguments need to be fully discussed."
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "He has written to two other people and says someone simply needs to go first. They barely discussed the argument.",
+            "es": "Ha escrito a otras dos personas y dice que alguien tiene que dar el primer paso. Apenas hablaron de la discusión."
+          },
+          "cues": [
+            "someone simply needs to go first",
+            "I've written to two other people"
+          ]
+        }
+      ]
+    }
+  ]
+}

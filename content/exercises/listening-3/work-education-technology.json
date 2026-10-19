@@ -1,0 +1,257 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l3-work-01",
+      "examPart": "listening-3",
+      "cefrLevel": "B2",
+      "topic": "work",
+      "difficulty": 3,
+      "question": "A man and a woman are discussing a move to an open-plan office.",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Did you hear that our company is moving to an open-plan office next month?"
+        },
+        {
+          "speaker": "man",
+          "text": "I did. Honestly, I think it's a good idea. People will talk to each other more, and ideas will spread much faster."
+        },
+        {
+          "speaker": "woman",
+          "text": "I'm not so sure. I need quiet to write my reports, and I can't concentrate when someone is on the phone next to me."
+        },
+        {
+          "speaker": "man",
+          "text": "There will be a few small rooms for private calls, though."
+        },
+        {
+          "speaker": "woman",
+          "text": "That helps, I suppose. What worries me more is that everyone will be watching everyone else. I'd feel under pressure all day."
+        },
+        {
+          "speaker": "man",
+          "text": "I used to think that too, but at my last job nobody cared what anyone was doing. You get used to it within a week."
+        },
+        {
+          "speaker": "woman",
+          "text": "Maybe. And I suspect it's mostly about saving money. Fewer walls means less space to pay for."
+        },
+        {
+          "speaker": "man",
+          "text": "Exactly, that's the real reason, of course. But if the savings pay for better coffee and more flexible hours, I won't complain."
+        },
+        {
+          "speaker": "woman",
+          "text": "Better coffee would certainly help. But I'd rather have a bigger say in decisions like this one."
+        },
+        {
+          "speaker": "man",
+          "text": "You're right. They should have asked us before announcing it."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Sharing one space makes it easier for ideas to travel between colleagues.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man says people will talk more and ideas will spread faster. The woman never mentions this benefit.",
+            "es": "Solo el hombre dice que la gente hablará más y las ideas se extenderán antes. La mujer no menciona esa ventaja."
+          }
+        },
+        {
+          "text": "Noise from other people makes it hard to focus on writing.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman says she can't concentrate when someone is on the phone nearby. The man only mentions private rooms.",
+            "es": "La mujer dice que no se concentra si alguien habla por teléfono cerca. El hombre solo habla de salas privadas."
+          }
+        },
+        {
+          "text": "The main reason for the change is to cut costs.",
+          "answer": "both",
+          "explanation": {
+            "en": "The woman says it's mostly about saving money, and the man answers: \"that's the real reason\".",
+            "es": "La mujer dice que es sobre todo por ahorrar y el hombre responde: \"that's the real reason\"."
+          }
+        },
+        {
+          "text": "Staff ought to have been consulted before the decision was made.",
+          "answer": "both",
+          "explanation": {
+            "en": "The woman wants a bigger say, and the man says \"They should have asked us\".",
+            "es": "La mujer quiere opinar más y el hombre dice \"They should have asked us\"."
+          }
+        }
+      ]
+    },
+    {
+      "id": "l3-education-01",
+      "examPart": "listening-3",
+      "cefrLevel": "B1",
+      "topic": "education",
+      "difficulty": 2,
+      "question": "A man and a woman are discussing homework for young children.",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "My son's school has stopped giving homework to the younger children. What do you think?"
+        },
+        {
+          "speaker": "woman",
+          "text": "I think that's a great decision. Children are tired after a full day, and they need time to play."
+        },
+        {
+          "speaker": "man",
+          "text": "I'm not sure. Homework teaches them to organise their time, and that's a useful skill."
+        },
+        {
+          "speaker": "woman",
+          "text": "But they're only seven or eight. They can learn that later."
+        },
+        {
+          "speaker": "man",
+          "text": "Maybe you're right. I didn't have any homework until I was ten, and I turned out fine."
+        },
+        {
+          "speaker": "woman",
+          "text": "There you are. But I do think children should read every evening, even if it isn't official homework."
+        },
+        {
+          "speaker": "man",
+          "text": "Oh, I agree with that. Reading is the one thing I'd never skip. We read together every night."
+        },
+        {
+          "speaker": "woman",
+          "text": "That's lovely. The problem is that some parents are too busy to help, so those children fall behind."
+        },
+        {
+          "speaker": "man",
+          "text": "Perhaps, but I think most parents can find ten minutes a night."
+        },
+        {
+          "speaker": "woman",
+          "text": "Ten minutes is fine. It's the long worksheets I object to."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Small children need free time more than extra work.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman says children are tired and need time to play. The man defends homework.",
+            "es": "La mujer dice que los niños están cansados y necesitan jugar. El hombre defiende los deberes."
+          }
+        },
+        {
+          "text": "Homework helps children learn to manage their time.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man says homework teaches them to organise their time. The woman replies that they can learn that later.",
+            "es": "El hombre dice que los deberes enseñan a organizar el tiempo. La mujer responde que pueden aprenderlo más tarde."
+          }
+        },
+        {
+          "text": "Children should read at home every day.",
+          "answer": "both",
+          "explanation": {
+            "en": "The woman says children should read every evening, and the man says reading is the one thing he'd never skip.",
+            "es": "La mujer dice que los niños deben leer cada tarde y el hombre dice que la lectura es lo único que no se saltaría."
+          }
+        },
+        {
+          "text": "Some pupils may fall behind because their parents have no time to help.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman raises this problem. The man answers that most parents can find ten minutes a night.",
+            "es": "La mujer plantea ese problema. El hombre responde que casi todos los padres encuentran diez minutos al día."
+          }
+        }
+      ]
+    },
+    {
+      "id": "l3-technology-01",
+      "examPart": "listening-3",
+      "cefrLevel": "C1",
+      "topic": "technology",
+      "difficulty": 5,
+      "question": "A man and a woman are discussing students using artificial intelligence to write.",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "I've noticed that more and more of my students let artificial intelligence draft their essays."
+        },
+        {
+          "speaker": "man",
+          "text": "It doesn't surprise me. But is it really different from using a calculator? Nobody complains about that."
+        },
+        {
+          "speaker": "woman",
+          "text": "I'd say it is. A calculator does the arithmetic, but writing is how you work out what you actually think."
+        },
+        {
+          "speaker": "man",
+          "text": "That's a fair distinction, although I'd argue that improving a machine's draft is a skill in itself."
+        },
+        {
+          "speaker": "woman",
+          "text": "Only if you can tell a good draft from a mediocre one, and that takes years of writing the hard way."
+        },
+        {
+          "speaker": "man",
+          "text": "I used to dismiss that worry, but I've met graduates at my firm who can't structure a simple report without help. It's troubling."
+        },
+        {
+          "speaker": "woman",
+          "text": "So you do see my point. Skills fade if people never practise them."
+        },
+        {
+          "speaker": "man",
+          "text": "Partly. Where I disagree is banning the tools. Pupils will use them anyway, so schools should teach them to use them critically."
+        },
+        {
+          "speaker": "woman",
+          "text": "I wouldn't ban them outright either. But I'd insist on handwritten work in class, so there's at least a moment when they think unaided."
+        },
+        {
+          "speaker": "man",
+          "text": "I'd rather schools taught pupils to use the tools well than to avoid them."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Letting a machine write is much the same as using a calculator for sums.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man makes the calculator comparison. The woman rejects it: \"I'd say it is\" different.",
+            "es": "El hombre hace la comparación con la calculadora. La mujer la rechaza: \"I'd say it is\" different."
+          }
+        },
+        {
+          "text": "Writing is a way of finding out your own ideas.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman says writing is how you work out what you think. The man talks about editing, not thinking.",
+            "es": "La mujer dice que escribir es como descubres lo que piensas. El hombre habla de mejorar borradores, no de pensar."
+          }
+        },
+        {
+          "text": "People's abilities can weaken if they depend on the tools.",
+          "answer": "both",
+          "explanation": {
+            "en": "The woman says skills fade without practice, and the man describes graduates who can't structure a report: \"It's troubling\".",
+            "es": "La mujer dice que las habilidades se pierden sin práctica y el hombre describe a graduados que no saben estructurar un informe."
+          }
+        },
+        {
+          "text": "Pupils should sometimes work without any technological help.",
+          "answer": "woman",
+          "explanation": {
+            "en": "Only the woman asks for handwritten work in class. The man prefers teaching pupils to use the tools well.",
+            "es": "Solo la mujer pide trabajo escrito a mano en clase. El hombre prefiere enseñar a usar bien las herramientas."
+          }
+        }
+      ]
+    }
+  ]
+}

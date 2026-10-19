@@ -1,0 +1,71 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l1-culture-01",
+      "examPart": "listening-1",
+      "cefrLevel": "B2",
+      "topic": "culture-leisure",
+      "difficulty": 4,
+      "context": "Two friends planning a night out",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "Shall we go to the jazz concert on Saturday?"
+        },
+        {
+          "speaker": "woman",
+          "text": "I'd love to, but I'll be at my sister's wedding. They're also playing on Sunday, though."
+        },
+        {
+          "speaker": "man",
+          "text": "Sunday's sold out, I checked this morning. There's a late show on Friday, mind you."
+        },
+        {
+          "speaker": "woman",
+          "text": "Friday works for me. Could you book the tickets?"
+        },
+        {
+          "speaker": "man",
+          "text": "Of course. I'll do it tonight."
+        }
+      ],
+      "question": "When will they go to the concert?",
+      "options": [
+        "On Saturday evening",
+        "The day after the wedding",
+        "On the evening before the wedding"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Saturday is the wedding and Sunday is sold out, so they choose the late show on Friday, the evening before the wedding.",
+        "es": "El sábado hay boda y el domingo está agotado, así que van el viernes."
+      }
+    },
+    {
+      "id": "l1-relationships-01",
+      "examPart": "listening-1",
+      "cefrLevel": "C1",
+      "topic": "relationships",
+      "difficulty": 4,
+      "context": "A voicemail from a friend",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Hi Dan, it's Lucy. Sorry to miss you. About Saturday, I know I said I'd cook, but my sister's arriving early, so could we have the dinner at your place instead? I'd bring the dessert and the wine. Don't worry about the starter, Jack's already making soup. Ring me when you can."
+        }
+      ],
+      "question": "What is Lucy asking Dan to do?",
+      "options": [
+        "Bring the dessert",
+        "Have the dinner at his home",
+        "Cook the soup"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Lucy asks politely if the dinner can be at Dan's place. She brings the dessert herself and Jack makes the soup.",
+        "es": "Lucy pregunta si la cena puede ser en casa de Dan. El postre lo trae ella y la sopa la hace Jack."
+      }
+    }
+  ]
+}

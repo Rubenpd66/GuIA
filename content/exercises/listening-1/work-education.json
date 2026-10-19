@@ -1,0 +1,117 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l1-work-01",
+      "examPart": "listening-1",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "context": "A voicemail from a colleague",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Hi Tom, it's Anna from the office. The team meeting has moved. It was at ten o'clock tomorrow, but now it's at half past eleven, because the manager has a client visit. It's still in room four. Could you bring the sales figures?"
+        }
+      ],
+      "question": "What time is the meeting now?",
+      "options": [
+        "At 10.00, as planned",
+        "Later, at 11.30",
+        "When the client arrives"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Anna says the meeting was at ten but is now at half past eleven. The first option is the old time, and no time is given for the client.",
+        "es": "Anna dice que antes era a las diez y ahora a las once y media. La primera opción es la hora antigua."
+      }
+    },
+    {
+      "id": "l1-work-02",
+      "examPart": "listening-1",
+      "cefrLevel": "C1",
+      "topic": "work",
+      "difficulty": 5,
+      "context": "Two colleagues talking about training",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Did you sign up for the Friday training course?"
+        },
+        {
+          "speaker": "man",
+          "text": "I was going to, but it clashes with the client presentation, so I thought I'd wait for the November one."
+        },
+        {
+          "speaker": "woman",
+          "text": "Pity. Friday's is the only one run by the external trainer."
+        },
+        {
+          "speaker": "man",
+          "text": "Really? Then I'll ask Priya to cover the presentation. She knows the figures better than I do anyway."
+        }
+      ],
+      "question": "What does the man decide to do?",
+      "options": [
+        "Go on the course and let a colleague present",
+        "Wait until November for the course",
+        "Give the presentation and skip the course"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "He first plans to wait for November, but changes his mind after hearing the trainer is external, and asks Priya to present. The other two options are plans he rejects or never considers.",
+        "es": "Primero piensa esperar a noviembre, pero cambia de idea y pide a Priya que haga la presentación."
+      }
+    },
+    {
+      "id": "l1-education-01",
+      "examPart": "listening-1",
+      "cefrLevel": "B2",
+      "topic": "education",
+      "difficulty": 3,
+      "context": "An announcement at a college",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Attention all students. The deadline for handing in the history essays has been extended from Friday to the following Wednesday, because of the problems with the online portal last week. Please note that the extension does not apply to the science projects, which are still due this Friday."
+        }
+      ],
+      "question": "Which work must still be handed in on Friday?",
+      "options": [
+        "The history essays",
+        "Work for the science classes",
+        "Both the essays and the projects"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Only the history essays get the extra days. The science projects keep the Friday deadline, so the other options are wrong.",
+        "es": "Solo los ensayos de historia tienen prórroga; los proyectos de ciencias siguen para el viernes."
+      }
+    },
+    {
+      "id": "l1-education-02",
+      "examPart": "listening-1",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 1,
+      "context": "A teacher's message to her class",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Hello class. Tomorrow we will meet in room twelve, not room two. Please bring your dictionary and a blue pen. The lesson starts at nine o'clock."
+        }
+      ],
+      "question": "Where is tomorrow's lesson?",
+      "options": [
+        "Room 12",
+        "Room 2",
+        "Room 9"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The teacher says room twelve, not room two. Nine is the time, not the room.",
+        "es": "Dice «room twelve, not room two». El nueve es la hora, no el aula."
+      }
+    }
+  ]
+}

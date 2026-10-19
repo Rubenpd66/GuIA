@@ -1,0 +1,121 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l2-work-01",
+      "examPart": "listening-2",
+      "cefrLevel": "B1",
+      "topic": "work",
+      "difficulty": 2,
+      "question": "Four people talk about starting a new job. What does each person say?",
+      "options": [
+        "The other staff were friendly from the start.",
+        "The journey takes too long.",
+        "They are picking things up quickly.",
+        "They earn less than before.",
+        "They now work shorter days.",
+        "They miss the people from their last job."
+      ],
+      "speakers": [
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "The salary's exactly what I had before, so nothing's changed there. What's different is the clock. I used to finish at seven most evenings, and now I'm home by half past four, with time to cook properly and see my kids."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "On my first morning somebody had already put my name on a mug, and by lunchtime three people had asked me to sit with them. I was dreading the first week, but everyone went out of their way to include me."
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "The office is lovely and the work's fine. Everything is taking me a while to learn, which is normal, I suppose. But I keep wondering what my old colleagues are doing. We had a silly group chat and a Friday quiz, and nothing here makes up for that."
+            }
+          ],
+          "answer": 5
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "Two buses and a train, each way. That's nearly two hours of my day gone before I've even opened my laptop. I like the job itself, but if they don't let me work from home sometimes, I'll have to look for something closer."
+            }
+          ],
+          "answer": 1
+        }
+      ],
+      "explanation": {
+        "en": "The first speaker says the pay is the same but they leave much earlier, so they work shorter days. The second was included by everyone straight away. The third misses the old team. The fourth spends nearly two hours travelling. Nobody says they earn less (the first says the pay is unchanged) and nobody says they learn fast (the third says it is slow).",
+        "es": "La primera dice que cobra lo mismo pero sale mucho antes: jornadas más cortas. El segundo fue acogido por todos desde el principio. La tercera echa de menos a su antiguo equipo. El cuarto tarda casi dos horas en el trayecto. Nadie cobra menos (la primera dice que no cambia) ni aprende rápido (la tercera dice que le cuesta)."
+      }
+    },
+    {
+      "id": "l2-travel-01",
+      "examPart": "listening-2",
+      "cefrLevel": "B1",
+      "topic": "travel",
+      "difficulty": 2,
+      "question": "Four people talk about their last holiday. What does each person say?",
+      "options": [
+        "The weather was worse than the forecast said.",
+        "They spent less money than they had planned.",
+        "They got to know an interesting local person.",
+        "They tried food they had never eaten before.",
+        "Getting there was very tiring.",
+        "They would like to visit the place again."
+      ],
+      "speakers": [
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "We were stuck in the airport for six hours, and then the coach broke down halfway. By the time we reached the hotel I could hardly stand. The place was lovely, but I needed a whole day in bed before I could enjoy any of it."
+            }
+          ],
+          "answer": 4
+        },
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "I'm normally quite fussy, but the market had stalls selling things I couldn't even name. I tried a soup with some sort of seaweed and a sweet made of rice. A few things were strange, but most of it was delicious."
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "I'd saved up quite a lot for the trip, but we stayed in a family guesthouse and cooked most of our meals. When I checked my account afterwards, I'd barely used half of what I'd taken with me."
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "The forecast promised storms all week, but we had sunshine every day. On the second evening I started chatting with an old fisherman at the harbour, and he told me stories about the town for hours. That's what I remember most."
+            }
+          ],
+          "answer": 2
+        }
+      ],
+      "explanation": {
+        "en": "The first speaker had a long, difficult journey and was exhausted. The second ate unfamiliar dishes at the market. The third came home with much of the money unspent. The fourth spent an evening with a fisherman who knew the town. The weather statement is wrong because the forecast was bad but the weather was sunny, and nobody says they want to return.",
+        "es": "El primero tuvo un viaje largo y agotador. La segunda probó platos desconocidos en el mercado. La tercera volvió con gran parte del dinero sin gastar. El cuarto pasó una tarde con un pescador que conocía el pueblo. Lo del tiempo no encaja porque el pronóstico era malo pero hizo sol, y nadie dice que quiera volver."
+      }
+    }
+  ]
+}

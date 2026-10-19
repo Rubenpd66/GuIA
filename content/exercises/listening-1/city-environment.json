@@ -1,0 +1,80 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l1-city-01",
+      "examPart": "listening-1",
+      "cefrLevel": "B1",
+      "topic": "city",
+      "difficulty": 3,
+      "context": "A bus company announcement",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "Good afternoon. Due to roadworks on Mill Road, the number twelve bus will not stop outside the library this week. Instead, it will stop at the corner of Park Street, about five minutes' walk away. Buses will run as normal again from next Monday."
+        }
+      ],
+      "question": "Where will the bus stop this week?",
+      "options": [
+        "Near Park Street",
+        "On Mill Road",
+        "Outside the library"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The usual stop outside the library is closed and the bus uses the corner of Park Street instead. Mill Road is where the roadworks are.",
+        "es": "La parada habitual está cerrada; el autobús para en la esquina de Park Street."
+      }
+    },
+    {
+      "id": "l1-city-02",
+      "examPart": "listening-1",
+      "cefrLevel": "C1",
+      "topic": "city",
+      "difficulty": 5,
+      "context": "A local radio news item",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "The council has announced that the new cycle lane on Harbour Road will open a month late, in April rather than March. A spokesperson blamed a shortage of materials rather than the weather, and insisted the final cost, roughly two million pounds, will not change. Local shopkeepers, who had feared losing parking spaces, say they're cautiously relieved."
+        }
+      ],
+      "question": "According to the spokesperson, why is the opening delayed?",
+      "options": [
+        "The weather has been bad during the works",
+        "Shopkeepers have objected to the plans",
+        "It has been hard to obtain supplies"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The spokesperson blames a shortage of materials rather than the weather. The shopkeepers only appear as a separate group who feared losing parking.",
+        "es": "El portavoz culpa a la falta de materiales, no al tiempo. Los comerciantes solo temían perder aparcamiento."
+      }
+    },
+    {
+      "id": "l1-environment-01",
+      "examPart": "listening-1",
+      "cefrLevel": "B2",
+      "topic": "environment",
+      "difficulty": 3,
+      "context": "A radio item about waste collection",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "From next month, households in the borough will have a separate bin for food waste, collected every week. General rubbish will be collected only every two weeks. The council says this should cut the amount of waste sent to landfill by a third, and residents who need extra bags can pick them up free at the town hall."
+        }
+      ],
+      "question": "What will change for general rubbish collection?",
+      "options": [
+        "It will happen less often",
+        "It will stop completely",
+        "It will become weekly"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "General rubbish moves to every two weeks. The weekly collection is for the new food waste bin.",
+        "es": "La basura general pasa a recogerse cada dos semanas; la recogida semanal es la de residuos de comida."
+      }
+    }
+  ]
+}

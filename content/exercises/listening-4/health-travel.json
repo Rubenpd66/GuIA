@@ -1,0 +1,95 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l4-marathon-withdrawal-01",
+      "examPart": "listening-4",
+      "cefrLevel": "B2",
+      "topic": "health-sport",
+      "difficulty": 3,
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "People keep asking me why I've pulled out of the marathon, so let me explain. I trained for five months. I followed the plan, I gave up evenings out, and I even bought the expensive shoes everyone recommends. Then, three weeks ago, my knee started to hurt. The physiotherapist told me I could carry on if I took painkillers and ignored it, but she wasn't exactly encouraging. So I thought about it properly. Would I enjoy running forty-two kilometres in pain? Obviously not. Would the race matter to me in a year? Probably not either. What I'd miss is the running itself, the quiet mornings before work. So I've decided to treat this as a pause rather than a failure. It's easy to feel foolish after so much effort, and I won't pretend there weren't tears on Tuesday. But my sister reminded me that nobody ever regrets looking after their body. I'm going to spend the next two months doing swimming and gentle cycling, and then, if my knee allows it, I'll go back to short runs with no medals involved. Perhaps next year I'll try the race again. Perhaps I won't. I honestly don't mind either way."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "How does the speaker feel about withdrawing from the race?",
+          "options": [
+            "Calm and fairly accepting",
+            "Ashamed of her lack of discipline",
+            "Angry with her physiotherapist"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "She admits to some tears, but calls it a pause and says she doesn't mind either way.",
+            "es": "Admite que lloró, pero lo llama una pausa y dice que le da igual."
+          },
+          "cues": ["a pause rather than a failure", "don't mind either way"]
+        },
+        {
+          "prompt": "What is the speaker planning to do now?",
+          "options": [
+            "Enter the same race again next year",
+            "Take painkillers and run the race anyway",
+            "Switch to gentler exercise for a while"
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "She will swim and cycle gently, then return to short runs. Next year's race is only a vague possibility.",
+            "es": "Nadará y montará en bici con calma, y luego volverá a correr poco. La carrera del año próximo es solo una posibilidad."
+          },
+          "cues": ["swimming and gentle cycling", "short runs"]
+        }
+      ]
+    },
+    {
+      "id": "l4-mountain-lodge-01",
+      "examPart": "listening-4",
+      "cefrLevel": "B2",
+      "topic": "travel",
+      "difficulty": 4,
+      "script": [
+        {
+          "speaker": "man",
+          "text": "Good morning, this is a message for the customer service manager. I booked a week in the mountains through your company in the spring, and I'm calling about how things turned out. I'd like to start by saying the staff at the lodge were very kind. The woman at reception went out of her way to find us a better room, and I'm grateful for that. The trouble is that the better room was needed in the first place. The brochure promised a quiet cabin with views of the lake. What we got was a room above the kitchen, with a view of the bins. I raised this on the first day, and was told someone would call me back. Nobody did. By Wednesday I'd stopped expecting a reply. Now, I'm not asking for a full refund, because we did enjoy the walks, and I don't want to be unreasonable. But I do think a fair part of the price should be returned, and I'd like a written explanation of why my complaint was ignored. If I don't hear from you by Friday, I'll take it further, through the consumer association. I'd much prefer not to. Please phone me on my mobile at your earliest convenience. Thank you."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Why does the speaker mention the woman at reception?",
+          "options": [
+            "To say that she solved the problem completely",
+            "To be fair to the people who treated him well",
+            "To ask for her to be reprimanded"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "He praises her, then says 'the trouble is'. His complaint is about the booking and the lack of reply, not about her.",
+            "es": "La elogia y luego dice 'the trouble is'. Su queja es por la reserva y la falta de respuesta, no por ella."
+          },
+          "cues": ["very kind", "The trouble is"]
+        },
+        {
+          "prompt": "What does the speaker want the company to do?",
+          "options": [
+            "Return part of the money and explain what happened",
+            "Give him all of his money back",
+            "Offer him another holiday at a discount"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "He rules out a full refund, but asks for a fair part of the price and a written explanation.",
+            "es": "Descarta el reembolso total, pero pide parte del precio y una explicación por escrito."
+          },
+          "cues": [
+            "not asking for a full refund",
+            "a fair part of the price",
+            "written explanation"
+          ]
+        }
+      ]
+    }
+  ]
+}

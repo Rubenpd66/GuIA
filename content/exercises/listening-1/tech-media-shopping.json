@@ -1,0 +1,80 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l1-technology-01",
+      "examPart": "listening-1",
+      "cefrLevel": "B1",
+      "topic": "technology",
+      "difficulty": 2,
+      "context": "A voicemail from a computer repair shop",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "Hello, it's Mark from Fix It Computers. I've looked at your laptop. The screen needs replacing, which would cost one hundred and twenty pounds. The battery is fine. If you'd like us to go ahead, call me back before Friday and it will be ready by the following Tuesday."
+        }
+      ],
+      "question": "What does the shop need to know before Friday?",
+      "options": [
+        "Whether to change the battery",
+        "When to bring in the laptop",
+        "Whether the customer wants the screen replaced"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Mark asks the customer to call back before Friday if they want to go ahead with the new screen. The battery is fine, and the laptop is already at the shop.",
+        "es": "Mark pide que llame antes del viernes si quiere cambiar la pantalla. La batería está bien."
+      }
+    },
+    {
+      "id": "l1-media-01",
+      "examPart": "listening-1",
+      "cefrLevel": "B2",
+      "topic": "media",
+      "difficulty": 4,
+      "context": "A television announcement",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "Tonight's documentary about deep-sea fishing, which was due at eight, has been replaced by a live football match that is going into extra time. The documentary will now be shown at ten thirty, straight after the news, and again on Sunday afternoon at three."
+        }
+      ],
+      "question": "When will the documentary be shown tonight?",
+      "options": [
+        "At 8.00",
+        "At 10.30",
+        "At 3.00"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "It was planned for eight but moves to ten thirty. Three o'clock is the repeat on Sunday, not tonight.",
+        "es": "Estaba previsto a las ocho y pasa a las diez y media. Las tres es la repetición del domingo."
+      }
+    },
+    {
+      "id": "l1-shopping-01",
+      "examPart": "listening-1",
+      "cefrLevel": "B1",
+      "topic": "shopping-consumption",
+      "difficulty": 3,
+      "context": "A shop announcement",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Welcome to Greenfield Market. Today only, all fruit and vegetables on the first floor are half price after four o'clock. Our bakery has also reduced its bread by a quarter, but only until closing time. Please remember that bags must be paid for at the till."
+        }
+      ],
+      "question": "What is half price after four o'clock?",
+      "options": [
+        "Bread from the bakery",
+        "Shopping bags",
+        "Fresh produce"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Fruit and vegetables are half price. Bread is only a quarter cheaper, and bags are paid for.",
+        "es": "Fruta y verdura a mitad de precio. El pan solo baja una cuarta parte y las bolsas se pagan."
+      }
+    }
+  ]
+}
