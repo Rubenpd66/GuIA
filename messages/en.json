@@ -1064,7 +1064,7 @@
     "changePassword": "Change password",
     "updatePassword": "Save password",
     "deleteTitle": "Delete account",
-    "deleteBody": "Your account and everything Sello keeps about you in the cloud are deleted. This cannot be undone.",
+    "deleteBody": "Your account and everything Sello keeps about you in the cloud are deleted. This cannot be undone. If you have a paid plan, it is cancelled at once and the current period is not refunded: to keep access until it ends, cancel it first under \"Manage subscription\".",
     "deleteButton": "Delete my account",
     "deleteConfirm": "Are you sure you want to delete your account and your cloud data?",
     "keepLocal": "Keep the progress saved in this browser",

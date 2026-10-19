@@ -1064,7 +1064,7 @@
     "changePassword": "Cambiar contraseña",
     "updatePassword": "Guardar contraseña",
     "deleteTitle": "Borrar cuenta",
-    "deleteBody": "Se borran tu cuenta y todo lo que Sello guarda de ti en la nube. No se puede deshacer.",
+    "deleteBody": "Se borran tu cuenta y todo lo que Sello guarda de ti en la nube. No se puede deshacer. Si tienes un plan de pago, se cancela al instante y no se reembolsa el periodo en curso: para conservar el acceso hasta que termine, cancélalo antes en «Gestionar suscripción».",
     "deleteButton": "Borrar mi cuenta",
     "deleteConfirm": "¿Seguro que quieres borrar tu cuenta y tus datos en la nube?",
     "keepLocal": "Conservar el progreso guardado en este navegador",

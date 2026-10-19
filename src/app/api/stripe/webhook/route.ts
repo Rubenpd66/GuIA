@@ -46,11 +46,13 @@ export async function POST(request: Request) {
       console.warn("sello: stripe subscription is not one of ours", id);
       return ok();
     }
-    const { data: existing } = await admin
+    const { data: existing, error: readError } = await admin
       .from("subscriptions")
       .select("stripe_subscription_id, tier, status, current_period_end")
       .eq("user_id", row.user_id)
       .maybeSingle();
+    // An unreadable row is not "no row": guessing could overwrite a newer live plan.
+    if (readError) throw readError;
     if (!shouldReplace(existing, row, now)) {
       console.info("sello: older stripe subscription skipped", id);
       return ok();

@@ -26,17 +26,22 @@ const Args = z.object({
 type Row = SubscriptionRow & { stripe_customer_id: string | null };
 
 /** The signed-in learner, their email and their own subscription row (RLS: owner only). */
-async function learner() {
+async function learner(): Promise<
+  { userId: string; email: string; row: Row | null } | PaymentResult
+> {
   const supabase = await supabaseServer();
   const { data } = await supabase.auth.getClaims();
   const userId = data?.claims?.sub;
   const email = data?.claims?.email;
-  if (!userId || typeof email !== "string") return null;
-  const { data: row } = await supabase
+  if (!userId || typeof email !== "string")
+    return { status: "error", message: "signedOut" };
+  const { data: row, error } = await supabase
     .from("subscriptions")
     .select("tier, status, current_period_end, stripe_customer_id")
     .eq("user_id", userId)
     .maybeSingle<Row>();
+  // Unknown is not "no plan": a live subscriber must never be offered a second one.
+  if (error) return { status: "error", message: "failed" };
   return { userId, email, row };
 }
 
@@ -55,7 +60,7 @@ export async function startCheckout(
   if (!parsed.success || !stripe || !supabaseConfigured)
     return { status: "error", message: "unavailable" };
   const who = await learner();
-  if (!who) return { status: "error", message: "signedOut" };
+  if ("status" in who) return who;
   if (checkoutOrPortal(who.row, Date.now()) === "portal")
     return openPortal(parsed.data.locale);
 
@@ -107,7 +112,7 @@ export async function openPortal(locale: "es" | "en"): Promise<PaymentResult> {
   if (!stripe || !supabaseConfigured)
     return { status: "error", message: "unavailable" };
   const who = await learner();
-  if (!who) return { status: "error", message: "signedOut" };
+  if ("status" in who) return who;
   const customer = who.row?.stripe_customer_id;
   if (!customer) return { status: "error", message: "failed" };
   let url: string | null = null;
