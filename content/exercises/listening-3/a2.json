@@ -1,0 +1,193 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l3-a2-1",
+      "examPart": "listening-3",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 2,
+      "question": "A man and a woman are planning their summer holiday.",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Have you thought about where we should go in the summer?"
+        },
+        {
+          "speaker": "man",
+          "text": "Yes, I'd like to go to the seaside. I want to lie on the beach and swim every day."
+        },
+        {
+          "speaker": "woman",
+          "text": "That sounds nice, but I get bored on the beach after two days. I'd rather visit a city, with museums and old streets."
+        },
+        {
+          "speaker": "man",
+          "text": "We could do both. There are some nice cities near the coast, like Valencia."
+        },
+        {
+          "speaker": "woman",
+          "text": "Good idea. How much can we spend?"
+        },
+        {
+          "speaker": "man",
+          "text": "About six hundred pounds for the week, not more. I've spent a lot of money this year."
+        },
+        {
+          "speaker": "woman",
+          "text": "Me too, so let's find a cheap hotel. I don't need anything fancy."
+        },
+        {
+          "speaker": "man",
+          "text": "Neither do I. But I'd like a room with a balcony, if possible."
+        },
+        {
+          "speaker": "woman",
+          "text": "I don't mind. I can book it tonight on my laptop. Shall we go by plane or by train?"
+        },
+        {
+          "speaker": "man",
+          "text": "I don't mind. Which do you prefer?"
+        },
+        {
+          "speaker": "woman",
+          "text": "I'm afraid of flying, so I prefer the train, even if it's slower."
+        },
+        {
+          "speaker": "man",
+          "text": "Then let's take the train. I like looking out of the window anyway."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Would like to go to the beach every day.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man wants to lie on the beach and swim every day. The woman gets bored there after two days.",
+            "es": "El hombre quiere tumbarse en la playa y nadar cada día. La mujer se aburre allí a los dos días."
+          }
+        },
+        {
+          "text": "Does not like travelling by plane.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman says she is afraid of flying. The man says he doesn't mind how they travel.",
+            "es": "La mujer dice que le da miedo volar. El hombre dice que le da igual cómo viajar."
+          }
+        },
+        {
+          "text": "Has spent a lot of money recently.",
+          "answer": "both",
+          "explanation": {
+            "en": "The man says he has spent a lot this year and the woman answers: \"Me too\".",
+            "es": "El hombre dice que ha gastado mucho este año y la mujer responde: \"Me too\"."
+          }
+        },
+        {
+          "text": "Would like a room with a balcony.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man asks for a balcony. The woman says she doesn't mind.",
+            "es": "El hombre pide un balcón. A la mujer le da igual."
+          }
+        }
+      ]
+    },
+    {
+      "id": "l3-a2-2",
+      "examPart": "listening-3",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "question": "A woman asks a man about the new gym in town.",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Hi Dan, I heard you joined the new gym on Park Road."
+        },
+        {
+          "speaker": "man",
+          "text": "Yes, I joined two weeks ago. I go three times a week after work."
+        },
+        {
+          "speaker": "woman",
+          "text": "Is it expensive? I'd like to join, but I haven't got much money."
+        },
+        {
+          "speaker": "man",
+          "text": "It's thirty pounds a month. That includes the swimming pool and some classes."
+        },
+        {
+          "speaker": "woman",
+          "text": "That's not bad. Is it busy?"
+        },
+        {
+          "speaker": "man",
+          "text": "In the evening, yes. It's full between six and eight. I usually go later, at about nine, and then there's plenty of space."
+        },
+        {
+          "speaker": "woman",
+          "text": "I finish work at five, so I could go at half past five."
+        },
+        {
+          "speaker": "man",
+          "text": "Then you'll have to wait for the machines. Or you could try the morning. They open at six."
+        },
+        {
+          "speaker": "woman",
+          "text": "Six! I'm not a morning person at all. I think I'll go at lunchtime instead. My office is only ten minutes away."
+        },
+        {
+          "speaker": "man",
+          "text": "Good idea. By the way, the classes are great. I did a yoga class last week and my back feels better already."
+        },
+        {
+          "speaker": "woman",
+          "text": "I've never done yoga. Maybe I'll try it with you one day."
+        },
+        {
+          "speaker": "man",
+          "text": "Sure! I'm going to the Saturday class this weekend, if you'd like to come."
+        },
+        {
+          "speaker": "woman",
+          "text": "I'd love to. Send me the time later."
+        }
+      ],
+      "statements": [
+        {
+          "text": "Is already a member of the gym.",
+          "answer": "man",
+          "explanation": {
+            "en": "The man says he joined two weeks ago. The woman would like to join, but she has not joined yet.",
+            "es": "El hombre dice que se apuntó hace dos semanas. La mujer quiere apuntarse, pero todavía no lo ha hecho."
+          }
+        },
+        {
+          "text": "Is worried about the price.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman asks if it is expensive because she hasn't got much money.",
+            "es": "La mujer pregunta si es caro porque no tiene mucho dinero."
+          }
+        },
+        {
+          "text": "Does not like getting up early.",
+          "answer": "woman",
+          "explanation": {
+            "en": "The woman says she is not a morning person at all and chooses lunchtime. The man only says the gym opens at six.",
+            "es": "La mujer dice que no es nada madrugadora y elige la hora de comer. El hombre solo dice que abren a las seis."
+          }
+        },
+        {
+          "text": "Plans to go to a class on Saturday.",
+          "answer": "both",
+          "explanation": {
+            "en": "The man is going to the Saturday class and invites her. The woman says \"I'd love to\".",
+            "es": "El hombre va a la clase del sábado y la invita. La mujer dice \"I'd love to\"."
+          }
+        }
+      ]
+    }
+  ]
+}

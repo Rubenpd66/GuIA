@@ -1,0 +1,94 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l4-a2-1",
+      "examPart": "listening-4",
+      "cefrLevel": "A2",
+      "topic": "relationships",
+      "difficulty": 2,
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Hi Mark, it's Clara. I'm calling about Mum's birthday on the twentieth. I know you're busy, but I really want us to do something special this year. Last year we just sent a card and phoned her, and she sounded a bit sad. So I've had an idea. I'd like to have a small lunch at my flat on Sunday. Just the family, about eight people. I'll cook, because I'm quite good at making fish, and Mum loves it. But I need your help with two things. First, can you collect Grandad? He doesn't like taking the bus, and you live closer to him than I do. Second, could you buy a cake? I'm not sure about a big one, because there are only a few of us, but something nice from the bakery near your office. I thought about giving her flowers, but she already has a lot in the garden, so I'm going to buy her a new scarf. She said she liked a blue one last month. Oh, and please don't tell her about the lunch! I want it to be a surprise. Call me when you can. Thanks, bye."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What does Clara want to do for her mother's birthday?",
+          "options": [
+            "Organise a family lunch.",
+            "Send a card and phone her again.",
+            "Take her to a restaurant."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Clara says last year they only sent a card and phoned, and now she wants something special: a small lunch at her flat.",
+            "es": "Clara dice que el año pasado solo enviaron una tarjeta y llamaron, y ahora quiere algo especial: una comida pequeña en su piso."
+          },
+          "cues": ["something special", "small lunch at my flat"]
+        },
+        {
+          "prompt": "What has Clara decided about the present?",
+          "options": [
+            "She will give her mother flowers.",
+            "She will buy her mother a scarf.",
+            "She wants Mark to choose it."
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "She thought about flowers, but her mother already has a lot in the garden, so Clara is going to buy a scarf.",
+            "es": "Pensó en flores, pero su madre ya tiene muchas en el jardín, así que Clara va a comprar una bufanda."
+          },
+          "cues": [
+            "already has a lot in the garden",
+            "going to buy her a new scarf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4-a2-2",
+      "examPart": "listening-4",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 2,
+      "script": [
+        {
+          "speaker": "man",
+          "text": "Good morning, everybody. Thank you for coming to this short meeting. I have some news about next month. As you know, the shop has been very busy on Saturdays, and customers sometimes wait a long time to pay. So we have decided to open one hour earlier on Saturdays, at eight o'clock instead of nine. I understand that some of you may not like this, because it means an early start at the weekend. That's why I'm asking for volunteers. If you work on Saturday mornings, you will get a day off during the week, and we will also pay a little extra for the extra hour. I think that's fair. We will also have a new colleague, Helen, who starts next Monday. She worked in a big supermarket for five years, so she knows the job well. Please be friendly and help her in her first week. Finally, a reminder: the new computers arrive on Thursday, so please clear your desks on Wednesday evening. If you have any questions, come and see me in my office. I'm free all afternoon. Thank you very much."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Why will the shop open earlier on Saturdays?",
+          "options": [
+            "Customers are waiting too long to pay.",
+            "The staff have asked for longer hours.",
+            "The shop wants to close earlier."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The manager says the shop is very busy on Saturdays and customers wait a long time to pay. Nobody asked for the change.",
+            "es": "El jefe dice que la tienda está muy llena los sábados y los clientes esperan mucho para pagar. Nadie ha pedido el cambio."
+          },
+          "cues": ["very busy on Saturdays", "wait a long time to pay"]
+        },
+        {
+          "prompt": "What will the people who work on Saturday mornings get?",
+          "options": [
+            "A day off and a little more money.",
+            "A day off but no more money.",
+            "More money but no day off."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The manager promises a day off during the week and a little extra pay for the extra hour.",
+            "es": "El jefe promete un día libre entre semana y un pequeño extra por la hora adicional."
+          },
+          "cues": ["get a day off during the week", "pay a little extra"]
+        }
+      ]
+    }
+  ]
+}

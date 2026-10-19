@@ -1,0 +1,121 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r4-a2-1",
+      "examPart": "reading-4",
+      "cefrLevel": "A2",
+      "topic": "city",
+      "difficulty": 2,
+      "title": "Cycling to work",
+      "paragraphs": [
+        "Every morning, thousands of people ride their bikes to work in big cities. Ten years ago, there were not so many cyclists on the roads. Now you can see them everywhere: young people in suits, women with shopping bags and men with small children on the back of their bikes. In some cities, more than one person in four goes to work by bike. Many other people want to start, but they are afraid of the traffic or do not know where to begin. This article looks at why cycling is growing and what helps people to try it.",
+        "The first reason is money. Petrol is expensive, and so is parking. A bus ticket or a train pass can cost more than a hundred pounds a month. A bike costs much less. You can buy a good second-hand bike for about one hundred and fifty pounds, and after that the only costs are a few small repairs and a new light now and then. Many workers say that they save the price of a holiday every year. For people who do not earn much, this is an important difference, and it is often the reason they start. A bike is also cheaper to look after than a car, which needs fuel, tax and insurance.",
+        "The second reason is health. Most people sit at a desk for eight hours a day, and they do not move much. Riding a bike to work gives them exercise without needing a gym. Twenty minutes in the morning and twenty minutes in the evening is enough to feel stronger. Doctors say that cyclists have a lower risk of heart problems, and many riders also say that they feel happier and sleep better. Some people say they arrive at work with more energy than their colleagues who came by car, because the fresh air wakes them up. A short ride is also a good way to clear your head before a busy day.",
+        "Speed is a third reason. In a busy city, the traffic can be terrible, especially at eight in the morning and at six in the evening. A car may need forty minutes to travel five kilometres, but a bicycle can do the same journey in twenty minutes. Cyclists do not wait in long lines of cars, and they do not need to look for a place to park. They can stop right outside the office door. For short journeys in the centre, a bike is often the quickest way to travel, and it is certainly the most reliable on days when the buses are late.",
+        "Of course, many people worry about safety. Cars drive fast, and some drivers do not look carefully for cyclists. Because of this, a lot of cities are building special roads just for bikes, with a line or a small wall between the bikes and the cars. These lanes make riding calmer, and they help beginners to feel brave. Cyclists can also protect themselves: they should wear a helmet, use bright lights when it is dark and wear light-coloured clothes. Courses for adults are available in many cities, and a teacher can show you the safest way to ride in traffic. Many riders also say that they feel safer when they travel in a group.",
+        "Another problem is the weather. Nobody likes to arrive at work wet or hot. Some companies now help their workers with simple things. They give them a safe place to leave their bikes, a shower, and a locker for dry clothes. In a rainy country, a good coat and waterproof trousers can make a big difference, and a small bag on the back of the bike keeps papers and a laptop dry. Many cyclists also say that the weather is not as bad as people imagine: on most days of the year it is not raining, and cold mornings soon feel normal.",
+        "If you would like to start, the best idea is to begin slowly. Try riding on a quiet Sunday, and find a route with few cars. Then ride to work once a week, and perhaps ask a colleague to come with you. After a month, many people find that they want to ride more often. You do not need an expensive bike or special clothes. You only need a little courage, a helmet and a plan. Most new cyclists say the same thing: they wish they had started earlier. Cycling can also be a good way to meet new people."
+      ],
+      "headings": [
+        "Exercise without a gym",
+        "Choosing the best bike to buy",
+        "Dealing with the weather",
+        "A growing number of riders",
+        "The fastest way through the city",
+        "Small steps for beginners",
+        "Saving money every month",
+        "Making the roads safer"
+      ],
+      "answers": [3, 6, 0, 4, 7, 2, 5],
+      "explanations": [
+        {
+          "en": "The paragraph says more people ride to work than ten years ago. It does not explain how to choose a bike, so that heading does not fit.",
+          "es": "El párrafo dice que hoy más gente va en bici que hace diez años. No explica cómo elegir una bici, así que ese encabezado no encaja."
+        },
+        {
+          "en": "Petrol, parking and tickets are expensive, and a bike costs much less. The heading about the best bike to buy is tempting because a second-hand bike is mentioned, but the main idea is saving money.",
+          "es": "Gasolina, aparcamiento y billetes son caros y una bici cuesta mucho menos. El encabezado sobre la mejor bici tienta porque se cita una de segunda mano, pero la idea principal es ahorrar."
+        },
+        {
+          "en": "The paragraph is about health: cycling is exercise for people who sit at a desk, and it makes them feel stronger and happier.",
+          "es": "El párrafo trata de la salud: ir en bici es ejercicio para quien pasa el día sentado y hace sentirse más fuerte y contento."
+        },
+        {
+          "en": "A bike can do five kilometres in twenty minutes, while a car needs forty. The paragraph is about time, not about safety or exercise.",
+          "es": "En bici se hacen cinco kilómetros en veinte minutos y en coche en cuarenta. El párrafo habla de tiempo, no de seguridad ni de ejercicio."
+        },
+        {
+          "en": "Special bike lanes, helmets and lights are all ways to make cycling safer.",
+          "es": "Los carriles bici, los cascos y las luces son formas de hacer el ciclismo más seguro."
+        },
+        {
+          "en": "Rain, wet clothes and cold mornings are about the weather. The paragraph gives ideas such as a shower, a locker and a waterproof coat.",
+          "es": "Lluvia, ropa mojada y mañanas frías son cuestiones del tiempo. El párrafo da ideas como la ducha, la taquilla y el abrigo impermeable."
+        },
+        {
+          "en": "The writer advises riding on a quiet Sunday first and then once a week. These are small steps for someone who is starting.",
+          "es": "El autor aconseja empezar un domingo tranquilo y luego una vez por semana. Son pequeños pasos para quien empieza."
+        }
+      ]
+    },
+    {
+      "id": "r4-a2-2",
+      "examPart": "reading-4",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "title": "Getting a good night's sleep",
+      "paragraphs": [
+        "Do you sleep well? Many adults say they do not. They go to bed late, lie awake for an hour and wake up tired in the morning. Doctors say that most adults need between seven and nine hours of sleep every night. Teenagers need even more. But in many countries, people sleep less than they did fifty years ago. This is a problem, because sleep is not just a rest. During the night, the body repairs itself and the brain sorts out everything we learned during the day. Here are some facts about sleep and some simple ideas that can help.",
+        "When we do not sleep enough, we feel the effects very quickly. We find it hard to concentrate, and we forget small things, like where we left our keys. We are also more bad-tempered, and we may argue with people we love. After several nights of bad sleep, the body starts to suffer too. We catch colds more easily, and we feel hungry more often, especially for sweet food. Drivers who are very tired have more accidents, so a lack of sleep can be dangerous as well as unpleasant. Children and teenagers are also affected, and they often do worse at school.",
+        "One of the biggest problems today is the screen. Many people check their phones in bed, watch a series on a tablet or answer emails late at night. The light from these screens tells the brain that it is still daytime, so we feel more awake than we really are. The content can also make us excited or worried, which is not good before sleep. Experts advise people to turn off all screens at least one hour before bed. If you need an alarm, buy a cheap clock, and leave your phone in another room.",
+        "What we eat and drink in the evening is also important. Coffee, tea and cola all contain caffeine, which can stay in the body for six hours or more. A cup of coffee at four o'clock may still be keeping you awake at ten. A big dinner late at night can also make it hard to sleep, because the stomach is still working hard. Many people think that a glass of wine helps them to relax, but it actually makes sleep lighter, and they wake up more often during the night. A warm drink of milk or a herbal tea is a better choice, and it is wise to have your last coffee before lunch.",
+        "The bedroom itself can make a big difference. The best room for sleeping is dark, quiet and cool, with a temperature of about eighteen degrees. If there is a street light outside your window, thick curtains can help. If your neighbours are noisy, you can try small earplugs. A comfortable bed is important too: an old mattress that is too soft or too hard can cause pains in the back and neck. You should also use your bed only for sleeping, and not for working or eating, so that your brain learns to connect the bed with rest. A fan or an open window can help on hot summer nights.",
+        "Another useful habit is to keep a regular routine. Try to go to bed and to get up at about the same time every day, even at the weekend. The body likes to know what to expect. Exercise helps as well. A walk or a swim during the day makes it easier to fall asleep at night, but hard exercise just before bed can have the opposite effect. Spending some time outside in the morning light is also good, because daylight helps the body to understand when it is time to be awake and when it is time to rest.",
+        "Sometimes, however, these simple ideas are not enough. If you cannot sleep for many weeks, or if you feel very tired all day, you should talk to a doctor, who can also check if there is a simple reason, like a medicine you are taking. Some people have medical problems, like loud snoring with breathing stops, that need special treatment. Others are worried or sad, and talking to someone can help more than any pill. Most people, however, can improve their sleep with small changes. Start with one idea this week and see how you feel. Many people are surprised at how quickly they notice the difference."
+      ],
+      "headings": [
+        "When to ask for professional help",
+        "Phones, tablets and the night",
+        "Sleeping habits in different countries",
+        "A common problem for many adults",
+        "The best room for sleeping",
+        "How tiredness changes our body and mind",
+        "Good habits during the day",
+        "Drinks and meals before bed"
+      ],
+      "answers": [3, 5, 1, 7, 4, 6, 0],
+      "explanations": [
+        {
+          "en": "The paragraph says many adults do not sleep well and need more hours. 'Sleeping habits in different countries' is tempting because countries are mentioned, but the text does not compare them.",
+          "es": "El párrafo dice que muchos adultos no duermen bien y necesitan más horas. «Sleeping habits in different countries» tienta porque se citan países, pero no se comparan."
+        },
+        {
+          "en": "Forgetting things, bad temper, colds and accidents are all effects of too little sleep on body and mind.",
+          "es": "Olvidos, mal humor, resfriados y accidentes son efectos de dormir poco en el cuerpo y la mente."
+        },
+        {
+          "en": "The paragraph is about phones, tablets and screens in bed, and why the light keeps us awake.",
+          "es": "El párrafo trata de móviles, tabletas y pantallas en la cama, y de por qué la luz nos mantiene despiertos."
+        },
+        {
+          "en": "Coffee, cola, a big dinner and wine are all things we have in the evening. The advice is about what to eat and drink before bed.",
+          "es": "Café, cola, una cena pesada y vino son cosas de la tarde-noche. El consejo trata de qué comer y beber antes de dormir."
+        },
+        {
+          "en": "The paragraph describes the room: dark, quiet, cool, with thick curtains and a comfortable bed.",
+          "es": "El párrafo describe la habitación: oscura, silenciosa, fresca, con cortinas gruesas y una cama cómoda."
+        },
+        {
+          "en": "Regular times, exercise and morning light are habits for the day that help us sleep at night. The paragraph is not about food or the bedroom.",
+          "es": "Horarios regulares, ejercicio y luz de la mañana son hábitos diarios que ayudan a dormir de noche. El párrafo no trata de comida ni del dormitorio."
+        },
+        {
+          "en": "The paragraph says to see a doctor if the problem lasts many weeks. That is asking for professional help.",
+          "es": "El párrafo dice que hay que ir al médico si el problema dura muchas semanas. Eso es pedir ayuda profesional."
+        }
+      ]
+    }
+  ]
+}

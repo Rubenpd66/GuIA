@@ -1,0 +1,121 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l2-a2-1",
+      "examPart": "listening-2",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "question": "Four people talk about last weekend. What did each person do?",
+      "options": [
+        "They stayed at home and watched films.",
+        "They visited their family in another town.",
+        "They went for a long walk in the countryside.",
+        "They played a sport with friends.",
+        "They went shopping for clothes.",
+        "They cooked a meal for friends."
+      ],
+      "speakers": [
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "The weather was lovely on Saturday, so we took some sandwiches and drove to the hills. We walked for about four hours. It was a bit tiring, but the views were beautiful, and it was so quiet."
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "On Sunday morning I played football with my old school friends. We do it every month. We lost three-two, but it doesn't matter. After the game we all had coffee and talked about our jobs."
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "My parents live in a small town two hours away, so I went there by train on Saturday. My mum made my favourite lunch, and my brother and his children came too. It was nice to see everyone."
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "It rained all weekend, so I didn't go out at all. I made some popcorn, sat on the sofa and watched three old films. It was exactly what I needed after a busy week at work."
+            }
+          ],
+          "answer": 0
+        }
+      ],
+      "explanation": {
+        "en": "The first speaker went walking in the hills. The second played football with friends. The third took the train to see her parents, brother and nephews or nieces. The fourth stayed in and watched films. Nobody went shopping, and nobody cooked for friends: the third speaker's mother made lunch for the family.",
+        "es": "La primera fue a caminar por las colinas. El segundo jugó al fútbol con amigos. La tercera tomó el tren para ver a su familia. El cuarto se quedó en casa viendo películas. Nadie fue de compras ni cocinó para amigos: la comida de la tercera la hizo su madre para la familia."
+      }
+    },
+    {
+      "id": "l2-a2-2",
+      "examPart": "listening-2",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 2,
+      "question": "Four people talk about their jobs. What does each person like about their job?",
+      "options": [
+        "The pay is very good.",
+        "They work with friendly colleagues.",
+        "They can work from home.",
+        "They meet people from other countries.",
+        "The working day is short.",
+        "They learn something new every day."
+      ],
+      "speakers": [
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "I'm a web designer. I work in my kitchen, with my cat next to me. I don't have to take a bus or a train, so I get up later and save a lot of time. I don't think I could go back to an office."
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "I work at a hotel near the airport. Our guests come from all over the world: Japan, Brazil, Poland. I love hearing about their countries and their food. Every day I talk to someone from a different place."
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "script": [
+            {
+              "speaker": "woman",
+              "text": "The job isn't very well paid, and it's a long day, but I don't mind. My colleagues are great. We eat lunch together, we help each other, and on Fridays someone always brings a cake."
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "script": [
+            {
+              "speaker": "man",
+              "text": "I drive a lorry. It's a hard job and I'm often away from home, but I earn nearly twice as much as I did in my last job. That's why I stay. My wife and I are saving for a house."
+            }
+          ],
+          "answer": 0
+        }
+      ],
+      "explanation": {
+        "en": "The web designer works at home. The hotel worker meets guests from many countries. The third speaker says the pay is low and the day is long, but the colleagues are great. The lorry driver earns nearly twice as much as before. Nobody says the working day is short, and nobody says they learn something new every day.",
+        "es": "La diseñadora trabaja en casa. El del hotel conoce a huéspedes de muchos países. La tercera dice que cobra poco y que la jornada es larga, pero que sus compañeros son estupendos. El camionero gana casi el doble que antes. Nadie dice que la jornada sea corta ni que aprenda algo nuevo cada día."
+      }
+    }
+  ]
+}

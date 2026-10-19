@@ -1,0 +1,179 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r2-a2-1",
+      "examPart": "reading-2",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 1,
+      "title": "A concert in the park",
+      "sentences": [
+        "Last Saturday my friend Marta invited me to a small concert in the park.",
+        "I said yes at once, because I love live music.",
+        "We met at the bus stop at five o'clock and took the bus together.",
+        "When we arrived, the park was already full of people, so we sat on the grass near the stage.",
+        "The band played for two hours, and we sang along to some of the songs.",
+        "After the concert we had an ice cream and then went home, very happy."
+      ],
+      "explanation": {
+        "en": "The story follows the order of events: the invitation, the answer, the journey, the arrival, the music and the end of the evening. 'When we arrived' comes after the bus, and 'After the concert' must be last.",
+        "es": "La historia sigue el orden de los hechos: invitación, respuesta, viaje, llegada, música y final de la tarde. «When we arrived» va después del autobús y «After the concert» va al final."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "said yes",
+          "refersTo": 0,
+          "note": {
+            "en": "It is the answer to the invitation.",
+            "es": "Es la respuesta a la invitación."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "When we arrived",
+          "refersTo": 2,
+          "note": {
+            "en": "We arrive after the bus journey.",
+            "es": "Llegamos después del viaje en autobús."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "The band",
+          "refersTo": 3,
+          "note": {
+            "en": "The band is on the stage mentioned before.",
+            "es": "El grupo está en el escenario que se acaba de mencionar."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "After the concert",
+          "refersTo": 4,
+          "note": {
+            "en": "A time linker: the music is finished.",
+            "es": "Conector de tiempo: la música ha terminado."
+          }
+        }
+      ]
+    },
+    {
+      "id": "r2-a2-2",
+      "examPart": "reading-2",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "title": "My brother starts running",
+      "sentences": [
+        "Last year my brother Tom decided to start running.",
+        "At first he could only run for five minutes, and he was always very tired afterwards.",
+        "So he made a plan and ran three times a week, for a little longer each time.",
+        "After two months he could run for half an hour without stopping.",
+        "Then he asked a friend to run with him, because it is more fun with another person.",
+        "Now they run in the park every Sunday morning, and Tom says he sleeps much better."
+      ],
+      "explanation": {
+        "en": "The time words show the order: 'At first', then 'So he made a plan', 'After two months', 'Then' and finally 'Now'. The first sentence says when it started.",
+        "es": "Las palabras de tiempo marcan el orden: «At first», «So he made a plan», «After two months», «Then» y por último «Now». La primera frase dice cuándo empezó."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "At first",
+          "refersTo": 0,
+          "note": {
+            "en": "It describes the beginning of his running.",
+            "es": "Describe el principio de su carrera."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "So",
+          "refersTo": 1,
+          "note": {
+            "en": "So gives the result: he was tired, so he made a plan.",
+            "es": "«So» da la consecuencia: estaba cansado, así que hizo un plan."
+          }
+        },
+        {
+          "sentence": 3,
+          "phrase": "After two months",
+          "refersTo": 2,
+          "note": {
+            "en": "Time passes while he follows the plan.",
+            "es": "El tiempo pasa mientras sigue el plan."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "Now",
+          "refersTo": 4,
+          "note": {
+            "en": "Now is the present, the last step.",
+            "es": "«Now» es el presente, el último paso."
+          }
+        }
+      ]
+    },
+    {
+      "id": "r2-a2-3",
+      "examPart": "reading-2",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 2,
+      "title": "Sara's new bike",
+      "sentences": [
+        "Sara needed a bike to go to work, but she did not have much money.",
+        "First she looked in the shops, but the new bikes were too expensive.",
+        "Then a colleague told her about a website where people sell things they do not use.",
+        "She found a good bike there and sent a message to the owner.",
+        "The owner lived nearby, so they met the next day and Sara tried the bike in the street.",
+        "She liked it, paid forty pounds, and cycled home on her new bike."
+      ],
+      "explanation": {
+        "en": "The text starts with the problem, then gives the steps: the shops, the website, the message, the meeting and the purchase. 'The owner' follows 'the owner' of the bike in the message, and 'She liked it' comes after she tried it.",
+        "es": "El texto empieza con el problema y sigue los pasos: tiendas, web, mensaje, encuentro y compra. «The owner» retoma «the owner» del mensaje y «She liked it» va después de probar la bici."
+      },
+      "cohesionHints": [
+        {
+          "sentence": 1,
+          "phrase": "First",
+          "refersTo": 0,
+          "note": {
+            "en": "First starts the list of things she did.",
+            "es": "«First» abre la lista de cosas que hizo."
+          }
+        },
+        {
+          "sentence": 2,
+          "phrase": "Then",
+          "refersTo": 1,
+          "note": {
+            "en": "The next step, after the shops.",
+            "es": "El siguiente paso, tras las tiendas."
+          }
+        },
+        {
+          "sentence": 4,
+          "phrase": "The owner",
+          "refersTo": 3,
+          "note": {
+            "en": "A message to the owner becomes the owner.",
+            "es": "«The owner» retoma el mensaje al propietario."
+          }
+        },
+        {
+          "sentence": 5,
+          "phrase": "it",
+          "refersTo": 4,
+          "note": {
+            "en": "It = the bike she tried.",
+            "es": "It = la bici que probó."
+          }
+        }
+      ]
+    }
+  ]
+}

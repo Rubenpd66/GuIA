@@ -1,0 +1,115 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r1-a2-1",
+      "examPart": "reading-1",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 1,
+      "context": "A postcard from a holiday",
+      "items": [
+        {
+          "prompt": "We arrived ___ the hotel at six o'clock.",
+          "options": ["at", "in", "on"],
+          "answer": 0,
+          "explanation": {
+            "en": "We say arrive at a building or a place, like a hotel or a station. We use arrive in for a city or country.",
+            "es": "Se dice «arrive at» con un edificio o lugar (hotel, estación) y «arrive in» con una ciudad o un país."
+          }
+        },
+        {
+          "prompt": "Yesterday the weather ___ very hot, so we went to the beach.",
+          "options": ["is", "was", "will be"],
+          "answer": 1,
+          "explanation": {
+            "en": "Yesterday is in the past, so we use was.",
+            "es": "«Yesterday» es pasado, así que se usa «was»."
+          }
+        },
+        {
+          "prompt": "There ___ two swimming pools at the hotel.",
+          "options": ["is", "are", "has"],
+          "answer": 1,
+          "explanation": {
+            "en": "Two pools is plural, so we use there are. Has does not work with there.",
+            "es": "«Two swimming pools» es plural: «there are». Con «there» no se usa «has»."
+          }
+        },
+        {
+          "prompt": "We ___ a lot of photos of the old town.",
+          "options": ["took", "made", "did"],
+          "answer": 0,
+          "explanation": {
+            "en": "The correct phrase is take photos, not make photos or do photos.",
+            "es": "La expresión correcta es «take photos» (hacer fotos), no «make» ni «do»."
+          }
+        },
+        {
+          "prompt": "Tomorrow we ___ on a boat trip to a small island.",
+          "options": ["are going", "went", "have been"],
+          "answer": 0,
+          "explanation": {
+            "en": "Tomorrow is in the future, and we use are going for a plan. Went and have been are past forms.",
+            "es": "«Tomorrow» es futuro y «are going» expresa un plan. «Went» y «have been» son formas de pasado."
+          }
+        }
+      ]
+    },
+    {
+      "id": "r1-a2-2",
+      "examPart": "reading-1",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 2,
+      "context": "A note to a flatmate",
+      "items": [
+        {
+          "prompt": "Could you ___ some bread from the shop, please?",
+          "options": ["buy", "sell", "spend"],
+          "answer": 0,
+          "explanation": {
+            "en": "Buy means to get something and pay for it. Sell is what the shop does, and spend is used with money or time.",
+            "es": "«Buy» es comprar. «Sell» es lo que hace la tienda y «spend» se usa con dinero o tiempo."
+          }
+        },
+        {
+          "prompt": "The supermarket is ___ than the small shop on our street.",
+          "options": ["cheap", "cheaper", "more cheap"],
+          "answer": 1,
+          "explanation": {
+            "en": "With than we need a comparative. Short adjectives like cheap add -er: cheaper.",
+            "es": "Con «than» hace falta un comparativo. Los adjetivos cortos añaden -er: «cheaper»."
+          }
+        },
+        {
+          "prompt": "I haven't got ___ eggs, so I can't make a cake.",
+          "options": ["some", "any", "a"],
+          "answer": 1,
+          "explanation": {
+            "en": "In negative sentences we use any with plural nouns, not some.",
+            "es": "En frases negativas se usa «any» con plurales, no «some»."
+          }
+        },
+        {
+          "prompt": "You can pay ___ card, but they don't take cash.",
+          "options": ["by", "with", "on"],
+          "answer": 0,
+          "explanation": {
+            "en": "We say pay by card, pay by cheque, pay by credit card, with no article.",
+            "es": "Se dice «pay by card», sin artículo. «With card» y «on card» no son naturales."
+          }
+        },
+        {
+          "prompt": "This jacket is too ___ for me. I only have ten pounds.",
+          "options": ["expensive", "expensively", "expense"],
+          "answer": 0,
+          "explanation": {
+            "en": "After is too we need an adjective. Expensive is the adjective; expensively is an adverb and expense is a noun.",
+            "es": "Tras «is too» va un adjetivo: «expensive». «Expensively» es adverbio y «expense» es un sustantivo."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "r3-a2-1",
+      "examPart": "reading-3",
+      "cefrLevel": "A2",
+      "topic": "city",
+      "difficulty": 2,
+      "question": "What do you think about living in the city centre?",
+      "people": [
+        {
+          "name": "Lucy",
+          "text": "I live in a small flat in the centre. I walk to work in ten minutes, so I don't need a car. But my street is very noisy at night and my windows are old. Sometimes I can't sleep. Next year I want to move to a quieter street."
+        },
+        {
+          "name": "Omar",
+          "text": "I love the centre because there are so many shops and cafés. My favourite place is the old market on Saturdays. The problem is the price. Rents are very high, so I share a flat with two friends."
+        },
+        {
+          "name": "Elena",
+          "text": "I grew up in the centre, but now I live in a village near the city. We have a garden, and our children can play outside. I drive to work and it takes forty minutes. It is tiring, but I would not change my life."
+        },
+        {
+          "name": "Jack",
+          "text": "I work in the centre, but I live outside it. I go by train, and I read a book on the way. The centre is great for work, but at weekends I like green places. I walk in the hills with my dog."
+        }
+      ],
+      "statements": [
+        {
+          "text": "This person goes to work on foot.",
+          "answer": 0,
+          "explanation": {
+            "en": "Lucy says she walks to work in ten minutes.",
+            "es": "Lucy dice que va andando al trabajo en diez minutos."
+          }
+        },
+        {
+          "text": "This person lives with other people because housing is expensive.",
+          "answer": 1,
+          "explanation": {
+            "en": "Omar says rents are very high, so he shares a flat with two friends.",
+            "es": "Omar dice que los alquileres son muy altos, así que comparte piso con dos amigos."
+          }
+        },
+        {
+          "text": "This person has a long journey to work every day.",
+          "answer": 2,
+          "explanation": {
+            "en": "Elena drives to work and it takes forty minutes. Jack does not say how long his train journey is.",
+            "es": "Elena conduce al trabajo y tarda cuarenta minutos. Jack no dice cuánto dura su trayecto en tren."
+          }
+        },
+        {
+          "text": "This person is planning to move to another home.",
+          "answer": 0,
+          "explanation": {
+            "en": "Lucy wants to move to a quieter street next year. Elena says she would not change her life.",
+            "es": "Lucy quiere mudarse a una calle más tranquila el año que viene. Elena dice que no cambiaría su vida."
+          }
+        },
+        {
+          "text": "This person reads while travelling to work.",
+          "answer": 3,
+          "explanation": {
+            "en": "Jack goes by train and reads a book on the way.",
+            "es": "Jack va en tren y lee un libro por el camino."
+          }
+        },
+        {
+          "text": "This person enjoys visiting a market once a week.",
+          "answer": 1,
+          "explanation": {
+            "en": "Omar's favourite place is the old market on Saturdays.",
+            "es": "El sitio favorito de Omar es el mercado antiguo los sábados."
+          }
+        },
+        {
+          "text": "This person's children can play in a garden.",
+          "answer": 2,
+          "explanation": {
+            "en": "Elena says they have a garden and their children can play outside.",
+            "es": "Elena dice que tienen jardín y sus hijos pueden jugar fuera."
+          }
+        }
+      ]
+    },
+    {
+      "id": "r3-a2-2",
+      "examPart": "reading-3",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 2,
+      "question": "What is the best way to learn English?",
+      "people": [
+        {
+          "name": "Maria",
+          "text": "I study English with an app for twenty minutes every day. It is cheap, and I can use it on the bus. But I am shy about speaking, and the app can't answer my questions. I want to find someone to practise with."
+        },
+        {
+          "name": "Ben",
+          "text": "I like a real classroom. I enjoy meeting other students, and my teacher gives us games to play. After class we sometimes have a coffee together. I tried online lessons last year, but I got bored."
+        },
+        {
+          "name": "Aisha",
+          "text": "I work all day and I have two young children, so I can't go to a school. I have a video lesson with a teacher on Sunday evenings. She corrects my mistakes, and I pay less than I would pay at a school."
+        },
+        {
+          "name": "Pedro",
+          "text": "I learn English by watching films and series. At first I used Spanish subtitles, but now I use English ones. It is fun, and I have learnt many new words. The only problem is that I never practise writing."
+        }
+      ],
+      "statements": [
+        {
+          "text": "This person studies in short sessions on a phone.",
+          "answer": 0,
+          "explanation": {
+            "en": "Maria uses an app for twenty minutes every day, even on the bus.",
+            "es": "Maria usa una aplicación veinte minutos al día, incluso en el autobús."
+          }
+        },
+        {
+          "text": "This person would like more chances to speak English with someone.",
+          "answer": 0,
+          "explanation": {
+            "en": "Maria says she is shy and wants to find someone to practise with.",
+            "es": "Maria dice que le da vergüenza hablar y quiere encontrar a alguien con quien practicar."
+          }
+        },
+        {
+          "text": "This person likes to meet classmates after the lesson.",
+          "answer": 1,
+          "explanation": {
+            "en": "Ben says they sometimes have a coffee together after class.",
+            "es": "Ben dice que a veces toman un café juntos después de clase."
+          }
+        },
+        {
+          "text": "This person can't study at a school because of a busy family life.",
+          "answer": 2,
+          "explanation": {
+            "en": "Aisha works all day and has two young children, so she can't go to a school.",
+            "es": "Aisha trabaja todo el día y tiene dos hijos pequeños, así que no puede ir a una escuela."
+          }
+        },
+        {
+          "text": "This person's teacher tells them when they make mistakes.",
+          "answer": 2,
+          "explanation": {
+            "en": "Aisha says her teacher corrects her mistakes.",
+            "es": "Aisha dice que su profesora le corrige los errores."
+          }
+        },
+        {
+          "text": "This person has learnt new words from entertainment.",
+          "answer": 3,
+          "explanation": {
+            "en": "Pedro watches films and series and says he has learnt many new words.",
+            "es": "Pedro ve películas y series y dice que ha aprendido muchas palabras nuevas."
+          }
+        },
+        {
+          "text": "This person does not practise one of the English skills.",
+          "answer": 3,
+          "explanation": {
+            "en": "Pedro says he never practises writing.",
+            "es": "Pedro dice que nunca practica la escritura."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "kind": "exercises",
+  "items": [
+    {
+      "id": "l1-a2-1",
+      "examPart": "listening-1",
+      "cefrLevel": "A2",
+      "topic": "work",
+      "difficulty": 1,
+      "context": "A voicemail from a colleague",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Hello Paul, it's Sandra. I'm going to be late for work this morning, because my train is cancelled. I'll arrive at about ten o'clock. Could you open the shop, please, and put the new shoes in the window? The keys are in my top drawer. Thanks, see you later."
+        }
+      ],
+      "question": "Why is Sandra going to be late?",
+      "options": [
+        "Her train is not running.",
+        "She has a doctor's appointment.",
+        "She is waiting for a delivery."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Sandra says her train is cancelled, so it is not running. She does not mention a doctor or a delivery.",
+        "es": "Sandra dice que su tren está cancelado. No menciona ni al médico ni un envío."
+      }
+    },
+    {
+      "id": "l1-a2-2",
+      "examPart": "listening-1",
+      "cefrLevel": "A2",
+      "topic": "education",
+      "difficulty": 1,
+      "context": "An announcement at a language school",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "Good afternoon, students. Tomorrow's English class will not be in Room 3, because the heating is broken. We are going to use Room 8, on the second floor. The class starts at the usual time, half past nine. Please bring your books and a pen. There is no class on Friday, because it is a holiday."
+        }
+      ],
+      "question": "Where will tomorrow's class be?",
+      "options": ["In Room 3", "In Room 8", "On the first floor"],
+      "answer": 1,
+      "explanation": {
+        "en": "The class will be in Room 8. Room 3 is the usual room, and Room 8 is on the second floor, not the first.",
+        "es": "La clase será en el aula 8. El aula 3 es la habitual y la 8 está en la segunda planta, no en la primera."
+      }
+    },
+    {
+      "id": "l1-a2-3",
+      "examPart": "listening-1",
+      "cefrLevel": "A2",
+      "topic": "travel",
+      "difficulty": 2,
+      "context": "An announcement at a railway station",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Attention, please. The twelve fifteen train to Manchester is twenty minutes late. It will now leave from platform four, not platform two. Passengers should go down the stairs and wait on the other side of the station. We are sorry for the delay."
+        }
+      ],
+      "question": "What should passengers do?",
+      "options": [
+        "Go to a different platform.",
+        "Wait for the next train.",
+        "Buy a new ticket."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The train now leaves from platform four, not platform two, so passengers must change platform. The train is only late, not cancelled, and nobody talks about tickets.",
+        "es": "El tren sale ahora del andén cuatro, no del dos, así que hay que cambiar de andén. Solo va con retraso, no está cancelado, y no se habla de billetes."
+      }
+    },
+    {
+      "id": "l1-a2-4",
+      "examPart": "listening-1",
+      "cefrLevel": "A2",
+      "topic": "health-sport",
+      "difficulty": 2,
+      "context": "A man talks about his new hobby",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "I started going to the swimming pool last month. I go on Tuesday and Thursday mornings before work, and I swim for about forty minutes. At first I was very tired, but now I feel great. My back doesn't hurt any more, and I sleep much better at night."
+        }
+      ],
+      "question": "What has changed since he started swimming?",
+      "options": [
+        "He has less back pain and sleeps better.",
+        "He has made some new friends.",
+        "He has more free time in the morning."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "He says his back doesn't hurt any more and he sleeps better. He does not talk about friends, and he swims before work, so he has less time, not more.",
+        "es": "Dice que ya no le duele la espalda y que duerme mejor. No habla de amigos, y nada antes del trabajo, así que no tiene más tiempo libre."
+      }
+    },
+    {
+      "id": "l1-a2-5",
+      "examPart": "listening-1",
+      "cefrLevel": "A2",
+      "topic": "shopping-consumption",
+      "difficulty": 2,
+      "context": "A phone message from a bookshop",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Hello, this is Green's Bookshop. The book you ordered has arrived. It's on the shelf behind the desk, with your name on it. The price is twelve pounds fifty. You can pay by card or in cash. We are open until six o'clock today, but we are closed all day tomorrow."
+        }
+      ],
+      "question": "How much is the book?",
+      "options": ["£12.50", "£15.20", "£50"],
+      "answer": 0,
+      "explanation": {
+        "en": "The assistant says twelve pounds fifty, which is £12.50. Six o'clock is the closing time, not a price.",
+        "es": "La dependienta dice «twelve pounds fifty», es decir, 12,50 libras. Las seis es la hora de cierre, no un precio."
+      }
+    },
+    {
+      "id": "l1-a2-6",
+      "examPart": "listening-1",
+      "cefrLevel": "A2",
+      "topic": "city",
+      "difficulty": 2,
+      "context": "A man gives directions to a visitor",
+      "script": [
+        {
+          "speaker": "man",
+          "text": "Go straight on until you see a big supermarket on your left. Turn right there, and walk past the library. The post office is next to the bank, opposite the park. It takes about ten minutes. Don't take the first road on the right, because it is closed this week."
+        }
+      ],
+      "question": "Where is the post office?",
+      "options": [
+        "Next to the library.",
+        "Next to the bank.",
+        "Next to the supermarket."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The man says the post office is next to the bank. You walk past the library and turn at the supermarket, but the post office is not next to them.",
+        "es": "El hombre dice que la oficina de correos está al lado del banco. Se pasa por la biblioteca y se gira en el supermercado, pero no está junto a ellos."
+      }
+    },
+    {
+      "id": "l1-a2-7",
+      "examPart": "listening-1",
+      "cefrLevel": "A2",
+      "topic": "culture-leisure",
+      "difficulty": 2,
+      "context": "A voicemail from a friend about the weekend",
+      "script": [
+        {
+          "speaker": "woman",
+          "text": "Hi Jack, it's Lena. Are you free on Saturday? Some friends and I are going to the cinema in the evening to see a comedy. The film starts at eight, but we are meeting for pizza at six, near the cinema. Can you call me back tonight? I'd like to buy the tickets before tomorrow."
+        }
+      ],
+      "question": "What does Lena want Jack to do?",
+      "options": [
+        "Call her back tonight.",
+        "Buy the tickets for the film.",
+        "Meet her at eight for pizza."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Lena asks him to call her back tonight. She will buy the tickets herself, and the pizza is at six, not eight.",
+        "es": "Lena le pide que la llame esta noche. Ella comprará las entradas y la pizza es a las seis, no a las ocho."
+      }
+    }
+  ]
+}
