@@ -2,7 +2,7 @@ import { entriesOfGroup, type ContentIndex } from "@/lib/content/index";
 import { localized } from "@/lib/content/localize";
 import type { CefrLevel } from "@/lib/content/schemas/common";
 import type { ExamPart } from "@/lib/exam/format";
-import { levelsFor, TIER_LEVEL, type Tier } from "./tiers";
+import { PRICES, levelsFor, TIER_LEVEL, type PaidTier, type Tier } from "./tiers";
 
 export type PlanFigures = {
   lessons: number;
@@ -51,4 +51,13 @@ export function levelCatalogue(
       .map((g) => ({ slug: g.slug, title: localized(g.title, locale) })),
     tasksByPart,
   };
+}
+
+/** The two prices of a plan for structured data: decimal strings with a dot, VAT included. */
+export function offersFor(tier: PaidTier) {
+  const price = (cents: number) => (cents / 100).toFixed(2);
+  return [
+    { interval: "month" as const, price: price(PRICES[tier].month) },
+    { interval: "year" as const, price: price(PRICES[tier].year) },
+  ];
 }

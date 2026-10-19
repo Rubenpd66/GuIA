@@ -1156,6 +1156,39 @@
       "tasks": "{count, plural, one {# practice task} other {# practice tasks}}",
       "mock": "Mock exam up to level {level}"
     },
+    "catalogue": {
+      "title": "What each level holds",
+      "lessons": "{count, plural, one {# lesson} other {# lessons}}",
+      "vocabulary": "{count, plural, one {# vocabulary group} other {# vocabulary groups}}",
+      "tasks": "Tasks by exam part"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "vat": {
+        "q": "Do the prices include VAT?",
+        "a": "Yes. The price you see is the price you pay, VAT included."
+      },
+      "cancel": {
+        "q": "How do I cancel?",
+        "a": "From your account, under \"Manage subscription\". Cancelling takes effect at the end of the period you have already paid for, and you keep access until then."
+      },
+      "change": {
+        "q": "Can I change plan?",
+        "a": "Yes, from the same place. Upgrading is immediate and you pay only the difference that applies; going down a plan or from yearly to monthly takes effect at the end of the period."
+      },
+      "progress": {
+        "q": "What happens to my progress if I go down a plan or cancel?",
+        "a": "Your progress is kept. The only change is that content above your plan's level locks again."
+      },
+      "withdrawal": {
+        "q": "Can I withdraw within 14 days?",
+        "a": "When you pay, you ask for immediate access to digital content and accept losing that right of withdrawal. The details are in the <terms>terms of use</terms>."
+      },
+      "affiliation": {
+        "q": "Is Sello official?",
+        "a": "No. Sello is an independent website for practising Aptis ESOL General. It is not affiliated with the British Council and does not guarantee any result in the official exam."
+      }
+    },
     "buttons": {
       "start": "Start free",
       "createAccount": "Create account and subscribe",

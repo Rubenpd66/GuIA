@@ -1156,6 +1156,39 @@
       "tasks": "{count, plural, one {# tarea de práctica} other {# tareas de práctica}}",
       "mock": "Simulacro hasta nivel {level}"
     },
+    "catalogue": {
+      "title": "Qué hay en cada nivel",
+      "lessons": "{count, plural, one {# lección} other {# lecciones}}",
+      "vocabulary": "{count, plural, one {# grupo de vocabulario} other {# grupos de vocabulario}}",
+      "tasks": "Tareas por parte del examen"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "vat": {
+        "q": "¿Los precios llevan IVA?",
+        "a": "Sí. El precio que ves es el que pagas, con el IVA incluido."
+      },
+      "cancel": {
+        "q": "¿Cómo cancelo?",
+        "a": "Desde tu cuenta, en «Gestionar suscripción». La cancelación se aplica al final del periodo ya pagado y hasta entonces conservas el acceso."
+      },
+      "change": {
+        "q": "¿Puedo cambiar de plan?",
+        "a": "Sí, desde el mismo sitio. Subir de plan es inmediato y se paga solo la diferencia que corresponde; bajar de plan o pasar de anual a mensual se aplica al final del periodo."
+      },
+      "progress": {
+        "q": "¿Qué pasa con mi progreso si bajo de plan o cancelo?",
+        "a": "Tu progreso se conserva. Lo único que cambia es que el contenido de niveles superiores al de tu plan vuelve a bloquearse."
+      },
+      "withdrawal": {
+        "q": "¿Puedo desistir en 14 días?",
+        "a": "Al pagar pides acceso inmediato al contenido digital y aceptas perder ese derecho de desistimiento. Los detalles están en los <terms>términos de uso</terms>."
+      },
+      "affiliation": {
+        "q": "¿Sello es oficial?",
+        "a": "No. Sello es una web independiente para practicar Aptis ESOL General. No está afiliada al British Council ni garantiza ningún resultado en el examen oficial."
+      }
+    },
     "buttons": {
       "start": "Empezar gratis",
       "createAccount": "Crear cuenta y suscribirme",

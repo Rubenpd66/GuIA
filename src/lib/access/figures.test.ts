@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { ContentIndex } from "@/lib/content";
-import { levelCatalogue, planFigures } from "./figures";
+import { levelCatalogue, offersFor, planFigures } from "./figures";
 
 const lesson = (slug: string, level: string) => ({
   slug,
@@ -84,5 +84,15 @@ describe("levelCatalogue", () => {
     expect(levelCatalogue(index, "A2", "en").groups).toEqual([
       { slug: "travel", title: "Travel" },
     ]);
+  });
+});
+
+describe("offersFor", () => {
+  it("lists the monthly and yearly prices as decimal strings", () => {
+    expect(offersFor("b1")).toEqual([
+      { interval: "month", price: "9.99" },
+      { interval: "year", price: "95.90" },
+    ]);
+    expect(offersFor("c1")[1]).toEqual({ interval: "year", price: "191.90" });
   });
 });
