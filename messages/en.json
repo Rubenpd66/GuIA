@@ -683,5 +683,160 @@
       "writing-3": "Three questions from other members in a chat. You answer each one in 30 to 40 words.",
       "writing-4": "A notice about a change. You write an informal email to a friend (40–50 words) and a formal one to the person in charge (120–150 words)."
     }
+  },
+  "Speaking": {
+    "trainer": {
+      "instructions": {
+        "speaking-1": "Answer three personal questions. You have 30 seconds for each one.",
+        "speaking-2": "Describe the picture and answer two more questions. You have 45 seconds for each one.",
+        "speaking-3": "Compare the two pictures and answer two more questions. You have 45 seconds for each one.",
+        "speaking-4": "Read the three questions. You have 1 minute to prepare and 2 minutes to answer all three together."
+      },
+      "studyMode": "Study mode",
+      "examMode": "Exam mode",
+      "studyHint": "You start speaking when you are ready, can repeat each answer and see the models after every question.",
+      "examHint": "One task with the exam's timings. The question is read aloud and recording starts and stops on its own, with no retries. At the end, models and a self-assessment.",
+      "bankSize": "{count, plural, one {# task available} other {# tasks available}}. The bank grows in the next batches.",
+      "turn": "Turn {current} of {total}",
+      "questionN": "Question {number}",
+      "pictureN": "Picture {number}",
+      "phase": {
+        "reading": "Listen to the question…",
+        "ready": "When you are ready, start speaking.",
+        "preparing": "Prepare",
+        "answering": "Speak now",
+        "done": "Time is over"
+      },
+      "listenQuestion": "Listen to the question",
+      "startSpeaking": "Start speaking",
+      "startPreparing": "Start preparing",
+      "speakNow": "Start speaking now",
+      "stopSpeaking": "I've finished",
+      "recording": "Recording",
+      "notRecording": "Not recording: speak aloud",
+      "micRequesting": "Waiting for microphone permission…",
+      "micDenied": "There is no permission to use the microphone. You can still practise by speaking aloud; to record, allow the microphone in your browser and start again.",
+      "micUnavailable": "This browser or device cannot record. You can still practise by speaking aloud with the timers.",
+      "secondsLeft": "{seconds} s",
+      "announce": {
+        "start": "Time starts: {seconds} seconds.",
+        "tenLeft": "10 seconds left.",
+        "timeUp": "Time's up."
+      },
+      "retry": "Repeat the answer",
+      "next": "Next",
+      "finish": "See the review",
+      "yourRecording": "Your recording",
+      "noRecording": "There is no recording of this turn.",
+      "download": "Download",
+      "model": {
+        "b2": "B2 model",
+        "c": "C model"
+      },
+      "modelWords": "{count} words",
+      "role": {
+        "intro": "Introduction",
+        "development": "Development",
+        "example": "Example",
+        "speculation": "Speculation",
+        "conclusion": "Conclusion"
+      },
+      "listenModel": "Listen to the model",
+      "stopModel": "Stop",
+      "structureTitle": "Structure for this part",
+      "structure": {
+        "speaking-1": "Direct answer → a reason → a personal example.",
+        "speaking-2": "Overview → details (front, back) → speculation (might, looks as if) → your opinion.",
+        "speaking-3": "What they share → the differences (whereas, by contrast) → speculation → your preference and why.",
+        "speaking-4": "Experience (what, when, where) → how you felt → the general question with both sides → conclusion."
+      },
+      "notes": "Notes (not saved)",
+      "tips": "Tips for this part",
+      "reviewTitle": "Listen to yourself and compare with the models",
+      "checklistTitle": "Self-assessment",
+      "checklistNote": "Listen to your recordings, compare them with the models and tick what you achieved. This is the app's own rubric, not the official scale, and it gives no exam score.",
+      "saveAssessment": "Save the self-assessment",
+      "savedSummary": "You ticked {correct} of {total} criteria. Your recordings are deleted when you leave this session.",
+      "strategies": {
+        "speaking-1": {
+          "s1": "Answer straight away and get to the point: 30 seconds go very fast.",
+          "s2": "Add a reason and an example so you do not stop after one sentence.",
+          "s3": "Use the time you have, but it is fine to finish a little early.",
+          "s4": "Speak naturally: this part does not need fancy vocabulary."
+        },
+        "speaking-2": {
+          "s1": "Start with an overview of the picture, then move on to the details.",
+          "s2": "Speculate about what you cannot see for sure: might, could, it looks as if.",
+          "s3": "In the other two questions, link the topic to your own experience.",
+          "s4": "If your mind goes blank, use a phrase to buy time and carry on."
+        },
+        "speaking-3": {
+          "s1": "Really compare: say what they share and how they differ, rather than describing each picture separately.",
+          "s2": "Vary your comparison language: whereas, while, by contrast, far more.",
+          "s3": "When you choose an option, give at least two reasons.",
+          "s4": "Speculate about the people and their feelings to lift the level."
+        },
+        "speaking-4": {
+          "s1": "Use the minute of preparation to note key ideas, not full sentences.",
+          "s2": "Answer the three questions in order and link them into one talk.",
+          "s3": "In the abstract question, present both sides before giving your opinion.",
+          "s4": "Share out the 2 minutes: do not spend all your time on the story."
+        }
+      }
+    },
+    "rubric": {
+      "task": "Task achievement",
+      "fluency": "Fluency and organisation",
+      "language": "Range and accuracy",
+      "pronunciation": "Pronunciation"
+    },
+    "rubricHints": {
+      "speaking-1": {
+        "task": "I answered all three questions with a reason or an example.",
+        "fluency": "I spoke without long pauses for nearly all the time.",
+        "language": "I used correct tenses and some precise vocabulary.",
+        "pronunciation": "I am easy to understand when I listen back."
+      },
+      "speaking-2": {
+        "task": "I described the picture and answered the other two questions.",
+        "fluency": "I moved from the overview to the details and linked my ideas.",
+        "language": "I speculated (might, could, looks as if) and used varied vocabulary.",
+        "pronunciation": "I am easy to understand and my intonation sounds natural."
+      },
+      "speaking-3": {
+        "task": "I compared the two pictures and answered the other two questions.",
+        "fluency": "I organised the comparison and gave reasons for my choice.",
+        "language": "I used varied comparison language and few repeated structures.",
+        "pronunciation": "I am easy to understand and stress the key words well."
+      },
+      "speaking-4": {
+        "task": "I answered all three questions in my two-minute turn.",
+        "fluency": "I spoke continuously and linked the three answers.",
+        "language": "I used complex structures (concession, conditionals, emphatic sentences) with few errors.",
+        "pronunciation": "I am easy to understand throughout the turn."
+      }
+    }
+  },
+  "SpeakingPage": {
+    "intro": "The Speaking paper lasts about {minutes} minutes and has four parts, from personal questions to a two-minute turn on an abstract topic. Here is what each part asks for, strategies and a trainer that records your answers and compares them with B2 and C models.",
+    "privacyTitle": "Your voice never leaves your browser",
+    "privacyBody": "Recordings stay in this page's memory: they are not uploaded anywhere or saved on the device, and they are deleted when you leave the session. If you want to keep one, press “Download”. The microphone is only requested when you start a session.",
+    "micTitle": "Test your microphone",
+    "micBody": "Record 3 seconds and listen back to check everything works before you practise.",
+    "micTest": "Test the microphone",
+    "micTesting": "Recording 3 seconds…",
+    "micResult": "Your test",
+    "noMarking": "Sello does not mark your speaking: you listen to yourself, compare with the models and assess yourself with the app's own rubric, not the official one.",
+    "partTitle": "Part {number}: {name}",
+    "task": {
+      "speaking-1": "Three personal questions. You have 30 seconds for each answer.",
+      "speaking-2": "One picture: you describe it and answer two related questions. You have 45 seconds for each one.",
+      "speaking-3": "Two pictures: you compare them and answer two related questions. You have 45 seconds for each one.",
+      "speaking-4": "One picture and three questions on an abstract topic. You have 1 minute to prepare and 2 minutes to answer all three together."
+    },
+    "examNote": "In the app's exam mode the question is read by one of your device's synthetic voices. If there is no voice, you get 5 seconds to read it before the time starts.",
+    "strategies": "Strategies",
+    "rubricTitle": "How you assess yourself",
+    "practise": "Practise part {number}"
   }
 }

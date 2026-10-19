@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { SessionHeader } from "@/components/trainer/SessionHeader";
+import { Checklist } from "@/components/trainer/Checklist";
 import { TrainerSetup } from "@/components/trainer/TrainerSetup";
 import { useCountdown } from "@/components/trainer/useCountdown";
 import { Button } from "@/components/ui/Button";
@@ -14,13 +15,13 @@ import { WRITING_PART_EXAM, formatClock } from "@/lib/trainer/config";
 import { createRng, randomSeed } from "@/lib/trainer/random";
 import type { TrainerMode } from "@/lib/trainer/reducer";
 import {
+  RUBRIC_CRITERIA,
   buildWritingSession,
   writingItems,
   type WritingExercise,
   type WritingPart,
 } from "@/lib/trainer/writing";
 import { clearDrafts, readDraft, saveDraft } from "@/lib/writing/drafts";
-import { Checklist } from "./Checklist";
 import { ModelAnswers } from "./ModelAnswers";
 import { PhrasePanel } from "./PhrasePanel";
 import { WritingEditor } from "./WritingEditor";
@@ -133,6 +134,7 @@ function WritingSession({
 }: WritingSessionProps) {
   const t = useTranslations("Writing.trainer");
   const tTrainer = useTranslations("Trainer");
+  const tWriting = useTranslations("Writing");
   const { task, mode } = session;
   const items = writingItems(task);
   const [texts, setTexts] = useState<Record<string, string>>(() =>
@@ -305,7 +307,17 @@ function WritingSession({
           </div>
         </div>
       ) : (
-        <Checklist part={part} onSave={save} />
+        <Checklist
+          title={t("checklistTitle")}
+          note={t("checklistNote")}
+          saveLabel={t("saveAssessment")}
+          criteria={RUBRIC_CRITERIA.map((key) => ({
+            key,
+            label: tWriting(`rubric.${key}`),
+            hint: tWriting(`rubricHints.${part}.${key}`),
+          }))}
+          onSave={save}
+        />
       )}
     </section>
   );

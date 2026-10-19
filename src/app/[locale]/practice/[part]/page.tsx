@@ -10,6 +10,7 @@ import { ButtonLink } from "@/components/ui/ButtonLink";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { PHASE_OF_SKILL } from "@/config/sections";
+import { SpeakingTrainer } from "@/components/speaking/SpeakingTrainer";
 import { WritingTrainer } from "@/components/writing/WritingTrainer";
 import { exercisesOfPart, phrasesByFunction } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
@@ -152,6 +153,25 @@ async function PracticePart({ params }: { params: Params }) {
           phrases={phrasesByFunction(content)
             .filter((group) => WRITING_FUNCTIONS.has(group.function))
             .flatMap((group) => group.phrases)}
+        />
+      </>
+    );
+  }
+
+  if (
+    part === "speaking-1" ||
+    part === "speaking-2" ||
+    part === "speaking-3" ||
+    part === "speaking-4"
+  ) {
+    const content = await getContent();
+    return (
+      <>
+        <PageHeader title={await titleOf(part)} />
+        <SpeakingTrainer
+          part={part}
+          tasks={exercisesOfPart(content, part)}
+          phrases={phrasesByFunction(content).flatMap((group) => group.phrases)}
         />
       </>
     );
