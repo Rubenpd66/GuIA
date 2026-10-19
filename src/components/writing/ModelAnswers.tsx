@@ -27,12 +27,12 @@ export function ModelAnswers({
             aria-label={t(`model.${level}`)}
             className="space-y-3 rounded-page bg-sheet p-4"
           >
-            <h4 className="flex flex-wrap justify-between gap-2 font-semibold">
+            <h3 className="flex flex-wrap justify-between gap-2 font-semibold">
               <span>{t(`model.${level}`)}</span>
               <span className="text-sm font-normal text-ink-soft tabular-nums">
                 {t("modelWords", { count: countWords(model.text) })}
               </span>
-            </h4>
+            </h3>
             <p lang="en" className="prose-reading whitespace-pre-line">
               {annotatedSegments(model).map((segment, i) =>
                 segment.annotation === undefined ? (

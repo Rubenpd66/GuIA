@@ -29,8 +29,13 @@ Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writin
   - App decisions: exam mode allows 2 plays per recording, no countdown, 5 tasks in part 1; study mode has no limit. A play counts when it starts.
   - Bank: 16/6/8/6 tasks in `content/exercises/listening-{1,2,3,4}/`, reviewed key by key (part 4 options were shuffled after drafting: agents put every answer at index 0). The validator warns on script length and errors when a part 4 `cue` is not in the script.
   - Check agent drafts for answer position: they tend to put the right option first.
-- **Next: phase 5 (Writing).** Plan written at `docs/superpowers/plans/2026-10-19-phase-5-writing.md`, awaiting the user's approval of its 3 questions (self-assessment saved via a new `recordAttempt`, exam mode locks the editor at zero, bank 8/10/8/6). Do not start code before that approval.
-- Phases 5–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
+- Phase 5 (Writing) is done, committed and browser-checked (375/1280, light/dark, ES/EN, keyboard, fake-clock time-up, blocked storage). Plan: `docs/superpowers/plans/2026-10-19-phase-5-writing.md`.
+  - Logic in `src/lib/trainer/writing.ts` (`wordStatus`, `writingItems`, `annotatedSegments`, `RUBRIC_CRITERIA`, `buildWritingSession` resumes a task with a draft); drafts in `src/lib/writing/drafts.ts` (`sello:writing-drafts`, max 60, cleared when the self-assessment is saved); `recordAttempt` in progress saves an attempt without touching mistakes.
+  - UI in `src/components/writing/` (`WritingTrainer` holds the four parts in one component, `WritingEditor`, `ModelAnswers`, `Checklist`, `PhrasePanel`); `/writing` page; `/practice/writing-1…4`.
+  - App decisions: own 4-criterion rubric (not official), exam = one task in the recommended minutes and the editor locks at zero, study has tips, useful phrases and an optional stopwatch, no spellcheck in the editor.
+  - Bank: 8/10/8/6 tasks in `content/exercises/writing-{1,2,3,4}/`, reviewed one by one; the validator prints Writing task counts.
+- **Next: phase 6 (Speaking).** Write its plan and wait for approval before code.
+- Phases 6–9 follow the spec. Phase 8 still needs the owner's details for the legal notice and a favicon.ico.
 
 ## Commands
 

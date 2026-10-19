@@ -54,7 +54,7 @@ export function PhrasePanel({
         </div>
         {functions.map((fn) => (
           <section key={fn} className="space-y-1">
-            <h4 className="text-sm font-bold">{t(`Functional.${fn}`)}</h4>
+            <h3 className="text-sm font-bold">{t(`Functional.${fn}`)}</h3>
             <ul className="space-y-1">
               {shown
                 .filter((phrase) => phrase.function === fn)
