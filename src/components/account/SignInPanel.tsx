@@ -10,6 +10,7 @@ import {
   signInWithPassword,
   signUp,
 } from "@/lib/auth/actions";
+import { safeNext } from "@/lib/auth/redirect";
 import { supabaseBrowser } from "@/lib/supabase/client";
 import { AuthForm, fieldClass } from "./AuthForm";
 
@@ -51,13 +52,16 @@ function Field({
 export function SignInPanel() {
   const t = useTranslations("Account");
   const locale = useLocale();
-  const linkError = useSearchParams().get("error") === "link";
+  const params = useSearchParams();
+  const linkError = params.get("error") === "link";
+  // Where to come back to (e.g. the plans page); only same-site paths are kept.
+  const next = safeNext(
+    params.get("next"),
+    locale === "en" ? "/en/account" : "/es/cuenta",
+  );
 
   function google() {
-    const params = new URLSearchParams({
-      locale,
-      next: locale === "en" ? "/en/account" : "/es/cuenta",
-    });
+    const params = new URLSearchParams({ locale, next });
     void supabaseBrowser().auth.signInWithOAuth({
       provider: "google",
       options: { redirectTo: `${location.origin}/auth/callback?${params}` },
@@ -78,6 +82,7 @@ export function SignInPanel() {
         </h2>
         <div className="mt-3">
           <AuthForm
+            next={next}
             action={signInWithPassword}
             locale={locale}
             submit={t("signIn")}
@@ -107,6 +112,7 @@ export function SignInPanel() {
         <p className="mt-1 text-ink-soft">{t("magicLead")}</p>
         <div className="mt-3">
           <AuthForm
+            next={next}
             action={sendMagicLink}
             locale={locale}
             submit={t("magicSubmit")}
@@ -126,7 +132,12 @@ export function SignInPanel() {
           {t("signUpTitle")}
         </h2>
         <div className="mt-3">
-          <AuthForm action={signUp} locale={locale} submit={t("signUp")}>
+          <AuthForm
+            action={signUp}
+            locale={locale}
+            next={next}
+            submit={t("signUp")}
+          >
             <Field
               form="up"
               name="email"

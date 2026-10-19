@@ -4,6 +4,7 @@ import { headers } from "next/headers";
 import { z } from "zod";
 import { SITE } from "@/config/site";
 import { cancelStripeFor } from "@/lib/stripe/cancel";
+import { safeNext } from "@/lib/auth/redirect";
 import { supabaseAdmin } from "@/lib/supabase/admin";
 import { supabaseServer } from "@/lib/supabase/server";
 import { supabaseConfigured } from "@/lib/supabase/env";
@@ -76,6 +77,7 @@ export async function signUp(
       email: Email,
       password: Password,
       locale: Locale,
+      next: z.string().max(200).optional(),
       consent: z.literal("on"),
     })
     .safeParse(Object.fromEntries(form));
@@ -84,13 +86,16 @@ export async function signUp(
       status: "error",
       message: form.get("consent") === "on" ? "invalid" : "consent",
     };
-  const { email, password, locale } = parsed.data;
+  const { email, password, locale, next } = parsed.data;
   const supabase = await supabaseServer();
   const { error } = await supabase.auth.signUp({
     email,
     password,
     options: {
-      emailRedirectTo: await callbackUrl(locale, accountPath(locale)),
+      emailRedirectTo: await callbackUrl(
+        locale,
+        safeNext(next, accountPath(locale)),
+      ),
       // Recorded once, for the consent register (not used for authorisation).
       data: { consented_at: new Date().toISOString(), locale },
     },
@@ -105,17 +110,20 @@ export async function sendMagicLink(
 ): Promise<AuthResult> {
   if (!supabaseConfigured) return { status: "error", message: "unavailable" };
   const parsed = z
-    .object({ email: Email, locale: Locale })
+    .object({ email: Email, locale: Locale, next: z.string().max(200).optional() })
     .safeParse(Object.fromEntries(form));
   if (!parsed.success) return { status: "error", message: "invalid" };
-  const { email, locale } = parsed.data;
+  const { email, locale, next } = parsed.data;
   const supabase = await supabaseServer();
   const { error } = await supabase.auth.signInWithOtp({
     email,
     // A magic link only signs in: new accounts go through the form with consent.
     options: {
       shouldCreateUser: false,
-      emailRedirectTo: await callbackUrl(locale, accountPath(locale)),
+      emailRedirectTo: await callbackUrl(
+        locale,
+        safeNext(next, accountPath(locale)),
+      ),
     },
   });
   // "No such user" is answered like success, so the form does not reveal accounts.

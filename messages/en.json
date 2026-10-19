@@ -1137,13 +1137,35 @@
   "Plans": {
     "title": "Plans",
     "lead": "Each plan opens its level and every level below. Monthly prices include VAT.",
-    "free": "Free, no account needed",
-    "price": "{month} a month or {year} a year"
+    "loading": "Loading plans…",
+    "intervalLegend": "Billing period",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "saveNote": "Paying yearly saves you 20%.",
+    "planName": "{level} plan",
+    "freePrice": "Free",
+    "perMonth": "a month",
+    "perYear": "a year",
+    "vatIncluded": "VAT included",
+    "saves": "VAT included. You save {amount} a year.",
+    "noAccount": "No account or card needed.",
+    "figures": {
+      "lessons": "{count, plural, one {# grammar lesson} other {# grammar lessons}}",
+      "words": "{count, plural, one {# vocabulary word} other {# vocabulary words}}",
+      "phrases": "{count, plural, one {# functional phrase} other {# functional phrases}}",
+      "tasks": "{count, plural, one {# practice task} other {# practice tasks}}",
+      "mock": "Mock exam up to level {level}"
+    },
+    "buttons": {
+      "start": "Start free",
+      "createAccount": "Create account and subscribe",
+      "subscribe": "Subscribe",
+      "change": "Change plan",
+      "current": "Your current plan",
+      "included": "Included in your plan"
+    }
   },
   "Payments": {
-    "monthly": "Pay monthly",
-    "yearly": "Pay yearly",
-    "signInToSubscribe": "Sign in to subscribe",
     "messages": {
       "unavailable": "Payments aren't available right now.",
       "signedOut": "Sign in to subscribe.",

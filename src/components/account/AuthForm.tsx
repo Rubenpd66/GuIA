@@ -15,6 +15,8 @@ type Props = {
   submit: string;
   /** Where to go once the action reports success without needing an email step. */
   goToAccount?: boolean;
+  /** A same-site path to come back to after signing in (already checked by the page). */
+  next?: string;
   children: ReactNode;
 };
 
@@ -24,6 +26,7 @@ export function AuthForm({
   locale,
   submit,
   goToAccount,
+  next,
   children,
 }: Props) {
   const t = useTranslations("Account.messages");
@@ -35,16 +38,18 @@ export function AuthForm({
     // A full load, so banks loaded before signing in are fetched again for this plan.
     if (goToAccount && state.status === "ok")
       window.location.assign(
-        getPathname({
-          href: "/account",
-          locale: locale === "en" ? "en" : "es",
-        }),
+        next ??
+          getPathname({
+            href: "/account",
+            locale: locale === "en" ? "en" : "es",
+          }),
       );
-  }, [goToAccount, state, locale]);
+  }, [goToAccount, state, locale, next]);
 
   return (
     <form action={formAction} className="space-y-4">
       <input type="hidden" name="locale" value={locale} />
+      {next ? <input type="hidden" name="next" value={next} /> : null}
       {children}
       <Button type="submit" variant="primary" disabled={pending}>
         {submit}

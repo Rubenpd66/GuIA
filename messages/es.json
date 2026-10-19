@@ -1137,13 +1137,35 @@
   "Plans": {
     "title": "Planes",
     "lead": "Cada plan abre su nivel y todos los anteriores. Precios mensuales con IVA incluido.",
-    "free": "Gratis, sin cuenta",
-    "price": "{month} al mes o {year} al año"
+    "loading": "Cargando planes…",
+    "intervalLegend": "Periodo de pago",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "saveNote": "Pagando al año ahorras un 20 %.",
+    "planName": "Plan {level}",
+    "freePrice": "Gratis",
+    "perMonth": "al mes",
+    "perYear": "al año",
+    "vatIncluded": "IVA incluido",
+    "saves": "IVA incluido. Ahorras {amount} al año.",
+    "noAccount": "Sin cuenta ni tarjeta.",
+    "figures": {
+      "lessons": "{count, plural, one {# lección de gramática} other {# lecciones de gramática}}",
+      "words": "{count, plural, one {# palabra de vocabulario} other {# palabras de vocabulario}}",
+      "phrases": "{count, plural, one {# frase funcional} other {# frases funcionales}}",
+      "tasks": "{count, plural, one {# tarea de práctica} other {# tareas de práctica}}",
+      "mock": "Simulacro hasta nivel {level}"
+    },
+    "buttons": {
+      "start": "Empezar gratis",
+      "createAccount": "Crear cuenta y suscribirme",
+      "subscribe": "Suscribirme",
+      "change": "Cambiar de plan",
+      "current": "Tu plan actual",
+      "included": "Incluido en tu plan"
+    }
   },
   "Payments": {
-    "monthly": "Pagar mensual",
-    "yearly": "Pagar anual",
-    "signInToSubscribe": "Entra para suscribirte",
     "messages": {
       "unavailable": "Los pagos no están disponibles ahora mismo.",
       "signedOut": "Entra en tu cuenta para suscribirte.",

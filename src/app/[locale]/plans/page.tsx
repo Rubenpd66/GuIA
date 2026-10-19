@@ -1,41 +1,31 @@
 import type { Metadata } from "next";
-import { getLocale, getTranslations } from "next-intl/server";
-import { SubscribeButtons } from "@/components/plans/SubscribeButtons";
+import { getTranslations } from "next-intl/server";
+import { Suspense } from "react";
+import { PlanCards } from "@/components/plans/PlanCards";
 import { PageHeader } from "@/components/ui/PageHeader";
-import { PRICES, TIER_LEVEL, formatPrice } from "@/lib/access/tiers";
+import { planFigures, type PlanFigures } from "@/lib/access/figures";
+import { TIERS, type Tier } from "@/lib/access/tiers";
+import { getContent } from "@/lib/content/load";
 
-// shortcut: placeholder so lock notices have somewhere to point; phase 10d builds the real page.
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Plans");
-  return { title: t("title"), robots: { index: false } };
+  return { title: t("title"), description: t("lead") };
 }
 
 export default async function PlansPage() {
-  const [t, locale] = await Promise.all([
+  const [t, content] = await Promise.all([
     getTranslations("Plans"),
-    getLocale(),
+    getContent(),
   ]);
-  const lang = locale === "en" ? "en" : "es";
+  const figures = Object.fromEntries(
+    TIERS.map((tier) => [tier, planFigures(content, tier)]),
+  ) as Record<Tier, PlanFigures>;
   return (
     <>
       <PageHeader title={t("title")} lead={t("lead")} />
-      <ul className="max-w-[68ch] divide-y divide-hairline border-y border-hairline">
-        <li className="py-4">
-          <span className="font-bold">A2</span> · {t("free")}
-        </li>
-        {(["b1", "b2", "c1"] as const).map((tier) => (
-          <li key={tier} className="space-y-3 py-4">
-            <p>
-              <span className="font-bold">{TIER_LEVEL[tier]}</span> ·{" "}
-              {t("price", {
-                month: formatPrice(PRICES[tier].month, lang),
-                year: formatPrice(PRICES[tier].year, lang),
-              })}
-            </p>
-            <SubscribeButtons tier={tier} />
-          </li>
-        ))}
-      </ul>
+      <Suspense fallback={<p aria-busy="true">{t("loading")}</p>}>
+        <PlanCards figures={figures} />
+      </Suspense>
     </>
   );
 }
