@@ -1005,5 +1005,9 @@
     "loading": "Loading the questions…",
     "error": "The questions could not be loaded. Check your connection.",
     "retry": "Try again"
+  },
+  "Pwa": {
+    "updated": "A new version of Sello is available.",
+    "reload": "Reload"
   }
 }

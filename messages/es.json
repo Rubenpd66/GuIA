@@ -1005,5 +1005,9 @@
     "loading": "Cargando las preguntas…",
     "error": "No se han podido cargar las preguntas. Comprueba la conexión.",
     "retry": "Reintentar"
+  },
+  "Pwa": {
+    "updated": "Hay una versión nueva de Sello.",
+    "reload": "Recargar"
   }
 }
