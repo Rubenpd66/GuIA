@@ -53,6 +53,9 @@ export function createRecorder(deps: RecorderDeps) {
   let recorder: MinimalRecorder | null = null;
   // Bumped by release(), so a permission prompt answered after leaving is ignored.
   let generation = 0;
+  let pending: Promise<boolean> | null = null;
+  // The turn start() is waiting to record; cleared by stop().
+  let wanted: string | null = null;
   const listeners = new Set<() => void>();
 
   const set = (next: Partial<RecorderState>) => {
@@ -69,31 +72,48 @@ export function createRecorder(deps: RecorderDeps) {
     stream = null;
   };
 
-  async function start(key: string) {
+  /** Asks for the microphone once; a refusal is final for this session. */
+  function acquire(): Promise<boolean> {
     if (!deps.getUserMedia || !deps.createRecorder) {
       set({ status: "unavailable" });
-      return;
+      return Promise.resolve(false);
     }
-    if (state.status === "recording" || state.status === "requesting") return;
+    if (stream) return Promise.resolve(true);
+    if (state.status === "denied" || state.status === "unavailable")
+      return Promise.resolve(false);
+    if (pending) return pending;
     const ticket = generation;
-    if (!stream) {
-      set({ status: "requesting" });
-      try {
-        const granted = await deps.getUserMedia({ audio: true });
+    set({ status: "requesting" });
+    pending = deps.getUserMedia({ audio: true }).then(
+      (granted) => {
+        pending = null;
         if (ticket !== generation) {
           granted.getTracks().forEach((track) => track.stop());
-          return;
+          return false;
         }
         stream = granted;
-      } catch (error) {
-        if (ticket !== generation) return;
+        set({ status: "idle" });
+        return true;
+      },
+      (error: unknown) => {
+        pending = null;
+        if (ticket !== generation) return false;
         const denied =
           error instanceof Error &&
           (error.name === "NotAllowedError" || error.name === "SecurityError");
         set({ status: denied ? "denied" : "unavailable" });
-        return;
-      }
-    }
+        return false;
+      },
+    );
+    return pending;
+  }
+
+  async function start(key: string) {
+    if (state.status === "recording") return;
+    wanted = key;
+    const ready = await acquire();
+    // stop() during the permission prompt means the answer time is already over.
+    if (!ready || !stream || wanted !== key || !deps.createRecorder) return;
     const chunks: Blob[] = [];
     const current = deps.createRecorder(stream);
     recorder = current;
@@ -117,6 +137,7 @@ export function createRecorder(deps: RecorderDeps) {
   }
 
   function stop() {
+    wanted = null;
     if (recorder?.state === "recording") recorder.stop();
   }
 
@@ -128,6 +149,8 @@ export function createRecorder(deps: RecorderDeps) {
   /** Stops everything and frees the microphone and the recording's memory. */
   function release() {
     generation++;
+    wanted = null;
+    pending = null;
     const current = recorder;
     recorder = null;
     if (current?.state === "recording") current.stop();
@@ -142,6 +165,8 @@ export function createRecorder(deps: RecorderDeps) {
       listeners.add(listener);
       return () => listeners.delete(listener);
     },
+    /** Asks for the microphone ahead of the first answer, when the session starts. */
+    prepare: () => void acquire(),
     start,
     stop,
     discard,

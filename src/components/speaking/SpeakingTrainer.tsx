@@ -168,6 +168,9 @@ function SpeakingSession({
     };
   }, [state.phase, state.turn, mode, turn]);
 
+  // Ask for the microphone as the session starts, not halfway through the first answer.
+  useEffect(() => recorder.prepare(), [recorder]);
+
   // The microphone records exactly while the answer time runs.
   useEffect(() => {
     if (state.phase !== "answering") return;

@@ -120,6 +120,33 @@ describe("createRecorder", () => {
     expect(recorder.getState().status).toBe("idle");
   });
 
+  it("never starts recording when the answer time ended during the permission prompt", async () => {
+    const { deps } = fakes();
+    const recorder = createRecorder(deps);
+    const pending = recorder.start("t#0");
+    recorder.stop();
+    await pending;
+    expect(deps.createRecorder).not.toHaveBeenCalled();
+    expect(recorder.getState().status).toBe("idle");
+    // The microphone stays ready for the next turn.
+    await recorder.start("t#1");
+    expect(recorder.getState().status).toBe("recording");
+    expect(deps.getUserMedia).toHaveBeenCalledTimes(1);
+  });
+
+  it("prepares the microphone once, and does not ask again after a refusal", async () => {
+    const { deps } = fakes();
+    deps.getUserMedia.mockRejectedValue(
+      Object.assign(new Error("no"), { name: "NotAllowedError" }),
+    );
+    const recorder = createRecorder(deps);
+    recorder.prepare();
+    await recorder.start("t#0");
+    await recorder.start("t#1");
+    expect(recorder.getState().status).toBe("denied");
+    expect(deps.getUserMedia).toHaveBeenCalledTimes(1);
+  });
+
   it("notifies subscribers of every change", async () => {
     const { deps } = fakes();
     const recorder = createRecorder(deps);
@@ -128,7 +155,13 @@ describe("createRecorder", () => {
     await recorder.start("k");
     recorder.stop();
     recorder.discard("k");
-    expect(seen).toEqual(["requesting", "recording", "stopped", "idle"]);
+    expect(seen).toEqual([
+      "requesting",
+      "idle",
+      "recording",
+      "stopped",
+      "idle",
+    ]);
     expect(deps.revokeURL).toHaveBeenCalledWith("blob:1");
   });
 });
