@@ -22,10 +22,15 @@ import {
 } from "@/lib/access/tiers";
 import { getContent } from "@/lib/content/load";
 import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Plans");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/plans"),
+  };
 }
 
 export default async function PlansPage() {

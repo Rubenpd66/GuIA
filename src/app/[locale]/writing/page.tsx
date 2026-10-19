@@ -5,6 +5,7 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { EXAM_FORMAT, partNumber } from "@/lib/exam/format";
 import { WRITING_PART_EXAM } from "@/lib/trainer/config";
 import { RUBRIC_CRITERIA, type WritingPart } from "@/lib/trainer/writing";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 const H2 = " text-xl font-bold";
 const PARTS = Object.keys(WRITING_PART_EXAM) as WritingPart[];
@@ -12,7 +13,11 @@ const STRATEGIES = ["s1", "s2", "s3", "s4"] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.writing");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/writing"),
+  };
 }
 
 export default async function WritingPage() {

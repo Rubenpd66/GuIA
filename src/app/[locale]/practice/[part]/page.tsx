@@ -14,6 +14,7 @@ import { SpeakingTrainer } from "@/components/speaking/SpeakingTrainer";
 import { WritingTrainer } from "@/components/writing/WritingTrainer";
 import { exercisesOfPart, phrasesByFunction } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
+import { alternatesFor } from "@/lib/seo/alternates";
 import { LockedNotice } from "@/components/access/LockedNotice";
 import { getEntitlement } from "@/lib/access/entitlement";
 import {
@@ -64,7 +65,12 @@ export async function generateMetadata({
   params,
 }: PageProps<"/[locale]/practice/[part]">): Promise<Metadata> {
   const { part } = await params;
-  return isExamPart(part) ? { title: await titleOf(part) } : {};
+  return isExamPart(part)
+    ? {
+        title: await titleOf(part),
+        alternates: await alternatesFor("/practice/[part]", { part }),
+      }
+    : {};
 }
 
 type Params = PageProps<"/[locale]/practice/[part]">["params"];

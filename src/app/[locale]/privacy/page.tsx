@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { SITE } from "@/config/site";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 const TOPICS = [
   "stored",
@@ -19,7 +20,11 @@ const TOPICS = [
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Privacy");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/privacy"),
+  };
 }
 
 export default async function PrivacyPage() {

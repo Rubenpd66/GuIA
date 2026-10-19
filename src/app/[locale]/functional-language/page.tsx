@@ -7,10 +7,15 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { phrasesByFunction } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Functional");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/functional-language"),
+  };
 }
 
 export default async function FunctionalLanguagePage() {

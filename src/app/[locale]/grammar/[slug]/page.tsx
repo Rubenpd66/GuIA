@@ -11,6 +11,7 @@ import { getContent } from "@/lib/content/load";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { SITE } from "@/config/site";
 import { localized } from "@/lib/content/localize";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 type Params = PageProps<"/[locale]/grammar/[slug]">["params"];
 
@@ -31,6 +32,7 @@ export async function generateMetadata({
     ? {
         title: localized(lesson.title, locale),
         description: lesson.summary.en.replace(/[*_=]/g, ""),
+        alternates: await alternatesFor("/grammar/[slug]", { slug }),
       }
     : {};
 }

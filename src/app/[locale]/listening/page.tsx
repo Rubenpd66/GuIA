@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { EXAM_FORMAT, partNumber } from "@/lib/exam/format";
 import { LISTENING_PART_EXAM } from "@/lib/trainer/config";
 import type { ListeningPart } from "@/lib/trainer/listening";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 const H2 = " text-xl font-bold";
 const PARTS = Object.keys(LISTENING_PART_EXAM) as ListeningPart[];
@@ -21,7 +22,11 @@ const TASK_VALUES = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.listening");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/listening"),
+  };
 }
 
 export default async function ListeningPage() {

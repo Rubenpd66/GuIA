@@ -2,12 +2,17 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { EXAM_FORMAT, SKILLS } from "@/lib/exam/format";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 const H2 = " text-xl font-bold";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.examGuide");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/exam-guide"),
+  };
 }
 
 export default async function ExamGuidePage() {

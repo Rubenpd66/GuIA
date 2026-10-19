@@ -2,12 +2,17 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { SITE } from "@/config/site";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 const TOPICS = ["unofficial", "content", "estimates"] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Legal");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/legal-notice"),
+  };
 }
 
 export default async function LegalNoticePage() {

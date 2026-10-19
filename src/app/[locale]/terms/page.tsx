@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { LegalSections } from "@/components/legal/LegalSections";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 const TOPICS = [
   "what",
@@ -14,7 +15,11 @@ const TOPICS = [
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Terms");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/terms"),
+  };
 }
 
 export default function TermsPage() {

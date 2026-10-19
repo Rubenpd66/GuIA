@@ -12,6 +12,7 @@ import { getContent } from "@/lib/content/load";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { SITE } from "@/config/site";
 import { localized } from "@/lib/content/localize";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 type Params = PageProps<"/[locale]/vocabulary/[slug]">["params"];
 
@@ -32,6 +33,7 @@ export async function generateMetadata({
     ? {
         title: localized(group.title, locale),
         description: localized(group.summary, locale),
+        alternates: await alternatesFor("/vocabulary/[slug]", { slug }),
       }
     : {};
 }

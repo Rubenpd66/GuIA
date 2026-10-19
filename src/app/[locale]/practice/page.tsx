@@ -2,10 +2,15 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { PartsList } from "@/components/sections/PartsList";
 import { PageHeader } from "@/components/ui/PageHeader";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.practice");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/practice"),
+  };
 }
 
 export default async function PracticePage() {

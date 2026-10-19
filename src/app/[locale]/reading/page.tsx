@@ -8,6 +8,7 @@ import { localized } from "@/lib/content/localize";
 import { EXAM_FORMAT, partNumber } from "@/lib/exam/format";
 import { READING_PART_EXAM } from "@/lib/trainer/config";
 import type { ReadingPart } from "@/lib/trainer/reading";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 const H2 = " text-xl font-bold";
 const PARTS = Object.keys(READING_PART_EXAM) as ReadingPart[];
@@ -35,7 +36,11 @@ const TASK_VALUES = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.reading");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/reading"),
+  };
 }
 
 export default async function ReadingPage() {

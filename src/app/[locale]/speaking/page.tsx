@@ -6,6 +6,7 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { EXAM_FORMAT, partNumber } from "@/lib/exam/format";
 import { SPEAKING_PART_EXAM } from "@/lib/trainer/config";
 import { SPEAKING_RUBRIC, type SpeakingPart } from "@/lib/trainer/speaking";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 const H2 = " text-xl font-bold";
 const PARTS = Object.keys(SPEAKING_PART_EXAM) as SpeakingPart[];
@@ -13,7 +14,11 @@ const STRATEGIES = ["s1", "s2", "s3", "s4"] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.speaking");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/speaking"),
+  };
 }
 
 export default async function SpeakingPage() {

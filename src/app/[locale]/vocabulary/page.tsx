@@ -9,10 +9,15 @@ import {
   VOCAB_SETS,
   type VocabularyGroup,
 } from "@/lib/content/schemas/lessons";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.vocabulary");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/vocabulary"),
+  };
 }
 
 const isSet = (group: VocabularyGroup) =>

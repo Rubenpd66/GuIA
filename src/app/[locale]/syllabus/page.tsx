@@ -12,6 +12,7 @@ import { getContent } from "@/lib/content/load";
 import { localized } from "@/lib/content/localize";
 import { CEFR_LEVELS } from "@/lib/content/schemas/common";
 import { TARGET_LEVELS } from "@/lib/content/schemas/lessons";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 const SKILL_SECTIONS = [
   { skill: "reading", section: "reading" },
@@ -25,7 +26,11 @@ const ROW =
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.syllabus");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/syllabus"),
+  };
 }
 
 export default async function SyllabusPage() {

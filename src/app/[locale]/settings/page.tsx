@@ -7,10 +7,15 @@ import { FlashcardsSetting } from "@/components/settings/FlashcardsSetting";
 import { ProgressManager } from "@/components/settings/ProgressManager";
 import { ThemeChoice } from "@/components/theme/ThemeChoice";
 import { PageHeader } from "@/components/ui/PageHeader";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.settings");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/settings"),
+  };
 }
 
 export default async function SettingsPage() {

@@ -10,10 +10,15 @@ import { questionsForLesson } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
 import { localized } from "@/lib/content/localize";
 import { CEFR_LEVELS } from "@/lib/content/schemas/common";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Sections.grammar");
-  return { title: t("title"), description: t("lead") };
+  return {
+    title: t("title"),
+    description: t("lead"),
+    alternates: await alternatesFor("/grammar"),
+  };
 }
 
 export default async function GrammarIndexPage() {

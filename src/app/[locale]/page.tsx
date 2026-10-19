@@ -8,13 +8,18 @@ import { Card } from "@/components/ui/Card";
 import { Section, SectionStack } from "@/components/ui/Section";
 import { SITE } from "@/config/site";
 import { PRICES, formatPrice } from "@/lib/access/tiers";
+import { alternatesFor } from "@/lib/seo/alternates";
 
 const BENEFITS = ["format", "spanish", "level"] as const;
 const STEPS = ["test", "plan", "practice"] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Metadata");
-  return { title: { absolute: t("title") }, description: t("description") };
+  return {
+    title: { absolute: t("title") },
+    description: t("description"),
+    alternates: await alternatesFor("/"),
+  };
 }
 
 export default async function HomePage() {
