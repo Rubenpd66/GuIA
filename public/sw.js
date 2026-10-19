@@ -40,7 +40,7 @@ async function put(name, request, response) {
 const OFFLINE_HTML = `<!doctype html><html lang="es"><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sin conexión | GuIA</title>
-<body style="font-family:system-ui,sans-serif;background:#eef2ef;color:#1a2332;margin:0;padding:2rem;line-height:1.5">
+<body style="font-family:system-ui,sans-serif;background:#ffffff;color:#14161c;margin:0;padding:2rem;line-height:1.5">
 <h1>Sin conexión</h1>
 <p>Esta página aún no está guardada en tu dispositivo. Vuelve cuando tengas conexión; las páginas que ya has visitado funcionan sin red.</p>
 <p lang="en">You are offline. This page has not been saved on your device yet; pages you have already visited work without a connection.</p>

@@ -28,6 +28,7 @@ export function BottomNav() {
 
   return (
     <nav
+      style={{ viewTransitionName: "bottomnav" }}
       aria-label={t("mainNav")}
       className="fixed inset-x-0 bottom-0 z-40 border-t border-hairline bg-surface pb-[env(safe-area-inset-bottom)] lg:hidden"
     >

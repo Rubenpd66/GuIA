@@ -40,7 +40,7 @@ export function LocaleSwitcher({ variant = "compact" }: LocaleSwitcherProps) {
                         "inline-flex min-h-12 min-w-12 items-center justify-center rounded-control px-2 text-sm font-semibold",
                         active
                           ? "underline decoration-2 underline-offset-[6px]"
-                          : "hover:bg-[color-mix(in_srgb,currentColor_12%,transparent)]",
+                          : "hover-fine:bg-[color-mix(in_srgb,currentColor_12%,transparent)]",
                       )
                     : buttonClasses(active ? "primary" : "secondary")
                 }

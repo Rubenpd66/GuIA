@@ -44,7 +44,10 @@ export function SideNav() {
   };
 
   return (
-    <aside className="sticky top-0 hidden h-dvh flex-col overflow-y-auto border-r border-hairline bg-surface px-6 pt-7 pb-5 text-ink lg:flex">
+    <aside
+      style={{ viewTransitionName: "sidenav" }}
+      className="sticky top-0 hidden h-dvh flex-col overflow-y-auto border-r border-hairline bg-surface px-6 pt-7 pb-5 text-ink lg:flex"
+    >
       <Link
         href="/"
         aria-label={t("home")}

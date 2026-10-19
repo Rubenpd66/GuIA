@@ -28,7 +28,7 @@ export function Card({
         style={style}
         className={cx(
           BASE,
-          "pressable hover-fine:-translate-y-0.5 hover-fine:shadow-md",
+          "pressable hover-fine:motion-safe:[transform:translateY(-2px)] hover-fine:shadow-md",
           className,
         )}
       >

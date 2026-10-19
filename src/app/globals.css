@@ -295,6 +295,26 @@
 }
 
 /* Page transitions: the old page leaves quickly, the new one rises in. */
+::view-transition {
+  pointer-events: none;
+}
+
+/* The navigation chrome keeps its own layer so the page snapshot never paints over it. */
+::view-transition-group(topbar),
+::view-transition-group(bottomnav),
+::view-transition-group(sidenav) {
+  animation: none;
+}
+
+::view-transition-old(topbar),
+::view-transition-new(topbar),
+::view-transition-old(bottomnav),
+::view-transition-new(bottomnav),
+::view-transition-old(sidenav),
+::view-transition-new(sidenav) {
+  animation: none;
+}
+
 ::view-transition-old(.page-swap) {
   animation: 120ms var(--ease-out) both page-out;
 }
@@ -337,6 +357,10 @@
     @starting-style {
       opacity: 0;
     }
+  }
+
+  ::view-transition-group(*) {
+    animation-duration: 0s;
   }
 
   ::view-transition-old(.page-swap) {

@@ -27,7 +27,7 @@ export function RecordingPlayer({
       />
       <a
         href={recording.url}
-        download={`sello-${name}.${recordingExtension(recording.mimeType)}`}
+        download={`guia-${name}.${recordingExtension(recording.mimeType)}`}
         className={buttonClasses("ghost")}
       >
         {t("download")}
