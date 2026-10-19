@@ -55,6 +55,11 @@ export function shouldReplace(
   return tierFromRow(existing, now) === "free";
 }
 
+/** Postgres foreign key violation: the learner's account no longer exists. */
+export function isGoneUser(error: { code?: string } | null): boolean {
+  return error?.code === "23503";
+}
+
 /** The subscription an event is about, or null for events Sello does not act on. */
 export function subscriptionIdOf(event: Stripe.Event): string | null {
   switch (event.type) {
