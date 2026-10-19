@@ -91,3 +91,17 @@ Committed, not deployed. Spec: `docs/superpowers/specs/2026-10-19-phase-10-tiers
 - A2 content: 10 grammar lessons (orders 90–180) with 60 questions, 60 vocabulary entries (`content/vocabulary/a2-everyday.json`), 8 Core Vocabulary tasks, 18 can-do (`content/can-do/a2.json`), 20 functional phrases, and `a2.json` tasks in every Reading, Listening, Writing and Speaking part. No book references (user's OK needed).
 - A2 Writing and Speaking tasks keep the schema's `b2` / `c` model labels (a plainer and a richer model).
 - Gotcha: `a11y-behaviour.spec.ts` "the stamp only fades…" once timed out on `waitForLoadState` under the full suite; it passed 3/3 alone.
+
+## Phase 10b (Access by tier)
+
+Committed, not deployed. Plan: `docs/superpowers/plans/2026-10-19-phase-10b-access.md`. Spec section 4.
+
+- Rule: `src/lib/access/rule.ts` (`tierFromRow` checks status and `current_period_end`, so access stops on time even if the webhook is late; `isVisible` / `visibleTo` for exercises, where `placement: true` is free; `entriesVisibleTo` for lessons, entries, phrases and flashcards; `lowestLevel` names the plan a lock notice offers).
+- Data: `public.subscriptions` (migration `20261021120000_subscriptions.sql`, applied to `sello-dev` and `sello`): owner `select` only; no insert/update/delete for the Data API roles; the server writes it with the secret key (10c).
+- Server: `getEntitlement()` (`src/lib/access/entitlement.ts`, React `cache()`, server-only) returns `free` without Supabase, a session or a readable row. Every caller sits inside `<Suspense>`.
+- Client: `useTier()` and `<LockMark>` are cosmetic only. `<LockedNotice>` (with `compact` for lists) carries `data-paywall`, which the JSON-LD `hasPart` points to.
+- Pages: grammar lessons render header and summary statically and the body through `GatedLessonBody` (A2 lessons in full, statically); vocabulary groups and functional language render A2 statically and the rest through `GatedEntries` / `GatedPhrases`, which load content themselves by slug. `/practice/[part]` filters exercises and phrases and adds a notice with the hidden count. `/banks/mock` and `/banks/flashcards` go through `bankFor` with `Cache-Control: private, no-store`; `/banks/placement` stays static.
+- Offline: `clearCachedPages()` drops `sello-pages-v1` on sign-out, account switch and account deletion.
+- `/plans` is a placeholder (prices from `PRICES`, noindex) until 10d.
+- E2E: `e2e/access.spec.ts` checks whole responses (HTML and RSC data) for paid text. Gotcha: RSC data escapes quotes, so search for bare ids, never `"id"`. The signed-in B1 case skips without `SUPABASE_SECRET_KEY` (not in `.env.local`).
+- Local testing as a subscriber: insert a row into `sello-dev`'s `subscriptions` for your user (`tier`, `interval`, `status: 'active'`, a future `current_period_end`) from the Supabase SQL editor.

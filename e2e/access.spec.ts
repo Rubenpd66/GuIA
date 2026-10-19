@@ -1,4 +1,5 @@
 import { readFileSync, readdirSync } from "node:fs";
+import { createClient } from "@supabase/supabase-js";
 import { expect, test } from "@playwright/test";
 
 /** A file under content/, parsed, so the tests follow the content instead of copying it. */
@@ -96,5 +97,65 @@ test.describe("visitors", () => {
       .map((task) => task.id);
     expect(paid).toEqual([]);
     expect(bank.grammar!.length).toBeGreaterThan(0);
+  });
+});
+
+// A signed-in B1 learner, with a throwaway user and subscription row in the test project
+// (sello-dev) written with the secret key. Without these variables it is skipped.
+const URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const SECRET = process.env.SUPABASE_SECRET_KEY;
+
+test.describe("a B1 subscriber", () => {
+  test.skip(!URL || !SECRET, "needs SUPABASE_SECRET_KEY for the test project");
+
+  test("reads B1 lessons and meets the lock on B2", async ({ page }) => {
+    const admin = createClient(URL!, SECRET!, {
+      auth: { persistSession: false },
+    });
+    const email = `e2e-tier-${Date.now()}@example.com`;
+    const password = "e2e-password-123";
+    const { data, error } = await admin.auth.admin.createUser({
+      email,
+      password,
+      email_confirm: true,
+    });
+    expect(error).toBeNull();
+    const userId = data.user!.id;
+
+    try {
+      const { error: rowError } = await admin.from("subscriptions").insert({
+        user_id: userId,
+        tier: "b1",
+        interval: "month",
+        status: "active",
+        current_period_end: new Date(
+          Date.now() + 30 * 86_400_000,
+        ).toISOString(),
+      });
+      expect(rowError).toBeNull();
+
+      await page.goto("/es/acceso");
+      await page.locator("#in-email").fill(email);
+      await page.locator("#in-password").fill(password);
+      await page
+        .getByRole("button", { name: "Entrar", exact: true })
+        .first()
+        .click();
+      await expect(page).toHaveURL(/\/es\/cuenta/);
+
+      await page.goto("/es/gramatica/present-simple-vs-continuous");
+      await expect(
+        page.getByText(firstMistake("present-simple-vs-continuous")),
+      ).toBeVisible();
+      await expect(page.locator("[data-paywall]")).toHaveCount(0);
+
+      await page.goto("/es/gramatica/adjective-patterns-and-perception-verbs");
+      await expect(page.locator("[data-paywall]")).toBeVisible();
+      await expect(
+        page.getByText(firstMistake("adjective-patterns-and-perception-verbs")),
+      ).toHaveCount(0);
+    } finally {
+      await admin.auth.admin.deleteUser(userId);
+    }
   });
 });
