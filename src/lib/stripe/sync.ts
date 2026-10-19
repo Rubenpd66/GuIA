@@ -13,7 +13,7 @@ export type SubscriptionUpsert = SubscriptionRow & {
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
-/** The `subscriptions` row for a Stripe subscription, or null when it is not one of Sello's. */
+/** The `subscriptions` row for a Stripe subscription, or null when it is not one of GuIA's. */
 export function rowFromSubscription(
   sub: Stripe.Subscription,
   now: number,
@@ -60,7 +60,7 @@ export function isGoneUser(error: { code?: string } | null): boolean {
   return error?.code === "23503";
 }
 
-/** The subscription an event is about, or null for events Sello does not act on. */
+/** The subscription an event is about, or null for events GuIA does not act on. */
 export function subscriptionIdOf(event: Stripe.Event): string | null {
   switch (event.type) {
     case "checkout.session.completed": {

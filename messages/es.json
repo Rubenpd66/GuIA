@@ -1,10 +1,10 @@
 {
   "Metadata": {
-    "title": "Sello: prepara el Aptis ESOL General",
+    "title": "GuIA: prepara el Aptis ESOL General",
     "description": "Lecciones, práctica de las 18 partes y simulacros con tiempos reales para preparar el Aptis ESOL General y llegar al C. Web no oficial."
   },
   "Nav": {
-    "home": "Inicio de Sello",
+    "home": "Inicio de GuIA",
     "mainNav": "Navegación principal",
     "skipToContent": "Saltar al contenido",
     "more": "Más",
@@ -38,7 +38,7 @@
     "enShort": "EN"
   },
   "Footer": {
-    "disclaimer": "Sello es una web independiente y no oficial. No está afiliada al British Council ni cuenta con su aprobación. Aptis ESOL General es un examen del British Council.",
+    "disclaimer": "GuIA es una web independiente y no oficial. No está afiliada al British Council ni cuenta con su aprobación. Aptis ESOL General es un examen del British Council.",
     "legalNotice": "Aviso legal",
     "privacy": "Privacidad",
     "terms": "Términos de uso",
@@ -51,7 +51,7 @@
     "placementTest": "Haz el test de nivel",
     "startStudying": "Empieza a estudiar",
     "partsTitle": "Las 18 partes del examen",
-    "partsLead": "Cada parte es una frontera: cuando la dominas, ganas su sello.",
+    "partsLead": "Cada parte es un reto: cuando la dominas, la logras.",
     "levelsTitle": "Tu pasaporte",
     "levelsLead": "Cada nivel que alcanzas queda sellado: A2, B1, B2 y C.",
     "structuredDescription": "Preparación no oficial y gratuita para el Aptis ESOL General: lecciones, práctica de las 18 partes, test de nivel y simulacros."
@@ -172,9 +172,9 @@
     "cancel": "Cancelar",
     "imported": "Progreso importado.",
     "resetDone": "Progreso borrado.",
-    "importInvalidJson": "Ese fichero no es una copia de Sello.",
-    "importNotSello": "Ese fichero no viene de Sello.",
-    "importInvalidData": "El fichero está dañado o es de una versión que Sello no reconoce.",
+    "importInvalidJson": "Ese fichero no es una copia de GuIA.",
+    "importNotSello": "Ese fichero no viene de GuIA.",
+    "importInvalidData": "El fichero está dañado o es de una versión que GuIA no reconoce.",
     "voiceLead": "Los entrenadores de Listening leen los guiones en voz alta con las voces de tu dispositivo. La elección se guarda solo en este navegador.",
     "rate": "Velocidad",
     "rates": {
@@ -196,9 +196,9 @@
   },
   "Legal": {
     "title": "Aviso legal",
-    "lead": "Quién está detrás de Sello y qué puedes esperar de su contenido.",
+    "lead": "Quién está detrás de GuIA y qué puedes esperar de su contenido.",
     "unofficialTitle": "Web no oficial",
-    "unofficialBody": "Sello es un proyecto independiente para preparar el Aptis ESOL General. No está afiliado al British Council, no cuenta con su aprobación y no usa su marca, su logotipo ni sus materiales.",
+    "unofficialBody": "GuIA es un proyecto independiente para preparar el Aptis ESOL General. No está afiliado al British Council, no cuenta con su aprobación y no usa su marca, su logotipo ni sus materiales.",
     "contentTitle": "Contenido original",
     "contentBody": "Todas las lecciones, textos, audios y preguntas son originales. Imitan el formato del examen, pero no copian materiales oficiales ni de terceros.",
     "estimatesTitle": "Niveles orientativos",
@@ -214,7 +214,7 @@
   },
   "Privacy": {
     "title": "Privacidad",
-    "lead": "Qué datos guarda Sello, para qué y durante cuánto tiempo.",
+    "lead": "Qué datos guarda GuIA, para qué y durante cuánto tiempo.",
     "storedTitle": "Qué se guarda",
     "storedBody": "Sin cuenta, todo se guarda en el almacenamiento local de tu navegador: tu progreso (intentos, puntuaciones y errores por repasar), tus ajustes (tema, voz y velocidad del listening, fecha del examen, tarjetas nuevas al día), tus flashcards, el simulacro en curso y los borradores de Writing. Nada de esto se envía a ningún servidor.",
     "notStoredTitle": "Qué no se guarda",
@@ -232,9 +232,9 @@
     "basisTitle": "Para qué y con qué base legal",
     "basisBody": "Usamos esos datos solo para darte la cuenta y sincronizar tu estudio: la base legal es la ejecución del servicio que pides al crear la cuenta (art. 6.1.b del RGPD). No los usamos para publicidad, no los vendemos ni los cedemos, y no tomamos decisiones automatizadas sobre ti.",
     "ageTitle": "Edad mínima",
-    "ageBody": "Para crear una cuenta debes tener 14 años o más (art. 7 de la LOPDGDD). Si eres menor de esa edad, puedes usar Sello sin cuenta.",
+    "ageBody": "Para crear una cuenta debes tener 14 años o más (art. 7 de la LOPDGDD). Si eres menor de esa edad, puedes usar GuIA sin cuenta.",
     "processorsTitle": "Quién trata los datos por nosotros",
-    "processorsBody": "Supabase guarda la cuenta y los datos sincronizados en servidores de la Unión Europea (Fráncfort). Vercel aloja la web y puede tratar datos técnicos de las visitas. Si entras con Google, Google nos facilita tu email para identificarte. Si te suscribes, Stripe Payments Europe trata el pago: recibe tu nombre, email, dirección de facturación y medio de pago, que gestiona Stripe y nunca Sello, y conserva las facturas el plazo que exige la ley fiscal. Sello guarda solo tu plan, su estado, las fechas y los identificadores de Stripe. Con estos proveedores existe un contrato de encargo del tratamiento.",
+    "processorsBody": "Supabase guarda la cuenta y los datos sincronizados en servidores de la Unión Europea (Fráncfort). Vercel aloja la web y puede tratar datos técnicos de las visitas. Si entras con Google, Google nos facilita tu email para identificarte. Si te suscribes, Stripe Payments Europe trata el pago: recibe tu nombre, email, dirección de facturación y medio de pago, que gestiona Stripe y nunca GuIA, y conserva las facturas el plazo que exige la ley fiscal. GuIA guarda solo tu plan, su estado, las fechas y los identificadores de Stripe. Con estos proveedores existe un contrato de encargo del tratamiento.",
     "retentionTitle": "Cuánto tiempo se conservan",
     "retentionBody": "Mientras tengas la cuenta. Al borrarla desde la página de tu cuenta, se cancela tu suscripción y se eliminan tu acceso, tu plan y todos tus datos sincronizados, salvo copias de seguridad temporales del proveedor. Los datos técnicos de Vercel se conservan el tiempo que ese proveedor establece.",
     "rightsTitle": "Tus derechos",
@@ -276,7 +276,7 @@
     "sortableHint": "Ordena las frases arrastrando el asa, con los botones o con el teclado."
   },
   "Stamp": {
-    "label": "Sello {level}: {caption}"
+    "label": "Logro {level}: {caption}"
   },
   "Levels": {
     "A2": "A2: repaso",
@@ -410,7 +410,7 @@
   },
   "ExamGuide": {
     "formatTitle": "Formato del examen",
-    "formatLead": "Cinco componentes. Cada parte tiene su propio formato, y los entrenadores de Sello lo copian.",
+    "formatLead": "Cinco componentes. Cada parte tiene su propio formato, y los entrenadores de GuIA lo copian.",
     "minutes": "{minutes} min",
     "core": "25 preguntas de gramática con 3 opciones y 25 de vocabulario de 4 tipos.",
     "reading": "Frases con hueco, ordenar un texto, relacionar opiniones y encabezados de un texto largo.",
@@ -421,7 +421,7 @@
     "scoringBody": "Cada destreza se puntúa de 0 a 50 y recibe su propio nivel CEFR. Las puntuaciones no se pueden comparar entre destrezas, porque los umbrales cambian de una a otra.",
     "coreTitle": "Por qué el Core puede salvar un C",
     "coreBody": "Grammar y Vocabulary se informan como un número de 0 a 50, sin nivel. Pero cuando una destreza se queda justo por debajo del umbral de un nivel, la nota del Core decide si te dan el nivel superior. Subir el Core es la forma más barata de asegurar un C.",
-    "estimateNote": "Sello muestra niveles y puntuaciones estimados por la app. No son resultados oficiales."
+    "estimateNote": "GuIA muestra niveles y puntuaciones estimados por la app. No son resultados oficiales."
   },
   "Functional": {
     "title": "Lenguaje funcional",
@@ -720,7 +720,7 @@
   "WritingPage": {
     "intro": "El examen de Writing dura {minutes} minutos y tiene cuatro partes que van de respuestas de una palabra a un email formal. Aquí tienes qué pide cada parte, estrategias y un entrenador con modelos B2 y C anotados.",
     "noMarkingTitle": "Sin corrección automática",
-    "noMarkingBody": "Sello no corrige tus textos: escribes, comparas con los modelos y te autoevalúas con una rúbrica propia de la app, no la oficial. Tu texto se guarda solo en tu navegador.",
+    "noMarkingBody": "GuIA no corrige tus textos: escribes, comparas con los modelos y te autoevalúas con una rúbrica propia de la app, no la oficial. Tu texto se guarda solo en tu navegador.",
     "partTitle": "Parte {number}: {name}",
     "examNote": "Modo examen de la app: {minutes, number} minutos, el tiempo recomendado para esta parte. Al llegar a cero el editor se bloquea.",
     "strategies": "Estrategias",
@@ -877,7 +877,7 @@
     "micTest": "Probar el micrófono",
     "micTesting": "Grabando 3 segundos…",
     "micResult": "Tu prueba",
-    "noMarking": "Sello no corrige tu expresión oral: te escuchas, comparas con los modelos y te autoevalúas con una rúbrica propia de la app, no la oficial.",
+    "noMarking": "GuIA no corrige tu expresión oral: te escuchas, comparas con los modelos y te autoevalúas con una rúbrica propia de la app, no la oficial.",
     "partTitle": "Parte {number}: {name}",
     "task": {
       "speaking-1": "Tres preguntas personales. Tienes 30 segundos para cada respuesta.",
@@ -907,7 +907,7 @@
     },
     "skillsTitle": "Nivel por destreza",
     "noData": "Sin datos",
-    "noStamp": "Sin sello",
+    "noStamp": "Sin logro",
     "percent": "{value} %",
     "selfAssessed": "Autoevaluación",
     "habitTitle": "Tu ritmo",
@@ -917,11 +917,11 @@
     "minutes": "{count, plural, one {# minuto} other {# minutos}}",
     "weakTitle": "Puntos débiles",
     "passportTitle": "Tu pasaporte",
-    "passportLead": "Cada parte del examen tiene su casilla. El sello muestra tu nivel estimado y cambia cuando practicas.",
-    "stampLabel": "Sello {level}: {part}",
-    "emptySlot": "Sin sello todavía: {part}",
+    "passportLead": "Cada parte del examen tiene su casilla. El logro muestra tu nivel estimado y cambia cuando practicas.",
+    "stampLabel": "Logro {level}: {part}",
+    "emptySlot": "Sin logro todavía: {part}",
     "flashcardsDue": "{count, plural, =0 {Flashcards: nada pendiente hoy} one {Flashcards: # tarjeta para hoy} other {Flashcards: # tarjetas para hoy}}",
-    "levelUpTitle": "¡Nuevo sello!",
+    "levelUpTitle": "¡Nuevo logro!",
     "levelUpBody": "{level} en {part}{more, plural, =0 {.} one { y # parte más.} other { y # partes más.}}",
     "levelUpClose": "Cerrar"
   },
@@ -1004,8 +1004,8 @@
     "start": "Empezar el test",
     "resultTitle": "Tu nivel estimado",
     "estimateNote": "Es una estimación orientativa de la app con pocas preguntas, no una nota oficial. Se afina a medida que practicas.",
-    "stampLabel": "Sello {level}: {skill}",
-    "noStamp": "Sin sello",
+    "stampLabel": "Logro {level}: {skill}",
+    "noStamp": "Sin logro",
     "percent": "{value} %",
     "notEstimated": "Writing y Speaking quedan sin estimar: haz una tarea de cada uno para tener tu nivel.",
     "planTitle": "Tu plan: practica primero",
@@ -1025,8 +1025,8 @@
     "cancel": "Cancelar",
     "reportTitle": "Informe del simulacro",
     "estimateNote": "Porcentaje de aciertos y nivel estimado por la app, no una nota oficial: la conversión a la escala 0–50 del examen no es pública. Writing y Speaking salen de tu autoevaluación.",
-    "stampLabel": "Sello {level}: {skill}",
-    "noStamp": "Sin sello",
+    "stampLabel": "Logro {level}: {skill}",
+    "noStamp": "Sin logro",
     "percent": "{value} %",
     "selfAssessed": "Autoevaluación",
     "partsTitle": "Por partes",
@@ -1043,14 +1043,14 @@
     "retry": "Reintentar"
   },
   "Pwa": {
-    "updated": "Hay una versión nueva de Sello.",
+    "updated": "Hay una versión nueva de GuIA.",
     "reload": "Recargar"
   },
   "Account": {
     "title": "Tu cuenta",
     "lead": "Tu progreso guardado en la nube y sincronizado entre tus dispositivos.",
     "signInPageTitle": "Acceder",
-    "signInLead": "Con una cuenta, tu progreso se guarda en la nube y lo ves en todos tus dispositivos. Sin cuenta, Sello sigue funcionando en este navegador.",
+    "signInLead": "Con una cuenta, tu progreso se guarda en la nube y lo ves en todos tus dispositivos. Sin cuenta, GuIA sigue funcionando en este navegador.",
     "loading": "Cargando…",
     "signedOut": "No has iniciado sesión.",
     "signedInAs": "Sesión iniciada como {email}",
@@ -1080,7 +1080,7 @@
     "changePassword": "Cambiar contraseña",
     "updatePassword": "Guardar contraseña",
     "deleteTitle": "Borrar cuenta",
-    "deleteBody": "Se borran tu cuenta y todo lo que Sello guarda de ti en la nube. No se puede deshacer. Si tienes un plan de pago, se cancela al instante y no se reembolsa el periodo en curso: para conservar el acceso hasta que termine, cancélalo antes en «Gestionar suscripción».",
+    "deleteBody": "Se borran tu cuenta y todo lo que GuIA guarda de ti en la nube. No se puede deshacer. Si tienes un plan de pago, se cancela al instante y no se reembolsa el periodo en curso: para conservar el acceso hasta que termine, cancélalo antes en «Gestionar suscripción».",
     "deleteButton": "Borrar mi cuenta",
     "deleteConfirm": "¿Seguro que quieres borrar tu cuenta y tus datos en la nube?",
     "keepLocal": "Conservar el progreso guardado en este navegador",
@@ -1117,17 +1117,17 @@
   },
   "Terms": {
     "title": "Términos de uso",
-    "lead": "Las reglas para usar Sello y tener una cuenta.",
-    "whatTitle": "Qué es Sello",
-    "whatBody": "Sello es una web independiente para practicar el Aptis ESOL General. No es un servicio del British Council ni de ninguna entidad examinadora, y no garantiza ningún resultado en el examen oficial.",
+    "lead": "Las reglas para usar GuIA y tener una cuenta.",
+    "whatTitle": "Qué es GuIA",
+    "whatBody": "GuIA es una web independiente para practicar el Aptis ESOL General. No es un servicio del British Council ni de ninguna entidad examinadora, y no garantiza ningún resultado en el examen oficial.",
     "accountTitle": "Tu cuenta",
     "accountBody": "Crear una cuenta es opcional y gratuito. Debes tener 14 años o más y dar datos verdaderos. Eres responsable de tu contraseña. Puedes borrar la cuenta cuando quieras desde la página de tu cuenta.",
     "useTitle": "Uso aceptable",
-    "useBody": "Usa Sello para estudiar. No intentes acceder a cuentas ajenas, saturar el servicio, extraer su contenido en masa ni saltarte sus medidas de seguridad.",
+    "useBody": "Usa GuIA para estudiar. No intentes acceder a cuentas ajenas, saturar el servicio, extraer su contenido en masa ni saltarte sus medidas de seguridad.",
     "contentTitle": "Contenido",
-    "contentBody": "Las lecciones, textos y preguntas de Sello son originales y pertenecen a su titular. Puedes usarlas para tu estudio personal, pero no copiarlas ni redistribuirlas sin permiso.",
+    "contentBody": "Las lecciones, textos y preguntas de GuIA son originales y pertenecen a su titular. Puedes usarlas para tu estudio personal, pero no copiarlas ni redistribuirlas sin permiso.",
     "liabilityTitle": "Responsabilidad",
-    "liabilityBody": "Los niveles y puntuaciones son estimaciones propias. Sello se ofrece tal cual, sin garantía de disponibilidad continua, y haremos lo razonable por cuidar tus datos. Esto no limita los derechos que la ley te reconoce como consumidor.",
+    "liabilityBody": "Los niveles y puntuaciones son estimaciones propias. GuIA se ofrece tal cual, sin garantía de disponibilidad continua, y haremos lo razonable por cuidar tus datos. Esto no limita los derechos que la ley te reconoce como consumidor.",
     "plansTitle": "Planes y pagos",
     "plansBody": "Los planes B1, B2 y C1 se pagan por mes o por año, con el IVA incluido en el precio, y se renuevan solos hasta que los canceles. Cancelas cuando quieras desde tu cuenta (portal de Stripe) y sigues con acceso hasta el final del periodo pagado. Subir de plan es inmediato y se prorratea; bajar de plan o cancelar surte efecto al final del periodo. Al terminar o bajar de plan conservas tu progreso, pero el contenido de niveles superiores al de tu plan vuelve a bloquearse. Al pagar pides acceso inmediato al contenido digital y aceptas perder el derecho de desistimiento de 14 días (art. 103 m del texto refundido de la Ley de consumidores). Si borras tu cuenta, la suscripción se cancela al instante y no se reembolsa el periodo en curso.",
     "changesTitle": "Cambios y ley aplicable",
@@ -1135,15 +1135,15 @@
   },
   "Cookies": {
     "title": "Política de cookies",
-    "lead": "Qué cookies usa Sello y por qué no hace falta pedirte permiso.",
+    "lead": "Qué cookies usa GuIA y por qué no hace falta pedirte permiso.",
     "noneTitle": "Sin cuenta",
-    "noneBody": "Si no inicias sesión, Sello no instala ninguna cookie. El tema, el idioma y tu progreso se guardan en el almacenamiento local del navegador, que no es una cookie y no sale de tu dispositivo.",
+    "noneBody": "Si no inicias sesión, GuIA no instala ninguna cookie. El tema, el idioma y tu progreso se guardan en el almacenamiento local del navegador, que no es una cookie y no sale de tu dispositivo.",
     "sessionTitle": "Si inicias sesión",
     "sessionBody": "Supabase guarda en cookies tu sesión (nombres que empiezan por «sb-» y terminan en «-auth-token»). Son cookies técnicas y estrictamente necesarias para mantenerte identificado, de primera parte y duran hasta que cierras la sesión o las borras.",
     "consentTitle": "Consentimiento",
     "consentBody": "Las cookies técnicas imprescindibles no necesitan consentimiento, por eso no hay banner. No usamos cookies de analítica, de publicidad ni de terceros. Si algún día las añadimos, te pediremos permiso antes.",
     "controlTitle": "Cómo borrarlas",
-    "controlBody": "Cierra la sesión desde la página de tu cuenta o borra las cookies de este sitio en tu navegador. Volverás a estar sin sesión y Sello seguirá funcionando en este navegador."
+    "controlBody": "Cierra la sesión desde la página de tu cuenta o borra las cookies de este sitio en tu navegador. Volverás a estar sin sesión y GuIA seguirá funcionando en este navegador."
   },
   "Locked": {
     "title": "Disponible desde el plan {plan}",
@@ -1204,8 +1204,8 @@
         "a": "Al pagar pides acceso inmediato al contenido digital y aceptas perder ese derecho de desistimiento. Los detalles están en los <terms>términos de uso</terms>."
       },
       "affiliation": {
-        "q": "¿Sello es oficial?",
-        "a": "No. Sello es una web independiente para practicar Aptis ESOL General. No está afiliada al British Council ni garantiza ningún resultado en el examen oficial."
+        "q": "¿GuIA es oficial?",
+        "a": "No. GuIA es una web independiente para practicar Aptis ESOL General. No está afiliada al British Council ni garantiza ningún resultado en el examen oficial."
       }
     },
     "buttons": {

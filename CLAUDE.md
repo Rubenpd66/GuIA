@@ -1,6 +1,6 @@
 @AGENTS.md
 
-# Sello — Aptis ESOL General prep (unofficial)
+# GuIA (repo: sello-aptis) — Aptis ESOL General prep (unofficial)
 
 Spanish-speaking B1/B2 learners aiming for C in Core, Reading, Listening, Writing and Speaking. Talk to the user in Spanish; code, identifiers and commits in English.
 

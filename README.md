@@ -1,8 +1,8 @@
-# Sello
+# GuIA
 
 Plataforma web no oficial para preparar el Aptis ESOL General con objetivo C, pensada para hispanohablantes.
 
-> Sello es una web independiente y no oficial. No está afiliada al British Council ni cuenta con su aprobación. Aptis ESOL General es un examen del British Council.
+> GuIA es una web independiente y no oficial. No está afiliada al British Council ni cuenta con su aprobación. Aptis ESOL General es un examen del British Council.
 
 ## Requisitos
 

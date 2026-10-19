@@ -1,5 +1,5 @@
 /*
- * Sello service worker: works offline for pages already visited.
+ * GuIA service worker: works offline for pages already visited.
  * - Pages, data (?_rsc) and content banks: network first, so a new deployment is used as
  *   soon as there is a connection; the last copy is the fallback offline.
  * - /_next/static: cache first; those files have hashed names and never change.
@@ -39,7 +39,7 @@ async function put(name, request, response) {
 
 const OFFLINE_HTML = `<!doctype html><html lang="es"><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sin conexión | Sello</title>
+<title>Sin conexión | GuIA</title>
 <body style="font-family:system-ui,sans-serif;background:#eef2ef;color:#1a2332;margin:0;padding:2rem;line-height:1.5">
 <h1>Sin conexión</h1>
 <p>Esta página aún no está guardada en tu dispositivo. Vuelve cuando tengas conexión; las páginas que ya has visitado funcionan sin red.</p>

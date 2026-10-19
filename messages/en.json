@@ -1,10 +1,10 @@
 {
   "Metadata": {
-    "title": "Sello: prepare for Aptis ESOL General",
+    "title": "GuIA: prepare for Aptis ESOL General",
     "description": "Lessons, practice for all 18 parts and timed mock exams to prepare for Aptis ESOL General and reach C. Unofficial website."
   },
   "Nav": {
-    "home": "Sello home",
+    "home": "GuIA home",
     "mainNav": "Main navigation",
     "skipToContent": "Skip to content",
     "more": "More",
@@ -38,7 +38,7 @@
     "enShort": "EN"
   },
   "Footer": {
-    "disclaimer": "Sello is an independent, unofficial website. It is not affiliated with or endorsed by the British Council. Aptis ESOL General is a British Council exam.",
+    "disclaimer": "GuIA is an independent, unofficial website. It is not affiliated with or endorsed by the British Council. Aptis ESOL General is a British Council exam.",
     "legalNotice": "Legal notice",
     "privacy": "Privacy",
     "terms": "Terms of use",
@@ -51,7 +51,7 @@
     "placementTest": "Take the placement test",
     "startStudying": "Start studying",
     "partsTitle": "The 18 parts of the exam",
-    "partsLead": "Each part is a border: master it and you earn its stamp.",
+    "partsLead": "Each part is a challenge: master it and you earn it.",
     "levelsTitle": "Your passport",
     "levelsLead": "Every level you reach gets stamped: A2, B1, B2 and C.",
     "structuredDescription": "Free, unofficial preparation for the Aptis ESOL General: lessons, practice for all 18 parts, a placement test and mock exams."
@@ -172,9 +172,9 @@
     "cancel": "Cancel",
     "imported": "Progress imported.",
     "resetDone": "Progress deleted.",
-    "importInvalidJson": "That file isn't a Sello backup.",
-    "importNotSello": "That file doesn't come from Sello.",
-    "importInvalidData": "The file is damaged or from a version Sello doesn't recognise.",
+    "importInvalidJson": "That file isn't a GuIA backup.",
+    "importNotSello": "That file doesn't come from GuIA.",
+    "importInvalidData": "The file is damaged or from a version GuIA doesn't recognise.",
     "voiceLead": "The Listening trainers read the scripts aloud with your device's voices. The choice is saved only in this browser.",
     "rate": "Speed",
     "rates": {
@@ -196,9 +196,9 @@
   },
   "Legal": {
     "title": "Legal notice",
-    "lead": "Who is behind Sello and what you can expect from its content.",
+    "lead": "Who is behind GuIA and what you can expect from its content.",
     "unofficialTitle": "Unofficial website",
-    "unofficialBody": "Sello is an independent project to help you prepare for Aptis ESOL General. It is not affiliated with or endorsed by the British Council, and it does not use its brand, logo or materials.",
+    "unofficialBody": "GuIA is an independent project to help you prepare for Aptis ESOL General. It is not affiliated with or endorsed by the British Council, and it does not use its brand, logo or materials.",
     "contentTitle": "Original content",
     "contentBody": "All lessons, texts, audio and questions are original. They follow the format of the exam but do not copy official or third-party materials.",
     "estimatesTitle": "Estimated levels",
@@ -214,7 +214,7 @@
   },
   "Privacy": {
     "title": "Privacy",
-    "lead": "What data Sello keeps, what for and for how long.",
+    "lead": "What data GuIA keeps, what for and for how long.",
     "storedTitle": "What we store",
     "storedBody": "Without an account everything is kept in your browser's local storage: your progress (attempts, scores and mistakes to review), your settings (theme, listening voice and speed, exam date, new cards per day), your flashcards, the mock exam in progress and Writing drafts. None of it is sent to any server.",
     "notStoredTitle": "What we don’t store",
@@ -232,9 +232,9 @@
     "basisTitle": "What for and on what legal basis",
     "basisBody": "We use this data only to give you the account and sync your study: the legal basis is performing the service you ask for when you create the account (art. 6.1.b GDPR). We do not use it for advertising, sell it or pass it on, and we make no automated decisions about you.",
     "ageTitle": "Minimum age",
-    "ageBody": "To create an account you must be 14 or older (art. 7 of Spain's LOPDGDD). If you are younger, you can use Sello without an account.",
+    "ageBody": "To create an account you must be 14 or older (art. 7 of Spain's LOPDGDD). If you are younger, you can use GuIA without an account.",
     "processorsTitle": "Who processes data for us",
-    "processorsBody": "Supabase stores the account and synced data on servers in the European Union (Frankfurt). Vercel hosts the site and may process technical data about visits. If you sign in with Google, Google gives us your email to identify you. If you subscribe, Stripe Payments Europe processes the payment: it receives your name, email, billing address and payment method, which Stripe handles and Sello never sees, and keeps invoices for as long as tax law requires. Sello stores only your plan, its status, its dates and the Stripe identifiers. We have a data processing agreement with these providers.",
+    "processorsBody": "Supabase stores the account and synced data on servers in the European Union (Frankfurt). Vercel hosts the site and may process technical data about visits. If you sign in with Google, Google gives us your email to identify you. If you subscribe, Stripe Payments Europe processes the payment: it receives your name, email, billing address and payment method, which Stripe handles and GuIA never sees, and keeps invoices for as long as tax law requires. GuIA stores only your plan, its status, its dates and the Stripe identifiers. We have a data processing agreement with these providers.",
     "retentionTitle": "How long we keep it",
     "retentionBody": "For as long as you have the account. When you delete it from your account page, your subscription is cancelled and your sign-in, your plan and all your synced data are erased, apart from the provider's temporary backups. Vercel's technical data is kept for the period that provider sets.",
     "rightsTitle": "Your rights",
@@ -276,7 +276,7 @@
     "sortableHint": "Put the sentences in order by dragging the handle, with the buttons or with the keyboard."
   },
   "Stamp": {
-    "label": "{level} stamp: {caption}"
+    "label": "{level} achievement: {caption}"
   },
   "Levels": {
     "A2": "A2: review",
@@ -410,7 +410,7 @@
   },
   "ExamGuide": {
     "formatTitle": "Exam format",
-    "formatLead": "Five components. Each part has its own format, and Sello's trainers copy it.",
+    "formatLead": "Five components. Each part has its own format, and GuIA's trainers copy it.",
     "minutes": "{minutes} min",
     "core": "25 grammar questions with 3 options and 25 vocabulary questions of 4 types.",
     "reading": "Gapped sentences, putting a text in order, matching opinions and headings for a long text.",
@@ -421,7 +421,7 @@
     "scoringBody": "Each skill is scored from 0 to 50 and gets its own CEFR level. Scores can't be compared across skills, because the thresholds differ from one to another.",
     "coreTitle": "Why Core can save a C",
     "coreBody": "Grammar and Vocabulary are reported as a number from 0 to 50, with no level. But when a skill falls just below the threshold for a level, the Core score decides whether you get the higher level. Raising your Core score is the cheapest way to secure a C.",
-    "estimateNote": "Sello shows levels and scores estimated by the app. They are not official results."
+    "estimateNote": "GuIA shows levels and scores estimated by the app. They are not official results."
   },
   "Functional": {
     "title": "Functional language",
@@ -720,7 +720,7 @@
   "WritingPage": {
     "intro": "The Writing paper lasts {minutes} minutes and has four parts, from one-word answers to a formal email. Here is what each part asks for, strategies and a trainer with annotated B2 and C models.",
     "noMarkingTitle": "No automatic marking",
-    "noMarkingBody": "Sello does not mark your texts: you write, compare with the models and assess yourself with the app's own rubric, not the official one. Your text is stored only in your browser.",
+    "noMarkingBody": "GuIA does not mark your texts: you write, compare with the models and assess yourself with the app's own rubric, not the official one. Your text is stored only in your browser.",
     "partTitle": "Part {number}: {name}",
     "examNote": "App exam mode: {minutes, number} minutes, the recommended time for this part. The editor locks at zero.",
     "strategies": "Strategies",
@@ -877,7 +877,7 @@
     "micTest": "Test the microphone",
     "micTesting": "Recording 3 seconds…",
     "micResult": "Your test",
-    "noMarking": "Sello does not mark your speaking: you listen to yourself, compare with the models and assess yourself with the app's own rubric, not the official one.",
+    "noMarking": "GuIA does not mark your speaking: you listen to yourself, compare with the models and assess yourself with the app's own rubric, not the official one.",
     "partTitle": "Part {number}: {name}",
     "task": {
       "speaking-1": "Three personal questions. You have 30 seconds for each answer.",
@@ -907,7 +907,7 @@
     },
     "skillsTitle": "Level by skill",
     "noData": "No data",
-    "noStamp": "No stamp",
+    "noStamp": "No achievement",
     "percent": "{value}%",
     "selfAssessed": "Self-assessed",
     "habitTitle": "Your pace",
@@ -917,11 +917,11 @@
     "minutes": "{count, plural, one {# minute} other {# minutes}}",
     "weakTitle": "Weak points",
     "passportTitle": "Your passport",
-    "passportLead": "Every part of the exam has its own box. The stamp shows your estimated level and changes as you practise.",
-    "stampLabel": "{level} stamp: {part}",
-    "emptySlot": "No stamp yet: {part}",
+    "passportLead": "Every part of the exam has its own box. The achievement shows your estimated level and changes as you practise.",
+    "stampLabel": "{level} achievement: {part}",
+    "emptySlot": "No achievement yet: {part}",
     "flashcardsDue": "{count, plural, =0 {Flashcards: nothing due today} one {Flashcards: # card for today} other {Flashcards: # cards for today}}",
-    "levelUpTitle": "New stamp!",
+    "levelUpTitle": "New achievement!",
     "levelUpBody": "{level} in {part}{more, plural, =0 {.} one { and # more part.} other { and # more parts.}}",
     "levelUpClose": "Close"
   },
@@ -1004,8 +1004,8 @@
     "start": "Start the test",
     "resultTitle": "Your estimated level",
     "estimateNote": "This is the app's rough estimate from a few questions, not an official score. It gets sharper as you practise.",
-    "stampLabel": "{level} stamp: {skill}",
-    "noStamp": "No stamp",
+    "stampLabel": "{level} achievement: {skill}",
+    "noStamp": "No achievement",
     "percent": "{value}%",
     "notEstimated": "Writing and Speaking are not estimated yet: do one task of each to get your level.",
     "planTitle": "Your plan: practise these first",
@@ -1025,8 +1025,8 @@
     "cancel": "Cancel",
     "reportTitle": "Mock exam report",
     "estimateNote": "Share of right answers and the app's estimated level, not an official score: the conversion to the exam's 0–50 scale is not public. Writing and Speaking come from your self-assessment.",
-    "stampLabel": "{level} stamp: {skill}",
-    "noStamp": "No stamp",
+    "stampLabel": "{level} achievement: {skill}",
+    "noStamp": "No achievement",
     "percent": "{value}%",
     "selfAssessed": "Self-assessed",
     "partsTitle": "By part",
@@ -1043,14 +1043,14 @@
     "retry": "Try again"
   },
   "Pwa": {
-    "updated": "A new version of Sello is available.",
+    "updated": "A new version of GuIA is available.",
     "reload": "Reload"
   },
   "Account": {
     "title": "Your account",
     "lead": "Your progress saved in the cloud and in step across your devices.",
     "signInPageTitle": "Sign in",
-    "signInLead": "With an account your progress is saved in the cloud and follows you across devices. Without one, Sello keeps working in this browser.",
+    "signInLead": "With an account your progress is saved in the cloud and follows you across devices. Without one, GuIA keeps working in this browser.",
     "loading": "Loading…",
     "signedOut": "You are not signed in.",
     "signedInAs": "Signed in as {email}",
@@ -1080,7 +1080,7 @@
     "changePassword": "Change password",
     "updatePassword": "Save password",
     "deleteTitle": "Delete account",
-    "deleteBody": "Your account and everything Sello keeps about you in the cloud are deleted. This cannot be undone. If you have a paid plan, it is cancelled at once and the current period is not refunded: to keep access until it ends, cancel it first under \"Manage subscription\".",
+    "deleteBody": "Your account and everything GuIA keeps about you in the cloud are deleted. This cannot be undone. If you have a paid plan, it is cancelled at once and the current period is not refunded: to keep access until it ends, cancel it first under \"Manage subscription\".",
     "deleteButton": "Delete my account",
     "deleteConfirm": "Are you sure you want to delete your account and your cloud data?",
     "keepLocal": "Keep the progress saved in this browser",
@@ -1117,17 +1117,17 @@
   },
   "Terms": {
     "title": "Terms of use",
-    "lead": "The rules for using Sello and having an account.",
-    "whatTitle": "What Sello is",
-    "whatBody": "Sello is an independent website for practising Aptis ESOL General. It is not a service of the British Council or any examining body, and it does not guarantee any result in the official exam.",
+    "lead": "The rules for using GuIA and having an account.",
+    "whatTitle": "What GuIA is",
+    "whatBody": "GuIA is an independent website for practising Aptis ESOL General. It is not a service of the British Council or any examining body, and it does not guarantee any result in the official exam.",
     "accountTitle": "Your account",
     "accountBody": "Creating an account is optional and free. You must be 14 or older and give true details. You are responsible for your password. You can delete the account at any time from your account page.",
     "useTitle": "Acceptable use",
-    "useBody": "Use Sello to study. Do not try to access other people's accounts, overload the service, extract its content in bulk or get around its security measures.",
+    "useBody": "Use GuIA to study. Do not try to access other people's accounts, overload the service, extract its content in bulk or get around its security measures.",
     "contentTitle": "Content",
-    "contentBody": "Sello's lessons, texts and questions are original and belong to its owner. You may use them for your own study, but not copy or redistribute them without permission.",
+    "contentBody": "GuIA's lessons, texts and questions are original and belong to its owner. You may use them for your own study, but not copy or redistribute them without permission.",
     "liabilityTitle": "Liability",
-    "liabilityBody": "Levels and scores are our own estimates. Sello is provided as is, with no guarantee of continuous availability, and we will take reasonable care of your data. This does not limit the rights the law gives you as a consumer.",
+    "liabilityBody": "Levels and scores are our own estimates. GuIA is provided as is, with no guarantee of continuous availability, and we will take reasonable care of your data. This does not limit the rights the law gives you as a consumer.",
     "plansTitle": "Plans and payments",
     "plansBody": "The B1, B2 and C1 plans are paid monthly or yearly, with VAT included in the price, and renew automatically until you cancel. You can cancel at any time from your account (Stripe's portal) and keep access until the end of the paid period. Upgrading is immediate and prorated; downgrading or cancelling takes effect at the end of the period. When a plan ends or goes down, your progress is kept, but content above your plan's level locks again. By paying you ask for immediate access to digital content and accept losing the 14-day right of withdrawal (article 103 m of Spain's consumer law). If you delete your account, the subscription is cancelled at once and the current period is not refunded.",
     "changesTitle": "Changes and governing law",
@@ -1135,15 +1135,15 @@
   },
   "Cookies": {
     "title": "Cookie policy",
-    "lead": "Which cookies Sello uses and why we do not need to ask your permission.",
+    "lead": "Which cookies GuIA uses and why we do not need to ask your permission.",
     "noneTitle": "Without an account",
-    "noneBody": "If you do not sign in, Sello sets no cookies. Your theme, language and progress are kept in the browser's local storage, which is not a cookie and does not leave your device.",
+    "noneBody": "If you do not sign in, GuIA sets no cookies. Your theme, language and progress are kept in the browser's local storage, which is not a cookie and does not leave your device.",
     "sessionTitle": "If you sign in",
     "sessionBody": "Supabase keeps your session in cookies (names that start with 'sb-' and end in '-auth-token'). They are technical, strictly necessary, first-party cookies that keep you identified and they last until you sign out or delete them.",
     "consentTitle": "Consent",
     "consentBody": "Strictly necessary technical cookies need no consent, which is why there is no banner. We use no analytics, advertising or third-party cookies. If we ever add them, we will ask your permission first.",
     "controlTitle": "How to delete them",
-    "controlBody": "Sign out from your account page or clear this site's cookies in your browser. You will be signed out and Sello will keep working in this browser."
+    "controlBody": "Sign out from your account page or clear this site's cookies in your browser. You will be signed out and GuIA will keep working in this browser."
   },
   "Locked": {
     "title": "Available from the {plan} plan",
@@ -1204,8 +1204,8 @@
         "a": "When you pay, you ask for immediate access to digital content and accept losing that right of withdrawal. The details are in the <terms>terms of use</terms>."
       },
       "affiliation": {
-        "q": "Is Sello official?",
-        "a": "No. Sello is an independent website for practising Aptis ESOL General. It is not affiliated with the British Council and does not guarantee any result in the official exam."
+        "q": "Is GuIA official?",
+        "a": "No. GuIA is an independent website for practising Aptis ESOL General. It is not affiliated with the British Council and does not guarantee any result in the official exam."
       }
     },
     "buttons": {

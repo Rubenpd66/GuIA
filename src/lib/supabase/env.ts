@@ -1,7 +1,7 @@
 /**
  * Public Supabase settings. Both values may reach the browser: the publishable key only
  * grants what Row Level Security allows. Without them, accounts are simply switched off and
- * Sello keeps working on this device only.
+ * GuIA keeps working on this device only.
  */
 export const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
 export const SUPABASE_PUBLISHABLE_KEY =

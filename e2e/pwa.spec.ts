@@ -5,7 +5,7 @@ test("the manifest makes the app installable", async ({ request }) => {
   expect(response.ok()).toBe(true);
   const manifest = await response.json();
   expect(manifest).toMatchObject({
-    short_name: "Sello",
+    short_name: "GuIA",
     display: "standalone",
     start_url: "/es/panel",
   });

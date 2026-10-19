@@ -155,7 +155,7 @@ describe("export and import", () => {
     expect(importProgress(damaged)).toMatchObject({ ok: true, extras: {} });
   });
 
-  it("rejects files that are not JSON, not from Sello or damaged", () => {
+  it("rejects files that are not JSON, not from GuIA or damaged", () => {
     expect(importProgress("hello")).toEqual({
       ok: false,
       error: "invalid-json",

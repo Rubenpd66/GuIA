@@ -1,6 +1,6 @@
 # Documento legal para el titular (RGPD / LOPDGDD)
 
-Notas para ti, no para publicar. Sello trata datos personales solo si alguien crea una cuenta. Sin cuenta, todo queda en el navegador y no hay tratamiento por tu parte.
+Notas para ti, no para publicar. GuIA trata datos personales solo si alguien crea una cuenta. Sin cuenta, todo queda en el navegador y no hay tratamiento por tu parte.
 
 ## Registro de actividades de tratamiento (art. 30 RGPD)
 

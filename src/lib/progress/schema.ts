@@ -21,7 +21,7 @@ export const MistakeEntry = z.object({
 });
 export type MistakeEntry = z.infer<typeof MistakeEntry>;
 
-/** Everything Sello remembers about the learner. Stored only in their browser. */
+/** Everything GuIA remembers about the learner. Stored only in their browser. */
 export const Progress = z.object({
   version: z.literal(1),
   attempts: z.array(Attempt),
