@@ -129,7 +129,7 @@ async function run(userId: string, applying: { current: boolean }) {
     let updatedAt = local.updatedAt;
     if (row) {
       const remote = {
-        value: channel.parse(JSON.stringify(row.value)),
+        value: channel.parse(JSON.stringify(row.value.data)),
         updatedAt: Number(row.updated_at),
       };
       merged = channel.merge(local, remote);
@@ -148,7 +148,8 @@ async function run(userId: string, applying: { current: boolean }) {
     rows.push({
       user_id: userId,
       key: channel.key,
-      value: merged,
+      // Wrapped because JSON null would reach Postgres as SQL NULL, which the column refuses.
+      value: { data: merged },
       updated_at: updatedAt,
     });
   }
@@ -178,7 +179,8 @@ export function startSync() {
       try {
         await run(user.id, applying);
         setSyncStatus("synced");
-      } catch {
+      } catch (error) {
+        console.warn("sello: sync failed", error);
         setSyncStatus("offline");
       } finally {
         busy = false;

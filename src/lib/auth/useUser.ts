@@ -47,7 +47,11 @@ export function useUser(): SessionUser | null | undefined {
 
 /** For non-React code (the sync engine). */
 export function onUserChange(listener: (user: SessionUser | null) => void) {
-  return subscribe(() => {
+  const notify = () => {
     if (current !== undefined) listener(current);
-  });
+  };
+  const off = subscribe(notify);
+  // The session may already be known, in which case no change event is coming.
+  notify();
+  return off;
 }
