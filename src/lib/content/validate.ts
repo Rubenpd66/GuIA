@@ -8,6 +8,7 @@ import {
 import { VOCAB_TYPES, type VocabType } from "./schemas/core";
 import type { Script } from "./schemas/listening";
 import { countWords, findAmericanSpellings, stripBom } from "./text";
+import { modelWordRange } from "@/lib/trainer/speaking";
 
 /** Words per recording in each Listening part (app decision; the exam does not publish them). */
 const LISTENING_WORDS = {
@@ -24,6 +25,12 @@ const WRITING_PARTS = [
   "writing-2",
   "writing-3",
   "writing-4",
+] as const;
+const SPEAKING_PARTS = [
+  "speaking-1",
+  "speaking-2",
+  "speaking-3",
+  "speaking-4",
 ] as const;
 
 /** Below this, "Practise this point" gives a session too short to be useful. */
@@ -46,6 +53,8 @@ export type ValidationReport = {
     listeningByPart: Record<keyof typeof LISTENING_WORDS, number>;
     /** Writing tasks per part. */
     writingByPart: Record<(typeof WRITING_PARTS)[number], number>;
+    /** Speaking tasks per part. */
+    speakingByPart: Record<(typeof SPEAKING_PARTS)[number], number>;
   };
 };
 
@@ -107,6 +116,7 @@ export function validateContentSet(sources: ContentSource[]): ValidationReport {
   warnings.push(
     ...findThinLessons(parsed, bank.grammarByLesson),
     ...listening.warnings,
+    ...speakingModelWarnings(parsed),
   );
   return {
     errors,
@@ -145,6 +155,9 @@ function questionBank(parsed: ParsedFile[]): ValidationReport["bank"] {
   const writingByPart = Object.fromEntries(
     WRITING_PARTS.map((part) => [part, 0]),
   ) as ValidationReport["bank"]["writingByPart"];
+  const speakingByPart = Object.fromEntries(
+    SPEAKING_PARTS.map((part) => [part, 0]),
+  ) as ValidationReport["bank"]["speakingByPart"];
   for (const { file } of parsed) {
     if (file.kind !== "exercises") continue;
     for (const exercise of file.items) {
@@ -152,9 +165,17 @@ function questionBank(parsed: ParsedFile[]): ValidationReport["bank"] {
         listeningByPart[exercise.examPart as keyof typeof listeningByPart] += 1;
       if (exercise.examPart in writingByPart)
         writingByPart[exercise.examPart as keyof typeof writingByPart] += 1;
+      if (exercise.examPart in speakingByPart)
+        speakingByPart[exercise.examPart as keyof typeof speakingByPart] += 1;
     }
   }
-  return { grammarByLesson, vocabularyByType, listeningByPart, writingByPart };
+  return {
+    grammarByLesson,
+    vocabularyByType,
+    listeningByPart,
+    writingByPart,
+    speakingByPart,
+  };
 }
 
 const scriptText = (script: Script) => script.map((l) => l.text).join(" ");
@@ -205,6 +226,43 @@ function checkListening(parsed: ParsedFile[]) {
     });
   }
   return { errors, warnings };
+}
+
+/** Speaking: model answers that would not fit the time (a warning; the pace is an app decision). */
+function speakingModelWarnings(parsed: ParsedFile[]): ContentIssue[] {
+  const warnings: ContentIssue[] = [];
+  for (const { path, file } of parsed) {
+    if (file.kind !== "exercises") continue;
+    file.items.forEach((exercise, i) => {
+      if (
+        !exercise.examPart.startsWith("speaking-") ||
+        !("questions" in exercise)
+      )
+        return;
+      const part = exercise.examPart as (typeof SPEAKING_PARTS)[number];
+      const [min, max] = modelWordRange(part);
+      (
+        exercise as {
+          questions: {
+            models: Record<"b2" | "c", { segments: { text: string }[] }>;
+          }[];
+        }
+      ).questions.forEach((question, j) => {
+        for (const level of ["b2", "c"] as const) {
+          const words = countWords(
+            question.models[level].segments.map((s) => s.text).join(" "),
+          );
+          if (words < min || words > max)
+            warnings.push({
+              path,
+              pointer: `items/${i}/questions/${j}/models/${level}`,
+              message: `The model has ${words} words; ${part} aims for ${min}–${max}`,
+            });
+        }
+      });
+    });
+  }
+  return warnings;
 }
 
 function findThinLessons(
@@ -438,6 +496,7 @@ function bankLines({
   vocabularyByType,
   listeningByPart,
   writingByPart,
+  speakingByPart,
 }: ValidationReport["bank"]): string[] {
   const lessons = Object.entries(grammarByLesson);
   const questions = lessons.reduce((sum, [, n]) => sum + n, 0);
@@ -455,5 +514,6 @@ function bankLines({
     `Core Vocabulary: ${items} items (${VOCAB_TYPES.map((type) => `${type} ${vocabularyByType[type]}`).join(", ")})`,
     `Listening: ${LISTENING_PARTS.map((part) => `${part.slice(-1)}: ${listeningByPart[part]}`).join(", ")} tasks`,
     `Writing: ${WRITING_PARTS.map((part) => `${part.slice(-1)}: ${writingByPart[part]}`).join(", ")} tasks`,
+    `Speaking: ${SPEAKING_PARTS.map((part) => `${part.slice(-1)}: ${speakingByPart[part]}`).join(", ")} tasks`,
   ];
 }

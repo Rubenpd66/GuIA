@@ -182,6 +182,12 @@ const MUTATIONS: Mutation[] = [
   ],
   ["speaking-1", "two questions", (e) => e.questions.pop(), ["questions"]],
   ["speaking-3", "one image", (e) => e.images.pop(), ["images"]],
+  [
+    "speaking-2",
+    "a scene that is not drawn",
+    (e) => (e.image.sceneId = "nowhere"),
+    ["image", "sceneId"],
+  ],
   ["speaking-4", "two questions", (e) => e.questions.pop(), ["questions"]],
 ];
 

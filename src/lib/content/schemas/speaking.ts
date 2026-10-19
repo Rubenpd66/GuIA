@@ -1,11 +1,15 @@
 import { z } from "zod";
 import { EXAM_FORMAT } from "@/lib/exam/format";
-import { LocalizedText, NonEmptyText, Slug, exerciseBase } from "./common";
+import { SCENE_IDS } from "@/lib/speaking/scenes";
+import { LocalizedText, NonEmptyText, exerciseBase } from "./common";
 
 const { part1, part2, part3, part4 } = EXAM_FORMAT.speaking;
 
-/** An original SVG scene, referenced by id, with its alternative text. */
-export const SceneImage = z.strictObject({ sceneId: Slug, alt: LocalizedText });
+/** An original SVG scene, referenced by id (see `SCENES`), with its alternative text. */
+export const SceneImage = z.strictObject({
+  sceneId: z.enum(SCENE_IDS),
+  alt: LocalizedText,
+});
 export type SceneImage = z.infer<typeof SceneImage>;
 
 export const StructuredAnswer = z.strictObject({

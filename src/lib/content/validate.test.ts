@@ -303,6 +303,27 @@ describe("Listening checks", () => {
   });
 });
 
+describe("speaking models", () => {
+  it("warns when a model answer would not fit the time", () => {
+    const set = validSet();
+    const exercises = JSON.parse(set[0]!.raw) as {
+      items: {
+        examPart: string;
+        questions?: { models: { b2: { segments: { text: string }[] } } }[];
+      }[];
+    };
+    const s1 = exercises.items.find((e) => e.examPart === "speaking-1")!;
+    s1.questions![0]!.models.b2.segments[0]!.text = "Yes, I do.";
+    set[0] = { ...set[0]!, raw: JSON.stringify(exercises) };
+    const report = validateContentSet(set);
+    expect(report.errors).toEqual([]);
+    expect(report.warnings.map((w) => w.message)).toEqual([
+      "The model has 3 words; speaking-1 aims for 40–73",
+    ]);
+    expect(report.bank.speakingByPart["speaking-4"]).toBe(1);
+  });
+});
+
 describe("formatReport", () => {
   it("summarises files, items, errors and warnings", () => {
     const text = formatReport(validateContentSet(validSet()));

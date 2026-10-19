@@ -54,3 +54,31 @@ export const LISTENING_PART_EXAM = {
   "listening-3": { tasks: 1 },
   "listening-4": { tasks: 1 },
 } as const;
+
+const { speaking } = EXAM_FORMAT;
+/**
+ * Speaking timings per part. Part 4 has one minute to prepare and one two-minute turn for
+ * its three questions together.
+ */
+export const SPEAKING_PART_EXAM = {
+  "speaking-1": {
+    prepSeconds: 0,
+    answerSeconds: speaking.part1.answerSeconds,
+    turns: speaking.part1.questions,
+  },
+  "speaking-2": {
+    prepSeconds: 0,
+    answerSeconds: speaking.part2.answerSeconds,
+    turns: speaking.part2.questions,
+  },
+  "speaking-3": {
+    prepSeconds: 0,
+    answerSeconds: speaking.part3.answerSeconds,
+    turns: speaking.part3.questions,
+  },
+  "speaking-4": {
+    prepSeconds: speaking.part4.prepSeconds,
+    answerSeconds: speaking.part4.answerSeconds,
+    turns: 1,
+  },
+} as const;

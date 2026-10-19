@@ -35,9 +35,10 @@ const answer = (b2: string, c: string) => ({
 
 const question = (prompt: string) => ({
   prompt,
+  // Long enough for the time every part allows (see modelWordRange).
   models: answer(
-    "I think it is a good idea.",
-    "On balance, I'd say it's well worth it.",
+    `I think it is a good idea. ${words(60)}`,
+    `On balance, I'd say it's well worth it. ${words(55)}`,
   ),
 });
 
@@ -643,8 +644,8 @@ export const validExercises: Record<ExamPart, unknown> = {
     topic: "technology",
     difficulty: 4,
     image: {
-      sceneId: "family-screens",
-      alt: { en: "A family at dinner, each person looking at a phone." },
+      sceneId: "cafe-friends",
+      alt: { en: "Three friends at a café table, one looking at a phone." },
     },
     questions: [
       question("Tell me about a time when technology made your life easier."),
