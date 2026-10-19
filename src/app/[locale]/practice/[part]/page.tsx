@@ -14,6 +14,15 @@ import { SpeakingTrainer } from "@/components/speaking/SpeakingTrainer";
 import { WritingTrainer } from "@/components/writing/WritingTrainer";
 import { exercisesOfPart, phrasesByFunction } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
+import { LockedNotice } from "@/components/access/LockedNotice";
+import { getEntitlement } from "@/lib/access/entitlement";
+import {
+  entriesVisibleTo,
+  isVisible,
+  lowestLevel,
+  visibleTo,
+} from "@/lib/access/rule";
+import type { Tier } from "@/lib/access/tiers";
 import { localized } from "@/lib/content/localize";
 import {
   EXAM_PARTS,
@@ -80,7 +89,7 @@ async function PracticePart({ params }: { params: Params }) {
   const { part } = await params;
   // Unknown parts are not prerendered and must not render a trainer.
   if (!isExamPart(part)) notFound();
-  const t = await getTranslations();
+  const [t, tier] = await Promise.all([getTranslations(), getEntitlement()]);
 
   if (part === "core-grammar" || part === "core-vocabulary") {
     const [content, locale] = await Promise.all([getContent(), getLocale()]);
@@ -95,14 +104,18 @@ async function PracticePart({ params }: { params: Params }) {
         <PageHeader title={await titleOf(part)} />
         {part === "core-grammar" ? (
           <GrammarTrainer
-            exercises={exercisesOfPart(content, "core-grammar")}
+            exercises={visibleTo(
+              tier,
+              exercisesOfPart(content, "core-grammar"),
+            )}
             lessonTitles={lessonTitles}
           />
         ) : (
           <VocabularyTrainer
-            tasks={exercisesOfPart(content, "core-vocabulary")}
+            tasks={visibleTo(tier, exercisesOfPart(content, "core-vocabulary"))}
           />
         )}
+        <HiddenNotice tier={tier} part={part} />
       </>
     );
   }
@@ -117,7 +130,11 @@ async function PracticePart({ params }: { params: Params }) {
     return (
       <>
         <PageHeader title={await titleOf(part)} />
-        <ReadingTrainer part={part} tasks={exercisesOfPart(content, part)} />
+        <ReadingTrainer
+          part={part}
+          tasks={visibleTo(tier, exercisesOfPart(content, part))}
+        />
+        <HiddenNotice tier={tier} part={part} />
       </>
     );
   }
@@ -132,7 +149,11 @@ async function PracticePart({ params }: { params: Params }) {
     return (
       <>
         <PageHeader title={await titleOf(part)} />
-        <ListeningTrainer part={part} tasks={exercisesOfPart(content, part)} />
+        <ListeningTrainer
+          part={part}
+          tasks={visibleTo(tier, exercisesOfPart(content, part))}
+        />
+        <HiddenNotice tier={tier} part={part} />
       </>
     );
   }
@@ -149,11 +170,15 @@ async function PracticePart({ params }: { params: Params }) {
         <PageHeader title={await titleOf(part)} />
         <WritingTrainer
           part={part}
-          tasks={exercisesOfPart(content, part)}
-          phrases={phrasesByFunction(content)
-            .filter((group) => WRITING_FUNCTIONS.has(group.function))
-            .flatMap((group) => group.phrases)}
+          tasks={visibleTo(tier, exercisesOfPart(content, part))}
+          phrases={entriesVisibleTo(
+            tier,
+            phrasesByFunction(content)
+              .filter((group) => WRITING_FUNCTIONS.has(group.function))
+              .flatMap((group) => group.phrases),
+          )}
         />
+        <HiddenNotice tier={tier} part={part} />
       </>
     );
   }
@@ -170,9 +195,13 @@ async function PracticePart({ params }: { params: Params }) {
         <PageHeader title={await titleOf(part)} />
         <SpeakingTrainer
           part={part}
-          tasks={exercisesOfPart(content, part)}
-          phrases={phrasesByFunction(content).flatMap((group) => group.phrases)}
+          tasks={visibleTo(tier, exercisesOfPart(content, part))}
+          phrases={entriesVisibleTo(
+            tier,
+            phrasesByFunction(content).flatMap((group) => group.phrases),
+          )}
         />
+        <HiddenNotice tier={tier} part={part} />
       </>
     );
   }
@@ -187,4 +216,16 @@ async function PracticePart({ params }: { params: Params }) {
       />
     </>
   );
+}
+
+/** Under a trainer: how many tasks of this part the learner's plan does not open. */
+async function HiddenNotice({ tier, part }: { tier: Tier; part: ExamPart }) {
+  const all = exercisesOfPart(await getContent(), part);
+  const hidden = all.filter((exercise) => !isVisible(tier, exercise));
+  const level = lowestLevel(hidden.map((exercise) => exercise.cefrLevel));
+  return level ? (
+    <div className="mt-10">
+      <LockedNotice level={level} count={hidden.length} />
+    </div>
+  ) : null;
 }

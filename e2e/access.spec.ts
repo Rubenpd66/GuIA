@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { expect, test } from "@playwright/test";
 
 /** A file under content/, parsed, so the tests follow the content instead of copying it. */
@@ -65,5 +65,21 @@ test.describe("visitors", () => {
       body.includes(example("fl-opinion-a2-1")),
       "expected text missing",
     ).toBe(true);
+  });
+
+  test("the Core Grammar trainer holds only free questions", async ({
+    request,
+  }) => {
+    type Questions = {
+      items: { id: string; cefrLevel: string; placement?: true }[];
+    };
+    const all = readdirSync("content/exercises/core-grammar").flatMap(
+      (file) => content<Questions>(`exercises/core-grammar/${file}`).items,
+    );
+    const free = all.find((q) => q.cefrLevel === "A2")!.id;
+    const paid = all.find((q) => q.cefrLevel === "C1" && !q.placement)!.id;
+    const body = await (await request.get("/es/practica/core-grammar")).text();
+    expect(body.includes(paid), "paid question in the response").toBe(false);
+    expect(body.includes(free), "expected question missing").toBe(true);
   });
 });
