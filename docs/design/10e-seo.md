@@ -29,7 +29,7 @@ Fecha: 2026-10-20. Revisión sobre el código y el build local, sin usar la red 
 
 | Grupo | Búsquedas típicas | Página que debería posicionar |
 |---|---|---|
-| Examen y formato | «aptis esol general», «formato examen aptis», «partes del aptis», «cuánto dura el aptis» | `/es/guia-del-examen`, portada |
+| Examen y formato | «aptis esol general», «formato examen aptis», «partes del aptis», «cuánto dura el aptis» | `/es/guia`, portada |
 | Nivel y certificado | «aptis b1», «aptis b2», «aptis c1», «nivel aptis», «cuánto es un c en aptis» | `/es/planes`, `/es/test-de-nivel` |
 | Preparación por destreza | «aptis reading ejercicios», «aptis listening práctica», «aptis writing modelos», «aptis speaking preguntas» | Páginas de cada destreza y entrenadores |
 | Gramática y vocabulario | «aptis grammar and vocabulary», «ejercicios gramática b2», «collocations b2» | `/es/gramatica`, `/es/vocabulario` |
