@@ -76,7 +76,7 @@
     },
     "listening": {
       "title": "Listening",
-      "lead": "Audios con voces británicas, transcripciones y práctica para captar la actitud y la intención."
+      "lead": "Audios leídos por las voces de tu dispositivo, con transcripciones y práctica para captar la actitud y la intención."
     },
     "writing": {
       "title": "Writing",
@@ -108,7 +108,7 @@
     },
     "settings": {
       "title": "Ajustes",
-      "lead": "Idioma y tema de la web. Más adelante, también la voz del listening, la fecha de tu examen y la copia de tu progreso."
+      "lead": "Idioma, tema, voz del listening y copia de tu progreso. Más adelante, también la fecha de tu examen."
     }
   },
   "Coming": {
@@ -169,7 +169,21 @@
     "resetDone": "Progreso borrado.",
     "importInvalidJson": "Ese fichero no es una copia de Sello.",
     "importNotSello": "Ese fichero no viene de Sello.",
-    "importInvalidData": "El fichero está dañado o es de una versión que Sello no reconoce."
+    "importInvalidData": "El fichero está dañado o es de una versión que Sello no reconoce.",
+    "voiceLead": "Los entrenadores de Listening leen los guiones en voz alta con las voces de tu dispositivo. La elección se guarda solo en este navegador.",
+    "rate": "Velocidad",
+    "rates": {
+      "slow": "Lenta",
+      "normal": "Normal",
+      "fast": "Rápida"
+    },
+    "voiceMan": "Voz del hombre",
+    "voiceWoman": "Voz de la mujer",
+    "automatic": "Automática",
+    "test": "Probar",
+    "stopTest": "Parar",
+    "noVoices": "No hay voces en inglés en este dispositivo. Se usará la voz por defecto.",
+    "unsupported": "Tu navegador no puede leer audio en voz alta."
   },
   "Legal": {
     "title": "Aviso legal",
@@ -464,6 +478,90 @@
       "s2": "La idea principal suele estar en la primera o la última frase del párrafo; los ejemplos del medio son detalles.",
       "s3": "Desconfía del encabezado que repite una palabra del párrafo: el correcto suele resumir la idea con otras palabras.",
       "s4": "Empieza por los párrafos que tengas claros; con menos opciones, los difíciles son más fáciles."
+    }
+  },
+  "Listening": {
+    "trainer": {
+      "instructions": {
+        "listening-1": "Escucha la grabación y elige la mejor respuesta.",
+        "listening-2": "Hablan cuatro personas. Elige qué dice cada una; sobran dos opciones.",
+        "listening-3": "Escucha la conversación y decide quién expresa cada opinión: el hombre, la mujer o ambos.",
+        "listening-4": "Escucha al hablante y responde a las dos preguntas sobre actitud, intención u opinión."
+      },
+      "situation": "Situación",
+      "speakerN": "Hablante {number}",
+      "play": "Reproducir",
+      "playAgain": "Reproducir otra vez",
+      "pause": "Pausar",
+      "resume": "Continuar",
+      "playsUsed": "Escuchado {used} de {max}",
+      "playing": "Reproduciendo…",
+      "paused": "En pausa",
+      "noPlaysLeft": "No quedan reproducciones",
+      "unsupported": "Tu navegador no puede leer audio en voz alta. Usa la transcripción.",
+      "noEnglishVoice": "Este dispositivo no tiene voz en inglés, así que se usará la voz por defecto y puede sonar rara.",
+      "voiceNote": "La voz es sintética y depende de tu dispositivo. No es la grabación del examen.",
+      "transcript": "Transcripción",
+      "showTranscript": "Ver la transcripción",
+      "clues": "Pistas: {clues}",
+      "speakers": {
+        "man": "Hombre",
+        "woman": "Mujer",
+        "narrator": "Narrador"
+      },
+      "choices": {
+        "man": "Hombre",
+        "woman": "Mujer",
+        "both": "Ambos"
+      },
+      "chooseOption": "Elige una opción",
+      "chooseWho": "Elige quién",
+      "prompt": "Pregunta {number}",
+      "statementN": "Afirmación {number}",
+      "examHint": "{count, plural, one {# tarea} other {# tareas}}, cada grabación como máximo dos veces, sin ayudas. La nota, al final. El número de tareas es una decisión de la app.",
+      "bankSize": "{count, plural, one {# tarea disponible} other {# tareas disponibles}}. El banco crece en los próximos lotes.",
+      "shortBank": "El examen tiene {total} tareas, pero el banco solo tiene {count} para este filtro, así que la sesión es más corta.",
+      "scoreNote": "Un punto por pregunta, hablante y afirmación (decisión de la app). No es la escala del examen."
+    }
+  },
+  "ListeningPage": {
+    "intro": "El examen de Listening dura {minutes} minutos y oyes cada grabación una o dos veces. Aquí tienes qué pide cada parte, estrategias para hacerla bien y un entrenador con guiones originales.",
+    "partTitle": "Parte {number}: {name}",
+    "examNote": "Modo examen de la app: cada grabación se puede reproducir {plays} veces y no hay cuenta atrás. Es una decisión de la app.",
+    "strategies": "Estrategias",
+    "practise": "Practicar la parte {number}",
+    "voiceTitle": "Sobre las voces",
+    "voiceBody": "Las grabaciones las leen en voz alta las voces instaladas en tu dispositivo, así que la calidad varía. No son las grabaciones del examen. Puedes elegir voces y velocidad en Ajustes.",
+    "settings": "Ajustes de voz"
+  },
+  "ListeningStrategies": {
+    "listening-1": {
+      "task": "Un mensaje, monólogo o diálogo corto y una pregunta sobre un dato concreto, con {options} opciones.",
+      "s1": "Lee la pregunta y las opciones antes de que empiece el audio: así sabes qué dato captar.",
+      "s2": "Los números, días y horas suelen corregirse en la grabación; la versión final es la buena.",
+      "s3": "Las opciones repiten palabras del audio a propósito. Elige la idea que encaja, no la palabra que oyes.",
+      "s4": "Usa la segunda escucha para comprobar tu respuesta, no para empezar de cero."
+    },
+    "listening-2": {
+      "task": "Cuatro monólogos cortos y {options} afirmaciones. Emparejas cada hablante con la idea que encaja; sobran dos afirmaciones.",
+      "s1": "Lee primero las {options} afirmaciones y subraya la idea clave de cada una.",
+      "s2": "El hablante parafrasea: escucha la idea, no las palabras exactas.",
+      "s3": "Si se te escapa uno, sigue y vuelve con la segunda escucha.",
+      "s4": "Tacha cada afirmación que uses. Lo que queda te ayuda con el hablante dudoso."
+    },
+    "listening-3": {
+      "task": "Una conversación entre un hombre y una mujer y {statements} afirmaciones. En cada una decides si lo dice el hombre, la mujer o ambos.",
+      "s1": "Mientras escuchas, anota H, M o ambos junto a cada afirmación.",
+      "s2": "Elige ambos solo si cada persona expresa la idea. Que uno asienta con un «mm» no basta.",
+      "s3": "Atención a los cambios de opinión: «I used to think…», «but», «actually».",
+      "s4": "Las afirmaciones siguen el orden de la conversación, lo que te ayuda a no perderte."
+    },
+    "listening-4": {
+      "task": "Un monólogo más largo y {questions} preguntas sobre actitud, intención u opinión, con {options} opciones cada una.",
+      "s1": "Estas preguntas son sobre cómo se siente el hablante, no sobre datos: escucha el tono y la elección de palabras.",
+      "s2": "Palabras como «unfortunately», «I'll admit» o «surprisingly» muestran actitud.",
+      "s3": "Un hablante puede elogiar una cosa y criticar otra; la pregunta se refiere a su visión general.",
+      "s4": "En modo estudio, tras responder, lee las pistas de la transcripción para aprender qué escuchar."
     }
   }
 }

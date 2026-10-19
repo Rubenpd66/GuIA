@@ -35,3 +35,14 @@ export function formatClock(milliseconds: number): string {
   const seconds = total % 60;
   return `${minutes}:${String(seconds).padStart(2, "0")}`;
 }
+
+/**
+ * Exam mode for a single Listening part: how many tasks one session has. The exam fixes no
+ * count for part 1, so five is an app decision. Parts are not timed: the audio sets the pace.
+ */
+export const LISTENING_PART_EXAM = {
+  "listening-1": { tasks: 5 },
+  "listening-2": { tasks: 1 },
+  "listening-3": { tasks: 1 },
+  "listening-4": { tasks: 1 },
+} as const;

@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { countWords } from "./text";
 import { validExercises, validLessons } from "../../../tests/fixtures/content";
 import {
   formatReport,
@@ -19,10 +20,32 @@ const grammarQuestions = (count: number, lesson = "inversion") =>
     grammarPoint: lesson,
   }));
 
+/** The fixture scripts are short; pad them into each part's word range so the set has no warnings. */
+function paddedExercises() {
+  type Lines = { text: string }[];
+  type Loose = {
+    examPart: string;
+    speakers?: { script: Lines }[];
+    script?: Lines;
+  };
+  const pad = (script: Lines, min: number) => {
+    while (countWords(script.map((l) => l.text).join(" ")) < min)
+      script[0]!.text += " And that is really all there is to say about it.";
+  };
+  const exercises = Object.values(structuredClone(validExercises)) as Loose[];
+  for (const e of exercises) {
+    if (e.examPart === "listening-2")
+      e.speakers!.forEach((s) => pad(s.script, 25));
+    if (e.examPart === "listening-3") pad(e.script!, 120);
+    if (e.examPart === "listening-4") pad(e.script!, 180);
+  }
+  return exercises;
+}
+
 function validSet(): ContentSource[] {
   return [
     file("exercises/all.json", "exercises", [
-      ...Object.values(structuredClone(validExercises)),
+      ...paddedExercises(),
       // The lesson needs MIN_QUESTIONS_PER_LESSON questions to avoid a warning.
       ...grammarQuestions(4),
     ]),
@@ -214,7 +237,7 @@ describe("question bank summary", () => {
   it("warns about lessons with fewer than 5 questions", () => {
     const set = validSet();
     set[0] = file("exercises/all.json", "exercises", [
-      ...Object.values(structuredClone(validExercises)),
+      ...paddedExercises(),
       ...grammarQuestions(2),
     ]);
     const report = validateContentSet(set);
@@ -227,6 +250,50 @@ describe("question bank summary", () => {
       },
     ]);
     expect(validateContentSet(validSet()).warnings).toEqual([]);
+  });
+});
+
+describe("Listening checks", () => {
+  type L4 = { examPart: string; questions: { cues: string[] }[] };
+  const setWith = (edit: (l4: L4) => void) => {
+    const set = validSet();
+    const exercises = Object.values(structuredClone(validExercises)) as L4[];
+    edit(exercises.find((e) => e.examPart === "listening-4")!);
+    set[0] = file("exercises/all.json", "exercises", [
+      ...exercises,
+      ...grammarQuestions(4),
+    ]);
+    return validateContentSet(set);
+  };
+
+  it("rejects a clue that is not in the script", () => {
+    const report = setWith((l4) => {
+      l4.questions[0]!.cues[0] = "never said";
+    });
+    expect(report.errors).toEqual([
+      {
+        path: "exercises/all.json",
+        pointer:
+          "items/" +
+          Object.keys(validExercises).indexOf("listening-4") +
+          "/questions/0/cues/0",
+        message: 'The clue "never said" does not occur in the script',
+      },
+    ]);
+  });
+
+  it("warns about a script outside the word range and counts tasks per part", () => {
+    const report = setWith(() => {});
+    expect(report.errors).toEqual([]);
+    expect(report.warnings.map((w) => w.message)).toContain(
+      "The script has 55 words; listening-4 aims for 180–280",
+    );
+    expect(report.bank.listeningByPart).toEqual({
+      "listening-1": 1,
+      "listening-2": 1,
+      "listening-3": 1,
+      "listening-4": 1,
+    });
   });
 });
 

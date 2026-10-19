@@ -76,7 +76,7 @@
     },
     "listening": {
       "title": "Listening",
-      "lead": "Audio with British voices, transcripts and practice in picking up attitude and intention."
+      "lead": "Audio read aloud by your device's voices, with transcripts and practice in picking up attitude and intention."
     },
     "writing": {
       "title": "Writing",
@@ -108,7 +108,7 @@
     },
     "settings": {
       "title": "Settings",
-      "lead": "Language and theme. Later on, also the listening voice, your exam date and a backup of your progress."
+      "lead": "Language, theme, listening voice and a backup of your progress. Later on, also your exam date."
     }
   },
   "Coming": {
@@ -169,7 +169,21 @@
     "resetDone": "Progress deleted.",
     "importInvalidJson": "That file isn't a Sello backup.",
     "importNotSello": "That file doesn't come from Sello.",
-    "importInvalidData": "The file is damaged or from a version Sello doesn't recognise."
+    "importInvalidData": "The file is damaged or from a version Sello doesn't recognise.",
+    "voiceLead": "The Listening trainers read the scripts aloud with your device's voices. The choice is saved only in this browser.",
+    "rate": "Speed",
+    "rates": {
+      "slow": "Slow",
+      "normal": "Normal",
+      "fast": "Fast"
+    },
+    "voiceMan": "Man's voice",
+    "voiceWoman": "Woman's voice",
+    "automatic": "Automatic",
+    "test": "Try it",
+    "stopTest": "Stop",
+    "noVoices": "No English voices found on this device. The default voice will be used.",
+    "unsupported": "Your browser cannot read audio aloud."
   },
   "Legal": {
     "title": "Legal notice",
@@ -464,6 +478,90 @@
       "s2": "The main idea is usually in the first or last sentence of a paragraph; the examples in the middle are details.",
       "s3": "Be suspicious of a heading that repeats a word from the paragraph: the right one usually sums up the idea in other words.",
       "s4": "Start with the paragraphs you are sure of; with fewer options left, the hard ones get easier."
+    }
+  },
+  "Listening": {
+    "trainer": {
+      "instructions": {
+        "listening-1": "Listen to the recording and choose the best answer.",
+        "listening-2": "Four people speak. Choose what each person says; there are two options you do not need.",
+        "listening-3": "Listen to the conversation and decide who expresses each opinion: the man, the woman or both.",
+        "listening-4": "Listen to the speaker and answer the two questions about attitude, intention or opinion."
+      },
+      "situation": "Situation",
+      "speakerN": "Speaker {number}",
+      "play": "Play",
+      "playAgain": "Play again",
+      "pause": "Pause",
+      "resume": "Resume",
+      "playsUsed": "Played {used} of {max}",
+      "playing": "Playing…",
+      "paused": "Paused",
+      "noPlaysLeft": "No plays left",
+      "unsupported": "Your browser cannot read audio aloud. Use the transcript instead.",
+      "noEnglishVoice": "This device has no English voice, so the default voice will be used and may sound odd.",
+      "voiceNote": "The voice is synthetic and depends on your device. It is not the exam's recording.",
+      "transcript": "Transcript",
+      "showTranscript": "Show transcript",
+      "clues": "Clues: {clues}",
+      "speakers": {
+        "man": "Man",
+        "woman": "Woman",
+        "narrator": "Narrator"
+      },
+      "choices": {
+        "man": "Man",
+        "woman": "Woman",
+        "both": "Both"
+      },
+      "chooseOption": "Choose an option",
+      "chooseWho": "Choose who",
+      "prompt": "Question {number}",
+      "statementN": "Statement {number}",
+      "examHint": "{count, plural, one {# task} other {# tasks}}, each recording played at most twice, no help. Your score at the end. The count is an app decision.",
+      "bankSize": "{count, plural, one {# task available} other {# tasks available}}. The bank grows in the next batches.",
+      "shortBank": "The exam has {total} tasks, but the bank only has {count} for this filter, so the session is shorter.",
+      "scoreNote": "One point per question, speaker and statement (app decision). This is not the exam's scale."
+    }
+  },
+  "ListeningPage": {
+    "intro": "The Listening paper lasts {minutes} minutes and you hear each recording once or twice. Here is what each part asks for, strategies to do it well and a trainer with original scripts.",
+    "partTitle": "Part {number}: {name}",
+    "examNote": "App exam mode: each recording can be played {plays} times and there is no countdown. This is an app decision.",
+    "strategies": "Strategies",
+    "practise": "Practise part {number}",
+    "voiceTitle": "About the voices",
+    "voiceBody": "The recordings are read aloud by the voices installed on your device, so quality varies. They are not the exam's recordings. You can choose voices and speed in Settings.",
+    "settings": "Voice settings"
+  },
+  "ListeningStrategies": {
+    "listening-1": {
+      "task": "A short message, monologue or dialogue and one question about a specific detail, with {options} options.",
+      "s1": "Read the question and the options before the audio starts: you know which detail to catch.",
+      "s2": "Numbers, days and times are often corrected in the recording; the final version is the right one.",
+      "s3": "Options repeat words from the audio on purpose. Choose the idea that fits, not the word you hear.",
+      "s4": "Use the second listening to check your answer, not to start from scratch."
+    },
+    "listening-2": {
+      "task": "Four short monologues and {options} statements. You match each speaker with the idea that fits; two statements are left over.",
+      "s1": "Read all {options} statements first and underline the key idea in each.",
+      "s2": "The speaker paraphrases: listen for the idea, not the exact words.",
+      "s3": "If you miss one, move on and come back with the second listening.",
+      "s4": "Cross out each statement you use. What is left helps with the speaker you doubt."
+    },
+    "listening-3": {
+      "task": "A conversation between a man and a woman and {statements} statements. For each one you decide whether the man, the woman or both say it.",
+      "s1": "While you listen, note M, W or both next to each statement.",
+      "s2": "Choose both only if each person expresses the idea. One speaker agreeing with a nod or an 'mm' is not enough.",
+      "s3": "Listen for changes of opinion: 'I used to think…', 'but', 'actually'.",
+      "s4": "Statements follow the order of the conversation, which helps you keep your place."
+    },
+    "listening-4": {
+      "task": "A longer monologue and {questions} questions about attitude, intention or opinion, with {options} options each.",
+      "s1": "These questions are about how the speaker feels, not about facts: listen to tone and word choice.",
+      "s2": "Words like 'unfortunately', 'I'll admit' or 'surprisingly' show attitude.",
+      "s3": "A speaker can praise one thing and criticise another; the question asks about the overall view.",
+      "s4": "After answering in study mode, read the clues in the transcript to learn what to listen for."
     }
   }
 }

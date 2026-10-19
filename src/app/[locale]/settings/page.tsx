@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { LocaleSwitcher } from "@/components/i18n/LocaleSwitcher";
+import { VoiceSettings } from "@/components/settings/VoiceSettings";
 import { ProgressManager } from "@/components/settings/ProgressManager";
 import { ThemeChoice } from "@/components/theme/ThemeChoice";
 import { PageHeader } from "@/components/ui/PageHeader";
 
 /** Settings that arrive with later phases. */
 const LATER = [
-  { key: "voice", phase: 4 },
   { key: "examDate", phase: 7 },
 ] as const;
 
@@ -39,6 +39,14 @@ export default async function SettingsPage() {
           </h2>
           <div className="mt-3">
             <LocaleSwitcher variant="full" />
+          </div>
+        </section>
+        <section aria-labelledby="voice-heading">
+          <h2 id="voice-heading" className="text-lg font-bold">
+            {t("Settings.voice")}
+          </h2>
+          <div className="mt-3">
+            <VoiceSettings />
           </div>
         </section>
         <section aria-labelledby="progress-heading">

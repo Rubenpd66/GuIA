@@ -6,7 +6,19 @@ import {
   type ContentKind,
 } from "./schemas/content-file";
 import { VOCAB_TYPES, type VocabType } from "./schemas/core";
-import { findAmericanSpellings, stripBom } from "./text";
+import type { Script } from "./schemas/listening";
+import { countWords, findAmericanSpellings, stripBom } from "./text";
+
+/** Words per recording in each Listening part (app decision; the exam does not publish them). */
+const LISTENING_WORDS = {
+  "listening-1": { min: 15, max: 70 },
+  "listening-2": { min: 25, max: 60 },
+  "listening-3": { min: 120, max: 220 },
+  "listening-4": { min: 180, max: 280 },
+} as const;
+const LISTENING_PARTS = Object.keys(
+  LISTENING_WORDS,
+) as (keyof typeof LISTENING_WORDS)[];
 
 /** Below this, "Practise this point" gives a session too short to be useful. */
 export const MIN_QUESTIONS_PER_LESSON = 5;
@@ -24,6 +36,8 @@ export type ValidationReport = {
   bank: {
     grammarByLesson: Record<string, number>;
     vocabularyByType: Record<VocabType, number>;
+    /** Listening tasks per part. */
+    listeningByPart: Record<keyof typeof LISTENING_WORDS, number>;
   };
 };
 
@@ -75,9 +89,17 @@ export function validateContentSet(sources: ContentSource[]): ValidationReport {
     collectSpellingWarnings(result.data, [], source.path, warnings);
   }
 
-  errors.push(...findDuplicateIds(parsed), ...findBrokenReferences(parsed));
+  const listening = checkListening(parsed);
+  errors.push(
+    ...findDuplicateIds(parsed),
+    ...findBrokenReferences(parsed),
+    ...listening.errors,
+  );
   const bank = questionBank(parsed);
-  warnings.push(...findThinLessons(parsed, bank.grammarByLesson));
+  warnings.push(
+    ...findThinLessons(parsed, bank.grammarByLesson),
+    ...listening.warnings,
+  );
   return {
     errors,
     warnings,
@@ -109,7 +131,67 @@ function questionBank(parsed: ParsedFile[]): ValidationReport["bank"] {
         vocabularyByType[exercise.vocabType] += exercise.items.length;
     }
   }
-  return { grammarByLesson, vocabularyByType };
+  const listeningByPart = Object.fromEntries(
+    LISTENING_PARTS.map((part) => [part, 0]),
+  ) as ValidationReport["bank"]["listeningByPart"];
+  for (const { file } of parsed) {
+    if (file.kind !== "exercises") continue;
+    for (const exercise of file.items) {
+      if (exercise.examPart in listeningByPart)
+        listeningByPart[exercise.examPart as keyof typeof listeningByPart] += 1;
+    }
+  }
+  return { grammarByLesson, vocabularyByType, listeningByPart };
+}
+
+const scriptText = (script: Script) => script.map((l) => l.text).join(" ");
+
+/** Listening: clue phrases must occur in the script (error); script length is a warning. */
+function checkListening(parsed: ParsedFile[]) {
+  const errors: ContentIssue[] = [];
+  const warnings: ContentIssue[] = [];
+  for (const { path, file } of parsed) {
+    if (file.kind !== "exercises") continue;
+    file.items.forEach((exercise, i) => {
+      if (!(exercise.examPart in LISTENING_WORDS)) return;
+      const part = exercise.examPart as keyof typeof LISTENING_WORDS;
+      const scripts: { pointer: string; script: Script }[] =
+        exercise.examPart === "listening-2"
+          ? exercise.speakers.map((s, j) => ({
+              pointer: `items/${i}/speakers/${j}/script`,
+              script: s.script,
+            }))
+          : exercise.examPart === "listening-1" ||
+              exercise.examPart === "listening-3" ||
+              exercise.examPart === "listening-4"
+            ? [{ pointer: `items/${i}/script`, script: exercise.script }]
+            : [];
+      for (const { pointer, script } of scripts) {
+        const words = countWords(scriptText(script));
+        const { min, max } = LISTENING_WORDS[part];
+        if (words < min || words > max)
+          warnings.push({
+            path,
+            pointer,
+            message: `The script has ${words} words; ${part} aims for ${min}–${max}`,
+          });
+      }
+      if (exercise.examPart === "listening-4") {
+        const text = scriptText(exercise.script).toLowerCase();
+        exercise.questions.forEach((question, j) =>
+          question.cues.forEach((cue, k) => {
+            if (!text.includes(cue.toLowerCase()))
+              errors.push({
+                path,
+                pointer: `items/${i}/questions/${j}/cues/${k}`,
+                message: `The clue "${cue}" does not occur in the script`,
+              });
+          }),
+        );
+      }
+    });
+  }
+  return { errors, warnings };
 }
 
 function findThinLessons(
@@ -341,6 +423,7 @@ export function formatReport(report: ValidationReport): string {
 function bankLines({
   grammarByLesson,
   vocabularyByType,
+  listeningByPart,
 }: ValidationReport["bank"]): string[] {
   const lessons = Object.entries(grammarByLesson);
   const questions = lessons.reduce((sum, [, n]) => sum + n, 0);
@@ -356,5 +439,6 @@ function bankLines({
     `Core Grammar: ${questions} questions in ${lessons.length} ${lessons.length === 1 ? "lesson" : "lessons"}` +
       (fewest ? ` (fewest: ${fewest[0]} ${fewest[1]})` : ""),
     `Core Vocabulary: ${items} items (${VOCAB_TYPES.map((type) => `${type} ${vocabularyByType[type]}`).join(", ")})`,
+    `Listening: ${LISTENING_PARTS.map((part) => `${part.slice(-1)}: ${listeningByPart[part]}`).join(", ")} tasks`,
   ];
 }
