@@ -177,7 +177,7 @@ Plan `docs/superpowers/plans/2026-10-20-phase-10f-ai-feedback.md`; spec `docs/su
 - Shortcut: requests in flight are not counted against the budget, so it can overshoot by a few cents.
 - Switched off without the key (user, 2026-10-20: no costs before income): `aiEnabled()` (`src/lib/ai/enabled.ts`) hides the panel, the plan-card line and the terms section when `ANTHROPIC_API_KEY` is not set at build time. Privacy keeps its AI section (it only applies if you ask). The e2e follows whether `.env.local` has the key.
 - Review (Opus, 2026-10-20): no blocking findings. Minor, accepted: once the consent box is ticked it cannot be unticked in the UI (consent here is a notice, the legal basis is 6.1.b); `ai_usage` is not in the account data export.
-- Preview deploy (user OK, 2026-10-20): https://sello-aptis-3zatbhbwu-rubenpd66-6093s-projects.vercel.app, behind Vercel Authentication; share it with the dashboard's Share link. Production unchanged.
+- Preview deploy (user OK, 2026-10-20): https://sello-aptis-7w1i2nzj2-rubenpd66-6093s-projects.vercel.app, behind Vercel Authentication; share it with the dashboard's Share link. Production unchanged.
 
 ## Deferred minors, cleared (2026-10-20, after 10f)
 
