@@ -12,6 +12,7 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { PHASE_OF_SKILL } from "@/config/sections";
 import { SpeakingTrainer } from "@/components/speaking/SpeakingTrainer";
 import { WritingTrainer } from "@/components/writing/WritingTrainer";
+import { aiEnabled } from "@/lib/ai/enabled";
 import { exercisesOfPart, phrasesByFunction } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
 import { alternatesFor } from "@/lib/seo/alternates";
@@ -176,6 +177,7 @@ async function PracticePart({ params }: { params: Params }) {
         <PageHeader title={await titleOf(part)} />
         <WritingTrainer
           part={part}
+          ai={aiEnabled()}
           tasks={visibleTo(tier, exercisesOfPart(content, part))}
           phrases={entriesVisibleTo(
             tier,

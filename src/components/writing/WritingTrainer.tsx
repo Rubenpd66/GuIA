@@ -44,10 +44,13 @@ export function WritingTrainer({
   part,
   tasks,
   phrases,
+  ai = false,
 }: {
   part: WritingPart;
   tasks: WritingExercise[];
   phrases: FunctionalPhrase[];
+  /** Offers AI feedback on the review screen (only when the feature is switched on). */
+  ai?: boolean;
 }) {
   const t = useTranslations("Writing.trainer");
   const [mode, setMode] = useState<TrainerMode>("study");
@@ -94,6 +97,7 @@ export function WritingTrainer({
         part={part}
         session={session}
         phrases={phrases}
+        ai={ai}
         onNewSession={start}
         onChangeSettings={() => setSession(null)}
       />
@@ -124,6 +128,7 @@ type WritingSessionProps = {
   part: WritingPart;
   session: Session;
   phrases: FunctionalPhrase[];
+  ai?: boolean;
   onNewSession?: () => void;
   onChangeSettings?: () => void;
   /** Set by the mock exam: called once the self-assessment is saved, instead of the summary. */
@@ -134,6 +139,7 @@ export function WritingSession({
   part,
   session,
   phrases,
+  ai = false,
   onNewSession,
   onChangeSettings,
   onSaved,
@@ -294,7 +300,7 @@ export function WritingSession({
         ))}
       </ol>
 
-      {reviewing && !onSaved ? (
+      {ai && reviewing && !onSaved ? (
         <FeedbackPanel taskId={task.id} texts={texts} />
       ) : null}
 

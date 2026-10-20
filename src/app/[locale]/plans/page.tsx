@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
 import { Suspense } from "react";
 import { PlanCards } from "@/components/plans/PlanCards";
+import { aiEnabled } from "@/lib/ai/enabled";
 import { LevelCatalogue } from "@/components/plans/LevelCatalogue";
 import { PlansFaq } from "@/components/plans/PlansFaq";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -72,7 +73,7 @@ export default async function PlansPage() {
       <PageHeader title={t("title")} lead={t("lead")} />
       <div className="space-y-16">
         <Suspense fallback={<p aria-busy="true">{t("loading")}</p>}>
-          <PlanCards figures={figures} />
+          <PlanCards figures={figures} ai={aiEnabled()} />
         </Suspense>
         <LevelCatalogue catalogue={catalogue} />
         <PlansFaq />

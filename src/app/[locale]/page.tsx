@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Suspense } from "react";
 import { LevelPassport } from "@/components/passport/LevelPassport";
 import { PlanCards } from "@/components/plans/PlanCards";
+import { aiEnabled } from "@/lib/ai/enabled";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Section, SectionStack } from "@/components/ui/Section";
@@ -78,7 +79,7 @@ export default async function HomePage() {
 
         <Section id="plans-title" title={t("plansTitle")} lead={t("plansLead")}>
           <Suspense fallback={<div className="h-96" aria-hidden="true" />}>
-            <PlanCards figures={figures} />
+            <PlanCards figures={figures} ai={aiEnabled()} />
           </Suspense>
           <p className="mt-6">
             <ButtonLink href="/plans" variant="ghost">

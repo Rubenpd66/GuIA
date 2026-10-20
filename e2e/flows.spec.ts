@@ -1,5 +1,11 @@
 import { expect, test, type Page } from "@playwright/test";
+import { existsSync, readFileSync } from "node:fs";
 import { fakeMicrophone, seedProgress } from "./helpers";
+
+// The e2e build reads .env.local, so the AI panel exists only when the key is there.
+const aiKeySet =
+  existsSync(".env.local") &&
+  /^ANTHROPIC_API_KEY=.+/m.test(readFileSync(".env.local", "utf8"));
 
 /** The trainer setup cards are plain labels; keep clicking until hydration picks the click up. */
 async function chooseMode(page: Page, name: string) {
@@ -69,7 +75,7 @@ test.describe("trainers in exam mode", () => {
     await expect(page.locator("textarea")).toHaveValue(/long walks/);
   });
 
-  test("Writing: a signed-out visitor is asked to sign in for AI feedback", async ({
+  test("Writing: AI feedback is offered only when it is switched on", async ({
     page,
   }) => {
     await page.goto("/en/practice/writing-2");
@@ -77,8 +83,15 @@ test.describe("trainers in exam mode", () => {
     await page.getByRole("button", { name: "Start", exact: true }).click();
     await page.locator("textarea").fill("I joined because I love long walks.");
     await page.getByRole("button", { name: "Show the models" }).click();
+    await expect(
+      page.getByRole("button", { name: "Save the self-assessment" }),
+    ).toBeVisible();
     const panel = page.getByRole("region", { name: "AI feedback" });
-    await expect(panel).toBeVisible();
+    if (!aiKeySet) {
+      await expect(panel).toHaveCount(0);
+      return;
+    }
+    // Signed out: the panel asks to sign in and never shows the button.
     await expect(panel.getByRole("link", { name: "Sign in" })).toBeVisible();
     await expect(
       page.getByRole("button", { name: "Ask for feedback" }),

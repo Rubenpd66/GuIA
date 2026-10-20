@@ -22,7 +22,14 @@ import { PlanButton } from "./PlanButton";
 const INTERVALS: readonly BillingInterval[] = ["month", "year"];
 
 /** Interval choice and the four plan cards; `?nivel=B2` marks the plan that opens that level. */
-export function PlanCards({ figures }: { figures: Record<Tier, PlanFigures> }) {
+export function PlanCards({
+  figures,
+  ai = false,
+}: {
+  figures: Record<Tier, PlanFigures>;
+  /** Lists the AI corrections each plan includes; only when the feature is switched on. */
+  ai?: boolean;
+}) {
   const t = useTranslations("Plans");
   const locale = useLocale() === "en" ? "en" : "es";
   const [interval, setInterval] = useState<BillingInterval>("month");
@@ -97,7 +104,7 @@ export function PlanCards({ figures }: { figures: Record<Tier, PlanFigures> }) {
                     <li>{t("figures.phrases", { count: fig.phrases })}</li>
                     <li>{t("figures.tasks", { count: fig.tasks })}</li>
                     <li>{t("figures.mock", { level: fig.mockLevel })}</li>
-                    {AI_CAPS[tier] > 0 ? (
+                    {ai && AI_CAPS[tier] > 0 ? (
                       <li>{t("figures.ai", { count: AI_CAPS[tier] })}</li>
                     ) : null}
                   </ul>
