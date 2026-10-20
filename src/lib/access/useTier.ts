@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useUser } from "@/lib/auth/useUser";
-import { supabaseBrowser } from "@/lib/supabase/client";
+import { loadSupabaseBrowser } from "@/lib/supabase/lazy";
 import { createRowCache } from "./row-cache";
 import {
   describePlan,
@@ -19,8 +19,8 @@ type OwnRow = SubscriptionRow & {
 
 // Shared by every lock mark and plan card on the page; see createRowCache for the rules.
 const readRow = createRowCache(
-  (userId) =>
-    supabaseBrowser()
+  async (userId) =>
+    (await loadSupabaseBrowser())
       .from("subscriptions")
       .select(
         "tier, status, current_period_end, cancel_at_period_end, stripe_customer_id",

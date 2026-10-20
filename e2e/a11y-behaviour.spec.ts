@@ -43,7 +43,7 @@ test("the achievement only fades when less motion is asked for", async ({
     ),
   );
   await page.reload();
-  await page.waitForLoadState("networkidle");
+  await page.locator(".achievement").first().waitFor();
   const animation = await page
     .locator(".achievement")
     .first()
@@ -51,7 +51,7 @@ test("the achievement only fades when less motion is asked for", async ({
   expect(animation).toBe("achievement-fade");
   await page.emulateMedia({ reducedMotion: "no-preference" });
   await page.reload();
-  await page.waitForLoadState("networkidle");
+  await page.locator(".achievement").first().waitFor();
   const full = await page
     .locator(".achievement")
     .first()
