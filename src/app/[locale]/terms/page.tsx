@@ -10,6 +10,7 @@ const TOPICS = [
   "content",
   "liability",
   "plans",
+  "ai",
   "changes",
 ];
 

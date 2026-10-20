@@ -16,6 +16,7 @@ import {
 import type { BillingInterval } from "@/lib/stripe/plans";
 import { cx } from "@/lib/cx";
 import { Tilt } from "@/components/ui/Tilt";
+import { AI_CAPS } from "@/config/ai";
 import { PlanButton } from "./PlanButton";
 
 const INTERVALS: readonly BillingInterval[] = ["month", "year"];
@@ -96,6 +97,9 @@ export function PlanCards({ figures }: { figures: Record<Tier, PlanFigures> }) {
                     <li>{t("figures.phrases", { count: fig.phrases })}</li>
                     <li>{t("figures.tasks", { count: fig.tasks })}</li>
                     <li>{t("figures.mock", { level: fig.mockLevel })}</li>
+                    {AI_CAPS[tier] > 0 ? (
+                      <li>{t("figures.ai", { count: AI_CAPS[tier] })}</li>
+                    ) : null}
                   </ul>
                   <PlanButton card={tier} interval={interval} />
                 </article>

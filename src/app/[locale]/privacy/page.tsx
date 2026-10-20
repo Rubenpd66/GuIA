@@ -14,6 +14,7 @@ const TOPICS = [
   "rights",
   "notStored",
   "audio",
+  "ai",
   "hosting",
   "delete",
 ] as const;
