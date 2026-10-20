@@ -114,11 +114,11 @@ Lo que da personalidad es el movimiento con propósito (pulsar, entrar, cambiar 
 
 ## Typography
 
-Figtree variable, subconjunto latino (cubre el español), solo estilo normal. Escala de tercera mayor (1,25) sobre 17 px, de 0,75 rem a 3,242 rem. Titulares con peso 700 u 800 y `letter-spacing: -0.015em`; cuerpo en 400. Lectura larga (`.prose-reading`): 68 ch de medida y interlineado 1,7.
+Figtree variable, subconjunto latino (cubre el español), solo estilo normal. Escala de tercera mayor (1,25) sobre 17 px, de 0,75 rem a 3,242 rem. Titulares con peso 700 u 800 y `letter-spacing: -0.015em`; cuerpo en 400. Lectura larga (`.prose-reading`): 54 ch de medida (unos 75 caracteres en Figtree) y interlineado 1,7.
 
 ### Named Rules
 
-**La regla de la medida.** Ningún párrafo pasa de 68 ch.
+**La regla de la medida.** Ningún párrafo de lectura pasa de unos 75 caracteres por línea (`.prose-reading`, 54 ch).
 
 ## Layout
 

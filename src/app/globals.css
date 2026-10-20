@@ -150,9 +150,10 @@
 }
 
 /* Long reading: lessons, Reading texts and model answers. */
+/* About 75 characters a line in Figtree (ch is the width of a zero, wider than the average letter). */
 .prose-reading {
   line-height: 1.7;
-  max-width: 68ch;
+  max-width: 54ch;
 }
 
 /* Motion grammar (phase 10e). Only transform and opacity; every animation has a reduced-motion alternative. */
@@ -465,7 +466,10 @@
   border-radius: 6px 14px 14px 6px;
 }
 
+/* Hidden once the cover has closed over it, so nothing reads or hits what nobody can see. */
 .passport-inside {
+  visibility: hidden;
+  transition: visibility 0s linear 900ms;
   overflow: hidden;
   background: var(--canvas);
   color: var(--ink);
@@ -526,6 +530,11 @@
 
 .passport[data-open="true"] .passport-cover {
   transform: translateZ(1px) rotateY(-112deg);
+}
+
+.passport[data-open="true"] .passport-inside {
+  visibility: visible;
+  transition-delay: 0s;
 }
 
 .passport-hint {

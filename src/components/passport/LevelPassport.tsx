@@ -103,13 +103,13 @@ export function LevelPassport({
             >
               <span className="sr-only">{open ? t("close") : t("open")}</span>
               <span aria-hidden="true" className="passport-face passport-front">
-                <span className="text-[0.62rem] font-semibold tracking-[0.2em] uppercase">
+                <span className="text-xs font-semibold tracking-[0.2em] uppercase">
                   {t("coverTitle")}
                 </span>
                 <Globe />
                 <Wordmark inverse className="text-4xl" />
                 <span className="flex flex-col items-center gap-2">
-                  <span className="text-[0.62rem] font-semibold tracking-[0.2em] uppercase">
+                  <span className="text-xs font-semibold tracking-[0.2em] uppercase">
                     {t("coverSubtitle")}
                   </span>
                   <Chip />
@@ -148,7 +148,7 @@ function PassportInside({
   return (
     <div className="flex h-full flex-col gap-3 p-4">
       <div className="flex items-start justify-between gap-2">
-        <p className="text-[0.62rem] font-semibold tracking-[0.2em] text-ink-soft uppercase">
+        <p className="text-xs font-semibold tracking-[0.2em] text-ink-soft uppercase">
           {t("coverTitle")}
         </p>
         <button
@@ -202,7 +202,7 @@ function PassportInside({
         ))}
       </dl>
       <div className="mt-auto space-y-2">
-        <p className="text-[0.7rem] leading-snug text-ink-soft">
+        <p className="text-xs leading-snug text-ink-soft">
           {lastTest ? `${t("lastTest", { date: lastTest })} · ` : null}
           {t("estimate")}
         </p>
