@@ -1,7 +1,9 @@
+import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
+import { Card } from "@/components/ui/Card";
 import { PageHeader } from "@/components/ui/PageHeader";
-import { Link } from "@/i18n/navigation";
+import { Tilt } from "@/components/ui/Tilt";
 import { entriesOfGroup } from "@/lib/content";
 import { getContent } from "@/lib/content/load";
 import { localized } from "@/lib/content/localize";
@@ -48,7 +50,7 @@ export default async function VocabularyIndexPage() {
         title={t("Sections.vocabulary.title")}
         lead={t("Sections.vocabulary.lead")}
       />
-      <div className="space-y-12">
+      <div className="flex flex-col gap-16">
         {sections.map((section) => (
           <section key={section.id} aria-labelledby={`vocab-${section.id}`}>
             <h2 id={`vocab-${section.id}`} className="text-xl font-bold">
@@ -59,30 +61,30 @@ export default async function VocabularyIndexPage() {
                 {t("Syllabus.entries", { count: 0 })}
               </p>
             ) : (
-              <ul className="mt-3 border-t border-hairline">
-                {section.groups.map((group) => (
-                  <li key={group.slug} className="border-b border-hairline">
-                    <Link
-                      href={{
-                        pathname: "/vocabulary/[slug]",
-                        params: { slug: group.slug },
-                      }}
-                      className="flex min-h-14 flex-col justify-center gap-0.5 py-3 transition-colors duration-150 hover:text-accent sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
-                    >
-                      <span>
-                        <span className="block font-semibold">
+              <ul className="enter-stagger mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {section.groups.map((group, i) => (
+                  <li key={group.slug} style={{ "--i": i } as CSSProperties}>
+                    <Tilt className="h-full">
+                      <Card
+                        href={{
+                          pathname: "/vocabulary/[slug]",
+                          params: { slug: group.slug },
+                        }}
+                        className="flex h-full flex-col gap-2"
+                      >
+                        <span className="font-semibold">
                           {localized(group.title, locale)}
                         </span>
-                        <span className="block max-w-[60ch] text-sm text-ink-soft">
+                        <span className="text-sm text-ink-soft">
                           {localized(group.summary, locale)}
                         </span>
-                      </span>
-                      <span className="shrink-0 text-sm text-ink-soft">
-                        {t("Syllabus.entries", {
-                          count: entriesOfGroup(content, group.slug).length,
-                        })}
-                      </span>
-                    </Link>
+                        <span className="mt-auto text-sm font-medium text-accent">
+                          {t("Syllabus.entries", {
+                            count: entriesOfGroup(content, group.slug).length,
+                          })}
+                        </span>
+                      </Card>
+                    </Tilt>
                   </li>
                 ))}
               </ul>
