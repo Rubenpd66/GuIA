@@ -12,7 +12,7 @@ const TONES: Record<AchievementLevel, string> = {
 type AchievementProps = {
   level: AchievementLevel;
   /** Short text under the badge, e.g. "Reading part 4". */
-  caption: string;
+  caption?: string;
   /** Accessible name, e.g. "C achievement: Reading part 4". */
   label: string;
   className?: string;
@@ -52,15 +52,17 @@ export function Achievement({
           {level}
         </span>
       </span>
-      <figcaption
-        aria-hidden="true"
-        className={cx(
-          "text-xs font-semibold text-ink-soft",
-          animate && "achievement-caption",
-        )}
-      >
-        {caption}
-      </figcaption>
+      {caption ? (
+        <figcaption
+          aria-hidden="true"
+          className={cx(
+            "text-xs font-semibold text-ink-soft",
+            animate && "achievement-caption",
+          )}
+        >
+          {caption}
+        </figcaption>
+      ) : null}
     </figure>
   );
 }

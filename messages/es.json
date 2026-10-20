@@ -47,46 +47,13 @@
   },
   "Home": {
     "title": "Prepárate el Aptis ESOL General y llega al C",
-    "lead": "Lecciones, práctica de las 18 partes y simulacros con tiempos reales, pensados para hispanohablantes.",
+    "lead": "Lecciones, práctica de las 18 partes y simulacros con tiempos reales, pensados para hispanohablantes. Tu pasaporte guarda el nivel que alcanzas en los tests.",
     "placementTest": "Haz el test de nivel",
-    "seePlans": "Ver planes",
+    "startStudying": "Empieza a estudiar",
     "freeNote": "El plan A2 es gratis y no necesita cuenta.",
-    "benefits": {
-      "format": {
-        "title": "Formato real del examen",
-        "body": "Las 18 partes con su formato y sus tiempos, y un simulacro completo."
-      },
-      "spanish": {
-        "title": "Explicado en español",
-        "body": "Explicaciones y errores típicos de quien habla español."
-      },
-      "level": {
-        "title": "Tu nivel, claro",
-        "body": "Nivel estimado por destreza y qué practicar a continuación."
-      }
-    },
-    "howTitle": "Cómo funciona",
-    "steps": {
-      "test": {
-        "title": "Haz el test de nivel",
-        "body": "En unos 20 minutos sabrás tu nivel estimado en cada destreza."
-      },
-      "plan": {
-        "title": "Sigue tu plan",
-        "body": "Te proponemos qué estudiar para llegar al C."
-      },
-      "practice": {
-        "title": "Practica cada día",
-        "body": "Entrena las 18 partes con tiempos reales y repasa tus errores."
-      }
-    },
-    "partsTitle": "Las 18 partes del examen",
-    "partsLead": "Cada parte es un reto: cuando la dominas, la logras.",
-    "plansTitle": "Gratis para empezar, de pago para llegar más lejos",
-    "plansLead": "Cada plan de pago abre su nivel y todos los anteriores. Los precios llevan el IVA incluido.",
-    "plansFrom": "Planes de pago desde {price} al mes",
-    "closingTitle": "Empieza por el test de nivel",
-    "closingBody": "Gratis, sin cuenta y en unos 20 minutos.",
+    "plansTitle": "Planes",
+    "plansLead": "Cada plan abre su nivel y todos los anteriores. Los precios llevan el IVA incluido.",
+    "plansMore": "Ver qué incluye cada nivel",
     "structuredDescription": "Preparación no oficial para el Aptis ESOL General: lecciones, práctica de las 18 partes, test de nivel y simulacros. El plan A2 es gratuito."
   },
   "Sections": {
@@ -956,7 +923,8 @@
     "flashcardsDue": "{count, plural, =0 {Flashcards: nada pendiente hoy} one {Flashcards: # tarjeta para hoy} other {Flashcards: # tarjetas para hoy}}",
     "levelUpTitle": "¡Nuevo logro!",
     "levelUpBody": "{level} en {part}{more, plural, =0 {.} one { y # parte más.} other { y # partes más.}}",
-    "levelUpClose": "Cerrar"
+    "levelUpClose": "Cerrar",
+    "levelPassportTitle": "Tu pasaporte de idiomas"
   },
   "Mistakes": {
     "lead": "{count, plural, one {Tienes # error guardado.} other {Tienes # errores guardados.}} Cada uno sale del banco cuando lo aciertas {streak} veces seguidas en el repaso.",
@@ -1256,5 +1224,24 @@
       "signedOut": "Entra en tu cuenta para suscribirte.",
       "failed": "No hemos podido abrir el pago. Inténtalo de nuevo en unos minutos."
     }
+  },
+  "Passport": {
+    "coverTitle": "Pasaporte de idiomas",
+    "coverSubtitle": "Language passport",
+    "open": "Abrir tu pasaporte de idiomas",
+    "close": "Cerrar el pasaporte",
+    "tapToOpen": "Pulsa para abrir tu pasaporte",
+    "tapToClose": "Pulsa la cubierta para cerrarlo",
+    "insideLabel": "Tu nivel estimado",
+    "highest": "Nivel más alto",
+    "highestLabel": "Nivel más alto alcanzado: {level}",
+    "belowA2": "Aún por debajo de A2. Sigue practicando.",
+    "noData": "Haz el test de nivel y aquí verás tu nivel en cada destreza.",
+    "noLevel": "—",
+    "lastTest": "Último test: {date}",
+    "estimate": "Estimación de la app, no oficial.",
+    "takeTest": "Haz el test de nivel",
+    "retake": "Repetir el test de nivel",
+    "toDashboard": "Ver mi panel"
   }
 }

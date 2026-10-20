@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { LevelPassport } from "@/components/passport/LevelPassport";
 import { Achievement } from "@/components/progress/Achievement";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { usePartName } from "@/components/sections/usePartName";
@@ -48,16 +49,21 @@ export function Dashboard() {
 
   if (progress.attempts.length === 0)
     return (
-      <section className="max-w-[68ch] space-y-4 rounded-card bg-surface p-6">
-        <h2 className={H2}>{t("emptyTitle")}</h2>
-        <p>{t("emptyBody")}</p>
-        <div className="flex flex-col gap-3 sm:flex-row">
-          <ButtonLink variant="primary" href="/placement-test">
-            {t("emptyPlacement")}
-          </ButtonLink>
-          <ButtonLink href="/practice">{t("emptyPractice")}</ButtonLink>
+      <div className="flex flex-col gap-12">
+        <section className="max-w-[68ch] space-y-4 rounded-card bg-surface p-6">
+          <h2 className={H2}>{t("emptyTitle")}</h2>
+          <p>{t("emptyBody")}</p>
+          <div className="flex flex-col gap-3 sm:flex-row">
+            <ButtonLink variant="primary" href="/placement-test">
+              {t("emptyPlacement")}
+            </ButtonLink>
+            <ButtonLink href="/practice">{t("emptyPractice")}</ButtonLink>
+          </div>
+        </section>
+        <div className="flex justify-center overflow-x-clip py-4">
+          <LevelPassport context="dashboard" />
         </div>
-      </section>
+      </div>
     );
 
   const suggestionText = (s: Suggestion) => {
@@ -78,7 +84,7 @@ export function Dashboard() {
       : { pathname: "/practice/[part]" as const, params: { part: s.part } };
 
   return (
-    <div className="space-y-12">
+    <div className="flex flex-col gap-12">
       <p className="text-sm text-ink-soft">{t("estimateNote")}</p>
 
       <section
@@ -115,6 +121,15 @@ export function Dashboard() {
             ))}
           </ul>
         ) : null}
+      </section>
+
+      <section aria-labelledby="dashboard-level-passport" className="space-y-4">
+        <h2 id="dashboard-level-passport" className={H2}>
+          {t("levelPassportTitle")}
+        </h2>
+        <div className="flex justify-center overflow-x-clip py-4">
+          <LevelPassport defaultOpen context="dashboard" />
+        </div>
       </section>
 
       <section

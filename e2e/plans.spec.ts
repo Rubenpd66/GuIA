@@ -31,11 +31,11 @@ test.describe("visitors", () => {
   test("the interval toggle switches the prices", async ({ page }) => {
     await page.goto("/es/planes");
     const b1 = card(page, "B1");
-    await expect(b1).toContainText("95,90");
-    await page.getByText("Mensual", { exact: true }).click();
     await expect(b1).toContainText("9,99");
     await page.getByText("Anual", { exact: true }).click();
     await expect(b1).toContainText("95,90");
+    await page.getByText("Mensual", { exact: true }).click();
+    await expect(b1).toContainText("9,99");
   });
 
   test("?nivel= marks the plan for that level and ignores unknown values", async ({

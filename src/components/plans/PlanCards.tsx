@@ -23,7 +23,7 @@ const INTERVALS: readonly BillingInterval[] = ["month", "year"];
 export function PlanCards({ figures }: { figures: Record<Tier, PlanFigures> }) {
   const t = useTranslations("Plans");
   const locale = useLocale() === "en" ? "en" : "es";
-  const [interval, setInterval] = useState<BillingInterval>("year");
+  const [interval, setInterval] = useState<BillingInterval>("month");
   const highlighted = parseLevelParam(useSearchParams().getAll("nivel"));
 
   return (

@@ -382,7 +382,7 @@
 @keyframes achievement-pop {
   from {
     opacity: 0;
-    transform: scale(0.92);
+    transform: perspective(400px) rotateY(-180deg) scale(0.92);
   }
 }
 
@@ -427,5 +427,158 @@
 
   .achievement-caption {
     animation: achievement-fade 200ms linear both;
+  }
+}
+
+/*
+ * The language passport (home and dashboard): a booklet in 3D. The cover turns on its spine;
+ * on small screens it stops part-way so the spread never overflows the viewport.
+ */
+.passport-scene {
+  width: 16rem;
+  perspective: 1400px;
+}
+
+/* One entrance: the booklet turns towards the reader as it arrives. */
+.passport-float {
+  transform-style: preserve-3d;
+  animation: passport-arrive 900ms var(--ease-out) both;
+}
+
+.passport-tilt {
+  transform-style: preserve-3d;
+  transition: transform 400ms var(--ease-out);
+}
+
+.passport {
+  position: relative;
+  aspect-ratio: 5 / 7;
+  pointer-events: none;
+  transform-style: preserve-3d;
+  transition: transform 800ms var(--ease-in-out);
+}
+
+.passport-inside,
+.passport-face {
+  position: absolute;
+  inset: 0;
+  border-radius: 6px 14px 14px 6px;
+}
+
+.passport-inside {
+  overflow: hidden;
+  background: var(--canvas);
+  color: var(--ink);
+  box-shadow:
+    inset 6px 0 8px -6px rgb(16 24 40 / 0.25),
+    0 1px 0 var(--hairline),
+    0 18px 40px -12px rgb(16 24 40 / 0.35);
+  pointer-events: auto;
+}
+
+[data-theme="dark"] .passport-inside {
+  background: var(--surface);
+  box-shadow:
+    inset 6px 0 8px -6px rgb(0 0 0 / 0.6),
+    0 0 0 1px var(--hairline);
+}
+
+.passport-cover {
+  position: absolute;
+  inset: 0;
+  transform-origin: left center;
+  transform-style: preserve-3d;
+  transform: translateZ(1px);
+  transition: transform 900ms var(--ease-in-out);
+  cursor: pointer;
+  pointer-events: auto;
+  border-radius: 6px 14px 14px 6px;
+}
+
+.passport-face {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.75rem 1rem;
+  backface-visibility: hidden;
+}
+
+.passport-front {
+  background: var(--accent);
+  color: var(--on-accent);
+  box-shadow:
+    inset 10px 0 0 -6px color-mix(in srgb, var(--accent) 70%, black),
+    0 18px 40px -12px rgb(16 24 40 / 0.45);
+}
+
+.passport-back {
+  justify-content: center;
+  transform: rotateY(180deg);
+  background-color: var(--surface);
+  background-image: radial-gradient(
+    color-mix(in srgb, var(--accent) 18%, transparent) 1px,
+    transparent 1.5px
+  );
+  background-size: 12px 12px;
+  color: var(--ink);
+}
+
+.passport[data-open="true"] .passport-cover {
+  transform: translateZ(1px) rotateY(-112deg);
+}
+
+.passport-hint {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: var(--text-sm);
+  color: var(--ink-soft);
+}
+
+/* Room for the whole spread: the booklet slides right and the cover lies flat on the left. */
+@media (min-width: 640px) {
+  .passport[data-open="true"] {
+    transform: translateX(50%) rotateX(6deg);
+  }
+
+  .passport[data-open="true"] .passport-cover {
+    transform: translateZ(1px) rotateY(-172deg);
+  }
+}
+
+.passport-inside .achievement {
+  animation-delay: 380ms;
+}
+
+@keyframes passport-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(16px) rotateY(-24deg) rotateX(8deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .passport-float {
+    animation: enter-fade 200ms linear both;
+  }
+
+  .passport,
+  .passport-cover,
+  .passport-tilt {
+    transition: opacity 200ms linear;
+  }
+
+  .passport[data-open="true"],
+  .passport[data-open="true"] .passport-cover {
+    transform: none;
+  }
+
+  .passport[data-open="true"] .passport-cover {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .passport-inside .achievement {
+    animation-delay: 0ms;
   }
 }

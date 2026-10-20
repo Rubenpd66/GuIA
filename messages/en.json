@@ -47,46 +47,13 @@
   },
   "Home": {
     "title": "Prepare for Aptis ESOL General and reach C",
-    "lead": "Lessons, practice for all 18 parts and mock exams with real timings, made for Spanish speakers.",
+    "lead": "Lessons, practice for all 18 parts and mock exams with real timings, made for Spanish speakers. Your passport keeps the level you reach in the tests.",
     "placementTest": "Take the placement test",
-    "seePlans": "See plans",
+    "startStudying": "Start studying",
     "freeNote": "The A2 plan is free and needs no account.",
-    "benefits": {
-      "format": {
-        "title": "The real exam format",
-        "body": "All 18 parts with their format and timings, plus a full mock exam."
-      },
-      "spanish": {
-        "title": "Explained in Spanish",
-        "body": "Explanations and the typical mistakes Spanish speakers make."
-      },
-      "level": {
-        "title": "Your level, clearly",
-        "body": "An estimated level per skill and what to practise next."
-      }
-    },
-    "howTitle": "How it works",
-    "steps": {
-      "test": {
-        "title": "Take the placement test",
-        "body": "In about 20 minutes you will know your estimated level in each skill."
-      },
-      "plan": {
-        "title": "Follow your plan",
-        "body": "We suggest what to study to reach C."
-      },
-      "practice": {
-        "title": "Practise every day",
-        "body": "Train all 18 parts with real timings and review your mistakes."
-      }
-    },
-    "partsTitle": "The 18 parts of the exam",
-    "partsLead": "Each part is a challenge: master it and you have achieved it.",
-    "plansTitle": "Free to start, paid to go further",
-    "plansLead": "Each paid plan opens its level and every level below. Prices include VAT.",
-    "plansFrom": "Paid plans from {price} a month",
-    "closingTitle": "Start with the placement test",
-    "closingBody": "Free, no account and about 20 minutes.",
+    "plansTitle": "Plans",
+    "plansLead": "Each plan opens its level and every level below. Prices include VAT.",
+    "plansMore": "See what each level includes",
     "structuredDescription": "Unofficial preparation for Aptis ESOL General: lessons, practice for all 18 parts, a placement test and mock exams. The A2 plan is free."
   },
   "Sections": {
@@ -956,7 +923,8 @@
     "flashcardsDue": "{count, plural, =0 {Flashcards: nothing due today} one {Flashcards: # card for today} other {Flashcards: # cards for today}}",
     "levelUpTitle": "New achievement!",
     "levelUpBody": "{level} in {part}{more, plural, =0 {.} one { and # more part.} other { and # more parts.}}",
-    "levelUpClose": "Close"
+    "levelUpClose": "Close",
+    "levelPassportTitle": "Your language passport"
   },
   "Mistakes": {
     "lead": "{count, plural, one {You have # saved mistake.} other {You have # saved mistakes.}} Each one leaves the bank once you get it right {streak} times in a row when reviewing.",
@@ -1256,5 +1224,24 @@
       "signedOut": "Sign in to subscribe.",
       "failed": "We couldn't open the payment. Please try again in a few minutes."
     }
+  },
+  "Passport": {
+    "coverTitle": "Language passport",
+    "coverSubtitle": "Pasaporte de idiomas",
+    "open": "Open your language passport",
+    "close": "Close the passport",
+    "tapToOpen": "Tap to open your passport",
+    "tapToClose": "Tap the cover to close it",
+    "insideLabel": "Your estimated level",
+    "highest": "Highest level",
+    "highestLabel": "Highest level reached: {level}",
+    "belowA2": "Still below A2. Keep practising.",
+    "noData": "Take the placement test and you will see your level in each skill here.",
+    "noLevel": "—",
+    "lastTest": "Last test: {date}",
+    "estimate": "The app's estimate, not official.",
+    "takeTest": "Take the placement test",
+    "retake": "Retake the placement test",
+    "toDashboard": "See my dashboard"
   }
 }
