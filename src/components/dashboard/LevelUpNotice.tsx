@@ -28,7 +28,7 @@ export function LevelUpNotice() {
             ? tAll(`Parts.${first.part}`)
             : tAll("Practice.partNumber", { number })
         }
-        label={t("stampLabel", {
+        label={t("levelLabel", {
           level: first.estimate.level,
           part: partName(first.part),
         })}

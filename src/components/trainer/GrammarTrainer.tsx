@@ -304,8 +304,8 @@ export function GrammarSession({ session, onFinish }: GrammarSessionProps) {
             tone={
               revealed
                 ? chosen === question.answer
-                  ? "entry"
-                  : "refusal"
+                  ? "success"
+                  : "danger"
                 : "neutral"
             }
             gapLabel={tLesson("gap")}
@@ -417,7 +417,7 @@ function MistakeList({
               <GapSentence
                 text={question.prompt}
                 fill={question.options[question.answer]}
-                tone="entry"
+                tone="success"
                 gapLabel={tLesson("gap")}
               />
             </p>

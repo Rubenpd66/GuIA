@@ -16,7 +16,7 @@ export type NavKey = Extract<
 
 export type NavItem = { key: NavKey; icon: IconName };
 
-/** Always visible: the bottom bar on mobile and the top of the spine on desktop. */
+/** Always visible: the bottom bar on mobile and the top of the side nav on desktop. */
 export const PRIMARY_NAV: readonly NavItem[] = [
   { key: "dashboard", icon: "dashboard" },
   { key: "syllabus", icon: "syllabus" },

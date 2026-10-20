@@ -40,7 +40,7 @@ export function subscribeProgress(onChange: () => void) {
 
 /**
  * Saves progress and updates every component that reads it. Fails silently if storage is
- * blocked. A save that raises a part's stamp announces it, unless `quiet` (imports).
+ * blocked. A save that raises a part's level announces it, unless `quiet` (imports).
  */
 export function saveProgress(
   progress: Progress,

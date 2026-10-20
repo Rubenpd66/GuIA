@@ -187,7 +187,7 @@ function MockReport({ state }: { state: MockState }) {
                 <Achievement
                   level={level}
                   caption={tAll(`Skills.${skill}`)}
-                  label={t("stampLabel", {
+                  label={t("levelLabel", {
                     level,
                     skill: tAll(`Skills.${skill}`),
                   })}
@@ -200,7 +200,7 @@ function MockReport({ state }: { state: MockState }) {
               )}
               <span className="font-semibold">{tAll(`Skills.${skill}`)}</span>
               <span className="text-sm text-ink-soft tabular-nums">
-                {level ?? t("noStamp")} ·{" "}
+                {level ?? t("noLevel")} ·{" "}
                 {t("percent", { value: Math.round(ratio * 100) })}
               </span>
               {SELF_ASSESSED.has(skill) ? (

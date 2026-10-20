@@ -6,7 +6,7 @@ type GapSentenceProps = {
   text: string;
   /** Word shown in the gap once answered. */
   fill?: string;
-  tone?: "neutral" | "entry" | "refusal";
+  tone?: "neutral" | "success" | "danger";
   /** Accessible name of an empty gap, e.g. "blank". */
   gapLabel: string;
 };
@@ -29,8 +29,8 @@ export function GapSentence({
               <span
                 className={cx(
                   "border-b-2 px-1 font-semibold",
-                  tone === "entry" && "border-success text-success",
-                  tone === "refusal" && "border-danger text-danger",
+                  tone === "success" && "border-success text-success",
+                  tone === "danger" && "border-danger text-danger",
                   tone === "neutral" && "border-ink",
                 )}
               >

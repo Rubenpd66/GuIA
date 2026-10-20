@@ -9,6 +9,7 @@ function pathFor(
   params: Record<string, string>,
 ): string {
   const entry = routing.pathnames[internal as keyof typeof routing.pathnames];
+  if (!entry) throw new Error(`Unknown pathname: ${internal}`);
   let path: string = typeof entry === "string" ? entry : entry[locale];
   for (const [name, value] of Object.entries(params))
     path = path.replace(`[${name}]`, value);

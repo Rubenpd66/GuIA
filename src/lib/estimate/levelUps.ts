@@ -6,7 +6,7 @@ import type { Progress } from "@/lib/progress/schema";
 import { EXAM_PARTS } from "@/lib/exam/format";
 import { estimateAll, leveledUp, type Estimate } from "./level";
 
-/** Parts whose stamp went up between two progress records. */
+/** Parts whose level went up between two progress records. */
 export function partsLeveledUp(before: Progress, after: Progress) {
   const was = estimateAll(before).parts;
   const now = estimateAll(after).parts;
@@ -24,7 +24,7 @@ let quiet = 0;
 const listeners = new Set<() => void>();
 const emit = () => listeners.forEach((listener) => listener());
 
-/** The placement test and the mock exam show their own stamps, so they silence these. */
+/** The placement test and the mock exam show their own levels, so they silence these. */
 export function holdLevelUps() {
   quiet++;
   return () => {

@@ -33,7 +33,7 @@ export function LessonPractice({ items }: { items: PracticeItem[] }) {
               <GapSentence
                 text={item.prompt}
                 fill={revealed ? item.options[answer] : undefined}
-                tone={revealed ? (right ? "entry" : "refusal") : "neutral"}
+                tone={revealed ? (right ? "success" : "danger") : "neutral"}
                 gapLabel={tLesson("gap")}
               />
             </p>

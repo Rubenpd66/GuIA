@@ -72,7 +72,7 @@ export function AssessmentRunner({
     if (!running) headingRef.current?.focus();
   }, [running, index]);
 
-  // The test or mock exam shows its own stamps at the end.
+  // The test or mock exam shows its own levels at the end.
   useEffect(() => holdLevelUps(), []);
 
   const advance = (result: StepResult) => {

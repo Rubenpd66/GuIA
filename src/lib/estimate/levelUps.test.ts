@@ -26,7 +26,7 @@ const progress = (correct: number): Progress => ({
 const EMPTY: Progress = { version: 1, attempts: [], mistakes: {} };
 
 describe("partsLeveledUp", () => {
-  it("lists a part that gains or raises its stamp", () => {
+  it("lists a part that gains or raises its level", () => {
     expect(partsLeveledUp(EMPTY, progress(4)).map((l) => l.part)).toEqual([
       "reading-1",
     ]);
@@ -34,7 +34,7 @@ describe("partsLeveledUp", () => {
       "C",
     );
     expect(partsLeveledUp(progress(5), progress(3))).toEqual([]);
-    // Below A2 there is no stamp to announce.
+    // Below A2 there is no level to announce.
     expect(partsLeveledUp(EMPTY, progress(1))).toEqual([]);
   });
 });

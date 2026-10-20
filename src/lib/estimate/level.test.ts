@@ -22,7 +22,7 @@ const attempt = (
 };
 
 describe("bandOf", () => {
-  it("maps shares to the app's bands, with no stamp below A2", () => {
+  it("maps shares to the app's bands, with no level below A2", () => {
     expect(bandOf(0.85)).toBe("C");
     expect(bandOf(0.849)).toBe("B2");
     expect(bandOf(0.7)).toBe("B2");
@@ -103,7 +103,7 @@ describe("leveledUp", () => {
     attempts: 2,
     selfAssessed: false,
   });
-  it("is true only when the stamp gets higher", () => {
+  it("is true only when the level gets higher", () => {
     expect(leveledUp(null, at("A2"))).toBe(true);
     expect(leveledUp(at(null), at("A2"))).toBe(true);
     expect(leveledUp(at("B2"), at("C"))).toBe(true);

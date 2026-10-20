@@ -152,7 +152,7 @@ export function Dashboard() {
                   {estimate ? (
                     <>
                       <span className="font-bold">
-                        {estimate.level ?? t("noStamp")}
+                        {estimate.level ?? t("noLevel")}
                       </span>{" "}
                       <span className="text-sm text-ink-soft tabular-nums">
                         {t("percent", { value: percent(estimate) })}
@@ -238,14 +238,14 @@ export function Dashboard() {
         </section>
       ) : null}
 
-      <section aria-labelledby="dashboard-passport" className="space-y-4">
-        <h2 id="dashboard-passport" className={H2}>
-          {t("passportTitle")}
+      <section aria-labelledby="dashboard-achievements" className="space-y-4">
+        <h2 id="dashboard-achievements" className={H2}>
+          {t("achievementsTitle")}
         </h2>
-        <p className="max-w-[68ch] text-ink-soft">{t("passportLead")}</p>
+        <p className="max-w-[68ch] text-ink-soft">{t("achievementsLead")}</p>
         <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
           {EXAM_PARTS.map((part) => (
-            <PassportSlot
+            <AchievementSlot
               key={part}
               part={part}
               estimate={estimates.parts[part]}
@@ -258,7 +258,7 @@ export function Dashboard() {
   );
 }
 
-function PassportSlot({
+function AchievementSlot({
   part,
   estimate,
   name,
@@ -285,14 +285,14 @@ function PassportSlot({
           <Achievement
             level={estimate.level}
             caption={caption}
-            label={t("stampLabel", { level: estimate.level, part: name })}
+            label={t("levelLabel", { level: estimate.level, part: name })}
           />
         ) : (
           <span
             aria-label={t("emptySlot", { part: name })}
             className="flex size-16 items-center justify-center text-sm text-ink-soft"
           >
-            {estimate ? t("noStamp") : "—"}
+            {estimate ? t("noLevel") : "—"}
           </span>
         )}
         <span className="text-xs font-semibold">
