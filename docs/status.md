@@ -185,3 +185,10 @@ Plan `docs/superpowers/plans/2026-10-20-phase-10f-ai-feedback.md`; spec `docs/su
 - Plans: signing in from a plan card returns to `/planes?nivel=…&periodo=…` with that plan marked and the same period; the level catalogue lists parts in exam order; offers carry a `UnitPriceSpecification` (VAT included, MON/ANN); a test keeps "20 %" in `Plans.saveNote` true; `safeNext` drops paths over 200 characters instead of failing the form.
 - Still deferred: the webhook's read-then-upsert is not atomic (needs a SQL function and a migration); the dashboard passport can open by itself when synced data arrives; below 640 px only a sliver of the open cover shows; the layout `ViewTransition` on Suspense reveals is unchecked; `ai_usage` and `subscriptions` are not in any data export (there is no server-side export).
 - **Before any production deploy:** in Vercel, the Supabase variables are set for Preview **and** Production and point to `sello-dev` (checked in the preview's JS: `qdqktynabmastlfoydyc`). Production needs its own values for `sello`.
+
+## Manual run with the user (started 2026-10-20)
+
+- The user checked the preview visually: approved.
+- Stripe test catalogue renamed to "GuIA B1", "GuIA B2", "GuIA C1" (same product ids, lookup keys unchanged).
+- Stripe Tax in the sandbox was `pending` (missing head office): the user is filling it in. Settings chosen: business website `https://sello-aptis.vercel.app`, statement descriptor `GUIA IDIOMAS`, shortened descriptor `GUIA` (no "Aptis": it is the British Council's exam name).
+- Next steps with the user (guide given in the session): terms and privacy URLs under Public details; `STRIPE_SECRET_KEY` (`sk_test_…`), `SUPABASE_SECRET_KEY` (sello-dev) and `STRIPE_WEBHOOK_SECRET` (from `stripe listen --forward-to localhost:3000/api/stripe/webhook`) in `.env.local`; admin role SQL in sello-dev; then the five checks of the 10c plan, Task 9 step 2.
