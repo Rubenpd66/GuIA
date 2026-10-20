@@ -32,6 +32,22 @@ export function needsCancelling(
   );
 }
 
+/**
+ * Every subscription Stripe could still bill for a learner: the one on their row and any other
+ * found by `metadata.user_id` (two Checkouts finished in two tabs make two), each id once.
+ */
+export function subscriptionsToCancel(
+  row: { status: string; stripe_subscription_id: string | null } | null,
+  found: readonly { id: string; status: string }[],
+): string[] {
+  const ids = new Set<string>();
+  if (needsCancelling(row)) ids.add(row!.stripe_subscription_id!);
+  for (const sub of found)
+    if (needsCancelling({ status: sub.status, stripe_subscription_id: sub.id }))
+      ids.add(sub.id);
+  return [...ids];
+}
+
 /** Shown beside Stripe's terms checkbox: the immediate-access waiver (spec section 5, Legal). */
 export const WAIVER: Record<"es" | "en", (termsUrl: string) => string> = {
   es: (termsUrl) =>

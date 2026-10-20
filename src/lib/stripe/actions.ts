@@ -109,7 +109,11 @@ export async function startCheckout(
 /** Sends the learner to Stripe's customer portal: change plan, cancel, invoices. */
 export async function openPortal(locale: "es" | "en"): Promise<PaymentResult> {
   const stripe = stripeServer();
-  if (!stripe || !supabaseConfigured)
+  if (
+    !stripe ||
+    !supabaseConfigured ||
+    !Args.shape.locale.safeParse(locale).success
+  )
     return { status: "error", message: "unavailable" };
   const who = await learner();
   if ("status" in who) return who;

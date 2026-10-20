@@ -4,6 +4,7 @@ import {
   checkoutCustomer,
   checkoutOrPortal,
   needsCancelling,
+  subscriptionsToCancel,
 } from "./checkout";
 
 const NOW = Date.parse("2029-06-01T00:00:00Z");
@@ -86,5 +87,32 @@ describe("WAIVER", () => {
     expect(es).toContain("](https://x/es/terminos)");
     expect(es).toContain("14 días");
     expect(WAIVER.en("https://x/en/terms")).toContain("14-day");
+  });
+});
+
+describe("subscriptionsToCancel", () => {
+  const row = { status: "active", stripe_subscription_id: "sub_row" };
+
+  it("cancels the row's subscription and every other live one, each once", () => {
+    expect(
+      subscriptionsToCancel(row, [
+        { id: "sub_row", status: "active" },
+        { id: "sub_tab2", status: "trialing" },
+        { id: "sub_old", status: "canceled" },
+        { id: "sub_dead", status: "incomplete_expired" },
+      ]),
+    ).toEqual(["sub_row", "sub_tab2"]);
+  });
+
+  it("still finds a live one when the row is already cancelled", () => {
+    expect(
+      subscriptionsToCancel({ ...row, status: "canceled" }, [
+        { id: "sub_tab2", status: "past_due" },
+      ]),
+    ).toEqual(["sub_tab2"]);
+  });
+
+  it("has nothing to cancel without a row or live subscriptions", () => {
+    expect(subscriptionsToCancel(null, [])).toEqual([]);
   });
 });

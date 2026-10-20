@@ -30,7 +30,7 @@ vi.mock("./server", () => ({
   }),
 }));
 
-const { startCheckout } = await import("./actions");
+const { startCheckout, openPortal } = await import("./actions");
 
 describe("startCheckout", () => {
   beforeEach(() => {
@@ -50,6 +50,17 @@ describe("startCheckout", () => {
   it("rejects arguments outside the catalogue", async () => {
     rowResult = { data: null, error: null };
     expect(await startCheckout("a2" as "b1", "month", "es")).toEqual({
+      status: "error",
+      message: "unavailable",
+    });
+    expect(create).not.toHaveBeenCalled();
+  });
+});
+
+describe("openPortal", () => {
+  it("rejects a locale outside the site's", async () => {
+    create.mockReset();
+    expect(await openPortal("fr" as "es")).toEqual({
       status: "error",
       message: "unavailable",
     });

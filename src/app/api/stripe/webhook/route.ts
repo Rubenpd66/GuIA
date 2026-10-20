@@ -54,7 +54,9 @@ export async function POST(request: Request) {
     // An unreadable row is not "no row": guessing could overwrite a newer live plan.
     if (readError) throw readError;
     if (!shouldReplace(existing, row, now)) {
-      console.info("sello: older stripe subscription skipped", id);
+      // A live one here means two subscriptions for one learner (two Checkouts in two tabs): refund by hand.
+      const log = row.status === "canceled" ? console.info : console.warn;
+      log("sello: older stripe subscription skipped", id, row.status);
       return ok();
     }
     const { error } = await admin
