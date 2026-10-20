@@ -709,6 +709,33 @@
         "language": "Uso estructuras y vocabulario variados, con pocos errores.",
         "register": "El informal suena cercano y el formal es cortés y sin contracciones."
       }
+    },
+    "feedback": {
+      "title": "Corrección con IA",
+      "unofficial": "Valoración orientativa de GuIA, hecha por un modelo de IA. Puede equivocarse y no es una nota oficial del Aptis.",
+      "consent": "Entiendo que mi texto se envía a Anthropic para corregirlo. GuIA no lo guarda; solo cuenta cuántas correcciones he usado este mes.",
+      "ask": "Pedir corrección",
+      "asking": "Corrigiendo…",
+      "wait": "Esto tarda unos segundos.",
+      "left": "{count, plural, =0 {No te quedan correcciones este mes} one {Te queda # corrección este mes} other {Te quedan # correcciones este mes}}",
+      "signedOut": "Inicia sesión con un plan de pago para pedir una corrección de tu texto.",
+      "signIn": "Iniciar sesión",
+      "noPlan": "La corrección con IA está incluida en los planes B1, B2 y C1.",
+      "seePlans": "Ver planes",
+      "resultTitle": "Tu corrección",
+      "corrections": "Errores principales",
+      "becomes": "se corrige como",
+      "improved": "Versión mejorada",
+      "errors": {
+        "unavailable": "La corrección con IA no está disponible ahora mismo.",
+        "signedOut": "Inicia sesión para pedir una corrección.",
+        "noPlan": "Tu plan no incluye la corrección con IA.",
+        "consent": "Acepta antes el envío de tu texto.",
+        "limit": "Has usado todas las correcciones de este mes.",
+        "budget": "La corrección con IA está desactivada hasta el mes que viene.",
+        "invalid": "No se puede corregir este texto. Revisa que no esté vacío ni sea demasiado largo.",
+        "failed": "No se pudo corregir el texto. No se ha descontado ninguna corrección; inténtalo de nuevo."
+      }
     }
   },
   "WritingPage": {

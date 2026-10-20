@@ -709,6 +709,33 @@
         "language": "I use a range of structures and vocabulary with few errors.",
         "register": "The informal email sounds friendly and the formal one is polite, with no contractions."
       }
+    },
+    "feedback": {
+      "title": "AI feedback",
+      "unofficial": "Practice feedback from GuIA, written by an AI model. It can be wrong and it is not an official Aptis mark.",
+      "consent": "I understand my text is sent to Anthropic to be corrected. GuIA does not store it; it only counts how many corrections I have used this month.",
+      "ask": "Ask for feedback",
+      "asking": "Checking…",
+      "wait": "This takes a few seconds.",
+      "left": "{count, plural, =0 {No corrections left this month} one {# correction left this month} other {# corrections left this month}}",
+      "signedOut": "Sign in with a paid plan to ask for feedback on your text.",
+      "signIn": "Sign in",
+      "noPlan": "AI feedback is included in the B1, B2 and C1 plans.",
+      "seePlans": "See plans",
+      "resultTitle": "Your feedback",
+      "corrections": "Main mistakes",
+      "becomes": "is corrected to",
+      "improved": "Improved version",
+      "errors": {
+        "unavailable": "AI feedback is not available right now.",
+        "signedOut": "Sign in to ask for feedback.",
+        "noPlan": "Your plan does not include AI feedback.",
+        "consent": "Please agree to sending your text first.",
+        "limit": "You have used all of this month's corrections.",
+        "budget": "AI feedback is switched off until next month.",
+        "invalid": "This text cannot be checked. Make sure it is not empty or too long.",
+        "failed": "The text could not be checked. No correction was used; please try again."
+      }
     }
   },
   "WritingPage": {

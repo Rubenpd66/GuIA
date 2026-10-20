@@ -22,6 +22,7 @@ import {
   type WritingPart,
 } from "@/lib/trainer/writing";
 import { clearDrafts, readDraft, saveDraft } from "@/lib/writing/drafts";
+import { FeedbackPanel } from "./FeedbackPanel";
 import { ModelAnswers } from "./ModelAnswers";
 import { PhrasePanel } from "./PhrasePanel";
 import { WritingEditor } from "./WritingEditor";
@@ -292,6 +293,10 @@ export function WritingSession({
           </li>
         ))}
       </ol>
+
+      {reviewing && !onSaved ? (
+        <FeedbackPanel taskId={task.id} texts={texts} />
+      ) : null}
 
       {!reviewing ? (
         <Button variant="primary" onClick={() => setReviewing(true)}>
