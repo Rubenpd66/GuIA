@@ -85,3 +85,24 @@ test("the dashboard opens the passport by itself when there is data", async ({
       .getByRole("link", { name: "Repetir el test de nivel" }),
   ).toBeVisible();
 });
+
+test("the open passport shows its whole page and keeps the focus in order", async ({
+  page,
+}) => {
+  await seedProgress(page);
+  await page.goto("/es");
+  await cover(page).focus();
+  await page.keyboard.press("Enter");
+  const inside = page.getByRole("region", { name: "Tu nivel estimado" });
+  // The call to action sits inside the page, not clipped below it.
+  const fits = await page.evaluate(() => {
+    const box = document.querySelector(".passport-inside")!.getBoundingClientRect();
+    const cta = document.querySelector(".passport-inside a")!.getBoundingClientRect();
+    return cta.bottom <= box.bottom + 0.5 && cta.top >= box.top;
+  });
+  expect(fits).toBe(true);
+  // Opening moves the focus into the page; closing gives it back to the cover.
+  await expect(inside).toBeFocused();
+  await inside.getByRole("button", { name: "Cerrar el pasaporte" }).click();
+  await expect(page.locator(".passport-cover")).toBeFocused();
+});

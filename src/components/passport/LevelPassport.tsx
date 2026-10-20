@@ -1,7 +1,7 @@
 "use client";
 
 import { useFormatter, useTranslations } from "next-intl";
-import { useId, useRef, useState, type PointerEvent } from "react";
+import { useEffect, useId, useRef, useState, type PointerEvent } from "react";
 import { Wordmark } from "@/components/brand/Wordmark";
 import { Icon } from "@/components/icons/Icon";
 import { LevelBadge } from "@/components/content/LevelBadge";
@@ -40,13 +40,25 @@ export function LevelPassport({
   const [opens, setOpens] = useState(0);
   const open = chosen ?? (defaultOpen && summary.hasData);
   const tilt = useRef<HTMLDivElement>(null);
+  const coverRef = useRef<HTMLButtonElement>(null);
+  const insideRef = useRef<HTMLElement>(null);
+  // Where the focus goes after the learner opens or closes it (not on the dashboard's auto-open).
+  const focusNext = useRef<"inside" | "cover" | null>(null);
   const insideId = useId();
 
   const toggle = () => {
     if (!open) setOpens((n) => n + 1);
+    focusNext.current = open ? "cover" : "inside";
     setChosen(!open);
     if (tilt.current) tilt.current.style.transform = "";
   };
+
+  useEffect(() => {
+    const target = focusNext.current;
+    focusNext.current = null;
+    if (target === "inside") insideRef.current?.focus();
+    if (target === "cover") coverRef.current?.focus();
+  }, [open]);
 
   const onPointerMove = (event: PointerEvent<HTMLDivElement>) => {
     const el = tilt.current;
@@ -70,8 +82,36 @@ export function LevelPassport({
       <div className="passport-float">
         <div ref={tilt} className="passport-tilt">
           <div className="passport" data-open={open}>
+            <button
+              type="button"
+              aria-expanded={open}
+              aria-controls={insideId}
+              ref={coverRef}
+              onClick={toggle}
+              className="passport-cover"
+            >
+              <span className="sr-only">{open ? t("close") : t("open")}</span>
+              <span aria-hidden="true" className="passport-face passport-front">
+                <span className="text-xs font-semibold tracking-[0.2em] uppercase">
+                  {t("coverTitle")}
+                </span>
+                <Globe />
+                <Wordmark inverse className="text-4xl" />
+                <span className="flex flex-col items-center gap-2">
+                  <span className="text-xs font-semibold tracking-[0.2em] uppercase">
+                    {t("coverSubtitle")}
+                  </span>
+                  <Chip />
+                </span>
+              </span>
+              <span aria-hidden="true" className="passport-face passport-back">
+                <Wordmark className="text-lg opacity-70" />
+              </span>
+            </button>
             <section
+              ref={insideRef}
               id={insideId}
+              tabIndex={-1}
               aria-label={t("insideLabel")}
               inert={!open}
               className="passport-inside"
@@ -94,31 +134,6 @@ export function LevelPassport({
                 skillName={(skill) => tAll(`Skills.${skill}`)}
               />
             </section>
-            <button
-              type="button"
-              aria-expanded={open}
-              aria-controls={insideId}
-              onClick={toggle}
-              className="passport-cover"
-            >
-              <span className="sr-only">{open ? t("close") : t("open")}</span>
-              <span aria-hidden="true" className="passport-face passport-front">
-                <span className="text-xs font-semibold tracking-[0.2em] uppercase">
-                  {t("coverTitle")}
-                </span>
-                <Globe />
-                <Wordmark inverse className="text-4xl" />
-                <span className="flex flex-col items-center gap-2">
-                  <span className="text-xs font-semibold tracking-[0.2em] uppercase">
-                    {t("coverSubtitle")}
-                  </span>
-                  <Chip />
-                </span>
-              </span>
-              <span aria-hidden="true" className="passport-face passport-back">
-                <Wordmark className="text-lg opacity-70" />
-              </span>
-            </button>
           </div>
         </div>
       </div>
@@ -146,22 +161,19 @@ function PassportInside({
 }) {
   const t = useTranslations("Passport");
   return (
-    <div className="flex h-full flex-col gap-3 p-4">
-      <div className="flex items-start justify-between gap-2">
-        <p className="text-xs font-semibold tracking-[0.2em] text-ink-soft uppercase">
-          {t("coverTitle")}
-        </p>
+    <div className="relative flex h-full flex-col gap-3 p-4">
+      <div className="absolute top-1 right-1">
         <button
           type="button"
           onClick={onClose}
-          className="pressable -mt-2 -mr-2 inline-flex size-10 items-center justify-center rounded-full text-ink-soft hover-fine:bg-hairline"
+          className="pressable inline-flex size-12 items-center justify-center rounded-full text-ink-soft hover-fine:bg-hairline"
         >
           <Icon name="close" className="size-5" />
           <span className="sr-only">{t("close")}</span>
         </button>
       </div>
       {summary.highest ? (
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 pr-10">
           <Achievement
             level={summary.highest}
             label={t("highestLabel", { level: summary.highest })}
@@ -171,6 +183,11 @@ function PassportInside({
           <p className="text-sm leading-tight">
             <span className="block text-ink-soft">{t("highest")}</span>
             <span className="text-2xl font-extrabold">{summary.highest}</span>
+            {summary.highestSelfAssessed ? (
+              <span className="block text-xs text-ink-soft">
+                {t("selfAssessed")}
+              </span>
+            ) : null}
           </p>
         </div>
       ) : (
@@ -178,11 +195,11 @@ function PassportInside({
           {summary.hasData ? t("belowA2") : t("noData")}
         </p>
       )}
-      <dl className="space-y-1 text-sm">
+      <dl className="text-sm">
         {summary.skills.map(({ skill, level, percent }) => (
           <div
             key={skill}
-            className="flex min-h-6 items-center justify-between gap-2 border-b border-hairline pb-1 last:border-b-0"
+            className="flex min-h-7 items-center justify-between gap-2 border-b border-hairline last:border-b-0"
           >
             <dt className="font-medium">{skillName(skill)}</dt>
             <dd className="flex items-center gap-2 tabular-nums">
@@ -201,7 +218,7 @@ function PassportInside({
           </div>
         ))}
       </dl>
-      <div className="mt-auto space-y-2">
+      <div className="mt-auto space-y-2 pt-1">
         <p className="text-xs leading-snug text-ink-soft">
           {lastTest ? `${t("lastTest", { date: lastTest })} · ` : null}
           {t("estimate")}

@@ -260,7 +260,9 @@ function FlashcardSession({
       <p className="font-semibold tabular-nums">
         {t("progress", { current: index + 1, total: queue.length })}
       </p>
-      <CardFace key={index} card={card} flipped={flipped} />
+      <div aria-live="polite">
+        <CardFace key={index} card={card} flipped={flipped} />
+      </div>
       {flipped ? (
         <div className="space-y-2">
           <p className="text-sm text-ink-soft">{t("gradeHint")}</p>
@@ -292,7 +294,7 @@ function FlashcardSession({
   );
 }
 
-/** The card turns over in 3D: both sides share one grid cell, so the height never jumps. */
+/** The card turns over in 3D: both sides share one grid cell; the back fills in as it turns. */
 function CardFace({
   card,
   flipped,
@@ -301,7 +303,7 @@ function CardFace({
   flipped: boolean;
 }) {
   return (
-    <div aria-live="polite" className="flip-card" data-flipped={flipped}>
+    <div className="flip-card" data-flipped={flipped}>
       <div className="flip-inner">
         <div className="flip-face" aria-hidden={flipped} inert={flipped}>
           <CardSide card={card} flipped={false} />
@@ -311,7 +313,7 @@ function CardFace({
           aria-hidden={!flipped}
           inert={!flipped}
         >
-          <CardSide card={card} flipped />
+          {flipped ? <CardSide card={card} flipped /> : null}
         </div>
       </div>
     </div>

@@ -16,18 +16,27 @@ function start() {
   if (started || !supabaseConfigured) return;
   started = true;
   // Fires INITIAL_SESSION straight away, then on every sign-in, sign-out and refresh.
-  void loadSupabaseBrowser().then((supabase) =>
-    supabase.auth.onAuthStateChange((_event, session) => {
-      const next = session?.user
-        ? { id: session.user.id, email: session.user.email }
-        : null;
-      if (next?.id === current?.id && next?.email === current?.email) {
-        if (current !== undefined) return;
+  void loadSupabaseBrowser()
+    .then((supabase) =>
+      supabase.auth.onAuthStateChange((_event, session) => {
+        const next = session?.user
+          ? { id: session.user.id, email: session.user.email }
+          : null;
+        if (next?.id === current?.id && next?.email === current?.email) {
+          if (current !== undefined) return;
+        }
+        current = next;
+        listeners.forEach((listener) => listener());
+      }),
+    )
+    .catch(() => {
+      started = false;
+      if (current === undefined) {
+        current = null;
+        listeners.forEach((listener) => listener());
       }
-      current = next;
-      listeners.forEach((listener) => listener());
-    }),
-  );
+      window.addEventListener("online", start, { once: true });
+    });
 }
 
 function subscribe(listener: () => void) {

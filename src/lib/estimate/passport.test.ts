@@ -72,3 +72,25 @@ describe("passportSummary", () => {
     expect(summary.skills[0]).toMatchObject({ level: null, percent: 8 });
   });
 });
+
+describe("passportSummary and self-assessment", () => {
+  it("prefers levels from marked tests over the learner's own rubric", () => {
+    const summary = passportSummary(
+      progress([
+        attempt("core-grammar", 15, 25),
+        attempt("speaking-1", 4, 4),
+        attempt("speaking-1", 4, 4),
+      ]),
+    );
+    expect(summary.highest).toBe("B1");
+    expect(summary.highestSelfAssessed).toBe(false);
+  });
+
+  it("falls back to a self-assessed level when it is the only one", () => {
+    const summary = passportSummary(
+      progress([attempt("writing-2", 4, 4), attempt("writing-2", 4, 4)]),
+    );
+    expect(summary.highest).toBe("C");
+    expect(summary.highestSelfAssessed).toBe(true);
+  });
+});

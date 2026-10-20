@@ -25,16 +25,19 @@ export function Tilt({
   max?: number;
 }) {
   const ref = useRef<HTMLDivElement>(null);
+  const rest = useRef<DOMRect | null>(null);
   const onPointerMove = (event: PointerEvent<HTMLDivElement>) => {
     const el = ref.current;
     if (!el || event.pointerType !== "mouse") return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const box = el.getBoundingClientRect();
+    rest.current ??= el.getBoundingClientRect();
+    const box = rest.current;
     const x = (event.clientX - box.left) / box.width - 0.5;
     const y = (event.clientY - box.top) / box.height - 0.5;
     el.style.transform = `perspective(900px) rotateX(${(-y * max).toFixed(2)}deg) rotateY(${(x * max).toFixed(2)}deg) translateZ(6px)`;
   };
   const onPointerLeave = () => {
+    rest.current = null;
     if (ref.current) ref.current.style.transform = "";
   };
   return (

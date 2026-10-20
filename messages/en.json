@@ -1234,6 +1234,7 @@
     "estimate": "The app's estimate, not official.",
     "takeTest": "Take the placement test",
     "retake": "Retake the placement test",
-    "toDashboard": "See my dashboard"
+    "toDashboard": "See my dashboard",
+    "selfAssessed": "From your self-assessment"
   }
 }

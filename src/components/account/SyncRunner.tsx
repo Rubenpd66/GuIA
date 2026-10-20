@@ -9,9 +9,12 @@ export function SyncRunner() {
     if (!supabaseConfigured) return;
     let stop: (() => void) | undefined;
     let cancelled = false;
-    void import("@/lib/sync/engine").then(({ startSync }) => {
-      if (!cancelled) stop = startSync();
-    });
+    // Offline with the chunk not cached: no sync this visit, the next page view tries again.
+    import("@/lib/sync/engine")
+      .then(({ startSync }) => {
+        if (!cancelled) stop = startSync();
+      })
+      .catch(() => undefined);
     return () => {
       cancelled = true;
       stop?.();

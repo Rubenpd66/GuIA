@@ -1234,6 +1234,7 @@
     "estimate": "Estimación de la app, no oficial.",
     "takeTest": "Haz el test de nivel",
     "retake": "Repetir el test de nivel",
-    "toDashboard": "Ver mi panel"
+    "toDashboard": "Ver mi panel",
+    "selfAssessed": "Según tu autoevaluación"
   }
 }

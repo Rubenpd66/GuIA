@@ -404,7 +404,9 @@
   }
 }
 
+/* The badge turns like a coin; its back is hidden so the letter never shows mirrored. */
 .achievement {
+  backface-visibility: hidden;
   animation: achievement-pop var(--dur-reward)
     linear(0, 0.4 12%, 0.85 30%, 1.06 48%, 0.98 66%, 1 82%, 1) both;
 }
@@ -436,7 +438,7 @@
  * on small screens it stops part-way so the spread never overflows the viewport.
  */
 .passport-scene {
-  width: 16rem;
+  width: 17rem;
   perspective: 1400px;
 }
 
@@ -470,7 +472,8 @@
 .passport-inside {
   visibility: hidden;
   transition: visibility 0s linear 900ms;
-  overflow: hidden;
+  overflow-y: auto;
+  outline-offset: -2px;
   background: var(--canvas);
   color: var(--ink);
   box-shadow:
@@ -582,9 +585,13 @@
     transform: none;
   }
 
+  /* Hidden, not just transparent, so the open cover cannot take an invisible focus. */
   .passport[data-open="true"] .passport-cover {
     opacity: 0;
-    pointer-events: none;
+    visibility: hidden;
+    transition:
+      opacity 200ms linear,
+      visibility 0s linear 200ms;
   }
 
   .passport-inside .achievement {
