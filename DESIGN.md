@@ -150,9 +150,15 @@ Columna lateral con píldora blanca y sombra para el elemento activo; barra infe
 
 `ProgressBar` rellena con `scaleX`. En los entrenadores, una barra segmentada por pregunta. Las opciones marcan acierto con un pop de 180 ms y error con una sacudida de 240 ms; con movimiento reducido solo cambia el color.
 
+### Language passport (componente propio)
+Librito 3D en el azul de acción (`LevelPassport`): cerrado se inclina hacia el puntero; al pulsarlo, la cubierta gira sobre el lomo y muestra el nivel más alto alcanzado y el nivel por destreza. En móvil la cubierta se queda entreabierta; desde 640 px se abre del todo. Con movimiento reducido, fundido.
+
+### Tilt y giro 3D
+Las tarjetas interactivas (planes, partes, temario, vocabulario) se inclinan hasta 5° hacia el ratón y vuelven en 300 ms; nada con táctil ni con movimiento reducido. Las flashcards giran sobre su eje vertical en 480 ms.
+
 ### Achievement (momento de recompensa)
 
-Insignia circular del nivel (en ámbar para C) con un pequeño rebote de 700 ms y un anillo que se expande detrás; el texto aparece 120 ms después. Con movimiento reducido, fundido de 200 ms.
+Insignia circular del nivel (en ámbar para C) que gira como una moneda con un pequeño rebote de 700 ms y un anillo que se expande detrás; el texto aparece 120 ms después. Con movimiento reducido, fundido de 200 ms.
 
 ## Do's and Don'ts
 
