@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { getPathname } from "@/i18n/navigation";
 import { buttonFor } from "@/lib/access/plan-button";
-import type { PaidTier, Tier } from "@/lib/access/tiers";
+import { TIER_LEVEL, type PaidTier, type Tier } from "@/lib/access/tiers";
 import { useTier } from "@/lib/access/useTier";
 import { useUser } from "@/lib/auth/useUser";
 import {
@@ -78,7 +78,16 @@ export function PlanButton({
         <ButtonLink
           href={{
             pathname: "/sign-in",
-            query: { next: getPathname({ href: "/plans", locale }) },
+            // Back on the plans page with this plan marked and the same billing period.
+            query: {
+              next: getPathname({
+                href: {
+                  pathname: "/plans",
+                  query: { nivel: TIER_LEVEL[card], periodo: interval },
+                },
+                locale,
+              }),
+            },
           }}
           variant="primary"
         >

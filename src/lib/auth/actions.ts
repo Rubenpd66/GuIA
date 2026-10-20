@@ -77,7 +77,7 @@ export async function signUp(
       email: Email,
       password: Password,
       locale: Locale,
-      next: z.string().max(200).optional(),
+      next: z.string().max(2000).optional(),
       consent: z.literal("on"),
     })
     .safeParse(Object.fromEntries(form));
@@ -113,7 +113,7 @@ export async function sendMagicLink(
     .object({
       email: Email,
       locale: Locale,
-      next: z.string().max(200).optional(),
+      next: z.string().max(2000).optional(),
     })
     .safeParse(Object.fromEntries(form));
   if (!parsed.success) return { status: "error", message: "invalid" };

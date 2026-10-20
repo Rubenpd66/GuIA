@@ -46,3 +46,11 @@ describe("formatPrice", () => {
     expect(formatPrice(9590, "en")).toBe("€95.90");
   });
 });
+
+describe("PRICES", () => {
+  // Plans.saveNote says yearly billing saves 20 %; this keeps the copy true if a price changes.
+  it("makes every yearly plan about 20 % cheaper than twelve months", () => {
+    for (const { month, year } of Object.values(PRICES))
+      expect(Math.round((1 - year / (month * 12)) * 100)).toBe(20);
+  });
+});

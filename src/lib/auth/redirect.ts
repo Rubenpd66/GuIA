@@ -4,6 +4,8 @@
  */
 export function safeNext(next: string | null | undefined, fallback: string) {
   if (!next || !next.startsWith("/") || next.startsWith("//")) return fallback;
+  // Longer than any page of the site with its query: not ours.
+  if (next.length > 200) return fallback;
   // Backslashes and control characters can be read as "//" by some browsers.
   if (/[\\\u0000-\u001f]/.test(next)) return fallback;
   return next;

@@ -2,6 +2,10 @@ import { describe, expect, it } from "vitest";
 import { safeNext } from "./redirect";
 
 describe("safeNext", () => {
+  it("drops a path too long to be one of ours", () => {
+    expect(safeNext("/es/" + "a".repeat(200), "/es")).toBe("/es");
+  });
+
   it("keeps paths on this site", () => {
     expect(safeNext("/es/cuenta", "/es")).toBe("/es/cuenta");
     expect(safeNext("/en/account?tab=sync", "/en")).toBe(

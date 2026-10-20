@@ -32,8 +32,11 @@ export function PlanCards({
 }) {
   const t = useTranslations("Plans");
   const locale = useLocale() === "en" ? "en" : "es";
-  const [interval, setInterval] = useState<BillingInterval>("month");
-  const highlighted = parseLevelParam(useSearchParams().getAll("nivel"));
+  const params = useSearchParams();
+  const [interval, setInterval] = useState<BillingInterval>(
+    params.get("periodo") === "year" ? "year" : "month",
+  );
+  const highlighted = parseLevelParam(params.getAll("nivel"));
 
   return (
     <div className="flex flex-col gap-8">

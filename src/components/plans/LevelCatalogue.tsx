@@ -7,7 +7,7 @@ import { Link } from "@/i18n/navigation";
 import type { levelCatalogue } from "@/lib/access/figures";
 import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/levels";
 import { cx } from "@/lib/cx";
-import type { ExamPart } from "@/lib/exam/format";
+import { EXAM_PARTS, type ExamPart } from "@/lib/exam/format";
 
 type Catalogue = ReturnType<typeof levelCatalogue>;
 
@@ -37,7 +37,11 @@ export function LevelCatalogue({
   }
 
   const data = catalogue[level];
-  const partEntries = Object.entries(data.tasksByPart) as [ExamPart, number][];
+  // In exam order, not in the order the content files happen to be read.
+  const partEntries = EXAM_PARTS.flatMap((part) => {
+    const count = data.tasksByPart[part];
+    return count ? [[part, count] as [ExamPart, number]] : [];
+  });
 
   return (
     <section aria-labelledby="catalogue-heading" className="space-y-5">
