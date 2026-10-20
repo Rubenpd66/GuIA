@@ -260,7 +260,7 @@ function FlashcardSession({
       <p className="font-semibold tabular-nums">
         {t("progress", { current: index + 1, total: queue.length })}
       </p>
-      <CardFace card={card} flipped={flipped} />
+      <CardFace key={index} card={card} flipped={flipped} />
       {flipped ? (
         <div className="space-y-2">
           <p className="text-sm text-ink-soft">{t("gradeHint")}</p>
@@ -292,7 +292,33 @@ function FlashcardSession({
   );
 }
 
+/** The card turns over in 3D: both sides share one grid cell, so the height never jumps. */
 function CardFace({
+  card,
+  flipped,
+}: {
+  card: FlashcardData;
+  flipped: boolean;
+}) {
+  return (
+    <div aria-live="polite" className="flip-card" data-flipped={flipped}>
+      <div className="flip-inner">
+        <div className="flip-face" aria-hidden={flipped} inert={flipped}>
+          <CardSide card={card} flipped={false} />
+        </div>
+        <div
+          className="flip-face flip-back"
+          aria-hidden={!flipped}
+          inert={!flipped}
+        >
+          <CardSide card={card} flipped />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CardSide({
   card,
   flipped,
 }: {
@@ -303,10 +329,7 @@ function CardFace({
   const tAll = useTranslations();
   const locale = useLocale();
   return (
-    <div
-      aria-live="polite"
-      className="space-y-4 rounded-card border-[1.5px] border-line bg-surface p-6"
-    >
+    <div className="space-y-4">
       {card.deck === "vocabulary" ? (
         <>
           <p className="flex flex-wrap items-baseline gap-x-3">

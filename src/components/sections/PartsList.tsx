@@ -1,6 +1,7 @@
 import type { CSSProperties } from "react";
 import { getTranslations } from "next-intl/server";
 import { Card } from "@/components/ui/Card";
+import { Tilt } from "@/components/ui/Tilt";
 import { Link } from "@/i18n/navigation";
 import {
   EXAM_PARTS,
@@ -22,36 +23,43 @@ export async function PartsList({ headingLevel }: { headingLevel: 2 | 3 }) {
   return (
     <div className="enter-stagger grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
       {GROUPS.map(({ skill, parts }, i) => (
-        <Card key={skill} style={{ "--i": i } as CSSProperties}>
-          <section aria-labelledby={`skill-${skill}`}>
-            <Heading id={`skill-${skill}`} className="text-lg font-bold">
-              {t(`Skills.${skill}`)}
-            </Heading>
-            <ul className="mt-3 border-t border-hairline">
-              {parts.map((part) => {
-                const number = partNumber(part);
-                return (
-                  <li
-                    key={part}
-                    className="border-b border-hairline last:border-b-0"
-                  >
-                    <Link
-                      href={{ pathname: "/practice/[part]", params: { part } }}
-                      className="pressable flex min-h-14 items-baseline gap-3 py-3 hover-fine:text-accent"
+        <Tilt key={skill} style={{ "--i": i } as CSSProperties}>
+          <Card className="h-full">
+            <section aria-labelledby={`skill-${skill}`}>
+              <Heading id={`skill-${skill}`} className="text-lg font-bold">
+                {t(`Skills.${skill}`)}
+              </Heading>
+              <ul className="mt-3 border-t border-hairline">
+                {parts.map((part) => {
+                  const number = partNumber(part);
+                  return (
+                    <li
+                      key={part}
+                      className="border-b border-hairline last:border-b-0"
                     >
-                      {number === null ? null : (
-                        <span className="w-14 shrink-0 text-sm font-semibold text-ink-soft tabular-nums">
-                          {t("Practice.partNumber", { number })}
+                      <Link
+                        href={{
+                          pathname: "/practice/[part]",
+                          params: { part },
+                        }}
+                        className="pressable flex min-h-14 items-baseline gap-3 py-3 hover-fine:text-accent"
+                      >
+                        {number === null ? null : (
+                          <span className="w-14 shrink-0 text-sm font-semibold text-ink-soft tabular-nums">
+                            {t("Practice.partNumber", { number })}
+                          </span>
+                        )}
+                        <span className="font-medium">
+                          {t(`Parts.${part}`)}
                         </span>
-                      )}
-                      <span className="font-medium">{t(`Parts.${part}`)}</span>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          </section>
-        </Card>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          </Card>
+        </Tilt>
       ))}
     </div>
   );

@@ -3,6 +3,7 @@ import { getLocale, getTranslations } from "next-intl/server";
 import { LevelBadge } from "@/components/content/LevelBadge";
 import { CanDoList } from "@/components/lessons/CanDoList";
 import { Card } from "@/components/ui/Card";
+import { Tilt } from "@/components/ui/Tilt";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Section, SectionStack } from "@/components/ui/Section";
 import { SECTIONS } from "@/config/sections";
@@ -49,64 +50,72 @@ export default async function SyllabusPage() {
       />
       <SectionStack>
         <div className="grid gap-4 lg:grid-cols-2">
-          <Card>
-            <h2 className="text-xl font-bold">
-              <Link href="/grammar" className="hover-fine:text-accent">
-                {t("Syllabus.grammarTitle")}
-              </Link>
-            </h2>
-            <p className="mt-1 text-ink-soft">{t("Syllabus.grammarLead")}</p>
-            <ul className="mt-4 border-t border-hairline">
-              {CEFR_LEVELS.map((level) => (
-                <li
-                  key={level}
-                  className="border-b border-hairline last:border-b-0"
-                >
-                  <Link href="/grammar" className={ROW}>
-                    <span className="flex items-center gap-3">
-                      <LevelBadge level={level} />
-                      {t(`Levels.${level}`)}
-                    </span>
-                    <span className="text-sm text-ink-soft">
-                      {t("Syllabus.lessons", {
-                        count: content.grammarLessons.filter(
-                          (lesson) => lesson.level === level,
-                        ).length,
-                      })}
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </Card>
+          <Tilt>
+            <Card className="h-full">
+              <h2 className="text-xl font-bold">
+                <Link href="/grammar" className="hover-fine:text-accent">
+                  {t("Syllabus.grammarTitle")}
+                </Link>
+              </h2>
+              <p className="mt-1 text-ink-soft">{t("Syllabus.grammarLead")}</p>
+              <ul className="mt-4 border-t border-hairline">
+                {CEFR_LEVELS.map((level) => (
+                  <li
+                    key={level}
+                    className="border-b border-hairline last:border-b-0"
+                  >
+                    <Link href="/grammar" className={ROW}>
+                      <span className="flex items-center gap-3">
+                        <LevelBadge level={level} />
+                        {t(`Levels.${level}`)}
+                      </span>
+                      <span className="text-sm text-ink-soft">
+                        {t("Syllabus.lessons", {
+                          count: content.grammarLessons.filter(
+                            (lesson) => lesson.level === level,
+                          ).length,
+                        })}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </Tilt>
 
-          <Card>
-            <h2 className="text-xl font-bold">
-              <Link
-                href="/functional-language"
-                className="hover-fine:text-accent"
-              >
-                {t("Syllabus.functionalTitle")}
-              </Link>
-            </h2>
-            <p className="mt-1 text-ink-soft">{t("Syllabus.functionalLead")}</p>
-            <h2 className="mt-8 text-xl font-bold">
-              {t("Syllabus.skillsTitle")}
-            </h2>
-            <p className="mt-1 text-ink-soft">{t("Syllabus.skillsLead")}</p>
-            <ul className="mt-4 border-t border-hairline">
-              {SKILL_SECTIONS.map(({ skill, section }) => (
-                <li
-                  key={skill}
-                  className="border-b border-hairline last:border-b-0"
+          <Tilt>
+            <Card className="h-full">
+              <h2 className="text-xl font-bold">
+                <Link
+                  href="/functional-language"
+                  className="hover-fine:text-accent"
                 >
-                  <Link href={SECTIONS[section].pathname} className={ROW}>
-                    <span className="font-medium">{t(`Skills.${skill}`)}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </Card>
+                  {t("Syllabus.functionalTitle")}
+                </Link>
+              </h2>
+              <p className="mt-1 text-ink-soft">
+                {t("Syllabus.functionalLead")}
+              </p>
+              <h2 className="mt-8 text-xl font-bold">
+                {t("Syllabus.skillsTitle")}
+              </h2>
+              <p className="mt-1 text-ink-soft">{t("Syllabus.skillsLead")}</p>
+              <ul className="mt-4 border-t border-hairline">
+                {SKILL_SECTIONS.map(({ skill, section }) => (
+                  <li
+                    key={skill}
+                    className="border-b border-hairline last:border-b-0"
+                  >
+                    <Link href={SECTIONS[section].pathname} className={ROW}>
+                      <span className="font-medium">
+                        {t(`Skills.${skill}`)}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </Tilt>
         </div>
 
         <Section

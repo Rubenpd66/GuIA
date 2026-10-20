@@ -582,3 +582,57 @@
     animation-delay: 0ms;
   }
 }
+
+/* Flashcards turn over on their vertical axis; with less motion the sides crossfade. */
+.flip-card {
+  perspective: 1200px;
+}
+
+.flip-inner {
+  display: grid;
+  transform-style: preserve-3d;
+  transition: transform 480ms var(--ease-in-out);
+}
+
+.flip-card[data-flipped="true"] .flip-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-face {
+  grid-area: 1 / 1;
+  padding: 1.5rem;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1.5px solid var(--line);
+  backface-visibility: hidden;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flip-inner {
+    transition: none;
+  }
+
+  .flip-card[data-flipped="true"] .flip-inner,
+  .flip-back {
+    transform: none;
+  }
+
+  .flip-face {
+    transition: opacity 200ms linear;
+  }
+
+  .flip-card[data-flipped="true"] .flip-face:not(.flip-back),
+  .flip-card[data-flipped="false"] .flip-back {
+    opacity: 0;
+  }
+}
+
+/* Pointer tilt (see Tilt.tsx): eases towards the pointer and back. */
+.tilt {
+  transform-style: preserve-3d;
+  transition: transform 300ms var(--ease-out);
+}

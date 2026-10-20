@@ -15,6 +15,7 @@ import {
 } from "@/lib/access/tiers";
 import type { BillingInterval } from "@/lib/stripe/plans";
 import { cx } from "@/lib/cx";
+import { Tilt } from "@/components/ui/Tilt";
 import { PlanButton } from "./PlanButton";
 
 const INTERVALS: readonly BillingInterval[] = ["month", "year"];
@@ -59,44 +60,46 @@ export function PlanCards({ figures }: { figures: Record<Tier, PlanFigures> }) {
           const saving = price ? price.month * 12 - price.year : 0;
           return (
             <li key={tier} className="flex">
-              <article
-                aria-current={highlighted === tier ? "true" : undefined}
-                className={cx(
-                  "flex w-full flex-col gap-4 rounded-card bg-surface p-5 shadow-card dark:border dark:border-hairline",
-                  highlighted === tier && "ring-2 ring-accent",
-                )}
-              >
-                <h2 className="text-xl font-bold">
-                  {t("planName", { level: TIER_LEVEL[tier] })}
-                </h2>
-                <p>
-                  <span className="text-2xl font-extrabold">
+              <Tilt className="flex w-full">
+                <article
+                  aria-current={highlighted === tier ? "true" : undefined}
+                  className={cx(
+                    "flex w-full flex-col gap-4 rounded-card bg-surface p-5 shadow-card dark:border dark:border-hairline",
+                    highlighted === tier && "ring-2 ring-accent",
+                  )}
+                >
+                  <h2 className="text-xl font-bold">
+                    {t("planName", { level: TIER_LEVEL[tier] })}
+                  </h2>
+                  <p>
+                    <span className="text-2xl font-extrabold">
+                      {price
+                        ? formatPrice(price[interval], locale)
+                        : t("freePrice")}
+                    </span>{" "}
+                    {price ? (
+                      <span className="text-ink-soft">
+                        {t(interval === "month" ? "perMonth" : "perYear")}
+                      </span>
+                    ) : null}
+                  </p>
+                  <p className="min-h-6 text-ink-soft">
                     {price
-                      ? formatPrice(price[interval], locale)
-                      : t("freePrice")}
-                  </span>{" "}
-                  {price ? (
-                    <span className="text-ink-soft">
-                      {t(interval === "month" ? "perMonth" : "perYear")}
-                    </span>
-                  ) : null}
-                </p>
-                <p className="min-h-6 text-ink-soft">
-                  {price
-                    ? interval === "year"
-                      ? t("saves", { amount: formatPrice(saving, locale) })
-                      : t("vatIncluded")
-                    : t("noAccount")}
-                </p>
-                <ul className="flex-1 space-y-1">
-                  <li>{t("figures.lessons", { count: fig.lessons })}</li>
-                  <li>{t("figures.words", { count: fig.words })}</li>
-                  <li>{t("figures.phrases", { count: fig.phrases })}</li>
-                  <li>{t("figures.tasks", { count: fig.tasks })}</li>
-                  <li>{t("figures.mock", { level: fig.mockLevel })}</li>
-                </ul>
-                <PlanButton card={tier} interval={interval} />
-              </article>
+                      ? interval === "year"
+                        ? t("saves", { amount: formatPrice(saving, locale) })
+                        : t("vatIncluded")
+                      : t("noAccount")}
+                  </p>
+                  <ul className="flex-1 space-y-1">
+                    <li>{t("figures.lessons", { count: fig.lessons })}</li>
+                    <li>{t("figures.words", { count: fig.words })}</li>
+                    <li>{t("figures.phrases", { count: fig.phrases })}</li>
+                    <li>{t("figures.tasks", { count: fig.tasks })}</li>
+                    <li>{t("figures.mock", { level: fig.mockLevel })}</li>
+                  </ul>
+                  <PlanButton card={tier} interval={interval} />
+                </article>
+              </Tilt>
             </li>
           );
         })}
