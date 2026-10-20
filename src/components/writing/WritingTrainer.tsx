@@ -7,7 +7,7 @@ import { Checklist } from "@/components/trainer/Checklist";
 import { TrainerSetup } from "@/components/trainer/TrainerSetup";
 import { useCountdown } from "@/components/trainer/useCountdown";
 import { Button } from "@/components/ui/Button";
-import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
+import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/levels";
 import type { FunctionalPhrase } from "@/lib/content/schemas/lessons";
 import { recordAttempt } from "@/lib/progress/progress";
 import { readProgress, saveProgress } from "@/lib/progress/useProgress";

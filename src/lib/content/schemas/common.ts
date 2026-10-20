@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { EXAM_PARTS, type WordRange } from "@/lib/exam/format";
 import { countGaps, countWords } from "@/lib/content/text";
+import { CEFR_LEVELS, TOPICS } from "@/lib/content/levels";
 
 export const NonEmptyText = z.string().trim().min(1, "Must not be empty");
 
@@ -8,24 +9,10 @@ export const Slug = z
   .string()
   .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Use lowercase words joined by hyphens");
 
-export const CEFR_LEVELS = ["A2", "B1", "B2", "C1"] as const;
+export { CEFR_LEVELS, TOPICS } from "@/lib/content/levels";
 export const CefrLevel = z.enum(CEFR_LEVELS);
 export type CefrLevel = z.infer<typeof CefrLevel>;
 
-export const TOPICS = [
-  "work",
-  "education",
-  "technology",
-  "environment",
-  "health-sport",
-  "travel",
-  "city",
-  "culture-leisure",
-  "relationships",
-  "shopping-consumption",
-  "media",
-  "general",
-] as const;
 export const Topic = z.enum(TOPICS);
 export type Topic = z.infer<typeof Topic>;
 

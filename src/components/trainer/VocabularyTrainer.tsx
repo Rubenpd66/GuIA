@@ -6,7 +6,7 @@ import { Explanation } from "@/components/content/Explanation";
 import { GapSentence } from "@/components/content/GapSentence";
 import { Icon } from "@/components/icons/Icon";
 import { Button } from "@/components/ui/Button";
-import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
+import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/levels";
 import type { CoreVocabularyExercise } from "@/lib/content/schemas/core";
 import { countGaps } from "@/lib/content/text";
 import { cx } from "@/lib/cx";

@@ -6,7 +6,7 @@ import { useEffect, useMemo, useReducer, useRef, useState } from "react";
 import { Explanation } from "@/components/content/Explanation";
 import { GapSentence } from "@/components/content/GapSentence";
 import { Button } from "@/components/ui/Button";
-import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
+import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/levels";
 import type { CoreGrammarExercise } from "@/lib/content/schemas/core";
 import { mistakeKeys, recordSession } from "@/lib/progress/progress";
 import {

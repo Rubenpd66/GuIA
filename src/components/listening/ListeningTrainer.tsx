@@ -9,7 +9,7 @@ import { SessionHeader } from "@/components/trainer/SessionHeader";
 import { TrainerSetup } from "@/components/trainer/TrainerSetup";
 import { Button } from "@/components/ui/Button";
 import { useSpeech } from "@/lib/audio/useSpeech";
-import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
+import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/levels";
 import { mistakeKeys, recordSession } from "@/lib/progress/progress";
 import {
   readProgress,

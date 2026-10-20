@@ -1,4 +1,4 @@
-import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
+import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/levels";
 
 /** Subscription plans, cheapest first. Each one unlocks its level and every level below. */
 export const TIERS = ["free", "b1", "b2", "c1"] as const;

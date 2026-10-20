@@ -1,14 +1,16 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { z } from "zod";
+import * as z from "zod/mini";
 
 export const RATES = [0.8, 1, 1.2] as const;
 
 const VoiceSettings = z.object({
-  rate: z.number().refine((n) => (RATES as readonly number[]).includes(n)),
-  man: z.string().optional(),
-  woman: z.string().optional(),
+  rate: z
+    .number()
+    .check(z.refine((n) => (RATES as readonly number[]).includes(n))),
+  man: z.optional(z.string()),
+  woman: z.optional(z.string()),
 });
 export type VoiceSettings = z.infer<typeof VoiceSettings>;
 

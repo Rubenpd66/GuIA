@@ -1,4 +1,4 @@
-import { CEFR_LEVELS } from "@/lib/content/schemas/common";
+import { CEFR_LEVELS } from "@/lib/content/levels";
 import { TIERS, tierFor, type Tier } from "./tiers";
 
 export type Viewer =

@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { VOCAB_TYPES } from "@/lib/content/levels";
 import { EXAM_FORMAT } from "@/lib/exam/format";
 import { countGaps } from "@/lib/content/text";
 import {
@@ -27,14 +28,7 @@ export const CoreGrammarExercise = z.strictObject({
 });
 export type CoreGrammarExercise = z.infer<typeof CoreGrammarExercise>;
 
-/** The four Core Vocabulary task types, in the order the trainer presents them. */
-export const VOCAB_TYPES = [
-  "synonym",
-  "definition",
-  "usage",
-  "collocation",
-] as const;
-export type VocabType = (typeof VOCAB_TYPES)[number];
+export { VOCAB_TYPES, type VocabType } from "@/lib/content/levels";
 
 export const CoreVocabularyExercise = z
   .strictObject({

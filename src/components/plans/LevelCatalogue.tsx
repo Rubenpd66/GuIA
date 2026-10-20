@@ -5,7 +5,7 @@ import { useRef, useState, type KeyboardEvent } from "react";
 import { LockMark } from "@/components/access/LockMark";
 import { Link } from "@/i18n/navigation";
 import type { levelCatalogue } from "@/lib/access/figures";
-import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
+import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/levels";
 import { cx } from "@/lib/cx";
 import type { ExamPart } from "@/lib/exam/format";
 

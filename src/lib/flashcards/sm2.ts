@@ -2,7 +2,7 @@
  * Spaced repetition with the classic SM-2 algorithm. Days are local calendar days
  * (YYYY-MM-DD), so a card due "tomorrow" is due after midnight in the learner's time zone.
  */
-import { z } from "zod";
+import * as z from "zod/mini";
 import { shiftDay } from "@/lib/estimate/activity";
 import { LocalDay } from "@/lib/progress/schema";
 
@@ -10,14 +10,14 @@ export const GRADES = { again: 1, hard: 3, good: 4, easy: 5 } as const;
 export type Grade = keyof typeof GRADES;
 
 export const CardState = z.object({
-  ease: z.number().min(1.3),
+  ease: z.number().check(z.minimum(1.3)),
   /** Days until the next review. */
-  interval: z.int().min(0),
+  interval: z.int().check(z.minimum(0)),
   /** Right answers in a row. */
-  reps: z.int().min(0),
+  reps: z.int().check(z.minimum(0)),
   due: LocalDay,
   /** Last review day; lets two devices agree on which copy of a card is newer. */
-  reviewed: LocalDay.optional(),
+  reviewed: z.optional(LocalDay),
 });
 export type CardState = z.infer<typeof CardState>;
 

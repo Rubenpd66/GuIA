@@ -7,7 +7,7 @@ import { TrainerSetup } from "@/components/trainer/TrainerSetup";
 import { Button } from "@/components/ui/Button";
 import { PhrasePanel } from "@/components/writing/PhrasePanel";
 import { useSpeech } from "@/lib/audio/useSpeech";
-import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
+import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/levels";
 import type { FunctionalPhrase } from "@/lib/content/schemas/lessons";
 import { countWords } from "@/lib/content/text";
 import { recordAttempt } from "@/lib/progress/progress";

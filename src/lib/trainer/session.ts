@@ -1,9 +1,9 @@
 import type { CefrLevel, LocalizedText } from "@/lib/content/schemas/common";
-import {
-  VOCAB_TYPES,
-  type CoreGrammarExercise,
-  type CoreVocabularyExercise,
+import type {
+  CoreGrammarExercise,
+  CoreVocabularyExercise,
 } from "@/lib/content/schemas/core";
+import { VOCAB_TYPES } from "@/lib/content/levels";
 import { shuffle, type Rng } from "./random";
 
 export type ChoiceQuestion = {

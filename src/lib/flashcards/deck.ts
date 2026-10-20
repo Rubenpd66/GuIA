@@ -1,5 +1,5 @@
-import { z } from "zod";
-import type { CefrLevel, Topic } from "@/lib/content/schemas/common";
+import * as z from "zod/mini";
+import type { CefrLevel, Topic } from "@/lib/content/levels";
 import { LocalDay } from "@/lib/progress/schema";
 import { CardState, isDue } from "./sm2";
 
@@ -11,8 +11,10 @@ export const FlashcardsState = z.object({
   /** Only the cards the learner has seen, by card id. */
   cards: z.record(z.string(), CardState),
   /** Unseen cards brought in on `day`, to respect the daily limit. */
-  newToday: z.object({ day: LocalDay, count: z.int().min(0) }),
-  newPerDay: z.int().min(NEW_PER_DAY.min).max(NEW_PER_DAY.max),
+  newToday: z.object({ day: LocalDay, count: z.int().check(z.minimum(0)) }),
+  newPerDay: z
+    .int()
+    .check(z.minimum(NEW_PER_DAY.min), z.maximum(NEW_PER_DAY.max)),
 });
 export type FlashcardsState = z.infer<typeof FlashcardsState>;
 

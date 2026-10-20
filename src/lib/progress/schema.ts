@@ -1,22 +1,26 @@
-import { z } from "zod";
-import { ExamPartId } from "@/lib/content/schemas/common";
+import * as z from "zod/mini";
+import { EXAM_PARTS } from "@/lib/exam/format";
+
+// zod/mini: these schemas run in the browser on every page that reads progress.
+const ExamPart = z.enum(EXAM_PARTS);
+const Count = z.int().check(z.minimum(0));
 
 export const Attempt = z.object({
-  id: z.string().min(1),
-  part: ExamPartId,
+  id: z.string().check(z.minLength(1)),
+  part: ExamPart,
   mode: z.enum(["study", "exam"]),
   startedAt: z.number(),
   finishedAt: z.number(),
-  correct: z.int().min(0),
-  total: z.int().min(0),
+  correct: Count,
+  total: Count,
 });
 export type Attempt = z.infer<typeof Attempt>;
 
 export const MistakeEntry = z.object({
-  part: ExamPartId,
-  count: z.int().min(1),
+  part: ExamPart,
+  count: z.int().check(z.minimum(1)),
   /** Correct answers in a row since the last mistake. */
-  streak: z.int().min(0),
+  streak: Count,
   lastSeen: z.number(),
 });
 export type MistakeEntry = z.infer<typeof MistakeEntry>;
@@ -31,4 +35,4 @@ export const Progress = z.object({
 export type Progress = z.infer<typeof Progress>;
 
 /** A calendar day, YYYY-MM-DD, in the learner's own time zone (exam date, card due dates). */
-export const LocalDay = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
+export const LocalDay = z.string().check(z.regex(/^\d{4}-\d{2}-\d{2}$/));

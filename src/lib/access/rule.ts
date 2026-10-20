@@ -1,4 +1,4 @@
-import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/schemas/common";
+import { CEFR_LEVELS, type CefrLevel } from "@/lib/content/levels";
 import { canAccess, type PaidTier, type Tier } from "./tiers";
 
 /** The columns of `public.subscriptions` that decide access. */
