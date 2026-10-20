@@ -25,15 +25,30 @@ export function Tilt({
   max?: number;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const rest = useRef<DOMRect | null>(null);
+  // The resting box in page coordinates: measured once (a tilted box measures wrong) and still
+  // right when the page scrolls under a pointer that has not left.
+  const rest = useRef<{
+    left: number;
+    top: number;
+    width: number;
+    height: number;
+  } | null>(null);
   const onPointerMove = (event: PointerEvent<HTMLDivElement>) => {
     const el = ref.current;
     if (!el || event.pointerType !== "mouse") return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    rest.current ??= el.getBoundingClientRect();
+    if (!rest.current) {
+      const r = el.getBoundingClientRect();
+      rest.current = {
+        left: r.left + window.scrollX,
+        top: r.top + window.scrollY,
+        width: r.width,
+        height: r.height,
+      };
+    }
     const box = rest.current;
-    const x = (event.clientX - box.left) / box.width - 0.5;
-    const y = (event.clientY - box.top) / box.height - 0.5;
+    const x = (event.pageX - box.left) / box.width - 0.5;
+    const y = (event.pageY - box.top) / box.height - 0.5;
     el.style.transform = `perspective(900px) rotateX(${(-y * max).toFixed(2)}deg) rotateY(${(x * max).toFixed(2)}deg) translateZ(6px)`;
   };
   const onPointerLeave = () => {
