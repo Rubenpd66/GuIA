@@ -79,10 +79,17 @@ export function FeedbackPanel({
 
   if (user === undefined || (user && tier === undefined)) return null;
 
-  const heading = <h3 className="text-lg font-bold">{t("title")}</h3>;
+  const heading = (
+    <h3 id={`${consentId}-title`} className="text-lg font-bold">
+      {t("title")}
+    </h3>
+  );
   if (!user)
     return (
-      <section className="max-w-[68ch] space-y-3 rounded-card border border-dashed border-line bg-surface p-5">
+      <section
+        aria-labelledby={`${consentId}-title`}
+        className="max-w-[68ch] space-y-3 rounded-card border border-dashed border-line bg-surface p-5"
+      >
         {heading}
         <p className="text-ink-soft">{t("signedOut")}</p>
         <ButtonLink variant="primary" href="/sign-in">
@@ -92,7 +99,10 @@ export function FeedbackPanel({
     );
   if (!paid)
     return (
-      <section className="max-w-[68ch] space-y-3 rounded-card border border-dashed border-line bg-surface p-5">
+      <section
+        aria-labelledby={`${consentId}-title`}
+        className="max-w-[68ch] space-y-3 rounded-card border border-dashed border-line bg-surface p-5"
+      >
         {heading}
         <p className="text-ink-soft">{t("noPlan")}</p>
         <ButtonLink variant="primary" href="/plans">

@@ -69,6 +69,22 @@ test.describe("trainers in exam mode", () => {
     await expect(page.locator("textarea")).toHaveValue(/long walks/);
   });
 
+  test("Writing: a signed-out visitor is asked to sign in for AI feedback", async ({
+    page,
+  }) => {
+    await page.goto("/en/practice/writing-2");
+    await page.waitForLoadState("networkidle");
+    await page.getByRole("button", { name: "Start", exact: true }).click();
+    await page.locator("textarea").fill("I joined because I love long walks.");
+    await page.getByRole("button", { name: "Show the models" }).click();
+    const panel = page.getByRole("region", { name: "AI feedback" });
+    await expect(panel).toBeVisible();
+    await expect(panel.getByRole("link", { name: "Sign in" })).toBeVisible();
+    await expect(
+      page.getByRole("button", { name: "Ask for feedback" }),
+    ).toHaveCount(0);
+  });
+
   test("Speaking: records an answer with a simulated microphone", async ({
     page,
   }) => {
